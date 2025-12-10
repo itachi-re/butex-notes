@@ -1113,23 +1113,48 @@ x - y = 1
 \end{cases}
 $$
 
-**Problem 5**: Find a basis for the span of these vectors.
+---
 
-$$
-S = \left\{ \begin{bmatrix}
-1 \\
-0 \\
-1
-\end{bmatrix}, \begin{bmatrix}
-2 \\
-1 \\
-3
-\end{bmatrix}, \begin{bmatrix}
-3 \\
-1 \\
-4
-\end{bmatrix} \right\}
-$$
+## **Problem 5: Find a basis for the span of these vectors**
+
+Given the set:
+
+```
+S = {
+      [1, 0, 1]^T,
+      [2, 1, 3]^T,
+      [3, 1, 4]^T
+    }
+```
+
+Where the vectors are:
+
+```
+v1 = [1, 0, 1]^T
+v2 = [2, 1, 3]^T
+v3 = [3, 1, 4]^T
+```
+
+Observation:
+
+```
+v3 = v1 + v2
+```
+
+So `v3` is dependent.
+
+### **Basis:**
+
+```
+Basis(S) = { v1 , v2 }
+
+= {
+    [1, 0, 1]^T,
+    [2, 1, 3]^T
+  }
+```
+
+---
 
 ## 11. Exam Tips
 
