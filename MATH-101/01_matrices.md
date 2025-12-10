@@ -1066,21 +1066,35 @@ $$
 
 ## 10. Practice Problems
 
-**Problem 1**: Given $A = \begin{bmatrix} 3 & 1 \\ 2 & 4 \end{bmatrix}$, find $A^2$ and $A^{-1}$.
+**Problem 1**: Given matrix $A$, find $A^2$ and $A^{-1}$.
 
-**Problem 2**: Determine if vectors $\begin{bmatrix} 1 \\ 2 \\ 3 \end{bmatrix}, \begin{bmatrix} 4 \\ 5 \\ 6 \end{bmatrix}, \begin{bmatrix} 7 \\ 8 \\ 9 \end{bmatrix}$ are linearly independent.
+$$
+A = \begin{bmatrix} 3 & 1 \\ 2 & 4 \end{bmatrix}
+$$
 
-**Problem 3**: Find eigenvalues and eigenvectors of $\begin{bmatrix} 5 & 4 \\ 1 & 2 \end{bmatrix}$.
+**Problem 2**: Determine if the following vectors are linearly independent.
 
-**Problem 4**: Solve using Cramer's rule:
+$$
+\vec{v}_1 = \begin{bmatrix} 1 \\ 2 \\ 3 \end{bmatrix}, \quad \vec{v}_2 = \begin{bmatrix} 4 \\ 5 \\ 6 \end{bmatrix}, \quad \vec{v}_3 = \begin{bmatrix} 7 \\ 8 \\ 9 \end{bmatrix}
+$$
+
+**Problem 3**: Find eigenvalues and eigenvectors of the following matrix.
+
+$$
+B = \begin{bmatrix} 5 & 4 \\ 1 & 2 \end{bmatrix}
+$$
+
+**Problem 4**: Solve the system using Cramer's rule.
 
 $$
 \begin{cases} 3x + 2y = 7 \\ x - y = 1 \end{cases}
 $$
 
-**Problem 5**: Find basis for span$\left\{\begin{bmatrix} 1 \\ 0 \\ 1 \end{bmatrix}, \begin{bmatrix} 2 \\ 1 \\ 3 \end{bmatrix}, \begin{bmatrix} 3 \\ 1 \\ 4 \end{bmatrix}\right\}$.
+**Problem 5**: Find a basis for the span of these vectors.
 
----
+$$
+S = \left\{ \begin{bmatrix} 1 \\ 0 \\ 1 \end{bmatrix}, \begin{bmatrix} 2 \\ 1 \\ 3 \end{bmatrix}, \begin{bmatrix} 3 \\ 1 \\ 4 \end{bmatrix} \right\}
+$$
 
 ## 11. Exam Tips
 
