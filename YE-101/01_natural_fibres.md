@@ -816,4 +816,634 @@ Flax is a bast fibre similar to jute but finer:
 
 **Historical Context**:
 - **Ancient China**: Originated 5000 years ago
-- **Silk Road**: Trade route from China to
+- **Silk Road**: Trade route from China to Europe (2nd century BCE)
+- Sericulture spread to India, Japan, Europe over centuries
+
+#### 3.2.2 Structure
+
+##### Physical and Morphological Structure
+
+**Composition of Silk Filament**:
+
+1. **Fibroin** (Core):
+   - Two protein filaments (brins)
+   - 70-80% of silk weight
+   - Structural protein
+   - Triangular cross-section
+
+2. **Sericin** (Coating):
+   - Gum-like protein binding fibroin
+   - 20-30% of silk weight
+   - Water-soluble
+   - Removed during degumming
+
+**Filament Characteristics**:
+- **Length**: 600-1500 meters (continuous filament)
+- **Diameter**: 10-13 μm
+- **Denier**: 2.5-3.5 (very fine)
+- Smooth surface (minimal scales)
+
+##### Microscopic Characteristics
+
+*Longitudinal View*:
+- Smooth, rod-like appearance
+- No convolutions or twists
+- Transparent to translucent
+- May show striations from sericin
+- Very uniform diameter
+
+*Cross-sectional View*:
+- **Triangular shape** (characteristic of mulberry silk)
+- Two fibroin filaments side by side
+- Sericin coating (before degumming)
+- Wild silks: More irregular, flattened
+
+#### 3.2.3 Chemical Composition
+
+**Protein Structure**:
+
+**Fibroin**:
+- **Main amino acids**:
+  - Glycine: 43-45% (smallest amino acid)
+  - Alanine: 29-30%
+  - Serine: 12-13%
+  - Tyrosine: 10-11%
+  - Others: 5-6%
+- **Structure**: β-pleated sheet (antiparallel chains)
+- **Crystallinity**: 60-65% (highly ordered)
+
+**Sericin**:
+- Serine-rich protein (30%)
+- Glycine, Alanine, Threonine
+- Amorphous structure
+- Water-soluble
+
+**Overall Composition** (by weight):
+- **Protein**: 97-98%
+- **Wax and fats**: 0.4-0.8%
+- **Mineral matter**: 0.7%
+- **Moisture**: 11% (standard regain)
+
+**Molecular Bonds**:
+1. **Peptide bonds**: Primary structure
+2. **Hydrogen bonds**: Between β-sheets (85% of bonds)
+3. **Van der Waals forces**: Between chains
+4. **Note**: No disulfide bonds (low cystine content <0.2%)
+
+#### 3.2.4 Properties
+
+**Physical Properties**:
+- **Color**: White to cream (mulberry), golden-brown (wild)
+- **Luster**: Exceptional (prismatic effect from triangular cross-section)
+- **Density**: 1.25-1.34 g/cm³
+- **Tenacity**: 3-5 g/den (dry), 2-4 g/den (wet, decreases 15-20%)
+- **Breaking elongation**: 20-25%
+- **Elastic recovery**: Good (92% at 2% extension)
+- **Moisture regain**: 11% (absorbs moisture well)
+- **Resilience**: Good (moderate wrinkling)
+- **Drape**: Excellent (soft, supple hand)
+
+**Chemical Properties**:
+- **Effect of acids**: Damaged by strong acids; resistant to weak acids
+- **Effect of alkalis**: Severely damaged (protein degradation)
+- **Effect of oxidizing agents**: Weakened, yellowing may occur
+- **Effect of sunlight**: Degrades (turns yellow, loses strength)
+- **Dyeability**: Excellent (acid, metal complex, reactive dyes)
+- **Thermal properties**: Begins to decompose at 140-170°C
+- **Weighted silk**: Can be treated with metallic salts for body
+
+**Biological Properties**:
+- Resistant to moths and carpet beetles (low keratin content)
+- Can be damaged by mildew in damp conditions
+- Perspiration can weaken and stain silk
+
+#### 3.2.5 Applications
+
+**Luxury Apparel**:
+- Evening wear, dresses, gowns
+- Shirts, blouses, ties, scarves
+- Lingerie and intimate apparel
+- Bridal wear
+- Linings for high-end garments
+
+**Home Textiles**:
+- Bed linens (luxury sheets, pillowcases)
+- Draperies and curtains
+- Upholstery fabrics
+- Decorative throws
+
+**Industrial and Technical**:
+- Parachutes (historical)
+- Surgical sutures (biocompatible)
+- Bicycle tire casings
+- Insulation (electrical)
+- Artificial arteries and medical implants
+- Cosmetics (silk powder)
+
+**Crafts and Artwork**:
+- Embroidery and tapestries
+- Painting canvas
+- Calligraphy scrolls
+- Traditional garments (saris, kimonos)
+
+---
+
+### 3.3 COMPARISON: Wool, Silk, and Hair Fibres
+
+#### 3.3.1 Distinct Differences
+
+**Source and Origin**:
+- **Wool**: Fleece from sheep and related animals (outer coat)
+- **Hair**: Protective coat from various animals (camel, goat, rabbit)
+- **Silk**: Secretion from silkworm larvae (insect origin)
+
+**Physical Structure**:
+
+| Property | Wool | Hair | Silk |
+|----------|------|------|------|
+| **Cross-section** | Circular to oval | Varies (circular to flat) | Triangular |
+| **Surface** | Overlapping scales | Scales (varies) | Smooth (no scales) |
+| **Medulla** | Present in coarse fibres | Often present | Absent |
+| **Crimp** | Natural crimp | Limited or absent | None |
+| **Length** | Staple (5-15 cm) | Varies (2-30 cm) | Continuous filament |
+
+**Chemical Composition**:
+- **Wool**: α-keratin with high cystine (11-17%)
+- **Hair**: α-keratin (cystine varies by animal)
+- **Silk**: Fibroin (β-protein), low cystine (<0.2%)
+
+**Molecular Structure**:
+- **Wool/Hair**: α-helix with disulfide cross-links
+- **Silk**: β-pleated sheet (no disulfide bonds)
+
+**Physical Properties**:
+
+| Property | Wool | Hair | Silk |
+|----------|------|------|------|
+| **Luster** | Moderate | Varies | Very high |
+| **Strength** | 1-2 g/den | 1-3 g/den | 3-5 g/den |
+| **Elongation** | 25-35% | 20-40% | 20-25% |
+| **Elasticity** | Excellent | Good to excellent | Good |
+| **Moisture regain** | 16% | 12-15% | 11% |
+| **Density** | 1.31 g/cm³ | 1.28-1.32 g/cm³ | 1.25 g/cm³ |
+
+**Chemical Reactivity**:
+- **All protein fibres**: Damaged by alkalis, resistant to weak acids
+- **Wool/Hair**: Attacked by moths (keratin)
+- **Silk**: More resistant to insects, affected by sunlight
+
+**Felting Behavior**:
+- **Wool**: Felts readily (scales + heat + moisture + agitation)
+- **Hair**: Variable felting (depends on scale structure)
+- **Silk**: Does not felt (no scales)
+
+**Cost and Availability**:
+- **Wool**: Moderate cost, widely available
+- **Hair**: Varies (mohair/cashmere expensive, camel moderate)
+- **Silk**: Premium price, limited production
+
+**End Uses**:
+- **Wool**: Warm clothing, carpets, felt products
+- **Hair**: Luxury apparel, soft furnishings
+- **Silk**: Luxury garments, fine textiles, technical applications
+
+---
+
+## 4. Mineral Fibre
+
+### 4.1 ASBESTOS
+
+#### 4.1.1 Introduction
+
+**Definition**: Asbestos is a naturally occurring mineral fibre composed of hydrated silicate minerals with a crystalline structure.
+
+**Types of Asbestos**:
+
+1. **Serpentine Group**:
+   - **Chrysotile (White asbestos)**: Most common (95% of asbestos used)
+   
+2. **Amphibole Group**:
+   - **Amosite (Brown asbestos)**
+   - **Crocidolite (Blue asbestos)**: Most hazardous
+   - **Tremolite, Actinolite, Anthophyllite**: Less common
+
+#### 4.1.2 Structure and Properties
+
+**Physical Structure**:
+- **Form**: Long, thin, fibrous crystals
+- **Length**: Varies (can be several centimeters)
+- **Diameter**: 0.02-0.5 μm (extremely fine)
+- **Flexibility**: Good flexibility despite mineral composition
+
+**Properties**:
+- **Heat resistance**: Withstands temperatures up to 1000°C
+- **Tensile strength**: High strength-to-weight ratio
+- **Chemical resistance**: Resistant to acids and alkalis
+- **Electrical insulation**: Excellent insulator
+- **Fire resistance**: Non-combustible
+- **Sound absorption**: Good acoustic properties
+- **Durability**: Extremely durable and resistant to degradation
+
+#### 4.1.3 Historical Applications
+
+**Past Uses** (now mostly banned):
+- Building insulation
+- Fireproofing materials
+- Brake pads and clutch linings
+- Roofing and siding materials
+- Cement pipes and sheets
+- Protective clothing
+- Electrical insulation
+- Gaskets and seals
+
+#### 4.1.4 Health Hazards
+
+**Health Concerns**:
+- **Asbestosis**: Lung scarring from prolonged exposure
+- **Mesothelioma**: Rare cancer of lung/abdomen lining
+- **Lung cancer**: Increased risk with exposure
+- **Other cancers**: Larynx, ovarian, gastrointestinal
+
+**Mechanism of Harm**:
+- Microscopic fibres become airborne
+- Inhaled fibres lodge in lungs
+- Cannot be broken down or expelled
+- Cause chronic inflammation and scarring
+
+#### 4.1.5 Current Status
+
+**Regulations**:
+- **Banned**: Over 60 countries (EU, Australia, Japan, etc.)
+- **Restricted**: Many countries (including USA)
+- **Legacy issue**: Existing structures still contain asbestos
+- **Safe removal**: Specialized procedures required
+
+**Modern Alternatives**:
+- Fibreglass insulation
+- Mineral wool
+- Cellulose fibre
+- Ceramic fibres
+- Synthetic fibres (aramids)
+
+---
+
+## 5. Other Natural Fibres
+
+### 5.1 HEMP (Cannabis sativa)
+
+**Origin**: Bast fibre from stem of hemp plant
+
+**Cultivation**:
+- Cool, temperate climates
+- Growth period: 90-120 days
+- Height: 2-5 meters
+- Regions: China, Europe, Canada
+
+**Properties**:
+- Length: 1-2 meters
+- Strength: High (stronger than cotton)
+- Moisture regain: 12%
+- Color: Light grey to dark brown
+- Resistant to mildew
+
+**Applications**:
+- Rope and cordage
+- Canvas and sails
+- Specialty papers
+- Geotextiles
+- Eco-friendly apparel
+- Composite materials
+
+---
+
+### 5.2 RAMIE (Boehmeria nivea)
+
+**Origin**: Bast fibre from nettle family
+
+**Cultivation**:
+- Subtropical climate
+- Multiple harvests per year (3-6)
+- Height: 1-2.5 meters
+- Regions: China (largest producer), Philippines, Brazil
+
+**Properties**:
+- Length: Up to 50 cm (longest natural fibre)
+- Strength: One of the strongest plant fibres
+- Luster: High (silk-like)
+- Moisture regain: 8%
+- Resistant to bacteria, mildew, insects
+- Low elasticity
+
+**Processing Challenges**:
+- Difficult to degum (requires chemicals)
+- Brittle (difficult to spin alone)
+
+**Applications**:
+- Industrial sewing thread
+- Packing materials
+- Fishing nets
+- Apparel (blended with other fibres)
+- Home textiles (curtains, upholstery)
+
+---
+
+### 5.3 BANANA FIBRE (Musa species)
+
+**Origin**: Extracted from pseudostem of banana plant
+
+**Cultivation**:
+- Tropical climate
+- Waste utilization (after fruit harvest)
+- Regions: India, Philippines, Nepal
+
+**Extraction**:
+- Manual or mechanical separation
+- Fibres from outer sheath (stronger) and inner layers (softer)
+
+**Properties**:
+- Length: Varies (up to 90 cm)
+- Strength: Good tensile strength
+- Moisture regain: 10-11%
+- Biodegradable
+- Similar appearance to bamboo/ramie
+
+**Applications**:
+- Eco-friendly textiles
+- Paper production
+- Handicrafts
+- Composite materials (automotive)
+- Packaging materials
+
+---
+
+### 5.4 PINEAPPLE FIBRE (PIÑA) (Ananas comosus)
+
+**Origin**: Extracted from pineapple leaves
+
+**Cultivation**:
+- Tropical climate
+- Waste utilization (from pineapple farms)
+- Regions: Philippines, India, Colombia
+
+**Extraction**:
+- Manual scraping of leaves
+- Decorticating machines for large-scale
+- Labor-intensive process
+
+**Properties**:
+- Length: 30-90 cm
+- Fineness: Very fine and delicate
+- Luster: High (silk-like)
+- Color: White to ivory
+- Moisture regain: 14%
+- Strength: Moderate
+
+**Applications**:
+- **Piña fabric**: Traditional Filipino formal wear (Barong Tagalog)
+- Luxury textiles
+- Embroidery base fabric
+- Home furnishings
+- Fashion accessories
+
+---
+
+### 5.5 KAPOK (Ceiba pentandra)
+
+**Origin**: Seed hair fibre from kapok tree
+
+**Cultivation**:
+- Tropical climate
+- Tree crop (10-15 m height)
+- Regions: Indonesia, Thailand, West Africa, Central America
+
+**Properties**:
+- Length: 8-35 mm
+- Extremely lightweight (1/8 density of cotton)
+- Hollow fibres (80% air)
+- Highly buoyant (floats on water)
+- Water-resistant (waxy coating)
+- Very low strength
+- Cannot be spun into yarn
+
+**Unique Characteristics**:
+- **Buoyancy**: 5 times more buoyant than cork
+- **Insulation**: Excellent thermal and acoustic insulation
+
+**Applications**:
+- Life jackets and buoyancy aids (historical)
+- Stuffing (pillows, cushions, mattresses)
+- Insulation material
+- Oil spill absorption
+- Soundproofing
+
+---
+
+### 5.6 SISAL (Agave sisalana)
+
+**Origin**: Leaf fibre from sisal plant
+
+**Cultivation**:
+- Arid and semi-arid climates
+- Drought-resistant
+- Harvest: Leaves cut at 3-4 years
+- Regions: Tanzania, Brazil, Kenya, Mexico
+
+**Extraction**:
+- Decorticating machines crush leaves
+- Fibres separated by scraping
+
+**Properties**:
+- Length: 60-120 cm
+- Strength: High tensile strength
+- Stiffness: Coarse and stiff
+- Color: Creamy white to yellowish
+- Moisture regain: 11%
+- Resistant to seawater
+
+**Applications**:
+- Rope, twine, and cordage
+- Agricultural baling twine
+- Carpet backing and rugs
+- Dartboards
+- Handicrafts and wall coverings
+- Composite materials (automotive panels)
+- Paper and pulp production
+
+---
+
+### 5.7 COIR (Cocos nucifera)
+
+**Origin**: Fibre from coconut husk (mesocarp)
+
+**Cultivation**:
+- Tropical coastal regions
+- Waste utilization from coconut industry
+- Regions: India (Kerala), Sri Lanka, Philippines, Indonesia
+
+**Extraction**:
+- **Retting**: Soaking husks in water (6-12 months)
+- **Mechanical beating**: Separating fibres
+- **Brown coir**: From mature coconuts (stronger)
+- **White coir**: From immature coconuts (finer, weaker)
+
+**Properties**:
+- Length: 10-35 cm
+- Strength: Moderate to high
+- Stiffness: Coarse and stiff
+- Durability: Highly resistant to saltwater
+- Moisture regain: 10.5%
+- High lignin content (45%)
+- Resistant to fungi and pests
+
+**Applications**:
+- Doormats and floor mats
+- Rope and cordage (marine applications)
+- Geotextiles (erosion control, soil stabilization)
+- Potting medium for horticulture
+- Mattress filling (rubberized coir)
+- Brushes and brooms
+- Composite materials
+- Acoustic and thermal insulation
+
+---
+
+## 6. Summary Comparison of Natural Fibres
+
+### 6.1 Classification Overview
+
+**Plant Fibres (Cellulosic)**:
+- Strong, durable, resistant to alkalis
+- Comfortable, absorbent
+- Wrinkle easily, moderate to low elasticity
+- Examples: Cotton, jute, flax, hemp
+
+**Animal Fibres (Protein)**:
+- Warm, elastic, excellent resilience
+- Damaged by alkalis, attacked by insects
+- High moisture absorption
+- Examples: Wool, silk, hair fibres
+
+**Mineral Fibres**:
+- Heat-resistant, durable, non-combustible
+- Health hazards (asbestos)
+- Limited textile applications today
+
+### 6.2 Comparative Properties Matrix
+
+| Fibre | Strength | Elasticity | Moisture Regain | Main Uses |
+|-------|----------|------------|-----------------|-----------|
+| **Cotton** | Good | Low | 8.5% | Apparel, home textiles |
+| **Jute** | Good | Very low | 13.75% | Packaging, geotextiles |
+| **Flax** | Very good | Low | 12% | Fine linens, composites |
+| **Hemp** | Very good | Low | 12% | Rope, eco-textiles |
+| **Wool** | Moderate | Excellent | 16% | Warm clothing, carpets |
+| **Silk** | Good | Good | 11% | Luxury apparel |
+| **Sisal** | Very good | Very low | 11% | Rope, industrial |
+| **Coir** | Moderate | Low | 10.5% | Mats, geotextiles |
+
+### 6.3 Environmental Considerations
+
+**Sustainable Fibres**:
+- Natural fibres are biodegradable
+- Renewable resources
+- Lower carbon footprint than synthetics
+- Water and pesticide use varies
+
+**Challenges**:
+- Cotton: High water and pesticide requirements
+- Processing: Chemical usage in retting, bleaching
+- Land use: Competition with food crops
+
+**Future Trends**:
+- Organic cultivation methods
+- Enzyme-based processing (eco-friendly)
+- Agricultural waste utilization (banana, pineapple)
+- Regenerative agriculture practices
+
+---
+
+## 7. Study Tips and Key Concepts
+
+### 7.1 Important Distinctions to Remember
+
+**Cellulosic vs. Protein Fibres**:
+- **Chemical test**: Protein fibres burn with odor of burning hair
+- **Alkali sensitivity**: Proteins damaged, cellulosics resistant
+- **Microscopy**: Proteins have scales/complex structure, cellulosics simpler
+
+**Bast vs. Leaf Fibres**:
+- **Source**: Bast from stem, leaf from leaves
+- **Extraction**: Both require retting, but different methods
+- **Properties**: Bast generally finer and more flexible
+
+**Cultivated vs. Wild Silk**:
+- **Quality**: Cultivated finer and more lustrous
+- **Color**: Cultivated white, wild golden-brown
+- **Structure**: Cultivated more uniform
+
+### 7.2 Key Terms Glossary
+
+- **Crimp**: Natural waviness in fibres (especially wool)
+- **Degumming**: Removal of sericin from silk
+- **Felting**: Interlocking of wool fibres with heat, moisture, and agitation
+- **Ginning**: Separation of cotton lint from seeds
+- **Lumen**: Central hollow channel in plant fibres
+- **Mercerization**: Alkali treatment of cotton for improved properties
+- **Micronaire**: Measure of cotton fineness and maturity
+- **Retting**: Biological decomposition to separate fibres from plant material
+- **Sericulture**: Rearing of silkworms for silk production
+- **Staple**: Short length fibres (must be spun)
+
+### 7.3 Examination Focus Areas
+
+**Structure and Identification**:
+- Microscopic appearance (longitudinal and cross-sectional)
+- Distinctive features of each fibre
+- Chemical composition differences
+
+**Properties and Performance**:
+- Physical properties (strength, elongation, moisture regain)
+- Chemical reactivity (acids, alkalis, bleaching)
+- End-use suitability
+
+**Production and Processing**:
+- Agricultural requirements
+- Extraction and processing methods
+- Geographical distribution
+
+**Comparisons**:
+- Within fibre groups (cotton vs. jute, wool vs. silk)
+- Between fibre groups (cellulosic vs. protein)
+- Advantages and disadvantages for specific applications
+
+---
+
+## 8. Conclusion
+
+Natural textile fibres have been the foundation of textile industry for millennia, each offering unique properties and characteristics. Understanding their structure, composition, and properties is essential for:
+
+- **Proper fibre selection** for specific applications
+- **Processing optimization** to maintain quality
+- **Quality control** in textile manufacturing
+- **Innovation** in textile product development
+- **Sustainability** in textile production
+
+The study of natural fibres encompasses multiple disciplines including botany, zoology, chemistry, and materials science, making it a comprehensive and fascinating field within textile engineering.
+
+As the industry moves toward sustainability, natural fibres are experiencing renewed interest, with research focused on:
+- Improved cultivation and processing methods
+- Novel applications in technical textiles
+- Utilization of agricultural waste fibres
+- Biodegradable and eco-friendly alternatives to synthetics
+
+Mastering the fundamentals covered in YE-101 provides the essential foundation for advanced studies in textile science and technology.
+
+---
+
+**End of Study Guide**
+
+*For additional resources, refer to:*
+- Lecture notes and class presentations
+- Recommended textbooks on textile fibres
+- Microscopy images and fibre samples in laboratory
+- Industry standards and specifications (ASTM, ISO)
