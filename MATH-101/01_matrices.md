@@ -1116,21 +1116,8 @@ $$
 **Problem 5**: Find a basis for the span of these vectors.
 
 $$
-S = \left\{ \begin{bmatrix}
-1 \\
-0 \\
-1
-\end{bmatrix}, \begin{bmatrix}
-2 \\
-1 \\
-3
-\end{bmatrix}, \begin{bmatrix}
-3 \\
-1 \\
-4
-\end{bmatrix} \right\}
+S = \left\{ \begin{bmatrix} 1 \\ 0 \\ 1 \end{bmatrix}, \begin{bmatrix} 2 \\ 1 \\ 3 \end{bmatrix}, \begin{bmatrix} 3 \\ 1 \\ 4 \end{bmatrix} \right\}
 $$
-
 ---
 
 ## 11. Exam Tips
