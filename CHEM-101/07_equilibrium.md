@@ -13,7 +13,7 @@
 
 ---
 
-## 1. Introduction to Chemical Equilibrium {#introduction}
+## 1. Introduction to Chemical Equilibrium
 
 ### Definition
 
@@ -57,8 +57,7 @@ The double arrow (⇌) indicates the reaction can proceed in both directions:
 
 ---
 
-## 2. Dynamic Nature of Equilibrium {#dynamic-nature}
-
+## 2. Dynamic Nature of Equilibrium
 ### 2.1 Understanding Dynamic Equilibrium
 
 **"Dynamic"** means continuous molecular activity despite constant macroscopic properties.
@@ -114,7 +113,7 @@ Concentrations become constant
 
 ---
 
-## 3. Equilibrium Constant {#equilibrium-constant}
+## 3. Equilibrium Constant
 
 ### 3.1 Definition and Expression
 
@@ -244,7 +243,7 @@ T = temperature (K)
 
 ---
 
-## 4. Le Chatelier's Principle {#le-chatelier}
+## 4. Le Chatelier's Principle
 
 ### 4.1 Statement
 
@@ -424,7 +423,7 @@ K unchanged
 
 ---
 
-## 5. Factors Affecting Equilibrium {#factors}
+## 5. Factors Affecting Equilibrium
 
 ### 5.1 Summary of Le Chatelier Effects
 
@@ -462,7 +461,7 @@ K unchanged
 
 ---
 
-## 6. Equilibrium Calculations {#calculations}
+## 6. Equilibrium Calculations
 
 ### 6.1 ICE Tables
 
@@ -550,7 +549,7 @@ Choose root that gives physically meaningful result:
 
 ---
 
-## 7. Industrial Applications {#applications}
+## 7. Industrial Applications 
 
 ### 7.1 Haber Process (Ammonia Synthesis)
 
