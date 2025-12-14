@@ -7,6 +7,18 @@ tags: [notes, CHEM-101, chemical-bonding, ionic-bond, covalent-bond, metallic-bo
 
 # Chemical Bond
 
+## Table of Contents
+1. [Introduction to Chemical Bonding](#1-introduction-to-chemical-bonding)
+2. [Ionic Bonding](#2-ionic-bonding)
+3. [Covalent Bonding](#3-covalent-bonding)
+4. [Metallic Bonding](#4-metallic-bonding)
+5. [Lewis Dot Structures](#5-lewis-dot-structures)
+6. [Electronegativity and Bond Polarity](#6-electronegativity-and-bond-polarity)
+7. [VSEPR Theory and Molecular Geometry](#7-vsepr-theory-and-molecular-geometry)
+8. [Comparison of Bond Types](#8-comparison-of-bond-types)
+
+---
+
 ## 1. Introduction to Chemical Bonding
 
 A **chemical bond** is the attractive force that holds atoms or ions together in molecules, compounds, or crystals. Chemical bonds form when atoms interact to achieve more stable electron configurations, typically by filling their valence shells.
