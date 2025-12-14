@@ -3,13 +3,13 @@
 **Date:** December 14, 2025
 
 ## Table of Contents
-1. [Introduction to Chemical Equilibrium](#introduction)
-2. [Dynamic Nature of Equilibrium](#dynamic-nature)
-3. [Equilibrium Constant](#equilibrium-constant)
-4. [Le Chatelier's Principle](#le-chatelier)
-5. [Factors Affecting Equilibrium](#factors)
-6. [Equilibrium Calculations](#calculations)
-7. [Industrial Applications](#applications)
+1. [Introduction to Chemical Equilibrium](#1-introduction-to-chemical-equilibrium)
+2. [Dynamic Nature of Equilibrium](#2-dynamic-nature-of-equilibrium)
+3. [Equilibrium Constant](#3-equilibrium-constant)
+4. [Le Chatelier's Principle](#4-le-chateliers-principle)
+5. [Factors Affecting Equilibrium](#5-factors-affecting-equilibrium)
+6. [Equilibrium Calculations](#6-equilibrium-calculations)
+7. [Industrial Applications](#7-industrial-applications)
 
 ---
 
