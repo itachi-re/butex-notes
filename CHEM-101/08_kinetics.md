@@ -1,18 +1,16 @@
 # Chemical Kinetics: A Comprehensive Guide
 
-**Date:** December 14, 2025
-
 ## Table of Contents
-1. [Introduction to Chemical Kinetics](#introduction)
-2. [Rate of Chemical Reactions](#rate-of-reactions)
-3. [Factors Affecting Reaction Rates](#factors)
-4. [Rate Laws and Reaction Order](#rate-laws)
-5. [Integrated Rate Equations](#integrated-rate)
-6. [Collision Theory and Activation Energy](#collision-theory)
-7. [Arrhenius Equation](#arrhenius)
-8. [Reaction Mechanisms](#mechanisms)
-9. [Catalysis](#catalysis)
-10. [Applications](#applications)
+1. [Introduction to Chemical Kinetics](#1-introduction-to-chemical-kinetics)
+2. [Rate of Chemical Reactions](#2-rate-of-chemical-reactions)
+3. [Factors Affecting Reaction Rates](#3-factors-affecting-reaction-rates)
+4. [Rate Laws and Reaction Order](#4-rate-laws-and-reaction-order)
+5. [Integrated Rate Equations](#5-integrated-rate-equations)
+6. [Collision Theory and Activation Energy](#6-collision-theory-and-activation-energy)
+7. [Arrhenius Equation](#7-arrhenius-equation)
+8. [Reaction Mechanisms](#8-reaction-mechanisms)
+9. [Catalysis](#9-catalysis)
+10. [Applications](#10-applications-of-chemical-kinetics)
 
 ---
 
