@@ -1,7 +1,7 @@
 ---
 subject: CHEM-101
 topic: Chemical Bond
-date: 2024-12-14
+date: 2025-12-11
 tags: [notes, CHEM-101, chemical-bonding, ionic-bond, covalent-bond, metallic-bond]
 ---
 
