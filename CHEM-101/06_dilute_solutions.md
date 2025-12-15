@@ -16,7 +16,7 @@
 
 ---
 
-## 1. Introduction to Solutions {#introduction}
+## 1. Introduction to Solutions
 
 ### 1.1 Definition
 
@@ -80,7 +80,7 @@ ppm = (mass of solute / mass of solution) × 10⁶
 
 ---
 
-## 2. Dilute Solutions {#dilute-solutions}
+## 2. Dilute Solutions
 
 ### 2.1 Definition
 
@@ -122,7 +122,7 @@ ppm = (mass of solute / mass of solution) × 10⁶
 
 ---
 
-## 3. Raoult's Law {#raoults-law}
+## 3. Raoult's Law
 
 ### 3.1 Statement and Formula
 
@@ -201,7 +201,7 @@ This equals the mole fraction of the solute!
 
 ---
 
-## 4. Colligative Properties Overview {#colligative-overview}
+## 4. Colligative Properties Overview
 
 ### 4.1 Definition
 
@@ -259,7 +259,7 @@ All four properties are interconnected and arise from the same fundamental cause
 
 ---
 
-## 5. Vapor Pressure Lowering {#vapor-pressure}
+## 5. Vapor Pressure Lowering
 
 ### 5.1 Quantitative Treatment
 
@@ -343,7 +343,7 @@ M₂ = 10.0/0.0853 = 117 g/mol
 
 ---
 
-## 6. Boiling Point Elevation {#boiling-point}
+## 6. Boiling Point Elevation
 
 ### 6.1 Phenomenon
 
@@ -435,7 +435,7 @@ Tb(solution) = 80.1 + 0.395 = 80.5°C
 
 ---
 
-## 7. Freezing Point Depression {#freezing-point}
+## 7. Freezing Point Depression
 
 ### 7.1 Phenomenon
 
@@ -539,7 +539,7 @@ Mass = 5.38 × 62.07 = 334 g per kg water
 
 ---
 
-## 8. Osmotic Pressure {#osmotic-pressure}
+## 8. Osmotic Pressure
 
 ### 8.1 Osmosis Phenomenon
 
@@ -734,7 +734,7 @@ Apply pressure greater than osmotic pressure to force solvent from solution thro
 
 ---
 
-## 9. Van't Hoff Factor (i) {#vant-hoff}
+## 9. Van't Hoff Factor (i)
 
 ### 9.1 Introduction
 
@@ -875,7 +875,7 @@ i ≈ 0.5-0.7 depending on concentration
 
 ---
 
-## 10. Applications {#applications}
+## 10. Applications
 
 ### 10.1 Biological and Medical
 
