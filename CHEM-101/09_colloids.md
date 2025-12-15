@@ -17,7 +17,7 @@
 
 ---
 
-## 1. Introduction to Colloids {#introduction}
+## 1. Introduction to Colloids
 
 ### 1.1 Definition
 
@@ -104,7 +104,7 @@ Visible to naked eye (> 0.1 mm)
 
 ---
 
-## 2. Classification of Colloids {#classification}
+## 2. Classification of Colloids 
 
 ### 2.1 Based on Physical State
 
@@ -247,7 +247,7 @@ Spherical micelle structure
 
 ---
 
-## 3. Preparation of Colloids {#preparation}
+## 3. Preparation of Colloids 
 
 ### 3.1 General Principles
 
@@ -491,7 +491,7 @@ Colloidal particles retained
 
 ---
 
-## 4. Properties of Colloids {#properties}
+## 4. Properties of Colloids 
 
 ### 4.1 General Properties
 
@@ -515,7 +515,7 @@ Colloidal properties can be classified into:
 
 ---
 
-## 5. Optical Properties {#optical}
+## 5. Optical Properties
 
 ### 5.1 Tyndall Effect
 
@@ -598,7 +598,7 @@ Gold Sol:
 
 ---
 
-## 6. Kinetic Properties {#kinetic}
+## 6. Kinetic Properties 
 
 ### 6.1 Brownian Motion
 
@@ -701,7 +701,7 @@ g = gravitational acceleration (or centrifugal)
 
 ---
 
-## 7. Electrical Properties {#electrical}
+## 7. Electrical Properties 
 
 ### 7.1 Charge on Colloidal Particles
 
@@ -844,7 +844,7 @@ Negatively charged particles → Anode (anaphoresis)
 
 ---
 
-## 8. Stability and Coagulation {#stability}
+## 8. Stability and Coagulation
 
 ### 8.1 Stability of Lyophobic Colloids
 
@@ -981,7 +981,7 @@ Both sols precipitate simultaneously
 
 ---
 
-## 9. Emulsions {#emulsions}
+## 9. Emulsions 
 
 ### 9.1 Definition
 
@@ -1148,7 +1148,7 @@ W/O: [water] [water] in ~~~oil~~~
 
 ---
 
-## 10. Gels {#gels}
+## 10. Gels 
 
 ### 10.1 Definition
 
@@ -1295,7 +1295,7 @@ Gel ⇌ Sol
 
 ---
 
-## 11. Applications of Colloids {#applications}
+## 11. Applications of Colloids 
 
 ### 11.1 Biological and Medical Applications
 
