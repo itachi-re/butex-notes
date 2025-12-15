@@ -31,7 +31,7 @@ The field evolved through three major eras:
 
 ---
 
-## 2. Rate of Chemical Reactions {#rate-of-reactions}
+## 2. Rate of Chemical Reactions
 
 ### Definition
 The rate of a chemical reaction is defined as the change in concentration of a reactant or product per unit time.
@@ -69,7 +69,7 @@ The instantaneous rate is obtained from the slope of the tangent to the concentr
 
 ---
 
-## 3. Factors Affecting Reaction Rates {#factors}
+## 3. Factors Affecting Reaction Rates
 
 ### 3.1 Nature and Concentration of Reactants
 
@@ -128,7 +128,7 @@ Described by the Arrhenius equation (discussed later)
 
 ---
 
-## 4. Rate Laws and Reaction Order {#rate-laws}
+## 4. Rate Laws and Reaction Order
 
 ### 4.1 Rate Law Expression
 
@@ -219,7 +219,7 @@ The units of k depend on overall reaction order:
 
 ---
 
-## 5. Integrated Rate Equations {#integrated-rate}
+## 5. Integrated Rate Equations
 
 Integrated rate equations relate concentration to time and allow us to predict concentrations at any given time.
 
@@ -309,7 +309,7 @@ t₁/₂ = 1/(k[A]₀)
 
 ---
 
-## 6. Collision Theory and Activation Energy {#collision-theory}
+## 6. Collision Theory and Activation Energy
 
 ### 6.1 Collision Theory
 
@@ -363,7 +363,7 @@ At any temperature, molecules have a distribution of kinetic energies (Maxwell-B
 
 ---
 
-## 7. Arrhenius Equation {#arrhenius}
+## 7. Arrhenius Equation
 
 ### 7.1 The Arrhenius Equation
 
@@ -433,7 +433,7 @@ The exponential term in Arrhenius equation is highly sensitive to temperature ch
 
 ---
 
-## 8. Reaction Mechanisms {#mechanisms}
+## 8. Reaction Mechanisms
 
 ### 8.1 Elementary Reactions
 
@@ -501,7 +501,7 @@ A mechanism is valid if:
 
 ---
 
-## 9. Catalysis {#catalysis}
+## 9. Catalysis
 
 ### 9.1 Definition and Types
 
@@ -582,7 +582,7 @@ Same ΔH for both pathways!
 
 ---
 
-## 10. Applications of Chemical Kinetics {#applications}
+## 10. Applications of Chemical Kinetics
 
 ### 10.1 Industrial Applications
 
