@@ -3,17 +3,17 @@
 **Date:** December 14, 2025
 
 ## Table of Contents
-1. [Introduction to Colloids](#introduction)
-2. [Classification of Colloids](#classification)
-3. [Preparation of Colloids](#preparation)
-4. [Properties of Colloids](#properties)
-5. [Optical Properties](#optical)
-6. [Kinetic Properties](#kinetic)
-7. [Electrical Properties](#electrical)
-8. [Stability and Coagulation](#stability)
-9. [Emulsions](#emulsions)
-10. [Gels](#gels)
-11. [Applications](#applications)
+1. [Introduction to Colloids](#1-introduction-to-colloids)
+2. [Classification of Colloids](#2-classification-of-colloids)
+3. [Preparation of Colloids](#3-preparation-of-colloids)
+4. [Properties of Colloids](#4-properties-of-colloids)
+5. [Optical Properties](#5-optical-properties)
+6. [Kinetic Properties](#6-kinetic-properties)
+7. [Electrical Properties](#7-electrical-properties)
+8. [Stability and Coagulation](#8-stability-and-coagulation)
+9. [Emulsions](#9-emulsions)
+10. [Gels](#10-gels)
+11. [Applications](#11-applications-of-colloids)
 
 ---
 
