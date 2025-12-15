@@ -3,16 +3,16 @@
 **Date:** December 14, 2025
 
 ## Table of Contents
-1. [Introduction to Solutions](#introduction)
-2. [Dilute Solutions](#dilute-solutions)
-3. [Raoult's Law](#raoults-law)
-4. [Colligative Properties Overview](#colligative-overview)
-5. [Vapor Pressure Lowering](#vapor-pressure)
-6. [Boiling Point Elevation](#boiling-point)
-7. [Freezing Point Depression](#freezing-point)
-8. [Osmotic Pressure](#osmotic-pressure)
-9. [Van't Hoff Factor](#vant-hoff)
-10. [Applications](#applications)
+1. [Introduction to Solutions](#1-introduction-to-solutions)
+2. [Dilute Solutions](#2-dilute-solutions)
+3. [Raoult's Law](#3-raoults-law)
+4. [Colligative Properties Overview](#4-colligative-properties-overview)
+5. [Vapor Pressure Lowering](#5-vapor-pressure-lowering)
+6. [Boiling Point Elevation](#6-boiling-point-elevation)
+7. [Freezing Point Depression](#7-freezing-point-depression)
+8. [Osmotic Pressure](#8-osmotic-pressure)
+9. [Van't Hoff Factor](#9-vant-hoff-factor-i)
+10. [Applications](#10-applications)
 
 ---
 
