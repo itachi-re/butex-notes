@@ -1,7 +1,7 @@
 ---
 subject: Business and Communicative English
 topic: Business Meetings & Negotiations
-date: 2024-12-17
+date: 2025-12-17
 tags: [notes, business-english, meetings, negotiations]
 ---
 

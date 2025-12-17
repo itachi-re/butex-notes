@@ -220,11 +220,11 @@ Gestural communication uses non-verbal cues to convey hidden meaning behind the 
 
 **Example 1: Email to Manager (Formal)**
 ```
-Subject: Monthly Sales Report - November 2024
+Subject: Monthly Sales Report - November 2025
 
 Dear Mr. Johnson,
 
-Please find attached the monthly sales report for November 2024. Our team exceeded the quarterly target by 15%, achieving total sales of $2.3 million.
+Please find attached the monthly sales report for November 2025. Our team exceeded the quarterly target by 15%, achieving total sales of $2.3 million.
 
 Key highlights include:
 - 20% increase in new customer acquisition

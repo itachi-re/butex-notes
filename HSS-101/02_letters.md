@@ -1,7 +1,7 @@
 ---
 subject: Business and Communicative English
 topic: Business Letter Writing - Types, Format & Structure
-date: 2024-12-17
+date: 2025-12-17
 tags: [notes, business-english, letter-writing, formal-communication]
 ---
 
@@ -67,7 +67,7 @@ Email: john.smith@abccorp.com
 ```
 
 #### **2. Date**
-- Write out fully: January 15, 2024 or 15 January 2024
+- Write out fully: January 15, 2025 or 15 January 2025
 - Placed 2 lines below return address
 - Use consistent date format throughout organization
 
@@ -177,7 +177,7 @@ JW/sc (Writer's initials in caps / Typist's in lowercase)
 
 **Attachments:**
 ```
-Attachment: Annual Report 2024
+Attachment: Annual Report 2025
 ```
 
 ---
@@ -310,8 +310,8 @@ Please process the following order for our office:
 • 25 units - LED Desk Lamp (Model #LED-100)
 
 Delivery Address: 789 Corporate Plaza, Suite 400, Chicago, IL 60601
-Required Delivery Date: January 30, 2024
-Payment Method: Company Purchase Order #PO-2024-0123
+Required Delivery Date: January 30, 2025
+Payment Method: Company Purchase Order #PO-2025-0123
 
 Please confirm receipt of this order and provide an estimated delivery schedule.
 
@@ -334,7 +334,7 @@ Best regards,
 ```
 Dear Customer Service Manager:
 
-I am writing to express my dissatisfaction with the laptop computer I purchased from your store on December 1, 2024 (Order #12345).
+I am writing to express my dissatisfaction with the laptop computer I purchased from your store on December 1, 2025 (Order #12345).
 
 The device began experiencing system crashes within the first week of use. Despite following all troubleshooting procedures in the manual and contacting your technical support twice (December 5 and December 10), the issue persists. The crashes occur 3-4 times daily, making the laptop unusable for my work requirements.
 
@@ -402,7 +402,7 @@ Special Highlights:
 ✓ Complete meeting room packages - 35% OFF
 ✓ FREE delivery on orders over $1,000
 
-This exclusive offer is available only until January 15, 2024.
+This exclusive offer is available only until January 15, 2025.
 
 Order now by calling 1-800-OFFICE-1 or visiting www.officesolutions.com/exclusive
 
@@ -426,7 +426,7 @@ Sincerely,
 ```
 Dear Ms. Martinez:
 
-I am writing to apply for the Marketing Manager position advertised on LinkedIn on December 10, 2024. With over five years of experience in digital marketing and a proven track record of increasing brand awareness by 150%, I am confident I can contribute significantly to your team.
+I am writing to apply for the Marketing Manager position advertised on LinkedIn on December 10, 2025. With over five years of experience in digital marketing and a proven track record of increasing brand awareness by 150%, I am confident I can contribute significantly to your team.
 
 In my current role at TechStart Inc., I have:
 • Managed marketing budgets exceeding $500,000
@@ -458,7 +458,7 @@ Sincerely,
 ```
 Dear Mr. Johnson:
 
-Please accept this letter as formal notification of my resignation from the position of Senior Analyst at ABC Corporation, effective January 31, 2024. This provides the required two weeks' notice as per my employment contract.
+Please accept this letter as formal notification of my resignation from the position of Senior Analyst at ABC Corporation, effective January 31, 2025. This provides the required two weeks' notice as per my employment contract.
 
 I have accepted a position that will further my career growth in data analytics. This was a difficult decision, as I have greatly enjoyed working with the team and contributing to the company's success over the past three years.
 
@@ -625,7 +625,7 @@ Detroit, MI 48201
 Phone: (313) 555-0100
 Email: info@abcmanufacturing.com
 
-December 17, 2024
+December 17, 2025
 
 Mr. Robert Anderson
 Purchasing Director

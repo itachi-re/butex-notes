@@ -1,7 +1,7 @@
 ---
 subject: Business and Communicative English
 topic: Business Presentations - Skills, Structure & Delivery
-date: 2024-12-17
+date: 2025-12-17
 tags: [notes, business-english, presentations, public-speaking]
 ---
 
@@ -350,7 +350,7 @@ Action: Approve $50K budget, 3-month implementation
 ```
 2022: Launched initial product (1,000 users)
 2023: Expanded to three markets (10,000 users)
-2024: Achieved profitability (50,000 users)
+2025: Achieved profitability (50,000 users)
 2025 Plan: International expansion (target: 200,000 users)
 ```
 
