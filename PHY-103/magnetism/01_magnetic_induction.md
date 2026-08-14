@@ -1,433 +1,272 @@
-# 🧲 Topic 01 — Magnetic Induction
+# 01. Magnetic Induction
 
-> **Course:** PHY-103 · Physics II | **Dept:** Textile Engineering, BUTEX
-> **Topics:** Magnetic Field · Biot-Savart Law · Ampere's Circuital Law · Magnetic Flux
-> **Date:** 2026-06-04
-
----
-
-## Table of Contents
-
-1. [Introduction](#1-introduction)
-2. [Magnetic Field — Magnetic Induction (B)](#2-magnetic-field--magnetic-induction-b)
-3. [Biot-Savart Law](#3-biot-savart-law)
-4. [Applications of Biot-Savart Law](#4-applications-of-biot-savart-law)
-5. [Ampère's Circuital Law](#5-ampères-circuital-law)
-6. [Magnetic Flux](#6-magnetic-flux)
-7. [Gauss's Law for Magnetism](#7-gausss-law-for-magnetism)
-8. [Worked Examples](#8-worked-examples)
-9. [Summary of Formulas](#9-summary-of-formulas)
-10. [References](#10-references)
+**Course:** PHY-103 (Physics–II) · **Unit:** Magnetism
+**Prerequisite:** None (entry point of the unit)
+**Leads to:** Magnetic Force on a Current-Carrying Conductor, Faraday's Law
 
 ---
 
-## 1. Introduction
+## A. Physical Idea
 
-Magnetism is one of the four fundamental interactions of nature and is unified with electricity into **electromagnetism** through Maxwell's equations. The concept of **magnetic induction** — the creation of a magnetic field by moving electric charges (currents) and the subsequent effect of that field on other currents and magnetic materials — is the cornerstone of this topic.
+A moving electric charge or a current-carrying conductor creates a region of influence around itself in which another moving charge or current experiences a force. This region of influence is the **magnetic field**. Unlike the electric field, which is defined through the force on a *stationary* test charge, the magnetic field can only be detected through its effect on a *moving* charge or a current.
 
-> 🏛️ **Historical Context:**
-> - **Hans Christian Ørsted (1820):** Discovered that a current-carrying wire deflects a compass needle.
-> - **Jean-Baptiste Biot & Félix Savart (1820):** Quantified the magnetic field produced by a current element.
-> - **André-Marie Ampère (1820–1823):** Established the mathematical relationship between current and the line integral of B.
-> - **James Clerk Maxwell (1865):** Unified all electromagnetic phenomena into four equations.
+The strength and direction of this field at any point is described by a vector quantity called the **magnetic flux density**, commonly (if loosely) called the "magnetic field," and denoted $\mathbf{B}$. The word "induction" in "magnetic induction" is historical: early physicists thought of $\mathbf{B}$ as being "induced" in space by currents and magnets, in analogy with electrostatic induction. In modern usage, $\mathbf{B}$ is simply the fundamental field vector of magnetism.
 
----
+A second, related idea is **magnetic flux** $\Phi_B$: the total "amount" of magnetic field passing through a given surface. Flux depends not only on how strong $\mathbf{B}$ is, but also on the area of the surface and its orientation relative to $\mathbf{B}$. This orientation-dependence is what makes Faraday's law (Topic 05) possible — flux can change even if $B$ itself never changes, simply because the area or the angle changes.
 
-## 2. Magnetic Field — Magnetic Induction (B)
+## B. Definition
 
-### 2.1 Definition
+**Magnetic flux density (magnetic induction), $\mathbf{B}$:** the vector field such that the force on a test charge $q$ moving with velocity $\mathbf{v}$ through it is $\mathbf{F} = q\mathbf{v}\times\mathbf{B}$.
 
-The **magnetic flux density** $\vec{B}$ (commonly called the **magnetic induction** or **magnetic field**) is a vector field that describes the magnetic influence at any point in space. It is defined operationally through the force experienced by a moving charge:
+> Plain-English: $\mathbf{B}$ tells you how strong the magnetic field is and which way it points, at a given point in space, based on how hard it pushes a moving charge sideways.
 
-$$\boxed{\vec{F} = q\vec{v} \times \vec{B}}$$
+**Magnetic flux, $\Phi_B$:** the surface integral of $\mathbf{B}$ over an area $A$:
+$$
+\Phi_B = \int \mathbf{B}\cdot d\mathbf{A}
+$$
 
-The direction of $\vec{F}$ is given by the right-hand rule (or left-hand rule for negative charges), always perpendicular to both $\vec{v}$ and $\vec{B}$.
+> Plain-English: magnetic flux is a measure of how many field lines pass "through" a surface — more lines, or lines more perpendicular to the surface, means more flux.
 
-### 2.2 SI Units and Dimensions
+⚠️ **Convention note:** Some textbooks (e.g., older engineering texts) call $\mathbf{H}$ the "magnetic field" and $\mathbf{B}$ the "magnetic induction" or "flux density," reserving $\mathbf{H}$ for the field produced purely by free currents. In this course, following Halliday/Resnick and Serway conventions, $\mathbf{B}$ is the primary field of interest, and $\mathbf{H}$ appears only in Topic 09 (magnetic materials).
 
-| Quantity | Symbol | SI Unit | Equivalent Forms |
-|:---------|:-------|:--------|:----------------|
-| Magnetic Flux Density | $B$ | **Tesla (T)** | Wb·m⁻², kg·A⁻¹·s⁻² |
-| Magnetic Flux | $\Phi_B$ | **Weber (Wb)** | T·m², V·s |
-| Permeability of Free Space | $\mu_0$ | H·m⁻¹ | T·m·A⁻¹, kg·m·A⁻²·s⁻² |
+## C. Governing Equations
 
-$$\mu_0 = 4\pi \times 10^{-7} \text{ T·m/A} \approx 1.2566 \times 10^{-6} \text{ H/m}$$
+For a uniform field over a flat surface of area $A$, with $\theta$ the angle between $\mathbf{B}$ and the area's outward normal $\hat{\mathbf{n}}$:
+$$
+\Phi_B = B A \cos\theta
+$$
 
-> **Practical sense of Tesla:** Earth's magnetic field ≈ 50 µT; MRI machines ≈ 1–3 T; strongest lab magnets ≈ 45 T.
-
-### 2.3 Properties of Magnetic Field Lines
-
-Magnetic field lines are a graphical representation of $\vec{B}$:
-
-1. **Tangent** to $\vec{B}$ at every point
-2. **Never intersect** (field has a unique direction at each point)
-3. **Density ∝ magnitude** of $|\vec{B}|$
-4. **Always form closed loops** — no starting or ending points (no magnetic monopoles)
-
-```
-  Bar Magnet — Field Line Schematic:
-
-        N                S
-       ╔══╗            ╔══╗
-  ←←←←║  ║→→→→→→→→→→→║  ║→→→→
-  ←←  ║  ║            ║  ║   →→
-  ← ↗ ║  ║            ║  ║ ↘  →
-  ←   ╚══╝            ╚══╝    →
-  ←←←←←←←←←←←←←←←←←←←←←←←←←←
-
-  Outside magnet: N → S through space
-  Inside magnet : S → N (continuous loop)
-```
-
----
-
-## 3. Biot-Savart Law
-
-### 3.1 Statement
-
-The **Biot-Savart Law** gives the infinitesimal magnetic field $d\vec{B}$ at a field point **P** due to an infinitesimal current element $I\,d\vec{l}$:
-
-$$\boxed{d\vec{B} = \frac{\mu_0}{4\pi} \frac{I\,d\vec{l} \times \hat{r}}{r^2}}$$
+For a general (possibly non-uniform) field over an arbitrary surface:
+$$
+\Phi_B = \int \mathbf{B}\cdot d\mathbf{A}
+$$
 
 where:
+
 | Symbol | Meaning |
-|:-------|:--------|
-| $\mu_0$ | Permeability of free space = $4\pi \times 10^{-7}$ T·m/A |
-| $I$ | Current in the conductor (A) |
-| $d\vec{l}$ | Infinitesimal length element directed along current flow |
-| $\hat{r}$ | Unit vector from $d\vec{l}$ to field point P |
-| $r$ | Distance from $d\vec{l}$ to P |
+|---|---|
+| $\mathbf{B}$ | magnetic flux density vector at a point (T) |
+| $A$ | area of the flat surface (m²) |
+| $d\mathbf{A}$ | vector area element, magnitude $dA$, direction $\hat{\mathbf n}$ (normal to surface) |
+| $\theta$ | angle between $\mathbf{B}$ and $\hat{\mathbf n}$ |
+| $\Phi_B$ | magnetic flux through the surface (Wb) |
 
-The scalar magnitude is:
+## D. Derivation: Flux Through a Uniform Field
 
-$$|d\vec{B}| = \frac{\mu_0}{4\pi} \frac{I\,dl\,\sin\theta}{r^2}$$
+Start from the general definition:
+$$
+\Phi_B = \int_S \mathbf{B}\cdot d\mathbf{A}
+$$
 
-where $\theta$ is the angle between $d\vec{l}$ and $\hat{r}$.
+**Step 1.** If the field is uniform, $\mathbf{B}$ is constant over the surface and can be taken outside the integral:
+$$
+\Phi_B = \mathbf{B}\cdot\int_S d\mathbf{A}
+$$
 
-### 3.2 Key Properties
+**Step 2.** For a flat surface, all area elements $d\mathbf{A}$ point in the same direction $\hat{\mathbf n}$, so $\int_S d\mathbf{A} = A\hat{\mathbf n}$, where $A$ is the total area.
+$$
+\Phi_B = \mathbf{B}\cdot A\hat{\mathbf n} = A(\mathbf{B}\cdot\hat{\mathbf n})
+$$
 
-1. $d\vec{B} \perp d\vec{l}$ and $d\vec{B} \perp \hat{r}$ (perpendicular to both current element and radius)
-2. $|d\vec{B}| \propto I$ — proportional to current
-3. $|d\vec{B}| \propto \sin\theta$ — zero when point P is on the line of $d\vec{l}$
-4. $|d\vec{B}| \propto r^{-2}$ — inverse-square fall-off
-5. **Superposition principle:** Total $\vec{B}$ is the vector sum (integral) of all contributions
+**Step 3.** By the definition of the dot product, $\mathbf{B}\cdot\hat{\mathbf n} = B\cos\theta$, where $\theta$ is the angle between $\mathbf{B}$ and $\hat{\mathbf n}$.
+$$
+\Phi_B = BA\cos\theta
+$$
 
-### 3.3 Total Field by Integration
+This is the working formula for a uniform field on a flat surface.
 
-$$\vec{B} = \frac{\mu_0 I}{4\pi} \int \frac{d\vec{l} \times \hat{r}}{r^2}$$
+**What must be memorized:** the final result $\Phi_B = BA\cos\theta$ and the general integral form.
+**What must be understood:** flux is a *scalar* obtained by projecting $\mathbf{B}$ onto the surface normal; it is maximum when $\mathbf{B}\parallel\hat{\mathbf n}$ and zero when $\mathbf{B}\perp\hat{\mathbf n}$ (field lines skimming along the surface, not passing through it).
 
----
+## E. Vector Analysis
 
-## 4. Applications of Biot-Savart Law
+- $\mathbf{B}$ is a vector: it has both magnitude (strength of the field) and direction (the direction a compass needle would point, or the direction along which a moving charge feels *no* sideways force when moving parallel to $\mathbf{B}$).
+- The surface normal $\hat{\mathbf n}$ is a matter of convention — for a closed surface it is chosen outward; for an open surface, a direction is chosen and a right-hand-rule sense is often attached to a bounding loop.
+- Flux depends on $\cos\theta$, **not** $\sin\theta$, because it is a dot product ($\mathbf{B}\cdot d\mathbf{A}$), not a cross product.
+  - $\theta = 0^\circ$: $\mathbf{B}$ parallel to $\hat{\mathbf n}$ → $\Phi_B = BA$ (maximum flux).
+  - $\theta = 90^\circ$: $\mathbf{B}$ perpendicular to $\hat{\mathbf n}$ (i.e., $\mathbf{B}$ lies in the plane of the surface) → $\Phi_B = 0$.
+  - $\theta = 180^\circ$: $\mathbf{B}$ antiparallel to $\hat{\mathbf n}$ → $\Phi_B = -BA$ (maximum magnitude, opposite sign).
 
-### 4.1 Magnetic Field Due to an Infinite Straight Wire
+## F. Units and Dimensions
 
-**Setup:** Infinitely long straight wire carrying current $I$; find field at perpendicular distance $R$.
+| Quantity | Symbol | SI Unit | Dimension |
+|---|---|---|---|
+| Magnetic flux density | $B$ | tesla (T) = Wb/m² = kg·s⁻²·A⁻¹ | $\mathsf{M}\,\mathsf{T}^{-2}\,\mathsf{I}^{-1}$ |
+| Area | $A$ | m² | $\mathsf{L}^2$ |
+| Magnetic flux | $\Phi_B$ | weber (Wb) = T·m² = V·s | $\mathsf{M}\,\mathsf{L}^2\,\mathsf{T}^{-2}\,\mathsf{I}^{-1}$ |
 
-**Coordinate System:** Wire along x-axis; P on y-axis at distance $R$.
+**Dimensional check:** $[\Phi_B] = [B][A] = (\mathsf{M}\,\mathsf{T}^{-2}\,\mathsf{I}^{-1})(\mathsf{L}^2) = \mathsf{M}\,\mathsf{L}^2\,\mathsf{T}^{-2}\,\mathsf{I}^{-1}$, consistent with the weber defined via $\mathcal{E} = -d\Phi_B/dt$ (volt·second).
 
-For a current element at position $x$ from the foot of perpendicular:
+## G. Diagram
 
-$$r = \sqrt{R^2 + x^2}, \quad \sin\theta = \frac{R}{r} = \frac{R}{\sqrt{R^2 + x^2}}, \quad dl = dx$$
+![Magnetic field lines through a surface at varying orientation](../../assets/01_magnetic_induction.svg)
 
-$$dB = \frac{\mu_0 I}{4\pi} \frac{dx \cdot \sin\theta}{r^2} = \frac{\mu_0 I}{4\pi} \cdot \frac{R\,dx}{(R^2 + x^2)^{3/2}}$$
+*Figure 1: A uniform field $\mathbf{B}$ crossing a flat loop of area $A$. Left: normal $\hat{\mathbf n}$ parallel to $\mathbf{B}$ ($\theta=0$, maximum flux). Right: loop tilted so $\hat{\mathbf n}$ makes angle $\theta$ with $\mathbf{B}$, reducing flux to $BA\cos\theta$.*
 
-Integrating from $-\infty$ to $+\infty$ using $\int_{-\infty}^{+\infty} \frac{dx}{(R^2+x^2)^{3/2}} = \frac{2}{R^2}$:
+## Definitions & Key Terms
 
-$$\boxed{B = \frac{\mu_0 I}{2\pi R}}$$
+1. **Magnetic flux density ($\mathbf{B}$)** — the vector field defined via the force it exerts on a moving charge, $\mathbf{F}=q\mathbf{v}\times\mathbf{B}$.
+   > Plain-English: how strong and in what direction the magnetic "push" is at a point in space.
 
-**Direction:** Circles the wire; given by right-hand rule (thumb → current, fingers → $\vec{B}$).
+2. **Magnetic flux ($\Phi_B$)** — the surface integral $\int\mathbf{B}\cdot d\mathbf{A}$.
+   > Plain-English: the total amount of magnetic field passing through a chosen surface.
 
-```
-  Right-Hand Rule for Straight Wire:
+3. **Uniform magnetic field** — a field with the same magnitude and direction at every point in the region of interest.
+   > Plain-English: field lines are straight, parallel, and evenly spaced.
 
-    Thumb ↑ (current direction)
-    Fingers curl → direction of B
+4. **Non-uniform magnetic field** — a field whose magnitude and/or direction varies from point to point.
+   > Plain-English: field lines converge, diverge, or curve.
 
-    Cross-section view (current out of page ⊙):
+## Worked Examples
 
-        ×  ×  ×  ×  ×
-        ×  ×  ×  ×  ×
-        ×  × (⊙) ×  ×    ⊙ = current out
-        ×  ×  ×  ×  ×    × = B into page (right side)
-        ×  ×  ×  ×  ×    · = B out of page (left side)
-```
+### Example 1 — Foundational
 
----
+**Given:** A flat circular loop of radius $r = 5\ \text{cm}$ lies with its plane perpendicular to a uniform field $B = 0.2\ \text{T}$.
+**Required:** Magnetic flux through the loop.
+**Principle:** $\Phi_B = BA\cos\theta$; plane perpendicular to $\mathbf{B}$ means $\hat{\mathbf n}\parallel\mathbf{B}$, so $\theta = 0^\circ$.
 
-### 4.2 Magnetic Field at the Center of a Circular Current Loop
+**Substitution:**
+$$
+A = \pi r^2 = \pi (0.05\ \text{m})^2 = \pi(2.5\times10^{-3}\ \text{m}^2) = 7.854\times10^{-3}\ \text{m}^2
+$$
+$$
+\Phi_B = BA\cos 0^\circ = (0.2\ \text{T})(7.854\times10^{-3}\ \text{m}^2)(1)
+$$
 
-**Setup:** Circular loop of radius $R$, single turn, current $I$; find field at the center.
+**Algebra:**
+$$
+\Phi_B = 1.571\times10^{-3}\ \text{Wb}
+$$
 
-**Key observation:** For any element $d\vec{l}$ on the loop, the radius $\vec{r}$ to the center is always perpendicular to $d\vec{l}$ (since $r$ is a radius of the circle). Therefore $\theta = 90°$, $\sin\theta = 1$.
+**Unit check:** T·m² = Wb ✓
 
-$$dB = \frac{\mu_0 I}{4\pi} \frac{dl}{R^2}$$
+**Final answer:** $\boxed{\Phi_B \approx 1.57\times10^{-3}\ \text{Wb}}$
 
-All contributions point in the same axial direction (by symmetry). Integrating over the full circle:
-
-$$B = \frac{\mu_0 I}{4\pi R^2} \oint dl = \frac{\mu_0 I}{4\pi R^2} \cdot 2\pi R$$
-
-$$\boxed{B = \frac{\mu_0 I}{2R}}$$
-
-For **N turns:** $B = \dfrac{\mu_0 NI}{2R}$
-
-**Direction:** Right-hand rule — curl fingers in direction of current; thumb points in direction of $\vec{B}$.
-
-```
-  Circular Loop (CCW current viewed from above):
-
-        ↑  B (out of page)
-
-         →→→→→→→
-        ↑         ↓
-        ↑  (loop)  ↓   Current flows CCW
-        ↑         ↓
-         ←←←←←←←
-```
-
----
-
-### 4.3 Magnetic Field on the Axis of a Circular Loop
-
-For a loop of radius $R$ carrying current $I$, the field at axial distance $x$ from the center:
-
-$$B_x = \frac{\mu_0 I R^2}{2(R^2 + x^2)^{3/2}}$$
-
-| Position | Field |
-|:---------|:------|
-| At center ($x = 0$) | $B = \mu_0 I / 2R$ (maximum) |
-| Far away ($x \gg R$) | $B \approx \mu_0 I R^2 / 2x^3$ (dipole field) |
+**Interpretation:** Since the loop's plane is perpendicular to $\mathbf{B}$, every field line that reaches the loop's area passes straight through — this is the maximum possible flux configuration for the given $B$ and $A$.
 
 ---
 
-### 4.4 Magnetic Field Inside a Solenoid (Biot-Savart Approach)
+### Example 2 — Intermediate
 
-A **solenoid** is a tightly wound helical coil. For length $L$, total turns $N$, turns-per-unit-length $n = N/L$, current $I$:
+**Given:** The same loop ($A = 7.854\times10^{-3}\ \text{m}^2$) is tilted so that its plane makes an angle of $60^\circ$ with the field direction, in field $B = 0.2\ \text{T}$.
+**Required:** Flux through the loop.
+**Principle:** $\Phi_B = BA\cos\theta$, where $\theta$ is measured between $\mathbf{B}$ and the *normal* $\hat{\mathbf n}$, not between $\mathbf{B}$ and the plane.
 
-Treating each turn as a loop and integrating (or using Ampere's Law — §5.2):
+**Reasoning:** If the plane makes $60^\circ$ with $\mathbf{B}$, the normal makes $90^\circ - 60^\circ = 30^\circ$ with $\mathbf{B}$.
 
-$$\boxed{B = \mu_0 n I = \frac{\mu_0 N I}{L}}$$
+**Substitution:**
+$$
+\Phi_B = (0.2\ \text{T})(7.854\times10^{-3}\ \text{m}^2)\cos30^\circ
+$$
 
-- Field is **uniform** and **parallel to the axis** inside an ideal (infinite) solenoid
-- Field is **essentially zero** outside
-- This is one of the most important results in classical electromagnetism
+**Algebra:**
+$$
+\Phi_B = (0.2)(7.854\times10^{-3})(0.866) = 1.360\times10^{-3}\ \text{Wb}
+$$
 
-```
-  Solenoid Cross-Section:
+**Final answer:** $\boxed{\Phi_B \approx 1.36\times10^{-3}\ \text{Wb}}$
 
-    ×  ×  ×  ×  ×  ×  ×  ×     (wire going into page: ×)
-    →  →  →  →  →  →  →  →     (uniform B field inside)
-    ·  ·  ·  ·  ·  ·  ·  ·     (wire coming out: ·)
-```
-
----
-
-## 5. Ampère's Circuital Law
-
-### 5.1 Statement
-
-For any closed path (Amperian loop) C in a magnetic field:
-
-$$\boxed{\oint_C \vec{B} \cdot d\vec{l} = \mu_0 I_{\text{enc}}}$$
-
-where $I_{\text{enc}}$ is the total current passing through any surface bounded by C, taking direction into account (right-hand rule determines sign).
-
-This is the magnetic analogue of Gauss's Law for electric fields and is valid for steady (DC) currents.
-
-> **Maxwell's Generalization (for time-varying fields):**
-> $$\oint \vec{B} \cdot d\vec{l} = \mu_0 \left(I_{\text{enc}} + \varepsilon_0 \frac{d\Phi_E}{dt}\right)$$
-> The term $\varepsilon_0 \dfrac{d\Phi_E}{dt}$ is the **displacement current**.
-
-### 5.2 Derivation of Solenoid Field via Ampère's Law
-
-Choose a rectangular Amperian loop ABCD:
-- Side AB (length $l$): inside solenoid, parallel to axis → contributes $Bl$
-- Side CD: outside solenoid, $B \approx 0$ → contributes $0$
-- Sides BC, DA: perpendicular to $\vec{B}$ → $\vec{B} \cdot d\vec{l} = 0$
-
-$$\oint \vec{B} \cdot d\vec{l} = B \cdot l + 0 + 0 + 0 = Bl$$
-
-Total enclosed current: $I_{\text{enc}} = n \cdot l \cdot I$
-
-Applying Ampère's Law:
-$$Bl = \mu_0 n l I \implies \boxed{B = \mu_0 n I} \checkmark$$
-
-```mermaid
-flowchart LR
-    A["Choose closed\nAmperian path C"] --> B["Evaluate ∮ B·dl\nalong the path"]
-    B --> C["Count enclosed\ncurrent I_enc"]
-    C --> D["Apply:\n∮ B·dl = μ₀ I_enc"]
-    D --> E["Solve for B"]
-```
-
-### 5.3 Comparison: Biot-Savart vs Ampère's Law
-
-| Feature | Biot-Savart | Ampère's Law |
-|:--------|:------------|:-------------|
-| Applicable to | Any current distribution | Highly symmetric geometries |
-| Mathematical form | Integral over source | Line integral of B |
-| Best for | Arbitrary wire shapes, loops | Solenoids, toroids, infinite wires |
-| Origin | Empirical (Biot & Savart, 1820) | More general principle (Ampère, 1826) |
+**Interpretation:** This is a common exam trap — always confirm whether the given angle is between $\mathbf{B}$ and the *plane* or between $\mathbf{B}$ and the *normal* before substituting into $\cos\theta$.
 
 ---
 
-## 6. Magnetic Flux
+### Example 3 — Advanced / Exam-Level
 
-### 6.1 Definition
+**Given:** A non-uniform field near a wire varies with distance $x$ from the wire as $B(x) = \dfrac{k}{x}$, where $k$ is a constant. A rectangular loop of length $\ell$ (parallel to the wire) and width $w$ lies in the same plane as the wire, with its near edge a distance $a$ from the wire and its far edge at $a+w$.
+**Required:** Total flux through the loop.
+**Principle:** Because $B$ varies with position, we must integrate: $\Phi_B = \int \mathbf{B}\cdot d\mathbf{A}$, with $d\mathbf{A} = \ell\,dx\,\hat{\mathbf n}$ and $\mathbf{B}\parallel\hat{\mathbf n}$ everywhere in this plane (field perpendicular to the loop's plane by the right-hand rule around the wire).
 
-The **magnetic flux** $\Phi_B$ through a surface $S$ is the total number of magnetic field lines passing through that surface:
+**Setting up the integral:**
+$$
+\Phi_B = \int_a^{a+w} B(x)\,\ell\,dx = \int_a^{a+w} \frac{k}{x}\,\ell\,dx = k\ell\int_a^{a+w}\frac{dx}{x}
+$$
 
-$$\boxed{\Phi_B = \int_S \vec{B} \cdot d\vec{A} = \int_S B\cos\theta\,dA}$$
+**Algebra:**
+$$
+\Phi_B = k\ell\Big[\ln x\Big]_a^{a+w} = k\ell\left(\ln(a+w) - \ln a\right) = k\ell\ln\!\left(\frac{a+w}{a}\right)
+$$
 
-where $\theta$ is the angle between $\vec{B}$ and the outward normal $\hat{n}$ to the area element $d\vec{A}$.
+**Unit check:** $k$ carries units of T·m (so that $k/x$ has units of T); $k\ell$ has units T·m², matching Wb, and the logarithm is dimensionless. ✓
 
-For a **uniform field** over a **flat surface** of area $A$:
+**Final answer:**
+$$
+\boxed{\Phi_B = k\ell\ln\!\left(\frac{a+w}{a}\right)}
+$$
 
-$$\Phi_B = BA\cos\theta$$
+**Interpretation:** This example shows that flux calculations for non-uniform fields require integration over the surface; the simple $BA\cos\theta$ formula only applies when $B$ is constant over the whole area. (This exact setup reappears in Topic 08, Mutual Induction, for a wire–loop system.)
 
-### 6.2 SI Unit: Weber (Wb)
+## Common Mistakes
 
-$$[\Phi_B] = \text{T} \cdot \text{m}^2 = \text{Weber (Wb)} = \text{V} \cdot \text{s}$$
+- ❌ **Mistake:** Confusing $B$ (a field magnitude at a point) with $\Phi_B$ (an integrated quantity over a surface).
+  ✅ **Correct:** $B$ is measured in tesla and exists at every point; $\Phi_B$ is measured in weber and is meaningful only once a specific surface is specified.
 
-### 6.3 Flux in Different Orientations
+- ❌ **Mistake:** Using the angle between $\mathbf{B}$ and the *plane* of the surface directly in $\cos\theta$.
+  ✅ **Correct:** $\theta$ must be measured between $\mathbf{B}$ and the surface's *normal* vector $\hat{\mathbf n}$; convert plane-angles via $\theta_{\text{normal}} = 90^\circ - \theta_{\text{plane}}$.
 
-| Orientation of $\vec{B}$ relative to surface | Flux $\Phi_B$ |
-|:----------------------------------------------|:--------------|
-| Perpendicular to surface ($\theta = 0°$) | $BA$ (maximum) |
-| At angle $\theta$ | $BA\cos\theta$ |
-| Parallel to surface ($\theta = 90°$) | $0$ |
-| Anti-perpendicular ($\theta = 180°$) | $-BA$ (minimum) |
+- ❌ **Mistake:** Assuming flux is always positive.
+  ✅ **Correct:** Flux is a signed scalar; its sign depends on the chosen direction of $\hat{\mathbf n}$ relative to $\mathbf{B}$.
 
-```
-  Flux Dependence on Angle:
+- ❌ **Mistake:** Applying $\Phi_B = BA\cos\theta$ to a non-uniform field without integrating.
+  ✅ **Correct:** For non-uniform $B$, flux requires $\Phi_B = \int\mathbf{B}\cdot d\mathbf{A}$; $BA\cos\theta$ is valid only when $B$ is uniform over the entire surface.
 
-  θ=0° (⊥ to surface):     θ=45°:        θ=90° (∥ to surface):
-  ↓↓↓↓↓                   ↓↓↓↓↓              → → → →
-  ═══════                  ╱╱╱╱╱╱              ═══════
-  Φ = BA (max)             Φ = BA/√2           Φ = 0
-```
+## Practice Problems
 
----
+1. **Conceptual:** Explain why a compass needle aligns with $\mathbf{B}$ rather than being pushed sideways, even though the defining force law involves a cross product.
+2. **Short derivation:** Starting from $\Phi_B = \int\mathbf{B}\cdot d\mathbf{A}$, show that the flux through *any* closed surface in a magnetic field is zero (Gauss's law for magnetism), given that magnetic field lines have no beginning or end.
+3. **Numerical:** A square loop of side $10\ \text{cm}$ sits in a uniform field of $0.5\ \text{T}$ directed at $40^\circ$ to the loop's normal. Find the flux.
+   <details>
+   <summary>Solution</summary>
 
-## 7. Gauss's Law for Magnetism
+   Step 1: $A = (0.10\ \text{m})^2 = 0.01\ \text{m}^2$.
 
-$$\boxed{\oint_S \vec{B} \cdot d\vec{A} = 0}$$
+   Step 2: $\Phi_B = BA\cos\theta = (0.5)(0.01)\cos 40^\circ$.
 
-**Physical meaning:** The net magnetic flux through **any closed surface** is always zero.
+   $$
+   \Phi_B = (0.5)(0.01)(0.766) = 3.83\times10^{-3}\ \text{Wb}
+   $$
 
-This fundamental law implies:
-1. **No magnetic monopoles exist** — there is no isolated source or sink of magnetic field lines
-2. Every field line that enters a closed surface must also exit it
-3. Magnetic field lines are always closed loops
+   **Answer:** $\Phi_B \approx 3.83\times10^{-3}\ \text{Wb}$
+   </details>
 
-> **Contrast with Gauss's Law for electricity:**
-> $$\oint_S \vec{E} \cdot d\vec{A} = \frac{Q_{\text{enc}}}{\varepsilon_0} \neq 0$$
-> Electric field lines can start and end on charges (monopoles of electric charge exist). Magnetic monopoles have never been observed.
+4. **Vector/direction:** A loop's normal points in the $+z$ direction. A field $\mathbf{B} = 0.3\hat{\mathbf x} + 0.4\hat{\mathbf z}\ \text{T}$ exists. If the loop has area $2\times10^{-2}\ \text{m}^2$, find the flux, explaining why the $x$-component contributes nothing.
+   <details>
+   <summary>Solution</summary>
 
----
+   Step 1: $\Phi_B = \mathbf{B}\cdot\mathbf{A} = \mathbf{B}\cdot(A\hat{\mathbf z})$.
 
-## 8. Worked Examples
+   Step 2: Only the $z$-component of $\mathbf{B}$ has a nonzero dot product with $\hat{\mathbf z}$; the $x$-component is perpendicular to $\hat{\mathbf z}$ and contributes zero (its projection onto $\hat{\mathbf z}$ is zero).
 
-### Example 1 — Long Straight Wire
+   $$
+   \Phi_B = (0.4\ \text{T})(2\times10^{-2}\ \text{m}^2) = 8\times10^{-3}\ \text{Wb}
+   $$
 
-**Problem:** A long straight wire carries a current of 15 A. Calculate the magnetic field at a perpendicular distance of (a) 2 cm and (b) 10 cm from the wire.
+   **Answer:** $\Phi_B = 8\times10^{-3}\ \text{Wb}$; the $x$-component of $\mathbf{B}$ lies entirely within the loop's plane and produces no flux.
+   </details>
 
-**Solution:**
+5. **Exam-style, multi-step (no scaffolding):** A coil of $N = 50$ turns, each of area $4\times10^{-3}\ \text{m}^2$, is rotated in a uniform field $B = 0.15\ \text{T}$ so that the angle between the normal and the field changes from $0^\circ$ to $90^\circ$ in $0.2\ \text{s}$ at a constant rate. Determine the total flux linkage ($N\Phi_B$) at $t=0$ and at $t=0.2\ \text{s}$.
+   <details>
+   <summary>Solution</summary>
 
-$$B = \frac{\mu_0 I}{2\pi R}, \quad \mu_0 = 4\pi \times 10^{-7} \text{ T·m/A}$$
+   Step 1: At $t=0$, $\theta = 0^\circ$: $\Phi_B = BA\cos0^\circ = (0.15)(4\times10^{-3})(1) = 6\times10^{-4}\ \text{Wb}$.
 
-**(a)** $R = 0.02$ m:
+   Step 2: Flux linkage $= N\Phi_B = 50\times6\times10^{-4} = 3.0\times10^{-2}\ \text{Wb-turns}$.
 
-$$B = \frac{(4\pi \times 10^{-7})(15)}{2\pi (0.02)} = \frac{4\pi \times 10^{-7} \times 15}{2\pi \times 0.02} = \frac{2 \times 15 \times 10^{-7}}{0.02}$$
+   Step 3: At $t = 0.2\ \text{s}$, $\theta = 90^\circ$: $\Phi_B = BA\cos90^\circ = 0$.
 
-$$\boxed{B_a = 1.5 \times 10^{-4} \text{ T} = 150 \text{ μT}}$$
+   Step 4: Flux linkage $= N\Phi_B = 0$.
 
-**(b)** $R = 0.10$ m:
+   **Answer:** Flux linkage drops from $3.0\times10^{-2}\ \text{Wb}$ to $0\ \text{Wb}$ over the interval. (This scenario is the physical basis of an AC generator — see Topic 05.)
+   </details>
 
-$$B = \frac{2 \times 10^{-7} \times 15}{0.10} = \boxed{3.0 \times 10^{-5} \text{ T} = 30 \text{ μT}}$$
+## Summary
 
-> **Check:** Field falls off as $1/R$: doubling $R$ from 5 cm gives half the field ✓
+| Concept | Key Result | Condition / Limit |
+|---|---|---|
+| Magnetic flux density | $\mathbf{F}=q\mathbf{v}\times\mathbf{B}$ defines $\mathbf{B}$ | General |
+| Flux (uniform field) | $\Phi_B = BA\cos\theta$ | $B$ constant over flat surface |
+| Flux (general) | $\Phi_B = \int\mathbf{B}\cdot d\mathbf{A}$ | Any field, any surface |
+| Maximum flux | $\theta=0^\circ \Rightarrow \Phi_B = BA$ | $\mathbf{B}\parallel\hat{\mathbf n}$ |
+| Zero flux | $\theta=90^\circ \Rightarrow \Phi_B = 0$ | $\mathbf{B}\perp\hat{\mathbf n}$ |
+| Unit | $1\ \text{Wb} = 1\ \text{T}\cdot\text{m}^2$ | SI |
 
----
-
-### Example 2 — Multi-Turn Circular Coil
-
-**Problem:** A circular coil of radius 6 cm has 80 turns and carries a current of 1.5 A. Find the magnetic field at the center.
-
-**Solution:**
-
-$R = 0.06$ m, $N = 80$, $I = 1.5$ A
-
-$$B = \frac{\mu_0 NI}{2R} = \frac{(4\pi \times 10^{-7})(80)(1.5)}{2(0.06)}$$
-
-$$B = \frac{4\pi \times 10^{-7} \times 120}{0.12} = \frac{4\pi \times 10^{-5}}{0.12} = \frac{4 \times 3.1416 \times 10^{-5}}{0.12}$$
-
-$$\boxed{B \approx 1.257 \times 10^{-3} \text{ T} \approx 1.26 \text{ mT}}$$
-
----
-
-### Example 3 — Solenoid Field
-
-**Problem:** A solenoid is 25 cm long with 500 turns and carries a current of 4 A. Find the magnetic field inside.
-
-**Solution:**
-
-$L = 0.25$ m, $N = 500$, $I = 4$ A
-
-$$n = \frac{N}{L} = \frac{500}{0.25} = 2000 \text{ turns/m}$$
-
-$$B = \mu_0 nI = (4\pi \times 10^{-7})(2000)(4) = 4\pi \times 10^{-7} \times 8000$$
-
-$$B = 32\pi \times 10^{-4} = 32 \times 3.1416 \times 10^{-4}$$
-
-$$\boxed{B \approx 1.005 \times 10^{-2} \text{ T} \approx 10.05 \text{ mT}}$$
-
----
-
-### Example 4 — Magnetic Flux Through a Tilted Surface
-
-**Problem:** A uniform magnetic field of 0.5 T exists in a region. A rectangular loop of dimensions 4 cm × 6 cm is placed so that the normal to its surface makes an angle of 30° with $\vec{B}$. Find the flux through the loop.
-
-**Solution:**
-
-$B = 0.5$ T, $A = 0.04 \times 0.06 = 2.4 \times 10^{-3}$ m², $\theta = 30°$
-
-$$\Phi_B = BA\cos\theta = (0.5)(2.4 \times 10^{-3})\cos 30°$$
-
-$$\Phi_B = 1.2 \times 10^{-3} \times \frac{\sqrt{3}}{2} = 1.2 \times 10^{-3} \times 0.866$$
-
-$$\boxed{\Phi_B \approx 1.04 \times 10^{-3} \text{ Wb} = 1.04 \text{ mWb}}$$
-
----
-
-## 9. Summary of Formulas
-
-| Configuration | Formula | Conditions |
-|:--------------|:--------|:-----------|
-| Biot-Savart element | $dB = \dfrac{\mu_0 I\,dl\sin\theta}{4\pi r^2}$ | General |
-| Infinite straight wire | $B = \dfrac{\mu_0 I}{2\pi R}$ | At perp. distance $R$ |
-| Center of N-turn loop | $B = \dfrac{\mu_0 NI}{2R}$ | At center |
-| Axial point of loop | $B = \dfrac{\mu_0 IR^2}{2(R^2+x^2)^{3/2}}$ | On axis at distance $x$ |
-| Solenoid (inside) | $B = \mu_0 nI$ | Ideal infinite solenoid |
-| Ampere's Law | $\oint \vec{B} \cdot d\vec{l} = \mu_0 I_{\text{enc}}$ | Any closed Amperian loop |
-| Magnetic flux | $\Phi_B = BA\cos\theta$ | Uniform field, flat surface |
-| Gauss's Law (mag.) | $\oint \vec{B} \cdot d\vec{A} = 0$ | Any closed surface |
-
----
-
-## 10. References
-
-1. Halliday, Resnick & Krane — *Physics*, Vol. 2, Chapters 29–30
-2. Griffiths, D.J. — *Introduction to Electrodynamics*, 4th Ed., §5.2–5.4
-3. **HyperPhysics** — [Biot-Savart Law](http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/biosav.html)
-4. **HyperPhysics** — [Ampere's Law](http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/amplaw.html)
-5. **Khan Academy** — [Magnetic field created by a current](https://www.khanacademy.org/science/physics/magnetic-forces-and-magnetic-fields/magnetic-field-current-carrying-wire/a/magnetic-field-created-by-a-current-carrying-wire-review)
-6. **MIT OCW 8.02** — [Lecture 9: Ampere's Law](https://ocw.mit.edu/courses/8-02-physics-ii-electricity-and-magnetism-spring-2019/pages/lecture-notes/)
-7. **LibreTexts Physics** — [Biot-Savart Law](https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/12%3A_Sources_of_Magnetic_Fields/12.02%3A_The_Biot-Savart_Law)
-8. **Wikipedia** — [Magnetic field](https://en.wikipedia.org/wiki/Magnetic_field) · [Biot–Savart law](https://en.wikipedia.org/wiki/Biot%E2%80%93Savart_law) · [Ampere's circuital law](https://en.wikipedia.org/wiki/Amp%C3%A8re%27s_circuital_law)
-9. **Wikimedia Commons** — [Biot-Savart Example](https://commons.wikimedia.org/wiki/File:Biot-Savart_law_force_diagram.svg) · [Solenoid field](https://commons.wikimedia.org/wiki/File:Solenoid.svg)
-10. **NPTEL** — [Magnetic Field and Biot-Savart Law (Video)](https://nptel.ac.in/courses/108/105/108105083/)
-
----
-
-*← [Back to Magnetism README](README.md) · [Next Topic: Magnetic Force on Conductor →](02_magnetic_force_conductor.md)*
+Magnetic flux is the foundation for both the force laws (Topics 02–04, which describe how $\mathbf{B}$ acts on currents) and for electromagnetic induction (Topics 05–08, which describe how a *changing* $\Phi_B$ generates an emf).
