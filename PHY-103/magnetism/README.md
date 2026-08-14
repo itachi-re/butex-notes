@@ -1,99 +1,117 @@
-# ⚡ PHY-103 — Magnetism
+# Magnetism — PHY-103 (Physics–II)
 
-> **Course:** PHY-103 · Physics II
-> **Department:** Textile Engineering, BUTEX
-> **Module:** Magnetism (Complete Syllabus Coverage)
-> **Last Updated:** 2026-06-04
-> **Maintainer:** [itachi-re](https://github.com/itachi-re)
+**Course:** PHY-103, Physics–II · **Credit:** 3 · **Total Hours:** 45 · **Unit:** Magnetism (13 topics)
+
+This unit builds a complete picture of magnetism, in the exact syllabus order: from the basic definition of the magnetic field, through forces and torques, through electromagnetic induction, through the classification and hysteretic behavior of magnetic materials, and finally to the oscillatory dynamics of LC circuits and their analogy with simple harmonic motion.
 
 ---
 
-## 📌 About This Module
+## Topic Index
 
-This module covers the complete **Magnetism** portion of the PHY-103 (Physics II) syllabus at BUTEX. Topics span fundamental magnetic induction, force laws, electromagnetic induction, self and mutual inductance, magnetic material classification, hysteresis, and LC oscillations.
-
-Each topic file includes:
-- Precise definitions and physical intuition
-- Step-by-step mathematical derivations and proofs
-- Worked numerical examples
-- Diagrams, visual aids, and Mermaid charts
-- Curated online references for further study
-
----
-
-## 📋 Official Syllabus
-
-> *Magnetism: Magnetic Induction, Magnetic force on a current carrying conductor,
-> Torque on a current carrying loop, Hall effect. Faraday's law of electromagnetic induction,
-> Lenz's law of self induction. Mutual induction, Classification of magnetic materials,
-> Hysteresis curve, Electromagnetic Oscillation, L-C oscillations & its analogy to simple
-> harmonic motion.*
+| # | File | Topic |
+|---|---|---|
+| 01 | [01_magnetic_induction.md](01_magnetic_induction.md) | Magnetic Induction |
+| 02 | [02_magnetic_force_on_current_carrying_conductor.md](02_magnetic_force_on_current_carrying_conductor.md) | Magnetic Force on a Current-Carrying Conductor |
+| 03 | [03_torque_on_current_carrying_loop.md](03_torque_on_current_carrying_loop.md) | Torque on a Current-Carrying Loop |
+| 04 | [04_hall_effect.md](04_hall_effect.md) | Hall Effect |
+| 05 | [05_faradays_law.md](05_faradays_law.md) | Faraday's Law of Electromagnetic Induction |
+| 06 | [06_lenzs_law.md](06_lenzs_law.md) | Lenz's Law |
+| 07 | [07_self_induction.md](07_self_induction.md) | Self-Induction |
+| 08 | [08_mutual_induction.md](08_mutual_induction.md) | Mutual Induction |
+| 09 | [09_classification_of_magnetic_materials.md](09_classification_of_magnetic_materials.md) | Classification of Magnetic Materials |
+| 10 | [10_hysteresis_curve.md](10_hysteresis_curve.md) | Hysteresis Curve |
+| 11 | [11_electromagnetic_oscillation.md](11_electromagnetic_oscillation.md) | Electromagnetic Oscillation |
+| 12 | [12_lc_oscillations.md](12_lc_oscillations.md) | L-C Oscillations |
+| 13 | [13_lc_oscillation_shm_analogy.md](13_lc_oscillation_shm_analogy.md) | Analogy of L-C Oscillations with SHM |
 
 ---
 
-## 📚 Topic Index
+## Prerequisite / Conceptual-Flow Diagram
 
-| # | Topic | File | Key Concepts |
-|:--|:------|:-----|:-------------|
-| 01 | Magnetic Induction | [01_magnetic_induction.md](01_magnetic_induction.md) | B-field · Biot-Savart · Ampere's Law · Magnetic Flux |
-| 02 | Magnetic Force on a Conductor | [02_magnetic_force_conductor.md](02_magnetic_force_conductor.md) | Lorentz Force · F = BIL · Parallel Conductors · Ampere def. |
-| 03 | Torque on a Current Loop | [03_torque_current_loop.md](03_torque_current_loop.md) | Magnetic Moment · τ = m×B · Galvanometer |
-| 04 | Hall Effect | [04_hall_effect.md](04_hall_effect.md) | Hall Voltage · Hall Coefficient · Carrier Type |
-| 05 | Faraday's Law of EMI | [05_faradays_law.md](05_faradays_law.md) | ε = −dΦ/dt · Motional EMF · AC Generator |
-| 06 | Lenz's Law & Self Induction | [06_lenz_self_induction.md](06_lenz_self_induction.md) | Conservation · Self-Inductance L · Energy ½LI² |
-| 07 | Mutual Induction | [07_mutual_induction.md](07_mutual_induction.md) | Mutual Inductance M · Coupling · Transformer |
-| 08 | Classification of Magnetic Materials | [08_magnetic_materials.md](08_magnetic_materials.md) | Diamagnetic · Paramagnetic · Ferromagnetic · Curie Law |
-| 09 | Hysteresis Curve | [09_hysteresis_curve.md](09_hysteresis_curve.md) | B-H Loop · Retentivity · Coercivity · Loss |
-| 10 | EM Oscillation & L-C Circuits | [10_lc_oscillations.md](10_lc_oscillations.md) | ω = 1/√(LC) · SHM Analogy · RLC Damping |
+```mermaid
+graph LR
+    A[Magnetic Induction]
+    B[Magnetic Force]
+    C[Torque on Current Loop]
+    D[Hall Effect]
+    E["Faraday's Law"]
+    F["Lenz's Law"]
+    G[Self-Induction]
+    H[Mutual Induction]
+    I[Magnetic Materials]
+    J[Hysteresis]
+    K[Electromagnetic Oscillation]
+    L[LC Oscillations]
+    M[LC-SHM Analogy]
 
----
-
-## 🔢 Quick Formula Reference
-
-### Magnetic Force Laws
-$$\vec{F} = q(\vec{v} \times \vec{B}), \qquad \vec{F} = I(\vec{L} \times \vec{B}) = BIL\sin\theta$$
-
-### Field Configurations (Biot-Savart)
-$$B_{\text{wire}} = \frac{\mu_0 I}{2\pi R}, \qquad B_{\text{loop center}} = \frac{\mu_0 NI}{2R}, \qquad B_{\text{solenoid}} = \mu_0 nI$$
-
-### Torque and Hall Effect
-$$\vec{\tau} = \vec{m} \times \vec{B} = NIAB\sin\theta, \qquad V_H = \frac{IB}{nqt}$$
-
-### Electromagnetic Induction
-$$\varepsilon = -\frac{d\Phi_B}{dt}, \qquad \varepsilon = -L\frac{dI}{dt}, \qquad \varepsilon_2 = -M\frac{dI_1}{dt}$$
-
-### Inductances
-$$L_{\text{solenoid}} = \frac{\mu_0 N^2 A}{l}, \qquad M_{12} = \frac{\mu_0 N_1 N_2 A}{l}, \qquad U_L = \frac{1}{2}LI^2$$
-
-### LC Oscillations
-$$\omega_0 = \frac{1}{\sqrt{LC}}, \qquad f_0 = \frac{1}{2\pi\sqrt{LC}}, \qquad q(t) = Q_0\cos(\omega_0 t + \phi)$$
+    A --> B
+    B --> C
+    B --> D
+    A --> E
+    E --> F
+    E --> G
+    G --> H
+    I --> J
+    G --> K
+    H --> K
+    K --> L
+    L --> M
+```
 
 ---
 
-## 📐 Key Constants
+## Formula Cheat Sheet
 
-| Constant | Symbol | Value |
-|:---------|:-------|:------|
-| Permeability of free space | $\mu_0$ | $4\pi \times 10^{-7}$ T·m/A |
-| Permittivity of free space | $\varepsilon_0$ | $8.854 \times 10^{-12}$ F/m |
-| Elementary charge | $e$ | $1.602 \times 10^{-19}$ C |
-| Speed of light | $c$ | $3 \times 10^8$ m/s |
-
----
-
-## 📖 Core Textbooks and References
-
-1. **Halliday, Resnick & Krane** — *Physics*, Vol. 2, Chapters 29–35
-2. **Serway & Jewett** — *Physics for Scientists and Engineers*, 8th Ed., Chapters 29–33
-3. **Griffiths, D.J.** — *Introduction to Electrodynamics*, 4th Ed., Chapters 5–7
-4. **Young & Freedman** — *University Physics*, 14th Ed.
-5. **HyperPhysics** — [Electricity and Magnetism](http://hyperphysics.phy-astr.gsu.edu/hbase/emcon.html)
-6. **Khan Academy** — [Magnetic forces and fields](https://www.khanacademy.org/science/physics/magnetic-forces-and-magnetic-fields)
-7. **MIT OCW 8.02** — [Electricity and Magnetism](https://ocw.mit.edu/courses/8-02-physics-ii-electricity-and-magnetism-spring-2019/)
-8. **LibreTexts Physics** — [University Physics II — OpenStax](https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax))
-9. **Paul's Online Notes** — [Electromagnetic Induction](https://tutorial.math.lamar.edu/)
-10. **NPTEL Lectures** — [Basic Electromagnetics](https://nptel.ac.in/courses/108/105/108105083/)
+| Topic | Key Formula |
+|---|---|
+| Magnetic Induction | $\Phi_B = BA\cos\theta$; $\mathbf F = q\mathbf v\times\mathbf B$ |
+| Force on Conductor | $\mathbf F = I\mathbf L\times\mathbf B$ |
+| Torque on Loop | $\boldsymbol\tau = \mathbf m\times\mathbf B$, $\tau=mB\sin\theta$, $m=NIA$ |
+| Hall Effect | $V_H = IB/(nqt)$, $R_H=1/(nq)$ |
+| Faraday's Law | $\mathcal E = -N\,d\Phi_B/dt$ |
+| Lenz's Law | Direction: induced current opposes $d\Phi_B/dt$ |
+| Self-Induction | $\mathcal E=-L\,dI/dt$; $U=\frac12LI^2$ |
+| Mutual Induction | $\mathcal E_2=-M\,dI_1/dt$; $M=k\sqrt{L_1L_2}$ |
+| Magnetic Materials | $\mathbf M=\chi\mathbf H$; $\mu_r=1+\chi$ |
+| Hysteresis | Loop area $=\oint H\,dB$ = energy loss/volume/cycle |
+| LC Oscillations | $\ddot q + \dfrac1{LC}q=0$; $\omega=1/\sqrt{LC}$; $T=2\pi\sqrt{LC}$ |
+| LC–SHM Analogy | $x\leftrightarrow q$, $m\leftrightarrow L$, $k\leftrightarrow1/C$ |
 
 ---
 
-*← [Back to PHY-103](../README.md) · [Back to Repository Root](../../README.md)*
+## Notation Conventions
+
+| Symbol | Meaning |
+|---|---|
+| $\mathbf B$ | Magnetic induction / flux density (vector), tesla |
+| $\Phi_B$ | Magnetic flux, weber |
+| $\mathcal E$ | Induced emf, volt |
+| $L$ | Self-inductance, henry |
+| $M$ | Mutual inductance, henry |
+| $I$ | Current, ampere |
+| $q$ | Charge (Hall effect, LC context), coulomb |
+| $\omega$ | Angular frequency, rad/s |
+| $T$ | Period, seconds |
+| $\mathbf m$ | Magnetic dipole moment, A·m² |
+| $\tau$ | Torque, N·m |
+| $\chi$, $\mu_r$ | Magnetic susceptibility, relative permeability (dimensionless) |
+
+Bold symbols ($\mathbf B$, $\mathbf F$, $\mathbf L$, $\mathbf m$, $\boldsymbol\tau$) denote vector quantities; non-bold symbols with the same letter (e.g. $B$, $F$) denote their magnitudes.
+
+---
+
+## Important Vector Rules
+
+- **Right-hand rule (force):** for $\mathbf F=q\mathbf v\times\mathbf B$ or $\mathbf F=I\mathbf L\times\mathbf B$ — point fingers along $\mathbf v$ (or $\mathbf L$/current direction), curl toward $\mathbf B$; thumb gives $\mathbf F$ (for positive charge/conventional current).
+- **Right-hand rule (dipole moment):** curl fingers along the current's circulation direction around a loop; thumb gives $\mathbf m$.
+- **Cross-product magnitude:** $|\mathbf A\times\mathbf B|=AB\sin\theta$; zero at $\theta=0^\circ,180^\circ$; maximum at $\theta=90^\circ$.
+- **Lenz's law direction check:** always identify what flux is doing (increasing/decreasing), then determine which current direction *opposes* that specific change — never assume opposition to the field itself.
+
+---
+
+## Important Exam Warnings
+
+- Always distinguish the angle used in $\Phi_B=BA\cos\theta$ (between $\mathbf B$ and the surface **normal**) from the angle used in $\tau=mB\sin\theta$ (also between $\mathbf m$/normal and $\mathbf B$, but appearing as $\sin$, not $\cos$) — a very common source of exam errors.
+- Never drop the negative sign in Faraday's/self-induction formulas when explaining direction/physical meaning, even though magnitude calculations often use $|\mathcal E|$.
+- Retentivity ($B_r$, tesla) and coercivity ($H_c$, A/m) are frequently confused — check units to verify which is being asked for.
+- In LC problems, always take the square root when solving for $\omega$ from $\omega^2=1/LC$.
