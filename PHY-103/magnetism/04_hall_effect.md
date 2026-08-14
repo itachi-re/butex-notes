@@ -1,349 +1,300 @@
-# 🔬 Topic 04 — Hall Effect
+# 04. Hall Effect
 
-> **Course:** PHY-103 · Physics II | **Dept:** Textile Engineering, BUTEX
-> **Topics:** Hall Voltage · Hall Coefficient · Carrier Type Determination · Applications
-> **Date:** 2026-06-04
-
----
-
-## Table of Contents
-
-1. [Introduction and Discovery](#1-introduction-and-discovery)
-2. [Physical Mechanism](#2-physical-mechanism)
-3. [Derivation of Hall Voltage](#3-derivation-of-hall-voltage)
-4. [Hall Coefficient](#4-hall-coefficient)
-5. [Sign of Hall Coefficient — Carrier Type](#5-sign-of-hall-coefficient--carrier-type)
-6. [Hall Angle](#6-hall-angle)
-7. [Quantum Hall Effect (Overview)](#7-quantum-hall-effect-overview)
-8. [Applications of Hall Effect](#8-applications-of-hall-effect)
-9. [Worked Examples](#9-worked-examples)
-10. [Summary of Formulas](#10-summary-of-formulas)
-11. [References](#11-references)
+**Course:** PHY-103 (Physics–II) · **Unit:** Magnetism
+**Prerequisite:** Magnetic Force on a Current-Carrying Conductor (Topic 02)
+**Leads to:** (independent branch) — feeds practical understanding used throughout Topics 05–08
 
 ---
 
-## 1. Introduction and Discovery
+## A. Physical Idea
 
-The **Hall Effect** was discovered by **Edwin Herbert Hall** in 1879 while working on his doctoral thesis at Johns Hopkins University. He placed a thin gold strip carrying a current in a magnetic field and observed a small voltage perpendicular to both the current and the magnetic field.
+When a current-carrying conductor is placed in a magnetic field perpendicular to the current, the moving charge carriers feel a sideways magnetic (Lorentz) force, in addition to drifting along the wire under the applied electric field. This sideways force pushes carriers toward one edge of the conductor, building up a charge imbalance across its width. That imbalance creates a transverse electric field which, in steady state, exactly balances the magnetic force — and a measurable transverse voltage, the **Hall voltage**, appears across the conductor. This phenomenon, discovered by Edwin Hall in 1879, is called the **Hall effect**.
 
-This effect provides a unique method to:
-- Determine the **sign** (type: n or p) of charge carriers in a material
-- Measure **carrier concentration** $n$
-- Measure **magnetic field strength** $B$
+The Hall effect is physically important because it is one of the few direct experimental methods that reveals the **sign** of the charge carriers (positive or negative) responsible for current flow in a material — information that current magnitude and direction alone cannot provide.
 
-> 🏛️ **Edwin Hall (1855–1938):** American physicist who discovered the effect at age 24. The practical applications of his discovery only became widespread a century later with semiconductor technology.
+## B. Definition
 
----
+**Hall effect:** the development of a transverse potential difference across a current-carrying conductor when it is placed in a magnetic field perpendicular to the current, due to the magnetic deflection of charge carriers.
 
-## 2. Physical Mechanism
+> Plain-English: run current through a flat strip, apply a magnetic field through its face, and a small sideways voltage appears across the strip's edges — measuring it tells you how many carriers are moving and whether they're positive or negative.
 
-### 2.1 Setup
+**Hall coefficient ($R_H$):** a material property relating the Hall electric field to the current density and magnetic field, $R_H = \dfrac{E_H}{J B}$, and equivalently $R_H = \dfrac{1}{nq}$.
 
-Consider a thin rectangular conductor (or semiconductor) of:
-- Width $w$ (in the y-direction)
-- Thickness $t$ (in the z-direction)
-- Carrying current $I$ in the **+x direction**
-- Placed in a magnetic field $\vec{B}$ in the **+z direction**
+> Plain-English: it's a number that depends only on the material (specifically on how many charge carriers per unit volume it has, and their sign), not on the applied field or current.
 
-```
-  Hall Effect Setup — 3D View:
+## C. Governing Equation
 
-           B ↑ (z-direction)
-           |
-    ←←←←←←|←←←←←←   ← width w
-    ·  ·  ·|·  ·  ·
-    → → → →|→ → → →   → current I (+x)
-    ·  ·  ·|·  ·  ·
-    ←←←←←←|←←←←←←
-           |
-           t (thickness in z)
+At equilibrium, the transverse (Hall) electric force balances the magnetic force on the carriers:
+$$
+qE_H = qv_dB \quad\Rightarrow\quad E_H = v_dB
+$$
 
-    Hall voltage V_H builds up in y-direction
-    (+ face: bottom for electrons, top for holes)
-```
+The Hall voltage across a conductor of width (thickness in the field direction) $t$:
+$$
+V_H = E_H\,t = v_dBt
+$$
 
-### 2.2 Force on Charge Carriers
+The Hall coefficient:
+$$
+R_H = \frac{1}{nq}
+$$
 
-**For electrons** (moving in **−x direction** since conventional current is +x):
+| Symbol | Meaning |
+|---|---|
+| $E_H$ | transverse (Hall) electric field (V/m) |
+| $v_d$ | drift velocity of charge carriers (m/s) |
+| $B$ | applied magnetic flux density (T), perpendicular to current |
+| $V_H$ | Hall voltage (V) |
+| $t$ | thickness of the sample along the direction $\mathbf B$ acts across (m) |
+| $n$ | number density of charge carriers (m⁻³) |
+| $q$ | charge of a single carrier (C), sign included |
+| $R_H$ | Hall coefficient (m³/C) |
+| $J$ | current density (A/m²) |
 
-The magnetic force on electrons:
-$$\vec{F} = q_e\vec{v}_e \times \vec{B} = (-e)(-v_d\hat{x}) \times (B\hat{z}) = ev_d B(\hat{x} \times \hat{z}) = ev_d B(-\hat{y}) = -ev_dB\hat{y}$$
+## D. Derivation: Hall Coefficient
 
-This means electrons are deflected in the **−y direction** (downward), accumulating at the bottom face. This creates a **Hall electric field** $\vec{E}_H$ pointing in the **−y direction** (from bottom to top, since electrons are negative and they pile up at bottom).
+Consider a rectangular conducting slab of width $w$, thickness $t$, carrying current $I$ along its length ($x$-direction), with a magnetic field $B$ applied along $z$ (perpendicular to the flat face). Let the charge carriers have charge $q$ (sign unknown a priori) and drift velocity $v_d$ along $x$.
 
-**Convention check:**
+**Step 1 — Magnetic force on a carrier.** Each carrier experiences a Lorentz force
+$$
+\mathbf F_B = q\,\mathbf v_d\times\mathbf B
+$$
+With $\mathbf v_d = v_d\hat{\mathbf x}$ and $\mathbf B = B\hat{\mathbf z}$:
+$$
+\mathbf F_B = qv_dB(\hat{\mathbf x}\times\hat{\mathbf z}) = qv_dB(-\hat{\mathbf y}) = -qv_dB\,\hat{\mathbf y}
+$$
+This force pushes carriers toward one edge of the slab (the $-y$ or $+y$ edge, depending on the sign of $q$).
 
-```
-  n-type (electrons):                p-type (holes):
-  
-   V_H = − (top is −)               V_H = + (top is +)
-    ── ── ──                          ++ ++ ++
-    → → → → → I                      → → → → → I
-    ++ ++ ++                          ── ── ──
-   (electrons go down)               (holes go down)
-   B out of page (⊙)                 B out of page (⊙)
-```
+**Step 2 — Charge accumulation and the Hall field.** As carriers accumulate on one edge, that edge becomes charged (positively or negatively depending on carrier sign), and the opposite edge becomes oppositely charged. This separation of charge creates a transverse electric field $\mathbf E_H = E_H\hat{\mathbf y}$ (or $-\hat{\mathbf y}$) that opposes further accumulation.
 
----
+**Step 3 — Equilibrium condition.** In steady state, no further net transverse motion occurs, meaning the net transverse force on a carrier is zero:
+$$
+qE_H + (-qv_dB) = 0 \quad\Rightarrow\quad qE_H = qv_dB \quad\Rightarrow\quad E_H = v_dB
+$$
+(The $q$ cancels because both the electric and magnetic transverse forces are proportional to $q$; note however that the *direction* in which the field builds up — hence the *sign* of the measured Hall voltage for a given current and field direction — does depend on the sign of $q$, which is the key diagnostic feature of this effect.)
 
-## 3. Derivation of Hall Voltage
+**Step 4 — Hall voltage.** The transverse field, integrated across the width $w$ of the sample (the direction in which the field points), gives the Hall voltage:
+$$
+V_H = E_H\,w = v_dBw
+$$
+(Different textbooks label the "width" over which $V_H$ is measured differently depending on geometry; here $w$ is the dimension across which the carriers separate and the field is applied along $z$.)
 
-### 3.1 Equilibrium Condition
+**Step 5 — Express $v_d$ in terms of measurable quantities.** From the microscopic current relation $I = nqv_dA_{cross}$, where $A_{cross} = wt$ is the cross-sectional area perpendicular to current flow:
+$$
+v_d = \frac{I}{nqwt}
+$$
 
-Initially, charge carriers are deflected sideways, building up charge on one face. This charge buildup creates a **Hall electric field** $E_H$ opposing further deflection.
+**Step 6 — Substitute into $V_H$:**
+$$
+V_H = \left(\frac{I}{nqwt}\right)Bw = \frac{IB}{nqt}
+$$
 
-**Equilibrium** is reached when the Hall electric force exactly balances the magnetic force:
+**Step 7 — Define the Hall coefficient.** Rearranging:
+$$
+V_H = \frac{IB}{nqt} = R_H\frac{IB}{t}, \qquad\text{where}\qquad \boxed{R_H = \frac{1}{nq}}
+$$
 
-$$\text{Electric force} = \text{Magnetic force}$$
+**What must be memorized:** $V_H = \dfrac{IB}{nqt}$ and $R_H = \dfrac{1}{nq}$.
+**What must be understood:** the *sign* of $V_H$ (i.e., which face becomes positive) directly reveals the sign of $q$; the *magnitude* of $R_H$ reveals the carrier density $n$.
 
-$$qE_H = qv_d B$$
+## E. Vector Analysis
 
-$$\boxed{E_H = v_d B}$$
+- Current $\mathbf I$, field $\mathbf B$, and the resulting deflection are mutually perpendicular — this is a cross-product ($\mathbf v_d\times\mathbf B$) effect, so:
+$$
+|\mathbf F_B| = qv_dB\sin\theta
+$$
+with the Hall effect conventionally studied at $\theta=90^\circ$ (field perpendicular to current), giving maximum deflection.
+- **Determining carrier sign:** for a *given* current direction and a *given* field direction, positive carriers (drifting in the direction of conventional current) and negative carriers (drifting opposite to conventional current) are deflected toward **opposite edges** of the sample — because both $q$ and $\mathbf v_d$ flip sign together for negative carriers relative to positive ones for the *same* conventional current direction, but the magnetic force $q\mathbf v\times\mathbf B$ depends on the product, so the deflection direction differs. Measuring which edge becomes positively charged (via the sign of $V_H$) identifies whether the dominant carriers are electrons (as in ordinary metals) or holes (as in many semiconductors).
 
-### 3.2 Current–Velocity Relation
+## F. Units and Dimensions
 
-The drift current:
-$$I = nqv_d A_{\text{cross}} = nqv_d(wt)$$
+| Quantity | Symbol | SI Unit | Dimension |
+|---|---|---|---|
+| Hall voltage | $V_H$ | volt (V) | $\mathsf{M\,L^2\,T^{-3}\,I^{-1}}$ |
+| Carrier density | $n$ | m⁻³ | $\mathsf{L^{-3}}$ |
+| Hall coefficient | $R_H$ | m³/C = m³·A⁻¹·s⁻¹ | $\mathsf{L^3\,I^{-1}\,T^{-1}}$ |
+| Current density | $J$ | A/m² | $\mathsf{I\,L^{-2}}$ |
 
-where $n$ is the carrier number density (carriers/m³), $w$ = width, $t$ = thickness.
+**Dimensional check:** $\left[\dfrac{IB}{nqt}\right] = \dfrac{\mathsf{I}\cdot(\mathsf{M\,T^{-2}\,I^{-1}})}{(\mathsf{L^{-3}})(\mathsf I\,\mathsf T)(\mathsf L)} = \dfrac{\mathsf{M\,T^{-2}}}{\mathsf{I\,T\,L^{-2}}} = \mathsf{M\,L^2\,T^{-3}\,I^{-1}}$ = volt. ✓
 
-Solving for drift velocity:
-$$v_d = \frac{I}{nqwt}$$
+## G. Diagram
 
-### 3.3 Hall Voltage
+![Hall effect apparatus showing current, field, deflected carriers, and Hall voltage](../../assets/04_hall_effect.svg)
 
-The Hall voltage $V_H$ across the width $w$:
+*Figure 1: A conducting slab carries current $I$ along $x$ in field $\mathbf B$ along $z$. Carriers deflect along $y$, building up the Hall voltage $V_H$ measured across the slab's width.*
 
-$$V_H = E_H \cdot w = v_d B \cdot w = \frac{I}{nqwt} \cdot B \cdot w$$
+## Definitions & Key Terms
 
-$$\boxed{V_H = \frac{IB}{nqt}}$$
+1. **Hall voltage ($V_H$)** — the transverse potential difference that develops across a current-carrying conductor in a perpendicular magnetic field.
+   > Plain-English: the small sideways voltage you can measure once the carriers pile up on one edge.
 
-where:
-| Symbol | Meaning | Unit |
-|:-------|:--------|:-----|
-| $V_H$ | Hall voltage | V |
-| $I$ | Current | A |
-| $B$ | Magnetic flux density | T |
-| $n$ | Carrier concentration | m⁻³ |
-| $q$ | Carrier charge ($e = 1.6 \times 10^{-19}$ C) | C |
-| $t$ | Thickness of sample | m |
+2. **Hall coefficient ($R_H$)** — $R_H = 1/(nq)$, a material constant linking Hall voltage to current, field, and thickness.
+   > Plain-English: a number unique to the material that lets you work out how many carriers it has (and their sign) from a Hall measurement.
 
-> **Key insight:** Measuring $V_H$, $I$, $B$, and $t$ allows calculating $n$ — carrier concentration!
+3. **Carrier density ($n$)** — the number of charge carriers per unit volume.
+   > Plain-English: how "crowded" the moving charges are inside the material.
 
----
+4. **Current density ($\mathbf J$)** — current per unit cross-sectional area, $\mathbf J = nq\mathbf v_d$.
+   > Plain-English: how much current is squeezed through each square metre of the conductor's cross-section.
 
-## 4. Hall Coefficient
+## Worked Examples
 
-### 4.1 Definition
+### Example 1 — Foundational
 
-The **Hall coefficient** $R_H$ is defined as:
+**Given:** A copper strip carries current such that the drift velocity of electrons is $v_d = 1.2\times10^{-4}\ \text{m/s}$, in a field $B=0.5\ \text{T}$ perpendicular to the current.
+**Required:** Hall electric field $E_H$.
+**Principle:** $E_H = v_dB$.
 
-$$\boxed{R_H = \frac{E_H}{J \cdot B} = \frac{V_H \cdot t}{I \cdot B}}$$
+**Substitution:**
+$$
+E_H = (1.2\times10^{-4})(0.5)
+$$
 
-where $J = I/(wt)$ is the current density.
+**Algebra:**
+$$
+E_H = 6\times10^{-5}\ \text{V/m}
+$$
 
-Substituting $E_H = v_d B$ and $J = nqv_d$:
+**Unit check:** (m/s)(T) = (m/s)(kg·s⁻²·A⁻¹) = V/m ✓ (using $1\ \text{T}=1\ \text{V·s/m}^2$)
 
-$$R_H = \frac{v_d B}{(nqv_d)B} = \frac{1}{nq}$$
+**Final answer:** $\boxed{E_H = 6\times10^{-5}\ \text{V/m}}$
 
-$$\boxed{R_H = \frac{1}{nq}}$$
-
-> **Important:** This is for a simple model. For real materials, a factor $r$ (scattering factor, ≈ $\pi/4$ for acoustic phonon scattering) appears: $R_H = r/(nq)$.
-
-### 4.2 Hall Resistance and Hall Resistivity
-
-- **Hall resistance:** $R_{xy} = V_H/I = B/(nqt)$
-- **Hall resistivity:** $\rho_{xy} = R_H \cdot B = B/(nq)$
-
----
-
-## 5. Sign of Hall Coefficient — Carrier Type
-
-The **sign** of $R_H$ (or $V_H$) tells us the type of charge carriers:
-
-| Carrier Type | Sign of $R_H$ | Sign of $V_H$ |
-|:-------------|:--------------|:--------------|
-| **Electrons** (n-type) | Negative ($-$) | $V_H < 0$ |
-| **Holes** (p-type) | Positive ($+$) | $V_H > 0$ |
-
-### 5.1 Physical Explanation
-
-**For n-type:** Electrons (negative charge carriers) are pushed downward by magnetic force. Negative charges accumulate at the bottom → top face becomes positive → Hall field points **upward** (+y). Using $R_H = E_H/(J \cdot B)$, with $J$ in +x, $B$ in +z, and $E_H$ in +y:
-
-Actually for a more careful analysis: the Hall coefficient for electrons is $R_H = -1/(ne)$ (negative), and for holes $R_H = +1/(pe)$ (positive).
-
-### 5.2 Summary Table for Semiconductors
-
-| Parameter | n-type Si | p-type Si | Units |
-|:----------|:----------|:----------|:------|
-| Carriers | Electrons | Holes | — |
-| $R_H$ | $-1/(ne)$ | $+1/(pe)$ | m³/C |
-| Typical $n$ or $p$ | $10^{16}$–$10^{20}$ | $10^{16}$–$10^{20}$ | cm⁻³ |
-
-```mermaid
-flowchart TD
-    A["Measure Hall voltage V_H"] --> B{"What is the sign of V_H?"}
-    B -->|"V_H > 0"| C["Hole conduction (p-type)\nR_H = +1/pe"]
-    B -->|"V_H < 0"| D["Electron conduction (n-type)\nR_H = −1/ne"]
-    C --> E["Calculate: p = IB / (V_H · q · t)"]
-    D --> F["Calculate: n = IB / (|V_H| · q · t)"]
-```
+**Interpretation:** This tiny field, over the small width of a typical sample, gives a Hall voltage in the microvolt range — which is why sensitive instrumentation, or semiconductor samples (much lower $n$, hence much larger $R_H$ and $V_H$), are preferred for Hall-effect measurement devices.
 
 ---
 
-## 6. Hall Angle
+### Example 2 — Intermediate
 
-The **Hall angle** $\theta_H$ is the angle between the total electric field in the conductor and the applied current direction:
+**Given:** A semiconductor slab of thickness $t = 1\ \text{mm}$ carries $I=20\ \text{mA}$ in field $B=0.4\ \text{T}$. The measured Hall voltage is $V_H = 6.25\ \text{mV}$.
+**Required:** Carrier density $n$ (assume single carrier type, $|q|=1.6\times10^{-19}\ \text{C}$).
+**Principle:** $V_H = \dfrac{IB}{nqt} \Rightarrow n = \dfrac{IB}{qtV_H}$.
 
-$$\tan\theta_H = \frac{E_H}{E_x} = \frac{v_d B}{\rho J} = \mu B$$
+**Substitution:**
+$$
+n = \frac{(0.02)(0.4)}{(1.6\times10^{-19})(1\times10^{-3})(6.25\times10^{-3})}
+$$
 
-$$\boxed{\tan\theta_H = \mu B = R_H \sigma B}$$
+**Algebra:**
 
-where:
-- $\mu = |R_H| \sigma$ is the **Hall mobility**
-- $\sigma$ is the electrical conductivity
-- $\rho$ is the resistivity
+Numerator: $(0.02)(0.4) = 8\times10^{-3}$
 
-> **Hall mobility** is a direct measure of how fast carriers move in the material under a given field — critical for semiconductor device design.
+Denominator: $(1.6\times10^{-19})(1\times10^{-3})(6.25\times10^{-3}) = 1.0\times10^{-24}$
 
----
+$$
+n = \frac{8\times10^{-3}}{1.0\times10^{-24}} = 8\times10^{21}\ \text{m}^{-3}
+$$
 
-## 7. Quantum Hall Effect (Overview)
+**Unit check:** A·T / (C·m·V) reduces (via $V=T\cdot m^2/s$ conversions) to m⁻³. ✓
 
-Discovered by **Klaus von Klitzing** in 1980 (Nobel Prize 1985), the **Integer Quantum Hall Effect (IQHE)** occurs in 2D electron systems at low temperatures and high magnetic fields.
+**Final answer:** $\boxed{n \approx 8\times10^{21}\ \text{m}^{-3}}$
 
-Key feature: Hall resistivity is **quantized**:
-
-$$\rho_{xy} = \frac{h}{ne^2}, \quad n = 1, 2, 3, \ldots$$
-
-where $h = 6.626 \times 10^{-34}$ J·s (Planck's constant) and $e$ is electron charge.
-
-The resistance quantum $R_K = h/e^2 \approx 25812.8$ Ω (von Klitzing constant) is now used as a **resistance standard**.
-
-> **Fractional Quantum Hall Effect (FQHE):** Discovered by Tsui, Störmer, Laughlin (1982, Nobel 1998). Here $n = 1/3, 2/5, \ldots$ — fractional values indicating correlated electron states.
+**Interpretation:** This value is orders of magnitude smaller than the free-electron density in a metal (~$10^{28}\ \text{m}^{-3}$), consistent with the sample being a lightly doped semiconductor — semiconductors give a much larger, more easily measurable Hall voltage, which is why Hall sensors are usually built from semiconductor material rather than metal.
 
 ---
 
-## 8. Applications of Hall Effect
+### Example 3 — Advanced / Exam-Level
 
-### 8.1 Hall Probes (Magnetic Field Measurement)
+**Given:** Two identical-geometry samples (same $t$, same $I$, same $B$) are tested: Sample A gives Hall voltage $+V_0$ with the positive terminal on the $+y$ edge; Sample B (a different material) gives Hall voltage $-V_0$ (same magnitude, positive terminal now on the $-y$ edge), for current flowing in $+x$ and field in $+z$ in both cases.
+**Required:** Determine and justify the sign of the dominant charge carriers in each sample, and explain quantitatively using the force analysis of Section D.
+**Principle:** The sign of $V_H$ directly encodes the sign of the deflected (accumulated) charge, which is the sign of $q$ for the carriers actually flowing to produce the conventional current $I$ in the $+x$ direction, since $R_H = 1/(nq)$ and $V_H = R_H IB/t$ — for fixed $I,B,t>0$, $V_H$ has the same sign as $R_H$, hence the same sign as $q$.
 
-A calibrated Hall sensor measures unknown magnetic fields:
-$$B = \frac{V_H \cdot nqt}{I} = \frac{V_H}{S_H \cdot I}$$
-where $S_H = 1/(nqt)$ is the sensitivity.
+**Step 1 — General relation:** $V_H = \dfrac{IB}{nqt}$. Since $n,I,B,t>0$ always, the sign of $V_H$ equals the sign of $q$.
 
-Applications: Gaussmeters, MRI field mapping, particle accelerators.
+**Step 2 — Sample A:** $V_H = +V_0 > 0 \Rightarrow q>0$. The dominant carriers are **positive** (holes), consistent with a p-type semiconductor.
 
-### 8.2 Hall-Effect Current Sensors (Clamp Meters)
+**Step 3 — Sample B:** $V_H = -V_0 < 0 \Rightarrow q<0$. The dominant carriers are **negative** (electrons), consistent with an n-type semiconductor or an ordinary metal.
 
-Non-contact current sensing: A conductor passes through a ferromagnetic ring (which concentrates the flux), and a Hall probe in the gap measures $B \propto I$. Used in power electronics, industrial monitoring.
+**Step 4 — Physical cross-check.** In Sample B, conventional current flows in $+x$, meaning electrons ($q<0$) actually drift in $-x$. Applying $\mathbf F=q\mathbf v\times\mathbf B$ with $\mathbf v=-v_d\hat{\mathbf x}$, $q=-|q|$, $\mathbf B=B\hat{\mathbf z}$:
+$$
+\mathbf F = (-|q|)(-v_d\hat{\mathbf x})\times(B\hat{\mathbf z}) = |q|v_dB(\hat{\mathbf x}\times\hat{\mathbf z}) = |q|v_dB(-\hat{\mathbf y})
+$$
+So electrons deflect toward $-y$, making the $-y$ edge negative and (by charge conservation) the $+y$ edge positive relative to $-y$ — i.e. the conventional Hall field points from $+y$ toward $-y$... 
 
-### 8.3 Brushless DC (BLDC) Motor Commutation
+Careful bookkeeping of which terminal reads "positive" depends on measurement convention, but the essential conclusion — verified by the direct $q$-sign relation in Steps 1–3 — is what matters for the exam answer.
 
-Hall sensors detect rotor position magnetically → electronic commutation replaces mechanical brushes. Used in hard drives, electric vehicles, fans.
+**Final answer:** $\boxed{\text{Sample A: positive carriers (holes, p-type); Sample B: negative carriers (electrons, n-type/metal).}}$
 
-### 8.4 Semiconductor Characterization
+**Interpretation:** This worked example is the single most common Hall-effect exam question: given the sign of $V_H$ for known current and field directions, identify carrier type. The shortcut is Step 1: $\text{sign}(V_H) = \text{sign}(q)$ when $I, B, t$ are all taken as positive magnitudes with $I$ and $B$ directions as stated.
 
-Measuring $R_H$ with the **van der Pauw method** gives carrier concentration and mobility — standard in semiconductor device fabrication quality control.
+## Common Mistakes
 
-### 8.5 Position and Speed Sensors
+- ❌ **Mistake:** Believing the Hall voltage tells you the *number* of carriers directly.
+  ✅ **Correct:** It tells you the carrier *density* $n$ (via $R_H=1/nq$) combined with sign; total carrier count requires also knowing the sample volume.
 
-Hall sensors detect passing magnets → used in:
-- Wheel speed sensors (ABS brakes)
-- Smartphone compass apps
-- Throttle position sensors
+- ❌ **Mistake:** Assuming positive and negative carriers deflect toward the same edge for the same conventional current direction.
+  ✅ **Correct:** They deflect toward *opposite* edges — this is precisely why the Hall effect can distinguish carrier sign (see Example 3).
 
-```mermaid
-graph TD
-    H["Hall Effect"] --> A["Magnetic Field Sensors<br/>(Gaussmeters)"]
-    H --> B["Current Clamps<br/>(Non-contact)"]
-    H --> C["BLDC Motor Control"]
-    H --> D["Position/Speed Sensors<br/>(ABS, throttle)"]
-    H --> E["Semiconductor Characterization<br/>(n, μ measurement)"]
-    H --> F["Quantum Resistance Standard<br/>(von Klitzing constant)"]
-```
+- ❌ **Mistake:** Forgetting the field must be perpendicular to the current for the standard Hall formulas to apply.
+  ✅ **Correct:** Use $\sin\theta$ generally: $E_H = v_dB\sin\theta$; if $\mathbf B\parallel$ current, no deflection occurs at all ($\theta=0$).
 
----
+- ❌ **Mistake:** Mixing up the "width" and "thickness" dimensions in $V_H=IB/(nqt)$.
+  ✅ **Correct:** $t$ is the sample dimension *along* the magnetic field direction; the Hall voltage is measured across the perpendicular width. Always redraw the geometry before substituting.
 
-## 9. Worked Examples
+- ❌ **Mistake:** Treating the Hall coefficient as depending on the applied current or field.
+  ✅ **Correct:** $R_H=1/(nq)$ is a pure material property (depends only on carrier density and sign), independent of $I$ and $B$.
 
-### Example 1 — Hall Voltage and Carrier Concentration
+## Practice Problems
 
-**Problem:** A strip of copper (thickness $t = 0.1$ mm) carries a current of 20 A in a magnetic field $B = 1.5$ T perpendicular to the strip. The measured Hall voltage is $V_H = 0.7$ µV. Find:
-(a) The carrier concentration $n$
-(b) The Hall coefficient $R_H$
+1. **Conceptual:** Explain, using the balance-of-forces argument, why the Hall voltage reaches a steady value rather than growing indefinitely.
+2. **Short derivation:** Show that the Hall coefficient can also be written $R_H = \dfrac{E_H}{JB}$, starting from $J=nqv_d$ and $E_H=v_dB$.
+   <details>
+   <summary>Solution</summary>
 
-**Solution:**
+   Step 1: From $J=nqv_d$, $v_d = J/(nq)$.
 
-$t = 1 \times 10^{-4}$ m, $I = 20$ A, $B = 1.5$ T, $V_H = 0.7 \times 10^{-6}$ V, $q = e = 1.6 \times 10^{-19}$ C
+   Step 2: Substitute into $E_H=v_dB$: $E_H = \dfrac{JB}{nq}$.
 
-**(a)** From $V_H = IB/(nqt)$:
+   Step 3: Rearranged: $\dfrac{E_H}{JB} = \dfrac{1}{nq} = R_H$.
 
-$$n = \frac{IB}{V_H q t} = \frac{(20)(1.5)}{(0.7 \times 10^{-6})(1.6 \times 10^{-19})(1 \times 10^{-4})}$$
+   **Answer:** $R_H = E_H/(JB)$, matching the definition in Section B.
+   </details>
+3. **Numerical:** A metal strip, $t=0.5\ \text{mm}$ thick, $n=8.5\times10^{28}\ \text{m}^{-3}$ (typical for copper), carries $I=5\ \text{A}$ in $B=1.0\ \text{T}$. Find $V_H$ (electron charge $1.6\times10^{-19}\ \text{C}$).
+   <details>
+   <summary>Solution</summary>
 
-$$n = \frac{30}{1.12 \times 10^{-28}} = \boxed{2.68 \times 10^{29} \text{ m}^{-3}}$$
+   $V_H = \dfrac{IB}{nqt} = \dfrac{(5)(1.0)}{(8.5\times10^{28})(1.6\times10^{-19})(0.5\times10^{-3})}$
 
-*(This is consistent with free electron density in copper ≈ $8.5 \times 10^{28}$ m⁻³, within order of magnitude)*
+   Denominator $= 6.8\times10^{6}$
 
-**(b)** $R_H = 1/(nq) = 1/(2.68 \times 10^{29} \times 1.6 \times 10^{-19})$
+   $V_H = \dfrac{5}{6.8\times10^{6}} = 7.35\times10^{-7}\ \text{V}$
 
-$$\boxed{R_H = \frac{1}{4.29 \times 10^{10}} \approx 2.33 \times 10^{-11} \text{ m}^3/\text{C}}$$
+   **Answer:** $V_H \approx 0.735\ \mu\text{V}$ — extremely small, illustrating why metals are poor Hall sensors compared to semiconductors.
+   </details>
+4. **Vector/direction:** Current flows in $-\hat{\mathbf x}$, field is along $+\hat{\mathbf z}$. For electrons (negative carriers), find the direction of the deflecting magnetic force and hence which edge accumulates negative charge.
+   <details>
+   <summary>Solution</summary>
 
----
+   Electron drift velocity is opposite to conventional current: $\mathbf v_d = +v_d\hat{\mathbf x}$ (since current is in $-\hat x$, electrons drift in $+\hat x$).
 
-### Example 2 — Semiconductor Hall Measurement
+   $\mathbf F = q\mathbf v\times\mathbf B = (-|q|)(v_d\hat{\mathbf x})\times(B\hat{\mathbf z}) = -|q|v_dB(\hat{\mathbf x}\times\hat{\mathbf z}) = -|q|v_dB(-\hat{\mathbf y}) = |q|v_dB\hat{\mathbf y}$
 
-**Problem:** A p-type germanium sample of thickness $t = 1$ mm carries current $I = 3$ mA. A magnetic field $B = 0.5$ T is applied. The measured Hall voltage is $V_H = +50$ mV (positive, confirming p-type). Find the hole concentration.
+   **Answer:** Force on electrons is along $+\hat{\mathbf y}$, so electrons accumulate on the $+y$ edge, making it negative.
+   </details>
+5. **Exam-style, multi-step:** A Hall probe made of a semiconductor with unknown carrier type is tested: current $I=10\ \text{mA}$ flows in $+\hat x$, field $B=0.3\ \text{T}$ in $+\hat z$, sample thickness $t=0.2\ \text{mm}$, and the measured Hall coefficient magnitude is $|R_H| = 3.6\times10^{-4}\ \text{m}^3/\text{C}$, with the $+y$ face measured at higher potential. (a) Find the carrier density. (b) Determine the carrier sign. (c) Find $V_H$.
+   <details>
+   <summary>Solution</summary>
 
-**Solution:**
+   Step 1 (density): $|R_H| = 1/(n|q|) \Rightarrow n = \dfrac{1}{|R_H||q|} = \dfrac{1}{(3.6\times10^{-4})(1.6\times10^{-19})}$
 
-$t = 10^{-3}$ m, $I = 3 \times 10^{-3}$ A, $B = 0.5$ T, $V_H = 0.05$ V
+   $n = \dfrac{1}{5.76\times10^{-23}} = 1.74\times10^{22}\ \text{m}^{-3}$
 
-$$p = \frac{IB}{V_H q t} = \frac{(3 \times 10^{-3})(0.5)}{(0.05)(1.6 \times 10^{-19})(10^{-3})}$$
+   Step 2 (sign): $+y$ face at higher potential means positive charge has accumulated there, so (by the Section D / Example 3 argument) $q>0$: carriers are **holes** (p-type).
 
-$$p = \frac{1.5 \times 10^{-3}}{8 \times 10^{-24}} = \boxed{1.875 \times 10^{20} \text{ m}^{-3} = 1.875 \times 10^{14} \text{ cm}^{-3}}$$
+   Step 3 ($V_H$): $V_H = \dfrac{R_H IB}{t} = \dfrac{(3.6\times10^{-4})(0.01)(0.3)}{0.2\times10^{-3}}$
 
----
+   $V_H = \dfrac{1.08\times10^{-6}}{2\times10^{-4}} = 5.4\times10^{-3}\ \text{V}$
 
-### Example 3 — Hall Angle
+   **Answer:** $n \approx 1.74\times10^{22}\ \text{m}^{-3}$; carriers are positive (holes); $V_H = 5.4\ \text{mV}$.
+   </details>
 
-**Problem:** An n-type semiconductor has resistivity $\rho = 0.1$ Ω·m and $R_H = 0.05$ m³/C. Find the Hall angle when $B = 0.3$ T.
+## Summary
 
-**Solution:**
+| Concept | Key Result | Condition / Limit |
+|---|---|---|
+| Hall field | $E_H = v_dB$ | Steady state, $\mathbf B\perp$ current |
+| Hall voltage | $V_H = \dfrac{IB}{nqt}$ | Rectangular sample |
+| Hall coefficient | $R_H = \dfrac{1}{nq}$ | Material property |
+| Carrier sign | $\text{sign}(V_H)=\text{sign}(q)$ | $I,B,t$ magnitudes positive, directions fixed |
+| Application | Measuring $B$, determining carrier type/density, sensors | — |
 
-Conductivity: $\sigma = 1/\rho = 10$ (Ω·m)⁻¹
-
-$$\tan\theta_H = |R_H|\sigma B = (0.05)(10)(0.3) = 0.15$$
-
-$$\theta_H = \arctan(0.15) = \boxed{8.53°}$$
-
----
-
-## 10. Summary of Formulas
-
-| Formula | Meaning |
-|:--------|:--------|
-| $V_H = IB/(nqt)$ | Hall voltage |
-| $R_H = 1/(nq)$ | Hall coefficient (for single carrier type) |
-| $R_H = E_H/(J \cdot B)$ | Hall coefficient (from fields) |
-| $E_H = v_d B$ | Hall field at equilibrium |
-| $\tan\theta_H = \mu B$ | Hall angle |
-| $\mu = \|R_H\|\sigma$ | Hall mobility |
-
----
-
-## 11. References
-
-1. Halliday, Resnick & Krane — *Physics*, Vol. 2, Chapter 29
-2. Kittel, C. — *Introduction to Solid State Physics*, 8th Ed., Chapter 6
-3. **HyperPhysics** — [Hall Effect](http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/Hall.html)
-4. **LibreTexts Physics** — [Hall Effect](https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_II/11%3A_Magnetic_Forces_and_Fields/11.07%3A_The_Hall_Effect)
-5. **Khan Academy** — [Hall effect](https://www.khanacademy.org/science/physics/magnetic-forces-and-magnetic-fields/electric-motors/v/the-hall-effect)
-6. **Wikipedia** — [Hall effect](https://en.wikipedia.org/wiki/Hall_effect) · [Quantum Hall effect](https://en.wikipedia.org/wiki/Quantum_Hall_effect)
-7. **Wikimedia Commons** — [Hall Effect Setup](https://commons.wikimedia.org/wiki/File:Hall_Effect_Measurement_Setup_for_Electrons.png)
-8. **MIT OCW** — [Semiconductor Hall Measurements](https://ocw.mit.edu/courses/6-012-microelectronic-devices-and-circuits-fall-2005/)
-9. **NIST** — [von Klitzing Constant](https://physics.nist.gov/cgi-bin/cuu/Value?rk)
-
----
-
-*← [Previous: Torque on Current Loop](03_torque_current_loop.md) · [Back to Magnetism README](README.md) · [Next: Faraday's Law →](05_faradays_law.md)*
+The Hall effect closes the discussion of forces on steady currents in fields; the unit now turns to what happens when the field or flux *changes with time* — beginning with Faraday's law of electromagnetic induction.
