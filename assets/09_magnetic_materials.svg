@@ -1,0 +1,27 @@
+<svg viewBox="0 0 600 200" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica,Arial,sans-serif">
+  <style>.lbl{font-size:12px;fill:#111827;}</style>
+  <text x="40" y="20" class="lbl" font-weight="bold">Diamagnetic</text>
+  <text x="220" y="20" class="lbl" font-weight="bold">Paramagnetic</text>
+  <text x="420" y="20" class="lbl" font-weight="bold">Ferromagnetic</text>
+  <!-- dia: arrows opposing H (H down arrow) -->
+  <line x1="30" y1="40" x2="30" y2="70" stroke="#2563eb" stroke-width="2"/>
+  <g stroke="#dc2626" stroke-width="2">
+    <line x1="40" y1="90" x2="40" y2="70"/><line x1="60" y1="100" x2="60" y2="80"/><line x1="80" y1="85" x2="80" y2="65"/>
+    <line x1="40" y1="140" x2="40" y2="120"/><line x1="60" y1="150" x2="60" y2="130"/><line x1="80" y1="135" x2="80" y2="115"/>
+  </g>
+  <text x="20" y="180" class="lbl">Induced dipoles oppose H</text>
+
+  <!-- para: some aligned some random -->
+  <g stroke="#059669" stroke-width="2">
+    <line x1="230" y1="90" x2="230" y2="70"/><line x1="260" y1="95" x2="270" y2="80"/><line x1="290" y1="85" x2="290" y2="65"/>
+    <line x1="230" y1="140" x2="230" y2="120"/><line x1="260" y1="130" x2="255" y2="150"/><line x1="290" y1="135" x2="290" y2="115"/>
+  </g>
+  <text x="220" y="180" class="lbl">Partial alignment with H</text>
+
+  <!-- ferro: strongly aligned -->
+  <g stroke="#7c3aed" stroke-width="3">
+    <line x1="430" y1="90" x2="430" y2="65"/><line x1="460" y1="90" x2="460" y2="65"/><line x1="490" y1="90" x2="490" y2="65"/>
+    <line x1="430" y1="140" x2="430" y2="115"/><line x1="460" y1="140" x2="460" y2="115"/><line x1="490" y1="140" x2="490" y2="115"/>
+  </g>
+  <text x="410" y="180" class="lbl">Strong domain alignment with H</text>
+</svg>

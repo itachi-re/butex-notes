@@ -1,0 +1,17 @@
+<svg viewBox="0 0 500 260" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica,Arial,sans-serif">
+  <style>.lbl{font-size:13px;fill:#111827;}</style>
+  <defs><marker id="a" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#059669"/></marker></defs>
+  <rect x="100" y="90" width="300" height="80" fill="#eef2ff" stroke="#111827" stroke-width="2"/>
+  <line x1="100" y1="130" x2="380" y2="130" stroke="#059669" stroke-width="3" marker-end="url(#a)"/>
+  <text x="220" y="120" class="lbl" fill="#059669">I (current, +x)</text>
+  <g stroke="#2563eb" stroke-width="2">
+    <g transform="translate(180,110)"><line x1="-5" y1="-5" x2="5" y2="5"/><line x1="-5" y1="5" x2="5" y2="-5"/></g>
+    <g transform="translate(250,110)"><line x1="-5" y1="-5" x2="5" y2="5"/><line x1="-5" y1="5" x2="5" y2="-5"/></g>
+    <g transform="translate(320,110)"><line x1="-5" y1="-5" x2="5" y2="5"/><line x1="-5" y1="5" x2="5" y2="-5"/></g>
+  </g>
+  <text x="330" y="95" class="lbl" fill="#2563eb">B (into page, +z out shown as x)</text>
+  <text x="60" y="88" class="lbl" fill="#dc2626">+ + + +</text>
+  <text x="60" y="185" class="lbl" fill="#dc2626">- - - -</text>
+  <line x1="60" y1="95" x2="60" y2="175" stroke="#dc2626" stroke-width="2" marker-end="url(#a)"/>
+  <text x="10" y="135" class="lbl" fill="#dc2626">V_H</text>
+</svg>

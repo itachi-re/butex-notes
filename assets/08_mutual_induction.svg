@@ -1,0 +1,9 @@
+<svg viewBox="0 0 600 220" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica,Arial,sans-serif">
+  <style>.lbl{font-size:13px;fill:#111827;}</style>
+  <rect x="230" y="40" width="140" height="140" fill="none" stroke="#9ca3af" stroke-width="2" stroke-dasharray="6,4"/>
+  <text x="240" y="30" class="lbl">shared core (dashed)</text>
+  <path d="M60,150 q15,-50 30,0 q15,-50 30,0 q15,-50 30,0" fill="none" stroke="#059669" stroke-width="3"/>
+  <text x="50" y="190" class="lbl" fill="#059669">Coil 1 (primary): I1(t)</text>
+  <path d="M420,150 q15,-50 30,0 q15,-50 30,0 q15,-50 30,0" fill="none" stroke="#dc2626" stroke-width="3"/>
+  <text x="400" y="190" class="lbl" fill="#dc2626">Coil 2 (secondary): E2 induced</text>
+</svg>

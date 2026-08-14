@@ -1,0 +1,26 @@
+<svg viewBox="0 0 500 260" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica,Arial,sans-serif">
+  <style>.lbl{font-size:14px;fill:#111827;}</style>
+  <defs>
+    <marker id="a1" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#059669"/></marker>
+    <marker id="a2" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#dc2626"/></marker>
+  </defs>
+  <!-- B field into page, shown as x marks -->
+  <g stroke="#2563eb" stroke-width="2">
+    <g transform="translate(150,60)"><line x1="-6" y1="-6" x2="6" y2="6"/><line x1="-6" y1="6" x2="6" y2="-6"/></g>
+    <g transform="translate(220,60)"><line x1="-6" y1="-6" x2="6" y2="6"/><line x1="-6" y1="6" x2="6" y2="-6"/></g>
+    <g transform="translate(290,60)"><line x1="-6" y1="-6" x2="6" y2="6"/><line x1="-6" y1="6" x2="6" y2="-6"/></g>
+    <g transform="translate(150,130)"><line x1="-6" y1="-6" x2="6" y2="6"/><line x1="-6" y1="6" x2="6" y2="-6"/></g>
+    <g transform="translate(220,130)"><line x1="-6" y1="-6" x2="6" y2="6"/><line x1="-6" y1="6" x2="6" y2="-6"/></g>
+    <g transform="translate(290,130)"><line x1="-6" y1="-6" x2="6" y2="6"/><line x1="-6" y1="6" x2="6" y2="-6"/></g>
+    <g transform="translate(150,200)"><line x1="-6" y1="-6" x2="6" y2="6"/><line x1="-6" y1="6" x2="6" y2="-6"/></g>
+    <g transform="translate(220,200)"><line x1="-6" y1="-6" x2="6" y2="6"/><line x1="-6" y1="6" x2="6" y2="-6"/></g>
+    <g transform="translate(290,200)"><line x1="-6" y1="-6" x2="6" y2="6"/><line x1="-6" y1="6" x2="6" y2="-6"/></g>
+  </g>
+  <text x="140" y="30" class="lbl" fill="#2563eb">B into page (x)</text>
+  <!-- current wire vertical, green, current upward -->
+  <line x1="220" y1="230" x2="220" y2="40" stroke="#059669" stroke-width="4" marker-end="url(#a1)"/>
+  <text x="230" y="235" class="lbl" fill="#059669">I (current)</text>
+  <!-- Force arrow, right-hand rule: I(y)+ x B(into page,-z) => F in -x?? just illustrate red arrow to the left -->
+  <line x1="220" y1="130" x2="120" y2="130" stroke="#dc2626" stroke-width="3" marker-end="url(#a2)"/>
+  <text x="60" y="120" class="lbl" fill="#dc2626">F (force)</text>
+</svg>
