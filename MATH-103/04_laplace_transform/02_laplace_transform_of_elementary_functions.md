@@ -27,26 +27,38 @@ Building on the definition in [→ 01. Definition](01_definition_of_laplace_tran
 ## Definitions & Key Terms
 
 **1. Gamma function** — *$\Gamma(n+1) = n!$ for non-negative integers $n$; used to transform $t^n$.*
-> Plain-English: a generalisation of factorial, needed for the $t^n$ formula.
 
-**2. $\sinh at, \cosh at$** — *hyperbolic sine/cosine, $\sinh at=\dfrac{e^{at}-e^{-at}}2$, $\cosh at=\dfrac{e^{at}+e^{-at}}2$.*
+Plain-English: a generalisation of factorial, needed for the $t^n$ formula.
+
+**2. $\sinh at, \cosh at$** — hyperbolic sine/cosine:
+
+$$
+\sinh at = \frac{e^{at}-e^{-at}}{2}, \qquad \cosh at = \frac{e^{at}+e^{-at}}{2}
+$$
 
 ## Core Content — The Transform Table
 
-**Theorem statements with derivations (Direct method: evaluate the defining integral).**
+Theorem statements with derivations (Direct method: evaluate the defining integral).
 
-**(a) $\mathcal{L}\{t^n\} = \dfrac{n!}{s^{n+1}}$, $n=0,1,2,\dots$**
+### (a) $\mathcal{L}\{t^n\} = \dfrac{n!}{s^{n+1}}$, $n=0,1,2,\dots$
 
-*Proof.* By definition, $F(s)=\int_0^\infty t^ne^{-st}dt$. Substitute $u=st \Rightarrow t=u/s,\ dt=du/s$:
-$$F(s)=\int_0^\infty \left(\frac{u}{s}\right)^n e^{-u}\frac{du}{s} = \frac{1}{s^{n+1}}\int_0^\infty u^ne^{-u}du = \frac{n!}{s^{n+1}}$$
-using the Gamma-function identity $\int_0^\infty u^ne^{-u}du = \Gamma(n+1)=n!$. $\blacksquare$
+*Proof.* By definition,
 
-**(b) $\mathcal{L}\{e^{at}\} = \dfrac{1}{s-a}$** — derived in Topic 01.
+$$
+F(s) = \int_0^\infty t^n e^{-st}\,dt
+$$
 
-**(c) $\mathcal{L}\{\sin at\} = \dfrac{a}{s^2+a^2}$**
+Substitute $u = st \Rightarrow t = u/s,\ dt = du/s$:
 
-*Proof (Direct, via integration by parts twice, or via complex exponential).* Using Euler's formula, $\sin at = \dfrac{e^{iat}-e^{-iat}}{2i}$:
-$$\mathcal{L}\{\sin at\}=\frac{1}{2i}\left[\frac{1}{s-ia}-\frac{1}{s+ia}\right]=\frac{1}{2i}\cdot\frac{2ia}{s^2+a^2}=\frac{a}{s^2+a^2}$$
+$$
+F(s) = \int_0^\infty \left(\frac{u}{s}\right)^n e^{-u}\,\frac{du}{s} = \frac{1}{s^{n+1}}\int_0^\infty u^n e^{-u}\,du = \frac{n!}{s^{n+1}}
+$$
+
+using the Gamma-function identity $\int_0^\infty u^n e^{-u}\,du = \Gamma(n+1) = n!$. $\blacksquare$
+
+### (b) $\mathcal{L}\{e^{at}\} = \dfrac{1}{s-a}$ — derived in Topic 01.
+
+### (c) $\mathcal{L}\{\sin at\} = \dfrac{a}{s^2+a^2}$
 
 **(d) $\mathcal{L}\{\cos at\} = \dfrac{s}{s^2+a^2}$**
 
