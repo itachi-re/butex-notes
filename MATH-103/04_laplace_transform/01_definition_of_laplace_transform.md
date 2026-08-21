@@ -25,33 +25,28 @@ Laplace transform converts a function of time $t$ into a function of a complex f
 
 ## Definitions & Key Terms
 
-**1. Laplace Transform** — *For a function $f(t)$ defined for $t \geq 0$, the (one-sided) Laplace transform is*
+**1. Laplace Transform** — *For a function f(t) defined for t ≥ 0, the (one-sided) Laplace transform is*
 
-$$
-\mathcal{L}\{f(t)\} = F(s) = \int_0^\infty e^{-st}f(t)\,dt
-$$
+**ℒ{f(t)} = F(s) = ∫₀^∞ e^(−st) f(t) dt**
 
-> Plain-English: multiply $f(t)$ by a decaying exponential $e^{-st}$ and add up (integrate) the result over all time — the answer is a new function $F(s)$.
+> Plain-English: multiply f(t) by a decaying exponential e^(−st) and add up (integrate) the result over all time — the answer is a new function F(s).
 
-**2. One-sided (unilateral) transform** — *the integral is taken from $0$ to $\infty$; behaviour of $f(t)$ for $t<0$ is ignored (assumed zero).*
+**2. One-sided (unilateral) transform** — *the integral is taken from 0 to ∞; behaviour of f(t) for t < 0 is ignored (assumed zero).*
+> Plain-English: we only care about what happens from the "start" (t = 0) onward — natural for initial-value problems.
 
-> Plain-English: we only care about what happens from the "start" ($t=0$) onward — natural for initial-value problems.
+**3. t (time domain variable)** — *independent real variable, usually time, t ≥ 0.*
 
-**3. $t$ (time domain variable)** — *independent real variable, usually time, $t \geq 0$.*
+**4. s (transform / frequency variable)** — *complex variable, s = σ + iω; for this course, treat s as a real parameter large enough for convergence.*
 
-**4. $s$ (transform / frequency variable)** — *complex variable, $s = \sigma + i\omega$; for this course, treat $s$ as a real parameter large enough for convergence.*
+**5. f(t)** — *original function, "the object function."*
 
-**5. $f(t)$** — *original function, "the object function."*
+**6. F(s)** — *transformed function, "the image function"; notation ℒ{f(t)} = F(s) is standard.*
 
-**6. $F(s)$** — *transformed function, "the image function"; notation $\mathcal{L}\{f(t)\} = F(s)$ is standard.*
-
-**7. Piecewise continuity** — *$f(t)$ has at most finitely many jump discontinuities on every finite interval $[0,A]$, and is continuous elsewhere.*
-
+**7. Piecewise continuity** — *f(t) has at most finitely many jump discontinuities on every finite interval [0, A], and is continuous elsewhere.*
 > Plain-English: the graph can have a finite number of "steps" but no infinite spikes or infinitely many wiggles.
 
-**8. Exponential order** — *$f(t)$ is of exponential order $\alpha$ if there exist constants $M>0$, $\alpha$, $T$ such that $|f(t)| \leq Me^{\alpha t}$ for all $t > T$.*
-
-> Plain-English: $f(t)$ doesn't grow faster than some exponential — rules out things like $e^{t^2}$.
+**8. Exponential order** — *f(t) is of exponential order α if there exist constants M > 0, α, T such that |f(t)| ≤ M e^(αt) for all t > T.*
+> Plain-English: f(t) doesn't grow faster than some exponential — rules out things like e^(t²).
 
 ## Core Content
 
