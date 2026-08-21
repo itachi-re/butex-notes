@@ -173,9 +173,12 @@ $$f(t)=\begin{cases}1,&0\le t<2\\3,&t\ge2\end{cases}$$
 <summary>Solution</summary>
 
 Split at $t=2$:
-$$F(s)=\int_0^2 1\cdot e^{-st}dt+\int_2^\infty 3e^{-st}dt$$
-$$=\left[\dfrac{-e^{-st}}{s}\right]_0^2 + 3\left[\dfrac{-e^{-st}}{s}\right]_2^\infty=\dfrac{1-e^{-2s}}{s}+\dfrac{3e^{-2s}}{s}$$
-$$=\dfrac{1+2e^{-2s}}{s}$$
+
+$F(s)=\displaystyle\int_0^2 1\cdot e^{-st}dt+\int_2^\infty 3e^{-st}dt$
+
+$=\left[\dfrac{-e^{-st}}{s}\right]_0^2 + 3\left[\dfrac{-e^{-st}}{s}\right]_2^\infty=\dfrac{1-e^{-2s}}{s}+\dfrac{3e^{-2s}}{s}$
+
+$=\dfrac{1+2e^{-2s}}{s}$
 
 **Answer:** $F(s)=\dfrac{1+2e^{-2s}}{s},\ s>0$
 </details>
@@ -194,14 +197,20 @@ No — $e^{t^2}$ grows faster than any $Me^{\alpha t}$ as $t\to\infty$ (for any 
 <summary>Solution</summary>
 
 Split at $t=1$:
-$$F(s)=\int_0^1 te^{-st}dt+\int_1^\infty 1\cdot e^{-st}dt$$
+
+$F(s)=\displaystyle\int_0^1 te^{-st}dt+\int_1^\infty 1\cdot e^{-st}dt$
+
 First integral (by parts, as in Ex.1):
-$$\int_0^1 te^{-st}dt=\left[\dfrac{-te^{-st}}{s}\right]_0^1+\dfrac1s\int_0^1e^{-st}dt=\dfrac{-e^{-s}}{s}+\dfrac1s\left(\dfrac{1-e^{-s}}{s}\right)$$
-$$=\dfrac{-e^{-s}}{s}+\dfrac{1-e^{-s}}{s^2}$$
+
+$\displaystyle\int_0^1 te^{-st}dt=\left[\dfrac{-te^{-st}}{s}\right]_0^1+\dfrac1s\int_0^1e^{-st}dt=\dfrac{-e^{-s}}{s}+\dfrac1s\left(\dfrac{1-e^{-s}}{s}\right)$
+
+$=\dfrac{-e^{-s}}{s}+\dfrac{1-e^{-s}}{s^2}$
+
 Second integral: $\displaystyle\int_1^\infty e^{-st}dt=\dfrac{e^{-s}}{s}$
 
 Adding, the $\dfrac{-e^{-s}}{s}$ and $\dfrac{e^{-s}}{s}$ cancel:
-$$F(s)=\dfrac{1-e^{-s}}{s^2}$$
+
+$F(s)=\dfrac{1-e^{-s}}{s^2}$
 
 **Answer:** $F(s)=\dfrac{1-e^{-s}}{s^2},\ s>0$
 </details>
