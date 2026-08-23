@@ -183,7 +183,7 @@ $$\frac{1-e^{-s}}{s^2}$$
 Match the form to the table; use partial fractions when there's a denominator that factors.
 
 ### Problem 6.1
-Find $\mathcal{L}^{-1}\left\{\dfrac{3}{s^2+9}\right\}$.
+Find $\mathcal{L}^{-1}\{\dfrac{3}{s^2+9}\}$.
 
 **Solution:**
 
@@ -192,14 +192,14 @@ This matches $\frac{a}{s^2+a^2}$ with $a=3$:
 $$\sin(3t)$$
 
 ### Problem 6.2
-Find $\mathcal{L}^{-1}\left\{\dfrac{5}{s-4}\right\}$.
+Find $\mathcal{L}^{-1}\{\dfrac{5}{s-4}\}$.
 
 **Solution:**
 
 $$5e^{4t}$$
 
 ### Problem 6.3
-Find $\mathcal{L}^{-1}\left\{\dfrac{2}{s^2(s+1)}\right\}$ using partial fractions.
+Find $\mathcal{L}^{-1}\{\dfrac{2}{s^2(s+1)}\}$ using partial fractions.
 
 **Solution:**
 
