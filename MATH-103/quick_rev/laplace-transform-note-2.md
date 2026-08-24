@@ -48,7 +48,7 @@ $$
 \mathcal{L}\{t^n\} = \int_0^\infty e^{-st}t^n\,dt = \frac{1}{s^{n+1}}\int_0^\infty e^{-y}y^{n+1-1}\,dy = \frac{\Gamma(n+1)}{s^{n+1}}
 $$
 
-For integer $n$: 
+For integer $n$:
 $$
 \boxed{\mathcal{L}\{t^n\} = \dfrac{n!}{s^{n+1}}}, \qquad s>0
 $$
