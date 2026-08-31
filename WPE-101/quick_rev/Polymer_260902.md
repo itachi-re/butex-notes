@@ -9,7 +9,10 @@
 - $M_w$: average MW based on **weight fraction**; each molecule's contribution weighted by its own mass.
 
 **Formulas (MUST WRITE)**
-$$M_n=\frac{\sum N_iM_i}{\sum N_i} \qquad\qquad M_w=\frac{\sum N_iM_i^2}{\sum N_iM_i}$$
+
+$$
+M_n=\frac{\sum N_iM_i}{\sum N_i} \qquad M_w=\frac{\sum N_iM_i^2}{\sum N_iM_i}
+$$
 
 **Comparison**
 
@@ -32,7 +35,9 @@ $$M_n=\frac{\sum N_iM_i}{\sum N_i} \qquad\qquad M_w=\frac{\sum N_iM_i^2}{\sum N_
 - **Polydispersity**: qualitative term — the *existence* of a distribution/range of chain lengths (molecular weights) in a polymer sample (opposite of monodisperse).
 - **Degree of polydispersity (PDI)**: quantitative **measure** of that spread.
 
-$$\boxed{\mathrm{PDI}=\dfrac{M_w}{M_n}}$$
+$$
+\mathrm{PDI}=\dfrac{M_w}{M_n}
+$$
 
 **Key points**
 - PDI = 1 → monodisperse (ideal, e.g., proteins).
@@ -45,7 +50,7 @@ $$\boxed{\mathrm{PDI}=\dfrac{M_w}{M_n}}$$
 
 ---
 
-## Q1(iii) Numerical: $M_n, M_w, M_v, M_z$, PDI
+## Q1(iii) Numerical: $M_n$, $M_w$, $M_v$, $M_z$, PDI
 
 **Given**: $M_i$ = 10, 20, 30  |  $N_i$ = 6, 4, 2
 
@@ -60,17 +65,27 @@ $$\boxed{\mathrm{PDI}=\dfrac{M_w}{M_n}}$$
 
 **Step 2 — Compute**
 
-$$M_n=\frac{\sum N_iM_i}{\sum N_i}=\frac{200}{12}=\mathbf{16.67}$$
+$$
+M_n=\frac{\sum N_iM_i}{\sum N_i}=\frac{200}{12}=16.67
+$$
 
-$$M_w=\frac{\sum N_iM_i^2}{\sum N_iM_i}=\frac{4000}{200}=\mathbf{20}$$
+$$
+M_w=\frac{\sum N_iM_i^2}{\sum N_iM_i}=\frac{4000}{200}=20
+$$
 
-$$M_z=\frac{\sum N_iM_i^3}{\sum N_iM_i^2}=\frac{92000}{4000}=\mathbf{23}$$
+$$
+M_z=\frac{\sum N_iM_i^3}{\sum N_iM_i^2}=\frac{92000}{4000}=23
+$$
 
-$$\mathrm{PDI}=\frac{M_w}{M_n}=\frac{20}{16.67}=\mathbf{1.2}$$
+$$
+\mathrm{PDI}=\frac{M_w}{M_n}=\frac{20}{16.67}=1.2
+$$
 
 **Step 3 — $M_v$ (viscosity average)**
 
-$$M_v=\left(\frac{\sum N_iM_i^{a+1}}{\sum N_iM_i}\right)^{1/a}$$
+$$
+M_v=\left(\frac{\sum N_iM_i^{a+1}}{\sum N_iM_i}\right)^{1/a}
+$$
 
 > ⚠️ **Value of Mark–Houwink exponent $a$ is NOT given in the data → a unique numerical value of $M_v$ CANNOT be calculated.** State this explicitly in exam.
 >
@@ -78,9 +93,15 @@ $$M_v=\left(\frac{\sum N_iM_i^{a+1}}{\sum N_iM_i}\right)^{1/a}$$
 
 **Step 4 — Prove $M_w\ge M_n$**
 
-$$M_w-M_n=\frac{\sum N_iM_i^2\cdot\sum N_i-\left(\sum N_iM_i\right)^2}{\left(\sum N_iM_i\right)\left(\sum N_i\right)}$$
+$$
+M_w-M_n=\frac{\sum N_iM_i^2\cdot\sum N_i-\left(\sum N_iM_i\right)^2}{\left(\sum N_iM_i\right)\left(\sum N_i\right)}
+$$
 
-By **Cauchy–Schwarz inequality**: $\left(\sum N_iM_i\right)^2\le\left(\sum N_i\right)\left(\sum N_iM_i^2\right)$
+By **Cauchy–Schwarz inequality**:
+
+$$
+\left(\sum N_iM_i\right)^2\le\left(\sum N_i\right)\left(\sum N_iM_i^2\right)
+$$
 
 ⟹ Numerator ≥ 0 ⟹ **$M_w\ge M_n$ always.**
 **Equality** holds **only when all $M_i$ are equal** (monodisperse, PDI = 1).
@@ -88,7 +109,10 @@ By **Cauchy–Schwarz inequality**: $\left(\sum N_iM_i\right)^2\le\left(\sum N_i
 Numerically here: $M_w=20 > M_n=16.67$ ✔ (verified)
 
 **★ Final exam version**
-$$M_n=16.67,\quad M_w=20,\quad M_z=23,\quad \mathrm{PDI}=1.2,\quad M_v=\text{cannot fix without }a$$
+
+$$
+M_n=16.67,\quad M_w=20,\quad M_z=23,\quad \mathrm{PDI}=1.2,\quad M_v=\text{cannot fix without } a
+$$
 
 ---
 
@@ -106,6 +130,7 @@ $$M_n=16.67,\quad M_w=20,\quad M_z=23,\quad \mathrm{PDI}=1.2,\quad M_v=\text{can
 | Detected by | DSC (step change), dilatometry | DSC (sharp endotherm) |
 
 **Diagram (Specific Volume vs Temperature)**
+
 ```
 Volume
   |                        ___liquid
@@ -134,6 +159,7 @@ Volume
 | Example | Atactic PS, PMMA | HDPE, PTFE, Nylon |
 
 **Diagram**
+
 ```
 Amorphous:      Crystalline:
   ~~~~~~           ||||||||
@@ -153,7 +179,11 @@ Amorphous:      Crystalline:
 - **Crystallisability**: the **inherent structural ability/tendency** of a polymer to crystallize (depends on chain regularity/tacticity), regardless of whether it actually has crystallized.
 
 **Formula (density method)**
-$$\%\text{Crystallinity}=\frac{\rho-\rho_a}{\rho_c-\rho_a}\times100$$
+
+$$
+\%\text{Crystallinity}=\frac{\rho-\rho_a}{\rho_c-\rho_a}\times100
+$$
+
 ($\rho$ = sample density, $\rho_a$ = amorphous density, $\rho_c$ = crystalline density)
 
 **Key points**
@@ -173,16 +203,18 @@ $$\%\text{Crystallinity}=\frac{\rho-\rho_a}{\rho_c-\rho_a}\times100$$
 - **Oxidative degradation**: chain breakdown via **autoxidation** — radical chain reaction with atmospheric O₂.
 
 **Mechanism — Photo-degradation (Norrish reactions, mandatory)**
-```
-Norrish I:   R–CO–R'  --hν-->  R• + R'CO•        (chain scission)
 
-Norrish II:  R–CO–CH2–CH2–R'  --hν-->
+```
+Norrish I:   R–CO–R'  --hv-->  R• + R'CO•        (chain scission)
+
+Norrish II:  R–CO–CH2–CH2–R'  --hv-->
              [6-membered cyclic TS] --> R–CO–CH3 + CH2=CH–R'
 ```
 
 **Mechanism — Oxidative degradation (autoxidation, mandatory)**
+
 ```
-Initiation:    RH  --heat/hν/M(catalyst)-->  R• + H•
+Initiation:    RH  --heat/hv/M(catalyst)-->  R• + H•
 Propagation:   R•  + O2   -->  ROO•
                ROO• + RH  -->  ROOH + R•
 Branching:     ROOH  -->  RO• + •OH   (accelerates degradation)
@@ -206,15 +238,18 @@ Termination:   R• + R•  -->  R–R
 ## Q2(v) Function & Mechanism of Photo-stabilizer and Anti-oxidant
 
 ### Anti-oxidant (Chain-breaking, e.g., hindered phenols)
+
 **Function**: interrupts the radical chain of autoxidation by donating H• to peroxy radicals before they can propagate.
 
 **Mechanism**
+
 ```
 AH (antioxidant) + ROO•  -->  ROOH + A•
 A• is resonance-stabilized (bulky hindered-phenoxy radical) → does NOT propagate chain
 ```
 
 ### Photo-stabilizer
+
 **Function**: protects polymer from UV-induced (photo-oxidative) degradation, by two main routes:
 
 | Type | Mechanism |
@@ -226,10 +261,10 @@ A• is resonance-stabilized (bulky hindered-phenoxy radical) → does NOT propa
 
 ---
 
-# 🔑 MASTER REVISION SHEET (last 5-min glance)
+## 🔑 MASTER REVISION SHEET (last 5-min glance)
 
 - $M_n=\Sigma N_iM_i/\Sigma N_i$, $M_w=\Sigma N_iM_i^2/\Sigma N_iM_i$, $M_z=\Sigma N_iM_i^3/\Sigma N_iM_i^2$, PDI $=M_w/M_n$
-- Numerical answer: $M_n=16.67,\ M_w=20,\ M_z=23,\ \mathrm{PDI}=1.2$; $M_v$ **needs "a"**
+- Numerical answer: $M_n=16.67$, $M_w=20$, $M_z=23$, PDI $=1.2$; $M_v$ **needs "a"**
 - $M_w\ge M_n$ (Cauchy–Schwarz); equality only if monodisperse
 - $T_g$ = amorphous, 2nd order; $T_m$ = crystalline, 1st order, sharp
 - Crystallisability = potential (structural); Degree of crystallinity = actual % (measurable)
