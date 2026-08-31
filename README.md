@@ -35,11 +35,11 @@ This repository contains comprehensive course notes from my journey through the 
 | :--- | :--- | :---: | :--- | :--- |
 | **[CHEM-101](https://github.com/itachi-re/butex-notes/tree/master/CHEM-101)** | Chemistry - I | 🟢 Active | Periodicity, Bonding, Acids/Bases, Equilibrium, Kinetics, Colloids, Photochemistry | [📑 Topics](#chemistry-101-topics) |
 | **[CHEM-103](https://github.com/itachi-re/butex-notes/tree/master/CHEM-103)** | Organic Chemistry — Reactions & Mechanisms | 🟢 Active | Inductive/Electromeric/Mesomeric Effects, Carbonium Ions, Carbanions, SN1/SN2/E1/E2, Addition Reactions, Organometallics (Grignard, Organozinc, TEL), Alcohols, Phenols, Carboxylic Acid Derivatives | [📑 Topics](#chem-103-topics) |
-| **[CHEM-104](https://github.com/itachi-re/butex-notes/tree/master/CHEM-104)** ✨ New | Chemistry - II (Practical) | 🟡 In Progress | Identification of Organic Compounds (Alcohols, Acids, Aldehydes, Ketones, Phenols, Amines, Amides), Titrations | [📑 Topics](#chem-104-topics) |
+| **[CHEM-104](https://github.com/itachi-re/butex-notes/tree/master/CHEM-104)** | Chemistry - II (Practical) | 🟡 In Progress | Identification of Organic Compounds (23 compounds: Alcohols, Acids, Aldehydes, Ketones, Phenols, Amines, Amides), Amino Acids & Proteins, Colours/Dyes & Pigments, Titrations (⚪ Pending) | [📑 Topics](#chem-104-topics) |
 | **[PHY-101](https://github.com/itachi-re/butex-notes/tree/master/PHY-101)** | Physics - I | 🟢 Active | Elasticity, Fluid Mechanics, Interference, Dynamics, Surface Tension, Viscosity, Diffraction, Polarization | [📑 Topics](#physics-101-topics) |
-| **[PHY-103](https://github.com/itachi-re/butex-notes/tree/master/PHY-103)** | Physics - II | 🟢 Active | Electricity (Coulomb's Law → Parallel Resonance, 14 topics), Kinetic Theory of Gases (13 topics), Magnetism | [📑 Topics](#phy-103-topics) |
+| **[PHY-103](https://github.com/itachi-re/butex-notes/tree/master/PHY-103)** | Physics - II | 🟢 Active | Electricity (Coulomb's Law → Parallel Resonance, 14/14 topics), Kinetic Theory of Gases (13/13 topics), Magnetism (Induction → LC-SHM Analogy, 13/13 topics), Thermodynamics | [📑 Topics](#phy-103-topics) |
 | **[MATH-101](https://github.com/itachi-re/butex-notes/tree/master/MATH-101)** | Mathematics - I | 🟢 Active | Differential Calculus, Integral Calculus, Linear Algebra, Coordinate Geometry | [📑 Topics](#math-101-topics) |
-| **[MATH-103](https://github.com/itachi-re/butex-notes/tree/master/MATH-103)** | Mathematics - II | 🟡 In Progress | Ordinary Differential Equations, Vector Analysis (Gradient/Divergence/Curl, Green's/Stokes'/Gauss's Theorems), Calculus Extras (prerequisites, limits, derivatives) | [📑 Topics](#math-103-topics) |
+| **[MATH-103](https://github.com/itachi-re/butex-notes/tree/master/MATH-103)** | Mathematics - II | 🟡 In Progress | Ordinary Differential Equations, Vector Analysis (Gradient/Divergence/Curl, Green's/Stokes'/Gauss's Theorems), Laplace Transform (Definition → Solving ODEs/PDEs, 7 topics), Calculus Extras (prerequisites, limits, derivatives) | [📑 Topics](#math-103-topics) |
 | **[HSS-101](https://github.com/itachi-re/butex-notes/tree/master/HSS-101)** | Humanities & Social Science | 🟢 Active | Communication, Letters, Presentations, Meetings, Group Project | [📑 Topics](#hss-101-topics) |
 
 ### 💻 Computing & Programming
@@ -61,7 +61,7 @@ This repository contains comprehensive course notes from my journey through the 
 | Course Code | Course Title | Status | Topics Covered | Quick Links |
 | :--- | :--- | :---: | :--- | :--- |
 | **[YE-101](https://github.com/itachi-re/butex-notes/tree/master/YE-101)** | Natural Textile Fibres | 🟢 Active | Flax, Jute, Cotton, Silk, Wool — Full Modules | [📑 Topics](#ye-101-topics) |
-| **[YE-201](https://github.com/itachi-re/butex-notes/tree/master/YE-201)** | Fibre & Yarn Testing | 🟡 In Progress | Moisture Regain, Sampling Methods, Quality Control | - |
+| **[YE-201](https://github.com/itachi-re/butex-notes/tree/master/YE-201)** | Fibre & Yarn Testing | 🟡 In Progress | Testing & QC Introduction (Deming Cycle), Moisture Regain, Sampling, Fibre Length (Intro) | - |
 
 ### 🔩 Practical & Lab Work
 
@@ -231,6 +231,10 @@ This repository contains comprehensive course notes from my journey through the 
 - [Kinetics Proof](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/qna/kinetics-proof.md)
 - [Organic Reactions](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/qna/organic_reactions.md)
 - [Question Bank — Class Test 1](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/qna/qb_ct1.md)
+- [Organic Chemistry Q&A (2026-08-20)](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/qna/Organic_Chemistry_Qna_260820.md)
+- [Organic Chemistry Exam Answers (2026-08-25)](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/qna/organic_chemistry_exam_answers_260825.md)
+- [Organic Chemistry Exam Answers (2026-08-25).1](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/qna/organic_chemistry_exam_answers_260825.1.md)
+- [Organic Chemistry Exam Answers (2026-08-25).2 — Corrected Final](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/qna/organic_chemistry_exam_answers_260825.2.md)
 
 </details>
 
@@ -240,6 +244,7 @@ This repository contains comprehensive course notes from my journey through the 
 - [One-Shot: Organic Reactions & Organometallic](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/quick_rev/OneShot_OrganicReactions_Organometallic.md)
 - [Addition, Substitution, Grignard & TEL](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/quick_rev/addition_substitution_grignard_tel.md)
 - [Nucleophilic Mechanisms](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/quick_rev/nucleophilic_mechanisms.md)
+- [Colors, Dyes and Pigments Notes](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/quick_rev/Colors_Dyes_Pigments_Notes.md)
 
 </details>
 
@@ -249,7 +254,7 @@ This repository contains comprehensive course notes from my journey through the 
 
 **[🔗 View All Chemistry - II (Practical) Notes](https://github.com/itachi-re/butex-notes/tree/master/CHEM-104)**
 
-> Chemistry-II practical course — qualitative identification of organic compounds and titrations.
+> Chemistry-II practical course — qualitative identification of organic compounds, amino acids & proteins, colours/dyes/pigments, and titrations.
 
 <details>
 <summary><b>📂 Identification of Organic Compounds</b></summary>
@@ -279,6 +284,20 @@ This repository contains comprehensive course notes from my journey through the 
 - [23 - Acetamide](https://github.com/itachi-re/butex-notes/blob/master/CHEM-104/identification_of_organic_compounds/23_acetamide.md)
 - [📖 Module README](https://github.com/itachi-re/butex-notes/blob/master/CHEM-104/identification_of_organic_compounds/README.md)
 - [Q&A](https://github.com/itachi-re/butex-notes/blob/master/CHEM-104/identification_of_organic_compounds/qna.md)
+
+</details>
+
+<details>
+<summary><b>📂 Amino Acids and Proteins</b></summary>
+
+- [Amino Acids and Proteins](https://github.com/itachi-re/butex-notes/blob/master/CHEM-104/amino_acids_proteins/Amino_Acids_and_Proteins.md) — Classification, nomenclature, optical activity, synthesis, properties, peptide linkage, protein composition
+
+</details>
+
+<details>
+<summary><b>📂 Colours, Dyes and Pigments</b></summary>
+
+- [Colours, Dyes and Pigments](https://github.com/itachi-re/butex-notes/blob/master/CHEM-104/colors_dyes_pigments/Colours_Dyes_and_Pigments.md) — Theories of colour, colour and conjugated systems, dye nomenclature/classification/structure, dye intermediates, non-textile uses
 
 </details>
 
@@ -482,7 +501,7 @@ This repository contains comprehensive course notes from my journey through the 
 </details>
 
 <details>
-<summary><b>📂 Kinetic Theory of Gases ✨ New</b></summary>
+<summary><b>📂 Kinetic Theory of Gases (13/13 topics)</b></summary>
 
 - [01 - Heat](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/kinetic_theory_of_gases/01_heat.md)
 - [02 - Temperature](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/kinetic_theory_of_gases/02_temperature.md)
@@ -502,13 +521,29 @@ This repository contains comprehensive course notes from my journey through the 
 </details>
 
 <details>
-<summary><b>📂 Magnetism</b></summary>
+<summary><b>📂 Magnetism (13/13 topics)</b></summary>
 
 - [01 - Magnetic Induction](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/magnetism/01_magnetic_induction.md)
-- [02 - Magnetic Force on a Conductor](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/magnetism/02_magnetic_force_conductor.md)
-- [03 - Torque on a Current Loop](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/magnetism/03_torque_current_loop.md)
+- [02 - Magnetic Force on a Current-Carrying Conductor](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/magnetism/02_magnetic_force_on_current_carrying_conductor.md)
+- [03 - Torque on a Current-Carrying Loop](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/magnetism/03_torque_on_current_carrying_loop.md)
 - [04 - Hall Effect](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/magnetism/04_hall_effect.md)
+- [05 - Faraday's Law of Electromagnetic Induction](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/magnetism/05_faradays_law.md)
+- [06 - Lenz's Law](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/magnetism/06_lenzs_law.md)
+- [07 - Self-Induction](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/magnetism/07_self_induction.md)
+- [08 - Mutual Induction](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/magnetism/08_mutual_induction.md)
+- [09 - Classification of Magnetic Materials](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/magnetism/09_classification_of_magnetic_materials.md)
+- [10 - Hysteresis Curve](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/magnetism/10_hysteresis_curve.md)
+- [11 - Electromagnetic Oscillation](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/magnetism/11_electromagnetic_oscillation.md)
+- [12 - L-C Oscillations](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/magnetism/12_lc_oscillations.md)
+- [13 - Analogy of L-C Oscillations with SHM](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/magnetism/13_lc_oscillation_shm_analogy.md)
 - [📖 Module README](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/magnetism/README.md)
+
+</details>
+
+<details>
+<summary><b>📂 Thermodynamics ✨ New</b></summary>
+
+- [Thermodynamics (One-Shot)](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/thermodynamics/Thermodynamics_os.md)
 
 </details>
 
@@ -516,6 +551,8 @@ This repository contains comprehensive course notes from my journey through the 
 <summary><b>📂 Quick Revision</b></summary>
 
 - [Kinetic Theory of Gases](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/quick_rev/kinetic_theory_of_gases.md)
+- [Electricity Q&A 2015–2024](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/quick_rev/Electricity_QnA_2015_2024.md)
+- [Electricity Exam Prep](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/quick_rev/Electricity_exam_prep.md)
 
 </details>
 
@@ -664,6 +701,21 @@ This repository contains comprehensive course notes from my journey through the 
 </details>
 
 <details>
+<summary><b>📂 Laplace Transform</b></summary>
+
+- [01 - Definition of Laplace Transform](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/04_laplace_transform/01_definition_of_laplace_transform.md)
+- [02 - Laplace Transform of Elementary Functions](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/04_laplace_transform/02_laplace_transform_of_elementary_functions.md)
+- [03 - Properties of Laplace Transform and Applications](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/04_laplace_transform/03_properties_and_applications.md)
+- [04 - Inverse Laplace Transform](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/04_laplace_transform/04_inverse_laplace_transform.md)
+- [05 - Convolution Theorem](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/04_laplace_transform/05_convolution_theorem.md)
+- [06 - Solution of ODEs Using Laplace Transform](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/04_laplace_transform/06_solution_of_ordinary_differential_equations.md)
+- [07 - Solution of PDEs Using Laplace Transform](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/04_laplace_transform/07_solution_of_partial_differential_equations.md)
+- [📖 Module README](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/04_laplace_transform/README.md)
+- [One-Shot Revision](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/04_laplace_transform/laplace-transform_os.md)
+
+</details>
+
+<details>
 <summary><b>📂 Calculus Extras (Prerequisites) ✨ New</b></summary>
 
 > Companion material covering everything before ODEs and vector calculus: limits, derivatives, and foundational review.
@@ -681,6 +733,10 @@ This repository contains comprehensive course notes from my journey through the 
 
 - [Differential Equations Q&A](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/qna/Differential_Equations_qna.md)
 - [Math ODE Homework (2026-07-05)](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/qna/math-ode-hw-20260705.md)
+- [ODE Class Test (2026-07-21) — Solutions](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/qna/ODE_CT.260721_Solutions.md)
+- [Laplace Transform (2026-08-17)](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/qna/laplace_transform_260817.md)
+- [Laplace Transform Practice — 1](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/qna/laplace_transform_practice-1.md)
+- [Laplace Transform Homework (2026-08-27)](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/qna/laplace-transform-hw-260827.md)
 
 </details>
 
@@ -690,6 +746,12 @@ This repository contains comprehensive course notes from my journey through the 
 - [Differential Equations Complete Revision Handbook](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/quick_rev/Differential_Equations_Complete_Revision_Handbook.md)
 - [ODE Quick Notes](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/quick_rev/ODE_Quick_Notes.md)
 - [ODE / Calculus Reference](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/quick_rev/ode-calculus-reference.md)
+- [ODE Class Test (2026-07-30) — Prep](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/quick_rev/ODE_CT260730_Prep.md)
+- [Laplace Transform Quick Revision](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/quick_rev/laplace_transform_quick_rev.md)
+- [Laplace Transform Note 1](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/quick_rev/laplace-transform-note-1.md)
+- [Laplace Transform Note 2](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/quick_rev/laplace-transform-note-2.md)
+- [Laplace Transform Note 3](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/quick_rev/laplace-transform-note-3.md)
+- [📖 Module README](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/quick_rev/README.md)
 
 </details>
 
@@ -932,10 +994,20 @@ This repository contains comprehensive course notes from my journey through the 
 <details>
 <summary><b>📂 Homework Programs</b></summary>
 
+- [ATM Check Loop (`atm_check_loop.c`)](https://github.com/itachi-re/butex-notes/blob/master/MDM-102/C-Programming/homeworks/atm_check_loop.c)
 - [Circle (`circle.c`)](https://github.com/itachi-re/butex-notes/blob/master/MDM-102/C-Programming/homeworks/circle.c)
 - [Grading — Marks v2 (`grading-m2.c`)](https://github.com/itachi-re/butex-notes/blob/master/MDM-102/C-Programming/homeworks/grading-m2.c)
 - [Grading System (`grading-systm.c`)](https://github.com/itachi-re/butex-notes/blob/master/MDM-102/C-Programming/homeworks/grading-systm.c)
+- [Simple Menu (`simple-menu.c`)](https://github.com/itachi-re/butex-notes/blob/master/MDM-102/C-Programming/homeworks/simple-menu.c)
+- [Student Group (`student-group.c`)](https://github.com/itachi-re/butex-notes/blob/master/MDM-102/C-Programming/homeworks/student-group.c)
 - [Triangle (`triangle.c`)](https://github.com/itachi-re/butex-notes/blob/master/MDM-102/C-Programming/homeworks/triangle.c)
+
+</details>
+
+<details>
+<summary><b>📂 Q&A</b></summary>
+
+- [C Loops and Switch-Case](https://github.com/itachi-re/butex-notes/blob/master/MDM-102/qna/c-loops-and-switch-case.md)
 
 </details>
 
@@ -964,6 +1036,14 @@ This repository contains comprehensive course notes from my journey through the 
 - [04 - Atomic, Molecular, Crystalline & Amorphous Structures](https://github.com/itachi-re/butex-notes/blob/master/IPE-101/04-atomic-molecular-structures.md)
 - [05 - Elastic & Plastic Behavior](https://github.com/itachi-re/butex-notes/blob/master/IPE-101/05-elastic-plastic-behavior.md)
 - [06 - Phase Diagrams & Mixtures](https://github.com/itachi-re/butex-notes/blob/master/IPE-101/06-phase-diagrams-mixtures.md)
+
+</details>
+
+<details>
+<summary><b>📂 Q&A</b></summary>
+
+- [Engineering Materials Practice Exams](https://github.com/itachi-re/butex-notes/blob/master/IPE-101/qna/IPE-101_Engineering_Materials_Practice_Exams.md)
+- [Class Test — 2025](https://github.com/itachi-re/butex-notes/blob/master/IPE-101/qna/ipe-ct-2025.md)
 
 </details>
 
@@ -1152,6 +1232,8 @@ butex-notes/
 │   └── quick_rev/
 ├── CHEM-104/                    # Chemistry - II (Practical)
 │   ├── identification_of_organic_compounds/  # 23 compounds + qna
+│   ├── amino_acids_proteins/    # Amino Acids and Proteins
+│   ├── colors_dyes_pigments/    # Colours, Dyes and Pigments
 │   └── titrations/               # ⚪ Pending — placeholder only
 ├── PHY-101/                     # Physics - I (8 modules + worked examples + quick_rev)
 │   ├── 01_elasticity/
@@ -1169,7 +1251,8 @@ butex-notes/
 ├── PHY-103/                     # Physics - II
 │   ├── electricity/             # Coulomb's Law → Parallel Resonance (14/14 topics)
 │   ├── kinetic_theory_of_gases/ # 13 topics — heat, thermometry, kinetic theory, van der Waals
-│   ├── magnetism/                # 4 topics
+│   ├── magnetism/                # 13/13 topics — induction → LC-SHM analogy
+│   ├── thermodynamics/           # One-shot notes
 │   └── quick_rev/
 ├── MATH-101/                    # Mathematics - I
 │   ├── differential_calculus/
@@ -1181,6 +1264,7 @@ butex-notes/
 ├── MATH-103/                    # Mathematics - II
 │   ├── 01_ode/                  # Ordinary Differential Equations (5 topics)
 │   ├── 02_vector/                # Vector Analysis (10 topics)
+│   ├── 04_laplace_transform/     # Laplace Transform (7 topics)
 │   ├── calculus-extras/          # Prerequisites, limits, derivatives (companion material)
 │   ├── qna/
 │   └── quick_rev/
@@ -1201,10 +1285,12 @@ butex-notes/
 │   └── 07_io.md
 ├── MDM-102/                     # Computer Programming - II (C Programming, 11/11 topics)
 │   ├── C-Programming/
-│   │   └── homeworks/            # circle.c, triangle.c, grading programs
+│   │   └── homeworks/            # circle.c, triangle.c, grading programs, atm/menu/student-group
+│   ├── qna/                      # C loops and switch-case
 │   └── quick_rev/
 ├── IPE-101/                     # Industrial & Production Engineering (Materials Science)
 │   ├── 01-properties-of-materials.md … 06-phase-diagrams-mixtures.md
+│   ├── qna/
 │   └── quick_rev/
 ├── WPE-101/                     # Polymer Science and Engineering
 │   ├── fundamentals/
@@ -1369,8 +1455,8 @@ This project is licensed under the terms specified in the [LICENSE](LICENSE) fil
 ## 📊 Repository Stats
 
 ```
-Total Notes: 108 directories, 642 files
-Last Updated: Tuesday, July 28, 2026
+Total Notes: 108 directories, 679 files
+Last Updated: Thursday, August 27, 2026
 Export Format: Markdown → PDF
 Department: Fabric Engineering
 University: BUTEX
