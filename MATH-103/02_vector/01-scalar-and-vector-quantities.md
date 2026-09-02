@@ -6,7 +6,7 @@ sub_topic: "Scalar and Vector Quantities"
 chapter: 2
 section: 1
 date: 2026-06-20
-version: "1.0.0"
+version: "1.1.0"
 status: "complete"
 author: "itachi-re"
 tags: [math, vector-analysis, scalar, vector, direction-cosines, unit-vector]
@@ -15,7 +15,7 @@ tags: [math, vector-analysis, scalar, vector, direction-cosines, unit-vector]
 ![Course](https://img.shields.io/badge/Course-MATH--103-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Vector%20Analysis-6f42c1?style=flat-square)
 ![Section](https://img.shields.io/badge/Section-2.1-orange?style=flat-square)
-![Version](https://img.shields.io/badge/Version-1.0.0-brightgreen?style=flat-square)
+![Version](https://img.shields.io/badge/Version-1.1.0-brightgreen?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Complete-success?style=flat-square)
 ![Updated](https://img.shields.io/badge/Updated-2026--06--20-yellow?style=flat-square)
 
@@ -95,12 +95,12 @@ Mathematically, a vector in $\mathbb{R}^n$ is an ordered $n$-tuple of real numbe
 
 ```mermaid
 flowchart TD
-    A["Physical Quantities"] --> B["Scalar Quantities\n(magnitude only)"]
-    A --> C["Vector Quantities\n(magnitude + direction)"]
+    A["Physical Quantities"] --> B["Scalar Quantities<br/>(magnitude only)"]
+    A --> C["Vector Quantities<br/>(magnitude + direction)"]
 
-    B --> B1["Mass, Temperature\nTime, Energy\nSpeed, Volume"]
+    B --> B1["Mass, Temperature<br/>Time, Energy<br/>Speed, Volume"]
 
-    C --> C1["Displacement, Velocity\nForce, Acceleration\nMomentum, Torque"]
+    C --> C1["Displacement, Velocity<br/>Force, Acceleration<br/>Momentum, Torque"]
 
     style A fill:#4a4e69,color:#fff
     style B fill:#2196F3,color:#fff
@@ -132,13 +132,9 @@ A vector is represented by a **directed line segment** (an arrow):
 
 $$\overrightarrow{AB}: \text{ vector from } A \text{ (tail) to } B \text{ (head)}$$
 
-```
-     B
-     ↑
-     |  → (arrow direction = vector direction)
-     |
-     A
-```
+<p align="center">
+  <img src="../../assets/vec21-geometric-representation.svg" alt="Geometric representation of a vector as a directed line segment from tail A to head B" width="600">
+</p>
 
 ### 3.2 Algebraic Notation
 
@@ -165,17 +161,17 @@ $$|\mathbf{A}| = \sqrt{A_1^2 + A_2^2 + A_3^2}$$
 
 ```mermaid
 flowchart LR
-    V["Types of Vectors"] --> Z["Zero / Null Vector\n|A| = 0"]
-    V --> U["Unit Vector\n|A| = 1"]
-    V --> EQ["Equal Vectors\nsame magnitude & direction"]
-    V --> NEG["Negative Vector\n-A (opposite direction)"]
-    V --> PAR["Parallel Vectors\nsame/opposite direction"]
-    V --> CO["Collinear Vectors\nalong same/parallel line"]
-    V --> COP["Coplanar Vectors\nin same plane"]
-    V --> POS["Position Vector\nfrom origin O"]
-    V --> FREE["Free Vector\nany position"]
-    V --> LIKE["Like Vectors\nsame direction"]
-    V --> UNLIKE["Unlike Vectors\nopposite direction"]
+    V["Types of Vectors"] --> Z["Zero / Null Vector<br/>|A| = 0"]
+    V --> U["Unit Vector<br/>|A| = 1"]
+    V --> EQ["Equal Vectors<br/>same magnitude & direction"]
+    V --> NEG["Negative Vector<br/>-A (opposite direction)"]
+    V --> PAR["Parallel Vectors<br/>same/opposite direction"]
+    V --> CO["Collinear Vectors<br/>along same/parallel line"]
+    V --> COP["Coplanar Vectors<br/>in same plane"]
+    V --> POS["Position Vector<br/>from origin O"]
+    V --> FREE["Free Vector<br/>any position"]
+    V --> LIKE["Like Vectors<br/>same direction"]
+    V --> UNLIKE["Unlike Vectors<br/>opposite direction"]
 
     style V fill:#4a4e69,color:#fff
 ```
@@ -255,6 +251,10 @@ $$|\hat{\mathbf{i}}| = |\hat{\mathbf{j}}| = |\hat{\mathbf{k}}| = 1$$
 
 $$\hat{\mathbf{i}} \perp \hat{\mathbf{j}}, \quad \hat{\mathbf{j}} \perp \hat{\mathbf{k}}, \quad \hat{\mathbf{k}} \perp \hat{\mathbf{i}}$$
 
+<p align="center">
+  <img src="../../assets/vec21-standard-basis.svg" alt="Standard basis vectors i, j, k drawn from the origin along the x, y, z axes" width="560">
+</p>
+
 ### 6.2 Component Form
 
 Any vector $\mathbf{A}$ in 3D space can be written:
@@ -305,16 +305,9 @@ $$\mathbf{r} = \frac{m\mathbf{b} - n\mathbf{a}}{m - n}$$
 
 Let $\mathbf{A} = A_1\hat{\mathbf{i}} + A_2\hat{\mathbf{j}} + A_3\hat{\mathbf{k}}$. The angles $\alpha$, $\beta$, $\gamma$ that $\mathbf{A}$ makes with the positive $x$-, $y$-, $z$-axes are the **direction angles**.
 
-```
-       z
-       ↑
-       |  /
-       | / (γ)
-       |/____→ y
-      /  (β)
-     / (α)
-    x
-```
+<p align="center">
+  <img src="../../assets/vec21-direction-angles.svg" alt="Direction angles alpha, beta, gamma that a vector makes with the x, y, z axes" width="560">
+</p>
 
 ### 8.2 Direction Cosines
 
@@ -356,6 +349,10 @@ $$|\mathbf{A}| = \sqrt{(2)^2 + (-3)^2 + (6)^2} = \sqrt{4 + 9 + 36} = \sqrt{49} =
 
 $$\hat{\mathbf{a}} = \frac{\mathbf{A}}{|\mathbf{A}|} = \frac{2\hat{\mathbf{i}} - 3\hat{\mathbf{j}} + 6\hat{\mathbf{k}}}{7} = \frac{2}{7}\hat{\mathbf{i}} - \frac{3}{7}\hat{\mathbf{j}} + \frac{6}{7}\hat{\mathbf{k}}$$
 
+<p align="center">
+  <img src="../../assets/vec21-example1-magnitude-unitvector.svg" alt="3D plot of vector A = 2i - 3j + 6k with magnitude and unit vector calculation" width="560">
+</p>
+
 ---
 
 ### Example 2: Vector Between Two Points
@@ -367,6 +364,10 @@ $$\hat{\mathbf{a}} = \frac{\mathbf{A}}{|\mathbf{A}|} = \frac{2\hat{\mathbf{i}} -
 $$\overrightarrow{PQ} = (5-1)\hat{\mathbf{i}} + (0-(-2))\hat{\mathbf{j}} + (-1-4)\hat{\mathbf{k}} = 4\hat{\mathbf{i}} + 2\hat{\mathbf{j}} - 5\hat{\mathbf{k}}$$
 
 $$|\overrightarrow{PQ}| = \sqrt{16 + 4 + 25} = \sqrt{45} = 3\sqrt{5}$$
+
+<p align="center">
+  <img src="../../assets/vec21-example2-vector-between-points.svg" alt="3D plot showing position vectors to P and Q, and the vector PQ between them" width="560">
+</p>
 
 ---
 
@@ -382,6 +383,10 @@ $$l = \cos\alpha = \frac{1}{3}, \quad m = \cos\beta = \frac{2}{3}, \quad n = \co
 
 **Verification**: $l^2 + m^2 + n^2 = \frac{1}{9} + \frac{4}{9} + \frac{4}{9} = \frac{9}{9} = 1$ ✔
 
+<p align="center">
+  <img src="../../assets/vec21-example3-direction-cosines.svg" alt="3D plot of vector B = i + 2j - 2k with its direction cosines annotated" width="560">
+</p>
+
 ---
 
 ### Example 4: Section Formula (Internal Division)
@@ -393,6 +398,10 @@ $$l = \cos\alpha = \frac{1}{3}, \quad m = \cos\beta = \frac{2}{3}, \quad n = \co
 $$\mathbf{p} = \frac{2\mathbf{b} + 1\mathbf{a}}{2+1} = \frac{2(4\hat{\mathbf{i}}+5\hat{\mathbf{j}}+6\hat{\mathbf{k}}) + 1(1\hat{\mathbf{i}}+2\hat{\mathbf{j}}+3\hat{\mathbf{k}})}{3}$$
 
 $$= \frac{(8+1)\hat{\mathbf{i}} + (10+2)\hat{\mathbf{j}} + (12+3)\hat{\mathbf{k}}}{3} = \frac{9\hat{\mathbf{i}} + 12\hat{\mathbf{j}} + 15\hat{\mathbf{k}}}{3} = 3\hat{\mathbf{i}} + 4\hat{\mathbf{j}} + 5\hat{\mathbf{k}}$$
+
+<p align="center">
+  <img src="../../assets/vec21-example4-section-formula.svg" alt="Number-line style diagram showing point P dividing segment AB internally in ratio 2 to 1" width="560">
+</p>
 
 ---
 
@@ -407,6 +416,10 @@ Using $l^2 + m^2 + n^2 = 1$:
 $$\frac{1}{2} + \frac{1}{4} + \cos^2\gamma = 1 \implies \cos^2\gamma = 1 - \frac{3}{4} = \frac{1}{4}$$
 
 $$\cos\gamma = \pm\frac{1}{2} \implies \gamma = 60° \text{ or } 120°$$
+
+<p align="center">
+  <img src="../../assets/vec21-example5-direction-angle-ambiguity.svg" alt="3D plot showing the two symmetric vector solutions for gamma = 60 degrees or 120 degrees" width="560">
+</p>
 
 ---
 
