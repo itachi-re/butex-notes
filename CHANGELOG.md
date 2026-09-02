@@ -4,7 +4,37 @@ All notable changes to the BUTEX Notes project are documented here.
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) with [Semantic Versioning](https://semver.org/).
 
 ---
-[Unreleased]
+## [Unreleased]
+
+### Added
+- MATH-103/complex_variables/01_complex_number_system.md
+- MATH-103/complex_variables/02_rectangular_and_polar_form.md
+- MATH-103/complex_variables/03_modulus_and_argument.md
+- MATH-103/complex_variables/04_principal_argument.md
+- MATH-103/complex_variables/05_de_moivres_theorem.md
+- MATH-103/complex_variables/06_eulers_formula.md
+- MATH-103/complex_variables/07_elementary_functions_of_complex_variables.md
+- MATH-103/complex_variables/08_differentiation.md
+- MATH-103/complex_variables/09_derivatives.md
+- MATH-103/complex_variables/10_analytic_function.md
+- MATH-103/complex_variables/11_necessary_and_sufficient_conditions_for_analyticity.md
+- MATH-103/complex_variables/12_cauchy_riemann_equations.md
+- MATH-103/complex_variables/13_harmonic_function.md
+- MATH-103/complex_variables/14_harmonic_conjugate.md
+- MATH-103/complex_variables/15_complex_line_integration.md
+- MATH-103/complex_variables/16_contours.md
+- MATH-103/complex_variables/17_cauchy_goursat_theorem.md
+- MATH-103/complex_variables/18_cauchys_integral_formula.md
+- MATH-103/complex_variables/19_singular_point_and_pole.md
+- MATH-103/complex_variables/20_residue.md
+- MATH-103/complex_variables/21_cauchys_residue_theorem.md
+- MATH-103/complex_variables/22_application_of_residue_theorem_to_improper_integrals.md
+- MATH-103/complex_variables/README.md
+- MATH-103/qna/03_complex_variables_qna.md
+- MATH-103/quick_rev/03_complex_variables.md
+
+
+## [0.9.0] — 2026-08-31
 Added
 
 PHY-103/kinetic_theory_of_gases/README.md
