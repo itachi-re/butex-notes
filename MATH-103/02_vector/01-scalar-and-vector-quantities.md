@@ -179,9 +179,9 @@ flowchart LR
 ### 4.2 Detailed Descriptions
 
 | Type | Definition | Symbol |
-|------|-----------|--------|
+| :--- | :--- | :--- |
 | **Zero / Null vector** | Magnitude = 0, direction undefined | $\mathbf{0}$ |
-| **Unit vector** | Magnitude = 1 | $\hat{\mathbf{a}} = \dfrac{\mathbf{A}}{|\mathbf{A}|}$ |
+| **Unit vector** | Magnitude = 1 | $\hat{\mathbf{a}} = \dfrac{\mathbf{A}}{\|\mathbf{A}\|}$ |
 | **Equal vectors** | Same magnitude AND same direction | $\mathbf{A} = \mathbf{B}$ |
 | **Negative vector** | Same magnitude, opposite direction | $-\mathbf{A}$ |
 | **Parallel vectors** | Parallel lines of action | $\mathbf{A} \parallel \mathbf{B}$ |
@@ -191,8 +191,6 @@ flowchart LR
 | **Coinitial vectors** | Same initial (starting) point | — |
 | **Localised vector** | Fixed line of action | — |
 | **Free vector** | Line of action not fixed | — |
-
----
 
 ## 5. Vector Algebra
 
