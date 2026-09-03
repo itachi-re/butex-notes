@@ -39,7 +39,7 @@ This repository contains comprehensive course notes from my journey through the 
 | **[PHY-101](https://github.com/itachi-re/butex-notes/tree/master/PHY-101)** | Physics - I | 🟢 Active | Elasticity, Fluid Mechanics, Interference, Dynamics, Surface Tension, Viscosity, Diffraction, Polarization | [📑 Topics](#physics-101-topics) |
 | **[PHY-103](https://github.com/itachi-re/butex-notes/tree/master/PHY-103)** | Physics - II | 🟢 Active | Electricity (Coulomb's Law → Parallel Resonance, 14/14 topics), Kinetic Theory of Gases (13/13 topics), Magnetism (Induction → LC-SHM Analogy, 13/13 topics), Thermodynamics | [📑 Topics](#phy-103-topics) |
 | **[MATH-101](https://github.com/itachi-re/butex-notes/tree/master/MATH-101)** | Mathematics - I | 🟢 Active | Differential Calculus, Integral Calculus, Linear Algebra, Coordinate Geometry | [📑 Topics](#math-101-topics) |
-| **[MATH-103](https://github.com/itachi-re/butex-notes/tree/master/MATH-103)** | Mathematics - II | 🟡 In Progress | Ordinary Differential Equations, Vector Analysis (Gradient/Divergence/Curl, Green's/Stokes'/Gauss's Theorems), Laplace Transform (Definition → Solving ODEs/PDEs, 7 topics), Calculus Extras (prerequisites, limits, derivatives) | [📑 Topics](#math-103-topics) |
+| **[MATH-103](https://github.com/itachi-re/butex-notes/tree/master/MATH-103)** | Mathematics - II | 🟡 In Progress | Ordinary Differential Equations, Vector Analysis (Gradient/Divergence/Curl, Green's/Stokes'/Gauss's Theorems), Complex Variables (Number System → Residue Theorem, 22 topics), Laplace Transform (Definition → Solving ODEs/PDEs, 7 topics), Calculus Extras (prerequisites, limits, derivatives) | [📑 Topics](#math-103-topics) |
 | **[HSS-101](https://github.com/itachi-re/butex-notes/tree/master/HSS-101)** | Humanities & Social Science | 🟢 Active | Communication, Letters, Presentations, Meetings, Group Project | [📑 Topics](#hss-101-topics) |
 
 ### 💻 Computing & Programming
@@ -548,6 +548,14 @@ This repository contains comprehensive course notes from my journey through the 
 </details>
 
 <details>
+<summary><b>📂 Q&A ✨ New</b></summary>
+
+- [Complete Solved Question Bank 2017–2023](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/qna/Physics-II_complete_solved_question_bank_2017-2023.md)
+- [Complete Solved Question Bank 2017–2023 (alt)](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/qna/phy-103_complete_solved_question_bank_2017-2023.md)
+
+</details>
+
+<details>
 <summary><b>📂 Quick Revision</b></summary>
 
 - [Kinetic Theory of Gases](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/quick_rev/kinetic_theory_of_gases.md)
@@ -697,6 +705,37 @@ This repository contains comprehensive course notes from my journey through the 
 - [09 - Gauss's Divergence Theorem](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/02_vector/09-gauss-divergence-theorem.md)
 - [10 - Stokes' Theorem](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/02_vector/10-stokes-theorem.md)
 - [📖 Module README](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/02_vector/README.md)
+
+</details>
+
+<details>
+<summary><b>📂 Complex Variables ✨ New (22/22 topics)</b></summary>
+
+> Functions of a complex variable — from the number system through contour integration, singularities, and the residue theorem, ending in applications to real improper integrals.
+
+- [01 - Complex Number System](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/03_complex_variables/01_complex_number_system.md)
+- [02 - Rectangular and Polar Form](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/03_complex_variables/02_rectangular_and_polar_form.md)
+- [03 - Modulus and Argument](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/03_complex_variables/03_modulus_and_argument.md)
+- [04 - Principal Argument](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/03_complex_variables/04_principal_argument.md)
+- [05 - De Moivre's Theorem](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/03_complex_variables/05_de_moivres_theorem.md)
+- [06 - Euler's Formula](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/03_complex_variables/06_eulers_formula.md)
+- [07 - Elementary Functions of Complex Variables](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/03_complex_variables/07_elementary_functions_of_complex_variables.md)
+- [08 - Differentiation](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/03_complex_variables/08_differentiation.md)
+- [09 - Derivatives](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/03_complex_variables/09_derivatives.md)
+- [10 - Analytic Function](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/03_complex_variables/10_analytic_function.md)
+- [11 - Necessary and Sufficient Conditions for Analyticity](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/03_complex_variables/11_necessary_and_sufficient_conditions_for_analyticity.md)
+- [12 - Cauchy-Riemann Equations](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/03_complex_variables/12_cauchy_riemann_equations.md)
+- [13 - Harmonic Function](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/03_complex_variables/13_harmonic_function.md)
+- [14 - Harmonic Conjugate](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/03_complex_variables/14_harmonic_conjugate.md)
+- [15 - Complex Line Integration](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/03_complex_variables/15_complex_line_integration.md)
+- [16 - Contours](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/03_complex_variables/16_contours.md)
+- [17 - Cauchy-Goursat Theorem](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/03_complex_variables/17_cauchy_goursat_theorem.md)
+- [18 - Cauchy's Integral Formula](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/03_complex_variables/18_cauchys_integral_formula.md)
+- [19 - Singular Point and Pole](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/03_complex_variables/19_singular_point_and_pole.md)
+- [20 - Residue](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/03_complex_variables/20_residue.md)
+- [21 - Cauchy's Residue Theorem](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/03_complex_variables/21_cauchys_residue_theorem.md)
+- [22 - Application of Residue Theorem to Improper Integrals](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/03_complex_variables/22_application_of_residue_theorem_to_improper_integrals.md)
+- [📖 Module README](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/03_complex_variables/README.md)
 
 </details>
 
@@ -1253,6 +1292,7 @@ butex-notes/
 │   ├── kinetic_theory_of_gases/ # 13 topics — heat, thermometry, kinetic theory, van der Waals
 │   ├── magnetism/                # 13/13 topics — induction → LC-SHM analogy
 │   ├── thermodynamics/           # One-shot notes
+│   ├── qna/                      # Complete solved question banks 2017–2023
 │   └── quick_rev/
 ├── MATH-101/                    # Mathematics - I
 │   ├── differential_calculus/
@@ -1264,6 +1304,7 @@ butex-notes/
 ├── MATH-103/                    # Mathematics - II
 │   ├── 01_ode/                  # Ordinary Differential Equations (5 topics)
 │   ├── 02_vector/                # Vector Analysis (10 topics)
+│   ├── 03_complex_variables/     # ✨ Complex Variables (22 topics) — number system → residue theorem
 │   ├── 04_laplace_transform/     # Laplace Transform (7 topics)
 │   ├── calculus-extras/          # Prerequisites, limits, derivatives (companion material)
 │   ├── qna/
@@ -1455,8 +1496,8 @@ This project is licensed under the terms specified in the [LICENSE](LICENSE) fil
 ## 📊 Repository Stats
 
 ```
-Total Notes: 108 directories, 679 files
-Last Updated: Thursday, August 27, 2026
+Total Notes: 110 directories, 718 files
+Last Updated: Thursday, September 3, 2026
 Export Format: Markdown → PDF
 Department: Fabric Engineering
 University: BUTEX
