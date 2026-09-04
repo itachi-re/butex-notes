@@ -6,7 +6,7 @@ sub_topic: "Vector Triple Product"
 chapter: 2
 section: 3
 date: 2026-06-20
-version: "1.0.0"
+version: "1.1.0"
 status: "complete"
 author: "itachi-re"
 tags: [math, vector-analysis, triple-product, scalar-triple-product, vector-triple-product, parallelepiped]
@@ -15,7 +15,7 @@ tags: [math, vector-analysis, triple-product, scalar-triple-product, vector-trip
 ![Course](https://img.shields.io/badge/Course-MATH--103-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Vector%20Analysis-6f42c1?style=flat-square)
 ![Section](https://img.shields.io/badge/Section-2.3-orange?style=flat-square)
-![Version](https://img.shields.io/badge/Version-1.0.0-brightgreen?style=flat-square)
+![Version](https://img.shields.io/badge/Version-1.1.0-brightgreen?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Complete-success?style=flat-square)
 ![Updated](https://img.shields.io/badge/Updated-2026--06--20-yellow?style=flat-square)
 
@@ -52,10 +52,10 @@ When three vectors are combined, we get **triple products**. Two distinct types 
 
 ```mermaid
 flowchart TD
-    A["Triple Products of 𝐀, 𝐁, 𝐂"] --> B["Scalar Triple Product\n[𝐀, 𝐁, 𝐂] = 𝐀·(𝐁×𝐂)\n→ gives a SCALAR"]
-    A --> C["Vector Triple Product\n𝐀×(𝐁×𝐂)\n→ gives a VECTOR"]
-    B --> D["= Volume of\nparallelepiped\nformed by A, B, C"]
-    C --> E["= (𝐀·𝐂)𝐁 - (𝐀·𝐁)𝐂\n(BAC-CAB rule)"]
+    A["Triple Products of 𝐀, 𝐁, 𝐂"] --> B["Scalar Triple Product<br/>[𝐀, 𝐁, 𝐂] = 𝐀·(𝐁×𝐂)<br/>→ gives a SCALAR"]
+    A --> C["Vector Triple Product<br/>𝐀×(𝐁×𝐂)<br/>→ gives a VECTOR"]
+    B --> D["= Volume of<br/>parallelepiped<br/>formed by A, B, C"]
+    C --> E["= (𝐀·𝐂)𝐁 - (𝐀·𝐁)𝐂<br/>(BAC-CAB rule)"]
     style A fill:#4a4e69,color:#fff
     style B fill:#1565C0,color:#fff
     style C fill:#6a1b9a,color:#fff
@@ -111,6 +111,10 @@ $$V = \text{Base Area} \times \text{Height} = |\mathbf{B}\times\mathbf{C}| \cdot
 
 $$\boxed{V_{\text{parallelepiped}} = |[\mathbf{A},\mathbf{B},\mathbf{C}]|}$$
 
+<p align="center">
+  <img src="../../assets/vec23-parallelepiped-volume.svg" alt="3D parallelepiped formed by vectors A, B, C whose volume equals the scalar triple product" width="560">
+</p>
+
 **Volume of tetrahedron** with edges $\mathbf{A}$, $\mathbf{B}$, $\mathbf{C}$ from one vertex:
 
 $$V_{\text{tetrahedron}} = \frac{1}{6}|[\mathbf{A},\mathbf{B},\mathbf{C}]|$$
@@ -156,6 +160,10 @@ This is a **vector**, lying in the plane of $\mathbf{B}$ and $\mathbf{C}$.
 
 > ⚠️ **Warning**: The vector triple product is **NOT associative**:
 > $$\mathbf{A} \times (\mathbf{B} \times \mathbf{C}) \neq (\mathbf{A} \times \mathbf{B}) \times \mathbf{C}$$
+
+<p align="center">
+  <img src="../../assets/vec23-vector-triple-product-plane.svg" alt="3D diagram showing that the vector triple product A cross (B cross C) lies in the plane spanned by B and C" width="560">
+</p>
 
 ### 3.2 BAC-CAB Rule (Lagrange's Formula)
 
@@ -251,6 +259,10 @@ $$= (-3) - 2(-1) + (-1)(5) = -3 + 2 - 5 = -6$$
 
 **Volume of parallelepiped** = $|-6| = 6$ cubic units.
 
+<p align="center">
+  <img src="../../assets/vec23-example1-scalar-triple-product.svg" alt="3D plot of the parallelepiped formed by vectors A, B, C with volume equal to the scalar triple product" width="560">
+</p>
+
 ---
 
 ### Example 2: Volume of Tetrahedron
@@ -267,6 +279,10 @@ $$= \frac{1}{6}\left|1(1-0) - 0 + (-1)(0+1)\right| = \frac{1}{6}|1 - 1| = 0$$
 
 The four points are **coplanar** (volume = 0)!
 
+<p align="center">
+  <img src="../../assets/vec23-example2-coplanar-tetrahedron.svg" alt="3D plot of points A, B, C, D lying in a common plane, so the tetrahedron they form has zero volume" width="560">
+</p>
+
 ---
 
 ### Example 3: Test for Coplanarity
@@ -282,6 +298,10 @@ $$= 2(-3+2) - 1(3-6) + (-1)(-1+3) = 2(-1) - 1(-3) + (-1)(2)$$
 $$= -2 + 3 - 2 = -1 \neq 0$$
 
 Vectors are **not coplanar**.
+
+<p align="center">
+  <img src="../../assets/vec23-example3-coplanarity-test.svg" alt="3D plot of the parallelepiped formed by A, B, C showing a nonzero volume, confirming they are not coplanar" width="560">
+</p>
 
 ---
 
@@ -307,6 +327,10 @@ $$= (9\hat{\mathbf{i}} + 18\hat{\mathbf{j}} - 9\hat{\mathbf{k}}) + (3\hat{\mathb
 
 $$= 12\hat{\mathbf{i}} + 15\hat{\mathbf{j}} - 3\hat{\mathbf{k}}$$
 
+<p align="center">
+  <img src="../../assets/vec23-example4-vector-triple-product.svg" alt="3D plot of vectors A, B, C and the resulting vector triple product, which lies in the plane of B and C" width="560">
+</p>
+
 ---
 
 ### Example 5: Lagrange's Identity
@@ -326,6 +350,10 @@ $$|\mathbf{A}\times\mathbf{B}|^2 = 16 + 4 + 25 = 45$$
 **LHS**: $|\mathbf{A}\times\mathbf{B}|^2 = 45$
 
 **RHS**: $|\mathbf{A}|^2|\mathbf{B}|^2 - (\mathbf{A}\cdot\mathbf{B})^2 = 5 \cdot 9 - 0 = 45$ ✔
+
+<p align="center">
+  <img src="../../assets/vec23-example5-lagrange-identity.svg" alt="3D plot of vectors A and B with the angle theta and the cross product A x B, illustrating Lagrange's identity" width="560">
+</p>
 
 ---
 

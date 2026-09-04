@@ -239,6 +239,10 @@ Let $f(x,y,z) = x^2 + y^2 + z^2$ (this represents, e.g., the square of distance 
 
 **(b)** The level surface $f = 9$ is the sphere $x^2+y^2+z^2 = 9$ of radius 3.
 
+<p align="center">
+  <img src="../../assets/vec24-example1-level-surface-sphere.svg" alt="3D plot of the sphere x squared plus y squared plus z squared equals 9, with the point (1,2,2) marked on its surface" width="500">
+</p>
+
 ### Example 2 — Velocity and acceleration
 
 Given $\vec{r}(t) = (3\cos t)\,\hat{i} + (3\sin t)\,\hat{j} + 4t\,\hat{k}$ (a helix), find velocity, speed, and acceleration.
@@ -255,12 +259,20 @@ $$
 
 Note $\vec{a}(t) = -(3\cos t\,\hat{i} + 3\sin t\,\hat{j})$, which points horizontally toward the helix axis — the **centripetal** component of acceleration.
 
+<p align="center">
+  <img src="../../assets/vec24-example2-velocity-acceleration.svg" alt="3D plot of the helix with velocity and acceleration vectors drawn at a point, showing acceleration pointing toward the axis" width="500">
+</p>
+
 ### Example 3 — Arc length of a helix
 
 Using the same $\vec{r}(t)$ from Example 2, find the arc length for $t \in [0, 2\pi]$:
 $$
 L = \int_0^{2\pi} |\vec{v}(t)|\, dt = \int_0^{2\pi} 5\, dt = 10\pi
 $$
+
+<p align="center">
+  <img src="../../assets/vec24-example3-arc-length.svg" alt="3D plot highlighting one full turn of the helix from t=0 to t=2 pi, used to compute the arc length" width="500">
+</p>
 
 ### Example 4 — Differentiating a dot product
 
@@ -321,17 +333,17 @@ flowchart TD
 
 A 3D helix $\vec{r}(t) = (3\cos t, 3\sin t, 4t)$ spirals upward along the $z$-axis at constant speed — a classic example of a vector function of a single variable.
 
-![Helix Curve Example](https://upload.wikimedia.org/wikipedia/commons/2/2a/Helix.svg)
-
-*Image source: Wikimedia Commons (public domain / CC-licensed mathematical diagram of a helix).*
+<p align="center">
+  <img src="../../assets/vec24-helix-curve.svg" alt="3D plot of the helix r(t) = 3 cos t, 3 sin t, 4t spiraling upward along the z-axis" width="500">
+</p>
 
 ### 10.3 Illustration: scalar field contour map
 
 Scalar fields are often visualized using **contour plots** (level curves), similar to a topographic/weather map:
 
-![Contour plot example](https://upload.wikimedia.org/wikipedia/commons/2/2f/Topographic_map_example.png)
-
-*Image source: Wikimedia Commons — contour/topographic map illustrating level curves of elevation (a scalar field).*
+<p align="center">
+  <img src="../../assets/vec24-contour-scalar-field.svg" alt="Contour plot of the scalar field f(x,y) = x squared plus y squared, showing concentric level curves" width="500">
+</p>
 
 ---
 

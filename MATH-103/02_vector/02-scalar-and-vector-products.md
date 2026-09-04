@@ -6,7 +6,7 @@ sub_topic: "Scalar and Vector Products"
 chapter: 2
 section: 2
 date: 2026-06-20
-version: "1.0.0"
+version: "1.1.0"
 status: "complete"
 author: "itachi-re"
 tags: [math, vector-analysis, dot-product, cross-product, scalar-product, vector-product]
@@ -15,7 +15,7 @@ tags: [math, vector-analysis, dot-product, cross-product, scalar-product, vector
 ![Course](https://img.shields.io/badge/Course-MATH--103-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Vector%20Analysis-6f42c1?style=flat-square)
 ![Section](https://img.shields.io/badge/Section-2.2-orange?style=flat-square)
-![Version](https://img.shields.io/badge/Version-1.0.0-brightgreen?style=flat-square)
+![Version](https://img.shields.io/badge/Version-1.1.0-brightgreen?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Complete-success?style=flat-square)
 ![Updated](https://img.shields.io/badge/Updated-2026--06--20-yellow?style=flat-square)
 
@@ -53,10 +53,10 @@ Two fundamental ways exist to multiply vectors:
 
 ```mermaid
 flowchart LR
-    A["Vector Multiplication"] --> B["Scalar Product\n(Dot Product)\n𝐀·𝐁 → scalar"]
-    A --> C["Vector Product\n(Cross Product)\n𝐀×𝐁 → vector"]
-    B --> D["Measures:\nProjection / Component"]
-    C --> E["Measures:\nArea / Rotation / Torque"]
+    A["Vector Multiplication"] --> B["Scalar Product<br/>(Dot Product)<br/>𝐀·𝐁 → scalar"]
+    A --> C["Vector Product<br/>(Cross Product)<br/>𝐀×𝐁 → vector"]
+    B --> D["Measures:<br/>Projection / Component"]
+    C --> E["Measures:<br/>Area / Rotation / Torque"]
     style A fill:#4a4e69,color:#fff
     style B fill:#1565C0,color:#fff
     style C fill:#6a1b9a,color:#fff
@@ -121,14 +121,9 @@ $$\text{comp}_{\mathbf{A}}\mathbf{B} = \frac{\mathbf{A} \cdot \mathbf{B}}{|\math
 
 $$\text{proj}_{\mathbf{A}}\mathbf{B} = \frac{\mathbf{A} \cdot \mathbf{B}}{|\mathbf{A}|^2}\mathbf{A}$$
 
-```
-       B
-      /|
-     / |
-    /  |  B cosθ (projection on A)
-   /θ  |
-  A----+----------→ A direction
-```
+<p align="center">
+  <img src="../../assets/vec22-dot-product-projection.svg" alt="Diagram showing the scalar projection of vector B onto vector A, forming the dot product" width="560">
+</p>
 
 ### 2.5 Applications of Dot Product
 
@@ -163,6 +158,10 @@ $$\boxed{\mathbf{A} \times \mathbf{B} = |\mathbf{A}||\mathbf{B}|\sin\theta\,\hat
 where $\hat{\mathbf{n}}$ is the unit normal perpendicular to both $\mathbf{A}$ and $\mathbf{B}$ (right-hand rule).
 
 **Right-Hand Rule**: Point fingers of right hand in direction of $\mathbf{A}$, curl toward $\mathbf{B}$; the extended thumb points in direction of $\mathbf{A} \times \mathbf{B}$.
+
+<p align="center">
+  <img src="../../assets/vec22-right-hand-rule.svg" alt="3D diagram of the right-hand rule showing A, B, and the resulting vector A cross B pointing perpendicular to both" width="500">
+</p>
 
 ### 3.2 Determinant Form
 
@@ -212,18 +211,9 @@ $$\text{Area of parallelogram} = |\mathbf{A} \times \mathbf{B}| = |\mathbf{A}||\
 
 $$\text{Area of triangle} = \frac{1}{2}|\mathbf{A} \times \mathbf{B}|$$
 
-**Illustration**:
-
-```
-     B
-    /|
-   / |
-  /  |  height = |B|sinθ
- /θ  |
-A----|--------→
-     ←|A|→
-Area = base × height = |A| × |B|sinθ = |A×B|
-```
+<p align="center">
+  <img src="../../assets/vec22-cross-product-area.svg" alt="Diagram of the parallelogram formed by A and B, with height |B|sin(theta) and shaded area equal to the cross product magnitude" width="560">
+</p>
 
 ### 3.5 Applications of Cross Product
 
@@ -282,6 +272,10 @@ $$\cos\theta = \frac{-3}{\sqrt{14}\cdot\sqrt{6}} = \frac{-3}{\sqrt{84}} = \frac{
 
 $$\theta = \cos^{-1}\!\left(\frac{-3}{2\sqrt{21}}\right) \approx \cos^{-1}(-0.327) \approx 109.1°$$
 
+<p align="center">
+  <img src="../../assets/vec22-example1-dot-angle.svg" alt="3D plot of vectors A and B with the angle theta between them marked, for the dot product example" width="560">
+</p>
+
 ---
 
 ### Example 2: Cross Product
@@ -299,6 +293,10 @@ $$= \hat{\mathbf{i}}[4 - 4] - \hat{\mathbf{j}}[-6 - 1] + \hat{\mathbf{k}}[12 + 2
 $$= \hat{\mathbf{i}}(0) - \hat{\mathbf{j}}(-7) + \hat{\mathbf{k}}(14) = 7\hat{\mathbf{j}} + 14\hat{\mathbf{k}}$$
 
 **Verification**: $\mathbf{A} \cdot (\mathbf{A}\times\mathbf{B}) = 3(0) + (-2)(7) + 1(14) = 0 - 14 + 14 = 0$ ✔
+
+<p align="center">
+  <img src="../../assets/vec22-example2-cross-product.svg" alt="3D plot of vectors A and B and their cross product, which is perpendicular to both" width="560">
+</p>
 
 ---
 
@@ -324,6 +322,10 @@ $$|\overrightarrow{AB} \times \overrightarrow{AC}| = \sqrt{16 + 25 + 49} = \sqrt
 
 $$\text{Area} = \frac{1}{2} \cdot 3\sqrt{10} = \frac{3\sqrt{10}}{2} \approx 4.74 \text{ sq. units}$$
 
+<p align="center">
+  <img src="../../assets/vec22-example3-triangle-area.svg" alt="3D plot of triangle ABC with the normal vector from the cross product of AB and AC shown" width="560">
+</p>
+
 ---
 
 ### Example 4: Work Done
@@ -336,6 +338,10 @@ $$W = \mathbf{F} \cdot \mathbf{d} = (3)(1) + (2)(-3) + (-1)(2) = 3 - 6 - 2 = -5 
 
 The negative work means the force opposes the displacement.
 
+<p align="center">
+  <img src="../../assets/vec22-example4-work-done.svg" alt="3D plot of force and displacement vectors with an obtuse angle between them, illustrating negative work" width="560">
+</p>
+
 ---
 
 ### Example 5: Perpendicularity Test
@@ -347,6 +353,10 @@ The negative work means the force opposes the displacement.
 $$\mathbf{A} \cdot \mathbf{B} = (2)(6) + (3)(2) + (-6)\left(\frac{7}{2}\right) = 12 + 6 - 21 = -3 \neq 0$$
 
 Not perpendicular.
+
+<p align="center">
+  <img src="../../assets/vec22-example5-perpendicularity.svg" alt="3D plot of vectors A and B with the angle between them marked, showing it is close to but not exactly 90 degrees" width="500">
+</p>
 
 ---
 
@@ -363,6 +373,10 @@ $$= \hat{\mathbf{i}}[(2)(2)-(3)(-3)] - \hat{\mathbf{j}}[(1)(2)-(3)(4)] + \hat{\m
 $$= \hat{\mathbf{i}}(4+9) - \hat{\mathbf{j}}(2-12) + \hat{\mathbf{k}}(-3-8)$$
 
 $$= 13\hat{\mathbf{i}} + 10\hat{\mathbf{j}} - 11\hat{\mathbf{k}} \text{ N·m}$$
+
+<p align="center">
+  <img src="../../assets/vec22-example6-torque.svg" alt="3D plot of position vector r and force F with the resulting torque vector direction shown" width="560">
+</p>
 
 ---
 

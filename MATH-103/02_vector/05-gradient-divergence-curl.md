@@ -60,6 +60,10 @@ $$
 2. $|\nabla f|$ equals the **maximum rate of change** of $f$ at that point.
 3. $\nabla f$ is always **perpendicular (normal) to the level surface** $f(x,y,z) = c$ passing through that point.
 
+<p align="center">
+  <img src="../../assets/vec25-gradient-field.svg" alt="Contour plot with gradient vectors drawn perpendicular to the level curves, pointing in the direction of steepest increase" width="480">
+</p>
+
 **Proof that $\nabla f$ is normal to the level surface:**
 
 Let $\vec{r}(t) = (x(t), y(t), z(t))$ be any curve lying entirely on the level surface $f(x,y,z) = c$. Then $f(\vec r(t)) = c$ for all $t$. Differentiating both sides using the chain rule:
@@ -243,6 +247,10 @@ $$
 D_{\hat u}f = \nabla f\cdot\hat u = \frac{1}{\sqrt5}\big[(-4)(1)+(5)(0)+(-3)(-2)\big] = \frac{2}{\sqrt5}
 $$
 
+<p align="center">
+  <img src="../../assets/vec25-example1-gradient-directional-derivative.svg" alt="3D plot of the gradient vector and the direction vector u, with the angle between them marked" width="480">
+</p>
+
 ### Example 2 — Divergence (testing for incompressible flow)
 
 Let $\vec F = (x^2-y^2)\hat i + 2xy\,\hat j + (z^3)\hat k$. Find $\nabla\cdot\vec F$.
@@ -250,6 +258,10 @@ $$
 \nabla\cdot\vec F = \frac{\partial}{\partial x}(x^2-y^2) + \frac{\partial}{\partial y}(2xy) + \frac{\partial}{\partial z}(z^3) = 2x + 2x + 3z^2 = 4x+3z^2
 $$
 This field is **not** incompressible in general (divergence is nonzero except on the surface $4x+3z^2=0$).
+
+<p align="center">
+  <img src="../../assets/vec25-example2-divergence-field.svg" alt="Vector field plot of the z=0 slice of F colored by divergence value, showing source behavior for x>0 and sink behavior for x<0" width="480">
+</p>
 
 ### Example 3 — Curl (testing for conservativeness)
 
@@ -262,6 +274,10 @@ $$
 = (0-0)\hat i + (3z^2-3z^2)\hat j + (2x-2x)\hat k = \vec 0
 $$
 Since $\nabla\times\vec F = \vec 0$ everywhere (and $\mathbb R^3$ is simply connected), $\vec F$ is **conservative**. (Indeed $\vec F = \nabla(x^2y+xz^3)$.)
+
+<p align="center">
+  <img src="../../assets/vec25-example3-curl-free-field.svg" alt="Vector field plot of the z=0 slice of F, showing no local rotation anywhere, consistent with zero curl" width="480">
+</p>
 
 ### Example 4 — Laplacian
 
@@ -302,13 +318,13 @@ graph TD
 
 ### 10.2 Visualizing gradient, divergence, and curl
 
-![Gradient field example](https://upload.wikimedia.org/wikipedia/commons/6/6d/Conservative_vector_field.gif)
+<p align="center">
+  <img src="../../assets/vec25-gradient-field.svg" alt="Contour plot with gradient vectors drawn perpendicular to the level curves, pointing in the direction of steepest increase" width="500">
+</p>
 
-*Gradient field: vectors point in the direction of steepest increase, perpendicular to level curves (illustrative diagram, Wikimedia Commons).*
-
-![Divergence illustration](https://upload.wikimedia.org/wikipedia/commons/b/b4/Divergence_and_curl.png)
-
-*Illustration contrasting positive divergence (source-like spreading) and nonzero curl (rotational) vector fields (Wikimedia Commons).*
+<p align="center">
+  <img src="../../assets/vec25-divergence-curl-comparison.svg" alt="Side by side comparison of a positive-divergence source-like vector field and a nonzero-curl rotational vector field" width="700">
+</p>
 
 A simple way to remember the geometric character of each operator:
 
