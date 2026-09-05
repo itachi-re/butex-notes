@@ -199,7 +199,7 @@ The cyclic order $\hat{\mathbf{i}} \to \hat{\mathbf{j}} \to \hat{\mathbf{k}} \to
 | **Scalar assoc.** | $(k\mathbf{A}) \times \mathbf{B} = k(\mathbf{A} \times \mathbf{B})$ | — |
 | **Self-cross = zero** | $\mathbf{A} \times \mathbf{A} = \mathbf{0}$ | $\sin 0 = 0$ |
 | **Parallel → zero** | $\mathbf{A} \parallel \mathbf{B} \implies \mathbf{A} \times \mathbf{B} = \mathbf{0}$ | $\sin 0° = \sin 180° = 0$ |
-| **Perpendicular → max** | $\mathbf{A} \perp \mathbf{B} \implies |\mathbf{A}\times\mathbf{B}| = |\mathbf{A}||\mathbf{B}|$ | $\sin 90° = 1$ |
+| **Perpendicular → max** | $\mathbf{A} \perp \mathbf{B} \implies \lvert\mathbf{A}\times\mathbf{B}\rvert = \lvert\mathbf{A}\rvert\lvert\mathbf{B}\rvert$ | $\sin 90° = 1$ |
 | **NOT Associative** | $\mathbf{A}\times(\mathbf{B}\times\mathbf{C}) \neq (\mathbf{A}\times\mathbf{B})\times\mathbf{C}$ | in general |
 | **Zero vector** | $\mathbf{A} \times \mathbf{0} = \mathbf{0}$ | — |
 
