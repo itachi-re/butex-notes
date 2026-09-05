@@ -101,11 +101,11 @@ $$\cos\theta = \frac{\mathbf{A} \cdot \mathbf{B}}{|\mathbf{A}||\mathbf{B}|} = \f
 | **Commutativity** | $\mathbf{A} \cdot \mathbf{B} = \mathbf{B} \cdot \mathbf{A}$ | — |
 | **Distributivity** | $\mathbf{A} \cdot (\mathbf{B} + \mathbf{C}) = \mathbf{A}\cdot\mathbf{B} + \mathbf{A}\cdot\mathbf{C}$ | — |
 | **Scalar assoc.** | $(k\mathbf{A}) \cdot \mathbf{B} = k(\mathbf{A} \cdot \mathbf{B})$ | — |
-| **Self-dot = sq. magnitude** | $\mathbf{A} \cdot \mathbf{A} = |\mathbf{A}|^2$ | — |
+| **Self-dot = sq. magnitude** | $\mathbf{A} \cdot \mathbf{A} = \lvert\mathbf{A}\rvert^2$ | — |
 | **Zero vector** | $\mathbf{A} \cdot \mathbf{0} = 0$ | — |
 | **Perpendicularity** | $\mathbf{A} \perp \mathbf{B} \iff \mathbf{A} \cdot \mathbf{B} = 0$ | ($\mathbf{A}, \mathbf{B} \neq \mathbf{0}$) |
-| **Parallel (same dir.)** | $\mathbf{A} \parallel \mathbf{B} \implies \mathbf{A}\cdot\mathbf{B} = |\mathbf{A}||\mathbf{B}|$ | $\theta = 0°$ |
-| **Anti-parallel** | $\mathbf{A} \cdot \mathbf{B} = -|\mathbf{A}||\mathbf{B}|$ | $\theta = 180°$ |
+| **Parallel (same dir.)** | $\mathbf{A} \parallel \mathbf{B} \implies \mathbf{A}\cdot\mathbf{B} = \lvert\mathbf{A}\rvert\lvert\mathbf{B}\rvert$ | $\theta = 0°$ |
+| **Anti-parallel** | $\mathbf{A} \cdot \mathbf{B} = -\lvert\mathbf{A}\rvert\lvert\mathbf{B}\rvert$ | $\theta = 180°$ |
 
 ### 2.4 Geometrical Interpretation
 
