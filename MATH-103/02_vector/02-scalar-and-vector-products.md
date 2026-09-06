@@ -242,7 +242,6 @@ $$\mathbf{v} = \boldsymbol{\omega} \times \mathbf{r}$$
 ---
 
 ## 4. Comparison: Dot vs Cross Product
-
 | Feature | Dot Product $\mathbf{A} \cdot \mathbf{B}$ | Cross Product $\mathbf{A} \times \mathbf{B}$ |
 |---------|------|------|
 | **Result type** | Scalar | Vector |
@@ -250,7 +249,7 @@ $$\mathbf{v} = \boldsymbol{\omega} \times \mathbf{r}$$
 | **Commutativity** | ✅ $\mathbf{A}\cdot\mathbf{B} = \mathbf{B}\cdot\mathbf{A}$ | ❌ $\mathbf{A}\times\mathbf{B} = -\mathbf{B}\times\mathbf{A}$ |
 | **Parallel vectors** | Max: $AB$ | Zero: $\mathbf{0}$ |
 | **Perpendicular vectors** | Zero: $0$ | Max: $AB$ |
-| **Same vector** | $|\mathbf{A}|^2$ | $\mathbf{0}$ |
+| **Same vector** | $\lvert \mathbf{A} \rvert^2$ | $\mathbf{0}$ |
 | **Geometric meaning** | Projection × magnitude | Area of parallelogram |
 | **Application** | Work, power, angle | Torque, area, normal |
 
