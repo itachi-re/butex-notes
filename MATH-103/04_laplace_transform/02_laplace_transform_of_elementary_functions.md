@@ -82,8 +82,8 @@ These follow immediately once the **first shifting theorem** ($\mathcal{L}\{e^{a
 | $e^{at}$ | $\dfrac1{s-a}$ | $s>a$ |
 | $\sin at$ | $\dfrac{a}{s^2+a^2}$ | $s>0$ |
 | $\cos at$ | $\dfrac{s}{s^2+a^2}$ | $s>0$ |
-| $\sinh at$ | $\dfrac{a}{s^2-a^2}$ | $s>|a|$ |
-| $\cosh at$ | $\dfrac{s}{s^2-a^2}$ | $s>|a|$ |
+| $\sinh at$ | $\dfrac{a}{s^2-a^2}$ | $s>\lvert a\rvert$ |
+| $\cosh at$ | $\dfrac{s}{s^2-a^2}$ | $s>\lvert a\rvert$ |
 | $e^{at}\sin bt$ | $\dfrac{b}{(s-a)^2+b^2}$ | $s>a$ |
 | $e^{at}\cos bt$ | $\dfrac{s-a}{(s-a)^2+b^2}$ | $s>a$ |
 | $t^ne^{at}$ | $\dfrac{n!}{(s-a)^{n+1}}$ | $s>a$ |
@@ -267,7 +267,7 @@ $$\mathcal{L}\{t^2+2t+1\}=\frac{2}{s^3}+2\cdot\frac1{s^2}+\frac1s=\frac{2}{s^3}+
 | $\mathcal{L}\{t^n\}$ | $n!/s^{n+1}$ | $n$ = non-negative integer |
 | $\mathcal{L}\{e^{at}\}$ | $1/(s-a)$ | $s>a$ |
 | $\mathcal{L}\{\sin at\},\mathcal{L}\{\cos at\}$ | $a/(s^2{+}a^2),\ s/(s^2{+}a^2)$ | $s>0$ |
-| $\mathcal{L}\{\sinh at\},\mathcal{L}\{\cosh at\}$ | $a/(s^2{-}a^2),\ s/(s^2{-}a^2)$ | $s>|a|$ |
+| $\mathcal{L}\{\sinh at\},\mathcal{L}\{\cosh at\}$ | $a/(s^2{-}a^2),\ s/(s^2{-}a^2)$ | $s>\lvert a\rvert$ |
 | $\mathcal{L}\{e^{at}\sin bt\},\mathcal{L}\{e^{at}\cos bt\}$ | shift $s\to s-a$ in sin/cos formulas | $s>a$ |
 
 Next: [→ 03. Properties and Applications](03_properties_and_applications.md) extends this table with operational rules (shifting, differentiation, integration) that handle far more functions without new integration.
