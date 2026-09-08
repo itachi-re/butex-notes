@@ -34,10 +34,10 @@ $$(f*g)(t) = \int_0^t f(\tau)\,g(t-\tau)\,d\tau$$
 ## Core Content
 
 **Theorem (Convolution Theorem).**
-$$\boxed{\mathcal{L}\{f*g\} = F(s)G(s)}\qquad\text{equivalently}\qquad\boxed{\mathcal{L}^{-1}\{F(s)G(s)\} = (f*g)(t)}$$
+$$\boxed{\mathcal{L}\lbrace f*g\rbrace = F(s)G(s)}\qquad\text{equivalently}\qquad\boxed{\mathcal{L}^{-1}\lbrace F(s)G(s)\rbrace = (f*g)(t)}$$
 
 *Proof (sketch, appropriate for this course).* Start from the definition:
-$$\mathcal{L}\{(f*g)(t)\} = \int_0^\infty e^{-st}\left(\int_0^t f(\tau)g(t-\tau)\,d\tau\right)dt$$
+$$\mathcal{L}\lbrace(f*g)(t)\rbrace = \int_0^\infty e^{-st}\left(\int_0^t f(\tau)g(t-\tau)\,d\tau\right)dt$$
 This is a double integral over the region $0\le\tau\le t<\infty$. Swap the order of integration (valid under the same exponential-order conditions as Topic 01) so $\tau$ ranges over $[0,\infty)$ and, for fixed $\tau$, $t$ ranges over $[\tau,\infty)$:
 $$= \int_0^\infty f(\tau)\left(\int_\tau^\infty e^{-st}g(t-\tau)\,dt\right)d\tau$$
 Substitute $u=t-\tau$ in the inner integral ($t=u+\tau,\,dt=du$):
@@ -49,7 +49,7 @@ $$\int_0^\infty f(\tau)e^{-s\tau}G(s)\,d\tau = G(s)\int_0^\infty f(\tau)e^{-s\ta
 1. Identify the two factors $F(s)$ and $G(s)$ whose inverses $f(t),\,g(t)$ you already know.
 2. Set up $\displaystyle (f*g)(t)=\int_0^t f(\tau)g(t-\tau)\,d\tau$.
 3. Substitute and evaluate the integral in $\tau$ (treating $t$ as a constant during integration).
-4. The result is $\mathcal{L}^{-1}\{F(s)G(s)\}$ — no partial fractions needed.
+4. The result is $\mathcal{L}^{-1}\lbrace F(s)G(s)\rbrace$ — no partial fractions needed.
 
 > Convolution is especially efficient when denominators are **repeated** (e.g. $\dfrac1{(s^2+a^2)^2}$) or when one factor doesn't correspond to a simple table entry on its own.
 
@@ -61,11 +61,11 @@ Verify the convolution theorem for $f(t)=1,\ g(t)=t$ by computing both sides.
 **Solution**
 Direct convolution: $(f*g)(t)=\displaystyle\int_0^t 1\cdot(t-\tau)\,d\tau = \left[t\tau-\frac{\tau^2}2\right]_0^t = t^2-\frac{t^2}2=\frac{t^2}2$
 
-Transform side: $F(s)=\dfrac1s,\ G(s)=\dfrac1{s^2}\Rightarrow F(s)G(s)=\dfrac1{s^3}$, and $\mathcal{L}^{-1}\{1/s^3\}=\dfrac{t^2}{2!}=\dfrac{t^2}2$ ✓ matches.
+Transform side: $F(s)=\dfrac1s,\ G(s)=\dfrac1{s^2}\Rightarrow F(s)G(s)=\dfrac1{s^3}$, and $\mathcal{L}^{-1}\lbrace 1/s^3\rbrace=\dfrac{t^2}{2!}=\dfrac{t^2}2$ ✓ matches.
 **Answer:** $(f*g)(t)=\dfrac{t^2}2$, confirming the theorem.
 
 ### Example 2 — 🟡 Intermediate
-Find $\mathcal{L}^{-1}\left\{\dfrac{1}{s(s-2)}\right\}$ using convolution.
+Find $\mathcal{L}^{-1}\left\lbrace\dfrac{1}{s(s-2)}\right\rbrace$ using convolution.
 
 **Solution**
 Let $F(s)=\dfrac1s\Rightarrow f(t)=1$, $G(s)=\dfrac1{s-2}\Rightarrow g(t)=e^{2t}$.
@@ -74,10 +74,10 @@ $$=\frac{e^{2t}-1}2$$
 **Answer:** $f(t)=\dfrac{e^{2t}-1}2$
 
 ### Example 3 — 🔴 Advanced / Exam-level
-Find $\mathcal{L}^{-1}\left\{\dfrac{1}{(s^2+a^2)^2}\right\}$ using convolution (repeated quadratic factor — convolution is clearly the easiest method here).
+Find $\mathcal{L}^{-1}\left\lbrace\dfrac{1}{(s^2+a^2)^2}\right\rbrace$ using convolution (repeated quadratic factor — convolution is clearly the easiest method here).
 
 **Solution**
-Write $F(s)G(s)=\dfrac1{s^2+a^2}\cdot\dfrac1{s^2+a^2}$ with $f(t)=g(t)=\dfrac1a\sin at$ (since $\mathcal{L}\{\sin at\}=a/(s^2+a^2)$, so $\mathcal{L}^{-1}\{1/(s^2+a^2)\}=\frac1a\sin at$).
+Write $F(s)G(s)=\dfrac1{s^2+a^2}\cdot\dfrac1{s^2+a^2}$ with $f(t)=g(t)=\dfrac1a\sin at$ (since $\mathcal{L}\lbrace\sin at\rbrace=a/(s^2+a^2)$, so $\mathcal{L}^{-1}\lbrace1/(s^2+a^2)\rbrace=\frac1a\sin at$).
 $$(f*g)(t)=\frac1{a^2}\int_0^t \sin a\tau\,\sin a(t-\tau)\,d\tau$$
 Use the product-to-sum identity $\sin A\sin B=\tfrac12[\cos(A-B)-\cos(A+B)]$ with $A=a\tau,\ B=a(t-\tau)$, so $A-B=a(2\tau-t)$, $A+B=at$:
 $$=\frac1{2a^2}\int_0^t\left[\cos\big(a(2\tau-t)\big)-\cos at\right]d\tau$$
@@ -85,7 +85,7 @@ The second term integrates trivially: $-\cos at\cdot t$. For the first, integrat
 $$\int_0^t \cos(a(2\tau-t))\,d\tau = \left[\frac{\sin(a(2\tau-t))}{2a}\right]_0^t = \frac{\sin(at)-\sin(-at)}{2a}=\frac{2\sin at}{2a}=\frac{\sin at}{a}$$
 So:
 $$(f*g)(t)=\frac1{2a^2}\left(\frac{\sin at}{a}-t\cos at\right) = \frac{\sin at - at\cos at}{2a^3}$$
-**Answer:** $\mathcal{L}^{-1}\left\{\dfrac1{(s^2+a^2)^2}\right\}=\dfrac{\sin at - at\cos at}{2a^3}$
+**Answer:** $\mathcal{L}^{-1}\left\lbrace\dfrac1{(s^2+a^2)^2}\right\rbrace=\dfrac{\sin at - at\cos at}{2a^3}$
 
 ## Applications
 
@@ -116,17 +116,17 @@ flowchart LR
 
 ## Practice Problems
 
-**Problem 1:** Verify $\mathcal{L}\{f*g\}=F(s)G(s)$ for $f(t)=t,\ g(t)=t$.
+**Problem 1:** Verify $\mathcal{L}\lbrace f*g\rbrace=F(s)G(s)$ for $f(t)=t,\ g(t)=t$.
 <details><summary>Solution</summary>
 
 $(f*g)(t)=\int_0^t \tau(t-\tau)d\tau = \left[\dfrac{t\tau^2}2-\dfrac{\tau^3}3\right]_0^t=\dfrac{t^3}2-\dfrac{t^3}3=\dfrac{t^3}6$
 
-Transform side: $F(s)G(s)=\dfrac1{s^2}\cdot\dfrac1{s^2}=\dfrac1{s^4}$, $\mathcal{L}^{-1}\{1/s^4\}=t^3/3!=t^3/6$ ✓
+Transform side: $F(s)G(s)=\dfrac1{s^2}\cdot\dfrac1{s^2}=\dfrac1{s^4}$, $\mathcal{L}^{-1}\lbrace1/s^4\rbrace=t^3/3!=t^3/6$ ✓
 
 **Answer:** $t^3/6$, verified.
 </details>
 
-**Problem 2:** Find $\mathcal{L}^{-1}\left\{\dfrac1{s^2(s-1)}\right\}$ using convolution.
+**Problem 2:** Find $\mathcal{L}^{-1}\left\lbrace\dfrac1{s^2(s-1)}\right\rbrace$ using convolution.
 <details><summary>Solution</summary>
 
 $f(t)=t\ (F=1/s^2)$, $g(t)=e^t\ (G=1/(s-1))$
@@ -140,7 +140,7 @@ $(f*g)(t)=e^t(1-te^{-t}-e^{-t})=e^t - t - 1$
 **Answer:** $e^t-t-1$
 </details>
 
-**Problem 3:** Find $\mathcal{L}^{-1}\left\{\dfrac1{(s-1)(s-2)}\right\}$ using convolution (cross-check against partial fractions).
+**Problem 3:** Find $\mathcal{L}^{-1}\left\lbrace\dfrac1{(s-1)(s-2)}\right\rbrace$ using convolution (cross-check against partial fractions).
 <details><summary>Solution</summary>
 
 $f(t)=e^t,\ g(t)=e^{2t}$
@@ -152,7 +152,7 @@ Cross-check via partial fractions: $\dfrac1{(s-1)(s-2)}=\dfrac{-1}{s-1}+\dfrac1{
 **Answer:** $e^{2t}-e^t$
 </details>
 
-**Problem 4:** Find $\mathcal{L}^{-1}\left\{\dfrac1{s(s^2+1)}\right\}$ using convolution.
+**Problem 4:** Find $\mathcal{L}^{-1}\left\lbrace\dfrac1{s(s^2+1)}\right\rbrace$ using convolution.
 <details><summary>Solution</summary>
 
 $f(t)=1,\ g(t)=\sin t$
@@ -162,7 +162,7 @@ $(f*g)(t)=\int_0^t \sin\tau\,d\tau=[-\cos\tau]_0^t=1-\cos t$
 **Answer:** $1-\cos t$
 </details>
 
-**Problem 5:** Find $\mathcal{L}^{-1}\left\{\dfrac1{s^2(s^2+4)}\right\}$ using convolution.
+**Problem 5:** Find $\mathcal{L}^{-1}\left\lbrace\dfrac1{s^2(s^2+4)}\right\rbrace$ using convolution.
 <details><summary>Solution</summary>
 
 $f(t)=t\ (1/s^2)$, $g(t)=\dfrac12\sin2t\ (2/(s^2+4))$, so $G(s)=1/(s^2+4)$ means $g(t)=\frac12\sin2t$.
@@ -180,7 +180,7 @@ So $(f*g)(t)=\frac12 I = \frac t4-\frac{\sin2t}8$
 **Answer:** $\dfrac t4-\dfrac{\sin2t}8$
 </details>
 
-**Problem 6:** Find $\mathcal{L}^{-1}\left\{\dfrac{1}{(s+1)^2}\right\}$ two ways: table entry vs. convolution ($f=g=e^{-t}$). Show they agree.
+**Problem 6:** Find $\mathcal{L}^{-1}\left\lbrace\dfrac{1}{(s+1)^2}\right\rbrace$ two ways: table entry vs. convolution ($f=g=e^{-t}$). Show they agree.
 <details><summary>Solution</summary>
 
 Table: $\dfrac1{(s+1)^2}\to te^{-t}$ directly.
@@ -192,7 +192,7 @@ $(f*g)(t)=\int_0^t e^{-\tau}e^{-(t-\tau)}d\tau=e^{-t}\int_0^t d\tau=te^{-t}$ ✓
 **Answer:** $te^{-t}$, both methods agree.
 </details>
 
-**Problem 7 (exam-style — convolution is clearly easiest):** Find $\mathcal{L}^{-1}\left\{\dfrac{s}{(s^2+1)^2}\right\}$.
+**Problem 7 (exam-style — convolution is clearly easiest):** Find $\mathcal{L}^{-1}\left\lbrace\dfrac{s}{(s^2+1)^2}\right\rbrace$.
 <details><summary>Solution</summary>
 
 Write $\dfrac{s}{(s^2+1)^2}=\dfrac{s}{s^2+1}\cdot\dfrac1{s^2+1}$, so $f(t)=\cos t,\ g(t)=\sin t$.
@@ -225,7 +225,7 @@ Partial fractions check: $\dfrac1{s(s+3)}=\dfrac{1/3}s-\dfrac{1/3}{s+3}\to \dfra
 | Concept | Result | Condition / Limit |
 |---|---|---|
 | Convolution definition | $(f*g)(t)=\int_0^t f(\tau)g(t-\tau)d\tau$ | $f,g$ defined on $[0,\infty)$ |
-| Convolution theorem | $\mathcal{L}\{f*g\}=F(s)G(s)$ | equivalently for $\mathcal{L}^{-1}$ |
+| Convolution theorem | $\mathcal{L}\lbrace f*g\rbrace=F(s)G(s)$ | equivalently for $\mathcal{L}^{-1}$ |
 | Commutativity | $f*g=g*f$ | always |
 | Best use case | repeated/awkward denominators where partial fractions are messy | — |
 
