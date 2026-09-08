@@ -53,22 +53,31 @@ Laplace transform converts a function of time $t$ into a function of a complex f
 **Theorem (Existence of the Laplace Transform).** If $f(t)$ is piecewise continuous on $[0,\infty)$ and of exponential order $\alpha$, then $\mathcal{L}\{f(t)\}$ exists for all $s > \alpha$.
 
 *Proof (Direct).* Split the integral:
+
 $$\int_0^\infty e^{-st}f(t)\,dt = \int_0^T e^{-st}f(t)\,dt + \int_T^\infty e^{-st}f(t)\,dt$$
+
 The first integral is finite since $f$ is piecewise continuous on a finite interval. For the second, using $|f(t)| \le Me^{\alpha t}$:
+
 $$\left|\int_T^\infty e^{-st}f(t)\,dt\right| \le \int_T^\infty Me^{-(s-\alpha)t}\,dt = \frac{Me^{-(s-\alpha)T}}{s-\alpha}, \quad s > \alpha$$
+
 which is finite. Hence $F(s)$ exists for $s > \alpha$. $\blacksquare$
 
 > These conditions are **sufficient, not necessary** — some functions without exponential order still fail to have a transform, but every function you meet in this course (polynomials, exponentials, sines, cosines and their products) satisfies them comfortably.
 
 **Linearity (first property, proved here since it follows directly from integral linearity):**
+
 $$\mathcal{L}\{af(t) + bg(t)\} = a\,\mathcal{L}\{f(t)\} + b\,\mathcal{L}\{g(t)\} = aF(s) + bG(s)$$
+
 *Proof.* Integration is linear:
-$$\int_0^\infty e^{-st}[af(t)+bg(t)]\,dt = a\int_0^\infty e^{-st}f(t)\,dt + b\int_0^\infty e^{-st}g(t)\,dt = aF(s)+bG(s) \blacksquare$$
+
+$$\int_0^\infty e^{-st}[af(t)+bg(t)]\,dt = a\int_0^\infty e^{-st}f(t)\,dt + b\int_0^\infty e^{-st}g(t)\,dt = aF(s)+bG(s) \quad \blacksquare$$
 
 **Direct application — transform of a constant $f(t) = 1$:**
+
 $$\mathcal{L}\{1\} = \int_0^\infty e^{-st}\,dt = \left[-\frac{e^{-st}}{s}\right]_0^\infty = 0 - \left(-\frac{1}{s}\right) = \frac{1}{s}, \quad s>0$$
 
 **Direct application — transform of $f(t)=e^{at}$:**
+
 $$\mathcal{L}\{e^{at}\} = \int_0^\infty e^{-st}e^{at}\,dt = \int_0^\infty e^{-(s-a)t}\,dt = \frac{1}{s-a}, \quad s>a$$
 
 ## Essential Formula
@@ -81,27 +90,39 @@ $$\boxed{\mathcal{L}\{f(t)\} = F(s) = \int_0^\infty e^{-st}f(t)\,dt}$$
 Find $\mathcal{L}\{t\}$ directly from the definition.
 
 **Solution**
+
 $$F(s) = \int_0^\infty e^{-st}t\,dt$$
+
 Integrate by parts, $u=t,\ dv=e^{-st}dt \Rightarrow du=dt,\ v=-\dfrac{e^{-st}}{s}$:
+
 $$F(s) = \left[-\frac{t\,e^{-st}}{s}\right]_0^\infty + \frac{1}{s}\int_0^\infty e^{-st}\,dt = 0 + \frac{1}{s}\cdot\frac{1}{s}$$
+
 **Answer:** $\mathcal{L}\{t\} = \dfrac{1}{s^2},\ s>0$
 
 ### Example 2 — 🟡 Intermediate
 Using linearity and known basic transforms, find $\mathcal{L}\{3 + 2e^{5t}\}$.
 
 **Solution**
+
 $$\mathcal{L}\{3+2e^{5t}\} = 3\mathcal{L}\{1\} + 2\mathcal{L}\{e^{5t}\} = 3\cdot\frac{1}{s} + 2\cdot\frac{1}{s-5}$$
+
 Combine over a common denominator:
+
 $$= \frac{3(s-5)+2s}{s(s-5)} = \frac{5s-15}{s(s-5)}$$
+
 **Answer:** $F(s) = \dfrac{5s-15}{s(s-5)},\ s>5$
 
 ### Example 3 — 🔴 Advanced / Exam-level
 Evaluate $\mathcal{L}\{f(t)\}$ from the definition for
+
 $$f(t) = \begin{cases} 2, & 0 \le t < 3 \\ 0, & t \ge 3 \end{cases}$$
 
 **Solution**
+
 Since $f(t)=0$ for $t\ge 3$, the integral only runs to 3:
+
 $$F(s) = \int_0^3 2e^{-st}\,dt = 2\left[-\frac{e^{-st}}{s}\right]_0^3 = 2\left(\frac{1-e^{-3s}}{s}\right)$$
+
 **Answer:** $F(s) = \dfrac{2(1-e^{-3s})}{s},\ s>0$
 
 ## Applications
@@ -113,9 +134,10 @@ $$F(s) = \int_0^3 2e^{-st}\,dt = 2\left[-\frac{e^{-st}}{s}\right]_0^3 = 2\left(\
 
 ```mermaid
 flowchart LR
-  A["f(t)  — time domain"] -- "multiply by e^(-st), integrate 0→∞" --> B["F(s) — s-domain"]
+  A["f(t) — time domain"] -- "multiply by e^(-st), integrate 0→∞" --> B["F(s) — s-domain"]
   B -- "Inverse Laplace (Topic 04)" --> A
 ```
+
 *Figure 1: The Laplace transform maps a time-domain function to an s-domain function; Topic 04 shows the reverse map.*
 
 ## Common Mistakes
@@ -138,6 +160,7 @@ flowchart LR
 $F(s)=\int_0^\infty 5e^{-st}dt = 5\left[\dfrac{-e^{-st}}{s}\right]_0^\infty = \dfrac{5}{s}$
 
 **Answer:** $F(s)=\dfrac{5}{s},\ s>0$
+
 </details>
 
 **Problem 2:** Find $\mathcal{L}\{e^{-3t}\}$ from the definition.
@@ -147,6 +170,7 @@ $F(s)=\int_0^\infty 5e^{-st}dt = 5\left[\dfrac{-e^{-st}}{s}\right]_0^\infty = \d
 $F(s)=\int_0^\infty e^{-st}e^{-3t}dt=\int_0^\infty e^{-(s+3)t}dt=\dfrac{1}{s+3}$
 
 **Answer:** $F(s)=\dfrac{1}{s+3},\ s>-3$
+
 </details>
 
 **Problem 3:** Find $\mathcal{L}\{4-3e^{2t}\}$ using linearity.
@@ -156,6 +180,7 @@ $F(s)=\int_0^\infty e^{-st}e^{-3t}dt=\int_0^\infty e^{-(s+3)t}dt=\dfrac{1}{s+3}$
 $=4\mathcal{L}\{1\}-3\mathcal{L}\{e^{2t}\}=\dfrac{4}{s}-\dfrac{3}{s-2}=\dfrac{4(s-2)-3s}{s(s-2)}=\dfrac{s-8}{s(s-2)}$
 
 **Answer:** $F(s)=\dfrac{s-8}{s(s-2)},\ s>2$
+
 </details>
 
 **Problem 4:** Evaluate $\mathcal{L}\{t\}$ using tabular integration by parts (repeat Example 1's method independently) and verify against the table entry $1/s^2$.
@@ -167,10 +192,13 @@ $u=t,\ dv=e^{-st}dt,\ v=-e^{-st}/s,\ du=dt$
 $\int_0^\infty te^{-st}dt = \left[-\dfrac{te^{-st}}{s}\right]_0^\infty+\dfrac1s\int_0^\infty e^{-st}dt = 0+\dfrac1{s^2}$
 
 **Answer:** $1/s^2$ — matches the table.
+
 </details>
 
 **Problem 5:** From the definition, find $\mathcal{L}\{f(t)\}$ for
+
 $$f(t)=\begin{cases}1,&0\le t<2\\3,&t\ge2\end{cases}$$
+
 <details>
 <summary>Solution</summary>
 
@@ -183,6 +211,7 @@ $=\left[\dfrac{-e^{-st}}{s}\right]_0^2 + 3\left[\dfrac{-e^{-st}}{s}\right]_2^\in
 $=\dfrac{1+2e^{-2s}}{s}$
 
 **Answer:** $F(s)=\dfrac{1+2e^{-2s}}{s},\ s>0$
+
 </details>
 
 **Problem 6:** State (without proof) whether $f(t)=e^{t^2}$ satisfies the exponential-order condition, and explain in one line why $\mathcal{L}\{e^{t^2}\}$ is not guaranteed to exist.
@@ -192,6 +221,7 @@ $=\dfrac{1+2e^{-2s}}{s}$
 No — $e^{t^2}$ grows faster than any $Me^{\alpha t}$ as $t\to\infty$ (for any fixed $\alpha$, $e^{t^2}/e^{\alpha t}\to\infty$), so it is **not** of exponential order.
 
 **Answer:** The existence theorem's sufficient condition fails, so convergence of $\int_0^\infty e^{-st}e^{t^2}dt$ is not guaranteed (and in fact the integral diverges for every $s$).
+
 </details>
 
 **Problem 7 (exam-style, method not given):** Evaluate $\mathcal{L}\{f(t)\}$ where $f(t) = t$ for $0\le t<1$ and $f(t)=1$ for $t\ge 1$.
@@ -215,6 +245,7 @@ Adding, the $\dfrac{-e^{-s}}{s}$ and $\dfrac{e^{-s}}{s}$ cancel:
 $F(s)=\dfrac{1-e^{-s}}{s^2}$
 
 **Answer:** $F(s)=\dfrac{1-e^{-s}}{s^2},\ s>0$
+
 </details>
 
 ## Summary
