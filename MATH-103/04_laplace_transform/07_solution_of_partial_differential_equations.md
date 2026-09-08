@@ -29,7 +29,7 @@ tags:
 
 **1. $u(x,t)$** — *the unknown function of two variables (e.g. temperature or displacement), depending on position $x$ and time $t$.*
 
-**2. $U(x,s)$** — *the Laplace transform of $u(x,t)$ with respect to $t$ only:* $U(x,s)=\mathcal{L}_t\{u(x,t)\} = \int_0^\infty e^{-st}u(x,t)\,dt$, *with $x$ held fixed as a parameter.*
+**2. $U(x,s)$** — *the Laplace transform of $u(x,t)$ with respect to $t$ only:* $U(x,s)=\mathcal{L}_t\lbrace u(x,t)\rbrace = \int_0^\infty e^{-st}u(x,t)\,dt$, *with $x$ held fixed as a parameter.*
 
 **3. Boundary conditions** — *conditions on $u$ at fixed values of $x$ (e.g. $u(0,t), u(L,t)$), valid for all $t$; these remain functions of $t$ (or $s$ after transforming) since $x$ is fixed but $t$ varies.*
 
@@ -39,9 +39,9 @@ tags:
 
 ### Why Laplace transform helps with PDEs
 A PDE in $u(x,t)$ has derivatives in *two* variables. Transforming only in $t$ removes all $t$-derivatives (using the same derivative property as Topic 03/06) while leaving $x$-derivatives (like $u_{xx}$) untouched, because $\dfrac{\partial}{\partial x}$ and the $t$-integral commute:
-$$\mathcal{L}_t\{u_x\} = \frac{\partial}{\partial x}\mathcal{L}_t\{u\} = U_x(x,s), \qquad \mathcal{L}_t\{u_{xx}\}=U_{xx}(x,s)$$
+$$\mathcal{L}_t\lbrace u_x\rbrace = \frac{\partial}{\partial x}\mathcal{L}_t\lbrace u\rbrace = U_x(x,s), \qquad \mathcal{L}_t\lbrace u_{xx}\rbrace=U_{xx}(x,s)$$
 For the $t$-derivatives, apply the ODE derivative property (with $x$ as a fixed parameter):
-$$\mathcal{L}_t\{u_t\} = sU(x,s) - u(x,0), \qquad \mathcal{L}_t\{u_{tt}\} = s^2U(x,s) - su(x,0) - u_t(x,0)$$
+$$\mathcal{L}_t\lbrace u_t\rbrace = sU(x,s) - u(x,0), \qquad \mathcal{L}_t\lbrace u_{tt}\rbrace = s^2U(x,s) - su(x,0) - u_t(x,0)$$
 
 **Which variable is transformed:** always $t$ (the variable with the initial condition), never $x$ (the variable with boundary conditions) — this is the standard convention and matches the syllabus scope.
 
@@ -72,9 +72,9 @@ again a second-order linear ODE in $x$.
 Transform the heat equation $u_t = u_{xx}$ (take $c=1$) with initial condition $u(x,0)=0$, into an ODE in $x$.
 
 **Solution**
-$\mathcal{L}_t\{u_t\}=sU(x,s)-u(x,0)=sU(x,s)-0=sU(x,s)$
+$\mathcal{L}_t\lbrace u_t\rbrace=sU(x,s)-u(x,0)=sU(x,s)-0=sU(x,s)$
 
-$\mathcal{L}_t\{u_{xx}\}=U_{xx}(x,s)$
+$\mathcal{L}_t\lbrace u_{xx}\rbrace=U_{xx}(x,s)$
 
 $$sU(x,s) = U_{xx}(x,s) \quad\Longrightarrow\quad U_{xx}(x,s)-sU(x,s)=0$$
 **Answer:** $U_{xx} - sU = 0$, a linear 2nd-order ODE in $x$ with parameter $s$.
@@ -133,7 +133,7 @@ flowchart TD
 - ❌ **Mistake:** Transforming with respect to $x$ instead of $t$ (or transforming both variables at once).
   ✅ **Correct:** Always transform the variable that carries the *initial* condition (usually $t$); leave the boundary-condition variable ($x$) untouched — it becomes the ODE's independent variable.
 - ❌ **Mistake:** Forgetting that $\dfrac{\partial}{\partial x}$ passes straight through the $t$-transform unchanged (i.e. writing extra $s$-dependence into $U_x$ that isn't there).
-  ✅ **Correct:** $\mathcal{L}_t\{u_x\}=U_x(x,s)$ exactly — no extra factor, since differentiation in $x$ and integration in $t$ are independent operations.
+  ✅ **Correct:** $\mathcal{L}_t\lbrace u_x\rbrace=U_x(x,s)$ exactly — no extra factor, since differentiation in $x$ and integration in $t$ are independent operations.
 - ❌ **Mistake:** Dropping the boundedness condition (as $x\to\infty$) when solving the ODE in $x$, keeping both exponential terms.
   ✅ **Correct:** Physical solutions on a semi-infinite domain must stay bounded as $x\to\infty$; use this to eliminate the growing exponential term immediately.
 - ❌ **Mistake:** Confusing the boundary condition's transform ($\mathcal{L}_t$ applied to a function of $t$ at fixed $x$) with an ordinary $x$-derivative.
@@ -178,7 +178,7 @@ General solution: $U(x,s)=Ae^{-sx/c}+Be^{sx/c}$. Since $e^{sx/c}\to\infty$ as $x
 
 Transform: $sU=U_{xx}\Rightarrow U_{xx}-sU=0\Rightarrow U=Ae^{-\sqrt sx}+Be^{\sqrt sx}$
 
-Boundedness: $B=0$. Boundary: $U(0,s)=\mathcal{L}\{1\}=\dfrac1s=A$
+Boundedness: $B=0$. Boundary: $U(0,s)=\mathcal{L}\lbrace1\rbrace=\dfrac1s=A$
 
 **Answer:** $U(x,s)=\dfrac1se^{-\sqrt sx}$ (the $s$-domain solution; this is the standard semi-infinite-rod constant-boundary problem, and its inversion — a complementary error function — is beyond MS 103's scope, so the transform-domain answer is the expected exam solution here).
 </details>
@@ -188,7 +188,7 @@ Boundedness: $B=0$. Boundary: $U(0,s)=\mathcal{L}\{1\}=\dfrac1s=A$
 
 Transform: $s^2U=4U_{xx}\Rightarrow U_{xx}-\dfrac{s^2}4U=0\Rightarrow U=Ae^{-sx/2}+Be^{sx/2}$
 
-Boundedness: $B=0$. Boundary: $U(0,s)=\mathcal{L}\{\sin t\}=\dfrac1{s^2+1}=A$
+Boundedness: $B=0$. Boundary: $U(0,s)=\mathcal{L}\lbrace\sin t\rbrace=\dfrac1{s^2+1}=A$
 
 $$U(x,s)=\frac1{s^2+1}e^{-sx/2}$$
 
@@ -202,8 +202,8 @@ This is $e^{-as}F(s)$ with $a=x/2$, $F(s)=1/(s^2+1)\to f(t)=\sin t$. Apply the 2
 | Concept | Result | Condition / Limit |
 |---|---|---|
 | Transform choice | transform in $t$ (initial-condition variable), keep $x$ | standard convention |
-| $\mathcal{L}_t\{u_t\}, \mathcal{L}_t\{u_{tt}\}$ | $sU-u(x,0)$, $s^2U-su(x,0)-u_t(x,0)$ | same as ODE derivative property |
-| $\mathcal{L}_t\{u_x\}, \mathcal{L}_t\{u_{xx}\}$ | $U_x$, $U_{xx}$ (unchanged) | $x$- and $t$-operations commute |
+| $\mathcal{L}_t\lbrace u_t\rbrace, \mathcal{L}_t\lbrace u_{tt}\rbrace$ | $sU-u(x,0)$, $s^2U-su(x,0)-u_t(x,0)$ | same as ODE derivative property |
+| $\mathcal{L}_t\lbrace u_x\rbrace, \mathcal{L}_t\lbrace u_{xx}\rbrace$ | $U_x$, $U_{xx}$ (unchanged) | $x$- and $t$-operations commute |
 | Heat equation → ODE | $U_{xx}-\dfrac sc^2 U = -\dfrac{u(x,0)}{c^2}$ | 2nd-order linear ODE in $x$ |
 | Wave equation → ODE | $U_{xx}-\dfrac{s^2}{c^2}U = \dfrac{-su(x,0)-u_t(x,0)}{c^2}$ | 2nd-order linear ODE in $x$ |
 | Boundedness condition | discards the exponentially growing solution branch | semi-infinite domain, $x\to\infty$ |
