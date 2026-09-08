@@ -26,14 +26,14 @@ Building on the definition in [→ 01. Definition](01_definition_of_laplace_tran
 
 ## Definitions & Key Terms
 
-**1. Gamma function** — *$\Gamma(n+1) = n!$ for non-negative integers $n$; used to transform $t^n$.*
+**1. Gamma function** — $\Gamma(n+1) = n!$ *for non-negative integers $n$; used to transform $t^n$.*
 
 Plain-English: a generalisation of factorial, needed for the $t^n$ formula.
 
-**2. $\sinh at, \cosh at$** — hyperbolic sine/cosine:
+**2.** $\sinh(at), \cosh(at)$ — hyperbolic sine/cosine:
 
 $$
-\sinh at = \frac{e^{at}-e^{-at}}{2}, \qquad \cosh at = \frac{e^{at}+e^{-at}}{2}
+\sinh(at) = \frac{e^{at}-e^{-at}}{2}, \qquad \cosh(at) = \frac{e^{at}+e^{-at}}{2}
 $$
 
 ## Core Content — The Transform Table
