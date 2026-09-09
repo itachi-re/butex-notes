@@ -62,6 +62,7 @@ Let $n_i$ = number of molecules (or moles) of species with molecular weight $m_i
 Mass of species $i$: $w_i = n_i m_i$
 
 Weight fraction of species $i$:
+
 $$
 f_i=\dfrac{w_i}{\sum w_i}=\dfrac{n_im_i}{\sum n_im_i}
 $$
