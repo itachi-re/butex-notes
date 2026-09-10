@@ -93,6 +93,13 @@ $$
 \alpha_{\text{mean}} = \_\_\_\_\_\ \text{K}^{-1}
 $$
 
+## Graph
+
+Plot the increase in length $\Delta L$ (y-axis) against the temperature rise $\Delta T$ (x-axis) using the values from the repeated trials.
+
+- **Expected relationship:** a straight line through (or near) the origin, in accordance with $\Delta L = (L_0\alpha)\,\Delta T$.
+- **Use of the graph:** the slope of the best-fit line gives $L_0\alpha$ directly; dividing this slope by the measured $L_0$ gives $\alpha$ as a graphical cross-check of the value computed trial-by-trial.
+
 ## Result
 
 The coefficient of linear expansion of the material of the given rod is:
