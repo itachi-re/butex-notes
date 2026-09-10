@@ -1,0 +1,52 @@
+<svg viewBox="0 0 820 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica,Arial,sans-serif">
+<style>.lbl{font-size:14px;fill:#222} .t{font-size:18px;font-weight:bold;fill:#111} .pl{font-size:12px;fill:#555}</style>
+<rect width="820" height="320" fill="#fff"/>
+<text x="410" y="28" text-anchor="middle" class="t">Reamer, Tap and Die — Identification</text>
+
+<!-- Reamer -->
+<g transform="translate(30,60)">
+<text x="0" y="-10" class="lbl" font-weight="bold">Hand Reamer</text>
+<rect x="0" y="20" width="10" height="16" fill="#888"/>
+<rect x="10" y="18" width="140" height="20" fill="#ccc" stroke="#555"/>
+<g stroke="#777">
+<line x1="20" y1="16" x2="20" y2="40"/><line x1="40" y1="16" x2="40" y2="40"/><line x1="60" y1="16" x2="60" y2="40"/>
+<line x1="80" y1="16" x2="80" y2="40"/><line x1="100" y1="16" x2="100" y2="40"/><line x1="120" y1="16" x2="120" y2="40"/>
+</g>
+<rect x="150" y="24" width="60" height="8" fill="#999"/>
+<line x1="0" y1="60" x2="0" y2="20"/>
+<text x="5" y="75" class="pl">Square tang (for wrench)</text>
+<line x1="80" y1="45" x2="80" y2="60"/><text x="30" y="75" class="pl">Flutes (cutting edges)</text>
+<text x="150" y="55" class="pl">Shank</text>
+</g>
+
+<!-- Tap -->
+<g transform="translate(30,150)">
+<text x="0" y="-10" class="lbl" font-weight="bold">Hand Tap (set: taper / plug / bottoming)</text>
+<rect x="0" y="15" width="10" height="14" fill="#888"/>
+<rect x="10" y="10" width="110" height="24" fill="#bbb" stroke="#555"/>
+<g stroke="#777"><line x1="20" y1="10" x2="20" y2="34"/><line x1="40" y1="10" x2="40" y2="34"/><line x1="60" y1="10" x2="60" y2="34"/><line x1="80" y1="10" x2="80" y2="34"/><line x1="100" y1="10" x2="100" y2="34"/></g>
+<polygon points="10,10 40,10 25,34 10,34" fill="#ddd" opacity="0.6"/>
+<text x="0" y="55" class="pl">Chamfered lead (taper tap shown)</text>
+<text x="10" y="70" class="pl">Held and rotated using a tap wrench</text>
+</g>
+
+<!-- Die -->
+<g transform="translate(400,150)">
+<text x="0" y="-10" class="lbl" font-weight="bold">Die (external threading)</text>
+<circle cx="60" cy="30" r="40" fill="none" stroke="#333" stroke-width="4"/>
+<circle cx="60" cy="30" r="14" fill="none" stroke="#333" stroke-width="2"/>
+<circle cx="60" cy="12" r="2.5" fill="#333"/>
+<circle cx="60" cy="10" r="0" />
+<line x1="35" y1="5" x2="42" y2="12" stroke="#333"/>
+<text x="0" y="90" class="pl">Split allows slight diameter adjustment</text>
+<text x="0" y="105" class="pl">Rotated using a diestock</text>
+</g>
+
+<!-- Application note -->
+<g transform="translate(600,60)">
+<text x="0" y="0" class="lbl" font-weight="bold">Application</text>
+<text x="0" y="20" class="pl">Reamer → finishes/sizes a drilled hole</text>
+<text x="0" y="38" class="pl">Tap → cuts internal threads</text>
+<text x="0" y="56" class="pl">Die → cuts external threads</text>
+</g>
+</svg>
