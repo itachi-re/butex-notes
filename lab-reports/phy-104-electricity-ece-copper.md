@@ -1,3 +1,9 @@
+---
+course: PHY 104 — Physics II (Practical)
+experiment_no: 6
+title: Electrochemical Equivalent (E.C.E.) of Copper
+---
+
 # Determination of the Electrochemical Equivalent (E.C.E.) of Copper
 
 ## Aim
