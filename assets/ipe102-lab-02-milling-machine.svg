@@ -1,0 +1,34 @@
+<svg viewBox="0 0 560 460" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica,Arial,sans-serif">
+<style>.lbl{font-size:13px;fill:#222} .t{font-size:18px;font-weight:bold;fill:#111}</style>
+<rect width="560" height="460" fill="#fff"/>
+<text x="280" y="26" text-anchor="middle" class="t">Column-and-Knee (Vertical) Milling Machine</text>
+
+<!-- Base/column -->
+<rect x="90" y="380" width="120" height="20" fill="#999" stroke="#333"/>
+<rect x="110" y="60" width="70" height="320" fill="#b8b8b8" stroke="#333"/>
+<!-- Head -->
+<rect x="150" y="60" width="140" height="60" fill="#a8a8a8" stroke="#333"/>
+<!-- Spindle -->
+<rect x="205" y="120" width="26" height="40" fill="#888" stroke="#333"/>
+<!-- Cutter -->
+<polygon points="200,160 236,160 228,185 208,185" fill="#666" stroke="#333"/>
+<!-- Knee -->
+<rect x="120" y="250" width="90" height="40" fill="#bcbcbc" stroke="#333"/>
+<!-- Saddle -->
+<rect x="150" y="230" width="140" height="20" fill="#c6c6c6" stroke="#333"/>
+<!-- Table -->
+<rect x="130" y="200" width="260" height="20" fill="#cfcfcf" stroke="#333"/>
+<!-- Workpiece -->
+<rect x="190" y="185" width="80" height="16" fill="#8a6d3b"/>
+
+<g font-size="13">
+<line x1="190" y1="90" x2="330" y2="70" stroke="#666"/><text x="335" y="70">Head (spindle housing)</text>
+<line x1="218" y1="140" x2="330" y2="130" stroke="#666"/><text x="335" y="130">Spindle</text>
+<line x1="215" y1="170" x2="330" y2="170" stroke="#666"/><text x="335" y="174">Milling cutter</text>
+<line x1="230" y1="193" x2="330" y2="193" stroke="#666"/><text x="335" y="197">Workpiece</text>
+<line x1="260" y1="210" x2="420" y2="210" stroke="#666"/><text x="335" y="214">Table (longitudinal feed)</text>
+<line x1="220" y1="240" x2="420" y2="245" stroke="#666"/><text x="335" y="249">Saddle (cross feed)</text>
+<line x1="165" y1="270" x2="420" y2="280" stroke="#666"/><text x="335" y="284">Knee (vertical feed)</text>
+<line x1="145" y1="220" x2="60" y2="330" stroke="#666"/><text x="20" y="345">Column</text>
+</g>
+</svg>
