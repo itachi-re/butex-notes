@@ -125,6 +125,13 @@ $$
 s = \frac{[(\_\_\_\_\_)(\_\_\_\_\_)+(\_\_\_\_\_)(4186)](\_\_\_\_\_)}{(\_\_\_\_\_)(\_\_\_\_\_)} = \_\_\_\_\_\ \text{J kg}^{-1}\text{K}^{-1}
 $$
 
+## Graph
+
+Plot temperature $\theta$ (y-axis) against time $t$ (x-axis) for the whole run, covering the readings taken before, during, and after transferring the hot solid.
+
+- **Expected shape:** a nearly flat pre-mixing segment, a sharp rise as the hot solid is dropped in and the mixture stirred, and a nearly straight, slowly falling post-mixing segment.
+- **Use of the graph:** extend the post-mixing straight-line segment backward to the vertical line through the instant of transfer ($t_0$); its ordinate there is the corrected temperature $\theta_2'$, giving a graphical cross-check on the value obtained from the rate-correction formula.
+
 ## Result
 
 The specific heat capacity of the given solid, corrected for radiation loss, is:
