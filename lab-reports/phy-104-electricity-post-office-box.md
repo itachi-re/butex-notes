@@ -1,3 +1,9 @@
+---
+course: PHY 104 — Physics II (Practical)
+experiment_no: 4
+title: Resistance of a Wire by Post Office Box
+---
+
 # Determination of the Resistance of a Wire by Post Office Box (P.O. Box)
 
 ## Aim
