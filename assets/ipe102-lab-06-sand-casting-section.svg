@@ -1,0 +1,48 @@
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica,Arial,sans-serif">
+<style>.lbl{font-size:13px;fill:#222} .t{font-size:18px;font-weight:bold;fill:#111}</style>
+<rect width="700" height="460" fill="#fff"/>
+<text x="350" y="26" text-anchor="middle" class="t">Sand Mould — Sectional View</text>
+
+<!-- cope (top) -->
+<rect x="80" y="60" width="480" height="140" fill="#e0c9a0" stroke="#333" stroke-width="2"/>
+<!-- drag (bottom) -->
+<rect x="80" y="200" width="480" height="140" fill="#d3b483" stroke="#333" stroke-width="2"/>
+<!-- parting line -->
+<line x1="60" y1="200" x2="580" y2="200" stroke="#c33" stroke-dasharray="6,4" stroke-width="2"/>
+<text x="590" y="204" class="lbl" fill="#c33">Parting line</text>
+
+<!-- mould cavity -->
+<ellipse cx="280" cy="270" rx="70" ry="35" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="280" y="275" text-anchor="middle" class="lbl">Mould cavity</text>
+
+<!-- core -->
+<circle cx="280" cy="270" r="14" fill="#a0522d" stroke="#333"/>
+<text x="330" y="245" class="lbl">Core</text>
+
+<!-- sprue -->
+<path d="M150,60 L170,60 L160,200 L150,200 Z" fill="#fff" stroke="#333"/>
+<text x="100" y="50" class="lbl">Pouring basin</text>
+<ellipse cx="160" cy="58" rx="22" ry="10" fill="#fff" stroke="#333"/>
+<text x="130" y="130" class="lbl">Sprue</text>
+
+<!-- runner -->
+<path d="M160,200 L160,215 L250,235 L250,225 Z" fill="#fff" stroke="#333"/>
+<text x="165" y="222" class="lbl">Runner</text>
+
+<!-- gate -->
+<path d="M250,225 L250,235 L280,255 L280,245 Z" fill="#fff" stroke="#333"/>
+<text x="240" y="220" class="lbl">Gate</text>
+
+<!-- riser -->
+<path d="M420,60 L445,60 L438,200 L427,200 Z" fill="#fff" stroke="#333"/>
+<ellipse cx="432" cy="58" rx="18" ry="9" fill="#fff" stroke="#333"/>
+<text x="450" y="90" class="lbl">Riser</text>
+
+<!-- vent -->
+<line x1="480" y1="60" x2="480" y2="150" stroke="#333" stroke-width="3"/>
+<text x="490" y="80" class="lbl">Vent</text>
+
+<!-- flask outline -->
+<text x="90" y="80" class="lbl" font-weight="bold">Cope (top half)</text>
+<text x="90" y="335" class="lbl" font-weight="bold">Drag (bottom half)</text>
+</svg>
