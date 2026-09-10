@@ -1,0 +1,52 @@
+<svg viewBox="0 0 900 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica,Arial,sans-serif">
+<style>.lbl{font-size:13px;fill:#222} .t{font-size:18px;font-weight:bold;fill:#111} .p{stroke:#333;stroke-width:1.5;fill:#ddd}</style>
+<rect width="900" height="380" fill="#fff"/>
+<text x="450" y="26" text-anchor="middle" class="t">Centre (Engine) Lathe — Main Parts</text>
+
+<!-- Bed -->
+<rect x="60" y="230" width="760" height="30" class="p" fill="#c9c9c9"/>
+<!-- Legs -->
+<rect x="90" y="260" width="30" height="60" fill="#999"/>
+<rect x="750" y="260" width="30" height="60" fill="#999"/>
+
+<!-- Headstock -->
+<rect x="60" y="150" width="120" height="90" class="p" fill="#b0b0b0"/>
+<circle cx="180" cy="195" r="10" fill="#666"/>
+<!-- Chuck -->
+<circle cx="200" cy="195" r="22" fill="none" stroke="#333" stroke-width="4"/>
+<line x1="200" y1="173" x2="200" y2="217" stroke="#333"/>
+<line x1="178" y1="195" x2="222" y2="195" stroke="#333"/>
+
+<!-- Workpiece -->
+<rect x="222" y="188" width="180" height="14" fill="#8a6d3b"/>
+
+<!-- Tailstock -->
+<rect x="620" y="170" width="90" height="55" class="p" fill="#bcbcbc"/>
+<rect x="700" y="190" width="30" height="16" fill="#888"/>
+<polygon points="730,190 745,198 730,206" fill="#666"/>
+
+<!-- Carriage / cross-slide / tool post -->
+<g transform="translate(400,150)">
+<rect x="0" y="70" width="70" height="20" fill="#a3a3a3" stroke="#333"/>
+<rect x="15" y="35" width="40" height="35" fill="#bcbcbc" stroke="#333"/>
+<rect x="25" y="10" width="20" height="25" fill="#8f8f8f" stroke="#333"/>
+<rect x="18" y="0" width="34" height="12" fill="#666"/>
+<line x1="35" y1="0" x2="35" y2="188" stroke="#333" stroke-dasharray="2,2"/>
+</g>
+
+<!-- Lead screw / feed rod -->
+<line x1="180" y1="245" x2="700" y2="245" stroke="#555" stroke-width="3"/>
+<line x1="180" y1="252" x2="700" y2="252" stroke="#777" stroke-width="2"/>
+
+<!-- Labels with leader lines -->
+<g font-size="13" fill="#222">
+<line x1="120" y1="150" x2="120" y2="120" stroke="#666"/><text x="60" y="112">Headstock</text>
+<line x1="200" y1="173" x2="200" y2="120" stroke="#666"/><text x="185" y="112">Chuck</text>
+<line x1="310" y1="188" x2="310" y2="120" stroke="#666"/><text x="270" y="112">Workpiece</text>
+<line x1="435" y1="150" x2="435" y2="100" stroke="#666"/><text x="380" y="92">Tool post &amp; cutting tool</text>
+<line x1="435" y1="220" x2="435" y2="330" stroke="#666"/><text x="390" y="345">Cross-slide / Carriage / Saddle</text>
+<line x1="665" y1="170" x2="665" y2="120" stroke="#666"/><text x="630" y="112">Tailstock</text>
+<line x1="440" y1="245" x2="440" y2="290" stroke="#666"/><text x="390" y="305">Lead screw &amp; feed rod</text>
+<line x1="90" y1="230" x2="90" y2="330" stroke="#666"/><text x="55" y="345">Bed</text>
+</g>
+</svg>
