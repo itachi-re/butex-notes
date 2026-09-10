@@ -1,0 +1,32 @@
+<svg viewBox="0 0 480 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica,Arial,sans-serif">
+<style>.lbl{font-size:13px;fill:#222} .t{font-size:18px;font-weight:bold;fill:#111}</style>
+<rect width="480" height="320" fill="#fff"/>
+<text x="240" y="26" text-anchor="middle" class="t">Circular Saw Machine — Main Parts (Plan View)</text>
+
+<!-- Table -->
+<rect x="60" y="120" width="360" height="120" fill="#c6c6c6" stroke="#333"/>
+<!-- Blade slot -->
+<rect x="230" y="120" width="6" height="120" fill="#777"/>
+<!-- Blade (partly under table) -->
+<circle cx="233" cy="90" r="60" fill="none" stroke="#333" stroke-width="4"/>
+<g stroke="#333" stroke-width="1">
+<line x1="233" y1="30" x2="233" y2="150"/><line x1="173" y1="90" x2="293" y2="90"/>
+</g>
+<!-- guard -->
+<path d="M183,60 A60,60 0 0,1 283,60 L283,45 A70,70 0 0,0 183,45 Z" fill="#666" opacity="0.6"/>
+<!-- fence -->
+<rect x="60" y="150" width="360" height="8" fill="#8a5a2b"/>
+<!-- workpiece -->
+<rect x="90" y="160" width="220" height="30" fill="#d8b98b" stroke="#8a5a2b"/>
+<!-- arbor -->
+<circle cx="233" cy="90" r="8" fill="#555"/>
+
+<g font-size="13">
+<line x1="233" y1="45" x2="233" y2="10" stroke="#666"/><text x="150" y="10">Guard</text>
+<line x1="180" y1="90" x2="60" y2="80" stroke="#666"/><text x="10" y="76">Saw blade</text>
+<line x1="233" y1="90" x2="160" y2="60" stroke="#666"/><text x="90" y="52">Arbor (spindle)</text>
+<line x1="120" y1="150" x2="60" y2="260" stroke="#666"/><text x="10" y="275">Rip fence / guide</text>
+<line x1="150" y1="175" x2="60" y2="290" stroke="#666"/><text x="10" y="305">Workpiece (fed by hand/power feed)</text>
+<line x1="330" y1="200" x2="420" y2="260" stroke="#666"/><text x="350" y="275">Table</text>
+</g>
+</svg>
