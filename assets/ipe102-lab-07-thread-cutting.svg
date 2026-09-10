@@ -1,0 +1,47 @@
+<svg viewBox="0 0 780 420" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica,Arial,sans-serif">
+<style>.lbl{font-size:12.5px;fill:#222} .t{font-size:18px;font-weight:bold;fill:#111}</style>
+<rect width="780" height="420" fill="#fff"/>
+<text x="390" y="26" text-anchor="middle" class="t">Single-Point Thread Cutting on a Lathe</text>
+
+<!-- lathe setup mini -->
+<g transform="translate(40,50)">
+<rect x="0" y="60" width="60" height="60" fill="#b0b0b0" stroke="#333"/>
+<circle cx="70" cy="90" r="16" fill="none" stroke="#333" stroke-width="3"/>
+<rect x="86" y="84" width="180" height="12" fill="#8a6d3b"/>
+<rect x="150" y="96" width="30" height="20" fill="#999" stroke="#333"/>
+<polygon points="150,116 165,116 158,128" fill="#555"/>
+<text x="0" y="150" class="lbl">Workpiece rotates; single-point tool fed longitudinally, engaged with the lead screw</text>
+</g>
+
+<!-- thread profile -->
+<g transform="translate(420,50)">
+<text x="0" y="0" class="lbl" font-weight="bold">Thread Profile (V-thread, schematic)</text>
+<path d="M0,60 L20,20 L40,60 L60,20 L80,60 L100,20 L120,60" fill="none" stroke="#333" stroke-width="2"/>
+<line x1="0" y1="60" x2="120" y2="60" stroke="#999"/>
+<line x1="0" y1="20" x2="120" y2="20" stroke="#999" stroke-dasharray="3,2"/>
+
+<line x1="20" y1="10" x2="60" y2="10" stroke="#666"/>
+<text x="25" y="6" class="lbl">Pitch (p)</text>
+
+<line x1="150" y1="20" x2="170" y2="20" stroke="#666"/><text x="175" y="24" class="lbl">Crest / Major diameter</text>
+<line x1="150" y1="60" x2="170" y2="60" stroke="#666"/><text x="175" y="64" class="lbl">Root / Minor diameter</text>
+<line x1="150" y1="40" x2="170" y2="40" stroke="#666"/><text x="175" y="44" class="lbl">Pitch diameter (mid-flank)</text>
+<line x1="30" y1="35" x2="10" y2="35" stroke="#666"/><text x="-70" y="39" class="lbl">Flank</text>
+</g>
+
+<!-- calc note -->
+<g transform="translate(420,220)">
+<text x="0" y="0" class="lbl" font-weight="bold">Feed relationship (single-start thread)</text>
+<text x="0" y="22" class="lbl">Tool longitudinal feed per spindle revolution = thread pitch (p)</text>
+<text x="0" y="42" class="lbl">Controlled via the lathe's change-gear/gearbox setting for the required pitch</text>
+</g>
+
+<g transform="translate(60,250)">
+<text x="0" y="0" class="lbl" font-weight="bold">Basic Procedure</text>
+<text x="0" y="22" class="lbl">1. Turn blank to major diameter</text>
+<text x="0" y="42" class="lbl">2. Set correct pitch on lathe (gearbox/change gears)</text>
+<text x="0" y="62" class="lbl">3. Set threading tool at 90° to axis using a centre gauge</text>
+<text x="0" y="82" class="lbl">4. Engage half-nut; take light successive cuts</text>
+<text x="0" y="102" class="lbl">5. Check thread with a thread gauge / mating nut</text>
+</g>
+</svg>
