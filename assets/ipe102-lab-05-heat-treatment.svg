@@ -1,0 +1,32 @@
+<svg viewBox="0 0 780 460" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica,Arial,sans-serif">
+<style>.lbl{font-size:12px;fill:#222} .t{font-size:18px;font-weight:bold;fill:#111} .ax{stroke:#333;stroke-width:1.5}</style>
+<rect width="780" height="460" fill="#fff"/>
+<text x="390" y="26" text-anchor="middle" class="t">Heat-Treatment Cycles — Schematic Temperature vs Time (Not to Scale)</text>
+
+<!-- axes -->
+<line x1="70" y1="400" x2="740" y2="400" class="ax"/>
+<line x1="70" y1="400" x2="70" y2="40" class="ax"/>
+<text x="740" y="418" class="lbl">Time →</text>
+<text x="20" y="50" class="lbl">Temp</text>
+<line x1="70" y1="90" x2="740" y2="90" stroke="#ccc" stroke-dasharray="3,3"/>
+<text x="30" y="94" class="lbl">Critical range</text>
+
+<!-- Annealing: slow heat, hold, very slow furnace cool -->
+<path d="M90,380 C130,200 160,90 190,90 L260,90 C320,150 420,340 480,370" fill="none" stroke="#2c6fbb" stroke-width="2.5"/>
+<text x="200" y="70" class="lbl" fill="#2c6fbb">Annealing (slow furnace cool)</text>
+
+<!-- Normalizing: heat above critical, hold briefly, air cool (faster) -->
+<path d="M90,380 C130,180 160,70 190,70 L230,70 C300,160 380,300 430,380" fill="none" stroke="#c96b2c" stroke-width="2.5" stroke-dasharray="6,3"/>
+<text x="440" y="200" class="lbl" fill="#c96b2c">Normalizing (air cool — faster than annealing)</text>
+
+<!-- Quenching: heat, hold briefly, rapid drop -->
+<path d="M90,380 C130,180 160,70 190,70 L220,70 C240,100 250,360 260,380" fill="none" stroke="#c0392b" stroke-width="2.5"/>
+<text x="265" y="330" class="lbl" fill="#c0392b">Quenching (rapid cool in medium)</text>
+
+<!-- Tempering: reheat quenched part below critical, hold, cool -->
+<path d="M300,380 C330,300 350,260 380,260 L420,260 C450,300 470,360 490,380" fill="none" stroke="#8e44ad" stroke-width="2.5"/>
+<text x="330" y="245" class="lbl" fill="#8e44ad">Tempering (reheat below critical range)</text>
+
+<!-- annotation -->
+<text x="500" y="430" class="lbl" font-style="italic">Actual temperatures and times depend on steel composition/grade — see manufacturer/handbook data.</text>
+</svg>
