@@ -22,9 +22,9 @@ $$
 \text{Heat lost by the hot liquid} = \text{Heat gained by calorimeter + water}
 $$
 
-As in the solid-mixture experiment, the calorimeter continuously exchanges heat with its surroundings whenever its temperature differs from room temperature, so the observed equilibrium (maximum) temperature $\theta_2$ must be corrected for this radiation/convection loss to obtain the true mixture temperature $\theta_2'$, exactly as described for Experiment 3.
+As in the solid-mixture experiment, the calorimeter continuously exchanges heat with its surroundings whenever its temperature differs from room temperature, so the observed equilibrium (maximum) temperature $\theta_2$ must be corrected for this radiation/convection loss to obtain the true mixture temperature $\theta_2'$, exactly as described in the radiation-correction method (see *Determination of the True Temperature of a Mixture by Radiation Correction*).
 
-**This experiment differs from the cooling method (Experiment 4)** in that it does not rely on comparative cooling rates at all; instead it uses a single mixing event and a heat balance, with the radiation loss during that mixing event corrected directly — making it a distinct experimental technique even though both experiments ultimately determine the same physical quantity.
+**This experiment differs from the method of cooling** (see *Determination of the Specific Heat of a Liquid by the Method of Cooling*) in that it does not rely on comparative cooling rates at all; instead it uses a single mixing event and a heat balance, with the radiation loss during that mixing event corrected directly — making it a distinct experimental technique even though both experiments ultimately determine the same physical quantity.
 
 **Symbols**
 
@@ -51,7 +51,7 @@ $$
 \boxed{s_L = \dfrac{(m_1 s_1 + m_w s_w)(\theta_2'-\theta_1)}{m(\theta-\theta_2')}}
 $$
 
-with the corrected temperature obtained (as in Experiment 3) from
+with the corrected temperature obtained (as in the radiation-correction method) from
 
 $$
 \theta_2' = \theta_2 + d\theta, \qquad d\theta = \frac{r_2}{2}(t_2-t_0)
@@ -118,6 +118,13 @@ $$
 $$
 s_L = \frac{[(\_\_\_\_\_)(\_\_\_\_\_)+(\_\_\_\_\_)(4186)](\_\_\_\_\_)}{(\_\_\_\_\_)(\_\_\_\_\_)} = \_\_\_\_\_\ \text{J kg}^{-1}\text{K}^{-1}
 $$
+
+## Graph
+
+Plot temperature $\theta$ (y-axis) against time $t$ (x-axis) for the whole run, covering the readings taken before, during, and after pouring in the hot liquid.
+
+- **Expected shape:** a nearly flat pre-mixing segment, a sharp rise as the hot liquid is poured in and the mixture stirred, and a nearly straight, slowly falling post-mixing segment.
+- **Use of the graph:** extend the post-mixing straight-line segment backward to the vertical line through the instant of pouring ($t_0$); its ordinate there is the corrected temperature $\theta_2'$, giving a graphical cross-check on the value obtained from the rate-correction formula.
 
 ## Result
 
