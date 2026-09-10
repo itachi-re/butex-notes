@@ -1,0 +1,29 @@
+<svg viewBox="0 0 620 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica,Arial,sans-serif">
+<style>.lbl{font-size:13px;fill:#222} .t{font-size:17px;font-weight:bold;fill:#111}</style>
+<rect width="620" height="300" fill="#fff"/>
+<text x="310" y="26" text-anchor="middle" class="t">Gas (Oxy-Fuel) Welding</text>
+
+<!-- cylinders -->
+<g transform="translate(30,60)">
+<rect x="0" y="20" width="30" height="120" rx="6" fill="#2c6fbb" stroke="#333"/>
+<text x="15" y="160" text-anchor="middle" class="lbl">Oxygen</text>
+<rect x="60" y="20" width="30" height="120" rx="6" fill="#c96b2c" stroke="#333"/>
+<text x="75" y="160" text-anchor="middle" class="lbl">Acetylene</text>
+</g>
+<!-- hoses to torch -->
+<path d="M45,80 C150,80 200,150 260,160" fill="none" stroke="#2c6fbb" stroke-width="3"/>
+<path d="M75,80 C160,100 210,155 260,168" fill="none" stroke="#c96b2c" stroke-width="3"/>
+<!-- torch -->
+<g transform="translate(260,150)">
+<rect x="0" y="0" width="60" height="16" fill="#999" stroke="#333"/>
+<polygon points="60,4 110,10 60,16" fill="#f2a33c" stroke="#c33"/>
+<text x="30" y="-6" class="lbl">Torch</text>
+</g>
+<!-- flame onto joint -->
+<rect x="380" y="200" width="80" height="14" fill="#b0b0b0" stroke="#333"/>
+<rect x="460" y="200" width="80" height="14" fill="#b0b0b0" stroke="#333"/>
+<!-- filler rod -->
+<line x1="340" y1="120" x2="420" y2="195" stroke="#bbb" stroke-width="4"/>
+<text x="320" y="110" class="lbl">Filler rod (added manually)</text>
+<text x="380" y="240" class="lbl">Base metal edges melted and fused together</text>
+</svg>
