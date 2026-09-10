@@ -1,0 +1,27 @@
+<svg viewBox="0 0 560 280" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica,Arial,sans-serif">
+<style>.lbl{font-size:13px;fill:#222} .t{font-size:17px;font-weight:bold;fill:#111}</style>
+<rect width="560" height="280" fill="#fff"/>
+<text x="280" y="26" text-anchor="middle" class="t">Riveting — Mechanical Permanent Fastening</text>
+
+<rect x="150" y="120" width="260" height="16" fill="#b0b0b0" stroke="#333"/>
+<rect x="150" y="136" width="260" height="16" fill="#c0c0c0" stroke="#333"/>
+<!-- hole and rivet shank -->
+<rect x="270" y="100" width="10" height="70" fill="#888" stroke="#333"/>
+<!-- factory head -->
+<circle cx="275" cy="100" r="10" fill="#888" stroke="#333"/>
+<!-- formed head (before/after split) -->
+<g transform="translate(0,0)">
+<text x="130" y="90" class="lbl">Factory (shop) head</text>
+<circle cx="275" cy="170" r="10" fill="#999" stroke="#333" stroke-dasharray="2,2"/>
+<text x="300" y="174" class="lbl">Formed (snap) head — made using rivet set + hammer</text>
+</g>
+
+<!-- snap/rivet set -->
+<g transform="translate(230,190)">
+<rect x="20" y="0" width="10" height="30" fill="#777"/>
+<circle cx="25" cy="34" r="8" fill="#777"/>
+<text x="25" y="60" text-anchor="middle" class="lbl">Rivet set (dolly)</text>
+</g>
+
+<text x="150" y="230" class="lbl">Two sheets overlapped, hole drilled, rivet inserted and head formed by hammering</text>
+</svg>
