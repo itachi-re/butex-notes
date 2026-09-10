@@ -1,0 +1,32 @@
+<svg viewBox="0 0 600 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica,Arial,sans-serif">
+<style>.lbl{font-size:13px;fill:#222} .t{font-size:18px;font-weight:bold;fill:#111}</style>
+<rect width="600" height="340" fill="#fff"/>
+<text x="300" y="26" text-anchor="middle" class="t">Planer — Main Parts (Side View)</text>
+
+<!-- Bed & table -->
+<rect x="60" y="230" width="420" height="20" fill="#c6c6c6" stroke="#333"/>
+<rect x="30" y="250" width="480" height="20" fill="#999" stroke="#333"/>
+<!-- Workpiece -->
+<rect x="150" y="205" width="200" height="25" fill="#8a6d3b"/>
+<!-- Uprights (housings) -->
+<rect x="120" y="60" width="20" height="170" fill="#b0b0b0" stroke="#333"/>
+<rect x="440" y="60" width="20" height="170" fill="#b0b0b0" stroke="#333"/>
+<!-- Cross rail -->
+<rect x="120" y="90" width="340" height="18" fill="#bcbcbc" stroke="#333"/>
+<!-- Tool head fixed on cross rail -->
+<rect x="270" y="108" width="20" height="40" fill="#888" stroke="#333"/>
+<polygon points="272,148 288,148 284,168 276,168" fill="#555"/>
+<!-- motion arrow: table reciprocates -->
+<line x1="150" y1="245" x2="350" y2="245" stroke="#c33" stroke-width="2" marker-end="url(#a2)"/>
+<line x1="350" y1="245" x2="150" y2="245" stroke="#c33" stroke-width="2" marker-end="url(#a2)" transform="translate(0,10)"/>
+<defs><marker id="a2" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#c33"/></marker></defs>
+
+<g font-size="13">
+<line x1="130" y1="150" x2="60" y2="140" stroke="#666"/><text x="15" y="130">Upright/housing</text>
+<line x1="290" y1="99" x2="290" y2="60" stroke="#666"/><text x="230" y="50">Cross rail</text>
+<line x1="280" y1="150" x2="380" y2="150" stroke="#666"/><text x="385" y="150">Tool head (stationary tool)</text>
+<line x1="250" y1="217" x2="80" y2="200" stroke="#666"/><text x="15" y="195">Workpiece (heavy, bolted to table)</text>
+<line x1="200" y1="260" x2="80" y2="300" stroke="#666"/><text x="15" y="315">Table (reciprocates — main motion)</text>
+<text x="150" y="270" fill="#c33">Table reciprocates ↔ (main motion); tool feeds between strokes</text>
+</g>
+</svg>
