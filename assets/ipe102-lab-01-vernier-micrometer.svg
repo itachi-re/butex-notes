@@ -1,0 +1,42 @@
+<svg viewBox="0 0 820 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica,Arial,sans-serif">
+<style>.lbl{font-size:14px;fill:#222} .t{font-size:18px;font-weight:bold;fill:#111} .pl{font-size:12px;fill:#555}</style>
+<rect width="820" height="340" fill="#fff"/>
+<text x="410" y="28" text-anchor="middle" class="t">Vernier Caliper &amp; Outside Micrometer — Main Parts</text>
+
+<!-- Vernier caliper -->
+<g transform="translate(30,60)">
+<text x="0" y="-10" class="lbl" font-weight="bold">Vernier Caliper</text>
+<rect x="0" y="20" width="320" height="16" fill="#e0e0e0" stroke="#333"/>
+<g stroke="#999" stroke-width="1">
+<line x1="20" y1="20" x2="20" y2="30"/><line x1="60" y1="20" x2="60" y2="30"/><line x1="100" y1="20" x2="100" y2="30"/>
+<line x1="140" y1="20" x2="140" y2="30"/><line x1="180" y1="20" x2="180" y2="30"/><line x1="220" y1="20" x2="220" y2="30"/>
+</g>
+<rect x="0" y="36" width="18" height="34" fill="#999" stroke="#333"/>
+<rect x="180" y="36" width="18" height="34" fill="#bbb" stroke="#333"/>
+<rect x="170" y="40" width="60" height="18" fill="#cfcfcf" stroke="#333"/>
+<line x1="0" y1="0" x2="10" y2="20" stroke="#333"/>
+<line x1="18" y1="0" x2="18" y2="20" stroke="#333"/>
+<text x="-5" y="-2" class="pl">Fixed (external) jaw</text>
+<text x="170" y="-2" class="pl">Movable jaw</text>
+<text x="0" y="90" class="pl">Main scale (on beam)</text>
+<text x="170" y="90" class="pl">Vernier scale (sliding)</text>
+<rect x="270" y="20" width="8" height="50" fill="#999"/>
+<text x="230" y="105" class="pl">Depth rod, locking screw (not shown to scale)</text>
+</g>
+
+<!-- Micrometer -->
+<g transform="translate(430,60)">
+<text x="0" y="-10" class="lbl" font-weight="bold">Outside Micrometer</text>
+<path d="M0,60 C10,10 60,10 90,30 L90,40 C60,25 20,25 15,60 Z" fill="#d9d9d9" stroke="#333"/>
+<rect x="90" y="28" width="70" height="8" fill="#aaa" stroke="#333"/>
+<rect x="160" y="20" width="16" height="24" fill="#999" stroke="#333"/>
+<circle cx="230" cy="32" r="30" fill="none" stroke="#333" stroke-width="4"/>
+<rect x="255" y="26" width="30" height="12" fill="#888"/>
+<text x="0" y="90" class="pl">C-frame</text>
+<text x="95" y="60" class="pl">Sleeve (barrel, main scale)</text>
+<text x="200" y="80" class="pl">Thimble (rotating scale)</text>
+<text x="255" y="20" class="pl">Ratchet stop</text>
+<line x1="15" y1="40" x2="90" y2="35" stroke="#333"/>
+<text x="20" y="105" class="pl">Anvil (fixed) — Spindle (moving) — measuring faces</text>
+</g>
+</svg>
