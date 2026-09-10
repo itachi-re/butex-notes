@@ -1,3 +1,9 @@
+---
+course: PHY 104 — Physics II (Practical)
+experiment_no: 1
+title: Resistance of Galvanometer by Half-Deflection Method
+---
+
 # Determination of the Resistance of a Galvanometer by the Half-Deflection Method
 
 ## Aim
@@ -38,7 +44,7 @@ $$
 
 *(Outline of simplification: equating $I_G = I_0/2$ and clearing $E$ leads to $S(R+G) = RG$, i.e. $SR = G(R-S)$, from which $G = RS/(R-S)$ follows directly.)*
 
-Because $R$ is chosen to be much larger than $G$ or $S$, this result is accurate without needing $R \gg G$ as a separate assumption — the derivation already accounts for the loading effect of $S$.
+Note that this result is **exact** for any values of $R$, $S$, and $G$ — the derivation above already accounts fully for the loading effect of $S$ on the circuit, with no approximation of the form $R \gg G$ required. $R$ is chosen large in practice only for a separate, practical reason: to keep the initial current $I_0$ small enough that the deflection $\theta$ stays safely on-scale, not to simplify the formula.
 
 ## Formula / Working Equation
 $$
