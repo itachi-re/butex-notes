@@ -1,0 +1,29 @@
+<svg viewBox="0 0 700 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica,Arial,sans-serif">
+<style>.lbl{font-size:13px;fill:#222} .t{font-size:18px;font-weight:bold;fill:#111}</style>
+<rect width="700" height="320" fill="#fff"/>
+<text x="350" y="26" text-anchor="middle" class="t">Flat Pattern → Formed Object (Example: Open Tray)</text>
+
+<!-- flat pattern (cross/plus shape) -->
+<g transform="translate(60,60)">
+<polygon points="60,0 140,0 140,60 200,60 200,140 140,140 140,200 60,200 60,140 0,140 0,60 60,60"
+ fill="#e8e8e8" stroke="#333" stroke-width="2"/>
+<line x1="60" y1="60" x2="140" y2="60" stroke="#c33" stroke-dasharray="4,3"/>
+<line x1="60" y1="140" x2="140" y2="140" stroke="#c33" stroke-dasharray="4,3"/>
+<line x1="60" y1="60" x2="60" y2="140" stroke="#c33" stroke-dasharray="4,3"/>
+<line x1="140" y1="60" x2="140" y2="140" stroke="#c33" stroke-dasharray="4,3"/>
+<text x="100" y="230" text-anchor="middle" class="lbl">Flat pattern (base + 4 side flaps, fold lines marked)</text>
+</g>
+
+<!-- arrow -->
+<line x1="290" y1="150" x2="380" y2="150" stroke="#333" stroke-width="3" marker-end="url(#ar)"/>
+<defs><marker id="ar" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#333"/></marker></defs>
+<text x="335" y="135" text-anchor="middle" class="lbl">fold + join</text>
+
+<!-- 3D tray (isometric-ish) -->
+<g transform="translate(420,80)">
+<polygon points="0,60 100,60 130,30 30,30" fill="#dcdcdc" stroke="#333"/>
+<polygon points="0,60 0,120 100,120 100,60" fill="#c8c8c8" stroke="#333"/>
+<polygon points="100,60 130,30 130,90 100,120" fill="#b6b6b6" stroke="#333"/>
+<text x="65" y="150" text-anchor="middle" class="lbl">Formed open tray (corners riveted/soldered)</text>
+</g>
+</svg>
