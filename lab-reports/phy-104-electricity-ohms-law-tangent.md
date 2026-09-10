@@ -1,3 +1,9 @@
+---
+course: PHY 104 — Physics II (Practical)
+experiment_no: 5
+title: Verification of Ohm's Law Using a Tangent Galvanometer
+---
+
 # Verification of Ohm's Law Using a Tangent Galvanometer
 
 ## Aim
