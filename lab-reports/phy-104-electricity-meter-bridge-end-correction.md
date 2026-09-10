@@ -1,3 +1,9 @@
+---
+course: PHY 104 — Physics II (Practical)
+experiment_no: 2
+title: End Correction of a Meter Bridge
+---
+
 # Determination of the End Correction of a Meter Bridge
 
 ## Aim
