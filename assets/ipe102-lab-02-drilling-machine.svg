@@ -1,0 +1,39 @@
+<svg viewBox="0 0 500 460" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica,Arial,sans-serif">
+<style>.lbl{font-size:13px;fill:#222} .t{font-size:18px;font-weight:bold;fill:#111}</style>
+<rect width="500" height="460" fill="#fff"/>
+<text x="250" y="26" text-anchor="middle" class="t">Vertical Drilling (Pillar) Machine</text>
+
+<!-- Base -->
+<rect x="150" y="400" width="180" height="20" fill="#999" stroke="#333"/>
+<!-- Column -->
+<rect x="220" y="60" width="24" height="340" fill="#bbb" stroke="#333"/>
+<!-- Table -->
+<rect x="150" y="290" width="140" height="16" fill="#ccc" stroke="#333"/>
+<rect x="230" y="290" width="14" height="0" />
+<!-- Head/motor -->
+<rect x="190" y="60" width="120" height="45" fill="#b0b0b0" stroke="#333"/>
+<circle cx="250" cy="82" r="16" fill="#888" stroke="#333"/>
+<!-- Spindle -->
+<rect x="240" y="105" width="20" height="70" fill="#888" stroke="#333"/>
+<!-- Chuck -->
+<polygon points="235,175 265,175 258,205 242,205" fill="#666" stroke="#333"/>
+<!-- Drill bit -->
+<line x1="250" y1="205" x2="250" y2="285" stroke="#444" stroke-width="4"/>
+<!-- Workpiece -->
+<rect x="215" y="280" width="70" height="12" fill="#8a6d3b"/>
+<!-- Feed handle -->
+<line x1="310" y1="130" x2="350" y2="130" stroke="#333" stroke-width="3"/>
+<circle cx="350" cy="130" r="4" fill="#333"/>
+
+<!-- labels -->
+<g font-size="13">
+<line x1="240" y1="400" x2="150" y2="400" stroke="#666"/><text x="30" y="404">Base</text>
+<line x1="232" y1="230" x2="120" y2="230" stroke="#666"/><text x="20" y="234">Column</text>
+<line x1="220" y1="298" x2="120" y2="270" stroke="#666"/><text x="20" y="266">Table (with clamps)</text>
+<line x1="250" y1="82" x2="120" y2="82" stroke="#666"/><text x="20" y="86">Motor &amp; drive head</text>
+<line x1="250" y1="140" x2="380" y2="140" stroke="#666"/><text x="365" y="120">Spindle</text>
+<line x1="250" y1="190" x2="380" y2="190" stroke="#666"/><text x="365" y="194">Drill chuck</text>
+<line x1="250" y1="250" x2="380" y2="250" stroke="#666"/><text x="365" y="254">Drill bit (twist drill)</text>
+<line x1="350" y1="130" x2="380" y2="100" stroke="#666"/><text x="365" y="90">Feed handle</text>
+</g>
+</svg>
