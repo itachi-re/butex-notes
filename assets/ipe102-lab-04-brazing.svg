@@ -1,0 +1,21 @@
+<svg viewBox="0 0 560 280" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica,Arial,sans-serif">
+<style>.lbl{font-size:13px;fill:#222} .t{font-size:17px;font-weight:bold;fill:#111}</style>
+<rect width="560" height="280" fill="#fff"/>
+<text x="280" y="26" text-anchor="middle" class="t">Brazing — Higher-Temperature Filler Joining</text>
+
+<rect x="150" y="140" width="80" height="60" fill="#b0b0b0" stroke="#333"/>
+<rect x="230" y="140" width="80" height="60" fill="#b0b0b0" stroke="#333"/>
+<rect x="222" y="140" width="16" height="60" fill="#d9b34d" stroke="#333"/>
+<text x="190" y="220" text-anchor="middle" class="lbl">Base metal 1</text>
+<text x="270" y="220" text-anchor="middle" class="lbl">Base metal 2</text>
+<text x="230" y="235" text-anchor="middle" class="lbl">Brazing filler (capillary joint)</text>
+
+<!-- torch -->
+<g transform="translate(330,80)">
+<polygon points="0,20 60,10 60,30" fill="#999" stroke="#333"/>
+<polygon points="60,10 100,18 60,30" fill="#f2a33c" stroke="#c33"/>
+<text x="0" y="0" class="lbl">Gas torch flame (higher temp than soldering)</text>
+</g>
+<line x1="200" y1="140" x2="330" y2="100" stroke="#666" stroke-dasharray="3,3"/>
+<text x="60" y="90" class="lbl">Flux applied to joint area</text>
+</svg>
