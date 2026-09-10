@@ -1,0 +1,45 @@
+<svg viewBox="0 0 780 420" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica,Arial,sans-serif">
+<style>.lbl{font-size:12.5px;fill:#222} .t{font-size:18px;font-weight:bold;fill:#111}</style>
+<rect width="780" height="420" fill="#fff"/>
+<text x="390" y="26" text-anchor="middle" class="t">Gear Cutting on a Milling Machine (Indexing/Dividing Head Setup)</text>
+
+<!-- gear blank between centres with dividing head -->
+<g transform="translate(60,60)">
+<rect x="0" y="60" width="60" height="60" fill="#b0b0b0" stroke="#333"/>
+<text x="30" y="140" text-anchor="middle" class="lbl">Dividing (indexing) head</text>
+<circle cx="120" cy="90" r="45" fill="none" stroke="#333" stroke-width="3"/>
+<g stroke="#333" stroke-width="2">
+<line x1="120" y1="45" x2="120" y2="55"/><line x1="120" y1="125" x2="120" y2="135"/>
+<line x1="75" y1="90" x2="85" y2="90"/><line x1="155" y1="90" x2="165" y2="90"/>
+<line x1="88" y1="58" x2="94" y2="65"/><line x1="146" y1="115" x2="152" y2="122"/>
+<line x1="152" y1="58" x2="146" y2="65"/><line x1="94" y1="115" x2="88" y2="122"/>
+</g>
+<text x="120" y="150" text-anchor="middle" class="lbl">Gear blank (teeth spaces to be milled)</text>
+<rect x="230" y="60" width="55" height="60" fill="#999" stroke="#333"/>
+<text x="257" y="140" text-anchor="middle" class="lbl">Tailstock (centre support)</text>
+</g>
+
+<!-- gear cutter above -->
+<g transform="translate(160,10)">
+<circle cx="0" cy="20" r="18" fill="#888" stroke="#333"/>
+<g stroke="#555"><line x1="-18" y1="20" x2="-30" y2="20"/><line x1="18" y1="20" x2="30" y2="20"/></g>
+<text x="0" y="-2" text-anchor="middle" class="lbl">Involute gear (form) cutter</text>
+</g>
+
+<!-- Gear terminology diagram -->
+<g transform="translate(470,60)">
+<text x="0" y="0" class="lbl" font-weight="bold">Gear Terminology</text>
+<circle cx="100" cy="120" r="90" fill="none" stroke="#bbb" stroke-dasharray="3,3"/>
+<circle cx="100" cy="120" r="90" fill="none" stroke="#333"/>
+<circle cx="100" cy="120" r="70" fill="none" stroke="#999" stroke-dasharray="2,2"/>
+<g stroke="#333" fill="none">
+<path d="M100,30 l6,10 -6,4 6,4 -6,4" stroke-width="2"/>
+</g>
+<line x1="100" y1="120" x2="100" y2="30" stroke="#666" stroke-dasharray="2,2"/>
+<text x="105" y="60" class="lbl">Addendum circle (tip)</text>
+<line x1="150" y1="45" x2="180" y2="20" stroke="#666"/><text x="185" y="20" class="lbl">Outside diameter</text>
+<line x1="100" y1="50" x2="190" y2="50" stroke="#666" stroke-dasharray="2,2"/><text x="195" y="54" class="lbl">Pitch circle</text>
+<text x="60" y="215" class="lbl">Module m = D/T ; Circular pitch p = πD/T</text>
+<text x="60" y="235" class="lbl">D = pitch circle diameter, T = number of teeth</text>
+</g>
+</svg>
