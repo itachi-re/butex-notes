@@ -1,3 +1,9 @@
+---
+course: PHY 104 — Physics II (Practical)
+experiment_no: 3
+title: Specific Resistance of a Wire by Meter Bridge
+---
+
 # Determination of the Specific Resistance (Resistivity) of a Wire by Meter Bridge
 
 ## Aim
@@ -94,26 +100,43 @@ The resistance box $R$ is connected in the left gap and the given wire $X$ in th
 Mean diameter, $d$ = ______ mm = ______ m
 
 ## Calculations
-Mean resistance of wire:
+Mean resistance of wire (from individual trials):
 $$
 \bar{X} = \frac{X_1+X_2+X_3+X_4}{4}
+$$
+Resistance of wire from the slope of the $100/l$ vs $1/R$ graph (see Graph section below):
+$$
+X_{\text{graph}} = \text{slope} = \_\_\_\_ \ \Omega
 $$
 Cross-sectional area:
 $$
 A = \frac{\pi d^2}{4}
 $$
-Specific resistance:
+Specific resistance (using either value of $X$; the graphical value is generally preferred as it uses all trials together):
 $$
-\rho = \frac{\bar{X} A}{L}
+\rho = \frac{X A}{L}
 $$
 
 ## Graph
-Plot $X$ (Ω, on the *y*-axis) against $\dfrac{100-l}{l}$ (on the *x*-axis) for the different trials with varying $R$. Since $X = R\left(\dfrac{100-l}{l}\right)$, and $R$ is set to a series of chosen values, an equivalent useful check is to plot $l$ against $R$ (or verify $X$ is constant across trials); a graph of $X$ versus trial number should show the computed $X$ scattering closely about the mean value, confirming a constant wire resistance regardless of $R$ used.
+Since $R$ is the independent variable set at the resistance box and $l$ is the measured balance length, $X$ itself (already a combination of both) is not a useful quantity to put on an axis — plotting it against a function of $l$ alone does not test anything, because $R$ changes from trial to trial. Instead, rearrange the working equation into a form with two independently-plottable, directly-measured quantities. Starting from
+$$
+X = R\cdot\frac{100-l}{l}
+$$
+divide through by $R$ and rearrange:
+$$
+\frac{X}{R} = \frac{100-l}{l} = \frac{100}{l}-1
+\qquad\Longrightarrow\qquad
+\frac{100}{l} = 1 + \frac{X}{R}
+$$
+So plotting $\dfrac{100}{l}$ (on the *y*-axis) against $\dfrac{1}{R}$ (on the *x*-axis), using the $(R,l)$ pairs from Table 1 directly, gives a straight line whose **slope equals $X$** and whose **intercept equals 1**. This is a genuine linearity check (unlike plotting the already-computed $X$ against anything derived from $l$ alone): if the wire's resistance is truly constant and independent of $R$, the points will lie on a straight line through $(0,1)$, and the slope gives $X$ with the random errors of individual trials averaged out — a more reliable value than the simple mean of the per-trial $X_i$.
 
 ## Result
 The specific resistance (resistivity) of the material of the given wire:
 $$
-\rho = \underline{\hspace{2cm}}\ \Omega\cdot\text{m}
+\rho = \underline{\hspace{2cm}}\ \Omega\cdot\text{m} \quad (\text{from mean of } X_i)
+$$
+$$
+\rho = \underline{\hspace{2cm}}\ \Omega\cdot\text{m} \quad (\text{from graph slope}, X_{\text{graph}})
 $$
 
 ## Precautions
