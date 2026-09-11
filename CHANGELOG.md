@@ -6,33 +6,123 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) with [Se
 ---
 ## [Unreleased]
 
-### Added
-- MATH-103/complex_variables/01_complex_number_system.md
-- MATH-103/complex_variables/02_rectangular_and_polar_form.md
-- MATH-103/complex_variables/03_modulus_and_argument.md
-- MATH-103/complex_variables/04_principal_argument.md
-- MATH-103/complex_variables/05_de_moivres_theorem.md
-- MATH-103/complex_variables/06_eulers_formula.md
-- MATH-103/complex_variables/07_elementary_functions_of_complex_variables.md
-- MATH-103/complex_variables/08_differentiation.md
-- MATH-103/complex_variables/09_derivatives.md
-- MATH-103/complex_variables/10_analytic_function.md
-- MATH-103/complex_variables/11_necessary_and_sufficient_conditions_for_analyticity.md
-- MATH-103/complex_variables/12_cauchy_riemann_equations.md
-- MATH-103/complex_variables/13_harmonic_function.md
-- MATH-103/complex_variables/14_harmonic_conjugate.md
-- MATH-103/complex_variables/15_complex_line_integration.md
-- MATH-103/complex_variables/16_contours.md
-- MATH-103/complex_variables/17_cauchy_goursat_theorem.md
-- MATH-103/complex_variables/18_cauchys_integral_formula.md
-- MATH-103/complex_variables/19_singular_point_and_pole.md
-- MATH-103/complex_variables/20_residue.md
-- MATH-103/complex_variables/21_cauchys_residue_theorem.md
-- MATH-103/complex_variables/22_application_of_residue_theorem_to_improper_integrals.md
-- MATH-103/complex_variables/README.md
-- MATH-103/qna/03_complex_variables_qna.md
-- MATH-103/quick_rev/03_complex_variables.md
+_Nothing pending — all tracked changes below are already on `master`._
 
+## [0.11.0] — 2026-09-11
+
+### Summary
+Major lab-content push: `lab_reports/` was retired and replaced end-to-end by a new
+subject-organized `lab-reports/` directory (23 files covering CHEM-102, PHY-102
+Mechanical, and PHY-104 Electricity + Heat experiments), IPE-101 gained a full
+7-experiment Practical Lab module with diagrams, and CHEM-104 gained its first
+Lab write-ups (ferrous iron estimation, carboxylic acid identification).
+
+### Added
+- **lab-reports/** — New subject-organized lab report set (23 files), replacing
+  the retired `lab_reports/` directory:
+  - Chemistry (CHEM-102): `chem-102-analytical.md`, `chem-102-extra.md`
+  - Mechanical (PHY-102): `phy-102-gravity-flywheel.md`, `phy-102-mech-boiler-pump.md`,
+    `phy-102-mech-steam-turbine.md`
+  - Physics II Practical — Electricity (PHY-104, 10 experiments): earth's magnetic
+    field, ECE copper, galvanometer resistance, high/low resistance, mechanical
+    equivalent of heat, meter bridge (end correction & resistivity), Ohm's law
+    (tangent galvanometer), post office box
+  - Physics II Practical — Heat (PHY-104, 8 experiments): boiling point (PRT),
+    linear expansion, pressure coefficient, radiation correction, specific heat
+    of a liquid (cooling & mixtures methods), specific heat of a solid, thermal
+    conductivity (Searle's method)
+- **IPE-101/lab** — New IPE-102 Practical Lab module (7 experiments + diagrams):
+  - `ipe102-lab-01-hand-tools.md` — Hand tools, measuring instruments, reamers,
+    taps & dies, bench vice, carpentry, model making
+  - `ipe102-lab-02-machine-tools.md` — Lathe, drilling, grinding, shaper, planer,
+    circular saw, milling machine
+  - `ipe102-lab-03-sheet-metal.md` — Sheet metal work
+  - `ipe102-lab-04-metal-joining.md` — Soldering, brazing, riveting, gas welding,
+    electric arc welding
+  - `ipe102-lab-05-heat-treatment.md` — Annealing, normalizing, quenching,
+    tempering, surface hardening
+  - `ipe102-lab-06-sand-casting.md` — Sand moulds, core making, pattern for
+    casting, sand casting
+  - `ipe102-lab-07-gear-thread-cutting.md` — Gear cutting and thread cutting
+- **CHEM-104/lab** — New Lab subsection (4 files):
+  - `estimation-of-ferrous-iron.md`, `Fe2-KMnO4-estimation.md` — % error and
+    Fe²⁺/KMnO₄ estimation
+  - `carboxylic-acid-identification.md`, `carboxylic-acid-identification2.md`
+- **WPE-101/quick_rev/Polymer_260909.md** — CT exam answer sheet (Set B)
+- **MATH-103/qna/vector-hw-260909.md** — Vector calculus homework solutions
+
+### Changed
+- README: Lab Reports section fully rewritten to point at `lab-reports/`
+  (Chemistry / Mechanical / PHY-104 Electricity / PHY-104 Heat subsections)
+- README: IPE-101 and CHEM-104 sections updated with their new Lab subsections
+- README: repository structure tree and stats updated (112 directories, 812 files)
+
+### Removed
+- `lab_reports/` — entire directory removed (`CHEM-102_lab_report.md`,
+  `CHEM-102_lab_report_AKD.md`, `PHY-102_Lab_Reports.md`, `chem_extra.md`,
+  `chem_labrep_sug.md`, `mechanical-lab-reports.md`, `phy_labrep_sug.md`,
+  `z.draft_mlr.md`) — superseded by `lab-reports/`
+
+---
+
+## [0.10.0] — 2026-09-05 to 2026-09-08
+
+### Summary
+Vector calculus notation/diagram revisions across MATH-103/02_vector, a full
+pass of Laplace Transform corrections (definitions, references, LaTeX syntax),
+and a new MDM-102 C Programming quick-revision note.
+
+### Added
+- **MDM-102/quick_rev/c_programming_260907.md** — C Programming quick notes
+
+### Changed
+- **MATH-103/02_vector** — Scalar & vector products, vector triple product, and
+  scalar/vector functions revised with corrected notation and updated diagrams
+  (dot/cross product, triple product, gradient/divergence/curl reference SVGs)
+- **MATH-103/04_laplace_transform** — Definition, elementary functions,
+  convolution theorem, and PDE solution files revised for LaTeX syntax and
+  reference formatting (Wolfram MathWorld, MIT OpenCourseWare citations)
+
+---
+
+## [0.9.1] — 2026-08-31 to 2026-09-04
+
+### Summary
+MATH-103 Complex Variables module completed (22/22 topics), Complete Solved
+Question Banks (2017–2023) added for PHY-103, CHEM-103, MATH-103, and WPE-101,
+and new WPE-101 quick-revision CT notes.
+
+### Added
+- **MATH-103/03_complex_variables** — Complete module (22 files + README):
+  Number System → Rectangular/Polar Form → De Moivre's Theorem → Euler's Formula
+  → Elementary Functions → Differentiation → Analytic Function → Cauchy-Riemann
+  Equations → Harmonic Function/Conjugate → Complex Line Integration → Contours
+  → Cauchy-Goursat Theorem → Cauchy's Integral Formula → Singular Point/Pole →
+  Residue → Cauchy's Residue Theorem → Application to Improper Integrals
+- **MATH-103/qna/03_complex_variables_qna.md** — Complex Variables Q&A
+- **MATH-103/quick_rev/03_complex_variables.md** — Complex Variables quick revision
+- **MATH-103/qna/MS103_Solved_Question_Bank_2017-2023.md** — Complete solved
+  question bank
+- **CHEM-103/qna/Chemistry-II_Complete_Solved_Question_Bank_2017-2023.md** —
+  Complete solved question bank
+- **PHY-103/qna/Physics-II_complete_solved_question_bank_2017-2023.md** and
+  **phy-103_complete_solved_question_bank_2017-2023.md** — Complete solved
+  question banks
+- **WPE-101/qna/PSE_Question_Bank_2017-2023.md** — Complete solved question bank
+- **WPE-101/quick_rev** — New CT exam quick-revision notes:
+  `Polymer_260726.md` (renamed from `ct1-prep.md`), `Polymer_260901.md`,
+  `Polymer_260902.md`, `Polymer_Pairs_and_FreeRadical.md`
+
+### Changed
+- README: MATH-103 section revised with the full Complex Variables topic list;
+  repository stats updated
+- MATH-103/02_vector/01-scalar-and-vector-quantities.md — notation and diagram fixes
+
+### Fixed
+- Broken/stale WPE-101 quick-revision link (`WPE-101_Polymer_Pairs_and_FreeRadical.md`
+  → `Polymer_Pairs_and_FreeRadical.md`)
+
+---
 
 ## [0.9.0] — 2026-08-31
 Added
@@ -387,7 +477,11 @@ Initial project setup establishing comprehensive BUTEX course notes repository f
 - **2026-04-19** — v0.6.8: MATH-101 limit/continuity formatting polish
 - **2026-04-21** — v0.6.9: Polarization module, fluid examples, CHEM QB, MATH quick_rev & full qna
 - **2026-06-06** — v0.7.0: PHY-103 magnetism, MATH-103 init, WPE-101 expansion & restructure
-- **2026-06-10** — [Unreleased]: CHEM-103 organic reactions (SN1/SN2/E1/E2) and organometallic module
+- **2026-06-30** — v0.8.0: CHEM-103 organic reactions (SN1/SN2/E1/E2) and organometallic module; PHY-103 electricity completed
+- **2026-08-31** — v0.9.0: PHY-103 kinetic theory of gases module (13 topics)
+- **2026-09-03** — v0.9.1: MATH-103 Complex Variables module (22/22 topics), complete solved question banks (PHY-103, CHEM-103, MATH-103, WPE-101)
+- **2026-09-08** — v0.10.0: MATH-103 vector calculus notation/diagram revisions, Laplace Transform corrections
+- **2026-09-11** — v0.11.0: `lab_reports/` → `lab-reports/` restructure (23 files), IPE-101 Practical Lab module (7 experiments), CHEM-104 Lab additions
 
 ---
 
