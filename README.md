@@ -35,7 +35,7 @@ This repository contains comprehensive course notes from my journey through the 
 | :--- | :--- | :---: | :--- | :--- |
 | **[CHEM-101](https://github.com/itachi-re/butex-notes/tree/master/CHEM-101)** | Chemistry - I | 🟢 Active | Periodicity, Bonding, Acids/Bases, Equilibrium, Kinetics, Colloids, Photochemistry | [📑 Topics](#chemistry-101-topics) |
 | **[CHEM-103](https://github.com/itachi-re/butex-notes/tree/master/CHEM-103)** | Organic Chemistry — Reactions & Mechanisms | 🟢 Active | Inductive/Electromeric/Mesomeric Effects, Carbonium Ions, Carbanions, SN1/SN2/E1/E2, Addition Reactions, Organometallics (Grignard, Organozinc, TEL), Alcohols, Phenols, Carboxylic Acid Derivatives | [📑 Topics](#chem-103-topics) |
-| **[CHEM-104](https://github.com/itachi-re/butex-notes/tree/master/CHEM-104)** | Chemistry - II (Practical) | 🟡 In Progress | Identification of Organic Compounds (23 compounds: Alcohols, Acids, Aldehydes, Ketones, Phenols, Amines, Amides), Amino Acids & Proteins, Colours/Dyes & Pigments, Titrations (⚪ Pending) | [📑 Topics](#chem-104-topics) |
+| **[CHEM-104](https://github.com/itachi-re/butex-notes/tree/master/CHEM-104)** | Chemistry - II (Practical) | 🟡 In Progress | Identification of Organic Compounds (23 compounds: Alcohols, Acids, Aldehydes, Ketones, Phenols, Amines, Amides), Amino Acids & Proteins, Colours/Dyes & Pigments, Lab (ferrous iron & carboxylic acid estimations), Titrations (⚪ Pending) | [📑 Topics](#chem-104-topics) |
 | **[PHY-101](https://github.com/itachi-re/butex-notes/tree/master/PHY-101)** | Physics - I | 🟢 Active | Elasticity, Fluid Mechanics, Interference, Dynamics, Surface Tension, Viscosity, Diffraction, Polarization | [📑 Topics](#physics-101-topics) |
 | **[PHY-103](https://github.com/itachi-re/butex-notes/tree/master/PHY-103)** | Physics - II | 🟢 Active | Electricity (Coulomb's Law → Parallel Resonance, 14/14 topics), Kinetic Theory of Gases (13/13 topics), Magnetism (Induction → LC-SHM Analogy, 13/13 topics), Thermodynamics | [📑 Topics](#phy-103-topics) |
 | **[MATH-101](https://github.com/itachi-re/butex-notes/tree/master/MATH-101)** | Mathematics - I | 🟢 Active | Differential Calculus, Integral Calculus, Linear Algebra, Coordinate Geometry | [📑 Topics](#math-101-topics) |
@@ -53,7 +53,7 @@ This repository contains comprehensive course notes from my journey through the 
 
 | Course Code | Course Title | Status | Topics Covered | Quick Links |
 | :--- | :--- | :---: | :--- | :--- |
-| **[IPE-101](https://github.com/itachi-re/butex-notes/tree/master/IPE-101)** ✨ New | Industrial & Production Engineering (Materials Science) | 🟢 Active | Properties of Materials, Processing, Material Selection, Atomic/Molecular/Crystalline Structures, Elastic-Plastic Behavior, Phase Diagrams | [📑 Topics](#ipe-101-topics) |
+| **[IPE-101](https://github.com/itachi-re/butex-notes/tree/master/IPE-101)** ✨ New | Industrial & Production Engineering (Materials Science) | 🟢 Active | Properties of Materials, Processing, Material Selection, Atomic/Molecular/Crystalline Structures, Elastic-Plastic Behavior, Phase Diagrams, IPE-102 Practical Lab (7 experiments) | [📑 Topics](#ipe-101-topics) |
 | **[WPE-101](https://github.com/itachi-re/butex-notes/tree/master/WPE-101)** | Polymer Science and Engineering | 🟢 Active | Fundamentals & History, Classification, Raw Materials, Synthesis (Addition/Condensation), Fibre-Forming Polymers | [📑 Topics](#wpe-101-topics) |
 
 ### 🧵 Yarn Engineering (Fabric Department Focus)
@@ -67,7 +67,7 @@ This repository contains comprehensive course notes from my journey through the 
 
 | Course Code | Course Title | Status | Topics Covered | Quick Links |
 | :--- | :--- | :---: | :--- | :--- |
-| **[lab_reports](https://github.com/itachi-re/butex-notes/tree/master/lab_reports)** | Lab Reports (CHEM-102 / PHY-102) | 🟢 Active | Chemistry & Physics Lab Reports, Mechanical Labs | [📑 Topics](#lab-reports) |
+| **[lab-reports](https://github.com/itachi-re/butex-notes/tree/master/lab-reports)** | Lab Reports (CHEM-102 / PHY-102 / PHY-104) | 🟢 Active | Chemistry, Mechanical & Physics-II Practical Lab Reports (Electricity + Heat experiments) | [📑 Topics](#lab-reports) |
 | **[ME-102 Practical](https://github.com/itachi-re/butex-notes/tree/master/tmp/ME-102-Practical)** | Mechanical Engineering Practical | 🟡 In Progress | Boilers, Pumps, Engines, Refrigeration, Turbines | [📑 Topics](#me-102-practical) |
 
 **Status Legend:**  
@@ -235,6 +235,7 @@ This repository contains comprehensive course notes from my journey through the 
 - [Organic Chemistry Exam Answers (2026-08-25)](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/qna/organic_chemistry_exam_answers_260825.md)
 - [Organic Chemistry Exam Answers (2026-08-25).1](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/qna/organic_chemistry_exam_answers_260825.1.md)
 - [Organic Chemistry Exam Answers (2026-08-25).2 — Corrected Final](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/qna/organic_chemistry_exam_answers_260825.2.md)
+- [Complete Solved Question Bank 2017–2023](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/qna/Chemistry-II_Complete_Solved_Question_Bank_2017-2023.md)
 
 </details>
 
@@ -305,6 +306,16 @@ This repository contains comprehensive course notes from my journey through the 
 <summary><b>📂 Titrations ⚪ Pending</b></summary>
 
 - [📖 Module README](https://github.com/itachi-re/butex-notes/blob/master/CHEM-104/titrations/README.md) — placeholder, content not yet added
+
+</details>
+
+<details>
+<summary><b>📂 Lab ✨ New</b></summary>
+
+- [Estimation of Ferrous Iron](https://github.com/itachi-re/butex-notes/blob/master/CHEM-104/lab/estimation-of-ferrous-iron.md)
+- [Fe²⁺ / KMnO₄ Estimation](https://github.com/itachi-re/butex-notes/blob/master/CHEM-104/lab/Fe2-KMnO4-estimation.md)
+- [Carboxylic Acid Identification](https://github.com/itachi-re/butex-notes/blob/master/CHEM-104/lab/carboxylic-acid-identification.md)
+- [Carboxylic Acid Identification (2)](https://github.com/itachi-re/butex-notes/blob/master/CHEM-104/lab/carboxylic-acid-identification2.md)
 
 </details>
 
@@ -776,6 +787,9 @@ This repository contains comprehensive course notes from my journey through the 
 - [Laplace Transform (2026-08-17)](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/qna/laplace_transform_260817.md)
 - [Laplace Transform Practice — 1](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/qna/laplace_transform_practice-1.md)
 - [Laplace Transform Homework (2026-08-27)](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/qna/laplace-transform-hw-260827.md)
+- [Complex Variables Q&A](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/qna/03_complex_variables_qna.md)
+- [Vector Calculus Homework Solutions (2026-09-09)](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/qna/vector-hw-260909.md)
+- [MS103 Complete Solved Question Bank 2017–2023](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/qna/MS103_Solved_Question_Bank_2017-2023.md)
 
 </details>
 
@@ -790,7 +804,7 @@ This repository contains comprehensive course notes from my journey through the 
 - [Laplace Transform Note 1](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/quick_rev/laplace-transform-note-1.md)
 - [Laplace Transform Note 2](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/quick_rev/laplace-transform-note-2.md)
 - [Laplace Transform Note 3](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/quick_rev/laplace-transform-note-3.md)
-- [📖 Module README](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/quick_rev/README.md)
+- [Complex Variables Quick Revision](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/quick_rev/03_complex_variables.md)
 
 </details>
 
@@ -1055,6 +1069,7 @@ This repository contains comprehensive course notes from my journey through the 
 
 - [C Programming Suggestions](https://github.com/itachi-re/butex-notes/blob/master/MDM-102/quick_rev/c_programming_sug.md)
 - [C Programming Suggestions (Part 2)](https://github.com/itachi-re/butex-notes/blob/master/MDM-102/quick_rev/c_programming_sug_2.md)
+- [C Programming Quick Notes (2026-09-07)](https://github.com/itachi-re/butex-notes/blob/master/MDM-102/quick_rev/c_programming_260907.md)
 
 </details>
 
@@ -1083,6 +1098,19 @@ This repository contains comprehensive course notes from my journey through the 
 
 - [Engineering Materials Practice Exams](https://github.com/itachi-re/butex-notes/blob/master/IPE-101/qna/IPE-101_Engineering_Materials_Practice_Exams.md)
 - [Class Test — 2025](https://github.com/itachi-re/butex-notes/blob/master/IPE-101/qna/ipe-ct-2025.md)
+
+</details>
+
+<details>
+<summary><b>📂 Lab (IPE-102 Practical) ✨ New</b></summary>
+
+- [01 - Hand Tools, Measuring Instruments, Reamers, Taps & Dies, Bench Vice, Carpentry, Model Making](https://github.com/itachi-re/butex-notes/blob/master/IPE-101/lab/ipe102-lab-01-hand-tools.md)
+- [02 - Lathe, Drilling, Grinding, Shaper, Planer, Circular Saw, Milling Machine](https://github.com/itachi-re/butex-notes/blob/master/IPE-101/lab/ipe102-lab-02-machine-tools.md)
+- [03 - Sheet Metal Work](https://github.com/itachi-re/butex-notes/blob/master/IPE-101/lab/ipe102-lab-03-sheet-metal.md)
+- [04 - Metal Joining: Soldering, Brazing, Riveting, Gas Welding, Electric Arc Welding](https://github.com/itachi-re/butex-notes/blob/master/IPE-101/lab/ipe102-lab-04-metal-joining.md)
+- [05 - Heat Treatment of Steel (Annealing, Normalizing, Quenching, Tempering, Surface Hardening)](https://github.com/itachi-re/butex-notes/blob/master/IPE-101/lab/ipe102-lab-05-heat-treatment.md)
+- [06 - Sand Moulds, Core Making, Pattern for Casting, Sand Casting](https://github.com/itachi-re/butex-notes/blob/master/IPE-101/lab/ipe102-lab-06-sand-casting.md)
+- [07 - Gear Cutting and Thread Cutting](https://github.com/itachi-re/butex-notes/blob/master/IPE-101/lab/ipe102-lab-07-gear-thread-cutting.md)
 
 </details>
 
@@ -1122,14 +1150,18 @@ This repository contains comprehensive course notes from my journey through the 
 <summary><b>📂 Q&A</b></summary>
 
 - [Polymer Science Question Bank](https://github.com/itachi-re/butex-notes/blob/master/WPE-101/qna/psqb.md)
+- [Complete Solved Question Bank 2017–2023](https://github.com/itachi-re/butex-notes/blob/master/WPE-101/qna/PSE_Question_Bank_2017-2023.md)
 
 </details>
 
 <details>
 <summary><b>📂 Quick Revision</b></summary>
 
-- [Polymer Pairs & Free Radical Mechanism](https://github.com/itachi-re/butex-notes/blob/master/WPE-101/quick_rev/WPE-101_Polymer_Pairs_and_FreeRadical.md)
-- [Class Test 1 Prep](https://github.com/itachi-re/butex-notes/blob/master/WPE-101/quick_rev/ct1-prep.md)
+- [Polymer Pairs & Free Radical Mechanism](https://github.com/itachi-re/butex-notes/blob/master/WPE-101/quick_rev/Polymer_Pairs_and_FreeRadical.md)
+- [Class Test 1 Prep (2026-07-26)](https://github.com/itachi-re/butex-notes/blob/master/WPE-101/quick_rev/Polymer_260726.md)
+- [CT Exam Quick Notes — Set A, with Chemical Structures (2026-09-01)](https://github.com/itachi-re/butex-notes/blob/master/WPE-101/quick_rev/Polymer_260901.md)
+- [CT Exam Quick Notes — Set A (2026-09-02)](https://github.com/itachi-re/butex-notes/blob/master/WPE-101/quick_rev/Polymer_260902.md)
+- [Answer Sheet — Set B (2026-09-09)](https://github.com/itachi-re/butex-notes/blob/master/WPE-101/quick_rev/Polymer_260909.md)
 - [Polymer Science Revision](https://github.com/itachi-re/butex-notes/blob/master/WPE-101/quick_rev/polymer-science-revision.md)
 
 </details>
@@ -1138,30 +1170,54 @@ This repository contains comprehensive course notes from my journey through the 
 
 ### Lab Reports
 
-**[🔗 View All Lab Reports](https://github.com/itachi-re/butex-notes/tree/master/lab_reports)**
+**[🔗 View All Lab Reports](https://github.com/itachi-re/butex-notes/tree/master/lab-reports)**
+
+> Restructured (September 2026) into subject- and experiment-based files, replacing the earlier consolidated `lab_reports/` write-ups.
 
 <details>
 <summary><b>📂 Chemistry Lab (CHEM-102)</b></summary>
 
-- [CHEM-102 Lab Report](https://github.com/itachi-re/butex-notes/blob/master/lab_reports/CHEM-102_lab_report.md)
-- [CHEM-102 Lab Report (AKD variant)](https://github.com/itachi-re/butex-notes/blob/master/lab_reports/CHEM-102_lab_report_AKD.md)
-- [Chemistry Extra](https://github.com/itachi-re/butex-notes/blob/master/lab_reports/chem_extra.md)
-- [Chemistry Lab Report Suggestions](https://github.com/itachi-re/butex-notes/blob/master/lab_reports/chem_labrep_sug.md)
+- [Analytical Chemistry — Lab Notes & Solutions](https://github.com/itachi-re/butex-notes/blob/master/lab-reports/chem-102-analytical.md) — Molecular formulae, standard solution preparation, standardization procedures, practice problems
+- [Chemistry Extra](https://github.com/itachi-re/butex-notes/blob/master/lab-reports/chem-102-extra.md) — Acids reference
 
 </details>
 
 <details>
-<summary><b>📂 Physics Lab (PHY-102)</b></summary>
+<summary><b>📂 Physics & Mechanical Lab (PHY-102)</b></summary>
 
-- [PHY-102 Lab Reports](https://github.com/itachi-re/butex-notes/blob/master/lab_reports/PHY-102_Lab_Reports.md)
-- [Physics Lab Report Suggestions](https://github.com/itachi-re/butex-notes/blob/master/lab_reports/phy_labrep_sug.md)
+- [Gravity & Flywheel](https://github.com/itachi-re/butex-notes/blob/master/lab-reports/phy-102-gravity-flywheel.md)
+- [Mechanical — Boiler & Pump](https://github.com/itachi-re/butex-notes/blob/master/lab-reports/phy-102-mech-boiler-pump.md)
+- [Mechanical — Steam Turbine](https://github.com/itachi-re/butex-notes/blob/master/lab-reports/phy-102-mech-steam-turbine.md)
 
 </details>
 
 <details>
-<summary><b>📂 Mechanical Lab</b></summary>
+<summary><b>📂 Physics II Practical — Electricity (PHY-104)</b></summary>
 
-- [Mechanical Lab Reports](https://github.com/itachi-re/butex-notes/blob/master/lab_reports/mechanical-lab-reports.md)
+- [Earth's Magnetic Field](https://github.com/itachi-re/butex-notes/blob/master/lab-reports/phy-104-electricity-earth-magnetic-field.md)
+- [ECE — Copper](https://github.com/itachi-re/butex-notes/blob/master/lab-reports/phy-104-electricity-ece-copper.md)
+- [Galvanometer Resistance](https://github.com/itachi-re/butex-notes/blob/master/lab-reports/phy-104-electricity-galvanometer-resistance.md)
+- [High Resistance](https://github.com/itachi-re/butex-notes/blob/master/lab-reports/phy-104-electricity-high-resistance.md)
+- [Low Resistance](https://github.com/itachi-re/butex-notes/blob/master/lab-reports/phy-104-electricity-low-resistance.md)
+- [Mechanical Equivalent of Heat](https://github.com/itachi-re/butex-notes/blob/master/lab-reports/phy-104-electricity-mechanical-equivalent-heat.md)
+- [Meter Bridge — End Correction](https://github.com/itachi-re/butex-notes/blob/master/lab-reports/phy-104-electricity-meter-bridge-end-correction.md)
+- [Meter Bridge — Resistivity](https://github.com/itachi-re/butex-notes/blob/master/lab-reports/phy-104-electricity-meter-bridge-resistivity.md)
+- [Ohm's Law — Tangent Galvanometer](https://github.com/itachi-re/butex-notes/blob/master/lab-reports/phy-104-electricity-ohms-law-tangent.md)
+- [Post Office Box](https://github.com/itachi-re/butex-notes/blob/master/lab-reports/phy-104-electricity-post-office-box.md)
+
+</details>
+
+<details>
+<summary><b>📂 Physics II Practical — Heat (PHY-104)</b></summary>
+
+- [Boiling Point by Platinum Resistance Thermometer](https://github.com/itachi-re/butex-notes/blob/master/lab-reports/phy-104-heat-boiling-point-prt.md)
+- [Linear Expansion of a Solid](https://github.com/itachi-re/butex-notes/blob/master/lab-reports/phy-104-heat-linear-expansion.md)
+- [Pressure Coefficient of a Gas](https://github.com/itachi-re/butex-notes/blob/master/lab-reports/phy-104-heat-pressure-coefficient.md)
+- [True Temperature by Radiation Correction](https://github.com/itachi-re/butex-notes/blob/master/lab-reports/phy-104-heat-radiation-correction.md)
+- [Specific Heat of a Liquid — Method of Cooling](https://github.com/itachi-re/butex-notes/blob/master/lab-reports/phy-104-heat-specific-heat-liquid-cooling.md)
+- [Specific Heat of a Liquid — Method of Mixtures](https://github.com/itachi-re/butex-notes/blob/master/lab-reports/phy-104-heat-specific-heat-liquid-mixtures.md)
+- [Specific Heat of a Solid — Method of Mixtures](https://github.com/itachi-re/butex-notes/blob/master/lab-reports/phy-104-heat-specific-heat-solid.md)
+- [Thermal Conductivity of Metals — Searle's Method](https://github.com/itachi-re/butex-notes/blob/master/lab-reports/phy-104-heat-thermal-conductivity.md)
 
 </details>
 
@@ -1273,6 +1329,7 @@ butex-notes/
 │   ├── identification_of_organic_compounds/  # 23 compounds + qna
 │   ├── amino_acids_proteins/    # Amino Acids and Proteins
 │   ├── colors_dyes_pigments/    # Colours, Dyes and Pigments
+│   ├── lab/                     # Practical lab write-ups (4 files)
 │   └── titrations/               # ⚪ Pending — placeholder only
 ├── PHY-101/                     # Physics - I (8 modules + worked examples + quick_rev)
 │   ├── 01_elasticity/
@@ -1331,6 +1388,7 @@ butex-notes/
 │   └── quick_rev/
 ├── IPE-101/                     # Industrial & Production Engineering (Materials Science)
 │   ├── 01-properties-of-materials.md … 06-phase-diagrams-mixtures.md
+│   ├── lab/                     # ME-102 practical lab write-ups (7 files)
 │   ├── qna/
 │   └── quick_rev/
 ├── WPE-101/                     # Polymer Science and Engineering
@@ -1355,7 +1413,7 @@ butex-notes/
 │   └── qna/
 ├── YE-201/                      # Fibre & Yarn Testing
 │   └── 01_testing_and_moisture.md
-├── lab_reports/                 # Lab reports (CHEM-102, PHY-102, Mechanical)
+├── lab-reports/                 # Subject-organized lab reports (CHEM-102, PHY-102, PHY-104 electricity & heat)
 ├── tmp/
 │   └── ME-102-Practical/        # ME practical notes (5 topics)
 ├── assets/                      # Diagrams & images referenced by notes
@@ -1496,8 +1554,8 @@ This project is licensed under the terms specified in the [LICENSE](LICENSE) fil
 ## 📊 Repository Stats
 
 ```
-Total Notes: 110 directories, 718 files
-Last Updated: Thursday, September 3, 2026
+Total Notes: 112 directories, 812 files
+Last Updated: Friday, September 11, 2026
 Export Format: Markdown → PDF
 Department: Fabric Engineering
 University: BUTEX
