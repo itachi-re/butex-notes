@@ -1,0 +1,43 @@
+<svg viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrowE" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L8,3 z" fill="#b2182b"/>
+    </marker>
+  </defs>
+  <rect width="700" height="380" fill="#ffffff"/>
+
+  <text x="350" y="35" text-anchor="middle" font-size="16" font-weight="bold" fill="#222222">Emissive Power: Surface Element Radiating Energy</text>
+
+  <!-- body block at bottom -->
+  <rect x="150" y="260" width="400" height="60" fill="#cfd8dc" stroke="#333333" stroke-width="2"/>
+  <text x="350" y="345" text-anchor="middle" font-size="13" fill="#333333">Body at temperature T</text>
+
+  <!-- surface element dA -->
+  <rect x="320" y="255" width="60" height="10" fill="#8a6d3b" stroke="#5a4600" stroke-width="1.5"/>
+  <text x="350" y="248" text-anchor="middle" font-size="12" fill="#5a4600" font-weight="bold">surface element dA</text>
+
+  <!-- rays emitted into hemisphere -->
+  <g stroke="#b2182b" stroke-width="2" marker-end="url(#arrowE)">
+    <line x1="350" y1="255" x2="350" y2="90"/>
+    <line x1="350" y1="255" x2="270" y2="120"/>
+    <line x1="350" y1="255" x2="430" y2="120"/>
+    <line x1="350" y1="255" x2="210" y2="170"/>
+    <line x1="350" y1="255" x2="490" y2="170"/>
+  </g>
+
+  <!-- dashed hemisphere guide -->
+  <path d="M 170,255 A 180,180 0 0 1 530,255" fill="none" stroke="#888888" stroke-width="1.2" stroke-dasharray="5,4"/>
+
+  <text x="350" y="70" text-anchor="middle" font-size="13" fill="#b2182b" font-weight="bold">Radiant energy dQ/dt</text>
+  <text x="350" y="87" text-anchor="middle" font-size="12" fill="#b2182b">emitted over all wavelengths</text>
+
+  <!-- equation box -->
+  <rect x="200" y="20" width="300" height="0" fill="none"/>
+  <rect x="230" y="150" width="240" height="0" fill="none"/>
+
+  <rect x="480" y="230" width="200" height="70" rx="8" fill="#fff8e6" stroke="#c9a227" stroke-width="1.5"/>
+  <text x="580" y="260" text-anchor="middle" font-size="15" font-weight="bold" fill="#5a4600">E = (1/dA)(dQ/dt)</text>
+  <text x="580" y="280" text-anchor="middle" font-size="11" fill="#5a4600">units: W/m²</text>
+
+  <text x="350" y="205" text-anchor="middle" font-size="11" fill="#555555">Emission occurs regardless of any incident radiation — E depends only on T.</text>
+</svg>
