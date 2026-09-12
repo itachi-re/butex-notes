@@ -1,0 +1,32 @@
+<svg viewBox="0 0 460 240" xmlns="http://www.w3.org/2000/svg">
+  <text x="230" y="20" text-anchor="middle" font-size="14" font-weight="bold">Two Inertial Frames S and S′ (Light-Clock Setup)</text>
+
+  <!-- frame S -->
+  <line x1="40" y1="200" x2="180" y2="200" stroke="#333" stroke-width="1.5" marker-end="url(#axS)"/>
+  <line x1="40" y1="200" x2="40" y2="70" stroke="#333" stroke-width="1.5" marker-end="url(#axS)"/>
+  <text x="185" y="205" font-size="11">x</text>
+  <text x="30" y="65" font-size="11">y</text>
+  <text x="60" y="90" font-size="12" fill="#2980b9">S (rest frame)</text>
+  <!-- light clock in S -->
+  <line x1="100" y1="180" x2="100" y2="120" stroke="#e67e22" stroke-width="1.6" stroke-dasharray="3,2"/>
+  <rect x="94" y="175" width="12" height="10" fill="#2c3e50"/>
+  <rect x="94" y="115" width="12" height="10" fill="#2c3e50"/>
+  <text x="112" y="150" font-size="9">photon bounces</text>
+  <text x="112" y="162" font-size="9">Δt' = 2d/c (proper time)</text>
+
+  <!-- frame S' moving -->
+  <line x1="260" y1="200" x2="440" y2="200" stroke="#333" stroke-width="1.5" marker-end="url(#axS)"/>
+  <line x1="260" y1="200" x2="260" y2="70" stroke="#333" stroke-width="1.5" marker-end="url(#axS)"/>
+  <text x="445" y="205" font-size="11">x'</text>
+  <text x="250" y="65" font-size="11">y'</text>
+  <text x="280" y="90" font-size="12" fill="#c0392b">S′ moving at v (observer's view)</text>
+  <!-- zig-zag light path as seen from S -->
+  <polyline points="320,180 360,150 320,120" fill="none" stroke="#e67e22" stroke-width="1.6" stroke-dasharray="3,2"/>
+  <rect x="314" y="175" width="12" height="10" fill="#2c3e50"/>
+  <rect x="314" y="115" width="12" height="10" fill="#2c3e50"/>
+  <text x="365" y="150" font-size="9">longer zig-zag path</text>
+  <text x="330" y="205" font-size="9">Δt = γΔt' &gt; Δt'</text>
+
+  <text x="230" y="230" text-anchor="middle" font-size="12">Moving clock (as seen from S) runs slow: time dilation, γ = 1/√(1−v²/c²)</text>
+  <defs><marker id="axS" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#333"/></marker></defs>
+</svg>
