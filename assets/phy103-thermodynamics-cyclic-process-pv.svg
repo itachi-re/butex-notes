@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" font-family="Helvetica,Arial,sans-serif">
+  <rect width="600" height="420" fill="#ffffff"/>
+  <text x="300" y="26" text-anchor="middle" font-size="17" font-weight="bold">Cyclic Process: Net Work = Enclosed Area</text>
+
+  <line x1="80" y1="360" x2="540" y2="360" stroke="#000" stroke-width="1.5" marker-end="url(#a9)"/>
+  <line x1="80" y1="360" x2="80" y2="60" stroke="#000" stroke-width="1.5" marker-end="url(#a9)"/>
+  <text x="525" y="382" font-size="13">V</text>
+  <text x="45" y="70" font-size="13">P</text>
+
+  <!-- closed loop: upper curve (expansion) and lower curve (compression) -->
+  <path d="M160,300 Q300,150 440,220 Q320,320 160,300 Z" fill="#d6e9ff" stroke="#2255aa" stroke-width="2.5"/>
+
+  <!-- direction arrows: clockwise -->
+  <path d="M230,190 l14,-6 l-2,16 z" fill="#2255aa"/>
+  <path d="M400,260 l-10,12 l14,4 z" fill="#c0392b"/>
+
+  <text x="250" y="170" font-size="12" fill="#2255aa">Expansion (upper path, W &gt; 0)</text>
+  <text x="230" y="345" font-size="12" fill="#c0392b">Compression (lower path, W &lt; 0)</text>
+
+  <text x="270" y="245" font-size="14" font-weight="bold" fill="#123a70">Net W = enclosed area</text>
+
+  <text x="80" y="405" font-size="12" fill="#333">Clockwise cycle → net positive work done BY the gas (e.g. heat engine). Anticlockwise → net work done ON the gas.</text>
+
+  <defs>
+    <marker id="a9" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#000"/>
+    </marker>
+  </defs>
+</svg>
