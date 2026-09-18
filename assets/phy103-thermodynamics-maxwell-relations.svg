@@ -1,0 +1,28 @@
+<svg viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="600" height="600" fill="#ffffff"/>
+  <text x="300" y="30" font-size="18" font-weight="bold" text-anchor="middle" fill="#1a1a1a">Thermodynamic Square</text>
+  <text x="300" y="52" font-size="12.5" text-anchor="middle" fill="#444">(mnemonic for the four Maxwell relations)</text>
+
+  <!-- square -->
+  <rect x="150" y="150" width="300" height="300" fill="none" stroke="#333" stroke-width="2"/>
+
+  <!-- corner variables: natural variables at corners -->
+  <text x="150" y="140" font-size="17" font-weight="bold" text-anchor="middle" fill="#0d3c73">V</text>
+  <text x="450" y="140" font-size="17" font-weight="bold" text-anchor="middle" fill="#0d3c73">S</text>
+  <text x="150" y="470" font-size="17" font-weight="bold" text-anchor="middle" fill="#0d3c73">T</text>
+  <text x="450" y="470" font-size="17" font-weight="bold" text-anchor="middle" fill="#0d3c73">P</text>
+
+  <!-- side-midpoint potentials -->
+  <text x="300" y="145" font-size="16" font-weight="bold" text-anchor="middle" fill="#7a1913">U</text>
+  <text x="465" y="305" font-size="16" font-weight="bold" text-anchor="middle" fill="#7a1913">H</text>
+  <text x="300" y="470" font-size="16" font-weight="bold" text-anchor="middle" fill="#7a1913">G</text>
+  <text x="130" y="305" font-size="16" font-weight="bold" text-anchor="middle" fill="#7a1913">F</text>
+
+  <!-- diagonal arrows (top-left to bottom-right style reading) -->
+  <line x1="150" y1="150" x2="450" y2="450" stroke="#bbb" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="450" y1="150" x2="150" y2="450" stroke="#bbb" stroke-width="1" stroke-dasharray="3,3"/>
+
+  <text x="300" y="530" font-size="12.5" text-anchor="middle" fill="#333">Each potential sits between its two natural variables (corners).</text>
+  <text x="300" y="548" font-size="12.5" text-anchor="middle" fill="#333">Reading an edge gives a Maxwell relation, e.g. top edge (U, between V and S):</text>
+  <text x="300" y="570" font-size="12.5" text-anchor="middle" fill="#333">(∂T/∂V)_S = −(∂P/∂S)_V</text>
+</svg>
