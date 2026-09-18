@@ -1,0 +1,66 @@
+<svg viewBox="0 0 800 440" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="440" fill="#ffffff"/>
+  <text x="400" y="28" font-size="18" font-weight="bold" text-anchor="middle" fill="#1a1a1a">Why the Carnot Cycle Is (Ideally) Reversible</text>
+
+  <!-- Step 1: isothermal contact with infinitesimal dT -->
+  <g>
+    <rect x="30" y="55" width="170" height="150" rx="6" fill="#eef5ff" stroke="#1a5fb4" stroke-width="1.5"/>
+    <text x="115" y="78" font-size="12.5" font-weight="bold" text-anchor="middle" fill="#0d3c73">1. Isothermal steps</text>
+    <text x="115" y="100" font-size="11" text-anchor="middle" fill="#12345c">Gas at T, reservoir at</text>
+    <text x="115" y="115" font-size="11" text-anchor="middle" fill="#12345c">T ± dT (infinitesimal)</text>
+    <line x1="60" y1="140" x2="170" y2="140" stroke="#1a5fb4" stroke-width="2"/>
+    <text x="115" y="160" font-size="11" text-anchor="middle" fill="#12345c">heat flows with vanishing</text>
+    <text x="115" y="175" font-size="11" text-anchor="middle" fill="#12345c">temperature gradient</text>
+    <text x="115" y="192" font-size="11" text-anchor="middle" fill="#12345c">→ reversible heat transfer</text>
+  </g>
+
+  <!-- Step 2: quasistatic -->
+  <g>
+    <rect x="220" y="55" width="170" height="150" rx="6" fill="#eafbea" stroke="#1a7a1a" stroke-width="1.5"/>
+    <text x="305" y="78" font-size="12.5" font-weight="bold" text-anchor="middle" fill="#155415">2. Quasistatic motion</text>
+    <text x="305" y="100" font-size="11" text-anchor="middle" fill="#1c5c1c">Piston moves in infinitesimal</text>
+    <text x="305" y="115" font-size="11" text-anchor="middle" fill="#1c5c1c">steps; gas passes through</text>
+    <text x="305" y="130" font-size="11" text-anchor="middle" fill="#1c5c1c">a continuum of equilibrium</text>
+    <text x="305" y="145" font-size="11" text-anchor="middle" fill="#1c5c1c">states</text>
+    <text x="305" y="170" font-size="11" text-anchor="middle" fill="#1c5c1c">→ path can be exactly</text>
+    <text x="305" y="185" font-size="11" text-anchor="middle" fill="#1c5c1c">retraced by reversing dV</text>
+  </g>
+
+  <!-- Step 3: adiabatic, no heat exchange -->
+  <g>
+    <rect x="410" y="55" width="170" height="150" rx="6" fill="#fff6e0" stroke="#8a6d00" stroke-width="1.5"/>
+    <text x="495" y="78" font-size="12.5" font-weight="bold" text-anchor="middle" fill="#5c4a00">3. Adiabatic steps</text>
+    <text x="495" y="100" font-size="11" text-anchor="middle" fill="#6b5400">Perfectly insulated —</text>
+    <text x="495" y="115" font-size="11" text-anchor="middle" fill="#6b5400">δQ = 0, so no entropy</text>
+    <text x="495" y="130" font-size="11" text-anchor="middle" fill="#6b5400">is exchanged with</text>
+    <text x="495" y="145" font-size="11" text-anchor="middle" fill="#6b5400">surroundings</text>
+    <text x="495" y="170" font-size="11" text-anchor="middle" fill="#6b5400">→ isentropic, ΔS = 0</text>
+    <text x="495" y="185" font-size="11" text-anchor="middle" fill="#6b5400">for the step</text>
+  </g>
+
+  <!-- Step 4: no dissipation -->
+  <g>
+    <rect x="600" y="55" width="170" height="150" rx="6" fill="#fdeef0" stroke="#b3261e" stroke-width="1.5"/>
+    <text x="685" y="78" font-size="12.5" font-weight="bold" text-anchor="middle" fill="#7a1913">4. No dissipation</text>
+    <text x="685" y="100" font-size="11" text-anchor="middle" fill="#7a1913">No friction, no free</text>
+    <text x="685" y="115" font-size="11" text-anchor="middle" fill="#7a1913">expansion, no finite-ΔT</text>
+    <text x="685" y="130" font-size="11" text-anchor="middle" fill="#7a1913">heat flow anywhere</text>
+    <text x="685" y="155" font-size="11" text-anchor="middle" fill="#7a1913">→ ΔS_universe = 0</text>
+    <text x="685" y="170" font-size="11" text-anchor="middle" fill="#7a1913">for the complete cycle</text>
+  </g>
+
+  <line x1="200" y1="130" x2="220" y2="130" stroke="#333" stroke-width="2" marker-end="url(#axR)"/>
+  <line x1="390" y1="130" x2="410" y2="130" stroke="#333" stroke-width="2" marker-end="url(#axR)"/>
+  <line x1="580" y1="130" x2="600" y2="130" stroke="#333" stroke-width="2" marker-end="url(#axR)"/>
+
+  <text x="400" y="240" font-size="13.5" text-anchor="middle" fill="#333">Because every stage is a limiting sequence of equilibrium states with no dissipation,</text>
+  <text x="400" y="260" font-size="13.5" text-anchor="middle" fill="#333">the entire cycle can, in principle, be traversed in the reverse direction</text>
+  <text x="400" y="280" font-size="13.5" text-anchor="middle" fill="#333">restoring both the system and surroundings to their original states.</text>
+
+  <text x="400" y="330" font-size="13" text-anchor="middle" fill="#666">(Any real engine has finite ΔT, friction, or finite-rate heat transfer,</text>
+  <text x="400" y="350" font-size="13" text-anchor="middle" fill="#666">so it is only an idealized limiting case — no real engine is perfectly reversible.)</text>
+
+  <defs>
+    <marker id="axR" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#333"/></marker>
+  </defs>
+</svg>
