@@ -1,0 +1,35 @@
+<svg viewBox="0 0 900 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="900" height="380" fill="#ffffff"/>
+  <text x="450" y="30" font-size="19" font-weight="bold" text-anchor="middle" fill="#1a1a1a">First Law vs. Second Law of Thermodynamics</text>
+
+  <rect x="40" y="55" width="380" height="290" rx="8" fill="#eef5ff" stroke="#1a5fb4" stroke-width="2"/>
+  <text x="230" y="90" font-size="16" font-weight="bold" text-anchor="middle" fill="#0d3c73">First Law</text>
+  <text x="230" y="115" font-size="13" text-anchor="middle" fill="#0d3c73">ΔU = Q − W</text>
+  <text x="70" y="150" font-size="13" fill="#12345c">• Conservation of energy</text>
+  <text x="70" y="178" font-size="13" fill="#12345c">• Quantitative energy balance</text>
+  <text x="70" y="206" font-size="13" fill="#12345c">• Energy is neither created nor destroyed</text>
+  <text x="70" y="234" font-size="13" fill="#12345c">• Says nothing about direction —</text>
+  <text x="90" y="258" font-size="13" fill="#12345c">a process and its reverse are both</text>
+  <text x="90" y="282" font-size="13" fill="#12345c">allowed by the First Law alone</text>
+  <text x="70" y="316" font-size="13" fill="#12345c">• Does not forbid spontaneous heat</text>
+  <text x="90" y="336" font-size="13" fill="#12345c">flow from cold to hot</text>
+
+  <rect x="480" y="55" width="380" height="290" rx="8" fill="#fff3e6" stroke="#c46a00" stroke-width="2"/>
+  <text x="670" y="90" font-size="16" font-weight="bold" text-anchor="middle" fill="#7a4200">Second Law</text>
+  <text x="670" y="115" font-size="13" text-anchor="middle" fill="#7a4200">ΔS_universe ≥ 0</text>
+  <text x="510" y="150" font-size="13" fill="#5c3300">• Direction of spontaneous processes</text>
+  <text x="510" y="178" font-size="13" fill="#5c3300">• Introduces entropy S as a state function</text>
+  <text x="510" y="206" font-size="13" fill="#5c3300">• Limits how much heat can be</text>
+  <text x="530" y="230" font-size="13" fill="#5c3300">converted to work (η &lt; 1 for cycles)</text>
+  <text x="510" y="258" font-size="13" fill="#5c3300">• Distinguishes reversible from</text>
+  <text x="530" y="282" font-size="13" fill="#5c3300">irreversible processes</text>
+  <text x="510" y="310" font-size="13" fill="#5c3300">• Explains why some First-Law-allowed</text>
+  <text x="530" y="334" font-size="13" fill="#5c3300">processes never actually occur</text>
+
+  <line x1="420" y1="200" x2="480" y2="200" stroke="#333" stroke-width="2" marker-end="url(#axFS)"/>
+  <text x="450" y="190" font-size="11" text-anchor="middle" fill="#333">adds</text>
+
+  <defs>
+    <marker id="axFS" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#333"/></marker>
+  </defs>
+</svg>
