@@ -1,0 +1,59 @@
+<svg viewBox="0 0 700 520" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="700" height="520" fill="#ffffff"/>
+  <text x="350" y="28" font-size="18" font-weight="bold" text-anchor="middle" fill="#1a1a1a">Carnot Cycle — P–V Diagram</text>
+
+  <!-- axes -->
+  <line x1="90" y1="450" x2="90" y2="60" stroke="#333" stroke-width="2" marker-end="url(#axC)"/>
+  <line x1="90" y1="450" x2="620" y2="450" stroke="#333" stroke-width="2" marker-end="url(#axC)"/>
+  <text x="45" y="70" font-size="15" fill="#333">P (Pa)</text>
+  <text x="600" y="475" font-size="15" fill="#333">V (m³)</text>
+
+  <!-- shaded net-work area (enclosed loop) -->
+  <path d="M140,120 C 220,150 300,175 380,190
+           C 430,230 470,290 490,340
+           C 420,320 340,300 260,300
+           C 210,260 170,190 140,120 Z"
+        fill="#fff6dc" opacity="0.9"/>
+
+  <!-- A to B: isothermal expansion (T_H) -->
+  <path d="M140,120 C 220,150 300,175 380,190" fill="none" stroke="#b3261e" stroke-width="3"/>
+  <!-- B to C: adiabatic expansion -->
+  <path d="M380,190 C 430,230 470,290 490,340" fill="none" stroke="#1a7a1a" stroke-width="3"/>
+  <!-- C to D: isothermal compression (T_C) -->
+  <path d="M490,340 C 420,320 340,300 260,300" fill="none" stroke="#1a5fb4" stroke-width="3"/>
+  <!-- D to A: adiabatic compression -->
+  <path d="M260,300 C 210,260 170,190 140,120" fill="none" stroke="#1a7a1a" stroke-width="3" stroke-dasharray="7,5"/>
+
+  <!-- state points -->
+  <circle cx="140" cy="120" r="5" fill="#000"/>
+  <text x="115" y="105" font-size="15" font-weight="bold">A</text>
+  <circle cx="380" cy="190" r="5" fill="#000"/>
+  <text x="390" y="180" font-size="15" font-weight="bold">B</text>
+  <circle cx="490" cy="340" r="5" fill="#000"/>
+  <text x="500" y="335" font-size="15" font-weight="bold">C</text>
+  <circle cx="260" cy="300" r="5" fill="#000"/>
+  <text x="225" y="320" font-size="15" font-weight="bold">D</text>
+
+  <!-- direction arrows -->
+  <path d="M255,155 l14,-4 l-2,14 z" fill="#b3261e"/>
+  <path d="M445,255 l6,14 l-13,-6 z" fill="#1a7a1a"/>
+  <path d="M370,313 l-14,3 l4,-14 z" fill="#1a5fb4"/>
+  <path d="M195,235 l-3,-14 l13,7 z" fill="#1a7a1a"/>
+
+  <!-- legend -->
+  <line x1="450" y1="440" x2="480" y2="440" stroke="#b3261e" stroke-width="3"/>
+  <text x="486" y="444" font-size="12">A→B isothermal expansion (T_H)</text>
+  <line x1="450" y1="460" x2="480" y2="460" stroke="#1a7a1a" stroke-width="3"/>
+  <text x="486" y="464" font-size="12">B→C adiabatic expansion (T_H→T_C)</text>
+
+  <line x1="140" y1="480" x2="170" y2="480" stroke="#1a5fb4" stroke-width="3"/>
+  <text x="176" y="484" font-size="12">C→D isothermal compression (T_C)</text>
+  <line x1="140" y1="500" x2="170" y2="500" stroke="#1a7a1a" stroke-width="3" stroke-dasharray="7,5"/>
+  <text x="176" y="504" font-size="12">D→A adiabatic compression (T_C→T_H)</text>
+
+  <text x="300" y="220" font-size="12.5" fill="#5c4a00">shaded area = net work W = Q_H − Q_C</text>
+
+  <defs>
+    <marker id="axC" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#333"/></marker>
+  </defs>
+</svg>
