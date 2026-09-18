@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 380" font-family="Helvetica,Arial,sans-serif">
+  <rect width="560" height="380" fill="#ffffff"/>
+  <text x="280" y="26" text-anchor="middle" font-size="17" font-weight="bold">Internal Energy U vs Temperature T (Ideal Gas)</text>
+
+  <line x1="70" y1="330" x2="510" y2="330" stroke="#000" stroke-width="1.5" marker-end="url(#a3)"/>
+  <line x1="70" y1="330" x2="70" y2="50" stroke="#000" stroke-width="1.5" marker-end="url(#a3)"/>
+  <text x="495" y="352" font-size="13">T (K)</text>
+  <text x="30" y="60" font-size="13">U (J)</text>
+
+  <!-- monatomic line: U = (3/2) n R T -->
+  <line x1="70" y1="330" x2="470" y2="90" stroke="#2255aa" stroke-width="2.5"/>
+  <text x="330" y="150" font-size="12" fill="#2255aa">Monatomic: U = (3/2) nRT</text>
+
+  <!-- diatomic line: U = (5/2) n R T (steeper) -->
+  <line x1="70" y1="330" x2="330" y2="70" stroke="#c0392b" stroke-width="2.5"/>
+  <text x="150" y="140" font-size="12" fill="#c0392b">Diatomic: U = (5/2) nRT</text>
+
+  <text x="70" y="0" font-size="1"> </text>
+  <text x="80" y="345" font-size="10">0</text>
+
+  <text x="70" y="370" font-size="12" fill="#333">U is a straight line through the origin: U depends only on T, not on P or V, for an ideal gas.</text>
+
+  <defs>
+    <marker id="a3" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#000"/>
+    </marker>
+  </defs>
+</svg>
