@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" font-family="Helvetica,Arial,sans-serif">
+  <rect width="480" height="360" fill="#ffffff"/>
+  <text x="240" y="24" text-anchor="middle" font-size="16" font-weight="bold">Isobaric Process (P = const)</text>
+  <line x1="70" y1="310" x2="440" y2="310" stroke="#000" stroke-width="1.5" marker-end="url(#a)"/>
+  <line x1="70" y1="310" x2="70" y2="50" stroke="#000" stroke-width="1.5" marker-end="url(#a)"/>
+  <text x="425" y="330" font-size="12">V</text>
+  <text x="40" y="58" font-size="12">P</text>
+  <line x1="110" y1="150" x2="400" y2="150" stroke="#1e8449" stroke-width="3"/>
+  <rect x="110" y="150" width="290" height="160" fill="#d6f0dc" opacity="0.5"/>
+  <text x="220" y="140" font-size="12" fill="#1e8449">Horizontal line, area = W</text>
+  <text x="70" y="345" font-size="11" fill="#333">Equation: V/T = const  |  W = P(V₂−V₁)  |  Q = n Cₚ ΔT</text>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#000"/></marker></defs>
+</svg>
