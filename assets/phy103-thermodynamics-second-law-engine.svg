@@ -1,0 +1,67 @@
+<svg viewBox="0 0 900 480" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="900" height="480" fill="#ffffff"/>
+  <text x="225" y="30" font-size="18" font-weight="bold" text-anchor="middle" fill="#1a1a1a">Heat Engine (energy flow)</text>
+  <text x="675" y="30" font-size="18" font-weight="bold" text-anchor="middle" fill="#1a1a1a">Refrigerator / Heat Pump (energy flow)</text>
+
+  <!-- LEFT: Heat Engine -->
+  <g>
+    <rect x="80" y="60" width="290" height="45" rx="4" fill="#fde2e2" stroke="#b3261e" stroke-width="1.5"/>
+    <text x="225" y="88" font-size="15" text-anchor="middle" fill="#7a1913">Hot Reservoir  T_H</text>
+
+    <rect x="80" y="360" width="290" height="45" rx="4" fill="#dceafb" stroke="#1a5fb4" stroke-width="1.5"/>
+    <text x="225" y="388" font-size="15" text-anchor="middle" fill="#0d3c73">Cold Reservoir  T_C</text>
+
+    <circle cx="225" cy="235" r="65" fill="#fff6dc" stroke="#8a6d00" stroke-width="2"/>
+    <text x="225" y="230" font-size="16" font-weight="bold" text-anchor="middle" fill="#5c4a00">Heat</text>
+    <text x="225" y="248" font-size="16" font-weight="bold" text-anchor="middle" fill="#5c4a00">Engine</text>
+
+    <!-- Q_H arrow down -->
+    <line x1="225" y1="105" x2="225" y2="168" stroke="#b3261e" stroke-width="3" marker-end="url(#arrowRed)"/>
+    <text x="245" y="140" font-size="15" fill="#b3261e">Q_H</text>
+
+    <!-- Q_C arrow down -->
+    <line x1="225" y1="300" x2="225" y2="358" stroke="#1a5fb4" stroke-width="3" marker-end="url(#arrowBlue)"/>
+    <text x="245" y="335" font-size="15" fill="#1a5fb4">Q_C</text>
+
+    <!-- W arrow out -->
+    <line x1="290" y1="235" x2="360" y2="235" stroke="#1a7a1a" stroke-width="3" marker-end="url(#arrowGreen)"/>
+    <text x="370" y="240" font-size="15" fill="#1a7a1a">W</text>
+
+    <text x="225" y="440" font-size="13" text-anchor="middle" fill="#333">Energy balance:  Q_H = W + Q_C</text>
+    <text x="225" y="460" font-size="13" text-anchor="middle" fill="#333">Net work is extracted only because heat is rejected to a colder sink.</text>
+  </g>
+
+  <!-- RIGHT: Refrigerator / Heat pump -->
+  <g>
+    <rect x="530" y="60" width="290" height="45" rx="4" fill="#fde2e2" stroke="#b3261e" stroke-width="1.5"/>
+    <text x="675" y="88" font-size="15" text-anchor="middle" fill="#7a1913">Hot Reservoir  T_H</text>
+
+    <rect x="530" y="360" width="290" height="45" rx="4" fill="#dceafb" stroke="#1a5fb4" stroke-width="1.5"/>
+    <text x="675" y="388" font-size="15" text-anchor="middle" fill="#0d3c73">Cold Reservoir  T_C</text>
+
+    <circle cx="675" cy="235" r="65" fill="#eaf7ea" stroke="#1a7a1a" stroke-width="2"/>
+    <text x="675" y="230" font-size="15" font-weight="bold" text-anchor="middle" fill="#155415">Refrigerator</text>
+    <text x="675" y="248" font-size="15" font-weight="bold" text-anchor="middle" fill="#155415">/ Heat Pump</text>
+
+    <!-- Q_H arrow up (rejected to hot) -->
+    <line x1="675" y1="168" x2="675" y2="105" stroke="#b3261e" stroke-width="3" marker-end="url(#arrowRed)"/>
+    <text x="695" y="140" font-size="15" fill="#b3261e">Q_H</text>
+
+    <!-- Q_C arrow up (absorbed from cold) -->
+    <line x1="675" y1="358" x2="675" y2="300" stroke="#1a5fb4" stroke-width="3" marker-end="url(#arrowBlue)"/>
+    <text x="695" y="335" font-size="15" fill="#1a5fb4">Q_C</text>
+
+    <!-- W arrow in -->
+    <line x1="820" y1="235" x2="750" y2="235" stroke="#1a7a1a" stroke-width="3" marker-end="url(#arrowGreen)"/>
+    <text x="825" y="240" font-size="15" fill="#1a7a1a">W (input)</text>
+
+    <text x="675" y="440" font-size="13" text-anchor="middle" fill="#333">Energy balance:  Q_H = Q_C + W</text>
+    <text x="675" y="460" font-size="13" text-anchor="middle" fill="#333">Work must be supplied to move heat from cold to hot.</text>
+  </g>
+
+  <defs>
+    <marker id="arrowRed" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#b3261e"/></marker>
+    <marker id="arrowBlue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#1a5fb4"/></marker>
+    <marker id="arrowGreen" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#1a7a1a"/></marker>
+  </defs>
+</svg>
