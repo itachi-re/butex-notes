@@ -1,0 +1,36 @@
+<svg viewBox="0 0 800 480" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="480" fill="#ffffff"/>
+  <text x="400" y="28" font-size="18" font-weight="bold" text-anchor="middle" fill="#1a1a1a">Carnot's Theorem</text>
+  <text x="400" y="50" font-size="13" text-anchor="middle" fill="#444">Same two reservoirs, T_H and T_C, compared</text>
+
+  <!-- shared reservoirs -->
+  <rect x="50" y="70" width="700" height="40" rx="4" fill="#fde2e2" stroke="#b3261e" stroke-width="1.5"/>
+  <text x="400" y="96" font-size="14" text-anchor="middle" fill="#7a1913">Hot Reservoir  T_H</text>
+  <rect x="50" y="390" width="700" height="40" rx="4" fill="#dceafb" stroke="#1a5fb4" stroke-width="1.5"/>
+  <text x="400" y="416" font-size="14" text-anchor="middle" fill="#0d3c73">Cold Reservoir  T_C</text>
+
+  <!-- Reversible engine R -->
+  <circle cx="230" cy="250" r="75" fill="#eafbea" stroke="#1a7a1a" stroke-width="2.5"/>
+  <text x="230" y="245" font-size="15" font-weight="bold" text-anchor="middle" fill="#155415">Reversible</text>
+  <text x="230" y="263" font-size="15" font-weight="bold" text-anchor="middle" fill="#155415">Engine R</text>
+  <text x="230" y="345" font-size="13" text-anchor="middle" fill="#1c5c1c">η_R = 1 − T_C/T_H</text>
+
+  <!-- Irreversible engine I -->
+  <circle cx="570" cy="250" r="75" fill="#fdeef0" stroke="#b3261e" stroke-width="2.5"/>
+  <text x="570" y="245" font-size="15" font-weight="bold" text-anchor="middle" fill="#7a1913">Irreversible</text>
+  <text x="570" y="263" font-size="15" font-weight="bold" text-anchor="middle" fill="#7a1913">Engine I</text>
+  <text x="570" y="345" font-size="13" text-anchor="middle" fill="#7a1913">η_I &lt; η_R  (always)</text>
+
+  <line x1="230" y1="110" x2="230" y2="175" stroke="#333" stroke-width="2" marker-end="url(#axT)"/>
+  <line x1="230" y1="325" x2="230" y2="388" stroke="#333" stroke-width="2" marker-end="url(#axT)"/>
+  <line x1="570" y1="110" x2="570" y2="175" stroke="#333" stroke-width="2" marker-end="url(#axT)"/>
+  <line x1="570" y1="325" x2="570" y2="388" stroke="#333" stroke-width="2" marker-end="url(#axT)"/>
+
+  <text x="400" y="200" font-size="30" text-anchor="middle" fill="#999">≥</text>
+
+  <text x="400" y="455" font-size="13" text-anchor="middle" fill="#333">No engine operating between T_H and T_C can exceed η_R; all reversible engines between the same reservoirs share the same η_R.</text>
+
+  <defs>
+    <marker id="axT" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#333"/></marker>
+  </defs>
+</svg>
