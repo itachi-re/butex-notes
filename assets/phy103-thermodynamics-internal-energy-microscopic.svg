@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" font-family="Helvetica,Arial,sans-serif">
+  <rect width="640" height="380" fill="#ffffff"/>
+  <text x="320" y="26" text-anchor="middle" font-size="18" font-weight="bold">Microscopic Origin of Internal Energy U</text>
+
+  <rect x="60" y="50" width="520" height="250" fill="#f7f9fc" stroke="#333" stroke-width="1.5"/>
+
+  <!-- molecules with velocity vectors (translational KE) -->
+  <circle cx="140" cy="120" r="10" fill="#2255aa"/>
+  <line x1="140" y1="120" x2="175" y2="100" stroke="#2255aa" stroke-width="2" marker-end="url(#a2)"/>
+  <circle cx="230" cy="170" r="10" fill="#2255aa"/>
+  <line x1="230" y1="170" x2="200" y2="200" stroke="#2255aa" stroke-width="2" marker-end="url(#a2)"/>
+  <circle cx="330" cy="110" r="10" fill="#2255aa"/>
+  <line x1="330" y1="110" x2="360" y2="140" stroke="#2255aa" stroke-width="2" marker-end="url(#a2)"/>
+  <text x="140" y="245" font-size="12" fill="#2255aa">Translational KE (all gases)</text>
+
+  <!-- rotating diatomic molecule -->
+  <ellipse cx="450" cy="120" rx="10" ry="10" fill="#c0392b"/>
+  <ellipse cx="480" cy="120" rx="10" ry="10" fill="#c0392b"/>
+  <line x1="450" y1="120" x2="480" y2="120" stroke="#c0392b" stroke-width="3"/>
+  <path d="M440,100 A25,25 0 1 1 440,140" fill="none" stroke="#c0392b" stroke-width="1.5" marker-end="url(#a2)"/>
+  <text x="415" y="245" font-size="12" fill="#c0392b">Rotational KE (diatomic/polyatomic)</text>
+
+  <!-- vibrating spring between two atoms -->
+  <circle cx="140" cy="250" r="0" fill="none"/>
+  <g transform="translate(120,255)">
+    <circle cx="0" cy="0" r="9" fill="#1e8449"/>
+    <path d="M9,0 q10,-15 20,0 q10,15 20,0 q10,-15 20,0" fill="none" stroke="#1e8449" stroke-width="2"/>
+    <circle cx="69" cy="0" r="9" fill="#1e8449"/>
+  </g>
+  <text x="120" y="285" font-size="12" fill="#1e8449">Vibrational KE + PE (polyatomic, high T)</text>
+
+  <!-- intermolecular PE -->
+  <text x="400" y="270" font-size="12" fill="#663300">+ Intermolecular potential energy</text>
+  <text x="400" y="286" font-size="12" fill="#663300">(negligible for ideal gas, significant for real gas/liquid)</text>
+
+  <text x="60" y="330" font-size="13" font-weight="bold">U = Σ (translational + rotational + vibrational KE) + (intermolecular PE)</text>
+  <text x="60" y="352" font-size="12" fill="#333">For an IDEAL gas: intermolecular PE = 0, so U depends on T only, U = U(T).</text>
+
+  <defs>
+    <marker id="a2" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#333"/>
+    </marker>
+  </defs>
+</svg>
