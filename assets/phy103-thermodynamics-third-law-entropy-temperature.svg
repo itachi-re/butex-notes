@@ -1,0 +1,29 @@
+<svg viewBox="0 0 800 460" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="460" fill="#ffffff"/>
+  <text x="400" y="28" font-size="18" font-weight="bold" text-anchor="middle" fill="#1a1a1a">Entropy Approaching Absolute Zero (Third Law)</text>
+
+  <line x1="90" y1="380" x2="90" y2="70" stroke="#333" stroke-width="2" marker-end="url(#ax3)"/>
+  <line x1="90" y1="380" x2="620" y2="380" stroke="#333" stroke-width="2" marker-end="url(#ax3)"/>
+  <text x="45" y="80" font-size="14" fill="#333">S</text>
+  <text x="600" y="405" font-size="14" fill="#333">T (K)</text>
+  <text x="85" y="400" font-size="13" fill="#333">0</text>
+
+  <!-- perfect crystal: S -> 0 as T -> 0 -->
+  <path d="M90,378 C 150,370 220,330 300,260 C 380,200 460,150 560,110" fill="none" stroke="#1a5fb4" stroke-width="3"/>
+  <text x="440" y="150" font-size="12.5" fill="#1a5fb4">perfect crystalline solid: S → 0 as T → 0</text>
+
+  <!-- imperfect / glassy: finite residual entropy -->
+  <path d="M90,300 C 160,295 230,270 300,235 C 390,190 470,150 560,120" fill="none" stroke="#b3261e" stroke-width="3" stroke-dasharray="7,5"/>
+  <text x="130" y="292" font-size="12.5" fill="#b3261e">disordered / glassy solid: S₀ &gt; 0 (residual entropy)</text>
+
+  <circle cx="90" cy="378" r="5" fill="#1a5fb4"/>
+  <circle cx="90" cy="300" r="5" fill="#b3261e"/>
+  <line x1="90" y1="380" x2="90" y2="298" stroke="#b3261e" stroke-width="1.2" stroke-dasharray="2,3"/>
+  <text x="100" y="345" font-size="11" fill="#7a1913">S₀ (frozen-in disorder)</text>
+
+  <text x="400" y="430" font-size="13" text-anchor="middle" fill="#333">Third Law: for a perfect crystal, S → 0 as T → 0 K. Real disordered systems can retain finite residual entropy.</text>
+
+  <defs>
+    <marker id="ax3" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#333"/></marker>
+  </defs>
+</svg>
