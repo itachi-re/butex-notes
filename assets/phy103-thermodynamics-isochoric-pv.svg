@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" font-family="Helvetica,Arial,sans-serif">
+  <rect width="480" height="360" fill="#ffffff"/>
+  <text x="240" y="24" text-anchor="middle" font-size="16" font-weight="bold">Isochoric Process (V = const)</text>
+  <line x1="70" y1="310" x2="440" y2="310" stroke="#000" stroke-width="1.5" marker-end="url(#a)"/>
+  <line x1="70" y1="310" x2="70" y2="50" stroke="#000" stroke-width="1.5" marker-end="url(#a)"/>
+  <text x="425" y="330" font-size="12">V</text>
+  <text x="40" y="58" font-size="12">P</text>
+  <line x1="230" y1="290" x2="230" y2="90" stroke="#8e44ad" stroke-width="3"/>
+  <text x="240" y="100" font-size="12" fill="#8e44ad">Vertical line, W = 0</text>
+  <text x="70" y="345" font-size="11" fill="#333">Equation: P/T = const  |  W = 0  |  Q = n Cᵥ ΔT = ΔU</text>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#000"/></marker></defs>
+</svg>
