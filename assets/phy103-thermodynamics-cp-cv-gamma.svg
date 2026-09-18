@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" font-family="Helvetica,Arial,sans-serif">
+  <rect width="600" height="380" fill="#ffffff"/>
+  <text x="300" y="26" text-anchor="middle" font-size="17" font-weight="bold">Cᵥ vs Cₚ: Why Cₚ &gt; Cᵥ</text>
+
+  <!-- Constant volume heating panel -->
+  <g>
+    <rect x="60" y="70" width="180" height="150" fill="#eef3ff" stroke="#2255aa" stroke-width="2"/>
+    <text x="150" y="60" text-anchor="middle" font-size="13" font-weight="bold">Constant Volume</text>
+    <rect x="90" y="100" width="120" height="90" fill="none" stroke="#333" stroke-width="2"/>
+    <line x1="90" y1="100" x2="210" y2="100" stroke="#333" stroke-width="4"/>
+    <text x="150" y="230" text-anchor="middle" font-size="12">All heat → ΔU only</text>
+    <text x="150" y="246" text-anchor="middle" font-size="12" font-weight="bold">Q = n Cᵥ ΔT</text>
+  </g>
+
+  <!-- Constant pressure heating panel -->
+  <g>
+    <rect x="360" y="70" width="180" height="150" fill="#fff7e6" stroke="#cc7a00" stroke-width="2"/>
+    <text x="450" y="60" text-anchor="middle" font-size="13" font-weight="bold">Constant Pressure</text>
+    <rect x="390" y="110" width="120" height="80" fill="none" stroke="#333" stroke-width="2"/>
+    <line x1="390" y1="90" x2="510" y2="90" stroke="#333" stroke-width="4"/>
+    <line x1="450" y1="70" x2="450" y2="55" stroke="#1e8449" stroke-width="2" marker-end="url(#a10)"/>
+    <text x="450" y="230" text-anchor="middle" font-size="12">Heat → ΔU AND expansion work</text>
+    <text x="450" y="246" text-anchor="middle" font-size="12" font-weight="bold">Q = n Cₚ ΔT</text>
+  </g>
+
+  <text x="300" y="290" text-anchor="middle" font-size="15" font-weight="bold" fill="#123a70">Cₚ − Cᵥ = R   (ideal gas, Mayer's relation)</text>
+  <text x="300" y="315" text-anchor="middle" font-size="14" fill="#333">γ = Cₚ / Cᵥ  (γ &gt; 1 always)</text>
+  <text x="300" y="340" text-anchor="middle" font-size="12" fill="#555">At constant pressure, extra heat is needed to also do work against the surroundings.</text>
+
+  <defs>
+    <marker id="a10" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#1e8449"/>
+    </marker>
+  </defs>
+</svg>
