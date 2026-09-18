@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 380" font-family="Helvetica,Arial,sans-serif">
+  <rect width="700" height="380" fill="#ffffff"/>
+  <text x="350" y="26" text-anchor="middle" font-size="17" font-weight="bold">Expansion (W &gt; 0) vs Compression (W &lt; 0)</text>
+
+  <!-- Expansion panel -->
+  <g>
+    <line x1="60" y1="320" x2="320" y2="320" stroke="#000" stroke-width="1.5" marker-end="url(#a6)"/>
+    <line x1="60" y1="320" x2="60" y2="70" stroke="#000" stroke-width="1.5" marker-end="url(#a6)"/>
+    <text x="300" y="340" font-size="12">V</text>
+    <text x="30" y="80" font-size="12">P</text>
+    <path d="M100,280 Q190,150 270,180 L270,320 L100,320 Z" fill="#cfe3ff"/>
+    <path d="M100,280 Q190,150 270,180" fill="none" stroke="#2255aa" stroke-width="2.5"/>
+    <line x1="90" y1="280" x2="130" y2="280" stroke="#2255aa" stroke-width="2" marker-end="url(#a6)" transform="translate(0,-2)"/>
+    <text x="130" y="345" font-size="12" fill="#2255aa" font-weight="bold">EXPANSION: V₂ &gt; V₁ → W &gt; 0 (by gas)</text>
+  </g>
+
+  <!-- Compression panel -->
+  <g>
+    <line x1="400" y1="320" x2="660" y2="320" stroke="#000" stroke-width="1.5" marker-end="url(#a6)"/>
+    <line x1="400" y1="320" x2="400" y2="70" stroke="#000" stroke-width="1.5" marker-end="url(#a6)"/>
+    <text x="640" y="340" font-size="12">V</text>
+    <text x="370" y="80" font-size="12">P</text>
+    <path d="M440,180 Q530,150 610,280 L610,320 L440,320 Z" fill="#ffd9d9"/>
+    <path d="M440,180 Q530,150 610,280" fill="none" stroke="#c0392b" stroke-width="2.5"/>
+    <text x="440" y="345" font-size="12" fill="#c0392b" font-weight="bold">COMPRESSION: V₂ &lt; V₁ → W &lt; 0 (by gas)</text>
+  </g>
+
+  <defs>
+    <marker id="a6" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#000"/>
+    </marker>
+  </defs>
+</svg>
