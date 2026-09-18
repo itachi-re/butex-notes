@@ -1,0 +1,41 @@
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="700" height="460" fill="#ffffff"/>
+  <text x="350" y="28" font-size="18" font-weight="bold" text-anchor="middle" fill="#1a1a1a">Carnot Cycle — T–S Diagram</text>
+
+  <line x1="110" y1="400" x2="110" y2="60" stroke="#333" stroke-width="2" marker-end="url(#axTS)"/>
+  <line x1="110" y1="400" x2="600" y2="400" stroke="#333" stroke-width="2" marker-end="url(#axTS)"/>
+  <text x="65" y="70" font-size="15" fill="#333">T (K)</text>
+  <text x="580" y="425" font-size="15" fill="#333">S (J/K)</text>
+
+  <!-- T_H and T_C horizontal reference lines -->
+  <line x1="110" y1="140" x2="480" y2="140" stroke="#999" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="60" y="144" font-size="13" fill="#333">T_H</text>
+  <line x1="110" y1="320" x2="480" y2="320" stroke="#999" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="60" y="324" font-size="13" fill="#333">T_C</text>
+
+  <!-- rectangle A-B-C-D -->
+  <rect x="200" y="140" width="280" height="180" fill="#fff6dc" opacity="0.85" stroke="none"/>
+  <line x1="200" y1="140" x2="480" y2="140" stroke="#b3261e" stroke-width="3"/>
+  <line x1="480" y1="140" x2="480" y2="320" stroke="#1a7a1a" stroke-width="3"/>
+  <line x1="480" y1="320" x2="200" y2="320" stroke="#1a5fb4" stroke-width="3"/>
+  <line x1="200" y1="320" x2="200" y2="140" stroke="#1a7a1a" stroke-width="3" stroke-dasharray="7,5"/>
+
+  <circle cx="200" cy="140" r="5" fill="#000"/><text x="175" y="128" font-size="15" font-weight="bold">A</text>
+  <circle cx="480" cy="140" r="5" fill="#000"/><text x="490" y="128" font-size="15" font-weight="bold">B</text>
+  <circle cx="480" cy="320" r="5" fill="#000"/><text x="490" y="340" font-size="15" font-weight="bold">C</text>
+  <circle cx="200" cy="320" r="5" fill="#000"/><text x="165" y="340" font-size="15" font-weight="bold">D</text>
+
+  <line x1="200" y1="400" x2="200" y2="392" stroke="#333"/>
+  <text x="192" y="416" font-size="12">S₁</text>
+  <line x1="480" y1="400" x2="480" y2="392" stroke="#333"/>
+  <text x="472" y="416" font-size="12">S₂</text>
+
+  <text x="340" y="230" font-size="13" text-anchor="middle" fill="#5c4a00">area A-B-C-D = net work W</text>
+  <text x="340" y="250" font-size="12" text-anchor="middle" fill="#5c4a00">= (T_H − T_C)(S₂ − S₁)</text>
+
+  <text x="120" y="440" font-size="12.5" fill="#333">A→B and C→D are isotherms (horizontal); B→C and D→A are reversible adiabats (vertical, ΔS = 0).</text>
+
+  <defs>
+    <marker id="axTS" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#333"/></marker>
+  </defs>
+</svg>
