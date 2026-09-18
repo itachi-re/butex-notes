@@ -1,0 +1,31 @@
+<svg viewBox="0 0 600 420" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="600" height="420" fill="#ffffff"/>
+  <text x="300" y="28" font-size="18" font-weight="bold" text-anchor="middle" fill="#1a1a1a">Carnot Engine — Schematic</text>
+
+  <rect x="150" y="55" width="300" height="45" rx="4" fill="#fde2e2" stroke="#b3261e" stroke-width="1.5"/>
+  <text x="300" y="83" font-size="15" text-anchor="middle" fill="#7a1913">Hot Reservoir at T_H</text>
+
+  <rect x="150" y="330" width="300" height="45" rx="4" fill="#dceafb" stroke="#1a5fb4" stroke-width="1.5"/>
+  <text x="300" y="358" font-size="15" text-anchor="middle" fill="#0d3c73">Cold Reservoir at T_C</text>
+
+  <circle cx="300" cy="215" r="70" fill="#fff6dc" stroke="#8a6d00" stroke-width="2"/>
+  <text x="300" y="210" font-size="16" font-weight="bold" text-anchor="middle" fill="#5c4a00">Carnot</text>
+  <text x="300" y="228" font-size="16" font-weight="bold" text-anchor="middle" fill="#5c4a00">Engine</text>
+
+  <line x1="300" y1="100" x2="300" y2="145" stroke="#b3261e" stroke-width="3" marker-end="url(#arRedA)"/>
+  <text x="315" y="125" font-size="14" fill="#b3261e">Q_H</text>
+
+  <line x1="300" y1="285" x2="300" y2="328" stroke="#1a5fb4" stroke-width="3" marker-end="url(#arBlueA)"/>
+  <text x="315" y="312" font-size="14" fill="#1a5fb4">Q_C</text>
+
+  <line x1="370" y1="215" x2="450" y2="215" stroke="#1a7a1a" stroke-width="3" marker-end="url(#arGreenA)"/>
+  <text x="460" y="220" font-size="14" fill="#1a7a1a">W = Q_H − Q_C</text>
+
+  <text x="300" y="405" font-size="13" text-anchor="middle" fill="#333">All four steps quasistatic and reversible: η_Carnot = 1 − T_C/T_H</text>
+
+  <defs>
+    <marker id="arRedA" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#b3261e"/></marker>
+    <marker id="arBlueA" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#1a5fb4"/></marker>
+    <marker id="arGreenA" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#1a7a1a"/></marker>
+  </defs>
+</svg>
