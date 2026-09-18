@@ -28,9 +28,9 @@ graph LR
     Triethylamine
     (CH3-CH2)3N
     SMILES: CCN(CC)CC"]
-    style A fill:#dff,stroke:#333
-    style B fill:#fdf,stroke:#333
-    style C fill:#ffd,stroke:#333
+    style A fill:#1b4965,stroke:#e0e0e0,color:#ffffff
+    style B fill:#6a1b9a,stroke:#e0e0e0,color:#ffffff
+    style C fill:#b45309,stroke:#e0e0e0,color:#ffffff
 ```
 
 - N in 1°/2° amines bears 1–2 H atoms → can H-bond (N–H); 3° amines cannot donate H-bonds.
