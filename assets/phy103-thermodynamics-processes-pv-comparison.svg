@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 460" font-family="Helvetica,Arial,sans-serif">
+  <rect width="640" height="460" fill="#ffffff"/>
+  <text x="320" y="26" text-anchor="middle" font-size="17" font-weight="bold">Thermodynamic Processes on a P-V Diagram</text>
+
+  <line x1="90" y1="400" x2="580" y2="400" stroke="#000" stroke-width="1.5" marker-end="url(#a8)"/>
+  <line x1="90" y1="400" x2="90" y2="60" stroke="#000" stroke-width="1.5" marker-end="url(#a8)"/>
+  <text x="565" y="422" font-size="13">V</text>
+  <text x="55" y="70" font-size="13">P</text>
+
+  <!-- common starting point -->
+  <circle cx="230" cy="260" r="5" fill="#000"/>
+  <text x="200" y="245" font-size="12" font-weight="bold">Initial state</text>
+
+  <!-- isochoric: vertical line up (pressure increases at const V) -->
+  <line x1="230" y1="260" x2="230" y2="120" stroke="#8e44ad" stroke-width="2.5"/>
+  <text x="235" y="130" font-size="12" fill="#8e44ad">Isochoric (V=const)</text>
+
+  <!-- isobaric: horizontal line right (volume increases at const P) -->
+  <line x1="230" y1="260" x2="480" y2="260" stroke="#1e8449" stroke-width="2.5"/>
+  <text x="420" y="250" font-size="12" fill="#1e8449">Isobaric (P=const)</text>
+
+  <!-- isothermal: PV = const, hyperbola -->
+  <path d="M230,260 C300,235 400,205 500,190" fill="none" stroke="#2255aa" stroke-width="2.5"/>
+  <text x="420" y="180" font-size="12" fill="#2255aa">Isothermal (T=const), PV=const</text>
+
+  <!-- adiabatic: steeper than isothermal, PV^gamma = const -->
+  <path d="M230,260 C280,215 350,160 420,120" fill="none" stroke="#c0392b" stroke-width="2.5"/>
+  <text x="360" y="110" font-size="12" fill="#c0392b">Adiabatic (Q=0), steeper than isothermal</text>
+
+  <text x="90" y="435" font-size="11" fill="#333">Note: for expansion, the adiabatic curve is always steeper than the isothermal curve because γ &gt; 1.</text>
+
+  <defs>
+    <marker id="a8" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#000"/>
+    </marker>
+  </defs>
+</svg>
