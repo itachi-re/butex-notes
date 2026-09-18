@@ -1,0 +1,31 @@
+<svg viewBox="0 0 900 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="900" height="400" fill="#ffffff"/>
+  <text x="450" y="30" font-size="18" font-weight="bold" text-anchor="middle" fill="#1a1a1a">Heat Engine Efficiency — Energy Flow</text>
+
+  <rect x="60" y="140" width="150" height="120" fill="#fde2e2" stroke="#b3261e" stroke-width="1.5"/>
+  <text x="135" y="205" font-size="14" text-anchor="middle" fill="#7a1913">Source T_H</text>
+
+  <polygon points="210,150 210,250 420,290 420,110" fill="#fff6dc" stroke="#8a6d00" stroke-width="1.5"/>
+  <text x="310" y="175" font-size="15" font-weight="bold" text-anchor="middle" fill="#5c4a00">Heat</text>
+  <text x="310" y="195" font-size="15" font-weight="bold" text-anchor="middle" fill="#5c4a00">Engine</text>
+
+  <!-- Q_H band -->
+  <polygon points="210,150 210,220 60,220 60,150" fill="none"/>
+  <text x="90" y="140" font-size="13" fill="#7a1913">Q_H (100%)</text>
+
+  <!-- work band (upper, thinner - goes up-right) -->
+  <polygon points="420,140 420,180 640,140 640,120" fill="#eaf7ea" stroke="#1a7a1a" stroke-width="1.2"/>
+  <text x="660" y="140" font-size="14" fill="#1a7a1a">W  (useful work, η·Q_H)</text>
+
+  <!-- rejected heat band (lower, thicker - goes down to sink) -->
+  <polygon points="420,220 420,280 640,320 640,240" fill="#dceafb" stroke="#1a5fb4" stroke-width="1.2"/>
+  <text x="660" y="300" font-size="14" fill="#1a5fb4">Q_C  (rejected, (1−η)·Q_H)</text>
+
+  <rect x="640" y="330" width="200" height="45" fill="#dceafb" stroke="#1a5fb4" stroke-width="1.5"/>
+  <text x="740" y="358" font-size="13" text-anchor="middle" fill="#0d3c73">Sink T_C</text>
+
+  <rect x="640" y="95" width="200" height="45" fill="#eaf7ea" stroke="#1a7a1a" stroke-width="1.5"/>
+  <text x="740" y="123" font-size="13" text-anchor="middle" fill="#155415">Useful Work Output</text>
+
+  <text x="450" y="385" font-size="13" text-anchor="middle" fill="#333">η = W / Q_H = 1 − Q_C / Q_H   (width of each band ∝ energy quantity)</text>
+</svg>
