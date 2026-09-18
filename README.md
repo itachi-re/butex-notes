@@ -37,7 +37,7 @@ This repository contains comprehensive course notes from my journey through the 
 | **[CHEM-103](https://github.com/itachi-re/butex-notes/tree/master/CHEM-103)** | Organic Chemistry — Reactions & Mechanisms | 🟢 Active | Inductive/Electromeric/Mesomeric Effects, Carbonium Ions, Carbanions, SN1/SN2/E1/E2, Addition Reactions, Organometallics (Grignard, Organozinc, TEL), Alcohols, Phenols, Carboxylic Acid Derivatives | [📑 Topics](#chem-103-topics) |
 | **[CHEM-104](https://github.com/itachi-re/butex-notes/tree/master/CHEM-104)** | Chemistry - II (Practical) | 🟡 In Progress | Identification of Organic Compounds (23 compounds: Alcohols, Acids, Aldehydes, Ketones, Phenols, Amines, Amides), Amino Acids & Proteins, Colours/Dyes & Pigments, Lab (ferrous iron & carboxylic acid estimations), Titrations (⚪ Pending) | [📑 Topics](#chem-104-topics) |
 | **[PHY-101](https://github.com/itachi-re/butex-notes/tree/master/PHY-101)** | Physics - I | 🟢 Active | Elasticity, Fluid Mechanics, Interference, Dynamics, Surface Tension, Viscosity, Diffraction, Polarization | [📑 Topics](#physics-101-topics) |
-| **[PHY-103](https://github.com/itachi-re/butex-notes/tree/master/PHY-103)** | Physics - II | 🟢 Active | Electricity (Coulomb's Law → Parallel Resonance, 14/14 topics), Kinetic Theory of Gases (13/13 topics), Magnetism (Induction → LC-SHM Analogy, 13/13 topics), Thermodynamics | [📑 Topics](#phy-103-topics) |
+| **[PHY-103](https://github.com/itachi-re/butex-notes/tree/master/PHY-103)** | Physics - II | 🟢 Active | Electricity (Coulomb's Law → Parallel Resonance, 14/14 topics), Kinetic Theory of Gases (13/13 topics), Magnetism (Induction → LC-SHM Analogy, 13/13 topics), Thermodynamics (System → Maxwell's Relations, 19/19 topics), Entropy (9 topics), Modern Physics (Radiation → de Broglie Wave, 12 topics) | [📑 Topics](#phy-103-topics) |
 | **[MATH-101](https://github.com/itachi-re/butex-notes/tree/master/MATH-101)** | Mathematics - I | 🟢 Active | Differential Calculus, Integral Calculus, Linear Algebra, Coordinate Geometry | [📑 Topics](#math-101-topics) |
 | **[MATH-103](https://github.com/itachi-re/butex-notes/tree/master/MATH-103)** | Mathematics - II | 🟡 In Progress | Ordinary Differential Equations, Vector Analysis (Gradient/Divergence/Curl, Green's/Stokes'/Gauss's Theorems), Complex Variables (Number System → Residue Theorem, 22 topics), Laplace Transform (Definition → Solving ODEs/PDEs, 7 topics), Calculus Extras (prerequisites, limits, derivatives) | [📑 Topics](#math-103-topics) |
 | **[HSS-101](https://github.com/itachi-re/butex-notes/tree/master/HSS-101)** | Humanities & Social Science | 🟢 Active | Communication, Letters, Presentations, Meetings, Group Project | [📑 Topics](#hss-101-topics) |
@@ -369,6 +369,25 @@ This repository contains comprehensive course notes from my journey through the 
 </details>
 
 <details>
+<summary><b>📂 02 - Fluid Mechanics (Consolidated Notes) ✨ New</b></summary>
+
+> A second, more textbook-style pass over the same fluid mechanics syllabus — broader single-file write-ups (properties, flow classification, viscosity, conservation laws, applications) alongside the original per-topic notes above.
+
+- [Fluid Mechanics Overview](https://github.com/itachi-re/butex-notes/blob/master/PHY-101/02_fluid-mechanics/01-fluid-mechanics-overview.md)
+- [Fundamental Properties of Fluids](https://github.com/itachi-re/butex-notes/blob/master/PHY-101/02_fluid-mechanics/01-fluid-properties.md)
+- [Classification of Fluid Flow](https://github.com/itachi-re/butex-notes/blob/master/PHY-101/02_fluid-mechanics/01-fluid-flow-types.md)
+- [Classification of Fluid Motion](https://github.com/itachi-re/butex-notes/blob/master/PHY-101/02_fluid-mechanics/02-fluid-classification.md)
+- [Equation of Continuity (Conservation of Mass)](https://github.com/itachi-re/butex-notes/blob/master/PHY-101/02_fluid-mechanics/01-continuity-equation.md)
+- [Bernoulli's Equation (Conservation of Energy)](https://github.com/itachi-re/butex-notes/blob/master/PHY-101/02_fluid-mechanics/01-bernoulli-equation.md)
+- [Conservation Laws in Fluid Mechanics](https://github.com/itachi-re/butex-notes/blob/master/PHY-101/02_fluid-mechanics/04-conservation-laws.md)
+- [Surface Tension and Capillarity](https://github.com/itachi-re/butex-notes/blob/master/PHY-101/02_fluid-mechanics/01-surface-tension.md)
+- [Viscosity and Stokes' Law](https://github.com/itachi-re/butex-notes/blob/master/PHY-101/02_fluid-mechanics/01-viscosity-and-stokes-law.md)
+- [Viscosity and Fluid Friction](https://github.com/itachi-re/butex-notes/blob/master/PHY-101/02_fluid-mechanics/03-viscosity-detailed.md)
+- [Applications of Fluid Mechanics and Surface Tension](https://github.com/itachi-re/butex-notes/blob/master/PHY-101/02_fluid-mechanics/05-fluid-applications.md)
+
+</details>
+
+<details>
 <summary><b>📂 03 - Interference of Light</b></summary>
 
 - [📖 Interference & Optics Notes](https://github.com/itachi-re/butex-notes/blob/master/PHY-101/03_interference_of_light/Interference_Optics_Notes.md)
@@ -552,17 +571,77 @@ This repository contains comprehensive course notes from my journey through the 
 </details>
 
 <details>
-<summary><b>📂 Thermodynamics ✨ New</b></summary>
+<summary><b>📂 Thermodynamics (19/19 topics) ✨ Expanded</b></summary>
 
-- [Thermodynamics (One-Shot)](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/thermodynamics/Thermodynamics_os.md)
+> Full syllabus as a straight-through sequence (no Part 1/2 split) from the basic definition of a thermodynamic system through Maxwell's relations. A separate ~1,300-line consolidated one-shot covering the same ground (plus numericals, diagrams, and an exam-prep set) also exists alongside the per-topic files.
+
+- [01 - System & Thermodynamic Functions](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/thermodynamics/01_system_and_thermodynamic_functions.md)
+- [02 - Internal Energy](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/thermodynamics/02_internal_energy.md)
+- [03 - Work Done by a Gas at Constant Pressure](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/thermodynamics/03_work_done_by_gas_at_constant_pressure.md)
+- [04 - First Law of Thermodynamics](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/thermodynamics/04_first_law_of_thermodynamics.md)
+- [05 - Thermodynamic Processes](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/thermodynamics/05_thermodynamic_processes.md)
+- [06 - Mechanical Equivalent of Heat](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/thermodynamics/06_mechanical_equivalent_of_heat.md)
+- [07 - Cyclic Process](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/thermodynamics/07_cyclic_process.md)
+- [08 - Difference Between the Two Specific Heats of a Gas](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/thermodynamics/08_difference_between_specific_heats_of_gas.md)
+- [09 - Reversible & Irreversible Processes](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/thermodynamics/09_reversible_and_irreversible_processes.md)
+- [10 - Second Law of Thermodynamics](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/thermodynamics/10_second_law_of_thermodynamics.md)
+- [11 - First Law vs Second Law](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/thermodynamics/11_first_law_vs_second_law.md)
+- [12 - Efficiency of Heat Engines](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/thermodynamics/12_efficiency_of_heat_engines.md)
+- [13 - Carnot's Cycle and Engine](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/thermodynamics/13_carnot_cycle_and_engine.md)
+- [14 - Reversibility of the Carnot Cycle](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/thermodynamics/14_reversibility_of_carnot_cycle.md)
+- [15 - Carnot's Theorem](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/thermodynamics/15_carnots_theorem.md)
+- [16 - Thermodynamic Functions](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/thermodynamics/16_thermodynamic_functions.md)
+- [17 - Third Law of Thermodynamics](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/thermodynamics/17_third_law_of_thermodynamics.md)
+- [18 - Applications of the Third Law](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/thermodynamics/18_applications_of_third_law.md)
+- [19 - Maxwell's Thermodynamic Relations](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/thermodynamics/19_maxwells_thermodynamic_relations.md)
+- [📖 Module README](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/thermodynamics/README.md)
+- [📐 Formula Sheet](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/thermodynamics/formulas.md)
+- [📚 Glossary](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/thermodynamics/glossary.md)
+- [Thermodynamics (One-Shot, incl. Entropy)](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/thermodynamics/Thermodynamics_os.md)
 
 </details>
 
 <details>
-<summary><b>📂 Q&A ✨ New</b></summary>
+<summary><b>📂 Entropy (9 topics) ✨ New</b></summary>
+
+- [01 - Entropy](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/entropy/01_entropy.md)
+- [02 - Change of Entropy in Reversible & Irreversible Process](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/entropy/02_change_of_entropy_reversible_irreversible.md)
+- [03 - Second Law in Terms of Entropy](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/entropy/03_second_law_in_terms_of_entropy.md)
+- [04 - Entropy and Unavailable Energy](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/entropy/04_entropy_and_unavailable_energy.md)
+- [05 - Entropy and Molecular Disorder](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/entropy/05_entropy_and_molecular_disorder.md)
+- [06 - Entropy of a Perfect Gas](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/entropy/06_entropy_of_a_perfect_gas.md)
+- [07 - Change of Entropy is Independent of Path](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/entropy/07_entropy_independent_of_path.md)
+- [08 - Clausius's Theorem](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/entropy/08_clausius_theorem.md)
+- [09 - Clausius–Clapeyron Equation](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/entropy/09_clausius_clapeyron_equation.md)
+
+</details>
+
+<details>
+<summary><b>📂 Modern Physics (12 topics) ✨ New</b></summary>
+
+- [01 - Properties of Radiation](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/modern_physics/01_properties_of_radiation.md)
+- [02 - Blackbody and Blackbody Radiation](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/modern_physics/02_blackbody_radiation.md)
+- [03 - Emissive Power](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/modern_physics/03_emissive_power.md)
+- [04 - Absorptive Power](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/modern_physics/04_absorptive_power.md)
+- [05 - Reflecting Power](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/modern_physics/05_reflecting_power.md)
+- [06 - Transmitting Power](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/modern_physics/06_transmitting_power.md)
+- [07 - Kirchhoff's Law](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/modern_physics/07_kirchhoffs_law.md)
+- [08 - Stefan–Boltzmann Law](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/modern_physics/08_stefan_boltzmann_law.md)
+- [09 - Quantum Theory of Radiation](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/modern_physics/09_quantum_theory_of_radiation.md)
+- [10 - Special Theory of Relativity](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/modern_physics/10_special_theory_of_relativity.md)
+- [11 - Lorentz Transformation](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/modern_physics/11_lorentz_transformation.md)
+- [12 - de Broglie Wave](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/modern_physics/12_de_broglie_wave.md)
+
+</details>
+
+<details>
+<summary><b>📂 Q&A</b></summary>
 
 - [Complete Solved Question Bank 2017–2023](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/qna/Physics-II_complete_solved_question_bank_2017-2023.md)
 - [Complete Solved Question Bank 2017–2023 (alt)](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/qna/phy-103_complete_solved_question_bank_2017-2023.md)
+- [Question Bank 1422](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/qna/Physics-II.question-bank-1422.md)
+- [Question Bank 1422 (Grouped)](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/qna/Physics-II.question-bank-1422-g.md)
+- [Question Bank 1422 — Answers](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/qna/Physics-II.question-bank-1422-answers.md)
 
 </details>
 
@@ -570,6 +649,7 @@ This repository contains comprehensive course notes from my journey through the 
 <summary><b>📂 Quick Revision</b></summary>
 
 - [Kinetic Theory of Gases](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/quick_rev/kinetic_theory_of_gases.md)
+- [Kinetic Theory of Gases — Q&A 2018–2023](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/quick_rev/kinetic_theory_of_gases-QnA-2018_23.md)
 - [Electricity Q&A 2015–2024](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/quick_rev/Electricity_QnA_2015_2024.md)
 - [Electricity Exam Prep](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/quick_rev/Electricity_exam_prep.md)
 
@@ -902,6 +982,13 @@ This repository contains comprehensive course notes from my journey through the 
 - [07 - Sisal Fibre](https://github.com/itachi-re/butex-notes/blob/master/YE-101/mineral_%26_others/07_sisal_fibre.md)
 - [08 - Coir Fibre](https://github.com/itachi-re/butex-notes/blob/master/YE-101/mineral_%26_others/08_coir_fibre.md)
 
+**Longer-version write-ups** (same fibres, expanded):
+- [📖 Topic Index](https://github.com/itachi-re/butex-notes/blob/master/YE-101/mineral_%26_others/longer_ver/README.md)
+- [Mineral Fibre — Asbestos](https://github.com/itachi-re/butex-notes/blob/master/YE-101/mineral_%26_others/longer_ver/01_Mineral_Fibre_Asbestos.md)
+- [Other Fibres — Hemp](https://github.com/itachi-re/butex-notes/blob/master/YE-101/mineral_%26_others/longer_ver/02_Other_Fibres_Hemp.md)
+- [Other Fibres — Ramie](https://github.com/itachi-re/butex-notes/blob/master/YE-101/mineral_%26_others/longer_ver/03_Other_Fibres_Ramie.md)
+- [Other Fibres — Banana, Pineapple, Kapok, Sisal, Coir](https://github.com/itachi-re/butex-notes/blob/master/YE-101/mineral_%26_others/longer_ver/04_Other_Fibres_Banana_Pineapple_Kapok_Sisal_Coir.md)
+
 </details>
 
 <details>
@@ -911,6 +998,17 @@ This repository contains comprehensive course notes from my journey through the 
 - [NTF Class Test 02 Q&A - 2024-25](https://github.com/itachi-re/butex-notes/blob/master/YE-101/qna/ntf_classtest_02_qna_24-25.md)
 - [NTF Class Test 02 Q&A - 2026](https://github.com/itachi-re/butex-notes/blob/master/YE-101/qna/ntf_classtest_02_qna_2026.md)
 - [Q&A 2012–2019](https://github.com/itachi-re/butex-notes/blob/master/YE-101/qna/qna_2012_19.md)
+
+</details>
+
+<details>
+<summary><b>📂 Quick Revision ✨ New</b></summary>
+
+- [NTF Complete Answer Guide](https://github.com/itachi-re/butex-notes/blob/master/YE-101/quick_rev/NTF_YE101_Complete_Answer_Guide.md)
+- [Natural Textile Fibre Complete Study Guide](https://github.com/itachi-re/butex-notes/blob/master/YE-101/quick_rev/Natural_Textile_Fibre_Complete_Study_Guide.md)
+- [Natural Textile Fibre Visual Guide (HTML)](https://github.com/itachi-re/butex-notes/blob/master/YE-101/quick_rev/Natural_Textile_Fibre_Visual_Guide.html)
+- [Natural Fibre Morphology Guide (HTML)](https://github.com/itachi-re/butex-notes/blob/master/YE-101/quick_rev/natural_fibre_morphology_guide.html)
+- [Textile Fibres Reference (HTML)](https://github.com/itachi-re/butex-notes/blob/master/YE-101/quick_rev/textile-fibres.html)
 
 </details>
 
@@ -948,6 +1046,21 @@ This repository contains comprehensive course notes from my journey through the 
 - [References Masterlist](https://github.com/itachi-re/butex-notes/blob/master/HSS-101/extras/05_References/references_masterlist.md)
 - [Presentation Script (Draft)](https://github.com/itachi-re/butex-notes/blob/master/HSS-101/extras/x86_presentation_script.md)
 - [Project Guide](https://github.com/itachi-re/butex-notes/blob/master/HSS-101/extras/x86_project_guide.md)
+
+</details>
+
+<details>
+<summary><b>📂 Extras — Final Workflow Scripts (x86 AI Presentation) ✨ New</b></summary>
+
+> Per-speaker final scripts for the "AI: Basic to Beyond" presentation, split by team member.
+
+- [📖 Structure & Presentation Flow](https://github.com/itachi-re/butex-notes/blob/master/HSS-101/extras/final_workflow/README.md)
+- [Leader — Intro & Conclusion](https://github.com/itachi-re/butex-notes/blob/master/HSS-101/extras/final_workflow/01_leader_intro_conclusion.md)
+- [Member 2 — History & Types of AI](https://github.com/itachi-re/butex-notes/blob/master/HSS-101/extras/final_workflow/02_member2_history_types.md)
+- [Member 3 — ML, Deep Learning & Neural Networks](https://github.com/itachi-re/butex-notes/blob/master/HSS-101/extras/final_workflow/03_member3_ml_dl_nn.md)
+- [Member 4 — Applications](https://github.com/itachi-re/butex-notes/blob/master/HSS-101/extras/final_workflow/04_member4_applications.md)
+- [Member 5 — Popular Models, Privacy, Deepfakes, Bias & Fairness](https://github.com/itachi-re/butex-notes/blob/master/HSS-101/extras/final_workflow/05_member5_models_ethics.md)
+- [Member 6 — AI & Jobs, Future & Regulation](https://github.com/itachi-re/butex-notes/blob/master/HSS-101/extras/final_workflow/06_member6_jobs_future.md)
 
 </details>
 
@@ -1024,7 +1137,7 @@ This repository contains comprehensive course notes from my journey through the 
 
 **[🔗 View All MDM-102 Notes](https://github.com/itachi-re/butex-notes/tree/master/MDM-102)**
 
-> Continuation of C Programming (11/11 topics complete).
+> Continuation of C Programming (11/11 topics complete). `MDM-102/C-Programming/c-learning-notes` is a **git submodule** pointing at the separate [c-learning-notes](https://github.com/itachi-re/c-learning-notes) repository — run `git submodule update --init --recursive` after cloning to pull it in.
 
 <details>
 <summary><b>📂 C Programming</b></summary>
@@ -1331,9 +1444,10 @@ butex-notes/
 │   ├── colors_dyes_pigments/    # Colours, Dyes and Pigments
 │   ├── lab/                     # Practical lab write-ups (4 files)
 │   └── titrations/               # ⚪ Pending — placeholder only
-├── PHY-101/                     # Physics - I (8 modules + worked examples + quick_rev)
+├── PHY-101/                     # Physics - I (9 modules + worked examples + quick_rev)
 │   ├── 01_elasticity/
 │   ├── 02_fluid_mechanics/
+│   ├── 02_fluid-mechanics/      # ✨ Consolidated fluid mechanics notes (11 files)
 │   ├── 02_fluid_mech_ex/        # Fluid mechanics worked examples (12 files)
 │   ├── 03_interference_of_light/
 │   ├── 04_dynamics_of_circular_motion/
@@ -1348,8 +1462,10 @@ butex-notes/
 │   ├── electricity/             # Coulomb's Law → Parallel Resonance (14/14 topics)
 │   ├── kinetic_theory_of_gases/ # 13 topics — heat, thermometry, kinetic theory, van der Waals
 │   ├── magnetism/                # 13/13 topics — induction → LC-SHM analogy
-│   ├── thermodynamics/           # One-shot notes
-│   ├── qna/                      # Complete solved question banks 2017–2023
+│   ├── thermodynamics/           # ✨ Full module (19/19 topics + README + formulas + glossary)
+│   ├── entropy/                  # ✨ Entropy (9 topics)
+│   ├── modern_physics/           # ✨ Radiation → de Broglie wave (12 topics)
+│   ├── qna/                      # Complete solved question banks 2017–2023 + question banks
 │   └── quick_rev/
 ├── MATH-101/                    # Mathematics - I
 │   ├── differential_calculus/
@@ -1371,7 +1487,8 @@ butex-notes/
 │   ├── extras/                  # Group project materials
 │   │   ├── 01_Research/
 │   │   ├── 03_Script/
-│   │   └── 05_References/
+│   │   ├── 05_References/
+│   │   └── final_workflow/       # ✨ Per-speaker final presentation scripts (6 files)
 │   └── qna/
 ├── MDM-101/                     # Computer Programming - I (7 files)
 │   ├── 01_programming_basics.md
@@ -1383,7 +1500,8 @@ butex-notes/
 │   └── 07_io.md
 ├── MDM-102/                     # Computer Programming - II (C Programming, 11/11 topics)
 │   ├── C-Programming/
-│   │   └── homeworks/            # circle.c, triangle.c, grading programs, atm/menu/student-group
+│   │   ├── homeworks/             # circle.c, triangle.c, grading programs, atm/menu/student-group
+│   │   └── c-learning-notes/      # ✨ git submodule → itachi-re/c-learning-notes
 │   ├── qna/                      # C loops and switch-case
 │   └── quick_rev/
 ├── IPE-101/                     # Industrial & Production Engineering (Materials Science)
@@ -1406,11 +1524,13 @@ butex-notes/
 │   ├── cellulosic/
 │   │   └── cotton/Cotton.md
 │   ├── mineral_&_others/        # 8 additional fibres
+│   │   └── longer_ver/           # ✨ Expanded write-ups of the same 8 fibres
 │   ├── protein/
 │   │   ├── silk/                # Silk module (8 files)
 │   │   └── wool/                # Wool module (7 files)
 │   ├── introduction.md
-│   └── qna/
+│   ├── qna/
+│   └── quick_rev/                # ✨ Complete study/answer/visual guides (5 files)
 ├── YE-201/                      # Fibre & Yarn Testing
 │   └── 01_testing_and_moisture.md
 ├── lab-reports/                 # Subject-organized lab reports (CHEM-102, PHY-102, PHY-104 electricity & heat)
@@ -1475,8 +1595,11 @@ While foundation courses (Math, Physics, Chemistry) are included, the primary fo
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/itachi-re/butex-notes.git
+git clone --recurse-submodules https://github.com/itachi-re/butex-notes.git
 cd butex-notes
+
+# If you already cloned without --recurse-submodules:
+git submodule update --init --recursive
 ```
 
 ### Make Scripts Executable
@@ -1554,8 +1677,8 @@ This project is licensed under the terms specified in the [LICENSE](LICENSE) fil
 ## 📊 Repository Stats
 
 ```
-Total Notes: 112 directories, 812 files
-Last Updated: Friday, September 11, 2026
+Total Notes: 113 directories, 942 files
+Last Updated: Friday, September 18, 2026
 Export Format: Markdown → PDF
 Department: Fabric Engineering
 University: BUTEX
