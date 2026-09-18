@@ -1,7 +1,7 @@
 ---
 subject: PHY-103
 title: Physics - II
-date: 2026-09-12
+date: 2026-09-18
 ---
 
 # 🔭 PHY-103 — Physics II
@@ -10,9 +10,9 @@ date: 2026-09-12
 ![Credits](https://img.shields.io/badge/Credits-3-lightgrey?style=flat-square)
 ![Hours](https://img.shields.io/badge/Hours%2FWeek-3-lightgrey?style=flat-square)
 ![Total Hours](https://img.shields.io/badge/Total%20Hours-45-lightgrey?style=flat-square)
-![Topics](https://img.shields.io/badge/Topics-69%20%2F%2083-orange?style=flat-square)
-![Units](https://img.shields.io/badge/Units-5%20%2F%206%20active-yellow?style=flat-square)
-![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--09--12-informational?style=flat-square)
+![Topics](https://img.shields.io/badge/Topics-81%20%2F%2083-yellow?style=flat-square)
+![Units](https://img.shields.io/badge/Units-6%20%2F%206%20active-brightgreen?style=flat-square)
+![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--09--18-informational?style=flat-square)
 
 ---
 
@@ -24,9 +24,12 @@ Theory of Gases, Thermodynamics, Entropy, and Modern Physics. Total contact
 hours: 45. Notes follow the derivation-first style of the repository —
 full proofs, ASCII/Mermaid diagrams, worked examples, and practice problems.
 
-Beyond the six syllabus units, the folder now also carries two support
-collections: a solved past-paper **question bank** (`qna/`) and a set of
-one-page **quick-revision** cram sheets (`quick_rev/`) — see
+Entropy now lives in its own `entropy/` directory rather than as a section
+of the Thermodynamics document, Thermodynamics itself carries both
+per-topic files and the original consolidated doc, and Modern Physics has
+moved from planned to in progress. Beyond the six syllabus units, the
+folder also carries a solved past-paper **question bank** (`qna/`) and a
+set of one-page **quick-revision** cram sheets (`quick_rev/`) — see
 [Support Materials](#-support-materials) below.
 
 ---
@@ -38,10 +41,10 @@ one-page **quick-revision** cram sheets (`quick_rev/`) — see
 | 1 | Electricity | [electricity/](electricity/README.md) | 14 | **14** | ✅ Complete |
 | 2 | Magnetism | [magnetism/README.md](magnetism/README.md) | 13 | **13** | ✅ Complete |
 | 3 | Kinetic Theory of Gases | [kinetic_theory_of_gases/README.md](kinetic_theory_of_gases/README.md) | 13 | **13** | ✅ Complete |
-| 4 | Thermodynamics | [thermodynamics/Thermodynamics_os.md](thermodynamics/Thermodynamics_os.md) | 19 | **19** | ✅ Complete (single consolidated file) |
-| 5 | Entropy | [thermodynamics/Thermodynamics_os.md](thermodynamics/Thermodynamics_os.md#part-xvii--entropy) | 10 | **10** | ✅ Complete (merged into Thermodynamics doc) |
-| 6 | Modern Physics | `modern_physics/` | 14 | **0** | 📋 Planned |
-| | **Total** | | **83** | **69** | **83 %** |
+| 4 | Thermodynamics | [thermodynamics/README.md](thermodynamics/README.md) | 19 | **19** | ✅ Complete (per-topic files + consolidated doc) |
+| 5 | Entropy | [entropy/](entropy/) | 10 | **10** | ✅ Complete (own directory, no README yet) |
+| 6 | Modern Physics | [modern_physics/](modern_physics/) | 14 | **12** | 🚧 In Progress (2 remaining) |
+| | **Total** | | **83** | **81** | **98 %** |
 
 > Note: the original syllabus counted 11 Magnetism topics and 14 Kinetic
 > Theory topics; the actual notes split/merged a few of these while writing
@@ -123,84 +126,91 @@ for the course-flow diagram and formula summary.
 
 ---
 
-### Unit 4 — Thermodynamics · 19 topics ✅ Complete (consolidated)
+### Unit 4 — Thermodynamics · 19 topics ✅ Complete
 
-Rather than per-topic files, the whole unit lives in one comprehensive
-document: [thermodynamics/Thermodynamics_os.md](thermodynamics/Thermodynamics_os.md)
-(~1,300 lines, 28 parts). Coverage maps to the syllabus as:
-
-| Syllabus Topic | Covered in |
-|:--|:--|
-| System and Thermodynamic Function | Parts I–II |
-| Internal Energy | Part II |
-| Work Done by the Gas at Constant Pressure | Part III |
-| First Law of Thermodynamics | Parts IV–V |
-| Thermodynamic Process | Parts VI, VIII |
-| Mechanical Equivalent of Heat | Part IV |
-| Cyclic Process | Parts VI, X |
-| Difference of Specific Heats of Gas | Part VII |
-| Reversible and Irreversible Process | Part IX |
-| Second Law of Thermodynamics | Part XI |
-| First vs Second Law | Part XII |
-| Efficiency of Heat Engines | Part XIII |
-| Carnot Cycle and Carnot Engine | Part XIV |
-| Carnot Cycle as a Reversible Cycle | Part XV |
-| Carnot's Theorem | Part XVI |
-| Thermodynamic Functions (Enthalpy, Helmholtz, Gibbs) | Part XVIII |
-| Third Law of Thermodynamics | Part XIX |
-| Applications of the Third Law | Part XX |
-| Maxwell's Mathematical Relations | Part XXI |
-
-Plus: solved numericals (Part XXIII), diagrams (Part XXIV), exam-prep
-question sets (Part XXV), common mistakes (Part XXVI), a full formula
-sheet (Part XXVII), and a one-page quick revision (Part XXVIII).
-
----
-
-### Unit 5 — Entropy · 10 topics ✅ Complete (merged into Thermodynamics doc)
-
-Entropy is covered as **Part XVII** of
+Thermodynamics now has **two parallel forms**: per-topic files (below) and
+the original consolidated document,
 [thermodynamics/Thermodynamics_os.md](thermodynamics/Thermodynamics_os.md)
-rather than as a standalone `entropy/` directory:
+(~1,300 lines, 28 parts, including solved numericals, diagrams, exam-prep
+question sets, common mistakes, and a formula sheet). Use whichever suits
+the moment — per-file for targeted review, the consolidated doc for a
+single read-through.
 
-| Syllabus Topic | Covered in |
-|:--|:--|
-| Entropy | §37 Entropy |
-| Change of Entropy (Reversible) | §38 Entropy Change |
-| Change of Entropy (Irreversible) | §38–39 |
-| Second Law in Terms of Entropy | §39 Entropy and the Second Law |
-| Entropy and Unavailable Energy | §39 |
-| Entropy and Molecular Disorder | §37 |
-| Entropy of a Perfect Gas | §38 |
-| Path-Independence of Entropy Change | §38 |
-| Clausius Theorem | §39 |
-| Clausius–Clapeyron Equation | Formula Sheet (Part XXVII) |
+| # | Topic | File |
+|:--|:------|:-----|
+| 1 | System and Thermodynamic Function | [01\_system\_and\_thermodynamic\_functions.md](thermodynamics/01_system_and_thermodynamic_functions.md) |
+| 2 | Internal Energy | [02\_internal\_energy.md](thermodynamics/02_internal_energy.md) |
+| 3 | Work Done by the Gas at Constant Pressure | [03\_work\_done\_by\_gas\_at\_constant\_pressure.md](thermodynamics/03_work_done_by_gas_at_constant_pressure.md) |
+| 4 | First Law of Thermodynamics | [04\_first\_law\_of\_thermodynamics.md](thermodynamics/04_first_law_of_thermodynamics.md) |
+| 5 | Thermodynamic Process | [05\_thermodynamic\_processes.md](thermodynamics/05_thermodynamic_processes.md) |
+| 6 | Mechanical Equivalent of Heat | [06\_mechanical\_equivalent\_of\_heat.md](thermodynamics/06_mechanical_equivalent_of_heat.md) |
+| 7 | Cyclic Process | [07\_cyclic\_process.md](thermodynamics/07_cyclic_process.md) |
+| 8 | Difference of Specific Heats of Gas | [08\_difference\_between\_specific\_heats\_of\_gas.md](thermodynamics/08_difference_between_specific_heats_of_gas.md) |
+| 9 | Reversible and Irreversible Process | [09\_reversible\_and\_irreversible\_processes.md](thermodynamics/09_reversible_and_irreversible_processes.md) |
+| 10 | Second Law of Thermodynamics | [10\_second\_law\_of\_thermodynamics.md](thermodynamics/10_second_law_of_thermodynamics.md) |
+| 11 | First vs Second Law | [11\_first\_law\_vs\_second\_law.md](thermodynamics/11_first_law_vs_second_law.md) |
+| 12 | Efficiency of Heat Engines | [12\_efficiency\_of\_heat\_engines.md](thermodynamics/12_efficiency_of_heat_engines.md) |
+| 13 | Carnot Cycle and Carnot Engine | [13\_carnot\_cycle\_and\_engine.md](thermodynamics/13_carnot_cycle_and_engine.md) |
+| 14 | Carnot Cycle as a Reversible Cycle | [14\_reversibility\_of\_carnot\_cycle.md](thermodynamics/14_reversibility_of_carnot_cycle.md) |
+| 15 | Carnot's Theorem | [15\_carnots\_theorem.md](thermodynamics/15_carnots_theorem.md) |
+| 16 | Thermodynamic Functions (Enthalpy, Helmholtz, Gibbs) | [16\_thermodynamic\_functions.md](thermodynamics/16_thermodynamic_functions.md) |
+| 17 | Third Law of Thermodynamics | [17\_third\_law\_of\_thermodynamics.md](thermodynamics/17_third_law_of_thermodynamics.md) |
+| 18 | Applications of the Third Law | [18\_applications\_of\_third\_law.md](thermodynamics/18_applications_of_third_law.md) |
+| 19 | Maxwell's Mathematical Relations | [19\_maxwells\_thermodynamic\_relations.md](thermodynamics/19_maxwells_thermodynamic_relations.md) |
+
+Extra reference files in this directory: [formulas.md](thermodynamics/formulas.md)
+(full formula sheet) and [glossary.md](thermodynamics/glossary.md) (term
+definitions), alongside [README.md](thermodynamics/README.md) as the unit index.
 
 ---
 
-### Unit 6 — Modern Physics · 14 topics 📋 Planned
+### Unit 5 — Entropy · 10 topics ✅ Complete
 
-<details>
-<summary>Expand syllabus</summary>
+Entropy has been split out of the Thermodynamics document into its own
+`entropy/` directory:
 
-| # | Topic |
-|:--|:------|
-| 1 | Properties of Radiation |
-| 2 | Blackbody and Blackbody Radiation |
-| 3 | Emissive Power |
-| 4 | Absorptive Power |
-| 5 | Reflecting Power |
-| 6 | Transmitting Power |
-| 7 | Kirchhoff's Law |
-| 8 | Stefan–Boltzmann Law |
-| 9 | Quantum Theory of Radiation |
-| 10 | Special Theory of Relativity |
-| 11 | Lorentz Transformation |
-| 12 | de Broglie Wave |
-| 13 | Photoelectric Effect |
-| 14 | Compton Effect |
+| # | Topic | File |
+|:--|:------|:-----|
+| 1 | Entropy | [01\_entropy.md](entropy/01_entropy.md) |
+| 2 | Change of Entropy (Reversible and Irreversible) | [02\_change\_of\_entropy\_reversible\_irreversible.md](entropy/02_change_of_entropy_reversible_irreversible.md) |
+| 3 | Second Law in Terms of Entropy | [03\_second\_law\_in\_terms\_of\_entropy.md](entropy/03_second_law_in_terms_of_entropy.md) |
+| 4 | Entropy and Unavailable Energy | [04\_entropy\_and\_unavailable\_energy.md](entropy/04_entropy_and_unavailable_energy.md) |
+| 5 | Entropy and Molecular Disorder | [05\_entropy\_and\_molecular\_disorder.md](entropy/05_entropy_and_molecular_disorder.md) |
+| 6 | Entropy of a Perfect Gas | [06\_entropy\_of\_a\_perfect\_gas.md](entropy/06_entropy_of_a_perfect_gas.md) |
+| 7 | Path-Independence of Entropy Change | [07\_entropy\_independent\_of\_path.md](entropy/07_entropy_independent_of_path.md) |
+| 8 | Clausius Theorem | [08\_clausius\_theorem.md](entropy/08_clausius_theorem.md) |
+| 9 | Clausius–Clapeyron Equation | [09\_clausius\_clapeyron\_equation.md](entropy/09_clausius_clapeyron_equation.md) |
 
-</details>
+> The 10 syllabus topics collapse into 9 files — Change of Entropy
+> (Reversible) and (Irreversible) are covered together in file 02, matching
+> the merge pattern used elsewhere in the repo.
+>
+> ⚠️ Unlike every other unit directory, `entropy/` has no `README.md` yet —
+> a natural next step now that the files themselves are complete.
+
+---
+
+### Unit 6 — Modern Physics · 14 topics 🚧 In Progress (12 / 14)
+
+| # | Topic | File |
+|:--|:------|:-----|
+| 1 | Properties of Radiation | [01\_properties\_of\_radiation.md](modern_physics/01_properties_of_radiation.md) |
+| 2 | Blackbody and Blackbody Radiation | [02\_blackbody\_radiation.md](modern_physics/02_blackbody_radiation.md) |
+| 3 | Emissive Power | [03\_emissive\_power.md](modern_physics/03_emissive_power.md) |
+| 4 | Absorptive Power | [04\_absorptive\_power.md](modern_physics/04_absorptive_power.md) |
+| 5 | Reflecting Power | [05\_reflecting\_power.md](modern_physics/05_reflecting_power.md) |
+| 6 | Transmitting Power | [06\_transmitting\_power.md](modern_physics/06_transmitting_power.md) |
+| 7 | Kirchhoff's Law | [07\_kirchhoffs\_law.md](modern_physics/07_kirchhoffs_law.md) |
+| 8 | Stefan–Boltzmann Law | [08\_stefan\_boltzmann\_law.md](modern_physics/08_stefan_boltzmann_law.md) |
+| 9 | Quantum Theory of Radiation | [09\_quantum\_theory\_of\_radiation.md](modern_physics/09_quantum_theory_of_radiation.md) |
+| 10 | Special Theory of Relativity | [10\_special\_theory\_of\_relativity.md](modern_physics/10_special_theory_of_relativity.md) |
+| 11 | Lorentz Transformation | [11\_lorentz\_transformation.md](modern_physics/11_lorentz_transformation.md) |
+| 12 | de Broglie Wave | [12\_de\_broglie\_wave.md](modern_physics/12_de_broglie_wave.md) |
+| 13 | Photoelectric Effect | 📋 Not started |
+| 14 | Compton Effect | 📋 Not started |
+
+No `README.md` in `modern_physics/` yet either — worth adding once the last
+two files land.
 
 ---
 
@@ -211,12 +221,12 @@ single unit:
 
 | Folder | Contents |
 |:--|:--|
-| [`qna/`](qna/) | Two complete solved question banks covering BUTEX final exams 2017–2023 (Part A & B, all years) — [phy-103\_complete\_solved\_question\_bank\_2017-2023.md](qna/phy-103_complete_solved_question_bank_2017-2023.md) and [Physics-II\_complete\_solved\_question\_bank\_2017-2023.md](qna/Physics-II_complete_solved_question_bank_2017-2023.md) |
+| [`qna/`](qna/) | Solved question banks covering BUTEX final exams 2017–2023 — [phy-103\_complete\_solved\_question\_bank\_2017-2023.md](qna/phy-103_complete_solved_question_bank_2017-2023.md) and [Physics-II\_complete\_solved\_question\_bank\_2017-2023.md](qna/Physics-II_complete_solved_question_bank_2017-2023.md) — plus a separate exam-code 1422 set: [Physics-II.question-bank-1422.md](qna/Physics-II.question-bank-1422.md) (questions), [Physics-II.question-bank-1422-answers.md](qna/Physics-II.question-bank-1422-answers.md) (answers), and [Physics-II.question-bank-1422-g.md](qna/Physics-II.question-bank-1422-g.md) (G-set variant) |
 | [`quick_rev/`](quick_rev/) | One-page cram sheets and exam-prep sets: [Electricity\_QnA\_2015\_2024.md](quick_rev/Electricity_QnA_2015_2024.md), [Electricity\_exam\_prep.md](quick_rev/Electricity_exam_prep.md), [kinetic\_theory\_of\_gases-QnA-2018\_23.md](quick_rev/kinetic_theory_of_gases-QnA-2018_23.md), [kinetic\_theory\_of\_gases.md](quick_rev/kinetic_theory_of_gases.md) |
 
 Electricity and Kinetic Theory of Gases currently have both a question
-bank and a quick-revision sheet; Magnetism and Thermodynamics/Entropy do
-not yet — a natural next step once Modern Physics is underway.
+bank and a quick-revision sheet; Magnetism, Thermodynamics, and Entropy do
+not yet — a natural next step once Modern Physics is finished.
 
 ---
 
@@ -231,7 +241,7 @@ not yet — a natural next step once Modern Physics is underway.
 
 ---
 
-**Last Updated:** 2026-09-12
+**Last Updated:** 2026-09-18
 
 ---
 
