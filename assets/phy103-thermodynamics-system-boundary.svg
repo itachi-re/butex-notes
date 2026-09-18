@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 420" font-family="Helvetica,Arial,sans-serif">
+  <rect x="0" y="0" width="700" height="420" fill="#ffffff"/>
+  <text x="350" y="30" text-anchor="middle" font-size="20" font-weight="bold">Thermodynamic Universe: System, Boundary, Surroundings</text>
+
+  <!-- Universe outer -->
+  <rect x="40" y="60" width="620" height="330" fill="#f7f9fc" stroke="#333" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <text x="60" y="85" font-size="14" fill="#333">Universe = System + Surroundings</text>
+
+  <!-- Surroundings -->
+  <rect x="90" y="110" width="520" height="260" fill="#eef3ff" stroke="#2255aa" stroke-width="1.5"/>
+  <text x="110" y="135" font-size="14" fill="#2255aa">Surroundings (everything outside the boundary)</text>
+
+  <!-- Boundary + System -->
+  <circle cx="350" cy="270" r="120" fill="#fff7e6" stroke="#cc7a00" stroke-width="3"/>
+  <text x="350" y="255" text-anchor="middle" font-size="16" font-weight="bold" fill="#994d00">System</text>
+  <text x="350" y="280" text-anchor="middle" font-size="12" fill="#663300">(gas in a piston-cylinder,</text>
+  <text x="350" y="298" text-anchor="middle" font-size="12" fill="#663300">e.g. matter + energy content)</text>
+
+  <text x="350" y="150" text-anchor="middle" font-size="13" fill="#cc7a00" font-weight="bold">Boundary</text>
+  <line x1="350" y1="158" x2="350" y2="150" stroke="#cc7a00" stroke-width="1"/>
+
+  <!-- Arrows showing heat/work exchange across boundary -->
+  <line x1="470" y1="230" x2="540" y2="200" stroke="#c0392b" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="545" y="198" font-size="12" fill="#c0392b">Q (heat)</text>
+
+  <line x1="470" y1="310" x2="540" y2="340" stroke="#1e8449" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="545" y="345" font-size="12" fill="#1e8449">W (work)</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#333"/>
+    </marker>
+  </defs>
+
+  <text x="60" y="405" font-size="11" fill="#555">Isolated system: no exchange of matter or energy across the boundary.</text>
+</svg>
