@@ -1,0 +1,27 @@
+<svg viewBox="0 0 760 440" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="760" height="440" fill="#ffffff"/>
+  <text x="380" y="28" font-size="18" font-weight="bold" text-anchor="middle" fill="#1a1a1a">Absolute Entropy from Heat-Capacity Data</text>
+
+  <line x1="90" y1="360" x2="90" y2="70" stroke="#333" stroke-width="2" marker-end="url(#axAE)"/>
+  <line x1="90" y1="360" x2="620" y2="360" stroke="#333" stroke-width="2" marker-end="url(#axAE)"/>
+  <text x="45" y="80" font-size="14" fill="#333">Cp/T</text>
+  <text x="600" y="385" font-size="14" fill="#333">T (K)</text>
+
+  <!-- curve of Cp/T vs T rising then leveling -->
+  <path d="M95,355 C 150,350 220,300 300,230 C 380,175 460,150 600,140"
+        fill="none" stroke="#1a5fb4" stroke-width="3"/>
+
+  <!-- shaded area under curve from 0 to T1 -->
+  <path d="M95,355 C 150,350 220,300 300,230 L 300,360 L 95,360 Z" fill="#eef5ff" opacity="0.9"/>
+
+  <line x1="300" y1="230" x2="300" y2="360" stroke="#333" stroke-width="1.3" stroke-dasharray="4,3"/>
+  <text x="290" y="378" font-size="12" fill="#333">T₁</text>
+
+  <text x="180" y="320" font-size="12" fill="#0d3c73">S(T₁) = ∫₀^T₁ (Cp/T) dT</text>
+
+  <text x="380" y="410" font-size="12.5" text-anchor="middle" fill="#333">Third Law fixes the lower limit S(0) = 0, so the integral gives an absolute (not just relative) entropy.</text>
+
+  <defs>
+    <marker id="axAE" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#333"/></marker>
+  </defs>
+</svg>
