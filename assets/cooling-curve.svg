@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 470" width="660" height="470" font-family="Arial, Helvetica, sans-serif" font-size="16">
+<rect width="660" height="470" fill="#ffffff"/>
+<g fill="none" stroke="#222222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M190 400 V36.0" stroke="#dddddd" stroke-width="1"/>
+<path d="M300 400 V36.0" stroke="#dddddd" stroke-width="1"/>
+<path d="M410 400 V36.0" stroke="#dddddd" stroke-width="1"/>
+<path d="M520 400 V36.0" stroke="#dddddd" stroke-width="1"/>
+<path d="M80 348.0 H575" stroke="#dddddd" stroke-width="1"/>
+<path d="M80 296.0 H575" stroke="#dddddd" stroke-width="1"/>
+<path d="M80 244.0 H575" stroke="#dddddd" stroke-width="1"/>
+<path d="M80 192.0 H575" stroke="#dddddd" stroke-width="1"/>
+<path d="M80 140.0 H575" stroke="#dddddd" stroke-width="1"/>
+<path d="M80 88.0 H575" stroke="#dddddd" stroke-width="1"/>
+<path d="M80 36.0 H575" stroke="#dddddd" stroke-width="1"/>
+<path d="M80.0 400.0 L597.0 400.0"/>
+<path d="M80.0 400.0 L80.0 15.2"/>
+<polygon points="597.0,400.0 584.2,404.8 584.2,395.2" fill="#222222" stroke="none"/>
+<polygon points="80.0,15.2 84.8,28.0 75.2,28.0" fill="#222222" stroke="none"/>
+<path d="M80 140.0 H289" stroke="#888888" stroke-width="1" stroke-dasharray="4 3"/>
+<path d="M80 163.4 H421" stroke="#888888" stroke-width="1" stroke-dasharray="4 3"/>
+<path d="M80 186.79999999999998 H575" stroke="#888888" stroke-width="1" stroke-dasharray="4 3"/>
+<path d="M256 140.0 V342.8" stroke="#888888" stroke-width="1" stroke-dasharray="4 3"/>
+<path d="M355 163.4 V342.8" stroke="#888888" stroke-width="1" stroke-dasharray="4 3"/>
+<path d="M289 140.0 V290.8" stroke="#888888" stroke-width="1" stroke-dasharray="4 3"/>
+<path d="M421 163.4 V290.8" stroke="#888888" stroke-width="1" stroke-dasharray="4 3"/>
+<path d="M258.0 342.8 L353.0 342.8"/>
+<polygon points="256.0,342.8 265.6,339.2 265.6,346.4" fill="#222222" stroke="none"/>
+<polygon points="355.0,342.8 345.4,346.4 345.4,339.2" fill="#222222" stroke="none"/>
+<path d="M291.0 290.8 L419.0 290.8"/>
+<polygon points="289.0,290.8 298.6,287.2 298.6,294.4" fill="#222222" stroke="none"/>
+<polygon points="421.0,290.8 411.4,294.4 411.4,287.2" fill="#222222" stroke="none"/>
+<path d="M80.0 43.8 L102.0 64.6 L124.0 80.2 L146.0 94.2 L168.0 107.2 L190.0 117.6 L223.0 129.6 L256.0 140.0 L300.0 150.9 L355.0 163.4 L410.0 173.3 L465.0 182.6 L520.0 192.0 L564.0 199.8" stroke="#c0392b" stroke-width="2"/>
+<circle cx="80.0" cy="43.8" r="3" fill="#c0392b" stroke="none"/>
+<circle cx="102.0" cy="64.6" r="3" fill="#c0392b" stroke="none"/>
+<circle cx="124.0" cy="80.2" r="3" fill="#c0392b" stroke="none"/>
+<circle cx="146.0" cy="94.2" r="3" fill="#c0392b" stroke="none"/>
+<circle cx="168.0" cy="107.2" r="3" fill="#c0392b" stroke="none"/>
+<circle cx="190.0" cy="117.6" r="3" fill="#c0392b" stroke="none"/>
+<circle cx="223.0" cy="129.6" r="3" fill="#c0392b" stroke="none"/>
+<circle cx="256.0" cy="140.0" r="3" fill="#c0392b" stroke="none"/>
+<circle cx="300.0" cy="150.9" r="3" fill="#c0392b" stroke="none"/>
+<circle cx="355.0" cy="163.4" r="3" fill="#c0392b" stroke="none"/>
+<circle cx="410.0" cy="173.3" r="3" fill="#c0392b" stroke="none"/>
+<circle cx="465.0" cy="182.6" r="3" fill="#c0392b" stroke="none"/>
+<circle cx="520.0" cy="192.0" r="3" fill="#c0392b" stroke="none"/>
+<circle cx="564.0" cy="199.8" r="3" fill="#c0392b" stroke="none"/>
+<path d="M80.0 62.0 L102.0 72.4 L124.0 84.9 L146.0 97.4 L168.0 107.8 L190.0 115.6 L223.0 126.5 L289.0 140.0 L355.0 152.5 L421.0 163.4 L465.0 171.2 L520.0 180.0 L564.0 186.8" stroke="#1f5fbf" stroke-width="2"/>
+<circle cx="80.0" cy="62.0" r="3" fill="#1f5fbf" stroke="none"/>
+<circle cx="102.0" cy="72.4" r="3" fill="#1f5fbf" stroke="none"/>
+<circle cx="124.0" cy="84.9" r="3" fill="#1f5fbf" stroke="none"/>
+<circle cx="146.0" cy="97.4" r="3" fill="#1f5fbf" stroke="none"/>
+<circle cx="168.0" cy="107.8" r="3" fill="#1f5fbf" stroke="none"/>
+<circle cx="190.0" cy="115.6" r="3" fill="#1f5fbf" stroke="none"/>
+<circle cx="223.0" cy="126.5" r="3" fill="#1f5fbf" stroke="none"/>
+<circle cx="289.0" cy="140.0" r="3" fill="#1f5fbf" stroke="none"/>
+<circle cx="355.0" cy="152.5" r="3" fill="#1f5fbf" stroke="none"/>
+<circle cx="421.0" cy="163.4" r="3" fill="#1f5fbf" stroke="none"/>
+<circle cx="465.0" cy="171.2" r="3" fill="#1f5fbf" stroke="none"/>
+<circle cx="520.0" cy="180.0" r="3" fill="#1f5fbf" stroke="none"/>
+<circle cx="564.0" cy="186.8" r="3" fill="#1f5fbf" stroke="none"/>
+<path d="M108.0 32.0 L83.0 43.0"/>
+<path d="M146.0 64.0 L84.0 63.0"/>
+</g>
+<g fill="#222222" stroke="none">
+<text x="80" y="420" text-anchor="middle" font-size="13">0</text>
+<text x="102" y="420" text-anchor="middle" font-size="13">2</text>
+<text x="124" y="420" text-anchor="middle" font-size="13">4</text>
+<text x="146" y="420" text-anchor="middle" font-size="13">6</text>
+<text x="168" y="420" text-anchor="middle" font-size="13">8</text>
+<text x="190" y="420" text-anchor="middle" font-size="13">10</text>
+<text x="300" y="420" text-anchor="middle" font-size="13">20</text>
+<text x="410" y="420" text-anchor="middle" font-size="13">30</text>
+<text x="520" y="420" text-anchor="middle" font-size="13">40</text>
+<text x="72" y="353.0" text-anchor="end" font-size="13">10</text>
+<text x="72" y="301.0" text-anchor="end" font-size="13">20</text>
+<text x="72" y="249.0" text-anchor="end" font-size="13">30</text>
+<text x="72" y="197.0" text-anchor="end" font-size="13">40</text>
+<text x="72" y="145.0" text-anchor="end" font-size="13">50</text>
+<text x="72" y="93.0" text-anchor="end" font-size="13">60</text>
+<text x="72" y="41.0" text-anchor="end" font-size="13">70</text>
+<text x="327.5" y="446" text-anchor="middle" font-size="14">Time (min)</text>
+<text transform="rotate(-90 26 210)" x="26" y="210" text-anchor="middle" font-size="14">Temperature (°C)</text>
+<text x="305.5" y="362.8" text-anchor="middle" font-size="14">t₁ = 9</text>
+<text x="355" y="282.8" text-anchor="middle" font-size="14">t₂ = 12</text>
+<text x="112" y="30" text-anchor="start" font-size="16" fill="#c0392b">Liquid</text>
+<text x="150" y="68" text-anchor="start" font-size="16" fill="#1f5fbf">Water</text>
+</g>
+</svg>
