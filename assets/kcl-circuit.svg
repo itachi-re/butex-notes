@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 320" width="620" height="320" font-family="Arial, Helvetica, sans-serif" font-size="16">
+<rect width="620" height="320" fill="#ffffff"/>
+<g fill="none" stroke="#222222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M110.0 125.0 L240.0 125.0"/>
+<path d="M240.0 65.0 L240.0 185.0"/>
+<path d="M440.0 65.0 L440.0 185.0"/>
+<path d="M240.0 65.0 L290.0 65.0 L298.3 74.0 L315.0 56.0 L331.7 74.0 L348.3 56.0 L365.0 74.0 L381.7 56.0 L390.0 65.0 L440.0 65.0"/>
+<path d="M240.0 185.0 L290.0 185.0 L298.3 194.0 L315.0 176.0 L331.7 194.0 L348.3 176.0 L365.0 194.0 L381.7 176.0 L390.0 185.0 L440.0 185.0"/>
+<path d="M440.0 125.0 L560.0 125.0 L560.0 290.0 L110.0 290.0 L110.0 231.0"/>
+<path d="M110.0 125.0 L110.0 217.0"/>
+<path d="M94 217 H126"/>
+<path d="M101 231 H119" stroke-width="4"/>
+<circle cx="240" cy="125" r="3.5" fill="#222222"/>
+<circle cx="440" cy="125" r="3.5" fill="#222222"/>
+<polygon points="175.0,125.0 162.2,129.8 162.2,120.2" fill="#222222" stroke="none"/>
+<polygon points="110.0,170.0 114.8,182.8 105.2,182.8" fill="#222222" stroke="none"/>
+<polygon points="270.0,65.0 257.2,69.8 257.2,60.2" fill="#222222" stroke="none"/>
+<polygon points="270.0,185.0 257.2,189.8 257.2,180.2" fill="#222222" stroke="none"/>
+<polygon points="500.0,125.0 487.2,129.8 487.2,120.2" fill="#222222" stroke="none"/>
+</g>
+<g fill="#222222" stroke="none">
+<text x="96" y="175" text-anchor="end" font-size="16">I<tspan dy="4" font-size="12">s</tspan></text>
+<text x="262" y="48" text-anchor="middle" font-size="16">I<tspan dy="4" font-size="12">1</tspan></text>
+<text x="262" y="212" text-anchor="middle" font-size="16">I<tspan dy="4" font-size="12">2</tspan></text>
+<text x="500" y="108" text-anchor="middle" font-size="16">I<tspan dy="4" font-size="12">s</tspan></text>
+<text x="340" y="98" text-anchor="middle" font-size="16">R<tspan dy="4" font-size="12">1</tspan></text>
+<text x="340" y="160" text-anchor="middle" font-size="16">R<tspan dy="4" font-size="12">2</tspan></text>
+<text x="92" y="228" text-anchor="end" font-size="16">V<tspan dy="4" font-size="12">source</tspan></text>
+</g>
+</svg>
