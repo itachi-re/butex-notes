@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380" font-family="Arial, Helvetica, sans-serif" font-size="16">
+<rect width="600" height="380" fill="#ffffff"/>
+<g fill="none" stroke="#222222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M150.0 150.0 L183.0 128.0 L195.0 130.8 L199.0 106.5 L223.0 112.2 L227.0 87.8 L251.0 93.5 L255.0 69.2 L267.0 72.0 L300.0 50.0"/>
+<path d="M300.0 50.0 L333.0 72.0 L335.0 84.2 L359.0 78.5 L363.0 102.8 L387.0 97.2 L391.0 121.5 L415.0 115.8 L417.0 128.0 L450.0 150.0"/>
+<path d="M150.0 150.0 L183.0 172.0 L185.0 184.2 L209.0 178.5 L213.0 202.8 L237.0 197.2 L241.0 221.5 L265.0 215.8 L267.0 228.0 L300.0 250.0"/>
+<path d="M300.0 250.0 L333.0 228.0 L345.0 230.8 L349.0 206.5 L373.0 212.2 L377.0 187.8 L401.0 193.5 L405.0 169.2 L417.0 172.0 L450.0 150.0"/>
+<path d="M300.0 50.0 L300.0 136.0"/>
+<circle cx="300" cy="150" r="14" fill="#ffffff"/>
+<path d="M300.0 164.0 L300.0 250.0"/>
+<circle cx="150" cy="150" r="3.5" fill="#222222"/>
+<circle cx="300" cy="50" r="3.5" fill="#222222"/>
+<circle cx="450" cy="150" r="3.5" fill="#222222"/>
+<circle cx="300" cy="250" r="3.5" fill="#222222"/>
+<path d="M150.0 150.0 L150.0 330.0 L293.0 330.0"/>
+<path d="M307.0 330.0 L450.0 330.0 L450.0 150.0"/>
+<path d="M293 314 V346"/>
+<path d="M307 321 V339" stroke-width="4"/>
+</g>
+<g fill="#222222" stroke="none">
+<text x="300" y="155" text-anchor="middle" font-size="15">G</text>
+<text x="276" y="322" text-anchor="middle" font-size="18">+</text>
+<text x="324" y="322" text-anchor="middle" font-size="18">−</text>
+<text x="134" y="140" text-anchor="middle" font-size="16">A</text>
+<text x="300" y="34" text-anchor="middle" font-size="16">B</text>
+<text x="466" y="140" text-anchor="middle" font-size="16">C</text>
+<text x="300" y="274" text-anchor="middle" font-size="16">D</text>
+<text x="204" y="86" text-anchor="middle" font-size="16">P</text>
+<text x="398" y="86" text-anchor="middle" font-size="16">Q</text>
+<text x="204" y="224" text-anchor="middle" font-size="16">R</text>
+<text x="398" y="224" text-anchor="middle" font-size="16">S</text>
+</g>
+</svg>
