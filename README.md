@@ -1,4 +1,4 @@
-# 📚 BUTEX University Notes
+# 📚 BUTEX Notes
 
 ![Last Commit](https://img.shields.io/github/last-commit/itachi-re/butex-notes?style=flat-square&color=blue)
 ![Repo Size](https://img.shields.io/github/repo-size/itachi-re/butex-notes?style=flat-square&color=orange)
