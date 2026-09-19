@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 430" width="700" height="430" font-family="Arial, Helvetica, sans-serif" font-size="16">
+<defs><pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><path d="M0 0 V6" stroke="#222222" stroke-width="1"/></pattern></defs>
+<rect width="700" height="430" fill="#ffffff"/>
+<g fill="none" stroke="#222222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<rect x="60" y="100" width="30" height="146" fill="url(#hatch)" stroke-width="1.5"/>
+<rect x="60" y="100" width="110" height="14" fill="url(#hatch)" stroke-width="1.5"/>
+<rect x="60" y="232" width="590" height="14" fill="url(#hatch)" stroke-width="1.5"/>
+<rect x="620" y="100" width="30" height="146" fill="url(#hatch)" stroke-width="1.5"/>
+<rect x="590" y="100" width="60" height="14" fill="url(#hatch)" stroke-width="1.5"/>
+<rect x="210" y="100" width="340" height="14" fill="url(#hatch)" stroke-width="1.5"/>
+<rect x="110" y="196" width="500" height="36" fill="#ffffff" stroke-width="1.5"/>
+<path d="M110 232 V218" stroke-width="1"/>
+<path d="M115 232 V227" stroke-width="1"/>
+<path d="M120 232 V227" stroke-width="1"/>
+<path d="M125 232 V227" stroke-width="1"/>
+<path d="M130 232 V227" stroke-width="1"/>
+<path d="M135 232 V222" stroke-width="1"/>
+<path d="M140 232 V227" stroke-width="1"/>
+<path d="M145 232 V227" stroke-width="1"/>
+<path d="M150 232 V227" stroke-width="1"/>
+<path d="M155 232 V227" stroke-width="1"/>
+<path d="M160 232 V218" stroke-width="1"/>
+<path d="M165 232 V227" stroke-width="1"/>
+<path d="M170 232 V227" stroke-width="1"/>
+<path d="M175 232 V227" stroke-width="1"/>
+<path d="M180 232 V227" stroke-width="1"/>
+<path d="M185 232 V222" stroke-width="1"/>
+<path d="M190 232 V227" stroke-width="1"/>
+<path d="M195 232 V227" stroke-width="1"/>
+<path d="M200 232 V227" stroke-width="1"/>
+<path d="M205 232 V227" stroke-width="1"/>
+<path d="M210 232 V218" stroke-width="1"/>
+<path d="M215 232 V227" stroke-width="1"/>
+<path d="M220 232 V227" stroke-width="1"/>
+<path d="M225 232 V227" stroke-width="1"/>
+<path d="M230 232 V227" stroke-width="1"/>
+<path d="M235 232 V222" stroke-width="1"/>
+<path d="M240 232 V227" stroke-width="1"/>
+<path d="M245 232 V227" stroke-width="1"/>
+<path d="M250 232 V227" stroke-width="1"/>
+<path d="M255 232 V227" stroke-width="1"/>
+<path d="M260 232 V218" stroke-width="1"/>
+<path d="M265 232 V227" stroke-width="1"/>
+<path d="M270 232 V227" stroke-width="1"/>
+<path d="M275 232 V227" stroke-width="1"/>
+<path d="M280 232 V227" stroke-width="1"/>
+<path d="M285 232 V222" stroke-width="1"/>
+<path d="M290 232 V227" stroke-width="1"/>
+<path d="M295 232 V227" stroke-width="1"/>
+<path d="M300 232 V227" stroke-width="1"/>
+<path d="M305 232 V227" stroke-width="1"/>
+<path d="M310 232 V218" stroke-width="1"/>
+<path d="M315 232 V227" stroke-width="1"/>
+<path d="M320 232 V227" stroke-width="1"/>
+<path d="M325 232 V227" stroke-width="1"/>
+<path d="M330 232 V227" stroke-width="1"/>
+<path d="M335 232 V222" stroke-width="1"/>
+<path d="M340 232 V227" stroke-width="1"/>
+<path d="M345 232 V227" stroke-width="1"/>
+<path d="M350 232 V227" stroke-width="1"/>
+<path d="M355 232 V227" stroke-width="1"/>
+<path d="M360 232 V218" stroke-width="1"/>
+<path d="M365 232 V227" stroke-width="1"/>
+<path d="M370 232 V227" stroke-width="1"/>
+<path d="M375 232 V227" stroke-width="1"/>
+<path d="M380 232 V227" stroke-width="1"/>
+<path d="M385 232 V222" stroke-width="1"/>
+<path d="M390 232 V227" stroke-width="1"/>
+<path d="M395 232 V227" stroke-width="1"/>
+<path d="M400 232 V227" stroke-width="1"/>
+<path d="M405 232 V227" stroke-width="1"/>
+<path d="M410 232 V218" stroke-width="1"/>
+<path d="M415 232 V227" stroke-width="1"/>
+<path d="M420 232 V227" stroke-width="1"/>
+<path d="M425 232 V227" stroke-width="1"/>
+<path d="M430 232 V227" stroke-width="1"/>
+<path d="M435 232 V222" stroke-width="1"/>
+<path d="M440 232 V227" stroke-width="1"/>
+<path d="M445 232 V227" stroke-width="1"/>
+<path d="M450 232 V227" stroke-width="1"/>
+<path d="M455 232 V227" stroke-width="1"/>
+<path d="M460 232 V218" stroke-width="1"/>
+<path d="M465 232 V227" stroke-width="1"/>
+<path d="M470 232 V227" stroke-width="1"/>
+<path d="M475 232 V227" stroke-width="1"/>
+<path d="M480 232 V227" stroke-width="1"/>
+<path d="M485 232 V222" stroke-width="1"/>
+<path d="M490 232 V227" stroke-width="1"/>
+<path d="M495 232 V227" stroke-width="1"/>
+<path d="M500 232 V227" stroke-width="1"/>
+<path d="M505 232 V227" stroke-width="1"/>
+<path d="M510 232 V218" stroke-width="1"/>
+<path d="M515 232 V227" stroke-width="1"/>
+<path d="M520 232 V227" stroke-width="1"/>
+<path d="M525 232 V227" stroke-width="1"/>
+<path d="M530 232 V227" stroke-width="1"/>
+<path d="M535 232 V222" stroke-width="1"/>
+<path d="M540 232 V227" stroke-width="1"/>
+<path d="M545 232 V227" stroke-width="1"/>
+<path d="M550 232 V227" stroke-width="1"/>
+<path d="M555 232 V227" stroke-width="1"/>
+<path d="M560 232 V218" stroke-width="1"/>
+<path d="M565 232 V227" stroke-width="1"/>
+<path d="M570 232 V227" stroke-width="1"/>
+<path d="M575 232 V227" stroke-width="1"/>
+<path d="M580 232 V227" stroke-width="1"/>
+<path d="M585 232 V222" stroke-width="1"/>
+<path d="M590 232 V227" stroke-width="1"/>
+<path d="M595 232 V227" stroke-width="1"/>
+<path d="M600 232 V227" stroke-width="1"/>
+<path d="M605 232 V227" stroke-width="1"/>
+<path d="M610 232 V218" stroke-width="1"/>
+<circle cx="155" cy="107" r="4" fill="#ffffff"/>
+<circle cx="225" cy="107" r="4" fill="#ffffff"/>
+<circle cx="535" cy="107" r="4" fill="#ffffff"/>
+<circle cx="605" cy="107" r="4" fill="#ffffff"/>
+<path d="M155.0 103.0 L155.0 70.0 L172.0 70.0"/>
+<rect x="172" y="58" width="46" height="24" fill="#ffffff"/>
+<path d="M218.0 70.0 L225.0 70.0 L225.0 103.0"/>
+<path d="M535.0 103.0 L535.0 70.0 L548.0 70.0"/>
+<path d="M548.0 70.0 L554.6 70.0 L558.5 77.0 L566.1 63.0 L573.9 77.0 L581.5 63.0 L585.4 70.0 L592.0 70.0"/>
+<path d="M592.0 70.0 L605.0 70.0 L605.0 103.0"/>
+<circle cx="338" cy="114" r="3.5" fill="#222222"/>
+<path d="M338 114 q7 5 0 10 t0 10 L338 138"/>
+<circle cx="338" cy="152" r="14" fill="#ffffff"/>
+<path d="M338 166 q7 5 0 10 t0 10 t0 10 t0 10 t0 10 t0 10 L338 232"/>
+<circle cx="110" cy="232" r="3.5" fill="#222222"/>
+<circle cx="338" cy="232" r="3.5" fill="#222222"/>
+<circle cx="610" cy="232" r="3.5" fill="#222222"/>
+<polygon points="160.0,239.0 147.2,243.8 147.2,234.2" fill="#222222" stroke="none"/>
+<path d="M114.0 300.0 L334.0 300.0"/>
+<polygon points="114.0,300.0 123.6,296.4 123.6,303.6" fill="#222222" stroke="none"/>
+<polygon points="334.0,300.0 324.4,303.6 324.4,296.4" fill="#222222" stroke="none"/>
+<path d="M342.0 300.0 L606.0 300.0"/>
+<polygon points="342.0,300.0 351.6,296.4 351.6,303.6" fill="#222222" stroke="none"/>
+<polygon points="606.0,300.0 596.4,303.6 596.4,296.4" fill="#222222" stroke="none"/>
+<path d="M110.0 246.0 L110.0 370.0 L251.0 370.0"/>
+<path d="M251 354 V386"/>
+<path d="M265 361 V379" stroke-width="4"/>
+<path d="M265.0 370.0 L440.0 370.0"/>
+<circle cx="440" cy="370" r="3" fill="#ffffff"/>
+<path d="M440.0 370.0 L472.0 352.0"/>
+<circle cx="482" cy="370" r="3" fill="#ffffff"/>
+<path d="M482.0 370.0 L610.0 370.0 L610.0 246.0"/>
+<polygon points="110.0,345.0 114.8,357.8 105.2,357.8" fill="#222222" stroke="none"/>
+<polygon points="610.0,345.0 605.2,332.2 614.8,332.2" fill="#222222" stroke="none"/>
+<polygon points="190.0,370.0 202.8,365.2 202.8,374.8" fill="#222222" stroke="none"/>
+</g>
+<g fill="#222222" stroke="none">
+<text x="110" y="190" text-anchor="middle" font-size="13">0</text>
+<text x="160" y="190" text-anchor="middle" font-size="13">10</text>
+<text x="210" y="190" text-anchor="middle" font-size="13">20</text>
+<text x="260" y="190" text-anchor="middle" font-size="13">30</text>
+<text x="310" y="190" text-anchor="middle" font-size="13">40</text>
+<text x="360" y="190" text-anchor="middle" font-size="13">50</text>
+<text x="410" y="190" text-anchor="middle" font-size="13">60</text>
+<text x="460" y="190" text-anchor="middle" font-size="13">70</text>
+<text x="510" y="190" text-anchor="middle" font-size="13">80</text>
+<text x="560" y="190" text-anchor="middle" font-size="13">90</text>
+<text x="610" y="190" text-anchor="middle" font-size="13">100</text>
+<text x="195" y="75" text-anchor="middle" font-size="14">RB</text>
+<text x="195" y="44" text-anchor="middle" font-size="16">R</text>
+<text x="570" y="50" text-anchor="middle" font-size="16">X</text>
+<text x="38" y="112" text-anchor="middle" font-size="16">F</text>
+<text x="668" y="112" text-anchor="middle" font-size="16">H</text>
+<text x="338" y="92" text-anchor="middle" font-size="16">D</text>
+<text x="338" y="157" text-anchor="middle" font-size="15">G</text>
+<text x="104" y="268" text-anchor="end" font-size="16">A</text>
+<text x="338" y="268" text-anchor="middle" font-size="16">B</text>
+<text x="618" y="268" text-anchor="start" font-size="16">C</text>
+<text x="224" y="322" text-anchor="middle" font-size="16">l</text>
+<text x="474" y="322" text-anchor="middle" font-size="16">(100 − l)</text>
+<text x="258" y="344" text-anchor="middle" font-size="16">E</text>
+<text x="236" y="364" text-anchor="middle" font-size="18">+</text>
+<text x="282" y="364" text-anchor="middle" font-size="18">−</text>
+<text x="462" y="398" text-anchor="middle" font-size="16">(K)</text>
+</g>
+</svg>
