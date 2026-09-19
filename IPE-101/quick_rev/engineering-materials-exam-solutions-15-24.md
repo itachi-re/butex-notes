@@ -61,7 +61,7 @@ year-wise (newest first), with the same figures reused for repeated questions.
 | Max C solubility in austenite | 1147 °C | 2.14 |
 | Cementite (Fe₃C) | — | 6.67 (used here) |
 
-![Fe-Fe3C equilibrium diagram](../../assets/materials-science/fe-fe3c-diagram.svg)
+![Fe-Fe3C equilibrium diagram](../../assets/fe-fe3c-diagram.svg)
 *Fig. QR-1 — Fe–Fe₃C diagram: note the peritectic (1493 °C), eutectic (1147 °C, 4.3 %C)
 and eutectoid (727 °C, 0.76 %C) reactions.*
 
@@ -73,7 +73,7 @@ and eutectoid (727 °C, 0.76 %C) reactions.*
 | Rockwell | Diamond cone (C) or steel ball (B) | Minor 10 kgf + major (60/100/150 kgf) | Direct dial reading, HRB/HRC | Quick production testing |
 | Vickers | Diamond pyramid (136°) | 1–120 kgf | VHN = 1.854P/d² | Thin sections, all hardness ranges |
 
-![Brinell and Rockwell test setup](../../assets/materials-science/brinell-rockwell-test.svg)
+![Brinell and Rockwell test setup](../../assets/brinell-rockwell-test.svg)
 *Fig. QR-2 — Indentation hardness testing principle.*
 
 ---
@@ -201,7 +201,7 @@ For BCC: $n=2$, and atoms touch along the body diagonal, so $4R=\sqrt3\,a \Right
 
 $$APF=\frac{2\cdot\frac43\pi R^3}{\left(\frac{4R}{\sqrt3}\right)^3}=\frac{\frac83\pi R^3}{\frac{64R^3}{3\sqrt3}}=\frac{\sqrt3\,\pi}{8}\approx 0.68$$
 
-![Unit cells SC, BCC, FCC](../../assets/materials-science/unit-cells-sc-bcc-fcc.svg)
+![Unit cells SC, BCC, FCC](../../assets/unit-cells-sc-bcc-fcc.svg)
 *Fig. 2024-1b — BCC has a body-centre atom in addition to 8 corner atoms.*
 
 #### Q1(c) [2024] Punching-force numerical
@@ -230,7 +230,7 @@ $$F = 350\times10^6 \times 1.5708\times10^{-3} = 5.497\times10^5\ \text{N}$$
 An S-N curve plots cyclic stress amplitude $S$ against number of cycles to failure $N$
 (log scale). Two families are obtained:
 
-![S-N curves ferrous vs non-ferrous](../../assets/materials-science/sn-curve-ferrous-nonferrous.svg)
+![S-N curves ferrous vs non-ferrous](../../assets/sn-curve-ferrous-nonferrous.svg)
 *Fig. 2024-2b — Ferrous alloys show a flat endurance-limit plateau below which fatigue
 life is (in theory) infinite; non-ferrous alloys (Al, Cu, Mg) keep sloping down, so a
 fatigue strength at a fixed life (e.g. 10⁸ cycles) is quoted instead.*
@@ -240,7 +240,7 @@ fatigue strength at a fixed life (e.g. 10⁸ cycles) is quoted instead.*
 **Creep** is the slow, time-dependent plastic deformation of a material under
 constant stress (usually at $T>0.4T_m$).
 
-![Creep curve](../../assets/materials-science/creep-curve.svg)
+![Creep curve](../../assets/creep-curve.svg)
 *Fig. 2024-2c — Three stages:*
 1. **Primary (I):** decreasing creep rate — strain hardening dominates.
 2. **Secondary/steady-state (II):** constant, minimum creep rate — hardening balances
@@ -301,7 +301,7 @@ plates, general fabrication.
 
 #### Q4(b) [2024] Brinell hardness test procedure
 
-![Brinell test](../../assets/materials-science/brinell-rockwell-test.svg)
+![Brinell test](../../assets/brinell-rockwell-test.svg)
 *Fig. 2024-4b*
 
 1. Press a hardened steel/tungsten-carbide ball (dia. $D$, commonly 10 mm) into the
@@ -338,7 +338,7 @@ wear resistance, restore properties after cold work.
 **Quenching** = rapid cooling from the austenitising temperature to obtain a hard
 (often martensitic) structure by suppressing diffusion-controlled transformations.
 
-![Quenching cooling curve](../../assets/materials-science/quenching-cooling-curve.svg)
+![Quenching cooling curve](../../assets/quenching-cooling-curve.svg)
 *Fig. 2024-5b — cooling passes through a vapour-blanket, boiling and convection stage
 (see [Q7(c) 2021](#q7c-2021-quenching-mechanism)).*
 
@@ -382,7 +382,7 @@ shrinkage, strength development"]
 
 #### Q6(b) [2024] Frenkel and Schottky defects
 
-![Frenkel and Schottky defects](../../assets/materials-science/frenkel-schottky-defects.svg)
+![Frenkel and Schottky defects](../../assets/frenkel-schottky-defects.svg)
 *Fig. 2024-6b*
 
 - **Schottky defect** — a *pair* of vacancies (one cation + one anion) leave the
@@ -408,7 +408,7 @@ amorphous solid changes from a hard, brittle "glassy" state to a viscous,
 rubbery/liquid state on heating (a gradual change in slope of specific volume vs. T,
 not a sharp melting point).
 
-![Specific volume vs temperature](../../assets/materials-science/specific-volume-temperature-glass.svg)
+![Specific volume vs temperature](../../assets/specific-volume-temperature-glass.svg)
 *Fig. 2024-7a — glass (blue) has no discontinuity at $T_g$, unlike the sharp volume
 drop of a crystalline solid (green) at $T_m$.*
 
@@ -547,7 +547,7 @@ $$\rho=\frac{104.0}{14.49}=7.18\ \text{g/cm}^3$$
 
 #### Q1(d) [2023] Family of {111} planes
 
-![(111) plane](../../assets/materials-science/miller-111-plane.svg)
+![(111) plane](../../assets/miller-111-plane.svg)
 *Fig. 2023-1d — the (111) plane intercepts all three axes at 1 lattice parameter.*
 
 The **{111} family** includes all planes crystallographically equivalent to (111) by
@@ -565,7 +565,7 @@ refine grain size, improve wear resistance, improve toughness at low temperature
 
 #### Q2(b) [2023] BCC structure and atoms per cell
 
-![Unit cells](../../assets/materials-science/unit-cells-sc-bcc-fcc.svg)
+![Unit cells](../../assets/unit-cells-sc-bcc-fcc.svg)
 *Fig. 2023-2b*
 
 Atom positions: 8 corner atoms (each shared by 8 cells → 8×1/8 = 1) + 1 body-centre
@@ -587,7 +587,7 @@ $APF_{FCC}=\pi/(3\sqrt2)\approx0.74$.
 
 #### Q3(b) [2023] Fe-Fe₃C equilibrium diagram
 
-![Fe-Fe3C diagram](../../assets/materials-science/fe-fe3c-diagram.svg)
+![Fe-Fe3C diagram](../../assets/fe-fe3c-diagram.svg)
 *Fig. 2023-3b — labelled per the [Quick Reference table](#quick-reference).* Key
 phases: **L** liquid, **δ**-ferrite (BCC), **γ**-austenite (FCC, max 2.14 %C at
 1147 °C), **α**-ferrite (BCC, max 0.022 %C), **Fe₃C** cementite (6.67 %C, hard &
@@ -777,7 +777,7 @@ in full: **Brinell test** — see [2024 Q4(b)](#q4b-2024-brinell-hardness-test-p
 
 #### Q1(a) [2022] Stress-strain curve of mild steel
 
-![Stress-strain curve mild steel](../../assets/materials-science/stress-strain-mild-steel.svg)
+![Stress-strain curve mild steel](../../assets/stress-strain-mild-steel.svg)
 *Fig. 2022-1a* — Labelled points: **P** proportional limit (Hooke's law valid up to
 here), **E** elastic limit, **Y (upper/lower)** yield point (plastic flow begins),
 **UTS** ultimate tensile strength (max. engineering stress), **F** fracture point
@@ -881,7 +881,7 @@ Diagram as before ([2023 Q3(b)](#q3b-2023-fe-fe3c-equilibrium-diagram)). The thr
 
 #### Q5(b) [2022] Rockwell hardness test
 
-![Rockwell test](../../assets/materials-science/brinell-rockwell-test.svg)
+![Rockwell test](../../assets/brinell-rockwell-test.svg)
 *Fig. 2022-5b (right)*
 
 1. Apply a small **minor load** (10 kgf) to seat the indenter (diamond cone for HRC,
@@ -1047,7 +1047,7 @@ resistance (see [2022 Q5(c)](#q5c-2022-chromium-nickel-steel-and-manganese-steel
 material's fracture behaviour changes from ductile (high energy absorption) to
 brittle (low energy absorption), seen as a sharp drop in Charpy impact energy.
 
-![DBTT curve](../../assets/materials-science/dbtt-curve.svg)
+![DBTT curve](../../assets/dbtt-curve.svg)
 *Fig. 2021-3b*
 
 **Significance for RMS Titanic:** the hull steel is commonly reported to have had
@@ -1144,7 +1144,7 @@ working stages (e.g. wire drawing).
 
 **Quenching** definition: see [2024 Q5(b)](#q5b-2024-quenching-and-quenching-media).
 
-![Quenching cooling curve](../../assets/materials-science/quenching-cooling-curve.svg)
+![Quenching cooling curve](../../assets/quenching-cooling-curve.svg)
 *Fig. 2021-7c*
 
 **Mechanism (3 stages of cooling):**
@@ -1353,7 +1353,7 @@ Same as [2024 Q7(c)](#q7c-2024-glass-forming-methods).
 #### Q8(a) [2020] APF definition; FCC unit cell
 
 Definition: see [2024 Q1(b)](#q1b-2024-apf-of-bcc). FCC unit cell figure:
-[Fig. 2023-2b/unit cells](../../assets/materials-science/unit-cells-sc-bcc-fcc.svg) —
+[Fig. 2023-2b/unit cells](../../assets/unit-cells-sc-bcc-fcc.svg) —
 8 corner atoms (1/8 each) + 6 face-centre atoms (1/2 each) = 4 atoms/cell.
 
 #### Q8(b) [2020] Applications of composite materials
@@ -1413,7 +1413,7 @@ $$APF=\frac{n\cdot\frac43\pi R^3}{a^3}=\frac{1\cdot\frac43\pi R^3}{(2R)^3}=\frac
 
 $$APF=\frac{3.1416}{6}\approx0.524\approx 0.52 \quad \blacksquare$$
 
-See [Fig. unit cells](../../assets/materials-science/unit-cells-sc-bcc-fcc.svg) (left).
+See [Fig. unit cells](../../assets/unit-cells-sc-bcc-fcc.svg) (left).
 
 ---
 
@@ -1446,7 +1446,7 @@ necking region, fracture point.
 
 #### Q2(b) [2018] Blast-furnace reactions
 
-![Blast furnace zones](../../assets/materials-science/blast-furnace.svg)
+![Blast furnace zones](../../assets/blast-furnace.svg)
 *Fig. 2018-2b*
 
 | Zone (approx. T) | Reaction |
@@ -1537,7 +1537,7 @@ Same as [2023 Q8(a)](#q8a-2023-properties-and-classification-of-ceramics).
 
 #### Q8(b) [2018] Force-extension curve: ductile vs brittle
 
-![Force-extension curve](../../assets/materials-science/force-extension-ductile-brittle.svg)
+![Force-extension curve](../../assets/force-extension-ductile-brittle.svg)
 *Fig. 2018-8b*
 
 - **Ductile material** — curve rises non-linearly, shows a clear yield/maximum load
@@ -1695,7 +1695,7 @@ acrylonitrile-butadiene-styrene).
 
 Structure: see [2024 Q7(a)](#q7a-2024-glass-transition-temperature-composition-and-structure-of-glass).
 
-![Specific volume vs temperature](../../assets/materials-science/specific-volume-temperature-glass.svg)
+![Specific volume vs temperature](../../assets/specific-volume-temperature-glass.svg)
 *Fig. 2017-6b — a crystalline solid shows a sharp volume drop at $T_m$; a glass
 (non-crystalline) shows only a change in slope at $T_g$, with no discontinuity,
 because it does not crystallise on cooling.*
@@ -1816,7 +1816,7 @@ Same as [2020 Q4(b)](#q4b-2020-wrought-iron-characteristics-and-uses).
 when it is in electrical contact with a more "noble" (cathodic) metal, in the
 presence of an electrolyte, forming a galvanic cell.
 
-![Galvanic cell](../../assets/materials-science/galvanic-cell.svg)
+![Galvanic cell](../../assets/galvanic-cell.svg)
 *Fig. 2016-3c*
 
 **Prevention:** avoid direct contact of dissimilar metals (use insulating gaskets/
@@ -1960,7 +1960,7 @@ stainless steels), improves strength without much loss of ductility — see also
 
 Same theme as [2022 Q2(a)](#q2a-2022-crystal-structure-and-crystal-defects) — most
 metals crystallise as BCC, FCC or HCP; see
-[Fig. unit cells](../../assets/materials-science/unit-cells-sc-bcc-fcc.svg) for BCC and
+[Fig. unit cells](../../assets/unit-cells-sc-bcc-fcc.svg) for BCC and
 FCC atom arrangements.
 
 #### Q3(c) [2015] Galvanizing vs vulcanizing
@@ -2051,7 +2051,7 @@ answers above):
   match the verification values: 2024 Q1c (≈550 kN), 2024 Q8c (22.3 MPa /
   0.178 mm), 2023 Q1c / 2018 Q1c (7.18 g/cm³), 2020 Q1d (8.89 g/cm³), 2017 Q3c /
   2016 Q1c (119.4 mm), 2015 Q1c (100 MPa / 0.5 mm).
-- **Figures:** every referenced `../../assets/materials-science/...svg` file was
+- **Figures:** every referenced `../../assets/...svg` file was
   generated and is included in the delivered zip; every process/classification
   visual not built as an SVG is given as a Mermaid block inline.
 - **Mermaid & LaTeX:** all Mermaid blocks use quoted node labels and only
