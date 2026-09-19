@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 400" width="620" height="400" font-family="Arial, Helvetica, sans-serif" font-size="16">
+<rect width="620" height="400" fill="#ffffff"/>
+<g fill="none" stroke="#222222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M170 340 V70" stroke="#dddddd" stroke-width="1"/>
+<path d="M260 340 V70" stroke="#dddddd" stroke-width="1"/>
+<path d="M350 340 V70" stroke="#dddddd" stroke-width="1"/>
+<path d="M440 340 V70" stroke="#dddddd" stroke-width="1"/>
+<path d="M530 340 V70" stroke="#dddddd" stroke-width="1"/>
+<path d="M80 250 H530" stroke="#dddddd" stroke-width="1"/>
+<path d="M80 160 H530" stroke="#dddddd" stroke-width="1"/>
+<path d="M80 70 H530" stroke="#dddddd" stroke-width="1"/>
+<path d="M80.0 340.0 L575.0 340.0"/>
+<path d="M80.0 340.0 L80.0 43.0"/>
+<polygon points="575.0,340.0 562.2,344.8 562.2,335.2" fill="#222222" stroke="none"/>
+<polygon points="80.0,43.0 84.8,55.8 75.2,55.8" fill="#222222" stroke="none"/>
+<path d="M80 340 L170 335.5 L260 318.4 L350 307.6 L440 300.4 L530 289.6" stroke-width="1.5"/>
+<circle cx="170" cy="335.5" r="3.5" fill="#222222"/>
+<circle cx="260" cy="318.4" r="3.5" fill="#222222"/>
+<circle cx="350" cy="307.6" r="3.5" fill="#222222"/>
+<circle cx="440" cy="300.4" r="3.5" fill="#222222"/>
+<circle cx="530" cy="289.6" r="3.5" fill="#222222"/>
+</g>
+<g fill="#222222" stroke="none">
+<text x="170" y="362" text-anchor="middle" font-size="14">10</text>
+<text x="260" y="362" text-anchor="middle" font-size="14">20</text>
+<text x="350" y="362" text-anchor="middle" font-size="14">30</text>
+<text x="440" y="362" text-anchor="middle" font-size="14">40</text>
+<text x="530" y="362" text-anchor="middle" font-size="14">50</text>
+<text x="70" y="255" text-anchor="end" font-size="14">10</text>
+<text x="70" y="165" text-anchor="end" font-size="14">20</text>
+<text x="70" y="75" text-anchor="end" font-size="14">30</text>
+<text x="70" y="358" text-anchor="end" font-size="14">0</text>
+<text x="591" y="345" text-anchor="middle" font-size="16">V</text>
+<text x="96" y="47" text-anchor="middle" font-size="16">I</text>
+<text x="332" y="97" text-anchor="start" font-size="14">Let, 5 cell = 1 unit</text>
+</g>
+</svg>
