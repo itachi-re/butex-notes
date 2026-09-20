@@ -6,7 +6,7 @@ To determine the specific heat of a liquid by the method of cooling, comparing i
 ## Theory
 Specific heat $S$ is the heat needed to raise the temperature of unit mass of a material by 1 °C. By Newton's law of cooling, the rate of cooling of a body is directly proportional to the temperature difference between the body and its surroundings; this difference must be small. A heated liquid left to cool loses heat at a rate proportional to its temperature excess over the surroundings.
 
-Symbols (source notation):
+Symbols:
 
 - $m$ = mass of calorimeter with stirrer (kg); $s$ = specific heat of calorimeter material (called $S_c$ in the calculation).
 - $M_1$ = mass of liquid (kg); $S_1$ = specific heat of liquid (J kg$^{-1}$ K$^{-1}$); $t_1$ = time for liquid to cool from $\theta_1$ °C to $\theta_2$ °C (s).
@@ -19,7 +19,7 @@ $$
 \text{water: } \frac{(M_2 S_2 + ms)(\theta_1 - \theta_2)}{t_2}\ \mathrm{J\,s^{-1}}
 $$
 
-The two rates are equal (Newton's law of cooling, per source):
+The two rates are equal (Newton's law of cooling):
 
 $$
 \frac{(M_1 S_1 + ms)(\theta_1 - \theta_2)}{t_1} = \frac{(M_2 S_2 + ms)(\theta_1 - \theta_2)}{t_2}
@@ -28,8 +28,6 @@ $$
 $$
 S_1 = \frac{M_2 S_2 t_1 + ms\,(t_1 - t_2)}{M_1 t_2}
 $$
-
-> **Source note:** in the first equality line of the source, the liquid's temperature factor is written like $(\theta_2 - \theta_2)$; the next line (the "or" line) has $(\theta_1 - \theta_2)$, which is used above.
 
 ## Principle / Law
 **Newton's law of cooling:** the rate of loss of heat of a liquid is directly proportional to the difference between its temperature and that of the surroundings. Under the same conditions, the liquid and the water therefore have equal rates of cooling over the same temperature fall.
@@ -50,51 +48,58 @@ $$
 ## Procedure
 1. Weigh a clean, dry calorimeter together with its stirrer.
 2. Heat water in another container to 70–75 °C, pour it into the calorimeter up to a fixed mark, and place the calorimeter in the two-walled chamber.
-3. Stir slowly and record the water temperature at 1 °C intervals as it cools (it is above room temperature). Take 20–25 readings, then weigh the calorimeter with water. Mass of water = this weighing minus the first (empty) weighing.
+3. Stir slowly and record the water temperature every 2 minutes (every 3 minutes after 30 minutes) as it cools (it is above room temperature). Take 20 readings, then weigh the calorimeter with water. Mass of water = this weighing minus the first (empty) weighing.
 4. Discard the water, clean and dry the calorimeter. Pour in the experimental liquid heated to 70–75 °C up to the same mark and place it in the chamber.
-5. Stir slowly and repeat step 3 for the liquid (20–25 readings). Weigh the calorimeter with liquid; mass of liquid = this (3rd) weighing minus the first.
+5. Stir slowly and repeat step 3 for the liquid (20 readings). Weigh the calorimeter with liquid; mass of liquid = this (3rd) weighing minus the first.
 6. Enter all data in a table and draw a graph from it.
 
 ## Observation Table
+**Weighings**
+
+| Weighing | Mass (g) |
+|:---|:---:|
+| 1. Empty calorimeter with stirrer, $M_c$ | 12 |
+| 2. Calorimeter with water | 112 |
+| 3. Calorimeter with liquid | 112 |
+| Mass of water, $M_w$ = (2) − (1) | 100 |
+| Mass of liquid, $M_l$ = (3) − (1) | 100 |
+
 **Table:** Time–Temperature record
 
 | No. of observation | Time (min) | Temperature (°C), Water | Temperature (°C), Liquid |
 |:---:|:---:|:---:|:---:|
-| 1 | 0 | | |
-| 2 | 2 | | |
-| 3 | 4 | | |
-| 4 | 6 | | |
-| 5 | 8 | | |
-| 6 | 10 | | |
-| 7 | 12 | | |
-| 8 | 14 | | |
-| 9 | 16 | | |
-| 10 | 18 | | |
-| 11 | 20 | | |
-| 12 | 22 | | |
-| 13 | 24 | | |
-| 14 | 26 | | |
-| 15 | 28 | | |
-| 16 | 30 | | |
-| 17 | 33 | | |
-| 18 | 36 | | |
-| 19 | 39 | | |
-| 20 | 42 | | |
-
-> **Source note:** temperature cells are blank in the source table (the temperatures appear only as plotted points on the graph). The procedure says readings are taken at 1 °C intervals, while the table uses fixed time steps (2 min, then 3 min from row 17); kept as written.
+| 1 | 0 | 70.0 | 70.0 |
+| 2 | 2 | 67.5 | 66.5 |
+| 3 | 4 | 65.0 | 63.5 |
+| 4 | 6 | 62.5 | 60.5 |
+| 5 | 8 | 60.5 | 58.0 |
+| 6 | 10 | 58.5 | 55.5 |
+| 7 | 12 | 56.5 | 53.5 |
+| 8 | 14 | 55.0 | 51.5 |
+| 9 | 16 | 53.5 | 49.5 |
+| 10 | 18 | 52.0 | 48.0 |
+| 11 | 20 | 50.5 | 46.0 |
+| 12 | 22 | 49.0 | 45.0 |
+| 13 | 24 | 48.0 | 43.5 |
+| 14 | 26 | 46.5 | 42.5 |
+| 15 | 28 | 45.5 | 41.5 |
+| 16 | 30 | 44.5 | 40.5 |
+| 17 | 33 | 43.0 | 39.0 |
+| 18 | 36 | 42.0 | 38.0 |
+| 19 | 39 | 40.5 | 37.0 |
+| 20 | 42 | 39.5 | 36.0 |
 
 ## Graph
 ![Cooling curves of water and liquid](../../assets/cooling-curve.svg)
 
-- Axes as in source: temperature (°C) on y, time (min) on x; two cooling curves, labelled Water and Liquid.
-- Both curves start near 65–69 °C and fall to about 38–41 °C by about 44 min. The liquid curve starts higher, crosses the water curve at about 9 min, and ends lower.
-- Reference levels (about 50 °C, 45.5 °C, 41 °C) and construction lines give the cooling times $t_1 = 9$ and $t_2 = 12$ (as written on the graph; units not written, minutes on the x-axis).
-- Curves and construction lines are traced from the hand-drawn graph and are approximate; the source gives no numeric temperature values.
+- Axes: temperature (°C) on the y-axis, time (min) on the x-axis; two cooling curves, labelled Water and Liquid.
+- Both curves start at 70 °C. The liquid cools faster, so its curve lies below the water curve throughout.
+- Horizontal lines are drawn at $\theta_1 = 60$ °C and $\theta_2 = 50$ °C. From the graph, the liquid takes $t_1 = 9$ min and the water takes $t_2 = 12$ min to cool from $\theta_1$ to $\theta_2$.
 
 ## Calculation
-Data (from source): $M_c = 12$ g, $S_c = 0.0909$ (unit not stated), $M_w = 100$ g, $S_w = 1$ cal/gm·°C, $M_l = 100$ g, $t_1 = 9$, $t_2 = 12$.
+Data: $M_c = 12$ g, $S_c = 0.0909$ cal/g·°C, $M_w = 100$ g, $S_w = 1$ cal/gm·°C, $M_l = 100$ g, $t_1 = 9$ min, $t_2 = 12$ min.
 
-Source notation in this calculation: $M_c S_c = ms$, $M_w S_w = M_2 S_2$, $M_l = M_1$.
+Notation in this calculation: $M_c S_c = ms$, $M_w S_w = M_2 S_2$, $M_l = M_1$.
 
 $$
 S_1 = \frac{M_w S_w t_1 + M_c S_c (t_1 - t_2)}{M_l\, t_2}
@@ -104,14 +109,12 @@ $$
 S_1 = \frac{(100 \times 1 \times 9) + 12 \times 0.0909\,(9 - 12)}{100 \times 12} = 0.747\ \mathrm{cal/gm\cdot{}^\circ C}
 $$
 
-(Arithmetic check: numerator $= 900 - 3.27 = 896.73$; $896.73 / 1200 = 0.7473$, matching the source.)
+(Arithmetic check: numerator $= 900 - 3.27 = 896.73$; $896.73 / 1200 = 0.7473$.)
 
 ## Result
 Specific heat of the liquid, $S_1 = 0.747\ \mathrm{cal/gm\cdot{}^\circ C}$.
 
 ## Precautions
-Taken from the source's Procedure and Discussion (the source has no separate precautions list):
-
 1. Take equal volumes of water and liquid (fill to the same mark).
 2. Do not use a volatile liquid.
 3. Use a clean, dry calorimeter and weigh it accurately.
@@ -121,5 +124,3 @@ Taken from the source's Procedure and Discussion (the source has no separate pre
 - Unclean calorimeter and inaccurate weighing, temperature or time readings make the result inaccurate.
 - Unequal volumes of water and liquid introduce error.
 - The bottom of the calorimeter was blackened, which increased its heat radiation.
-
-> **Source note:** the first Discussion item in the source is partly garbled ("dirty and dry ... then experimental accurate"); the meaning above is the closest legible reading.
