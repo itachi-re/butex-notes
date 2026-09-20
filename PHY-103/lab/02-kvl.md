@@ -39,7 +39,7 @@ $$
 ## Diagram
 ![KVL series circuit diagram](../../assets/kvl-circuit.svg)
 
-*Fig. 1: source $V_s$ in series with $R_1$ and $R_2$; voltmeter $V_1$ across $R_1$ and voltmeter $V_2$ across $R_2$.* The source draws no polarity signs or current arrows.
+**Fig. 1:** source $V_s$ in series with $R_1$ and $R_2$; voltmeter $V_1$ across $R_1$ and voltmeter $V_2$ across $R_2$. The source draws no polarity signs or current arrows.
 
 ## Procedure
 1. Construct the circuit as in Fig. 1.
