@@ -17,16 +17,14 @@ $$
 - $G$ = conductance (constant); $R$ = resistance.
 - Put $I = y$, $V = x$, $\dfrac{1}{R} = m$ in (1): $y = mx$, a straight line through the origin.
 - Apply different voltages across a resistor, read $V$ (voltmeter) and $I$ (ammeter), and plot $I$ against $V$. A straight line verifies Ohm's law.
-- The slope of the line is used to get $R$.
-
-> **Source note:** the source says the slope "is calculated as $V/I$" and then "is equal to $1/R$". With $I$ on the y-axis and $V$ on the x-axis (as plotted), the slope is $\Delta I/\Delta V = 1/R$; $V/I$ would be $R$. Kept as written; the two statements are not consistent with each other.
+- With $I$ on the y-axis and $V$ on the x-axis, the slope of the line is $\Delta I/\Delta V = 1/R$, which gives $R$.
 
 ## Principle / Law
 **Ohm's law:** at constant temperature and physical conditions, current through a conductor is directly proportional to the voltage across it, $V = IR$.
 
 ## Apparatus
 1. Bread board
-2. Resistor
+2. Resistor (marked value 470 Ω)
 3. Variable DC power supply
 4. Ammeter
 5. Voltmeter
@@ -47,35 +45,53 @@ $$
 ## Observation Table
 **Table 1.** Readings of voltmeter and ammeter
 
-| SL. No. | Source Voltage $V_s$ | Voltmeter Reading, Voltage (V) | Ammeter Reading, Current (mA) |
+| SL. No. | Source Voltage $V_s$ (V) | Voltmeter Reading, Voltage (V) | Ammeter Reading, Current (mA) |
 |:---:|:---:|:---:|:---:|
 | 1 | 0 | 0 | 0 |
-| 2 | 2 | | |
-| 3 | 4 | | |
-| 4 | 6 | | |
-| 5 | 8 | | |
-| 6 | 10 | | |
-
-> **Source note:** voltmeter and ammeter cells for rows 2–6 are blank in the source (not recorded).
+| 2 | 2 | 1.97 | 4.1 |
+| 3 | 4 | 3.95 | 8.3 |
+| 4 | 6 | 5.94 | 12.2 |
+| 5 | 8 | 7.92 | 16.4 |
+| 6 | 10 | 9.90 | 20.4 |
 
 ## Graph
 ![V-I graph for Ohm's law](../../assets/ohms-law-vi-graph.svg)
 
-- Axes as in source: $I$ on y (0–30 marked), $V$ on x (0–50 marked); note on graph: "Let, 5 cell = 1 unit".
-- Five plotted points, joined by a line starting at the origin; the line is shallow and nearly straight.
-- Point positions are traced from the hand-drawn graph and are approximate; the source gives no numeric values for them.
-
-> **Source note:** the graph x-axis runs to 50 while the table's $V_s$ only goes 0–10. The source does not explain how the two scales relate; kept as written.
+- Axes: voltmeter reading $V$ (V) on the x-axis, current $I$ (mA) on the y-axis.
+- The six points of Table 1 (including the origin) lie on, or very close to, a straight line through the origin.
+- Slope of the best-fit line: $\Delta I/\Delta V = 2.066\ \mathrm{mA/V}$.
 
 ## Calculation
 $$
 R = \frac{V}{I}, \qquad \text{slope of } I\text{–}V \text{ line} = \frac{\Delta I}{\Delta V} = \frac{1}{R}
 $$
 
-Substitution and value of $R$: `[To be filled from observation]` (the source records no calculated $R$).
+Resistance from each reading:
+
+| SL. No. | $V$ (V) | $I$ (mA) | $R = V/I$ (Ω) |
+|:---:|:---:|:---:|:---:|
+| 2 | 1.97 | 4.1 | 480.5 |
+| 3 | 3.95 | 8.3 | 475.9 |
+| 4 | 5.94 | 12.2 | 486.9 |
+| 5 | 7.92 | 16.4 | 482.9 |
+| 6 | 9.90 | 20.4 | 485.3 |
+
+Mean $R = 482.3\ \Omega$.
+
+From the graph:
+
+$$
+R = \frac{1}{\text{slope}} = \frac{1}{2.066 \times 10^{-3}\ \mathrm{A/V}} \approx 484\ \Omega
+$$
+
+Percentage error with respect to the marked value (470 Ω):
+
+$$
+\frac{484 - 470}{470} \times 100 \approx 3.0\ \%
+$$
 
 ## Result
-Ohm's law is verified because a straight line is obtained (as stated in the source).
+Ohm's law is verified because a straight line through the origin is obtained. The resistance found from the slope of the V–I graph is $R \approx 484\ \Omega$ (mean of $V/I$ = 482.3 Ω).
 
 ## Precautions
 1. DC voltage should be in the range 0 V to 20 V.
@@ -91,5 +107,5 @@ Ohm's law is verified because a straight line is obtained (as stated in the sour
 
 ## Discussion
 - The V–I graph is not exactly a straight line; it deviates slightly from the ideal graph.
-- The calculated error is stated to be relatively high (value not given in the source), attributed mostly to apparatus problems and loose connections.
+- The calculated error is about 3 %, which is relatively high, and is attributed mostly to apparatus problems and loose connections.
 - Voltage and current were measured with a digital multimeter, and the readings fluctuated.
