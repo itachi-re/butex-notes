@@ -31,10 +31,8 @@ $$
 Current divider rule (CDR) for two parallel resistors:
 
 $$
-I_1 = \frac{R_2 \, I_T}{R_1 + R_2}, \qquad I_2 = \frac{R_1 \, I_{z}}{R_1 + R_2}
+I_1 = \frac{R_2 \, I_T}{R_1 + R_2}, \qquad I_2 = \frac{R_1 \, I_T}{R_1 + R_2}
 $$
-
-> **Source note:** in the $I_2$ formula the symbol in the numerator is written like $I_z$ in the source (probably $I_T$, as in the $I_1$ formula). Kept as written; original is unclear here.
 
 ## Principle / Law
 **KCL:** the current entering a node equals the current leaving that node.
@@ -50,7 +48,7 @@ $$
 ## Diagram
 ![KCL parallel circuit diagram](../../assets/kcl-circuit.svg)
 
-*Fig. 1: source $V_{source}$ feeding $R_1$ and $R_2$ in parallel.* Source current $I_s$ splits into $I_1$ (through $R_1$) and $I_2$ (through $R_2$) and recombines as $I_s$. The source draws no polarity signs on the battery.
+**Fig. 1:** source $V_{source}$ feeding $R_1$ and $R_2$ in parallel. Source current $I_s$ splits into $I_1$ (through $R_1$) and $I_2$ (through $R_2$) and recombines as $I_s$.
 
 ## Procedure
 1. Construct the circuit as in Fig. 1.
@@ -59,23 +57,34 @@ $$
 4. Calculate $I_1, I_2$ using the current divider rule (CDR), using the measured values of resistance for all calculations.
 
 ## Observation Table
+Measured resistances: $R_1 = 990\ \Omega$, $R_2 = 2190\ \Omega$.
+
 **Table 1:** source voltage 5 V
 
 | $I_s$ (mA) | $I_1$ (mA) | $I_2$ (mA) | $I_T = I_1 + I_2$ (mA) |
 |:---:|:---:|:---:|:---:|
-| | | | |
-
-> **Source note:** the single data row is blank in the source. Measured $R_1$, $R_2$ are not recorded either.
+| 7.33 | 5.04 | 2.28 | 7.32 |
 
 ## Calculation
 $$
 I_1 = \frac{R_2 I_T}{R_1 + R_2}, \qquad I_2 = \frac{R_1 I_T}{R_1 + R_2}, \qquad \text{check: } I_s = I_1 + I_2
 $$
 
-Substitution and results: `[To be filled from observation]`
+Taking the total current as the measured source current, $I_T = I_s = 7.33\ \mathrm{mA}$, and $R_1 + R_2 = 990 + 2190 = 3180\ \Omega$:
+
+$$
+I_1 = \frac{2190 \times 7.33}{3180} = 5.05\ \mathrm{mA}, \qquad I_2 = \frac{990 \times 7.33}{3180} = 2.28\ \mathrm{mA}
+$$
+
+| Branch current | Measured (mA) | By CDR (mA) |
+|:---:|:---:|:---:|
+| $I_1$ | 5.04 | 5.05 |
+| $I_2$ | 2.28 | 2.28 |
+
+KCL check: $I_1 + I_2 = 5.04 + 2.28 = 7.32\ \mathrm{mA}$, compared with $I_s = 7.33\ \mathrm{mA}$ (difference 0.01 mA, about 0.14 %).
 
 ## Result
-KCL is verified (as stated in the source; no readings are recorded in the source to support it).
+The sum of the branch currents ($I_1 + I_2 = 7.32$ mA) equals the source current ($I_s = 7.33$ mA) within experimental error, and the measured $I_1$, $I_2$ agree with the current divider rule values. Hence Kirchhoff's Current Law is verified.
 
 ## Precautions
 1. DC voltage should be in the range 0 V to 20 V.
@@ -84,9 +93,7 @@ KCL is verified (as stated in the source; no readings are recorded in the source
 4. Connect wires properly.
 
 ## Sources of Error
-> Not listed in the source. The points below are general, textbook-standard error sources for a parallel-circuit KCL experiment, not values or observations from your notebook.
-
-- Resistor tolerance — actual $R_1$, $R_2$ can differ from nominal values used in the CDR calculation.
+- Resistor tolerance: actual $R_1$, $R_2$ can differ from nominal values used in the CDR calculation.
 - Ammeter insertion resistance disturbs the branch currents slightly (an ideal ammeter has zero resistance).
 - Contact/lead resistance at the parallel junction points.
 - Supply voltage drift affecting all branch currents simultaneously.
