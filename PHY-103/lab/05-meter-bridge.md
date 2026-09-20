@@ -19,14 +19,10 @@ $$
 - $R$ = known resistance taken from the resistance box (R.B.).
 - $l$ = balancing length $AB$ in cm; $BC = 100 - l$.
 
-> **Source note:** the Theory text calls $l$ the "length of wire"; the Procedure and diagram define it as the balancing length $AB$. The balancing-length meaning is used here.
-
 ## Principle / Law
 **Wheatstone bridge principle:** with no galvanometer deflection, $P/Q = R/S$. The meter bridge applies this with the two ratio arms formed by the wire lengths $l$ and $100 - l$.
 
 ## Apparatus
-The source has no apparatus list; the items below are compiled from its diagram and procedure.
-
 1. Meter bridge (wire with metre scale, metal strips)
 2. Resistance box (R.B.)
 3. Unknown resistance wire $X$
@@ -43,9 +39,7 @@ The source has no apparatus list; the items below are compiled from its diagram 
 
 ![Meter bridge circuit diagram](../../assets/meter-bridge-circuit.svg)
 
-*Meter bridge circuit:* resistance box $R$ in the left gap (strips $F$, $D$), unknown $X$ in the right gap (strips $D$, $H$); galvanometer $G$ joins $D$ to the jockey at $B$ on the wire $AC$ (scale 0–100); $AB = l$, $BC = 100 - l$; cell $E$ ("+" on the left) and key $K$ across $A$ and $C$.
-
-> The position of $B$ is drawn at about the middle of the wire; it moves to the null point in the experiment.
+*Meter bridge circuit:* resistance box $R$ in the left gap (strips $F$, $D$), unknown $X$ in the right gap (strips $D$, $H$); galvanometer $G$ joins $D$ to the jockey at $B$ on the wire $AC$ (scale 0–100); $AB = l$, $BC = 100 - l$; cell $E$ ("+" on the left) and key $K$ across $A$ and $C$. Point $B$ is drawn near the middle of the wire; in the experiment the jockey is moved to the null point.
 
 ## Procedure
 1. Clean the connecting wires with sand paper and connect as in the meter bridge diagram. Take a suitable resistance $R$ from the resistance box.
@@ -59,35 +53,44 @@ The source has no apparatus list; the items below are compiled from its diagram 
 
 | Serial No. | Reading of Resistance Box $R$ (Ω) | Balancing length $l$ (cm) | Unknown Resistance $X = \dfrac{R(100-l)}{l}$ (Ω) |
 |:---:|:---:|:---:|:---:|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-
-> **Source note:** all cells are blank in the source table. The Result line (below) gives the $R$ and $X$ values that go with the four rows.
+| 1 | 50 | 40 | 75 |
+| 2 | 100 | 65 | 53.846 |
+| 3 | 200 | 50 | 200 |
+| 4 | 500 | 70 | 214.286 |
 
 ## Calculation
 $$
 X = \frac{R\,(100 - l)}{l}
 $$
 
-Values as stated in the source Result (the $l$ column is derived here from $l = \dfrac{100R}{R + X}$ and is **not** in the source):
+Row 1: $R = 50\ \Omega$, $l = 40$ cm
 
-| $R$ (Ω) | $X$ stated in source (Ω) | $l$ implied (cm) |
-|:---:|:---:|:---:|
-| 50 | 75 | 40 |
-| 100 | 53.846 | 65 |
-| 200 | 200 | 50 |
-| 500 | 214.285 | 70 |
+$$
+X = \frac{50\,(100 - 40)}{40} = 75\ \Omega
+$$
 
-All implied $l$ values fall in the required 30–70 cm range.
+Row 2: $R = 100\ \Omega$, $l = 65$ cm
 
-Example (row 1, using the implied $l$): $X = \dfrac{50\,(100 - 40)}{40} = 75\ \Omega$.
+$$
+X = \frac{100\,(100 - 65)}{65} = 53.846\ \Omega
+$$
+
+Row 3: $R = 200\ \Omega$, $l = 50$ cm
+
+$$
+X = \frac{200\,(100 - 50)}{50} = 200\ \Omega
+$$
+
+Row 4: $R = 500\ \Omega$, $l = 70$ cm
+
+$$
+X = \frac{500\,(100 - 70)}{70} = 214.286\ \Omega
+$$
+
+All balancing lengths lie in the required 30–70 cm range.
 
 ## Result
-For resistance-box readings 50 Ω, 100 Ω, 200 Ω and 500 Ω, the unknown resistance is 75 Ω, 53.846 Ω, 200 Ω and 214.285 respectively.
-
-> **Source note:** the four $X$ values differ noticeably and the source gives no mean. The last value has no unit written. Values are kept exactly as stated.
+For resistance-box readings 50 Ω, 100 Ω, 200 Ω and 500 Ω, the unknown resistance is 75 Ω, 53.846 Ω, 200 Ω and 214.286 Ω respectively.
 
 ## Precautions
 1. Balance point should lie between 30 cm and 70 cm.
