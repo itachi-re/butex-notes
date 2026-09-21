@@ -4,31 +4,40 @@
 To determine the specific heat of a liquid by the method of cooling, comparing its cooling with that of an equal volume of water.
 
 ## Theory
+
 Specific heat $S$ is the heat needed to raise the temperature of unit mass of a material by 1 °C. By Newton's law of cooling, the rate of cooling of a body is directly proportional to the temperature difference between the body and its surroundings; this difference must be small. A heated liquid left to cool loses heat at a rate proportional to its temperature excess over the surroundings.
 
-Symbols:
+**Symbols:**
 
 - $m$ = mass of calorimeter with stirrer (kg); $s$ = specific heat of calorimeter material (called $S_c$ in the calculation).
-- $M_1$ = mass of liquid (kg); $S_1$ = specific heat of liquid (J kg$^{-1}$ K$^{-1}$); $t_1$ = time for liquid to cool from $\theta_1$ °C to $\theta_2$ °C (s).
-- $M_2$ = mass of water of the same volume as the liquid (kg); $S_2$ = specific heat of water (J kg$^{-1}$ K$^{-1}$); $t_2$ = time for water to cool from $\theta_1$ °C to $\theta_2$ °C (s).
+- $M_1$ = mass of liquid (kg); $S_1$ = specific heat of liquid (J kg⁻¹ K⁻¹); $t_1$ = time for liquid to cool from $\theta_1$ °C to $\theta_2$ °C (s).
+- $M_2$ = mass of water of the same volume as the liquid (kg); $S_2$ = specific heat of water (J kg⁻¹ K⁻¹); $t_2$ = time for water to cool from $\theta_1$ °C to $\theta_2$ °C (s).
 
-Rates of cooling:
+**Rates of cooling:**
+
+Liquid:
 
 $$
-\text{liquid: } \frac{(M_1 S_1 + ms)(\theta_1 - \theta_2)}{t_1}\ \mathrm{J\,s^{-1}}, \qquad
-\text{water: } \frac{(M_2 S_2 + ms)(\theta_1 - \theta_2)}{t_2}\ \mathrm{J\,s^{-1}}
+\frac{(M_1 S_1 + ms)(\theta_1 - \theta_2)}{t_1} \ \text{J s}^{-1}
 $$
 
-The two rates are equal (Newton's law of cooling):
+Water:
+
+$$
+\frac{(M_2 S_2 + ms)(\theta_1 - \theta_2)}{t_2} \ \text{J s}^{-1}
+$$
+
+By Newton's law of cooling, the two rates are equal:
 
 $$
 \frac{(M_1 S_1 + ms)(\theta_1 - \theta_2)}{t_1} = \frac{(M_2 S_2 + ms)(\theta_1 - \theta_2)}{t_2}
 $$
 
+Solving for $S_1$:
+
 $$
 S_1 = \frac{M_2 S_2 t_1 + ms\,(t_1 - t_2)}{M_1 t_2}
 $$
-
 ## Principle / Law
 **Newton's law of cooling:** the rate of loss of heat of a liquid is directly proportional to the difference between its temperature and that of the surroundings. Under the same conditions, the liquid and the water therefore have equal rates of cooling over the same temperature fall.
 
