@@ -123,7 +123,7 @@ Trial 3: $J_3 =$ ______ J/cal
 Mean value:
 
 $$
-J_{\text{mean}} = \frac{J_1 + J_2 + J_3}{3} = \_\_\_\_ \text{ J/cal}
+J _ {\text{mean}} = \frac{J_1 + J_2 + J_3}{3} = \_\_\_\_ \text{ J/cal}
 $$
 
 ## Result
