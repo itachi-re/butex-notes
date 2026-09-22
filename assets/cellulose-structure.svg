@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 320" width="820" height="320">
+<title>Cellulose repeating unit — beta-1,4 glycosidic linkage</title>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1a1a1a"/></marker><marker id="arrowAccent" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#a13a2e"/></marker><marker id="arrowAccent2" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1f5a8a"/></marker><marker id="halfArrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,2 L10,5 L0,8 z" fill="#1a1a1a"/></marker></defs>
+<rect x="0" y="0" width="820" height="320" fill="white"/>
+<text x="410.0" y="24.0" font-family="DejaVu Sans" font-size="19" font-weight="bold" font-style="normal" fill="#1a1a1a" text-anchor="middle">Cellulose — Repeating β-1,4-Linked D-Glucose Units</text>
+<line x1="206.2" y1="121.5" x2="228.0" y2="152.3" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="228.0" y1="152.3" x2="196.8" y2="178.5" stroke="#1a1a1a" stroke-width="3.4" stroke-linecap="round"/>
+<line x1="196.8" y1="178.5" x2="136.0" y2="178.5" stroke="#1a1a1a" stroke-width="3.4" stroke-linecap="round"/>
+<line x1="136.0" y1="178.5" x2="101.6" y2="152.3" stroke="#1a1a1a" stroke-width="3.4" stroke-linecap="round"/>
+<line x1="101.6" y1="152.3" x2="131.3" y2="123.3" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="131.3" y1="123.3" x2="206.2" y2="121.5" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<text x="227.2" y="106.5" font-family="DejaVu Sans" font-size="17" font-weight="bold" font-style="normal" fill="#1a1a1a" text-anchor="middle">O</text>
+<line x1="196.8" y1="178.5" x2="196.8" y2="198.5" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<text x="196.8" y="215.5" font-family="DejaVu Sans" font-size="15" font-weight="normal" font-style="normal" fill="#1a1a1a" text-anchor="middle">OH</text>
+<line x1="136.0" y1="178.5" x2="136.0" y2="158.5" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<text x="136.0" y="149.5" font-family="DejaVu Sans" font-size="15" font-weight="normal" font-style="normal" fill="#1a1a1a" text-anchor="middle">OH</text>
+<line x1="131.3" y1="123.3" x2="131.3" y2="99.3" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<text x="131.3" y="90.3" font-family="DejaVu Sans" font-size="15" font-weight="normal" font-style="normal" fill="#1a1a1a" text-anchor="middle">CH₂OH</text>
+<text x="150.0" y="232.0" font-family="DejaVu Sans" font-size="11" font-weight="normal" font-style="normal" fill="#666666" text-anchor="middle">glucose unit 1</text>
+<line x1="456.2" y1="121.5" x2="478.0" y2="152.3" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="478.0" y1="152.3" x2="446.8" y2="178.5" stroke="#1a1a1a" stroke-width="3.4" stroke-linecap="round"/>
+<line x1="446.8" y1="178.5" x2="386.0" y2="178.5" stroke="#1a1a1a" stroke-width="3.4" stroke-linecap="round"/>
+<line x1="386.0" y1="178.5" x2="351.6" y2="152.3" stroke="#1a1a1a" stroke-width="3.4" stroke-linecap="round"/>
+<line x1="351.6" y1="152.3" x2="381.3" y2="123.3" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="381.3" y1="123.3" x2="456.2" y2="121.5" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<text x="477.2" y="106.5" font-family="DejaVu Sans" font-size="17" font-weight="bold" font-style="normal" fill="#1a1a1a" text-anchor="middle">O</text>
+<line x1="446.8" y1="178.5" x2="446.8" y2="198.5" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<text x="446.8" y="215.5" font-family="DejaVu Sans" font-size="15" font-weight="normal" font-style="normal" fill="#1a1a1a" text-anchor="middle">OH</text>
+<line x1="386.0" y1="178.5" x2="386.0" y2="158.5" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<text x="386.0" y="149.5" font-family="DejaVu Sans" font-size="15" font-weight="normal" font-style="normal" fill="#1a1a1a" text-anchor="middle">OH</text>
+<line x1="381.3" y1="123.3" x2="381.3" y2="99.3" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<text x="381.3" y="90.3" font-family="DejaVu Sans" font-size="15" font-weight="normal" font-style="normal" fill="#1a1a1a" text-anchor="middle">CH₂OH</text>
+<text x="400.0" y="232.0" font-family="DejaVu Sans" font-size="11" font-weight="normal" font-style="normal" fill="#666666" text-anchor="middle">glucose unit 2</text>
+<line x1="706.2" y1="121.5" x2="728.0" y2="152.3" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="728.0" y1="152.3" x2="696.8" y2="178.5" stroke="#1a1a1a" stroke-width="3.4" stroke-linecap="round"/>
+<line x1="696.8" y1="178.5" x2="636.0" y2="178.5" stroke="#1a1a1a" stroke-width="3.4" stroke-linecap="round"/>
+<line x1="636.0" y1="178.5" x2="601.6" y2="152.3" stroke="#1a1a1a" stroke-width="3.4" stroke-linecap="round"/>
+<line x1="601.6" y1="152.3" x2="631.3" y2="123.3" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="631.3" y1="123.3" x2="706.2" y2="121.5" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<text x="727.2" y="106.5" font-family="DejaVu Sans" font-size="17" font-weight="bold" font-style="normal" fill="#1a1a1a" text-anchor="middle">O</text>
+<line x1="696.8" y1="178.5" x2="696.8" y2="198.5" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<text x="696.8" y="215.5" font-family="DejaVu Sans" font-size="15" font-weight="normal" font-style="normal" fill="#1a1a1a" text-anchor="middle">OH</text>
+<line x1="636.0" y1="178.5" x2="636.0" y2="158.5" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<text x="636.0" y="149.5" font-family="DejaVu Sans" font-size="15" font-weight="normal" font-style="normal" fill="#1a1a1a" text-anchor="middle">OH</text>
+<line x1="631.3" y1="123.3" x2="631.3" y2="99.3" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<text x="631.3" y="90.3" font-family="DejaVu Sans" font-size="15" font-weight="normal" font-style="normal" fill="#1a1a1a" text-anchor="middle">CH₂OH</text>
+<text x="650.0" y="232.0" font-family="DejaVu Sans" font-size="11" font-weight="normal" font-style="normal" fill="#666666" text-anchor="middle">glucose unit 3</text>
+<line x1="228.0" y1="152.3" x2="289.8" y2="136.3" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="289.8" y1="136.3" x2="351.6" y2="152.3" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<text x="289.8" y="128.3" font-family="DejaVu Sans" font-size="14" font-weight="bold" font-style="normal" fill="#1a1a1a" text-anchor="middle">O</text>
+<text x="289.8" y="112.3" font-family="DejaVu Sans" font-size="11" font-weight="normal" font-style="normal" fill="#666666" text-anchor="middle">β(1→4)</text>
+<line x1="478.0" y1="152.3" x2="539.8" y2="136.3" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="539.8" y1="136.3" x2="601.6" y2="152.3" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<text x="539.8" y="128.3" font-family="DejaVu Sans" font-size="14" font-weight="bold" font-style="normal" fill="#1a1a1a" text-anchor="middle">O</text>
+<text x="539.8" y="112.3" font-family="DejaVu Sans" font-size="11" font-weight="normal" font-style="normal" fill="#666666" text-anchor="middle">β(1→4)</text>
+<text x="410.0" y="270.0" font-family="DejaVu Sans" font-size="12" font-weight="normal" font-style="normal" fill="#666666" text-anchor="middle">...—O— repeats to give a long, linear, unbranched chain</text>
+<text x="410.0" y="288.5" font-family="DejaVu Sans" font-size="11.5" font-weight="normal" font-style="italic" fill="#666666" text-anchor="middle">β-linkage lets neighbouring chains lie flat and hydrogen-bond extensively side-by-side, giving cellulose's rigid, fibrous,</text>
+<text x="410.0" y="304.0" font-family="DejaVu Sans" font-size="11.5" font-weight="normal" font-style="italic" fill="#666666" text-anchor="middle">linear character (unlike the helical α-linked chains of starch).</text>
+</svg>
