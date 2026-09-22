@@ -20,10 +20,10 @@ $$
 p = p_0\left(1+\gamma_p\, t\right)
 $$
 
-where $t$ is the temperature in degrees Celsius, $p_0$ is the pressure at $0\,^\circ$C, and $\gamma_p$ is the **pressure coefficient at constant volume** — the fractional increase in pressure per degree rise in temperature:
+where $t$ is the temperature in degrees Celsius, $p_0$ is the pressure at $0\,^\circ\text{C}$, and $\gamma_p$ is the **pressure coefficient at constant volume** — the fractional increase in pressure per degree rise in temperature:
 
 $$
-\gamma_p = \frac{1}{p_0}\left(\frac{\Delta p}{\Delta T}\right)_{V}
+\gamma_p = \frac{1}{p_0}\left(\frac{\Delta p}{\Delta T}\right) _ {V}
 $$
 
 In the apparatus, the gas is enclosed in a bulb of fixed volume connected to a mercury manometer. As the bulb's temperature changes, the gas tends to expand or contract; the movable reservoir limb of the manometer is raised or lowered so that the mercury level in the fixed (bulb-side) limb always returns to a **fixed reference mark**, thereby keeping the gas volume genuinely constant. The pressure of the enclosed gas is then obtained from the **difference in mercury levels** between the two limbs, added to (or subtracted from) the measured atmospheric pressure, depending on the manometer's configuration.
@@ -34,8 +34,8 @@ For an ideal gas, $\gamma_p$ is the same as the coefficient of volume expansion 
 
 | Symbol | Meaning | Unit |
 |---|---|---|
-| $p_0$ | Pressure of the enclosed gas at $0\,^\circ$C (ice point) | Pa (or mmHg) |
-| $p_{100}$ | Pressure of the enclosed gas at $100\,^\circ$C (steam point) | Pa (or mmHg) |
+| $p_0$ | Pressure of the enclosed gas at $0\,^\circ\text{C}$ (ice point) | Pa (or mmHg) |
+| $p _ {100}$ | Pressure of the enclosed gas at $100\,^\circ\text{C}$ (steam point) | Pa (or mmHg) |
 | $p$ | Pressure at any general temperature $t$ | Pa (or mmHg) |
 | $\gamma_p$ | Pressure coefficient of the gas at constant volume | K$^{-1}$ |
 | $V$ | Volume of the gas (held constant, fixed by the reference mark) | m³ |
@@ -43,11 +43,11 @@ For an ideal gas, $\gamma_p$ is the same as the coefficient of volume expansion 
 ## Formula / Working Equation
 
 $$
-p_{100} = p_0(1+100\,\gamma_p)
+p _ {100} = p_0(1+100\,\gamma_p)
 $$
 
 $$
-\boxed{\gamma_p = \dfrac{p_{100}-p_0}{100\,p_0}}
+\boxed{\gamma_p = \dfrac{p _ {100}-p_0}{100\,p_0}}
 $$
 
 More generally, for the gas at any measured temperature $t$ and corresponding pressure $p$:
@@ -67,11 +67,11 @@ The gas bulb is immersed successively in a melting-ice bath and in the steam of 
 ## Procedure
 
 1. Note the room temperature and the atmospheric pressure from the barometer.
-2. Surround the gas bulb with crushed melting ice so that it attains a steady temperature of $0\,^\circ$C.
+2. Surround the gas bulb with crushed melting ice so that it attains a steady temperature of $0\,^\circ\text{C}$.
 3. Adjust the movable reservoir of the manometer until the mercury level in the fixed (bulb-side) limb exactly touches the reference mark, ensuring the gas is at its defined constant volume.
 4. Read the levels of mercury in both limbs of the manometer; compute the pressure of the enclosed gas, $p_0$, from the level difference and the atmospheric pressure.
-5. Remove the ice bath and surround the bulb with steam from the hypsometer, allowing it to reach a steady $100\,^\circ$C (correcting for pressure if the barometric reading departs from standard, if required).
-6. Again adjust the movable reservoir so the fixed-limb mercury level returns exactly to the reference mark; read the manometer and compute $p_{100}$.
+5. Remove the ice bath and surround the bulb with steam from the hypsometer, allowing it to reach a steady $100\,^\circ\text{C}$ (correcting for pressure if the barometric reading departs from standard, if required).
+6. Again adjust the movable reservoir so the fixed-limb mercury level returns exactly to the reference mark; read the manometer and compute $p _ {100}$.
 7. (Optional, for the graph) Repeat the level-adjustment and pressure measurement at one or two intermediate known temperatures (e.g. a warm-water bath at a measured thermometer reading), always restoring the gas to the same fixed volume before reading.
 8. Tabulate $t$ against $p$ for all points measured.
 
@@ -88,7 +88,7 @@ The gas bulb is immersed successively in a melting-ice bath and in the steam of 
 ## Calculations
 
 $$
-\gamma_p = \frac{p_{100}-p_0}{100\,p_0}
+\gamma_p = \frac{p _ {100}-p_0}{100\,p_0}
 $$
 
 $$
@@ -101,7 +101,7 @@ Plot gas pressure $p$ (y-axis) against temperature $t$ in °C (x-axis) for all t
 
 - **Expected relationship:** a straight line, in accordance with $p = p_0(1+\gamma_p t)$.
 - **Meaning of slope and intercept:** the intercept on the $p$-axis (at $t=0$) gives $p_0$; the slope of the line equals $p_0\gamma_p$, from which $\gamma_p$ can be found independently as a graphical check on the calculated value.
-- **Extrapolation:** extending the straight line backward to $p=0$ gives the temperature intercept on the $t$-axis, which is an experimental estimate of absolute zero ($\approx -273\,^\circ$C).
+- **Extrapolation:** extending the straight line backward to $p=0$ gives the temperature intercept on the $t$-axis, which is an experimental estimate of absolute zero ($\approx -273\,^\circ\text{C}$).
 
 ## Result
 
