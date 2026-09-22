@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 220" width="640" height="220">
+<title>Oxidation of D-glucose with bromine water</title>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1a1a1a"/></marker><marker id="arrowAccent" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#a13a2e"/></marker><marker id="arrowAccent2" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1f5a8a"/></marker><marker id="halfArrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,2 L10,5 L0,8 z" fill="#1a1a1a"/></marker></defs>
+<rect x="0" y="0" width="640" height="220" fill="white"/>
+<text x="320.0" y="24.0" font-family="DejaVu Sans" font-size="19" font-weight="bold" font-style="normal" fill="#1a1a1a" text-anchor="middle">Oxidation of D-Glucose by Bromine Water</text>
+<text x="140.0" y="110.0" font-family="DejaVu Sans" font-size="15" font-weight="normal" font-style="normal" fill="#1a1a1a" text-anchor="middle">CHO–(CHOH)₄–CH₂OH</text>
+<text x="140.0" y="130.0" font-family="DejaVu Sans" font-size="12" font-weight="normal" font-style="normal" fill="#666666" text-anchor="middle">D-glucose</text>
+<line x1="250.0" y1="100.0" x2="400.0" y2="100.0" stroke="#1a1a1a" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="325.0" y="92.0" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#1a1a1a" text-anchor="middle">Br₂ / H₂O</text>
+<text x="325.0" y="118.0" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#1a1a1a" text-anchor="middle">(mild oxidant)</text>
+<text x="500.0" y="110.0" font-family="DejaVu Sans" font-size="15" font-weight="normal" font-style="normal" fill="#1a1a1a" text-anchor="middle">COOH–(CHOH)₄–CH₂OH</text>
+<text x="500.0" y="130.0" font-family="DejaVu Sans" font-size="12" font-weight="normal" font-style="normal" fill="#666666" text-anchor="middle">D-gluconic acid</text>
+<text x="320.0" y="175.0" font-family="DejaVu Sans" font-size="11" font-weight="normal" font-style="italic" fill="#666666" text-anchor="middle">Selective for the aldehyde (–CHO → –COOH); the C2–C5 –OH groups and C6 –CH₂OH are untouched.</text>
+<text x="320.0" y="190.0" font-family="DejaVu Sans" font-size="11" font-weight="normal" font-style="italic" fill="#666666" text-anchor="middle">(Stronger HNO₃ oxidises both ends to D-glucaric/saccharic acid.)</text>
+</svg>
