@@ -80,7 +80,7 @@ The resistance box $R$ is connected in the left gap and the given wire $X$ in th
 
 **Length of wire, $L$ = _______ m**
 
-**Screw gauge:** Pitch = ______ mm, No. of divisions on circular scale = ______, Least count = ______ mm, Zero error = ______ mm
+**Screw gauge:** Pitch = ______ mm, No. of divisions on circular scale = ______ , Least count = ______ mm, Zero error = ______ mm
 
 | Trial | R (Ω) | Balance length l (cm) | X = R(100−l)/l (Ω) |
 |:---:|:---:|:---:|:---:|
@@ -106,7 +106,7 @@ $$
 $$
 Resistance of wire from the slope of the $100/l$ vs $1/R$ graph (see Graph section below):
 $$
-X_{\text{graph}} = \text{slope} = \_\_\_\_ \ \Omega
+X _ {\text{graph}} = \text{slope} = \_\_\_\_ \ \Omega
 $$
 Cross-sectional area:
 $$
@@ -136,7 +136,7 @@ $$
 \rho = \underline{\hspace{2cm}}\ \Omega\cdot\text{m} \quad (\text{from mean of } X_i)
 $$
 $$
-\rho = \underline{\hspace{2cm}}\ \Omega\cdot\text{m} \quad (\text{from graph slope}, X_{\text{graph}})
+\rho = \underline{\hspace{2cm}}\ \Omega\cdot\text{m} \quad (\text{from graph slope}, X _ {\text{graph}})
 $$
 
 ## Precautions
