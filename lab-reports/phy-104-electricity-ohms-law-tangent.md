@@ -83,7 +83,7 @@ The tangent galvanometer coil is levelled and rotated so that its plane lies in 
 
 ## Observation Table
 
-**TG coil data:** Number of turns, $n$ = ______; Radius, $r$ = ______ m; Horizontal component of earth's field, $B_H$ = ______ T (given/looked up for the location); Reduction factor $k = \dfrac{2rB_H}{\mu_0 n}$ = ______ A
+**TG coil data:** Number of turns, $n$ = ______ ; Radius, $r$ = ______ m; Horizontal component of earth's field, $B_H$ = ______ T (given/looked up for the location); Reduction factor $k = \dfrac{2rB_H}{\mu_0 n}$ = ______ A
 
 | Trial | θ₁ (deg) | θ₂ (deg) | Mean θ (deg) | tan θ | I = k tan θ (A) | V (Volt) | R = V/I (Ω) |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
