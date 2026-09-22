@@ -167,7 +167,7 @@ $$
 \frac{M}{B_H} = \frac{4\pi}{\mu_0}\cdot\frac{(d^2-l^2)^2\tan\theta}{2d} = \_\_\_\_
 $$
 
-Take the mean of $M/B_H$ over all distances $d$: $\left(\dfrac{M}{B_H}\right)_{\text{mean}} =$ ______
+Take the mean of $M/B_H$ over all distances $d$: $\left(\dfrac{M}{B_H}\right) _ {\text{mean}} =$ ______
 
 **From the vibration magnetometer:**
 
@@ -178,11 +178,11 @@ $$
 **Combining:**
 
 $$
-M = \sqrt{\left(\frac{M}{B_H}\right)_{\text{mean}} \times (M B_H)} = \_\_\_\_ \text{ A m}^2
+M = \sqrt{\left(\frac{M}{B_H}\right) _ {\text{mean}} \times (M B_H)} = \_\_\_\_ \text{ A m}^2
 $$
 
 $$
-B_H = \sqrt{\frac{M B_H}{\left(M/B_H\right)_{\text{mean}}}} = \_\_\_\_ \text{ T}
+B_H = \sqrt{\frac{M B_H}{\left(M/B_H\right) _ {\text{mean}}}} = \_\_\_\_ \text{ T}
 $$
 
 ## Graph
