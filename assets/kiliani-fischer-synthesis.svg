@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" width="900" height="440">
+<title>Kiliani-Fischer synthesis</title>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1a1a1a"/></marker><marker id="arrowAccent" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#a13a2e"/></marker><marker id="arrowAccent2" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1f5a8a"/></marker><marker id="halfArrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,2 L10,5 L0,8 z" fill="#1a1a1a"/></marker></defs>
+<rect x="0" y="0" width="900" height="440" fill="white"/>
+<text x="450.0" y="26.0" font-family="DejaVu Sans" font-size="19" font-weight="bold" font-style="normal" fill="#1a1a1a" text-anchor="middle">Kiliani–Fischer Synthesis</text>
+<text x="450.0" y="44.0" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#666666" text-anchor="middle">chain extension of an aldose by one carbon</text>
+<text x="110.0" y="90.0" font-family="DejaVu Sans" font-size="13.5" font-weight="bold" font-style="normal" fill="#1a1a1a" text-anchor="middle">CHO</text>
+<line x1="110.0" y1="96.0" x2="110.0" y2="120.0" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="90.0" y1="120.0" x2="130.0" y2="120.0" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<text x="83.0" y="125.0" font-family="DejaVu Sans" font-size="12" font-weight="normal" font-style="normal" fill="#1a1a1a" text-anchor="end">H</text>
+<text x="137.0" y="125.0" font-family="DejaVu Sans" font-size="12" font-weight="normal" font-style="normal" fill="#1a1a1a" text-anchor="start">OH</text>
+<line x1="110.0" y1="120.0" x2="110.0" y2="144.0" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<text x="110.0" y="158.0" font-family="DejaVu Sans" font-size="13" font-weight="bold" font-style="normal" fill="#1a1a1a" text-anchor="middle">CH₂OH</text>
+<text x="110.0" y="182.0" font-family="DejaVu Sans" font-size="12.5" font-weight="bold" font-style="normal" fill="#1a1a1a" text-anchor="middle">D-Glyceraldehyde (3C)</text>
+<line x1="190.0" y1="130.0" x2="290.0" y2="130.0" stroke="#1a1a1a" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="240.0" y="122.0" font-family="DejaVu Sans" font-size="12" font-weight="normal" font-style="normal" fill="#1a1a1a" text-anchor="middle">HCN</text>
+<text x="340.0" y="90.0" font-family="DejaVu Sans" font-size="13.5" font-weight="bold" font-style="normal" fill="#1a1a1a" text-anchor="middle">CN</text>
+<line x1="340.0" y1="96.0" x2="340.0" y2="118.0" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="320.0" y1="118.0" x2="360.0" y2="118.0" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<text x="313.0" y="123.0" font-family="DejaVu Sans" font-size="11.5" font-weight="normal" font-style="normal" fill="#1a1a1a" text-anchor="end">H/HO</text>
+<text x="367.0" y="123.0" font-family="DejaVu Sans" font-size="11.5" font-weight="normal" font-style="normal" fill="#1a1a1a" text-anchor="start">OH/H</text>
+<line x1="340.0" y1="118.0" x2="340.0" y2="142.0" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="320.0" y1="142.0" x2="360.0" y2="142.0" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<text x="313.0" y="147.0" font-family="DejaVu Sans" font-size="12" font-weight="normal" font-style="normal" fill="#1a1a1a" text-anchor="end">H</text>
+<text x="367.0" y="147.0" font-family="DejaVu Sans" font-size="12" font-weight="normal" font-style="normal" fill="#1a1a1a" text-anchor="start">OH</text>
+<line x1="340.0" y1="142.0" x2="340.0" y2="166.0" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<text x="340.0" y="180.0" font-family="DejaVu Sans" font-size="12.5" font-weight="bold" font-style="normal" fill="#1a1a1a" text-anchor="middle">CH₂OH</text>
+<text x="340.0" y="200.0" font-family="DejaVu Sans" font-size="11.5" font-weight="normal" font-style="normal" fill="#666666" text-anchor="middle">cyanohydrins (2 epimers</text>
+<text x="340.0" y="214.0" font-family="DejaVu Sans" font-size="11.5" font-weight="normal" font-style="normal" fill="#666666" text-anchor="middle">at new C2, from HCN attack</text>
+<text x="340.0" y="228.0" font-family="DejaVu Sans" font-size="11.5" font-weight="normal" font-style="normal" fill="#666666" text-anchor="middle">on either face)</text>
+<line x1="410.0" y1="130.0" x2="500.0" y2="130.0" stroke="#1a1a1a" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="455.0" y="122.0" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#1a1a1a" text-anchor="middle">H₃O⁺</text>
+<text x="455.0" y="148.0" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#1a1a1a" text-anchor="middle">hydrolyse,</text>
+<text x="500.0" y="165.0" font-family="DejaVu Sans" font-size="11" font-weight="normal" font-style="normal" fill="#666666" text-anchor="middle">lactone; then</text>
+<text x="500.0" y="179.0" font-family="DejaVu Sans" font-size="11" font-weight="normal" font-style="normal" fill="#666666" text-anchor="middle">Na–Hg reduce</text>
+<text x="610.0" y="70.0" font-family="DejaVu Sans" font-size="13.5" font-weight="bold" font-style="normal" fill="#1a1a1a" text-anchor="middle">CHO</text>
+<line x1="610.0" y1="76.0" x2="610.0" y2="98.0" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="592.0" y1="98.0" x2="628.0" y2="98.0" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<text x="585.0" y="103.0" font-family="DejaVu Sans" font-size="11.5" font-weight="normal" font-style="normal" fill="#1a1a1a" text-anchor="end">H</text>
+<text x="635.0" y="103.0" font-family="DejaVu Sans" font-size="11.5" font-weight="normal" font-style="normal" fill="#1a1a1a" text-anchor="start">OH</text>
+<text x="610.0" y="115.0" font-family="DejaVu Sans" font-size="9.5" font-weight="normal" font-style="normal" fill="#666666" text-anchor="middle">(new C2)</text>
+<line x1="610.0" y1="98.0" x2="610.0" y2="122.0" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="592.0" y1="122.0" x2="628.0" y2="122.0" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<text x="585.0" y="127.0" font-family="DejaVu Sans" font-size="11.5" font-weight="normal" font-style="normal" fill="#1a1a1a" text-anchor="end">H</text>
+<text x="635.0" y="127.0" font-family="DejaVu Sans" font-size="11.5" font-weight="normal" font-style="normal" fill="#1a1a1a" text-anchor="start">OH</text>
+<line x1="610.0" y1="122.0" x2="610.0" y2="146.0" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<text x="610.0" y="160.0" font-family="DejaVu Sans" font-size="12" font-weight="bold" font-style="normal" fill="#1a1a1a" text-anchor="middle">CH₂OH</text>
+<text x="610.0" y="50.0" font-family="DejaVu Sans" font-size="12.5" font-weight="bold" font-style="normal" fill="#1a1a1a" text-anchor="middle">D-Erythrose</text>
+<text x="760.0" y="70.0" font-family="DejaVu Sans" font-size="13.5" font-weight="bold" font-style="normal" fill="#1a1a1a" text-anchor="middle">CHO</text>
+<line x1="760.0" y1="76.0" x2="760.0" y2="98.0" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="742.0" y1="98.0" x2="778.0" y2="98.0" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<text x="735.0" y="103.0" font-family="DejaVu Sans" font-size="11.5" font-weight="normal" font-style="normal" fill="#1a1a1a" text-anchor="end">HO</text>
+<text x="785.0" y="103.0" font-family="DejaVu Sans" font-size="11.5" font-weight="normal" font-style="normal" fill="#1a1a1a" text-anchor="start">H</text>
+<text x="760.0" y="115.0" font-family="DejaVu Sans" font-size="9.5" font-weight="normal" font-style="normal" fill="#666666" text-anchor="middle">(new C2)</text>
+<line x1="760.0" y1="98.0" x2="760.0" y2="122.0" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="742.0" y1="122.0" x2="778.0" y2="122.0" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<text x="735.0" y="127.0" font-family="DejaVu Sans" font-size="11.5" font-weight="normal" font-style="normal" fill="#1a1a1a" text-anchor="end">H</text>
+<text x="785.0" y="127.0" font-family="DejaVu Sans" font-size="11.5" font-weight="normal" font-style="normal" fill="#1a1a1a" text-anchor="start">OH</text>
+<line x1="760.0" y1="122.0" x2="760.0" y2="146.0" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<text x="760.0" y="160.0" font-family="DejaVu Sans" font-size="12" font-weight="bold" font-style="normal" fill="#1a1a1a" text-anchor="middle">CH₂OH</text>
+<text x="760.0" y="50.0" font-family="DejaVu Sans" font-size="12.5" font-weight="bold" font-style="normal" fill="#1a1a1a" text-anchor="middle">D-Threose</text>
+<text x="680.0" y="250.0" font-family="DejaVu Sans" font-size="12.5" font-weight="normal" font-style="normal" fill="#666666" text-anchor="middle">two C2-epimeric aldotetroses (4C)</text>
+<text x="60.0" y="320.0" font-family="DejaVu Sans" font-size="12" font-weight="normal" font-style="normal" fill="#1a1a1a" text-anchor="start">•</text>
+<text x="76.0" y="320.0" font-family="DejaVu Sans" font-size="12" font-weight="normal" font-style="normal" fill="#1a1a1a" text-anchor="start">Each application of the sequence (HCN addition → hydrolysis → reduction) lengthens the chain by exactly ONE carbon and</text>
+<text x="60.0" y="338.0" font-family="DejaVu Sans" font-size="12" font-weight="normal" font-style="normal" fill="#1a1a1a" text-anchor="start"></text>
+<text x="76.0" y="338.0" font-family="DejaVu Sans" font-size="12" font-weight="normal" font-style="normal" fill="#1a1a1a" text-anchor="start">creates one new stereocentre, giving a pair of C2-epimers.</text>
+<text x="60.0" y="366.0" font-family="DejaVu Sans" font-size="12" font-weight="normal" font-style="normal" fill="#1a1a1a" text-anchor="start">•</text>
+<text x="76.0" y="366.0" font-family="DejaVu Sans" font-size="12" font-weight="normal" font-style="normal" fill="#1a1a1a" text-anchor="start">Repeating the sequence on a 4-carbon aldose (e.g. D-erythrose) gives the 5-carbon aldopentoses D-ribose and</text>
+<text x="60.0" y="384.0" font-family="DejaVu Sans" font-size="12" font-weight="normal" font-style="normal" fill="#1a1a1a" text-anchor="start"></text>
+<text x="76.0" y="384.0" font-family="DejaVu Sans" font-size="12" font-weight="normal" font-style="normal" fill="#1a1a1a" text-anchor="start">D-arabinose; repeating it again on D-arabinose gives the 6-carbon aldohexoses D-glucose and D-mannose.</text>
+<text x="450.0" y="415.5" font-family="DejaVu Sans" font-size="10.5" font-weight="normal" font-style="italic" fill="#666666" text-anchor="middle">Source wording pairs D-glyceraldehyde directly with D-ribose/D-arabinose; each step adds only one carbon, so the standard 3C→4C mechanism is shown above,</text>
+<text x="450.0" y="430.0" font-family="DejaVu Sans" font-size="10.5" font-weight="normal" font-style="italic" fill="#666666" text-anchor="middle">with the 4C→5C step noted below.</text>
+</svg>
