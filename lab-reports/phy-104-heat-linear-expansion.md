@@ -90,7 +90,7 @@ $$
 Take the mean of $\alpha$ from all trials:
 
 $$
-\alpha_{\text{mean}} = \_\_\_\_\_\ \text{K}^{-1}
+\alpha _ {\text{mean}} = \_\_\_\_\_\ \text{K}^{-1}
 $$
 
 ## Graph
