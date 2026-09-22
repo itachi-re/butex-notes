@@ -84,8 +84,8 @@ $P$ and $Q$ are connected in the two outer gaps of the meter bridge, the galvano
 ## Calculations
 For each trial:
 $$
-\alpha_i = \frac{P\,l_{2,i} - Q\,l_{1,i}}{Q-P}, \qquad
-\beta_i = \frac{Q\,l_{2,i} - P\,l_{1,i}}{Q-P} - 100
+\alpha_i = \frac{P\,l _ {2,i} - Q\,l _ {1,i}}{Q-P}, \qquad
+\beta_i = \frac{Q\,l _ {2,i} - P\,l _ {1,i}}{Q-P} - 100
 $$
 Mean values:
 $$
