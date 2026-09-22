@@ -122,7 +122,7 @@ Trial 3: $X_3 =$ ______ Ω
 Mean value:
 
 $$
-X_{\text{mean}} = \frac{X_1 + X_2 + X_3}{3} = \_\_\_\_ \ \Omega
+X _ {\text{mean}} = \frac{X_1 + X_2 + X_3}{3} = \_\_\_\_ \ \Omega
 $$
 
 ## Result
