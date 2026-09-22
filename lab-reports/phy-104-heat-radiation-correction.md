@@ -103,7 +103,7 @@ Plot temperature $\theta$ (y-axis) against time $t$ (x-axis) for the whole run.
 
 ## Result
 
-The observed maximum temperature of the mixture was $\theta_2 = \_\_\_\_\_\ ^\circ$C, and the true (radiation-corrected) temperature of the mixture is:
+The observed maximum temperature of the mixture was $\theta_2 = \_\_\_\_\_\ ^\circ\text{C}$, and the true (radiation-corrected) temperature of the mixture is:
 
 $$
 \theta_2' = \_\_\_\_\_\ ^\circ\text{C}
