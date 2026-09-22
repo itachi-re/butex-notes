@@ -27,7 +27,7 @@ where $k$ is the thermal conductivity of the material. In **Searle's method**, o
 At steady state, the heat conducted per second across the bar between two fixed points $T_1$ and $T_2$ (distance $d$ apart) equals the heat carried away per second by the cooling water, provided lateral heat loss through the lagging is negligible:
 
 $$
-\underbrace{\frac{kA(T_1-T_2)}{d}}_{\text{conducted through bar}} = \underbrace{\frac{mc(T_3-T_4)}{t}}_{\text{carried by water}}
+\underbrace{\frac{kA(T_1-T_2)}{d}} _ {\text{conducted through bar}} = \underbrace{\frac{mc(T_3-T_4)}{t}} _ {\text{carried by water}}
 $$
 
 **Symbols**
