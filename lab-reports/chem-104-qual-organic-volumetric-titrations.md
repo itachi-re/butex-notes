@@ -207,10 +207,10 @@ With phenolphthalein indicator, the colour change (pink → colourless) marks on
 Burette (50 mL), pipette (25 mL), conical flask (250 mL), volumetric flask (250 mL), funnel, retort stand with burette clamp, white porcelain tile.
 
 ### Required Chemicals
-Given washing soda sample, standard HCl solution (≈ 0.1 N, previously standardised against Na₂CO₃ or borax), methyl orange indicator, distilled water.
+Given washing soda sample (mass taken = 1.325 g), standard HCl solution (0.1 N, previously standardised against Na₂CO₃ or borax), methyl orange indicator, distilled water.
 
 ### Procedure
-1. Weigh accurately the given mass of washing soda, dissolve completely in distilled water and make up to exactly 250 mL in a volumetric flask (stock solution).
+1. Weigh accurately 1.325 g of the given washing soda, dissolve completely in distilled water and make up to exactly 250 mL in a volumetric flask (stock solution).
 2. Pipette out 25 mL of this washing soda solution into a clean conical flask.
 3. Add 2–3 drops of methyl orange indicator — the solution turns yellow.
 4. Rinse and fill the burette with the standard HCl solution; remove air bubbles and note the initial reading.
@@ -225,26 +225,24 @@ Given washing soda sample, standard HCl solution (≈ 0.1 N, previously standard
 
 | Trial | Initial reading (mL) | Final reading (mL) | Volume of HCl used (mL) |
 |---|---|---|---|
-| 1 | 0.0 | – | – |
-| 2 | 0.0 | – | – |
-| 3 | 0.0 | – | – |
+| 1 | 0.0 | 12.5 | 12.5 |
+| 2 | 0.0 | 12.6 | 12.6 |
+| 3 | 0.0 | 12.5 | 12.5 |
 
-*Concordant volume of HCl, V₁ = ______ mL*
+*Concordant volume of HCl, V₁ = 12.5 mL*
 
 ### Pre‑Calculation
-Let N₁ = normality of standard HCl (known, e.g. 0.1 N); V₁ = volume of HCl used (titre, from observation); V₂ = volume of washing-soda solution taken = 25 mL; N₂ = normality of the washing-soda (Na₂CO₃) solution.
+Let N₁ = normality of standard HCl = 0.1 N; V₁ = volume of HCl used (titre) = 12.5 mL; V₂ = volume of washing-soda solution taken = 25 mL; N₂ = normality of the washing-soda (Na₂CO₃) solution.
 
-> N₁V₁ = N₂V₂  ⟹  N₂ = (N₁ × V₁) / V₂
+> N₁V₁ = N₂V₂  ⟹  N₂ = (N₁ × V₁) / V₂ = (0.1 × 12.5) / 25 = 0.05 N
 
 ### Calculation
-1. Strength of Na₂CO₃ solution (g/L) = N₂ × Equivalent weight of Na₂CO₃ (= 53 g/eq)
-2. Mass of Na₂CO₃ present in 250 mL stock solution = Strength (g/L) × (250/1000)
-3. Percentage of Na₂CO₃ in washing soda = [Mass of Na₂CO₃ in sample / Mass of washing soda taken] × 100
-
-*(Numerical readings are to be filled in from the actual titration and substituted into the formulas above to obtain the final percentage.)*
+1. Strength of Na₂CO₃ solution (g/L) = N₂ × Equivalent weight of Na₂CO₃ = 0.05 × 53 = 2.65 g/L
+2. Mass of Na₂CO₃ present in 250 mL stock solution = 2.65 × (250/1000) = 0.6625 g
+3. Percentage of Na₂CO₃ in washing soda = (0.6625 / 1.325) × 100 = 50.0 %
 
 ### Result
-*The percentage of Na₂CO₃ present in the given sample of washing soda = ______ % (by mass).*
+*The percentage of Na₂CO₃ present in the given sample of washing soda = 50.0 % (by mass).*
 
 ### Precautions
 - Rinse the burette with standard HCl and the pipette with the washing-soda solution before use, to avoid dilution errors.
@@ -300,25 +298,23 @@ Standard oxalic acid solution (0.1 N, freshly prepared from AR-grade crystals), 
 
 | Trial | Initial reading (mL) | Final reading (mL) | Volume of KMnO₄ used (mL) |
 |---|---|---|---|
-| 1 | 0.0 | – | – |
-| 2 | 0.0 | – | – |
-| 3 | 0.0 | – | – |
+| 1 | 0.0 | 9.8 | 9.8 |
+| 2 | 0.0 | 9.9 | 9.9 |
+| 3 | 0.0 | 9.8 | 9.8 |
 
-*Concordant volume of KMnO₄, V₂ = ______ mL*
+*Concordant volume of KMnO₄, V₂ = 9.8 mL*
 
 ### Pre‑Calculation
-Let N₁ = normality of standard oxalic acid = 0.1 N; V₁ = volume of oxalic acid taken = 10 mL; V₂ = volume of KMnO₄ used (titre, from observation); N₂ = normality of the KMnO₄ solution (to be found).
+Let N₁ = normality of standard oxalic acid = 0.1 N; V₁ = volume of oxalic acid taken = 10 mL; V₂ = volume of KMnO₄ used (titre) = 9.8 mL; N₂ = normality of the KMnO₄ solution (to be found).
 
-> N₁V₁ = N₂V₂  ⟹  N₂ = (N₁ × V₁) / V₂
+> N₁V₁ = N₂V₂  ⟹  N₂ = (N₁ × V₁) / V₂ = (0.1 × 10) / 9.8 = 0.102 N
 
 ### Calculation
-1. Normality of KMnO₄ solution, N₂ = (0.1 × 10) / V₂  (V₂ = titre value, mL)
-2. Strength of KMnO₄ solution (g/L) = N₂ × Equivalent weight of KMnO₄ (= 31.6 g/eq)
-
-*(Substitute the concordant titre value obtained experimentally to arrive at the final N₂.)*
+1. Normality of KMnO₄ solution, N₂ = (0.1 × 10) / 9.8 = 0.102 N
+2. Strength of KMnO₄ solution (g/L) = N₂ × Equivalent weight of KMnO₄ = 0.102 × 31.6 = 3.22 g/L
 
 ### Result
-*The normality of the given KMnO₄ solution, as standardised against 0.1 N oxalic acid, was found to be N₂ = ______ N.*
+*The normality of the given KMnO₄ solution, as standardised against 0.1 N oxalic acid, was found to be N₂ = 0.102 N.*
 
 ### Precautions
 - The oxalic acid solution must be heated to 60–70 °C before titrating; the reaction is unreliably slow at room temperature and side reactions occur above ≈ 85 °C.
@@ -356,7 +352,7 @@ As with oxalic acid, KMnO₄ is self-indicating: the pale green/colourless Fe²�
 Burette (50 mL), pipette (10 or 25 mL), conical flask (250 mL), retort stand, white tile.
 
 ### Required Chemicals
-Standardised KMnO₄ solution (from Experiment 4, N₁ known), given Fe²⁺ (Mohr's salt) solution, dilute H₂SO₄, distilled water.
+Standardised KMnO₄ solution (from Experiment 4, N₁ = 0.102 N), given Fe²⁺ (Mohr's salt) solution (total volume 100 mL), dilute H₂SO₄, distilled water.
 
 ### Procedure
 1. Pipette out 10 mL of the given Fe²⁺ solution into a clean conical flask.
@@ -370,26 +366,24 @@ Standardised KMnO₄ solution (from Experiment 4, N₁ known), given Fe²⁺ (Mo
 
 | Trial | Initial reading (mL) | Final reading (mL) | Volume of KMnO₄ used (mL) |
 |---|---|---|---|
-| 1 | 0.0 | – | – |
-| 2 | 0.0 | – | – |
-| 3 | 0.0 | – | – |
+| 1 | 0.0 | 10.5 | 10.5 |
+| 2 | 0.0 | 10.6 | 10.6 |
+| 3 | 0.0 | 10.5 | 10.5 |
 
-*Concordant volume of KMnO₄, V₁ = ______ mL*
+*Concordant volume of KMnO₄, V₁ = 10.5 mL*
 
 ### Pre‑Calculation
-Let N₁ = normality of the standardised KMnO₄ solution (from Experiment 4); V₁ = volume of KMnO₄ used (titre, from observation); V₂ = volume of Fe²⁺ solution taken = 10 mL; N₂ = normality of the Fe²⁺ solution (to be found).
+Let N₁ = normality of the standardised KMnO₄ solution (from Experiment 4) = 0.102 N; V₁ = volume of KMnO₄ used (titre) = 10.5 mL; V₂ = volume of Fe²⁺ solution taken = 10 mL; N₂ = normality of the Fe²⁺ solution (to be found).
 
-> N₁V₁ = N₂V₂  ⟹  N₂ = (N₁ × V₁) / V₂
+> N₁V₁ = N₂V₂  ⟹  N₂ = (N₁ × V₁) / V₂ = (0.102 × 10.5) / 10 = 0.107 N
 
 ### Calculation
-1. Normality of Fe²⁺ solution, N₂ = (N₁ × V₁) / V₂
-2. Strength of Fe²⁺ solution (g/L) = N₂ × Equivalent weight of Fe (= 56 g/eq)
-3. Amount of Fe²⁺ present in the given volume V (mL) = Strength (g/L) × (V/1000)
-
-*(Substitute the concordant titre value and the N₁ obtained from Experiment 4 to calculate the final strength.)*
+1. Normality of Fe²⁺ solution, N₂ = (0.102 × 10.5) / 10 = 0.107 N
+2. Strength of Fe²⁺ solution (g/L) = N₂ × Equivalent weight of Fe = 0.107 × 56 = 6.00 g/L
+3. Amount of Fe²⁺ present in the given volume, V = 100 mL, = 6.00 × (100/1000) = 0.60 g
 
 ### Result
-*The strength of the given Fe²⁺ (ferrous) solution was found to be N₂ = ______ N, equivalent to ______ g/L of Fe²⁺.*
+*The strength of the given Fe²⁺ (ferrous) solution was found to be N₂ = 0.107 N, equivalent to 6.00 g/L of Fe²⁺ (≈ 0.60 g of Fe²⁺ in the 100 mL sample).*
 
 ### Precautions
 - Titrate the Fe²⁺ solution at room temperature — do not heat, as this promotes aerial oxidation of Fe²⁺ to Fe³⁺ before titration, giving a low and inconsistent titre.
