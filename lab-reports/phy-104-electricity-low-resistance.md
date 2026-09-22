@@ -82,7 +82,7 @@ $$
 Compute $X$ for all trials and take the mean:
 
 $$
-X_{\text{mean}} = \frac{X_1 + X_2 + \dots + X_5}{5} = \_\_\_\_ \ \Omega
+X _ {\text{mean}} = \frac{X_1 + X_2 + \dots + X_5}{5} = \_\_\_\_ \ \Omega
 $$
 
 ## Graph
