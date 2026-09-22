@@ -24,7 +24,7 @@ $$
 If equal volumes (hence, for the same calorimeter, corresponding masses) of two liquids are heated to the same initial temperature and allowed to cool under **identical conditions** — same calorimeter, same surface area exposed, same surrounding temperature $\theta_s$, same range of temperature fall — then, at any given temperature $\theta$, both lose heat at a rate governed by the *same* proportionality "constant" (which actually depends only on the exposed surface and the temperature excess, not on the nature of the liquid). Hence the heat lost per second by each liquid (together with the calorimeter) is the same function of $(\theta-\theta_s)$, and consequently:
 
 $$
-\frac{(m_1 s_1+m s_L)}{(m_1 s_1+m_w s_w)} = \frac{\left(\dfrac{d\theta}{dt}\right)_w}{\left(\dfrac{d\theta}{dt}\right)_L}
+\frac{(m_1 s_1+m s_L)}{(m_1 s_1+m_w s_w)} = \frac{\left(\dfrac{d\theta}{dt}\right) _ w}{\left(\dfrac{d\theta}{dt}\right) _ L}
 $$
 
 Rather than comparing instantaneous rates, it is experimentally more reliable to compare the **time taken** for both liquids to cool through the *same* fixed temperature interval $(\theta_1\rightarrow\theta_2)$ under the same conditions; the ratio of these times replaces the ratio of the rates in the equation above.
