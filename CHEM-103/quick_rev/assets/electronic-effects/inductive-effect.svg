@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 340" width="700" height="340" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="700" height="340" fill="#ffffff" stroke="#dddddd" stroke-width="1"/>
+
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#000"/>
+  </marker>
+  <marker id="arrow-curve" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#c0392b"/>
+  </marker>
+</defs>
+<text x="350.0" y="34" font-size="20" text-anchor="middle" font-weight="bold" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Inductive Effect</text>
+<line x1="56.0" y1="46" x2="644.0" y2="46" stroke="#222" stroke-width="1.5"/>
+<text x="350.0" y="64" font-size="13" text-anchor="middle" font-weight="normal" font-style="italic" fill="#444444" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Permanent σ-electron displacement along a chain; weakens with distance</text>
+<text x="170" y="130" font-size="18" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Cl→CH₂→COOH</text>
+<text x="170" y="155" font-size="11.5" text-anchor="middle" font-weight="normal" font-style="normal" fill="#333" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">–I effect: Cl withdraws electron</text>
+<text x="170" y="172" font-size="11.5" text-anchor="middle" font-weight="normal" font-style="normal" fill="#333" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">density through σ bonds,</text>
+<text x="170" y="189" font-size="11.5" text-anchor="middle" font-weight="normal" font-style="normal" fill="#333" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">stabilising the carboxylate</text>
+<text x="170" y="206" font-size="11.5" text-anchor="middle" font-weight="bold" font-style="normal" fill="#333" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">→ STRONGER acid</text>
+<text x="530" y="130" font-size="18" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">CH₃→CH₂→COOH</text>
+<text x="530" y="155" font-size="11.5" text-anchor="middle" font-weight="normal" font-style="normal" fill="#333" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">+I effect: alkyl group donates</text>
+<text x="530" y="172" font-size="11.5" text-anchor="middle" font-weight="normal" font-style="normal" fill="#333" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">electron density, destabilising</text>
+<text x="530" y="189" font-size="11.5" text-anchor="middle" font-weight="normal" font-style="normal" fill="#333" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">the carboxylate</text>
+<text x="530" y="206" font-size="11.5" text-anchor="middle" font-weight="bold" font-style="normal" fill="#333" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">→ WEAKER acid</text>
+<rect x="50" y="240" width="600" height="75" fill="#f5f7fb" stroke="#333" stroke-width="1.2" rx="4"/>
+<text x="350.0" y="262.0" font-size="11.5" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Key facts: permanent effect (operates continuously, no reagent needed).</text>
+<text x="350.0" y="279.5" font-size="11.5" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Denoted +I (electron-releasing: alkyl groups) or –I (electron-withdrawing:</text>
+<text x="350.0" y="297.0" font-size="11.5" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">halogens, –NO₂, –CN). Effect decreases rapidly with distance.</text>
+</svg>
