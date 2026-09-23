@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 560" width="560" height="560" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="560" height="560" fill="#ffffff" stroke="#dddddd" stroke-width="1"/>
+
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#000"/>
+  </marker>
+  <marker id="arrow-curve" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#c0392b"/>
+  </marker>
+</defs>
+<text x="280.0" y="34" font-size="20" text-anchor="middle" font-weight="bold" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Aldol Condensation Mechanism</text>
+<line x1="44.800000000000004" y1="46" x2="515.2" y2="46" stroke="#222" stroke-width="1.5"/>
+<text x="280.0" y="64" font-size="13" text-anchor="middle" font-weight="normal" font-style="italic" fill="#444444" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">2 CH3CHO, dilute NaOH (base-catalysed)</text>
+<circle cx="30" cy="100" r="11" fill="#2c5aa0"/>
+<text x="30" y="104.5" font-size="12" text-anchor="middle" font-weight="bold" font-style="normal" fill="#ffffff" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">1</text>
+<text x="48" y="105" font-size="13.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Base removes an α-H → resonance-stabilised enolate</text>
+<text x="280" y="150" font-size="15" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">CH₃CHO + OH⁻</text>
+<path d="M240,140 Q255.0,112.5 270,115" fill="none" stroke="#c0392b" stroke-width="1.6" marker-end="url(#arrow-curve)"/>
+<line x1="280" y1="170" x2="280" y2="220" stroke="#000" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="280" y="250" font-size="13.5" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">⁻CH₂CHO  (enolate)  +  H₂O</text>
+<circle cx="30" cy="290" r="11" fill="#2c5aa0"/>
+<text x="30" y="294.5" font-size="12" text-anchor="middle" font-weight="bold" font-style="normal" fill="#ffffff" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">2</text>
+<text x="48" y="295" font-size="13.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Enolate (nucleophile) attacks carbonyl C of a 2nd aldehyde</text>
+<text x="280" y="335" font-size="13.5" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">⁻CH₂CHO  +  CH₃CHO</text>
+<path d="M240,325 Q265.0,297.5 290,300" fill="none" stroke="#c0392b" stroke-width="1.6" marker-end="url(#arrow-curve)"/>
+<line x1="280" y1="355" x2="280" y2="405" stroke="#000" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="280" y="435" font-size="14" text-anchor="middle" font-weight="bold" font-style="normal" fill="#111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">CH₃CH(O⁻)CH₂CHO</text>
+<text x="280" y="452" font-size="11" text-anchor="middle" font-weight="normal" font-style="normal" fill="#555" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">alkoxide of the “aldol”</text>
+<circle cx="30" cy="475" r="11" fill="#2c5aa0"/>
+<text x="30" y="479.5" font-size="12" text-anchor="middle" font-weight="bold" font-style="normal" fill="#ffffff" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">3</text>
+<text x="48" y="480" font-size="13.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Protonation, then –H₂O on heating (dehydration)</text>
+<line x1="280" y1="495" x2="280" y2="520" stroke="#000" stroke-width="1.8" marker-end="url(#arrow)"/>
+<rect x="60" y="522" width="440" height="32" fill="#fbfbfb" stroke="#333" stroke-width="1.2" rx="4"/>
+<text x="280.0" y="544.0" font-size="13.5" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">CH₃CH=CHCHO   (crotonaldehyde, α,β-unsaturated)</text>
+</svg>
