@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 300" width="460" height="300" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="460" height="300" fill="#ffffff" stroke="#dddddd" stroke-width="1"/>
+
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#000"/>
+  </marker>
+  <marker id="arrow-curve" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#c0392b"/>
+  </marker>
+</defs>
+<text x="230.0" y="34" font-size="20" text-anchor="middle" font-weight="bold" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Gly-Ala Peptide Synthesis</text>
+<line x1="36.800000000000004" y1="46" x2="423.20000000000005" y2="46" stroke="#222" stroke-width="1.5"/>
+<text x="60" y="110" font-size="11" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Gly–NH₂</text>
+<line x1="60" y1="125" x2="60" y2="165" stroke="#000" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="70" y="141.0" font-size="9" text-anchor="start" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">protect NH₂</text>
+<text x="60" y="170" font-size="11" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Boc–Gly–OH</text>
+<line x1="60" y1="185" x2="60" y2="225" stroke="#000" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="70" y="201.0" font-size="9" text-anchor="start" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">activate COOH</text>
+<text x="60" y="230" font-size="11" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">activated ester</text>
+<line x1="60" y1="245" x2="60" y2="285" stroke="#000" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="70" y="261.0" font-size="9" text-anchor="start" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">couple with</text>
+<text x="60" y="290" font-size="11" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Boc-Gly-Ala</text>
+<line x1="60" y1="305" x2="60" y2="345" stroke="#000" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="70" y="321.0" font-size="9" text-anchor="start" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">deprotect</text>
+<text x="60" y="350" font-size="11" text-anchor="middle" font-weight="bold" font-style="normal" fill="#111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">H₂N-Gly-Ala-COOH</text>
+<rect x="200" y="90" width="240" height="260" fill="#fbfbfb" stroke="#333" stroke-width="1.2" rx="4"/>
+<text x="320.0" y="106" font-size="12" text-anchor="middle" font-weight="bold" font-style="normal" fill="#555555" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">PRODUCT (Gly-Ala)</text>
+<text x="320.0" y="124.0" font-size="11.5" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Peptide (amide) bond:</text>
+<text x="320.0" y="141.5" font-size="11.5" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif"></text>
+<text x="320.0" y="159.0" font-size="11.5" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">H₂N–CH₂–CO–NH–CH(CH₃)–COOH</text>
+<text x="320.0" y="176.5" font-size="11.5" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif"></text>
+<text x="320.0" y="194.0" font-size="11.5" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">        ──────</text>
+<text x="320.0" y="211.5" font-size="11.5" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">        –CO–NH–</text>
+<text x="320.0" y="229.0" font-size="11.5" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">     (peptide bond)</text>
+<text x="320.0" y="246.5" font-size="11.5" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif"></text>
+<text x="320.0" y="264.0" font-size="11.5" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">N-terminal: Gly (free NH₂)</text>
+<text x="320.0" y="281.5" font-size="11.5" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">C-terminal: Ala (free COOH)</text>
+</svg>
