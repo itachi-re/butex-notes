@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 340" width="460" height="340" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="460" height="340" fill="#ffffff" stroke="#dddddd" stroke-width="1"/>
+
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#000"/>
+  </marker>
+  <marker id="arrow-curve" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#c0392b"/>
+  </marker>
+</defs>
+<text x="230.0" y="34" font-size="16.251920122887867" text-anchor="middle" font-weight="bold" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Hinsberg Test — Separating 1°/2°/3° Amines</text>
+<line x1="36.800000000000004" y1="46" x2="423.20000000000005" y2="46" stroke="#222" stroke-width="1.5"/>
+<text x="230.0" y="64" font-size="13" text-anchor="middle" font-weight="normal" font-style="italic" fill="#444444" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Benzenesulfonyl chloride, C6H5SO2Cl, then KOH</text>
+<text x="230.0" y="100" font-size="14" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Mixture of 1°, 2°, 3° amines</text>
+<line x1="230.0" y1="115" x2="230.0" y2="155" stroke="#000" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="240.0" y="131.0" font-size="12" text-anchor="start" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">C₆H₅SO₂Cl</text>
+<text x="70" y="190" font-size="15" text-anchor="middle" font-weight="bold" font-style="normal" fill="#2c5aa0" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">1°</text>
+<text x="70" y="210" font-size="10.5" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">RNHSO₂C₆H₅</text>
+<text x="70" y="226" font-size="9.5" text-anchor="middle" font-weight="normal" font-style="italic" fill="#555" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">has acidic N–H</text>
+<rect x="0" y="240" width="140" height="55" fill="#fbfbfb" stroke="#333" stroke-width="1.2" rx="4"/>
+<text x="70.0" y="262.0" font-size="10.5" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">DISSOLVES in KOH</text>
+<text x="230" y="190" font-size="15" text-anchor="middle" font-weight="bold" font-style="normal" fill="#2c5aa0" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">2°</text>
+<text x="230" y="210" font-size="10.5" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">R₂NSO₂C₆H₅</text>
+<text x="230" y="226" font-size="9.5" text-anchor="middle" font-weight="normal" font-style="italic" fill="#555" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">no acidic H</text>
+<rect x="160" y="240" width="140" height="55" fill="#fbfbfb" stroke="#333" stroke-width="1.2" rx="4"/>
+<text x="230.0" y="262.0" font-size="10.5" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">INSOLUBLE precipitate</text>
+<text x="390" y="190" font-size="15" text-anchor="middle" font-weight="bold" font-style="normal" fill="#2c5aa0" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">3°</text>
+<text x="390" y="210" font-size="10.5" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">no reaction</text>
+<text x="390" y="226" font-size="9.5" text-anchor="middle" font-weight="normal" font-style="italic" fill="#555" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">no N–H to substitute</text>
+<rect x="320" y="240" width="140" height="55" fill="#fbfbfb" stroke="#333" stroke-width="1.2" rx="4"/>
+<text x="390.0" y="262.0" font-size="10.5" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">unreacted, oily layer</text>
+</svg>
