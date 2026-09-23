@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 230" width="460" height="230" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="460" height="230" fill="#ffffff" stroke="#dddddd" stroke-width="1"/>
+
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#000"/>
+  </marker>
+  <marker id="arrow-curve" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#c0392b"/>
+  </marker>
+</defs>
+<text x="230.0" y="34" font-size="20" text-anchor="middle" font-weight="bold" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Seliwanoff's Test</text>
+<line x1="36.800000000000004" y1="46" x2="423.20000000000005" y2="46" stroke="#222" stroke-width="1.5"/>
+<text x="230.0" y="64" font-size="13" text-anchor="middle" font-weight="normal" font-style="italic" fill="#444444" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Distinguishes aldose vs ketose sugars</text>
+<text x="90" y="110" font-size="12" text-anchor="middle" font-weight="bold" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Sample</text>
+<text x="90" y="128" font-size="11" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Sugar</text>
+<line x1="150" y1="108" x2="240" y2="108" stroke="#000" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="195.0" y="100" font-size="10.5" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">resorcinol/HCl, Δ</text>
+<text x="280" y="105" font-size="11" text-anchor="start" font-weight="bold" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Observation:</text>
+<text x="280" y="123" font-size="10.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#8a4b00" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Fast cherry-red (ketose) or</text>
+<text x="280" y="138" font-size="10.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#8a4b00" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">slow faint pink (aldose)</text>
+<line x1="350" y1="148" x2="350" y2="178" stroke="#000" stroke-width="1.8" marker-end="url(#arrow)"/>
+<rect x="240" y="180" width="200" height="46" fill="#fbfbfb" stroke="#333" stroke-width="1.2" rx="4"/>
+<text x="340.0" y="202.0" font-size="10.5" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Fructose: fast red.</text>
+<text x="340.0" y="218.5" font-size="10.5" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Glucose: slow, faint.</text>
+</svg>
