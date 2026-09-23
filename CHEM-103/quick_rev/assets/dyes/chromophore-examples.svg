@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 220" width="260" height="220" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="260" height="220" fill="#ffffff" stroke="#dddddd" stroke-width="1"/>
+
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#000"/>
+  </marker>
+  <marker id="arrow-curve" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#c0392b"/>
+  </marker>
+</defs>
+<text x="130.0" y="34" font-size="17.5366568914956" text-anchor="middle" font-weight="bold" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Chromophore — Examples</text>
+<line x1="20.8" y1="46" x2="239.20000000000002" y2="46" stroke="#222" stroke-width="1.5"/>
+<text x="130.0" y="100" font-size="14" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">–N=N–  (azo)</text>
+<text x="130.0" y="130" font-size="14" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">&gt;C=O  (carbonyl)</text>
+<text x="130.0" y="160" font-size="14" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">–NO₂  (nitro)</text>
+<text x="130.0" y="190" font-size="14" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">–CH=CH–</text>
+<text x="130.0" y="200" font-size="10.5" text-anchor="middle" font-weight="normal" font-style="normal" fill="#555" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Unsaturated group responsible for light absorption</text>
+</svg>
