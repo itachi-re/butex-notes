@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" width="400" height="200" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="400" height="200" fill="#ffffff" stroke="#dddddd" stroke-width="1"/>
+
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#000"/>
+  </marker>
+  <marker id="arrow-curve" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#c0392b"/>
+  </marker>
+</defs>
+<text x="200.0" y="34" font-size="17.98631476050831" text-anchor="middle" font-weight="bold" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Glycerol → Acrolein (Dehydration)</text>
+<line x1="32.0" y1="46" x2="368.0" y2="46" stroke="#222" stroke-width="1.5"/>
+<text x="90" y="110" font-size="15" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">C₃H₅(OH)₃</text>
+<line x1="180" y1="110" x2="290" y2="110" stroke="#000" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="235.0" y="102" font-size="11" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">KHSO₄ or P₂O₅, Δ</text>
+<text x="235.0" y="128" font-size="10" text-anchor="middle" font-weight="normal" font-style="italic" fill="#333333" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">–2 H₂O</text>
+<text x="350" y="110" font-size="14" text-anchor="middle" font-weight="bold" font-style="normal" fill="#111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">CH₂=CHCHO</text>
+</svg>
