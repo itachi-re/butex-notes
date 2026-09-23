@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" width="800" height="460" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="800" height="460" fill="#ffffff" stroke="#dddddd" stroke-width="1"/>
+
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#000"/>
+  </marker>
+  <marker id="arrow-curve" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#c0392b"/>
+  </marker>
+</defs>
+<text x="400.0" y="34" font-size="20" text-anchor="middle" font-weight="bold" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Mechanisms Overview — CHEM-103</text>
+<line x1="64.0" y1="46" x2="736.0" y2="46" stroke="#222" stroke-width="1.5"/>
+<text x="400.0" y="64" font-size="13" text-anchor="middle" font-weight="normal" font-style="italic" fill="#444444" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Quick-reference index (see /mechanisms/ for full diagrams)</text>
+<rect x="30" y="90" width="770" height="28" fill="#2c5aa0"/>
+<text x="140.0" y="108.5" font-size="13" text-anchor="middle" font-weight="bold" font-style="normal" fill="#ffffff" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Mechanism</text>
+<text x="360.0" y="108.5" font-size="13" text-anchor="middle" font-weight="bold" font-style="normal" fill="#ffffff" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Type</text>
+<text x="635.0" y="108.5" font-size="13" text-anchor="middle" font-weight="bold" font-style="normal" fill="#ffffff" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Rate law / key feature</text>
+<rect x="30" y="118" width="770" height="32" fill="#f5f7fb" stroke="#dde3ee" stroke-width="0.8"/>
+<text x="140.0" y="138.5" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">SN1</text>
+<text x="360.0" y="138.5" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Substitution</text>
+<text x="635.0" y="138.5" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Rate = k[RX]; 2 steps; racemisation</text>
+<rect x="30" y="150" width="770" height="32" fill="#ffffff" stroke="#dde3ee" stroke-width="0.8"/>
+<text x="140.0" y="170.5" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">SN2</text>
+<text x="360.0" y="170.5" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Substitution</text>
+<text x="635.0" y="170.5" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Rate = k[RX][Nu⁻]; 1 step; inversion</text>
+<rect x="30" y="182" width="770" height="32" fill="#f5f7fb" stroke="#dde3ee" stroke-width="0.8"/>
+<text x="140.0" y="202.5" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">E1</text>
+<text x="360.0" y="202.5" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Elimination</text>
+<text x="635.0" y="202.5" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Rate = k[RX]; 2 steps</text>
+<rect x="30" y="214" width="770" height="32" fill="#ffffff" stroke="#dde3ee" stroke-width="0.8"/>
+<text x="140.0" y="234.5" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">E2</text>
+<text x="360.0" y="234.5" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Elimination</text>
+<text x="635.0" y="234.5" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Rate = k[RX][Base]; concerted, anti-periplanar</text>
+<rect x="30" y="246" width="770" height="32" fill="#f5f7fb" stroke="#dde3ee" stroke-width="0.8"/>
+<text x="140.0" y="266.5" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Cannizzaro</text>
+<text x="360.0" y="266.5" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Redox disproportionation</text>
+<text x="635.0" y="266.5" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">No α-H aldehyde → acid + alcohol</text>
+<rect x="30" y="278" width="770" height="32" fill="#ffffff" stroke="#dde3ee" stroke-width="0.8"/>
+<text x="140.0" y="298.5" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Aldol condensation</text>
+<text x="360.0" y="298.5" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">C–C bond formation</text>
+<text x="635.0" y="298.5" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Enolate attacks 2nd carbonyl → β-hydroxy → –H2O</text>
+<rect x="30" y="310" width="770" height="32" fill="#f5f7fb" stroke="#dde3ee" stroke-width="0.8"/>
+<text x="140.0" y="330.5" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Fischer esterification</text>
+<text x="360.0" y="330.5" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Nucleophilic acyl substitution</text>
+<text x="635.0" y="330.5" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Reversible; H2SO4 catalyst</text>
+<rect x="30" y="342" width="770" height="32" fill="#ffffff" stroke="#dde3ee" stroke-width="0.8"/>
+<text x="140.0" y="362.5" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Hofmann degradation</text>
+<text x="360.0" y="362.5" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Rearrangement</text>
+<text x="635.0" y="362.5" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Amide → amine, –1 carbon, via isocyanate</text>
+<rect x="30" y="374" width="770" height="32" fill="#f5f7fb" stroke="#dde3ee" stroke-width="0.8"/>
+<text x="140.0" y="394.5" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Curtius degradation</text>
+<text x="360.0" y="394.5" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Rearrangement</text>
+<text x="635.0" y="394.5" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Acyl azide → amine, –1 carbon, via isocyanate</text>
+<rect x="30" y="406" width="770" height="32" fill="#ffffff" stroke="#dde3ee" stroke-width="0.8"/>
+<text x="140.0" y="426.5" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Strecker synthesis</text>
+<text x="360.0" y="426.5" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Addition + hydrolysis</text>
+<text x="635.0" y="426.5" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">RCHO + NH3 + HCN → α-amino acid</text>
+<rect x="30" y="90" width="770" height="348" fill="none" stroke="#2c5aa0" stroke-width="1.5"/>
+</svg>
