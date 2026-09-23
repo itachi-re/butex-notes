@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 300" width="380" height="300" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="380" height="300" fill="#ffffff" stroke="#dddddd" stroke-width="1"/>
+
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#000"/>
+  </marker>
+  <marker id="arrow-curve" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#c0392b"/>
+  </marker>
+</defs>
+<text x="190.0" y="34" font-size="20" text-anchor="middle" font-weight="bold" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Electromeric Effect</text>
+<line x1="30.400000000000002" y1="46" x2="349.6" y2="46" stroke="#222" stroke-width="1.5"/>
+<text x="190.0" y="64" font-size="11.395045632333767" text-anchor="middle" font-weight="normal" font-style="italic" fill="#444444" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Temporary, complete π-shift; only with an attacking reagent</text>
+<text x="190.0" y="130" font-size="18" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">C=C  +  E⁺</text>
+<path d="M175.0,118 Q192.5,86.5 210.0,95" fill="none" stroke="#c0392b" stroke-width="1.6" marker-end="url(#arrow-curve)"/>
+<line x1="190.0" y1="150" x2="190.0" y2="200" stroke="#000" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="190.0" y="225" font-size="17" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">⁺C–C–E</text>
+<rect x="30" y="240" width="320" height="55" fill="#fbfbfb" stroke="#333" stroke-width="1.2" rx="4"/>
+<text x="190.0" y="262.0" font-size="11.5" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Reverts completely once the attacking</text>
+<text x="190.0" y="279.5" font-size="11.5" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">reagent (E⁺) is removed.</text>
+</svg>
