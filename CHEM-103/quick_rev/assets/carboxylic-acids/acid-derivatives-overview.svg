@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 300" width="260" height="300" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="260" height="300" fill="#ffffff" stroke="#dddddd" stroke-width="1"/>
+
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#000"/>
+  </marker>
+  <marker id="arrow-curve" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#c0392b"/>
+  </marker>
+</defs>
+<text x="130.0" y="34" font-size="14.289127837514934" text-anchor="middle" font-weight="bold" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Carboxylic Acid Derivatives</text>
+<line x1="20.8" y1="46" x2="239.20000000000002" y2="46" stroke="#222" stroke-width="1.5"/>
+<text x="30" y="100" font-size="13" text-anchor="start" font-weight="bold" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Acid halide</text>
+<text x="230" y="100" font-size="14" text-anchor="end" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">R–COX</text>
+<text x="30" y="145" font-size="13" text-anchor="start" font-weight="bold" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Acid anhydride</text>
+<text x="230" y="145" font-size="14" text-anchor="end" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">R–CO–O–OC–R</text>
+<text x="30" y="190" font-size="13" text-anchor="start" font-weight="bold" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Ester</text>
+<text x="230" y="190" font-size="14" text-anchor="end" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">R–COOR'</text>
+<text x="30" y="235" font-size="13" text-anchor="start" font-weight="bold" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Amide</text>
+<text x="230" y="235" font-size="14" text-anchor="end" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">R–CONH₂</text>
+</svg>
