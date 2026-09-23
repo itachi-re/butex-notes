@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 380" width="480" height="380" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="480" height="380" fill="#ffffff" stroke="#dddddd" stroke-width="1"/>
+
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#000"/>
+  </marker>
+  <marker id="arrow-curve" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#c0392b"/>
+  </marker>
+</defs>
+<text x="240.0" y="34" font-size="18.263027295285358" text-anchor="middle" font-weight="bold" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">β-D-Fructofuranose — Haworth Projection</text>
+<line x1="38.4" y1="46" x2="441.6" y2="46" stroke="#222" stroke-width="1.5"/>
+<text x="240.0" y="64" font-size="13" text-anchor="middle" font-weight="normal" font-style="italic" fill="#444444" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Representative configuration (ketohexose, 5-membered ring)</text>
+<polygon points="240.0,115.0 320.8,173.7 290.0,268.8 190.0,268.8 159.2,173.7" fill="none" stroke="#000" stroke-width="1.8"/>
+<circle cx="240.0" cy="115.0" r="11" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<text x="240.0" y="120.0" font-size="13" text-anchor="middle" font-weight="bold" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">O</text>
+<circle cx="320.83980388508803" cy="173.73355547812946" r="3" fill="#000"/>
+<circle cx="289.96174644486024" cy="268.76644452187054" r="3" fill="#000"/>
+<circle cx="190.0382535551398" cy="268.76644452187054" r="3" fill="#000"/>
+<circle cx="159.16019611491194" cy="173.7335554781295" r="3" fill="#000"/>
+<line x1="320.83980388508803" y1="173.73355547812946" x2="320.83980388508803" y2="143.73355547812946" stroke="#000" stroke-width="1.3"/>
+<text x="320.83980388508803" y="137.73355547812946" font-size="12" text-anchor="middle" font-weight="bold" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">CH₂OH</text>
+<text x="320.83980388508803" y="191.73355547812946" font-size="9" text-anchor="middle" font-weight="normal" font-style="normal" fill="#999" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">C2(→C1)</text>
+<line x1="320.83980388508803" y1="173.73355547812946" x2="320.83980388508803" y2="203.73355547812946" stroke="#000" stroke-width="1.3"/>
+<text x="320.83980388508803" y="219.73355547812946" font-size="12" text-anchor="middle" font-weight="bold" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">OH</text>
+<line x1="289.96174644486024" y1="268.76644452187054" x2="289.96174644486024" y2="298.76644452187054" stroke="#000" stroke-width="1.3"/>
+<text x="289.96174644486024" y="314.76644452187054" font-size="12" text-anchor="middle" font-weight="bold" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">OH</text>
+<text x="289.96174644486024" y="254.76644452187054" font-size="9" text-anchor="middle" font-weight="normal" font-style="normal" fill="#999" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">C3</text>
+<line x1="289.96174644486024" y1="268.76644452187054" x2="289.96174644486024" y2="238.76644452187054" stroke="#000" stroke-width="1.3"/>
+<text x="289.96174644486024" y="232.76644452187054" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">H</text>
+<line x1="190.0382535551398" y1="268.76644452187054" x2="190.0382535551398" y2="298.76644452187054" stroke="#000" stroke-width="1.3"/>
+<text x="190.0382535551398" y="314.76644452187054" font-size="12" text-anchor="middle" font-weight="bold" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">OH</text>
+<text x="190.0382535551398" y="254.76644452187054" font-size="9" text-anchor="middle" font-weight="normal" font-style="normal" fill="#999" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">C4</text>
+<line x1="190.0382535551398" y1="268.76644452187054" x2="190.0382535551398" y2="238.76644452187054" stroke="#000" stroke-width="1.3"/>
+<text x="190.0382535551398" y="232.76644452187054" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">H</text>
+<line x1="159.16019611491194" y1="173.7335554781295" x2="159.16019611491194" y2="143.7335554781295" stroke="#000" stroke-width="1.3"/>
+<text x="159.16019611491194" y="137.7335554781295" font-size="12" text-anchor="middle" font-weight="bold" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">CH₂OH</text>
+<text x="159.16019611491194" y="191.7335554781295" font-size="9" text-anchor="middle" font-weight="normal" font-style="normal" fill="#999" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">C5(→C6)</text>
+<line x1="159.16019611491194" y1="173.7335554781295" x2="159.16019611491194" y2="203.7335554781295" stroke="#000" stroke-width="1.3"/>
+<text x="159.16019611491194" y="219.7335554781295" font-size="12" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">H</text>
+<text x="240.0" y="362" font-size="9.5" text-anchor="middle" font-weight="normal" font-style="italic" fill="#999" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">C2 = anomeric carbon (ketose); stereo shown is representative of the standard β form</text>
+</svg>
