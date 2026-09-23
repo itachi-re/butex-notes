@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" width="640" height="320" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="640" height="320" fill="#ffffff" stroke="#dddddd" stroke-width="1"/>
+
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#000"/>
+  </marker>
+  <marker id="arrow-curve" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#c0392b"/>
+  </marker>
+</defs>
+<text x="320.0" y="34" font-size="20" text-anchor="middle" font-weight="bold" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Strecker Synthesis of α-Amino Acids</text>
+<line x1="51.2" y1="46" x2="588.8000000000001" y2="46" stroke="#222" stroke-width="1.5"/>
+<text x="80" y="130" font-size="17" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">RCHO</text>
+<line x1="140" y1="130" x2="230" y2="130" stroke="#000" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="185.0" y="122" font-size="14" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">NH₃</text>
+<text x="280" y="130" font-size="15" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">RCH(NH₂)OH</text>
+<line x1="370" y1="130" x2="460" y2="130" stroke="#000" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="415.0" y="122" font-size="14" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">HCN</text>
+<text x="540" y="130" font-size="15" text-anchor="middle" font-weight="bold" font-style="normal" fill="#111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">RCH(NH₂)CN</text>
+<line x1="540" y1="160" x2="540" y2="220" stroke="#000" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="550" y="186.0" font-size="13" text-anchor="start" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">H₃O⁺</text>
+<text x="550" y="204.0" font-size="12" text-anchor="start" font-weight="normal" font-style="italic" fill="#333333" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">(hydrolysis)</text>
+<rect x="430" y="240" width="200" height="50" fill="#fbfbfb" stroke="#333" stroke-width="1.2" rx="4"/>
+<text x="530.0" y="262" font-size="15" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">RCH(NH₂)COOH</text>
+<text x="530.0" y="283" font-size="15" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">(α-amino acid)</text>
+</svg>
