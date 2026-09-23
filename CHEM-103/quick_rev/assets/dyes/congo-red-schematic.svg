@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 220" width="260" height="220" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="260" height="220" fill="#ffffff" stroke="#dddddd" stroke-width="1"/>
+
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#000"/>
+  </marker>
+  <marker id="arrow-curve" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#c0392b"/>
+  </marker>
+</defs>
+<text x="130.0" y="34" font-size="18.371735791090632" text-anchor="middle" font-weight="bold" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Congo Red — Schematic</text>
+<line x1="20.8" y1="46" x2="239.20000000000002" y2="46" stroke="#222" stroke-width="1.5"/>
+<text x="130.0" y="64" font-size="13" text-anchor="middle" font-weight="normal" font-style="italic" fill="#444444" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">Symmetrical bis-azo dye</text>
+<text x="130.0" y="100" font-size="11" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">naphthionic acid</text>
+<text x="130.0" y="118" font-size="9.5" text-anchor="middle" font-weight="normal" font-style="normal" fill="#555" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">(has –NH₂, –SO₃H)</text>
+<text x="130.0" y="145" font-size="13" text-anchor="middle" font-weight="bold" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">–N=N–</text>
+<text x="130.0" y="170" font-size="11" text-anchor="middle" font-weight="normal" font-style="normal" fill="#111111" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">benzidine core</text>
+<text x="130.0" y="195" font-size="9.5" text-anchor="middle" font-weight="normal" font-style="normal" fill="#555" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">–N=N– → naphthionic acid (2nd unit)</text>
+</svg>
