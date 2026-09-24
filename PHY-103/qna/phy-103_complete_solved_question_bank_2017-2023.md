@@ -1,18 +1,16 @@
-
-***
-
 # Physics-II (PHY-103) — Complete Solved Question Bank
 
-### Bangladesh University of Textiles (BUTEX) — B.Sc. in Textile Engineering
-### Final Examinations 2017–2023 (All questions from Part A and Part B, all years)
+**Bangladesh University of Textiles (BUTEX) — B.Sc. in Textile Engineering**
+
+Final Examinations 2017–2023 (All questions from Part A and Part B, all years)
 
 *Note on method: Several theory questions repeat verbatim or near-verbatim across years (e.g., Gauss's law, Wheatstone bridge, Hall effect, Carnot cycle). Each such derivation is written out in full **once**, in the "Standard Derivations" section below, with a code (e.g., **[D-7]**). When the same question reappears in a later year, the year-section states "Same as [D-n]" and gives only the final boxed result, as instructed — this avoids repeating identical multi-line derivations verbatim while still confirming the answer applies. All numerical problems are solved in full, independently, for every year, since the given data differs.*
 
 ---
 
-# Standard Derivations Reference
+## Standard Derivations Reference
 
-## [D-1] Gauss's Law — Statement and Proof
+### [D-1] Gauss's Law — Statement and Proof
 
 **Statement:** The total electric flux through any closed surface (a Gaussian surface) is equal to $1/\epsilon_0$ times the net charge enclosed by that surface.
 
@@ -38,7 +36,7 @@ $$
 
 Since the flux is independent of $r$, this holds for any closed surface enclosing $q$ (by the solid-angle argument, flux through any closed surface subtending $4\pi$ steradians at the charge is the same). For several enclosed charges, superposition gives $q_{enc}=\sum q_i$.
 
-## [D-2] Coulomb's Law — Statement and Explanation
+### [D-2] Coulomb's Law — Statement and Explanation
 
 **Statement:** The force of attraction or repulsion between two point charges is directly proportional to the product of the charges and inversely proportional to the square of the distance between them, acting along the line joining them.
 
@@ -48,7 +46,7 @@ $$
 
 where $q_1,q_2$ are the charges (C), $r$ is separation (m), $\epsilon_0=8.854\times10^{-12}\,\text{F m}^{-1}$ is the permittivity of free space. The force is repulsive for like charges, attractive for unlike charges, and acts along the line joining the charges (a central force). **Unit charge** is defined as that charge which, when placed at 1 m from an equal charge in vacuum, repels it with a force of $\frac{1}{4\pi\epsilon_0}=9\times10^9\,\text{N}$.
 
-## [D-3] Coulomb's Law Deduced from Gauss's Law
+### [D-3] Coulomb's Law Deduced from Gauss's Law
 
 Enclose a point charge $q$ in an imaginary sphere of radius $r$. By symmetry $\vec{E}$ is radial and constant in magnitude over the surface. From Gauss's law:
 
@@ -64,7 +62,7 @@ $$
 
 which is Coulomb's law.
 
-## [D-4] Electric Field and Electric Field Intensity — Definition
+### [D-4] Electric Field and Electric Field Intensity — Definition
 
 **Electric field:** The region of space around a charge within which another charge experiences a force.
 
@@ -76,7 +74,7 @@ $$
 
 SI unit: N/C or V/m.
 
-## [D-5] Relation Between Electric Intensity and Charge Density (Point charge / sphere)
+### [D-5] Relation Between Electric Intensity and Charge Density (Point charge / sphere)
 
 For a uniformly charged sphere of radius $R$, volume charge density $\rho = q/(\frac{4}{3}\pi R^3)$. By Gauss's law, for a Gaussian sphere of radius $r\le R$:
 
@@ -90,7 +88,7 @@ $$
 
 showing $E$ is directly proportional to the charge density $\rho$ (and to $r$ inside the sphere).
 
-## [D-6] Electric Dipole — Field Varies as $1/r^3$
+### [D-6] Electric Dipole — Field Varies as $1/r^3$
 
 An electric dipole is two equal and opposite charges $+q,-q$ separated by distance $2a$; dipole moment $p=q(2a)$.
 
@@ -114,7 +112,7 @@ $$
 
 — directly proportional to twice the dipole moment and inversely proportional to the cube of the distance, as required.
 
-## [D-7] Field Due to a Point Charge at a Point on the Perpendicular Bisector of Two Charges
+### [D-7] Field Due to a Point Charge at a Point on the Perpendicular Bisector of Two Charges
 
 Two equal charges $+q$ at $A$ and $B$, separated by $2a$; point $P$ on the perpendicular bisector at distance $R$ from the midpoint. Distance from each charge to $P$ is $\sqrt{R^2+a^2}$. Each charge produces field $E'=\frac{1}{4\pi\epsilon_0}\frac{q}{R^2+a^2}$ along $AP$ and $BP$; components perpendicular to the bisector cancel, components along the bisector add:
 
@@ -128,7 +126,7 @@ $$
 
 directed along the bisector, away from the midpoint (for like charges).
 
-## [D-8] Capacitor and Capacitance — Definition
+### [D-8] Capacitor and Capacitance — Definition
 
 A **capacitor** is a device consisting of two conductors separated by an insulator (dielectric), used to store electric charge/energy. **Capacitance** is the ratio of charge stored to the potential difference between the plates:
 
@@ -138,7 +136,7 @@ $$
 
 where $C$ = capacitance (Farad, F), $Q$ = charge (C), $V$ = potential difference (V). $1\,\text{F}=1\,\text{C/V}$.
 
-## [D-9] Parallel Plate Capacitor — Derivation of Capacitance
+### [D-9] Parallel Plate Capacitor — Derivation of Capacitance
 
 Two parallel plates, each of area $A$, separated by distance $d$, with a dielectric of permittivity $\epsilon=\epsilon_0\epsilon_r$ between them, carrying charge $+Q,-Q$. Surface charge density $\sigma=Q/A$. The field between the plates (from Gauss's law for a parallel-plate arrangement):
 
@@ -160,7 +158,7 @@ $$
 
 For air/vacuum, $\epsilon_r=1$, so $C=\epsilon_0 A/d$.
 
-## [D-10] Capacitors in Series — Show $\frac{1}{C_s}=\frac{1}{C_1}+\frac{1}{C_2}+\frac{1}{C_3}$
+### [D-10] Capacitors in Series — Show $\frac{1}{C_s}=\frac{1}{C_1}+\frac{1}{C_2}+\frac{1}{C_3}$
 
 In series, each capacitor carries the same charge $Q$ (charge induced by influence), but the potential differences add:
 
@@ -178,7 +176,7 @@ $$
 \frac{1}{C_s}=\frac{1}{C_1}+\frac{1}{C_2}+\frac{1}{C_3}
 $$
 
-## [D-11] Energy Stored in a Charged Capacitor — $U=\frac{1}{2}CV^2$
+### [D-11] Energy Stored in a Charged Capacitor — $U=\frac{1}{2}CV^2$
 
 Work is needed to transfer charge from one plate to the other against the growing potential. At an intermediate stage, charge $q$ has been transferred; potential is $v=q/C$. Work to move $dq$ further:
 
@@ -200,7 +198,7 @@ $$
 
 This work is stored as electrostatic potential energy in the field between the plates.
 
-## [D-12] Ohm's Law and Specific Resistance
+### [D-12] Ohm's Law and Specific Resistance
 
 **Ohm's law:** At constant temperature, the current through a conductor is directly proportional to the potential difference across it:
 
@@ -212,13 +210,13 @@ where $V$ = p.d. (V), $I$ = current (A), $R$ = resistance ($\Omega$).
 
 **Specific resistance (resistivity), $\rho$:** The resistance of a conductor is $R=\rho\frac{l}{A}$, so $\rho=\frac{RA}{l}$ — the resistance of a unit length, unit cross-section sample of the material. It is a material property, independent of the conductor's dimensions, with SI unit $\Omega\cdot\text{m}$.
 
-## [D-13] Kirchhoff's Laws
+### [D-13] Kirchhoff's Laws
 
 **First law (current/junction law):** The algebraic sum of currents meeting at a junction is zero: $\sum I = 0$ (conservation of charge).
 
 **Second law (voltage/loop law):** In any closed loop of a circuit, the algebraic sum of the EMFs equals the algebraic sum of the IR drops: $\sum \mathcal{E}=\sum IR$ (conservation of energy).
 
-## [D-14] Wheatstone Bridge — Principle from Kirchhoff's Laws; Balance Condition $P/Q=R/S$
+### [D-14] Wheatstone Bridge — Principle from Kirchhoff's Laws; Balance Condition $P/Q=R/S$
 
 Four resistances $P,Q,R,S$ form a bridge ABCD, battery between A and C, galvanometer between B and D. Let currents be $I_1$ (through P), $I_2$ (through Q), $I_g$ (through galvanometer), etc. Applying Kirchhoff's first law at B and D, and second law to loops ABD and BCD:
 
@@ -240,15 +238,15 @@ $$
 
 This is the balance condition of the Wheatstone bridge, used to find an unknown resistance when the other three are known.
 
-## [D-15] Specific Resistance / Ohm's law
+### [D-15] Specific Resistance / Ohm's law
 
 See **[D-12]**.
 
-## [D-16] Kirchhoff's Second Law of Electrostatics/Electricity
+### [D-16] Kirchhoff's Second Law of Electrostatics/Electricity
 
 See **[D-13]**.
 
-## [D-17] Hall Effect — Definition and Derivation of Hall Voltage
+### [D-17] Hall Effect — Definition and Derivation of Hall Voltage
 
 **Hall effect:** When a current-carrying conductor (or semiconductor) is placed in a magnetic field perpendicular to the current, a transverse potential difference (Hall voltage) develops across the conductor, perpendicular to both the current and the field.
 
@@ -270,7 +268,7 @@ $$
 
 where $R_H=1/(nq)$ is the Hall coefficient, $n$ = charge carrier density.
 
-## [D-18] Torque on a Current-Carrying Loop in a Magnetic Field
+### [D-18] Torque on a Current-Carrying Loop in a Magnetic Field
 
 A rectangular loop of length $l$, breadth $b$, carrying current $I$, placed in field $B$ with the plane of the loop making angle $\theta$ with $B$ (normal to loop makes angle $(90^\circ-\theta)$, or equivalently the standard form uses $\theta$ as angle between normal and $B$). Consider the loop's normal at angle $\theta$ to $B$. Forces on the two sides of length $l$ are $F=BIl$, equal and opposite, separated by $b\sin\theta$ (moment arm), forming a couple:
 
@@ -286,7 +284,7 @@ $$
 
 where $A=lb$ is the loop area and $\theta$ is the angle between the normal to the loop and $\vec{B}$. In vector form, $\vec{\tau}=N I\vec{A}\times\vec{B} = \vec{m}\times\vec{B}$, where $\vec{m}=NI\vec{A}$ is the magnetic moment.
 
-## [D-19] Magnetic Force on a Straight Current-Carrying Conductor (Numerical formula)
+### [D-19] Magnetic Force on a Straight Current-Carrying Conductor (Numerical formula)
 
 $$
 F=BIl\sin\theta
@@ -294,7 +292,7 @@ $$
 
 where $B$ = magnetic flux density (T), $I$ = current (A), $l$ = length of conductor (m), $\theta$ = angle between conductor and field.
 
-## [D-20] Magnetic Induction; Force on a Moving Charge (Lorentz Force)
+### [D-20] Magnetic Induction; Force on a Moving Charge (Lorentz Force)
 
 **Magnetic induction ($\vec{B}$):** the magnetic flux density; force per unit (charge×velocity) experienced by a moving charge, $\vec{F}=q\vec{v}\times\vec{B}$.
 
@@ -310,7 +308,7 @@ This is the magnetic (Lorentz) part of the total electromagnetic force $\vec{F}=
 
 **Mutual induction:** The property by which a changing current in one coil induces an EMF in a neighbouring coil: $\mathcal{E}_2=-M\frac{dI_1}{dt}$.
 
-## [D-21] Faraday's Law and Lenz's Law of Electromagnetic Induction
+### [D-21] Faraday's Law and Lenz's Law of Electromagnetic Induction
 
 **Faraday's law:** Whenever the magnetic flux linked with a circuit changes, an EMF is induced in it, and the magnitude of the induced EMF is directly proportional to the rate of change of flux linkage:
 
@@ -324,7 +322,7 @@ where $N$ = number of turns, $\phi$ = flux linked per turn.
 
 **Show Lenz's law obeys conservation of energy:** If the induced current instead aided the change in flux, the flux (and hence the current) would increase without any external work being done — creating energy from nothing, violating conservation of energy. Since the induced current opposes the change (by Lenz's law), external work must be done to maintain/produce the flux change, and this work exactly equals the electrical energy generated (verified via $dW=\mathcal{E}I\,dt=I^2R\,dt$ matching mechanical work done against the opposing force). Hence Lenz's law is consistent with, and required by, the law of conservation of energy.
 
-## [D-22] Hysteresis and the Hysteresis Curve
+### [D-22] Hysteresis and the Hysteresis Curve
 
 **Hysteresis:** The lagging of magnetisation ($B$) behind the magnetising field ($H$) in a ferromagnetic material, such that the magnetic state depends on its magnetic history.
 
@@ -345,7 +343,7 @@ where $N$ = number of turns, $\phi$ = flux linked per turn.
 
 The area enclosed by the loop represents the energy dissipated as heat per unit volume per cycle of magnetisation. Materials with a wide loop (large $H_c$) are used for permanent magnets; materials with a narrow loop (small $H_c$, e.g. soft iron) are used in transformer cores to minimise hysteresis loss.
 
-## [D-23] R–C Circuit: Time Constant; Charging Equation
+### [D-23] R–C Circuit: Time Constant; Charging Equation
 
 **Time constant ($\tau=RC$) of an R–C circuit:** the time required for the capacitor's charge (or voltage) to rise to $(1-1/e)\approx63.2\%$ of its final (maximum) value during charging (or fall to $1/e\approx36.8\%$ during discharging).
 
@@ -386,7 +384,7 @@ Q0 |-/  (63% at t=RC)       Q0 |  \___
    |/___________ t             |___________ t
 ```
 
-## [D-24] R–L Circuit: Growth and Decay of Current
+### [D-24] R–L Circuit: Growth and Decay of Current
 
 Circuit with EMF $\mathcal{E}$, resistance $R$, inductance $L$ in series, switch closed at $t=0$.
 
@@ -412,7 +410,7 @@ I0 |-/                      I0 |  \___
 
 This shows the current in an L–R circuit rises (or falls) exponentially, approaching (or leaving) its steady value $I_0=\mathcal{E}/R$, with time constant $\tau=L/R$ — analogous to, and derived the same way as, the R–C case, confirming the current increases/decreases exponentially rather than linearly.
 
-## [D-25] Resonant Frequency of a Series R-L-C Circuit
+### [D-25] Resonant Frequency of a Series R-L-C Circuit
 
 In a series RLC circuit driven by AC of angular frequency $\omega$, the impedance is
 
@@ -430,7 +428,7 @@ $$
 f_0=\frac{1}{2\pi\sqrt{LC}}
 $$
 
-## [D-26] Distinguish Between Reversible and Irreversible Processes
+### [D-26] Distinguish Between Reversible and Irreversible Processes
 
 | Reversible | Irreversible |
 |---|---|
@@ -440,13 +438,13 @@ $$
 | Entropy of universe unchanged ($\Delta S_{univ}=0$) | Entropy of universe increases ($\Delta S_{univ}>0$) |
 | An idealisation; never perfectly achieved | All natural/real processes are irreversible |
 
-## [D-27] Internal Energy and Thermodynamical Function
+### [D-27] Internal Energy and Thermodynamical Function
 
 **Internal energy ($U$):** The total energy (kinetic + potential, at the molecular level) contained within a system due to the random motion and configuration of its molecules. It is a **state function** — depends only on the state of the system, not the path taken.
 
 **Thermodynamical function:** A quantity (like $U$, enthalpy $H$, entropy $S$, Gibbs free energy $G$, Helmholtz free energy $F$) whose value depends only on the state of the system (state variables such as $P,V,T$), not on how that state was reached; its change over a cyclic process is zero, $\oint dU=0$.
 
-## [D-28] Zeroth Law of Thermodynamics; First Law = Conservation of Energy
+### [D-28] Zeroth Law of Thermodynamics; First Law = Conservation of Energy
 
 **Zeroth law:** If two systems are each in thermal equilibrium with a third system, they are in thermal equilibrium with each other. (This law establishes temperature as a well-defined property and underlies the use of thermometers.)
 
@@ -458,7 +456,7 @@ $$
 
 **Show the first law is the law of conservation of energy:** Here $dQ$ is energy added to the system (as heat), $dW=PdV$ is energy leaving the system as work, and $dU$ is the resulting change in the system's stored (internal) energy. Rearranging: $dU=dQ-dW$ — the change in the system's energy content equals energy in minus energy out. No energy is created or destroyed; it is merely converted between heat, work, and internal (stored) energy. This is exactly the statement of conservation of energy applied to thermal systems.
 
-## [D-29] Adiabatic Curves are Steeper (Higher slope) than Isothermal Curves
+### [D-29] Adiabatic Curves are Steeper (Higher slope) than Isothermal Curves
 
 For an **isothermal** process ($PV=$ const): differentiating, $PdV+VdP=0\Rightarrow \left(\dfrac{dP}{dV}\right)_{iso}=-\dfrac{P}{V}$
 
@@ -483,7 +481,7 @@ P
 
 Physically: in adiabatic compression, no heat escapes, so all the work done raises both $P$ and $T$, making $P$ rise faster with decreasing $V$ than in the isothermal case (where $T$, and hence the $P$–$V$ product, stays fixed).
 
-## [D-30] Prove $PV^\gamma=$ Constant (Adiabatic Process)
+### [D-30] Prove $PV^\gamma=$ Constant (Adiabatic Process)
 
 For an adiabatic process, $dQ=0$, so from the first law: $dU=-dW=-PdV$. For an ideal gas, $dU=C_vdT$ (per mole), so
 
@@ -525,7 +523,7 @@ $$
 
 where $P,V$ are pressure and volume, $\gamma=C_p/C_v$ is the ratio of specific heats (symbols have their usual meaning).
 
-## [D-31] Relation Between Two Specific Heats: $C_p-C_v=R$
+### [D-31] Relation Between Two Specific Heats: $C_p-C_v=R$
 
 Consider 1 mole of an ideal gas. At constant volume, heat supplied raises only internal energy: $dQ_v=C_vdT=dU$ (since $dW=0$).
 
@@ -547,7 +545,7 @@ $$
 
 where $C_p,C_v$ are molar specific heats at constant pressure and volume, and $R$ is the universal gas constant ($8.314\,\text{J mol}^{-1}\text{K}^{-1}$).
 
-## [D-32] Entropy Remains Constant in a Reversible Process (Adiabatic)
+### [D-32] Entropy Remains Constant in a Reversible Process (Adiabatic)
 
 **Entropy ($S$):** A state function measuring the degree of disorder/unavailability of energy for work; $dS=dQ_{rev}/T$.
 
@@ -563,7 +561,7 @@ $$
 
 More generally, for any reversible cyclic process, $\oint \dfrac{dQ_{rev}}{T}=0$ (Clausius theorem), so entropy is a state function and its net change around any reversible cycle is zero — i.e., entropy of the system (and, together with surroundings, of the universe) does not increase in a reversible process, unlike an irreversible one where $\Delta S_{univ}>0$.
 
-## [D-33] Entropy and Unavailable Energy
+### [D-33] Entropy and Unavailable Energy
 
 **Entropy:** as above, $dS=dQ_{rev}/T$; it is a measure of the unavailability/degradation of a system's energy for conversion into useful work.
 
@@ -575,7 +573,7 @@ $$
 
 where $T_0$ is the temperature of the coldest available reservoir (sink). This follows because a Carnot engine operating between the system and the sink could have extracted work $T_0\Delta S$ from the heat that instead becomes "locked" due to the entropy increase.
 
-## [D-34] Distinguish First and Second Law of Thermodynamics
+### [D-34] Distinguish First and Second Law of Thermodynamics
 
 | First Law | Second Law |
 |---|---|
@@ -585,7 +583,7 @@ where $T_0$ is the temperature of the coldest available reservoir (sink). This f
 | Does not specify direction of a process | Specifies the direction — introduces entropy, which increases for spontaneous (irreversible) processes |
 | Quantitative — energy accounting | Qualitative and quantitative — restricts which energy transformations are possible |
 
-## [D-35] Second Law of Thermodynamics — Statement
+### [D-35] Second Law of Thermodynamics — Statement
 
 **Kelvin–Planck statement:** It is impossible to construct a heat engine operating in a cycle that converts heat completely into work with no other effect (i.e., without rejecting some heat to a sink).
 
@@ -593,7 +591,7 @@ where $T_0$ is the temperature of the coldest available reservoir (sink). This f
 
 Both statements are equivalent; each implies that some energy is always degraded (unavailable for work) and that entropy of an isolated system never decreases.
 
-## [D-36] Carnot's Engine and the Carnot Cycle
+### [D-36] Carnot's Engine and the Carnot Cycle
 
 **Carnot's engine:** An ideal, reversible heat engine operating between two heat reservoirs at temperatures $T_1$ (source, hot) and $T_2$ (sink, cold), that has the maximum possible efficiency for those two temperatures.
 
@@ -615,7 +613,7 @@ P
      (isothermal, T2)
 ```
 
-## [D-37] Efficiency of Carnot's Engine, $\eta=1-T_2/T_1$
+### [D-37] Efficiency of Carnot's Engine, $\eta=1-T_2/T_1$
 
 Heat absorbed isothermally at $T_1$: $Q_1=RT_1\ln(V_2/V_1)$. Heat rejected isothermally at $T_2$: $Q_2=RT_2\ln(V_3/V_4)$.
 
@@ -639,11 +637,11 @@ $$
 
 where $T_1,T_2$ are the source and sink absolute temperatures. This shows the efficiency depends only on the two temperatures, not on the working substance.
 
-## [D-38] Show the Carnot Cycle is a Reversible Process
+### [D-38] Show the Carnot Cycle is a Reversible Process
 
 Each of the four steps of the Carnot cycle (isothermal expansion, adiabatic expansion, isothermal compression, adiabatic compression) is carried out **quasi-statically** (infinitely slowly), so the working substance is always infinitesimally close to equilibrium, and there is no friction or other dissipative effect. Each step can therefore be exactly retraced in the opposite direction by an infinitesimal change in the external conditions (e.g., temperature of the reservoir, or piston pressure), restoring both the system and surroundings to their original states with no net change anywhere. Since every individual step is reversible, and the cycle is simply these steps performed in sequence and then reverse sequence, the entire Carnot cycle is reversible. (Operating the Carnot engine in reverse gives a Carnot refrigerator/heat pump, absorbing $Q_2$ from the cold reservoir and rejecting $Q_1$ to the hot one while consuming work $W=Q_1-Q_2$ — confirming reversibility.)
 
-## [D-39] Clausius–Clapeyron (First Latent Heat) Equation
+### [D-39] Clausius–Clapeyron (First Latent Heat) Equation
 
 Consider a substance in phase equilibrium (e.g., liquid–vapour) undergoing a small reversible Carnot cycle between temperatures $T$ and $T-dT$, with the two isothermal steps being the phase change itself (absorbing latent heat $L$ at $T$, at pressure $P$; volume changes by $V_2-V_1$) and the two adiabatic steps connecting them, so that $dP$ is the corresponding change in the equilibrium (saturation) vapour pressure over $dT$. Efficiency of this Carnot cycle:
 
@@ -657,7 +655,7 @@ $$
 
 This is the Clausius–Clapeyron equation, relating the slope of the phase boundary (P–T diagram) to the latent heat $L$ and the volume change $V_2-V_1$ during the phase transition, at temperature $T$.
 
-## [D-40] Maxwell's Thermodynamic Relations
+### [D-40] Maxwell's Thermodynamic Relations
 
 Starting from the combined first and second law for a reversible process: $dU=TdS-PdV$, and defining the state functions $H=U+PV$, $F=U-TS$, $G=H-TS$, one obtains four exact differentials:
 
@@ -703,7 +701,7 @@ $$
 
 **To show $\left(\dfrac{\partial T}{\partial V}\right)_S=-T\left(\dfrac{\partial P}{\partial Q}\right)_V$ [equivalently the form $\left(\frac{\partial T}{\partial V}\right)_S = -T\left(\frac{\partial P}{\partial T}\right)_V\left(\frac{\partial T}{\partial Q}\right)_V$]:** Using $dQ=TdS$ at constant $V$, $\left(\dfrac{\partial S}{\partial Q}\right)_V=\dfrac{1}{T}$. Combined with relation (1) and the chain rule, one obtains the required identity connecting these partials — confirming consistency of the Maxwell relations (full chain-rule algebra as above).
 
-## [D-41] Isentropic (Reversible Adiabatic) Process; Work Done
+### [D-41] Isentropic (Reversible Adiabatic) Process; Work Done
 
 An **isentropic process** is a reversible adiabatic process ($dQ=0$, $dS=0$), so entropy stays constant (see D-32). For an ideal gas undergoing such a process, $PV^\gamma=$ const (D-30). Work done during expansion from $V_1$ to $V_2$:
 
@@ -719,7 +717,7 @@ $$
 W=\frac{P_1V_1-P_2V_2}{\gamma-1}=\frac{R(T_1-T_2)}{\gamma-1}\ \text{(per mole)}
 $$
 
-## [D-42] Work Done During an Isothermal Process
+### [D-42] Work Done During an Isothermal Process
 
 For an ideal gas at constant temperature $T$, $PV=RT$ (per mole), so $P=RT/V$. Work done in expanding from $V_1$ to $V_2$:
 
@@ -733,7 +731,7 @@ $$
 
 (using $P_1V_1=P_2V_2$ at constant $T$).
 
-## [D-43] Kinetic Theory of Gases — Fundamental Postulates and Pressure Formula
+### [D-43] Kinetic Theory of Gases — Fundamental Postulates and Pressure Formula
 
 **Postulates:**
 
@@ -774,11 +772,11 @@ $$
 
 where $k=R/N_A=1.38\times10^{-23}\,\text{J K}^{-1}$ is Boltzmann's constant. Since $PV=\frac{2}{3}\times(\text{total KE})=RT$ for one mole, the term $PV$ (which equals the isothermal work $RT\ln(V_2/V_1)$ integrated appropriately, or simply $PV=nRT$ for the gas) is directly proportional to the total translational kinetic energy of the gas molecules, both being proportional to absolute temperature $T$.
 
-## [D-44] Degrees of Freedom
+### [D-44] Degrees of Freedom
 
 **Definition:** The number of independent coordinates (or independent ways of absorbing energy) required to completely specify the position and configuration of a molecule in space. A monatomic gas molecule has 3 (translational) degrees of freedom; a diatomic molecule has 5 (3 translational + 2 rotational, at ordinary temperatures); a polyatomic (non-linear) molecule has 6 (3 translational + 3 rotational). By the **law of equipartition of energy**, each degree of freedom contributes $\frac{1}{2}kT$ of energy per molecule on average.
 
-## [D-45] Mean Free Path — Definition and Derivation
+### [D-45] Mean Free Path — Definition and Derivation
 
 **Definition:** The average distance travelled by a gas molecule between two successive collisions with other molecules.
 
@@ -796,7 +794,7 @@ $$
 
 where $n$ = number of molecules per unit volume, $d$ = molecular diameter.
 
-## [D-46] Newton's Law of Cooling
+### [D-46] Newton's Law of Cooling
 
 **Statement:** The rate of loss of heat (or rate of fall of temperature) of a body is directly proportional to the difference in temperature between the body and its surroundings, provided this difference is small.
 
@@ -816,7 +814,7 @@ T0|__________\_________  t
 
 x-axis: time; y-axis: temperature; curve approaches $T_0$ asymptotically, confirming exponential (not linear) cooling.
 
-## [D-47] Photoelectric Effect and Einstein's Photoelectric Equation
+### [D-47] Photoelectric Effect and Einstein's Photoelectric Equation
 
 **Photoelectric effect:** The phenomenon in which electrons are emitted from a metal surface when light (electromagnetic radiation) of sufficiently high frequency falls on it.
 
@@ -838,7 +836,7 @@ This is **Einstein's photoelectric equation**. It correctly predicts: no emissio
 
 **Work function formula for numericals:** $W_0=h\nu_0=\dfrac{hc}{\lambda_0}$, where $\lambda_0$ is the threshold wavelength.
 
-## [D-48] Compton Effect
+### [D-48] Compton Effect
 
 **Description:** When a beam of X-rays (or other high-energy photons) is scattered by loosely bound (nearly free) electrons in matter, the scattered radiation contains, besides the original wavelength, a component of longer wavelength. This increase in wavelength on scattering is called the **Compton effect**, explained by treating the photon as a particle with momentum $h/\lambda$, colliding elastically with a free electron and transferring some energy and momentum to it (like a billiard-ball collision), conserving both energy and momentum.
 
@@ -850,7 +848,7 @@ $$
 
 where $\lambda,\lambda'$ = wavelengths of incident and scattered photon, $h$ = Planck's constant, $m_0$ = rest mass of electron, $c$ = speed of light, $\varphi$ = scattering angle. The quantity $h/(m_0c)=2.43\times10^{-12}$ m is the **Compton wavelength** of the electron.
 
-## [D-49] Blackbody Radiation, Emissive Power, Absorptive Power; Kirchhoff's Law of Radiation
+### [D-49] Blackbody Radiation, Emissive Power, Absorptive Power; Kirchhoff's Law of Radiation
 
 **Blackbody radiation:** The radiation emitted by an ideal black body — a perfect absorber (and hence, when in thermal equilibrium, perfect emitter) of all wavelengths of radiation incident on it, emitting a continuous spectrum depending only on its temperature.
 
@@ -866,7 +864,7 @@ $$
 
 **Deduction:** consider a body inside an enclosure at temperature $T$, in thermal equilibrium — it must emit exactly as much as it absorbs (else its temperature would change), i.e. $e_\lambda \propto a_\lambda$ for every body, with the same proportionality constant $E_\lambda$ (the black-body value), since a black body ($a_\lambda=1$) has emissive power exactly $E_\lambda$. Hence good absorbers are good emitters, and vice versa.
 
-## [D-50] Van der Waals Equation and Critical Constants
+### [D-50] Van der Waals Equation and Critical Constants
 
 **Van der Waals equation** (correcting the ideal gas law for finite molecular size and intermolecular attraction), for 1 mole:
 
@@ -884,7 +882,7 @@ $$
 
 **Corrections to the Van der Waals equation of state:** Real gas behaviour deviates further at very high pressure/low temperature; refinements include the Berthelot equation (temperature-dependent $a$), the virial equation of state, and accounting for association/dissociation of molecules — the simple van der Waals equation is only a first-order correction and fails quantitatively near the critical point and for strongly polar/associating gases.
 
-## [D-51] Platinum Resistance Thermometer
+### [D-51] Platinum Resistance Thermometer
 
 **Principle:** The electrical resistance of a pure metal (platinum) increases linearly (over a limited range) with temperature; by measuring resistance and comparing to calibration values at fixed points, the unknown temperature can be determined:
 
@@ -900,11 +898,11 @@ with a **Callendar correction** using constant $\delta$ for the "gas scale" temp
 
 ---
 
-# 2023 (Full Marks 72, Time 3 hrs)
+## 2023 (Full Marks 72, Time 3 hrs)
 
-## Part A
+### Part A
 
-### Question 1 [3+6+3=12]
+#### Question 1 [3+6+3=12]
 
 **(a) Define: (i) Gauss's law (ii) Ohm's law (iii) Capacitor.** *(3 marks)*
 
@@ -920,7 +918,7 @@ Same as **[D-14]**. $\dfrac{P}{Q}=\dfrac{R}{S}$ at balance.
 
 Same as **[D-10]**.
 
-### Question 2 [3+6+3=12]
+#### Question 2 [3+6+3=12]
 
 **(a) What is Hall effect? Deduce the equation of Hall voltage.**
 
@@ -932,9 +930,12 @@ Same as **[D-18]**: $\tau=NIAB\sin\theta$.
 
 **(c) A conductor of length 0.5 m is situated at an angle of 30° with a uniform magnetic field of 1.5 T. If 10 A current flows through the conductor. Calculate the magnetic force acting on it.**
 
-**Given:** $l=0.5\,\text{m}$, $\theta=30^\circ$, $B=1.5\,\text{T}$, $I=10\,\text{A}$  
-**Required:** Force $F$  
-**Formula:** $F=BIl\sin\theta$ **[D-19]**  
+**Given:** $l=0.5\,\text{m}$, $\theta=30^\circ$, $B=1.5\,\text{T}$, $I=10\,\text{A}$
+
+**Required:** Force $F$
+
+**Formula:** $F=BIl\sin\theta$ **[D-19]**
+
 **Calculation:**
 
 $$
@@ -943,7 +944,7 @@ $$
 
 **Answer:** $F=3.75\,\text{N}$
 
-### Question 3 [4+4+4=12]
+#### Question 3 [4+4+4=12]
 
 **(a) State and explain Faraday's Law of electromagnetic induction.**
 
@@ -957,7 +958,7 @@ Same as **[D-22]**.
 
 Same as **[D-21]** (Lenz's part). The induced EMF/current opposes the *change* in flux producing it (not the flux itself) — hence the direction is such that, e.g., for increasing flux into a loop, the induced current flows so as to create an opposing flux (via the right-hand rule applied to the opposing field), and vice versa for decreasing flux.
 
-### Question 4 [(1+4)+(1+3)+3=12]
+#### Question 4 [(1+4)+(1+3)+3=12]
 
 **(a) Define the time constant of R-C circuit. Derive an equation of charge of a R-C circuit when the capacitor is charging.**
 
@@ -969,9 +970,12 @@ Same as **[D-25]**. $f_0=\dfrac{1}{2\pi\sqrt{LC}}$.
 
 **(c) A R-L-C circuit has an inductor of inductance 50 µH, capacitor of capacitance $5\times10^{-4}\,\mu\text{F}$ and a resistor of resistance 100 Ω. Find the resonant frequency of the circuit.**
 
-**Given:** $L=50\,\mu\text{H}=50\times10^{-6}\,\text{H}$, $C=5\times10^{-4}\,\mu\text{F}=5\times10^{-10}\,\text{F}$, $R=100\,\Omega$ (does not affect $f_0$)  
-**Required:** $f_0$  
-**Formula:** $f_0=\dfrac{1}{2\pi\sqrt{LC}}$  
+**Given:** $L=50\,\mu\text{H}=50\times10^{-6}\,\text{H}$, $C=5\times10^{-4}\,\mu\text{F}=5\times10^{-10}\,\text{F}$, $R=100\,\Omega$ (does not affect $f_0$)
+
+**Required:** $f_0$
+
+**Formula:** $f_0=\dfrac{1}{2\pi\sqrt{LC}}$
+
 **Calculation:**
 
 $$
@@ -988,9 +992,9 @@ $$
 
 **Answer:** $f_0\approx1.007\,\text{MHz}$
 
-## Part B
+### Part B
 
-### Question 5 [4+4+4=12]
+#### Question 5 [4+4+4=12]
 
 **(a) Show that the adiabatic curves are higher than isothermal curves.**
 
@@ -1002,9 +1006,12 @@ Same as **[D-30]**.
 
 **(c) A motor tyre at 27 °C is pumped that when its pressure is equal to 2 atmospheric pressures the tyre bursts suddenly. Calculate the final temperature. ($\gamma=1.4$)**
 
-**Given:** $T_1=27^\circ\text{C}=300\,\text{K}$, $P_1=1\,\text{atm}$, $P_2=2\,\text{atm}$ (bursting = sudden = adiabatic process), $\gamma=1.4$  
-**Required:** Final temperature $T_2$ (just before burst, adiabatic compression by pumping)  
-**Formula:** For adiabatic process, $TP^{\frac{1-\gamma}{\gamma}}=$ const, i.e. $\dfrac{T_2}{T_1}=\left(\dfrac{P_2}{P_1}\right)^{\frac{\gamma-1}{\gamma}}$  
+**Given:** $T_1=27^\circ\text{C}=300\,\text{K}$, $P_1=1\,\text{atm}$, $P_2=2\,\text{atm}$ (bursting = sudden = adiabatic process), $\gamma=1.4$
+
+**Required:** Final temperature $T_2$ (just before burst, adiabatic compression by pumping)
+
+**Formula:** For adiabatic process, $TP^{\frac{1-\gamma}{\gamma}}=$ const, i.e. $\dfrac{T_2}{T_1}=\left(\dfrac{P_2}{P_1}\right)^{\frac{\gamma-1}{\gamma}}$
+
 **Calculation:**
 
 $$
@@ -1017,7 +1024,7 @@ $$
 
 **Answer:** $T_2\approx365.7\,\text{K}\ (\approx92.7\,^\circ\text{C})$
 
-### Question 6 [4+4+4=12]
+#### Question 6 [4+4+4=12]
 
 **(a) Establish the relation between two specific heats of gas.**
 
@@ -1033,9 +1040,12 @@ Same as **[D-34]**.
 
 **(d) A Carnot engine while working between 450 K and 350 K takes 1000 cal of heat from high temperature reservoir. How much heat does the engine reject to the low temperature reservoir in each cycle? Calculate the efficiency. (1 cal = 4.2 J)**
 
-**Given:** $T_1=450\,\text{K}$, $T_2=350\,\text{K}$, $Q_1=1000\,\text{cal}$  
-**Required:** $Q_2$ (heat rejected), efficiency $\eta$  
-**Formula:** $\dfrac{Q_2}{Q_1}=\dfrac{T_2}{T_1}$ **[D-37]**; $\eta=1-\dfrac{T_2}{T_1}$  
+**Given:** $T_1=450\,\text{K}$, $T_2=350\,\text{K}$, $Q_1=1000\,\text{cal}$
+
+**Required:** $Q_2$ (heat rejected), efficiency $\eta$
+
+**Formula:** $\dfrac{Q_2}{Q_1}=\dfrac{T_2}{T_1}$ **[D-37]**; $\eta=1-\dfrac{T_2}{T_1}$
+
 **Calculation:**
 
 $$
@@ -1050,7 +1060,7 @@ $$
 
 **Answer:** $Q_2\approx777.8\,\text{cal}\ (\approx3266.7\,\text{J}),\quad \eta=22.2\%$
 
-### Question 7 [3+3+3+3=12]
+#### Question 7 [3+3+3+3=12]
 
 **(a) Define degrees of freedom. Describe the fundamental postulates of gas molecules.**
 
@@ -1062,9 +1072,12 @@ Same as **[D-45]**: $\lambda=\dfrac{1}{\sqrt{2}\,n\pi d^2}$.
 
 **(c) The mean free path of nitrogen molecule at 0 °C and 1 atm pressure is $0.8\times10^{-7}$ m. At this temperature and pressure its density is $2.7\times10^{19}$ molecules/cm³. What is the molecular diameter?**
 
-**Given:** $\lambda=0.8\times10^{-7}\,\text{m}$, $n=2.7\times10^{19}\,\text{molecules/cm}^3=2.7\times10^{25}\,\text{molecules/m}^3$  
-**Required:** Molecular diameter $d$  
-**Formula:** $\lambda=\dfrac{1}{\sqrt{2}\,n\pi d^2}\ \Rightarrow\ d=\sqrt{\dfrac{1}{\sqrt{2}\,n\pi\lambda}}$  
+**Given:** $\lambda=0.8\times10^{-7}\,\text{m}$, $n=2.7\times10^{19}\,\text{molecules/cm}^3=2.7\times10^{25}\,\text{molecules/m}^3$
+
+**Required:** Molecular diameter $d$
+
+**Formula:** $\lambda=\dfrac{1}{\sqrt{2}\,n\pi d^2}\ \Rightarrow\ d=\sqrt{\dfrac{1}{\sqrt{2}\,n\pi\lambda}}$
+
 **Calculation:**
 
 $$
@@ -1081,7 +1094,7 @@ $$
 
 **Answer:** $d\approx3.23\times10^{-10}\,\text{m}\ (3.23\,\text{Å})$
 
-### Question 8 [3+(1+4)+(1+3)=12]
+#### Question 8 [3+(1+4)+(1+3)=12]
 
 **(a) State and explain second law of thermodynamics.**
 
@@ -1097,11 +1110,11 @@ Same as **[D-36]** and **[D-38]**.
 
 ---
 
-# 2022 (Full Marks 72, Time 3 hrs)
+## 2022 (Full Marks 72, Time 3 hrs)
 
-## Part A
+### Part A
 
-### Question 1 [3+5+4=12]
+#### Question 1 [3+5+4=12]
 
 **(a) Define electric field and electric field intensity.**
 
@@ -1115,7 +1128,7 @@ Same as **[D-2]**.
 
 Same as **[D-9]**: $C=\dfrac{\epsilon_0\epsilon_r A}{d}$.
 
-### Question 2 [(1+4)+4+3=12]
+#### Question 2 [(1+4)+4+3=12]
 
 **(a) What is Specific resistance? State and explain Ohm's law.**
 
@@ -1127,9 +1140,12 @@ Same as **[D-13]** (voltage law).
 
 **(c) There are four resistances 8, 16, 12 and 48 ohms placed on the arms of the Wheatstone bridge. How much resistance is connected in series or parallel with the fourth arm for balance conditions?**
 
-**Given:** $P=8\,\Omega$, $Q=16\,\Omega$, $R=12\,\Omega$, fourth arm $S=48\,\Omega$ (nominal)  
-**Required:** Extra resistance $x$ to add (series or parallel) to the fourth arm for balance  
-**Formula:** Balance condition $\dfrac{P}{Q}=\dfrac{R}{S_{eff}}$ **[D-14]**  
+**Given:** $P=8\,\Omega$, $Q=16\,\Omega$, $R=12\,\Omega$, fourth arm $S=48\,\Omega$ (nominal)
+
+**Required:** Extra resistance $x$ to add (series or parallel) to the fourth arm for balance
+
+**Formula:** Balance condition $\dfrac{P}{Q}=\dfrac{R}{S_{eff}}$ **[D-14]**
+
 **Calculation:**
 
 Required effective $S_{eff}=\dfrac{Q\cdot R}{P}=\dfrac{16\times12}{8}=24\,\Omega$
@@ -1142,7 +1158,7 @@ Since actual $S=48\,\Omega \ne 24\,\Omega$, we must modify it to get $24\,\Omega
 
 **Answer:** Connect $48\,\Omega$ in parallel with the fourth arm ($48\,\Omega$) to get effective $S=24\,\Omega$ for balance.
 
-### Question 3 [(1+4)+4+4=12]
+#### Question 3 [(1+4)+4+4=12]
 
 **(a) What is charge density and electrical dipole? Deduce the relation between electric intensity and charge density.**
 
@@ -1154,9 +1170,12 @@ Same as **[D-6]** (axial field): $E=\dfrac{1}{4\pi\epsilon_0}\dfrac{2p}{r^3}$.
 
 **(c) In an L-R circuit with source, the current reaches to one third of its maximum value within 5 sec. Find the time constant of the circuit.**
 
-**Given:** $i=\dfrac{1}{3} I_0$ at $t=5\,\text{s}$  
-**Required:** Time constant $\tau=L/R$  
-**Formula:** $i=I_0(1-e^{-t/\tau})$ **[D-24]**  
+**Given:** $i=\dfrac{1}{3} I_0$ at $t=5\,\text{s}$
+
+**Required:** Time constant $\tau=L/R$
+
+**Formula:** $i=I_0(1-e^{-t/\tau})$ **[D-24]**
+
 **Calculation:**
 
 $$
@@ -1173,7 +1192,7 @@ $$
 
 **Answer:** $\tau\approx12.33\,\text{s}$
 
-### Question 4 [4+4+4=12]
+#### Question 4 [4+4+4=12]
 
 **(a) Show that the work done is directly proportional to kinetic energy of theory of gases.**
 
@@ -1187,9 +1206,9 @@ Same as **[D-45]**.
 
 Same as **[D-44]** (degrees of freedom) and **[D-46]** (Newton's law of cooling + graph).
 
-## Part B
+### Part B
 
-### Question 5 [4+4+4=12]
+#### Question 5 [4+4+4=12]
 
 **(a) What is zeroth law of thermodynamics? Show that the first law of thermodynamics is the law of conservation of energy.**
 
@@ -1203,7 +1222,7 @@ Same as **[D-29]**.
 
 Same as **[D-36]**, **[D-38]**.
 
-### Question 6 [4+4+4=12]
+#### Question 6 [4+4+4=12]
 
 **(a) Define molar specific heat. Find the relation between $C_p$ and $C_v$.**
 
@@ -1215,9 +1234,12 @@ Same as **[D-41]**: $W=\dfrac{R(T_1-T_2)}{\gamma-1}$.
 
 **(c) $0.1\,\text{m}^3$ of air at pressure of 1.5 bar is expanded isothermally to $0.5\,\text{m}^3$. Calculate the final pressure of the gas and heat supplied during the process.**
 
-**Given:** $V_1=0.1\,\text{m}^3$, $P_1=1.5\,\text{bar}=1.5\times10^5\,\text{Pa}$, $V_2=0.5\,\text{m}^3$, isothermal  
-**Required:** $P_2$, heat supplied $Q$  
-**Formula:** $P_1V_1=P_2V_2$ (Boyle's law, isothermal); $Q=W=P_1V_1\ln\dfrac{V_2}{V_1}$ **[D-42]**  
+**Given:** $V_1=0.1\,\text{m}^3$, $P_1=1.5\,\text{bar}=1.5\times10^5\,\text{Pa}$, $V_2=0.5\,\text{m}^3$, isothermal
+
+**Required:** $P_2$, heat supplied $Q$
+
+**Formula:** $P_1V_1=P_2V_2$ (Boyle's law, isothermal); $Q=W=P_1V_1\ln\dfrac{V_2}{V_1}$ **[D-42]**
+
 **Calculation:**
 
 $$
@@ -1234,7 +1256,7 @@ $$
 
 **Answer:** $P_2=0.3\,\text{bar}\ (3\times10^4\,\text{Pa}),\quad Q\approx24.14\,\text{kJ}$
 
-### Question 7 [4+4+4=12]
+#### Question 7 [4+4+4=12]
 
 **(a) What are entropy and unavailable energy?**
 
@@ -1248,8 +1270,10 @@ Same as **[D-32]**.
 
 **(c) Find the efficiency of an engine requiring $3\times10^6$ cal heat per horse power [-hour] and compare it with that of a perfect reversible engine. Assuming that the source is at 100 °C and the sink is at 0 °C.**
 
-**Given:** Heat used $Q=3\times10^6\,\text{cal}$ per horsepower-hour of work output; $T_1=100^\circ\text{C}=373\,\text{K}$; $T_2=0^\circ\text{C}=273\,\text{K}$  
-**Required:** Efficiency of the actual engine; compare with a Carnot (perfect reversible) engine  
+**Given:** Heat used $Q=3\times10^6\,\text{cal}$ per horsepower-hour of work output; $T_1=100^\circ\text{C}=373\,\text{K}$; $T_2=0^\circ\text{C}=273\,\text{K}$
+
+**Required:** Efficiency of the actual engine; compare with a Carnot (perfect reversible) engine
+
 **Formula:** 1 HP-hour $=641{,}190\,\text{cal}$ (since 1 HP $=746\,\text{W}$, 1 hour $=3600$ s, work $=746\times3600=2.6856\times10^6\,\text{J}$; using $1\,\text{cal}=4.2\,\text{J}$, work in cal $=2.6856\times10^6/4.2=639{,}430\,\text{cal}$)
 
 $$
@@ -1262,7 +1286,7 @@ $$
 
 **Answer:** $\eta_{actual}\approx21.3\%,\quad \eta_{Carnot}\approx26.8\%$ — the actual engine is less efficient than the ideal (Carnot/reversible) engine operating between the same two temperatures, as required by the second law.
 
-### Question 8 [4+4+4=12]
+#### Question 8 [4+4+4=12]
 
 **(a) What is photoelectric effect? Derive Einstein's photoelectric equation.**
 
@@ -1278,11 +1302,11 @@ Same as **[D-49]** (definitions).
 
 ---
 
-# 2021 (Full Marks 72, Time 3 hrs)
+## 2021 (Full Marks 72, Time 3 hrs)
 
-## Part A
+### Part A
 
-### Question 1 [3+6+3=12]
+#### Question 1 [3+6+3=12]
 
 **(a) Define capacitor and capacitance.**
 
@@ -1294,9 +1318,12 @@ Same as **[D-9]**: $C=\dfrac{\epsilon_0\epsilon_r A}{d}$.
 
 **(c) The area of each plate of a parallel plate capacitor is $1.5\,\text{m}^2$ and distance between the plates in air medium is 0.02 m. Calculate the capacitance of the capacitor. ($\epsilon_0=8.854\times10^{-12}\,\text{F/m}$, relative permittivity of air $\approx1$)**
 
-**Given:** $A=1.5\,\text{m}^2$, $d=0.02\,\text{m}$, medium = air ($\epsilon_r=1$)  
-**Required:** Capacitance $C$  
-**Formula:** $C=\dfrac{\epsilon_0A}{d}$  
+**Given:** $A=1.5\,\text{m}^2$, $d=0.02\,\text{m}$, medium = air ($\epsilon_r=1$)
+
+**Required:** Capacitance $C$
+
+**Formula:** $C=\dfrac{\epsilon_0A}{d}$
+
 **Calculation:**
 
 $$
@@ -1305,7 +1332,7 @@ $$
 
 **Answer:** $C\approx6.64\times10^{-10}\,\text{F}=0.664\,\text{nF}$
 
-### Question 2 [4+5+3=12]
+#### Question 2 [4+5+3=12]
 
 **(a) Explain Faraday's law and Lenz's law.**
 
@@ -1317,9 +1344,12 @@ Same as **[D-21]** (conservation-of-energy argument).
 
 **(c) Calculate the self-inductance of a coil of 400 turns when 2 Amp current creates $4\times10^{-4}$ Wb of flux.**
 
-**Given:** $N=400$, $I=2\,\text{A}$, $\phi=4\times10^{-4}\,\text{Wb}$  
-**Required:** Self-inductance $L$  
-**Formula:** $N\phi=LI\ \Rightarrow\ L=\dfrac{N\phi}{I}$  
+**Given:** $N=400$, $I=2\,\text{A}$, $\phi=4\times10^{-4}\,\text{Wb}$
+
+**Required:** Self-inductance $L$
+
+**Formula:** $N\phi=LI\ \Rightarrow\ L=\dfrac{N\phi}{I}$
+
 **Calculation:**
 
 $$
@@ -1328,7 +1358,7 @@ $$
 
 **Answer:** $L=0.08\,\text{H}=80\,\text{mH}$
 
-### Question 3 [2+5+5=12]
+#### Question 3 [2+5+5=12]
 
 **(a) State and explain Gauss's law.**
 
@@ -1342,7 +1372,7 @@ Same as **[D-14]**.
 
 Same as **[D-7]**: $E=\dfrac{1}{4\pi\epsilon_0}\dfrac{2qR}{(R^2+a^2)^{3/2}}$ (with $2a$ = separation of the two charges, as generally set up; the exact numeric answer depends on charge magnitude $q$ and separation, which are not given explicit numeric values in this printed question — the expression above is the required "field due to point P" result. If specific values of $q$ and $a$ are supplied in the student's version of the paper, substitute them directly into this formula.)
 
-### Question 4 [(1+4)+7+3=12]
+#### Question 4 [(1+4)+7+3=12]
 
 **(a) What is Hysteresis? State and explain the Hysteresis curve of a magnetic material.**
 
@@ -1354,9 +1384,12 @@ Same as **[D-24]**.
 
 **(c) A LR circuit has an inductance of 50 Henry and a resistance of 30 Ω. It is connected to a 100 volt battery, how long will it take for the current to reach one half of its final value?**
 
-**Given:** $L=50\,\text{H}$, $R=30\,\Omega$, $V=100\,\text{V}$, $i=\frac{1}{2} I_0$  
-**Required:** Time $t$  
-**Formula:** $i=I_0(1-e^{-Rt/L})$, $\tau=L/R$  
+**Given:** $L=50\,\text{H}$, $R=30\,\Omega$, $V=100\,\text{V}$, $i=\frac{1}{2} I_0$
+
+**Required:** Time $t$
+
+**Formula:** $i=I_0(1-e^{-Rt/L})$, $\tau=L/R$
+
 **Calculation:**
 
 $$
@@ -1373,9 +1406,9 @@ $$
 
 **Answer:** $t\approx1.155\,\text{s}$ (note: 100 V is not needed for the time calculation since $\tau=L/R$ is independent of the applied voltage — it only fixes $I_0=V/R$).
 
-## Part B
+### Part B
 
-### Question 5 [3+6+3=12]
+#### Question 5 [3+6+3=12]
 
 **(a) Show that entropy in reversible process remains same.**
 
@@ -1387,9 +1420,12 @@ Same as **[D-42]**: $W=RT\ln(V_2/V_1)$.
 
 **(c) Calculate the average kinetic energy of a molecule of a gas at the temperature 300 K.**
 
-**Given:** $T=300\,\text{K}$, $k=1.38\times10^{-23}\,\text{J K}^{-1}$  
-**Required:** Average KE per molecule  
-**Formula:** $\overline{KE}=\dfrac{3}{2} kT$ **[D-43]**  
+**Given:** $T=300\,\text{K}$, $k=1.38\times10^{-23}\,\text{J K}^{-1}$
+
+**Required:** Average KE per molecule
+
+**Formula:** $\overline{KE}=\dfrac{3}{2} kT$ **[D-43]**
+
 **Calculation:**
 
 $$
@@ -1398,7 +1434,7 @@ $$
 
 **Answer:** $\overline{KE}\approx6.21\times10^{-21}\,\text{J}$
 
-### Question 6 [3+6+3=12]
+#### Question 6 [3+6+3=12]
 
 **(a) Explain Newton's law of cooling.**
 
@@ -1410,9 +1446,12 @@ Same as **[D-46]**.
 
 **(c) Calculate the work function of sodium in electron volt where threshold wavelength is 6800 Å and Planck's constant is $6.663\times10^{-34}$ Js.**
 
-**Given:** $\lambda_0=6800\,\text{Å}=6800\times10^{-10}\,\text{m}=6.8\times10^{-7}\,\text{m}$, $h=6.663\times10^{-34}\,\text{Js}$, $c=3\times10^8\,\text{m/s}$  
-**Required:** Work function $W_0$ in eV  
-**Formula:** $W_0=\dfrac{hc}{\lambda_0}$ **[D-47]**  
+**Given:** $\lambda_0=6800\,\text{Å}=6800\times10^{-10}\,\text{m}=6.8\times10^{-7}\,\text{m}$, $h=6.663\times10^{-34}\,\text{Js}$, $c=3\times10^8\,\text{m/s}$
+
+**Required:** Work function $W_0$ in eV
+
+**Formula:** $W_0=\dfrac{hc}{\lambda_0}$ **[D-47]**
+
 **Calculation:**
 
 $$
@@ -1427,7 +1466,7 @@ $$
 
 **Answer:** $W_0\approx1.84\,\text{eV}$
 
-### Question 7 [2+4+4+2=12]
+#### Question 7 [2+4+4+2=12]
 
 **(a) What is Carnot's Cycle?**
 
@@ -1445,7 +1484,7 @@ Same as **[D-34]**.
 
 The quantity of heat required to raise the temperature of a unit mass of a substance through 1 K (or 1 °C); $Q=mc\Delta T$, where $c$ is the specific heat capacity (J kg⁻¹K⁻¹).
 
-### Question 8 [4+4+4=12]
+#### Question 8 [4+4+4=12]
 
 **(a) State and explain second law of thermodynamics.**
 
@@ -1457,9 +1496,12 @@ Same as **[D-11]**.
 
 **(c) A certain amount of dry air at 15 °C is expanded adiabatically to double its volume. What will be the temperature? ($\gamma=1.40$)**
 
-**Given:** $T_1=15^\circ\text{C}=288\,\text{K}$, $V_2=2V_1$, $\gamma=1.40$  
-**Required:** Final temperature $T_2$  
-**Formula:** $T_1V_1^{\gamma-1}=T_2V_2^{\gamma-1}\ \Rightarrow\ T_2=T_1\left(\dfrac{V_1}{V_2}\right)^{\gamma-1}$  
+**Given:** $T_1=15^\circ\text{C}=288\,\text{K}$, $V_2=2V_1$, $\gamma=1.40$
+
+**Required:** Final temperature $T_2$
+
+**Formula:** $T_1V_1^{\gamma-1}=T_2V_2^{\gamma-1}\ \Rightarrow\ T_2=T_1\left(\dfrac{V_1}{V_2}\right)^{\gamma-1}$
+
 **Calculation:**
 
 $$
@@ -1470,11 +1512,11 @@ $$
 
 ---
 
-# 2020 (Full Marks 72, Time 3 hrs)
+## 2020 (Full Marks 72, Time 3 hrs)
 
-## Part A
+### Part A
 
-### Question 1 [7+3+2=12]
+#### Question 1 [7+3+2=12]
 
 **(a) State and prove Gauss's law of electrostatics.**
 
@@ -1486,9 +1528,12 @@ Same as **[D-3]**.
 
 **(c) What is the magnitude of the electric field strength such that an electron placed in the field would experience an electrical force equal to its weight?**
 
-**Given:** electron mass $m_e=9.11\times10^{-31}\,\text{kg}$, electron charge $e=1.6\times10^{-19}\,\text{C}$, $g=9.8\,\text{m/s}^2$  
-**Required:** $E$ such that $eE=m_eg$  
-**Formula:** $E=\dfrac{m_eg}{e}$  
+**Given:** electron mass $m_e=9.11\times10^{-31}\,\text{kg}$, electron charge $e=1.6\times10^{-19}\,\text{C}$, $g=9.8\,\text{m/s}^2$
+
+**Required:** $E$ such that $eE=m_eg$
+
+**Formula:** $E=\dfrac{m_eg}{e}$
+
 **Calculation:**
 
 $$
@@ -1497,7 +1542,7 @@ $$
 
 **Answer:** $E\approx5.58\times10^{-11}\,\text{N/C}$
 
-### Question 2 [(1+3)+5+3=12]
+#### Question 2 [(1+3)+5+3=12]
 
 **(a) State Lenz's law of electromagnetic induction. Show that Lenz's law follows the law of conservation of energy.**
 
@@ -1511,7 +1556,7 @@ Same as **[D-24]** (growth part).
 
 Same numerical as **2022 Q3(c)**: $\tau\approx12.33\,\text{s}$ (identical given data; see that solution for full working).
 
-### Question 3 [(1+4)+7=12]
+#### Question 3 [(1+4)+7=12]
 
 **(a) What is Hall effect? Deduce the equation of Hall voltage.**
 
@@ -1521,7 +1566,7 @@ Same as **[D-17]**.
 
 Same as **[D-24]**.
 
-### Question 4 [(1+3)+(3+2)+3=12]
+#### Question 4 [(1+3)+(3+2)+3=12]
 
 **(a) What are the critical constants of a gas? Calculate the values of these constants in terms of the constants of the Van der Waals equation.**
 
@@ -1533,10 +1578,14 @@ Same as **[D-51]**.
 
 **(c) The values of resistances of a platinum resistance thermometer are 2.585 ohms and 3.510 ohms at 0 °C and 100 °C respectively. When placed in a hot bath, the resistance is found to be 9.098 ohms. Calculate the temperature of the hot bath on the gas scale. Assume $\delta=1.5$ for platinum.**
 
-**Given:** $R_0=2.585\,\Omega$, $R_{100}=3.510\,\Omega$, $R_t=9.098\,\Omega$, $\delta=1.5$  
-**Required:** Gas-scale temperature $t_{gas}$  
-**Formula (platinum scale):** $t_{Pt}=\dfrac{R_t-R_0}{R_{100}-R_0}\times100$  
-**Callendar correction:** $t_{gas}=t_{Pt}+\delta\left(\dfrac{t_{Pt}}{100}\right)\left(\dfrac{t_{Pt}}{100}-1\right)$  
+**Given:** $R_0=2.585\,\Omega$, $R_{100}=3.510\,\Omega$, $R_t=9.098\,\Omega$, $\delta=1.5$
+
+**Required:** Gas-scale temperature $t_{gas}$
+
+**Formula (platinum scale):** $t_{Pt}=\dfrac{R_t-R_0}{R_{100}-R_0}\times100$
+
+**Callendar correction:** $t_{gas}=t_{Pt}+\delta\left(\dfrac{t_{Pt}}{100}\right)\left(\dfrac{t_{Pt}}{100}-1\right)$
+
 **Calculation:**
 
 $$
@@ -1553,9 +1602,9 @@ $$
 
 **Answer:** $t_{gas}\approx767.9\,^\circ\text{C}$
 
-## Part B
+### Part B
 
-### Question 5 [(1+3)+3+(1+4)=12]
+#### Question 5 [(1+3)+3+(1+4)=12]
 
 **(a) What is mean free path? Derive an expression for the mean free path.**
 
@@ -1569,7 +1618,7 @@ Same as **[D-46]**.
 
 Same as **[D-31]**.
 
-### Question 6 [8+(2+2)=12]
+#### Question 6 [8+(2+2)=12]
 
 **(a) Derive the general expression for the establishment of Maxwell thermodynamics relation.**
 
@@ -1579,7 +1628,7 @@ Same as **[D-40]** (full four-relation derivation).
 
 Same as **[D-40]** (the two "show that" derivations given explicitly there).
 
-### Question 7 [(1+3)+(2+2)+4=12]
+#### Question 7 [(1+3)+(2+2)+4=12]
 
 **(a) What is Carnot's engine? Show the Carnot cycle is a reversible process.**
 
@@ -1603,7 +1652,7 @@ $$
 
 Same as **[D-50]** (last paragraph — limitations/corrections discussion).
 
-### Question 8 [(1+3)+(2+2)+4=12]
+#### Question 8 [(1+3)+(2+2)+4=12]
 
 **(a) Is the photoelectric effect a consequence of the wave character of radiation or is it a consequence of the particle character of radiation? Explain briefly.**
 
@@ -1615,9 +1664,12 @@ Same as **[D-47]**.
 
 **(c) Calculate the work function of sodium, in electron volts, given that the threshold wavelength is 6800 Å, and $h=6.625\times10^{-34}$ Js.**
 
-**Given:** $\lambda_0=6.8\times10^{-7}\,\text{m}$, $h=6.625\times10^{-34}\,\text{Js}$, $c=3\times10^8\,\text{m/s}$  
-**Required:** $W_0$ in eV  
-**Formula:** $W_0=hc/\lambda_0$  
+**Given:** $\lambda_0=6.8\times10^{-7}\,\text{m}$, $h=6.625\times10^{-34}\,\text{Js}$, $c=3\times10^8\,\text{m/s}$
+
+**Required:** $W_0$ in eV
+
+**Formula:** $W_0=hc/\lambda_0$
+
 **Calculation:**
 
 $$
@@ -1632,11 +1684,11 @@ $$
 
 ---
 
-# 2019 (Full Marks 36, Time 1 hr — Set A)
+## 2019 (Full Marks 36, Time 1 hr — Set A)
 
-## Part A (Answer all the questions)
+### Part A (Answer all the questions)
 
-### Question 1 [1+1=2, 3+1=4]
+#### Question 1 [1+1=2, 3+1=4]
 
 **(a) Define electric field and electric field intensity.** *(2 marks)*
 
@@ -1646,7 +1698,7 @@ Same as **[D-4]**.
 
 Same as **[D-2]**.
 
-### Question 2 [2+2+2=6]
+#### Question 2 [2+2+2=6]
 
 **Distinguish dia, para and ferro magnetic materials.**
 
@@ -1660,7 +1712,7 @@ Same as **[D-2]**.
 | Examples | Bismuth, copper, water | Aluminium, platinum, chromium | Iron, cobalt, nickel |
 | Retains magnetism when field removed? | No | No | Yes (partially — shows hysteresis) |
 
-### Question 3 [1+2=3, 3]
+#### Question 3 [1+2=3, 3]
 
 **(a) What is a capacitor? Define capacitance of a capacitor.**
 
@@ -1670,9 +1722,9 @@ Same as **[D-8]**.
 
 Same as **[D-12]**.
 
-## Part B (Answer all the questions)
+### Part B (Answer all the questions)
 
-### Question 4 [2, 4]
+#### Question 4 [2, 4]
 
 **(a) Differentiate between heat and temperature.**
 
@@ -1688,7 +1740,7 @@ Same as **[D-12]**.
 
 Same as **[D-31]**: $C_p-C_v=R$.
 
-### Question 5 [1+1=2, 4]
+#### Question 5 [1+1=2, 4]
 
 **(a) Define mean free path, degrees of freedom.**
 
@@ -1698,7 +1750,7 @@ Same as **[D-45]** (mean free path definition) and **[D-44]** (degrees of freedo
 
 Identical numerical to **2021 Q5(c)**: $\overline{KE}\approx6.21\times10^{-21}\,\text{J}$ (see that solution for full working).
 
-### Question 6 [6]
+#### Question 6 [6]
 
 **According to the principle of kinetic theory of gases, prove that the pressure exerted by a perfect gas is given by $P=\dfrac{1}{3}\dfrac{mnc^2}{V}$, where the symbols have their usual meaning.**
 
@@ -1706,11 +1758,11 @@ Same as **[D-43]**: $P=\dfrac{1}{3}\dfrac{nm\overline{c^2}}{V}$.
 
 ---
 
-# 2018 (Full Marks 72, Time 3 hrs)
+## 2018 (Full Marks 72, Time 3 hrs)
 
-## Part A
+### Part A
 
-### Question 1 [3+6+3=12]
+#### Question 1 [3+6+3=12]
 
 **(a) Define: (i) Gauss's law (ii) Ohm's law (iii) Capacitor.**
 
@@ -1726,7 +1778,7 @@ Same as **[D-10]**.
 
 *(This entire Question 1 is identical to 2023's Question 1 — same solutions apply.)*
 
-### Question 2 [(1+4)+3+(1+3)=12]
+#### Question 2 [(1+4)+3+(1+3)=12]
 
 **(a) What is Hall effect? Deduce the equation of Hall voltage.**
 
@@ -1740,9 +1792,12 @@ Same as **[D-21]**.
 
 Self-induction: same as **[D-20]**.
 
-**Given:** $l=2.5\,\text{cm}=0.025\,\text{m}$, $w=1\,\text{cm}=0.01\,\text{m}$, $I=4\,\text{A}$, $B=2\,\text{T}$, loop plane **parallel** to $B$ (so the loop's normal is perpendicular to $B$, i.e. $\theta=90^\circ$ between normal and field, giving maximum torque since $\sin\theta=1$)  
-**Required:** Torque $\tau$  
-**Formula:** $\tau=NIAB\sin\theta$ **[D-18]**, $N=1$  
+**Given:** $l=2.5\,\text{cm}=0.025\,\text{m}$, $w=1\,\text{cm}=0.01\,\text{m}$, $I=4\,\text{A}$, $B=2\,\text{T}$, loop plane **parallel** to $B$ (so the loop's normal is perpendicular to $B$, i.e. $\theta=90^\circ$ between normal and field, giving maximum torque since $\sin\theta=1$)
+
+**Required:** Torque $\tau$
+
+**Formula:** $\tau=NIAB\sin\theta$ **[D-18]**, $N=1$
+
 **Calculation:**
 
 $$
@@ -1757,7 +1812,7 @@ $$
 
 **Answer:** $\tau=2\times10^{-3}\,\text{N}\cdot\text{m}=2\,\text{mN}\cdot\text{m}$
 
-### Question 3 [2+7+3=12]
+#### Question 3 [2+7+3=12]
 
 **(a) Define heat & temperature.**
 
@@ -1771,7 +1826,7 @@ Same as **[D-43]**: $P=\dfrac{2}{3}\times(\text{KE per unit volume})$.
 
 Same as **[D-46]**.
 
-### Question 4 [(1+4)+(1+3)+3=12]
+#### Question 4 [(1+4)+(1+3)+3=12]
 
 **(a) Define the time constant of R-C circuit. Derive an equation of charge of a R-C circuit when the capacitor is charging.**
 
@@ -1785,9 +1840,9 @@ Same as **[D-25]** (identical to 2023 Q4(b)).
 
 Identical numerical data to **2023 Q4(c)**: $f_0\approx1.007\,\text{MHz}$ (see that solution for full working).
 
-## Part B
+### Part B
 
-### Question 5 [2+2+4+4=12]
+#### Question 5 [2+2+4+4=12]
 
 **(a) What is degree of freedom and state van-der-Waal's equation.**
 
@@ -1805,7 +1860,7 @@ Same as **[D-29]**.
 
 Same as **[D-49]** (Kirchhoff's law of radiation part).
 
-### Question 6 [2+2+4+4=12]
+#### Question 6 [2+2+4+4=12]
 
 **(a) Define degrees of freedom. Describe the fundamental postulates of gas molecules.**
 
@@ -1819,7 +1874,7 @@ Same as **[D-45]** (identical to 2023 Q7(b)).
 
 Identical numerical data to **2023 Q7(c)**: $d\approx3.23\times10^{-10}\,\text{m}$ (see that solution for full working).
 
-### Question 7 [(1+3.5)+(1+3.5)+3=12]
+#### Question 7 [(1+3.5)+(1+3.5)+3=12]
 
 **(a) What is entropy?**
 
@@ -1833,7 +1888,7 @@ Same as **[D-39]**: $\dfrac{dP}{dT}=\dfrac{L}{T(V_2-V_1)}$.
 
 Same as **[D-32]** (identical in structure to 2023 Q6(b)).
 
-### Question 8 [3+(1+4)+(1+3)=12]
+#### Question 8 [3+(1+4)+(1+3)=12]
 
 **(a) State and explain second law of thermodynamics.**
 
@@ -1851,11 +1906,11 @@ Same as **[D-36]**, **[D-38]** (identical to 2023 Q8(c)).
 
 ---
 
-# 2017 (Full Marks 105, Time 3 hrs — Subject code AS-107)
+## 2017 (Full Marks 105, Time 3 hrs — Subject code AS-107)
 
-## Part A
+### Part A
 
-### Question 1 [4+8.5+5=17]
+#### Question 1 [4+8.5+5=17]
 
 **(a) State and explain the coulomb's law.**
 
@@ -1867,8 +1922,10 @@ Same as **[D-9]** (parallel plate capacitor).
 
 **(c) A parallel plate capacitor consists of two square metal plates 50 cm of side and separated by 1 cm. A sulphur slab 6 mm thick is placed on the lower plate, calculate the capacitance of the capacitor. Dielectric constant of sulphur is 4.**
 
-**Given:** side of plates $=50\,\text{cm}=0.5\,\text{m}$, so $A=0.5\times0.5=0.25\,\text{m}^2$; total plate separation $d=1\,\text{cm}=0.01\,\text{m}$; sulphur slab thickness $t=6\,\text{mm}=0.006\,\text{m}$, $\epsilon_r=4$; remaining air gap $=d-t=0.01-0.006=0.004\,\text{m}$  
-**Required:** Capacitance $C$  
+**Given:** side of plates $=50\,\text{cm}=0.5\,\text{m}$, so $A=0.5\times0.5=0.25\,\text{m}^2$; total plate separation $d=1\,\text{cm}=0.01\,\text{m}$; sulphur slab thickness $t=6\,\text{mm}=0.006\,\text{m}$, $\epsilon_r=4$; remaining air gap $=d-t=0.01-0.006=0.004\,\text{m}$
+
+**Required:** Capacitance $C$
+
 **Formula (capacitor partly filled with a dielectric slab):**
 
 $$
@@ -1887,7 +1944,7 @@ $$
 
 **Answer:** $C\approx4.02\times10^{-10}\,\text{F}=0.402\,\text{nF}$
 
-### Question 2 [(1+5)+7.5+4=17.5]
+#### Question 2 [(1+5)+7.5+4=17.5]
 
 **(a) What is specific resistance? State and explain Ohm's law.**
 
@@ -1901,7 +1958,7 @@ Same as **[D-13]**.
 
 Identical data/method to **2022 Q2(c)**: required $S_{eff}=24\,\Omega$; since actual arm is $48\,\Omega$, connect a further $48\,\Omega$ **in parallel** with it to bring the effective resistance down to $24\,\Omega$. Parallel $48\,\Omega$ (see 2022 Q2(c) for full working).
 
-### Question 3 [6+8.5+3=17.5]
+#### Question 3 [6+8.5+3=17.5]
 
 **(a) Define the following terms: (i) Magnetic induction (ii) Mutual induction (iii) Self induction.**
 
@@ -1915,7 +1972,7 @@ Same as **[D-18]**: $\tau=NIAB\sin\theta$.
 
 Same as **[D-21]** (Faraday's law part).
 
-### Question 4 [(1+5)+(1+6)+(1+3.5)=17.5]
+#### Question 4 [(1+5)+(1+6)+(1+3.5)=17.5]
 
 **(a) Define magnetic induction. Derive an equation of magnetic force on a moving charge in a magnetic field.**
 
@@ -1929,9 +1986,9 @@ Same as **[D-23]**.
 
 Same as **[D-21]**.
 
-## Part B
+### Part B
 
-### Question 5 [4+5+8.5=17.5]
+#### Question 5 [4+5+8.5=17.5]
 
 **(a) What are internal energy and thermodynamical function?**
 
@@ -1945,7 +2002,7 @@ Same as **[D-26]**.
 
 Same as **[D-37]**: $\eta=1-\dfrac{T_2}{T_1}$.
 
-### Question 6 [4+5+8.5=17.5]
+#### Question 6 [4+5+8.5=17.5]
 
 **(a) State and explain the second law of thermodynamics. How can [it] differ from the first law?**
 
@@ -1957,9 +2014,12 @@ Same as **[D-42]**: $W=RT\ln(V_2/V_1)$.
 
 **(c) A carnot engine is operated between two reservoirs at temperature 177 °C and 77 °C. If the engine receives 4200 J of heat energy from the source in each cycle, calculate the amount of heat rejected to the sink in each cycle, the efficiency and work done by the engine.**
 
-**Given:** $T_1=177^\circ\text{C}=450\,\text{K}$, $T_2=77^\circ\text{C}=350\,\text{K}$, $Q_1=4200\,\text{J}$  
-**Required:** $Q_2$, $\eta$, $W$  
-**Formula:** $\dfrac{Q_2}{Q_1}=\dfrac{T_2}{T_1}$, $\eta=1-\dfrac{T_2}{T_1}$, $W=Q_1-Q_2$  
+**Given:** $T_1=177^\circ\text{C}=450\,\text{K}$, $T_2=77^\circ\text{C}=350\,\text{K}$, $Q_1=4200\,\text{J}$
+
+**Required:** $Q_2$, $\eta$, $W$
+
+**Formula:** $\dfrac{Q_2}{Q_1}=\dfrac{T_2}{T_1}$, $\eta=1-\dfrac{T_2}{T_1}$, $W=Q_1-Q_2$
+
 **Calculation:**
 
 $$
@@ -1978,7 +2038,7 @@ $$
 
 *(This is the same problem as 2023 Q6(d), here in SI units directly rather than calories.)*
 
-### Question 7 [(4+2)+(1+6)+4.5=17.5]
+#### Question 7 [(4+2)+(1+6)+4.5=17.5]
 
 **(a) What are entropy and unavailable energy?**
 
@@ -1992,7 +2052,7 @@ Same as **[D-32]** and **[D-39]**.
 
 Identical numerical to **2022 Q7(c)**: $\eta_{actual}\approx21.3\%,\ \eta_{Carnot}\approx26.8\%$ (see that solution for full working).
 
-### Question 8 [3+5+9.5=17.5]
+#### Question 8 [3+5+9.5=17.5]
 
 **(a) Define the following terms: (i) Blackbody radiation (ii) Emissive power (iii) Absorptive power.**
 
@@ -2008,7 +2068,7 @@ Same as **[D-48]**: $\lambda'-\lambda=\dfrac{h}{m_0c}(1-\cos\varphi)$, where $\l
 
 ---
 
-# High-Frequency / Repeated Topics
+## High-Frequency / Repeated Topics
 
 | Topic | Years Appeared |
 |---|---|
@@ -2053,9 +2113,9 @@ Same as **[D-48]**: $\lambda'-\lambda=\dfrac{h}{m_0c}(1-\cos\varphi)$, where $\l
 
 ---
 
-# Physics-II Formula Sheet
+## Physics-II Formula Sheet
 
-## Electricity
+### Electricity
 
 $$
 F=\frac{1}{4\pi\epsilon_0}\frac{q_1q_2}{r^2}\quad\text{(Coulomb's law)}\qquad \vec{E}=\frac{\vec{F}}{q_0}=\frac{1}{4\pi\epsilon_0}\frac{q}{r^2}\hat{r}\quad\text{(field intensity)}
@@ -2077,7 +2137,7 @@ Wheatstone bridge balance: $\dfrac{P}{Q}=\dfrac{R}{S}$
 
 where $\epsilon_0=8.854\times10^{-12}\,\text{F/m}$, $p$ = dipole moment, $R$ = resistance, $\rho$ = resistivity.
 
-## Magnetism
+### Magnetism
 
 $$
 \vec{F}=q(\vec{v}\times\vec{B})\qquad F=BIl\sin\theta\qquad \tau=NIAB\sin\theta
@@ -2089,7 +2149,7 @@ $$
 
 where $B$ = magnetic flux density, $I$ = current, $l$ = length, $A$ = loop area, $\theta$ = angle, $n$ = carrier density, $t$ = thickness, $L$ = self-inductance, $N$ = turns, $\phi$ = flux/turn.
 
-## Electromagnetic Induction
+### Electromagnetic Induction
 
 $$
 \mathcal{E}=-L\frac{dI}{dt}\ \text{(self)}\qquad \mathcal{E}_2=-M\frac{dI_1}{dt}\ \text{(mutual)}
@@ -2097,7 +2157,7 @@ $$
 
 Lenz's law: opposes flux change (energy conservation).
 
-## AC / RLC Circuits
+### AC / RLC Circuits
 
 $$
 q(t)=Q_0(1-e^{-t/RC})\ \text{(RC charging)}\qquad q(t)=Q_0e^{-t/RC}\ \text{(RC discharging)}\qquad \tau_{RC}=RC
@@ -2111,7 +2171,7 @@ $$
 f_0=\frac{1}{2\pi\sqrt{LC}}\quad\text{(resonant frequency of series RLC)}
 $$
 
-## Kinetic Theory of Gases
+### Kinetic Theory of Gases
 
 $$
 P=\frac{1}{3}\frac{nm\overline{c^2}}{V}=\frac{1}{3}\rho\overline{c^2}=\frac{2}{3}(\text{KE per unit volume})\qquad \overline{KE}=\frac{1}{2}m\overline{c^2}=\frac{3}{2}kT
@@ -2121,7 +2181,7 @@ $$
 \lambda=\frac{1}{\sqrt{2}\,n\pi d^2}\quad\text{(mean free path)}\qquad k=1.38\times10^{-23}\,\text{J K}^{-1}
 $$
 
-## Thermodynamics
+### Thermodynamics
 
 $$
 dQ=dU+dW\ \text{(1st law)}\qquad C_p-C_v=R\qquad PV^\gamma=\text{const (adiabatic)}\qquad PV=RT\ (\text{ideal gas, 1 mole})
@@ -2145,13 +2205,13 @@ $$
 
 Maxwell relations: $\left(\dfrac{\partial T}{\partial V}\right)_S=-\left(\dfrac{\partial P}{\partial S}\right)_V$, $\left(\dfrac{\partial T}{\partial P}\right)_S=\left(\dfrac{\partial V}{\partial S}\right)_P$, $\left(\dfrac{\partial S}{\partial V}\right)_T=\left(\dfrac{\partial P}{\partial T}\right)_V$, $\left(\dfrac{\partial S}{\partial P}\right)_T=-\left(\dfrac{\partial V}{\partial T}\right)_P$
 
-## Radiation
+### Radiation
 
 $$
 \frac{e_\lambda}{a_\lambda}=E_\lambda(\text{black body})\quad\text{(Kirchhoff's law of radiation)}
 $$
 
-## Quantum Physics
+### Quantum Physics
 
 $$
 h\nu=h\nu_0+\frac{1}{2}mv_{max}^2\quad\text{(Einstein photoelectric equation)}\qquad W_0=h\nu_0=\frac{hc}{\lambda_0}
@@ -2165,9 +2225,9 @@ where $h=6.626\times10^{-34}\,\text{J s}$, $c=3\times10^8\,\text{m/s}$.
 
 ---
 
-# Final Exam Preparation Section
+## Final Exam Preparation Section
 
-## Most Important Topics (by frequency across 2017–2023)
+### Most Important Topics (by frequency across 2017–2023)
 
 1. Faraday's/Lenz's law and conservation of energy — appeared **6 of 7** years
 2. Carnot engine/cycle: definition, reversibility, efficiency — **5–6** years
@@ -2177,7 +2237,7 @@ where $h=6.626\times10^{-34}\,\text{J s}$, $c=3\times10^8\,\text{m/s}$.
 6. Hall effect, RC time constant/charging, mean free path, degrees-of-freedom/kinetic postulates — **3** years each
 7. Wheatstone bridge (derivation + numerical), torque on loop, hysteresis, Compton effect, LR growth/decay — **2–3** years each
 
-## Most Important Derivations (memorize/practice first)
+### Most Important Derivations (memorize/practice first)
 
 - Wheatstone bridge balance condition **[D-14]**
 - Hall voltage **[D-17]**
@@ -2191,7 +2251,7 @@ where $h=6.626\times10^{-34}\,\text{J s}$, $c=3\times10^8\,\text{m/s}$.
 - Einstein's photoelectric equation **[D-47]**
 - Compton shift formula **[D-48]**
 
-## Most Important Numerical Problem Types
+### Most Important Numerical Problem Types
 
 - Wheatstone bridge: finding series/parallel resistance for balance (8,16,12,48 Ω pattern)
 - RLC resonant frequency (50 µH, $5\times10^{-4}$ µF, 100 Ω pattern)
@@ -2203,7 +2263,7 @@ where $h=6.626\times10^{-34}\,\text{J s}$, $c=3\times10^8\,\text{m/s}$.
 - Average KE of a gas molecule at a given $T$ ($\frac{3}{2}kT$)
 - Parallel-plate capacitor with/without dielectric slab
 
-## Last-Minute Revision Checklist
+### Last-Minute Revision Checklist
 
 - [ ] Gauss's law statement + point-charge proof
 - [ ] Coulomb's law statement, and its deduction from Gauss's law
