@@ -26,6 +26,8 @@ The lathe, known as the "mother of all machines," is the oldest machine tool use
 | Lead Screw | Used for threading operations, which require simultaneous rotation of the job and linear movement of the tool. |
 | Spindle | Hollow shaft; its bore diameter determines the maximum bar stock that can be passed through for chucking. |
 
+**Diagram:** [SVG](../assets/lathe-machine.svg) · [PNG](../assets/lathe-machine.png)
+
 ![Lathe machine](../assets/lathe-machine.svg)
 
 ### Working Principle
@@ -96,6 +98,8 @@ A shaper is a production machine that uses a single-point cutting tool. The work
 | Tool Head | Holds the cutting tool firmly; provides vertical and angular movement (via clapper box). |
 | Vice | Holds and clamps the workpiece firmly; has two jaws. |
 
+**Diagram:** [SVG](../assets/shaper-machine.svg) · [PNG](../assets/shaper-machine.png)
+
 ![Shaper machine](../assets/shaper-machine.svg)
 
 ### Working Principle
@@ -164,6 +168,8 @@ A grinding machine removes material using geometrically non-defined, bonded abra
 | Cross Feed | Moves the wheel head up/down and left/right. |
 | Traversing Wheel | Hand transverse, cross-slide, or vertical feed wheel (three types). |
 | Coolant Supply Nozzle | Cools/reduces the temperature generated during grinding. |
+
+**Diagram:** [SVG](../assets/grinding-machine.svg) · [PNG](../assets/grinding-machine.png)
 
 ![Grinding machine](../assets/grinding-machine.svg)
 
