@@ -1,6 +1,55 @@
 # CHEM-103 Exam Answers — Amines, Amino Acids, Carbohydrates & Dyes
 
-## Image Set A — Amines and Amino Acids
+## Questions
+
+### Q1
+
+1. What do you mean by 1º, 2º and 3º amine?
+2. How will you separate 1º, 2º and 3º amine from the mixture of amines?
+3. Discuss about the following reactions:
+   - (i) Sand Meyer and Gatterman reaction
+   - (ii) Coupling and Sulfa Drag reaction
+   - (iii) Hoffman and Curtius degradation.
+
+> **OR.**
+
+1. (i) Write about the following terms with examples:
+   - Protein
+   - Amino acid
+   - Essential and Non-essential amino acid
+   - Zwitter ion
+   - Isoelectric point
+   - Peptide linkage.
+2. (ii) Explain the synthesis of α-amino acid.
+3. (iii) How will you end group analysis of peptides?
+4. (iv) Discuss about the synthesis of Gly-Ala peptides.
+5. (v) Write the difference between essential and non-essential amino acid.
+
+---
+
+### Q2
+
+1. (i) What do you mean by asymmetric carbon atom and Mutarotation?
+2. (ii) Write the cyclic structure of D-glucose, Sucrose, Cellulose and Starch.
+3. (iii) Explain the conversion of an aldose into the next higher aldose and lower aldose.
+4. (iv) How will you determine the ring size of D-glucose?
+
+> **OR.**
+
+1. (i) Write about the following terms with examples:
+   - colour
+   - dyes
+   - pigment
+   - chromophore group
+   - auxochrome group
+   - dye intermediate
+   - raw materials for the manufacture of dye.
+2. (ii) Write the name and structure of three dyes.
+3. (iii) Write the classification of dye according to the chemical structure and method of application.
+4. (iv) Write the non-textile use of dyes.
+
+
+## Set A — Amines and Amino Acids
 
 ### Q1. 1°, 2°, 3° Amines — Definitions, Separation, and Named Reactions
 
