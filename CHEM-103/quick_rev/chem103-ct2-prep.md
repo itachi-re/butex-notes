@@ -1,6 +1,38 @@
 # CHEM-103 Exam Answers
 
-## Image Set A — Amines and Amino Acids
+## Questions
+
+**Set A — Amines and Amino Acids**
+
+**Q1.**
+- Define primary (1°), secondary (2°) and tertiary (3°) amines with general formulas and examples. How can a mixture of the three be separated (Hinsberg method)?
+- (i) What are the Sandmeyer and Gattermann reactions? What is the difference between them?
+- (ii) Explain the diazonium coupling reaction. Give the synthesis of the sulfa drug sulfanilamide starting from aniline.
+- (iii) What are the Hofmann and Curtius degradation reactions?
+
+**Q2.**
+- (i) Define: protein, amino acid, essential amino acid, non-essential amino acid, zwitterion, isoelectric point, peptide linkage.
+- (ii) How is an α-amino acid synthesised by the Strecker method?
+- (iii) How are the N-terminal and C-terminal residues of a peptide identified (end-group analysis)?
+- (iv) Give the synthesis of the dipeptide Gly-Ala by the protected-group route.
+- (v) Differentiate between essential and non-essential amino acids.
+
+**Set B — Carbohydrates and Dyes**
+
+**Q1.**
+- (i) What is an asymmetric (chiral) carbon atom? What is mutarotation?
+- (ii) Describe the cyclic structures of D-glucose, sucrose, cellulose and starch.
+- (iii) How is an aldose converted to the next higher homologue (Kiliani–Fischer synthesis) and to the next lower homologue (Wohl/Ruff degradation)?
+- (iv) What is the evidence for the six-membered (pyranose) ring size of D-glucose?
+
+**Q2.**
+- (i) Define: colour, dye, pigment, chromophore, auxochrome, dye intermediate, raw materials.
+- (ii) Give the name, structure and class of three dyes.
+- (iii) Classify dyes by chemical structure and by method of application.
+- (iv) What are the non-textile uses of dyes?
+
+---
+## Set A — Amines and Amino Acids
 
 ### Q1
 
