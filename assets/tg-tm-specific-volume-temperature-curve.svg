@@ -1,0 +1,35 @@
+<svg viewBox="0 0 760 440" xmlns="http://www.w3.org/2000/svg" font-family="Verdana, Arial, sans-serif">
+  <rect width="760" height="440" fill="#ffffff"/>
+  <text x="380" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">Specific Volume vs. Temperature: Tg and Tm</text>
+
+  <line x1="80" y1="370" x2="700" y2="370" stroke="#333" stroke-width="2"/>
+  <line x1="80" y1="370" x2="80" y2="60" stroke="#333" stroke-width="2"/>
+  <text x="390" y="405" text-anchor="middle" font-size="13" fill="#333">Temperature, T &#8594;</text>
+  <text x="35" y="215" text-anchor="middle" font-size="13" fill="#333" transform="rotate(-90 35 215)">Specific volume, V &#8594;</text>
+
+  <!-- Amorphous polymer: single smooth kink at Tg (blue), no sharp jump -->
+  <path d="M 100 340 L 300 300 L 660 100" fill="none" stroke="#2563eb" stroke-width="3"/>
+  <path d="M 300 300 Q 320 293 340 288" fill="none" stroke="#2563eb" stroke-width="3"/>
+  <text x="560" y="90" font-size="13" fill="#2563eb" font-weight="bold">Amorphous (glass &#8594; rubber &#8594; melt)</text>
+
+  <!-- Semi-crystalline: gentle slope, then sharp discontinuous jump at Tm (red) -->
+  <path d="M 100 355 L 420 320" fill="none" stroke="#dc2626" stroke-width="3"/>
+  <line x1="420" y1="320" x2="420" y2="230" stroke="#dc2626" stroke-width="3" stroke-dasharray="2,2"/>
+  <path d="M 420 230 L 660 140" fill="none" stroke="#dc2626" stroke-width="3"/>
+  <text x="470" y="215" font-size="13" fill="#dc2626" font-weight="bold">Semi-crystalline (solid &#8594; melt)</text>
+
+  <!-- Tg marker -->
+  <line x1="300" y1="370" x2="300" y2="300" stroke="#2563eb" stroke-width="1.2" stroke-dasharray="4,3"/>
+  <circle cx="300" cy="300" r="4" fill="#2563eb"/>
+  <text x="300" y="390" text-anchor="middle" font-size="14" fill="#2563eb" font-weight="bold">Tg</text>
+
+  <!-- Tm marker -->
+  <line x1="420" y1="370" x2="420" y2="230" stroke="#dc2626" stroke-width="1.2" stroke-dasharray="4,3"/>
+  <circle cx="420" cy="320" r="4" fill="#dc2626"/>
+  <circle cx="420" cy="230" r="4" fill="#dc2626"/>
+  <text x="420" y="390" text-anchor="middle" font-size="14" fill="#dc2626" font-weight="bold">Tm</text>
+
+  <text x="390" y="420" text-anchor="middle" font-size="11" fill="#777">
+    Tg: gradual slope change (2nd-order transition, no discontinuity). Tm: abrupt volume jump (1st-order transition, latent heat of fusion).
+  </text>
+</svg>
