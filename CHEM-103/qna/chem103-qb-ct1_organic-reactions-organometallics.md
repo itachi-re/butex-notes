@@ -1,0 +1,784 @@
+# CHEM-103 Class Test Question Bank
+## Unit 1: Organic Reactions | Unit 2: Organometallic Compounds
+
+---
+
+# UNIT 1: ORGANIC REACTIONS
+
+## Section A: Electronic Effects
+
+### Q1. Define Inductive Effect. (2 Marks)
+
+**Answer:**
+The **Inductive Effect (I-effect)** is the permanent displacement of σ (sigma) electrons along a carbon chain caused by the difference in electronegativity between atoms, without complete transfer of charge. It operates through σ-bonds and decreases rapidly with distance (negligible after 3 carbon atoms).
+
+- **+I effect**: Electron-releasing groups (alkyl groups, e.g., –CH₃, –C₂H₅)
+- **–I effect**: Electron-withdrawing groups (e.g., –NO₂, –CN, –COOH, halogens)
+
+```
+–I order:  –NO2 > –CN > –F > –Cl > –Br > –I > –OH > –C6H5 > H
++I order:  (CH3)3C– > (CH3)2CH– > CH3CH2– > CH3– > H
+```
+
+**Exam Tip:** Always mention that I-effect is *permanent* and acts through *sigma bonds*. Examiners often deduct marks if students confuse it with resonance (which acts through π-bonds).
+
+---
+
+### Q2. Define Electromeric Effect. Explain with an example. (3 Marks)
+
+**Answer:**
+The **Electromeric Effect (E-effect)** is a **temporary** effect shown by molecules containing a multiple bond (C=C, C=O, C≡C) when attacked by a reagent. It involves the complete transfer of a shared pair of π-electrons to one of the atoms joined by the multiple bond, and it operates **only in the presence of an attacking reagent**; once the reagent is removed, the molecule reverts to its original state.
+
+**Example:** Addition of H⁺ to an alkene:
+
+```
+   H   H                    H   H
+    \ /                      \ /
+     C = C   +  H⁺   →        C — C⁺
+    /   \                    /   \
+   H     H                  H     H — H
+```
+
+- **+E effect:** electron pair shifts toward the attacking reagent (e.g., addition of electrophiles to alkenes)
+- **–E effect:** electron pair shifts away from the attacking reagent
+
+**Exam Tip:** Emphasize the keyword **"temporary"** and **"only under attack of a reagent"** — this is the single biggest differentiator from inductive and mesomeric effects that examiners look for.
+
+---
+
+### Q3. Define Mesomeric Effect (Resonance Effect). Give an example. (3 Marks)
+
+**Answer:**
+The **Mesomeric Effect (M-effect / Resonance effect)** is the **permanent** polarization effect produced in a conjugated system due to the delocalization of π-electrons or lone pair of electrons from a multiple bond or an atom with a lone pair into the adjacent π system. It operates through **π-bonds** or **p-orbitals with lone pairs**, and unlike inductive effect, it does **not** die out with distance in a conjugated chain — it is transmitted through the whole conjugated system.
+
+**Example:** Resonance in nitrobenzene / aniline:
+
+```
+   NH2                    NH2⁺                 
+    |                      ‖                    
+   ⌬  ←—resonance—→       ⌬                    (lone pair delocalized
+    |                      |                     into the ring)
+   (benzene ring)      (ring carries – charge)
+```
+
+- **+M (electron-donating by resonance):** –NH₂, –OH, –OR, halogens (weakly)
+- **–M (electron-withdrawing by resonance):** –NO₂, –CN, –CHO, –COOH, –COR
+
+**Exam Tip:** Always draw at least one resonance structure with curved arrows showing electron movement — examiners specifically reward "curved arrow notation."
+
+---
+
+### Q4. Differentiate between Inductive, Electromeric, and Mesomeric Effects. (5 Marks)
+
+**Answer:**
+
+| Feature | Inductive Effect | Electromeric Effect | Mesomeric Effect |
+|---|---|---|---|
+| **Nature** | Permanent | Temporary | Permanent |
+| **Bond involved** | σ-bond | π-bond | π-bond / lone pair |
+| **Requires reagent?** | No | Yes (only during attack) | No |
+| **Distance effect** | Dies out after ~3 carbons | Localized at multiple bond | Transmitted through whole conjugated system |
+| **Symbol** | I | E | M or R |
+| **Example** | C–Cl bond polarization | Addition of H⁺ to C=C | Resonance in phenol, aniline |
+| **Mechanism type** | Electron displacement | Electron pair complete transfer (reversible) | Delocalization via conjugation |
+
+**Exam Tip:** A table like this, reproduced from memory, is one of the highest-yield answers in CHEM-103 tests — examiners frequently ask this exact comparison as a standalone 5-mark question.
+
+---
+
+## Section B: Reactive Intermediates
+
+### Q5. What is a Carbonium Ion (Carbocation)? Discuss its structure and stability order. (4 Marks)
+
+**Answer:**
+A **carbonium ion (carbocation)** is a positively charged carbon species in which the carbon atom has only **6 electrons in its valence shell** and is bonded to three other groups. The positively charged carbon is **sp² hybridized**, **planar** (trigonal), with an empty unhybridized p-orbital.
+
+```
+        R
+        |
+   R — C⁺        (sp² hybridized, planar, empty p-orbital ⟂ to plane)
+        |
+        R
+```
+
+**Formation:** Generated by heterolytic bond cleavage, e.g.:
+```
+R–X  →  R⁺  +  X⁻
+```
+
+**Stability order (due to +I effect and hyperconjugation):**
+```
+3° (tertiary) > 2° (secondary) > 1° (primary) > methyl carbocation
+(CH3)3C⁺  >  (CH3)2CH⁺  >  CH3CH2⁺  >  CH3⁺
+```
+
+Stability is further enhanced by **resonance** (allylic, benzylic cations) and **hyperconjugation** (no. of α-hydrogens).
+
+**Exam Tip:** Always draw the empty p-orbital and mention **sp² hybridization + planar geometry** — this is the most commonly missed structural detail.
+
+---
+
+### Q6. What is a Carbanion? Explain its structure and relative stability. (4 Marks)
+
+**Answer:**
+A **carbanion** is a negatively charged carbon species carrying a **lone pair of electrons**, giving carbon 8 electrons in its valence shell (an octet). The carbon is **sp³ hybridized** and **pyramidal** (similar to NH₃), though it can invert rapidly.
+
+```
+        R
+        |
+   R — C⁻  ..     (sp3 hybridized, pyramidal, lone pair present)
+        |
+        R
+```
+
+**Formation:** By heterolytic cleavage where carbon retains both electrons:
+```
+R–H  +  Base⁻  →  R⁻  +  Base–H
+```
+
+**Stability order (opposite to carbocations, since –I stabilizes negative charge):**
+```
+CH3⁻ > 1° > 2° > 3°
+(methyl carbanion is most stable; more alkyl groups destabilize due to +I effect)
+```
+
+Stability is increased by **electron-withdrawing groups** (–NO₂, –CN, –COOH) via –I and resonance, and by **greater s-character** (sp > sp² > sp³ carbanions, e.g., acetylide ion is very stable).
+
+**Exam Tip:** Students often wrongly apply the carbocation stability order to carbanions — explicitly state "opposite trend" to secure full marks.
+
+---
+
+### Q7. Compare Carbonium Ion and Carbanion. (5 Marks)
+
+**Answer:**
+
+| Property | Carbonium Ion (Carbocation) | Carbanion |
+|---|---|---|
+| **Charge** | Positive | Negative |
+| **Electrons on C** | 6 (sextet) | 8 (octet, with lone pair) |
+| **Hybridization** | sp² | sp³ (pyramidal) |
+| **Geometry** | Planar/trigonal | Pyramidal |
+| **Stabilized by** | +I groups (alkyl), resonance | –I groups, resonance, s-character |
+| **Stability order** | 3° > 2° > 1° > CH3⁺ | CH3⁻ > 1° > 2° > 3° |
+| **Formed in** | SN1, E1 reactions | Elimination via base, Grignard chemistry |
+| **Nature** | Electrophile (electron deficient) | Nucleophile (electron rich) |
+
+**Exam Tip:** State clearly that carbocations are attacked by nucleophiles, while carbanions themselves act as nucleophiles/bases — a commonly asked "reason" sub-question.
+
+---
+
+## Section C: Nucleophilic Substitution Reactions
+
+### Q8. Explain the SN1 Reaction Mechanism with an example. (6 Marks)
+
+**Answer:**
+**SN1 (Substitution Nucleophilic Unimolecular)** is a two-step mechanism in which the rate-determining step involves only **one molecule** — the substrate. It proceeds via a **carbocation intermediate** and shows **first-order kinetics**: Rate = k[Substrate].
+
+**Example:** Hydrolysis of tertiary butyl bromide:
+
+```
+Step 1 (Slow, RDS): Ionization
+        CH3                          CH3
+         |                            |
+   CH3 — C — Br   ────slow───→  CH3 — C⁺   +   Br⁻
+         |                            |
+        CH3                          CH3
+      (3° alkyl halide)          (3° carbocation, sp², planar)
+
+Step 2 (Fast): Nucleophilic attack
+        CH3                    CH3
+         |                      |
+   CH3 — C⁺  +  H2O  ──fast──→  CH3 — C — OH2⁺  ──(–H⁺)──→  (CH3)3C–OH
+         |                      |
+        CH3                    CH3
+```
+
+**Key features:**
+- Involves a **planar carbocation** → nucleophile attacks from both faces → **racemization** (partial inversion + retention)
+- Favored by: **3° > 2° > 1°** substrates (carbocation stability), polar protic solvents (stabilize ions), weak nucleophiles
+- Rate is **independent** of nucleophile concentration
+
+**Energy profile:**
+```
+Energy
+  |            ‡1        ‡2
+  |           / \        / \
+  |          /   \      /   \
+  |    RX --/     \--R⁺+X⁻--\--Product
+  |________________________________→ Reaction coordinate
+     (two transition states, one intermediate — carbocation)
+```
+
+**Exam Tip:** Mention "racemization" and "first order kinetics" explicitly — these are the two most-checked keywords by examiners for full marks.
+
+---
+
+### Q9. Explain the SN2 Reaction Mechanism with an example. (6 Marks)
+
+**Answer:**
+**SN2 (Substitution Nucleophilic Bimolecular)** is a **single-step, concerted** mechanism where bond breaking and bond forming happen simultaneously. It shows **second-order kinetics**: Rate = k[Substrate][Nucleophile].
+
+**Example:** Reaction of methyl bromide with hydroxide ion:
+
+```
+           H                    H                      H
+           |                    |    ‡                 |
+  HO⁻  +  C — Br   ──────→  [HO---C---Br]⁻  ──────→  HO — C  +  Br⁻
+           |                    |                      |
+           H                    H                      H
+     (Nu attacks from      (Transition state:      (Product, inverted
+      back side of C–Br)    trigonal bipyramidal,   configuration —
+                             partial bonds both      "Walden Inversion")
+                             sides)
+```
+
+- Nucleophile attacks from the **side opposite** to the leaving group (backside attack)
+- Results in **complete inversion of configuration** ("Walden inversion" — like an umbrella flipping inside out)
+- Favored by: **1° > 2° >> 3°** substrates (less steric hindrance), strong nucleophiles, polar aprotic solvents
+
+**Energy profile:**
+```
+Energy
+  |              ‡
+  |             / \
+  |            /   \
+  |   Nu+RX --/     \-- Product+X⁻
+  |________________________________→ Reaction coordinate
+      (single transition state, NO intermediate)
+```
+
+**Exam Tip:** Draw the trigonal bipyramidal transition state with partial bonds (dashed lines) — this diagram alone often carries 1–2 marks.
+
+---
+
+### Q10. Compare SN1 and SN2 Reactions. (5 Marks)
+
+**Answer:**
+
+| Feature | SN1 | SN2 |
+|---|---|---|
+| **Mechanism** | Two-step | One-step (concerted) |
+| **Kinetics** | First order: Rate = k[RX] | Second order: Rate = k[RX][Nu⁻] |
+| **Intermediate** | Carbocation formed | None (transition state only) |
+| **Stereochemistry** | Racemization | Complete inversion (Walden inversion) |
+| **Substrate preference** | 3° > 2° > 1° | 1° > 2° > 3° |
+| **Nucleophile strength** | Weak nucleophile sufficient | Strong nucleophile required |
+| **Solvent** | Polar protic (e.g., water, alcohol) | Polar aprotic (e.g., acetone, DMSO) |
+| **Rearrangement** | Common (carbocation rearranges) | Absent |
+
+**Exam Tip:** This is one of the **most repeated** questions in CHEM-103 tests. Memorize the table verbatim and be ready to justify *why* (e.g., steric hindrance blocks backside attack in 3° for SN2).
+
+---
+
+## Section D: Elimination Reactions
+
+### Q11. Explain the E1 Reaction Mechanism with an example. (5 Marks)
+
+**Answer:**
+**E1 (Elimination Unimolecular)** proceeds via a **two-step mechanism** through a carbocation intermediate, similar in first step to SN1. It follows **first-order kinetics**.
+
+**Example:** Dehydrohalogenation of tert-butyl bromide with base:
+
+```
+Step 1 (Slow, RDS): Ionization
+        CH3                       CH3
+         |                         |
+   CH3 — C — Br   ──slow──→  CH3 — C⁺   +  Br⁻
+         |                         |
+        CH3                       CH3
+
+Step 2 (Fast): β-hydrogen removed by base, forming alkene
+        CH3                        CH3
+         |                          \
+   CH3 — C⁺   + Base  ──fast──→      C = CH2   +  Base–H
+         |                          /
+        CH2–H (β-H)              CH3
+                                (isobutylene, major product
+                                 by Zaitsev's rule)
+```
+
+- Rate = k[Substrate] (independent of base concentration)
+- Favors formation of the **more substituted (Zaitsev/more stable) alkene**
+- Competes with SN1 (same carbocation intermediate); high temperature and weak base favor elimination over substitution
+
+**Exam Tip:** State **Zaitsev's Rule** explicitly ("the more substituted alkene is the major product") — examiners award a dedicated mark for naming this rule.
+
+---
+
+### Q12. Explain the E2 Reaction Mechanism with an example. (5 Marks)
+
+**Answer:**
+**E2 (Elimination Bimolecular)** is a **single-step, concerted** mechanism in which a strong base removes a β-hydrogen while the leaving group departs simultaneously, forming a double bond. Second-order kinetics: Rate = k[Substrate][Base].
+
+**Example:** Reaction of 2-bromopropane with strong base (KOH/alcohol):
+
+```
+        H    H                              H   H
+        |    |            ‡                  \ /
+  B⁻ ...H — C — C — Br   ──────→   B–H  +   C = C   +  Br⁻
+             |   |                          /
+             H   CH3                      CH3
+       (base removes β-H anti-       (propene formed;
+        periplanar to leaving        anti-periplanar
+        group; concerted with        geometry required)
+        C–Br bond breaking)
+```
+
+- Requires **anti-periplanar** arrangement of the β-H and leaving group (staggered conformation)
+- Strong, bulky bases (e.g., KOH, NaOEt, t-BuOK) favor E2
+- Also follows **Zaitsev's rule** generally (except with bulky bases, which favor Hofmann product)
+
+**Exam Tip:** Mention "anti-periplanar geometry" — this is the single most commonly tested mechanistic detail distinguishing E2 from E1.
+
+---
+
+### Q13. Compare E1 and E2 Reactions. (5 Marks)
+
+**Answer:**
+
+| Feature | E1 | E2 |
+|---|---|---|
+| **Mechanism** | Two-step | One-step (concerted) |
+| **Kinetics** | First order: Rate = k[RX] | Second order: Rate = k[RX][Base] |
+| **Intermediate** | Carbocation | None |
+| **Substrate preference** | 3° > 2° > 1° | 3° > 2° > 1° (but works well for all) |
+| **Base strength** | Weak base sufficient | Strong base required |
+| **Stereochemistry** | No specific geometry required | Anti-periplanar arrangement required |
+| **Rearrangement** | Possible | Not possible |
+| **Competing reaction** | SN1 | SN2 |
+
+**Exam Tip:** A frequent "reason" question is: *"Why does E2 require anti-periplanar geometry but E1 does not?"* — Answer: because E1's carbocation can rotate freely before the β-H is removed, while E2's concerted mechanism requires proper orbital alignment at the moment of reaction.
+
+---
+
+### Q14. Compare Substitution (SN1/SN2) vs Elimination (E1/E2) reactions in terms of the conditions that favor each. (4 Marks)
+
+**Answer:**
+
+| Condition | Favors Substitution | Favors Elimination |
+|---|---|---|
+| **Nucleophile/Base** | Weak base, good nucleophile (e.g., I⁻, CN⁻) | Strong, bulky base (e.g., t-BuOK) |
+| **Temperature** | Low temperature | High temperature |
+| **Substrate** | 1° substrate → SN2; 3° → SN1 possible | 3° substrate strongly favors E1/E2 |
+| **Solvent** | Polar protic (SN1), polar aprotic (SN2) | Non-polar / alcoholic KOH |
+
+**General rule:** Increasing base strength and steric bulk shifts the reaction from substitution toward elimination; increasing temperature always favors elimination (entropy-driven, more product molecules formed).
+
+**Exam Tip:** This is a favorite "reasoning" question — always tie the answer back to sterics (bulky base can't easily attack carbon, so it removes a proton instead) and thermodynamics (elimination has higher entropy).
+
+---
+
+## Section E: Addition Reactions
+
+### Q15. What is Markovnikov's Rule? Explain with the mechanism of HBr addition to propene. (5 Marks)
+
+**Answer:**
+**Markovnikov's Rule** states that when an unsymmetrical reagent (HX) adds to an unsymmetrical alkene, the **hydrogen atom adds to the carbon already bearing more hydrogen atoms**, and the halogen (or negative part) adds to the carbon with fewer hydrogens ("rich gets richer").
+
+**Mechanism (Electrophilic Addition):**
+
+```
+Step 1: Protonation (H⁺ adds to give more stable carbocation)
+   CH3–CH=CH2  +  H⁺  →  CH3–CH⁺–CH3   (2° carbocation, more stable)
+                          [not CH3–CH2–CH2⁺, which is 1°, less stable]
+
+Step 2: Nucleophilic attack by Br⁻
+   CH3–CH⁺–CH3  +  Br⁻  →  CH3–CHBr–CH3
+                            (2-bromopropane, Markovnikov product)
+```
+
+**Reasoning:** The reaction proceeds via the **more stable carbocation** (2° over 1°) due to +I effect and hyperconjugation, which explains why the major product follows Markovnikov's rule.
+
+**Exam Tip:** Always justify Markovnikov addition using **carbocation stability**, not just stating the rule — mechanism-based reasoning secures full marks over rote statement.
+
+---
+
+### Q16. What is the Peroxide (Kharasch) Effect / Anti-Markovnikov Addition? Explain with mechanism. (4 Marks)
+
+**Answer:**
+In the presence of **peroxides**, HBr adds to unsymmetrical alkenes in an **anti-Markovnikov** manner (only for HBr; does not apply to HCl or HI) — known as the **Kharasch effect**. It follows a **free-radical mechanism** instead of ionic mechanism.
+
+```
+Initiation:   R–O–O–R  →  2 RO•
+              RO•  +  HBr  →  ROH  +  Br•
+
+Propagation:  CH3–CH=CH2  +  Br•  →  CH3–•CH–CH2Br  (more stable 2° radical)
+              CH3–•CH–CH2Br  +  HBr  →  CH3–CH2–CH2Br  +  Br•
+                                        (1-bromopropane, anti-Markovnikov)
+```
+
+The bromine radical adds first to give the more stable **secondary free radical**, reversing the regiochemistry compared to the ionic (Markovnikov) mechanism.
+
+**Exam Tip:** State clearly "only HBr shows peroxide effect, not HCl/HI" — this specific fact is a common one-mark "reason-based" question.
+
+---
+
+### Q17. Explain electrophilic addition of a symmetrical reagent (e.g., Br₂) to an alkene, showing formation of a bromonium ion. (4 Marks)
+
+**Answer:**
+Addition of Br₂ to an alkene (e.g., ethylene) proceeds via a cyclic **bromonium ion intermediate**, giving an **anti (trans) addition** product.
+
+```
+Step 1: Br2 polarized by alkene π electrons; forms bromonium ion
+     H   H              H    H
+      \ /                \  / 
+       C=C   +  Br–Br →   C--C     (cyclic bromonium ion,
+      /   \                \Br+/    Br bridges both carbons)
+     H     H
+
+Step 2: Br⁻ attacks from the opposite face (anti attack)
+     H    H                  H   Br
+      \  /                    \ /
+       C--C     +  Br⁻  →      C — C          (anti addition;
+      /Br+\                   /     \          vicinal dibromide)
+     H     H                 H       H
+                                     Br
+```
+
+**Result:** 1,2-dibromoethane, with **anti-stereochemistry** because Br⁻ must attack from the face opposite to the bromonium ion.
+
+**Exam Tip:** Drawing the three-membered cyclic bromonium ion is essential — many students lose marks by drawing a simple open carbocation instead.
+
+---
+
+# UNIT 2: ORGANOMETALLIC COMPOUNDS
+
+## Section A: Introduction and Grignard Reagents
+
+### Q18. What are Organometallic Compounds? Give examples. (2 Marks)
+
+**Answer:**
+**Organometallic compounds** are compounds that contain at least one direct **carbon–metal (C–M) bond**. The metal may be a main-group metal (Mg, Zn, Li, Na) or a transition metal. The C–metal bond is typically polar, with carbon carrying a partial negative charge (carbanion character) due to the lower electronegativity of the metal.
+
+**Examples:**
+```
+CH3–MgBr        (Methylmagnesium bromide — Grignard reagent)
+C2H5–ZnI        (Ethylzinc iodide — organozinc compound)
+(C2H5)4Pb       (Tetraethyl lead)
+CH3–Li          (Methyllithium)
+```
+
+**Exam Tip:** Emphasize "carbon acts as a nucleophile/carbanion equivalent" — this single line explains almost all organometallic reactivity and is frequently asked as a "why" question.
+
+---
+
+### Q19. How is Grignard Reagent (RMgX) prepared? Write the equation and precautions. (4 Marks)
+
+**Answer:**
+Grignard reagents are prepared by reacting an alkyl or aryl halide with magnesium metal in **dry ether** under anhydrous conditions.
+
+```
+R–X  +  Mg   ──(dry ether)──→   R–Mg–X
+(alkyl halide)                  (Grignard reagent)
+
+Example:
+CH3–Br  +  Mg  ──dry ether──→  CH3–MgBr
+```
+
+**Structure:**
+```
+        R
+        |
+   X — Mg           (R = alkyl/aryl, X = Cl, Br, I)
+```
+
+**Precautions (essential for full marks):**
+- Solvent must be **absolutely dry ether** (moisture destroys the reagent: RMgX + H₂O → RH + Mg(OH)X)
+- Reaction vessel and reagents must be free of moisture and CO₂
+- Reaction is carried out under an **inert atmosphere** (N₂) to avoid side reactions
+- Iodine crystal sometimes used to initiate the reaction
+
+**Exam Tip:** Always mention "anhydrous/dry conditions" — this is the #1 keyword examiners check, since it explains both preparation and reactivity limitations.
+
+---
+
+### Q20. Discuss the synthetic applications of Grignard Reagent (reaction with carbonyl compounds). (6 Marks)
+
+**Answer:**
+Grignard reagents (RMgX) are highly versatile nucleophilic reagents, acting as a source of carbanion (R⁻), and react with carbonyl compounds to build C–C bonds, forming alcohols after hydrolysis.
+
+**(a) With Formaldehyde → Primary alcohol**
+```
+HCHO  +  RMgX  →  R–CH2–OMgX  ──(H2O/H+)──→  R–CH2–OH  (1° alcohol)
+```
+
+**(b) With other Aldehydes → Secondary alcohol**
+```
+R'CHO  +  RMgX  →  R'–CH(OMgX)–R  ──(H2O/H+)──→  R'–CH(OH)–R  (2° alcohol)
+```
+
+**(c) With Ketones → Tertiary alcohol**
+```
+R'2C=O  +  RMgX  →  R'2C(OMgX)–R  ──(H2O/H+)──→  R'2C(OH)–R  (3° alcohol)
+```
+
+**(d) With Carbon Dioxide → Carboxylic acid**
+```
+RMgX  +  CO2  →  R–COOMgX  ──(H2O/H+)──→  R–COOH
+```
+
+**(e) With Esters → Tertiary alcohol (via 2 equivalents)**
+```
+R'COOR'' + RMgX → R'CO R + R''OMgX → (excess RMgX) → R'CR2–OH (3° alcohol)
+```
+
+**General mechanism (nucleophilic addition to C=O):**
+```
+      δ+  δ-                    O–MgX
+   R–Mg–X   +   C=O   →           |
+                                R'–C–R
+                                  |
+                              (alkoxide intermediate,
+                               hydrolyzed to alcohol)
+```
+
+**Exam Tip:** Organize the answer by carbonyl type (formaldehyde/aldehyde/ketone) — examiners award marks per correctly matched product type, so completeness matters more than mechanism detail here.
+
+---
+
+### Q21. Why must Grignard reagents be prepared and used in strictly anhydrous (moisture-free) conditions? (3 Marks)
+
+**Answer:**
+Grignard reagents (R–MgX) contain a highly polarized, reactive **C–Mg bond**, giving the carbon strong **carbanion character**. This makes RMgX an extremely strong base and nucleophile that reacts instantly and irreversibly with even trace amounts of water:
+
+```
+R–MgX  +  H2O  →  R–H  +  Mg(OH)X
+```
+
+Since water is a stronger proton donor than the intended substrate, any moisture present destroys the Grignard reagent by simple acid-base (protonation) reaction before it can perform the desired nucleophilic addition. This also explains why Grignard reagents react with –OH, –NH, and –COOH groups of other molecules, so substrates containing these groups cannot be used directly.
+
+**Exam Tip:** Write the destructive hydrolysis equation explicitly — this is the exact justification examiners expect, not just "because it's reactive."
+
+---
+
+## Section B: Organozinc Compounds
+
+### Q22. What are Organozinc Compounds? Describe their preparation. (3 Marks)
+
+**Answer:**
+**Organozinc compounds** are organometallic compounds containing a carbon–zinc bond, of general formula **R–Zn–X** (Reformatsky-type/Frankland reagents) or **R₂Zn** (dialkylzinc).
+
+**Preparation (Frankland's method):**
+```
+2 R–X  +  2 Zn  ──heat──→  R–Zn–R  +  ZnX2   (dialkylzinc)
+
+or (with reactive halides, e.g., α-haloesters — Reformatsky reagent):
+BrCH2COOC2H5  +  Zn  ──dry ether──→  BrZn–CH2–COOC2H5
+```
+
+Historically important as the **first organometallic reagents** used in organic synthesis (Frankland, 1849), predating Grignard reagents. They are **less reactive** than Grignard reagents (Zn is less electropositive than Mg), making them useful when milder, more selective nucleophilic addition is required (e.g., Reformatsky reaction with esters and aldehydes/ketones).
+
+**Exam Tip:** Mention "Frankland" and "less reactive than Grignard" — both are frequently tested one-line facts.
+
+---
+
+### Q23. Compare Grignard Reagent and Organozinc Compound. (4 Marks)
+
+**Answer:**
+
+| Feature | Grignard Reagent (RMgX) | Organozinc Compound (RZnX / R₂Zn) |
+|---|---|---|
+| **General formula** | R–Mg–X | R–Zn–X or R₂Zn |
+| **Reactivity** | Highly reactive | Comparatively less reactive |
+| **Preparation medium** | Dry ether (essential) | Can be prepared without strict anhydrous ether in some cases |
+| **Sensitivity to moisture/air** | Extremely sensitive | Less sensitive |
+| **Discovered by** | Victor Grignard (1900) | Edward Frankland (1849) |
+| **Main use** | Wide-ranging C–C bond formation | Reformatsky reaction, selective additions |
+
+**Exam Tip:** Historical dates (Frankland 1849, Grignard 1900, Nobel Prize 1912 for Grignard) are occasionally asked as small "reason/fact" sub-questions — worth memorizing briefly.
+
+---
+
+## Section C: Tetraethyl Lead
+
+### Q24. Write a short note on Tetraethyl Lead (TEL): preparation, use, and hazards. (4 Marks)
+
+**Answer:**
+**Tetraethyl lead, (C₂H₅)₄Pb**, is an organometallic compound of lead used historically as an **anti-knock agent** in gasoline (petrol).
+
+**Preparation:**
+```
+4 C2H5Cl  +  4 NaPb  →  (C2H5)4Pb  +  4 NaCl  +  3 Pb
+(via Grignard route also possible):
+4 C2H5MgBr  +  PbCl2  →  (C2H5)4Pb  +  4 MgBrCl  (approx.)
+```
+
+**Use:** Added in small amounts to gasoline; it decomposes on combustion into lead and ethyl radicals which interrupt the chain-branching reactions responsible for engine "knocking," raising the **octane number** of fuel and allowing smoother, more efficient combustion.
+
+**Hazards:**
+- Lead and its compounds are **highly toxic** (neurotoxin), causing lead poisoning affecting the nervous system, especially in children
+- Combustion releases lead oxide particulates into the atmosphere, causing environmental and air pollution
+- **Banned/phased out** in most countries; replaced by unleaded fuel with alternative octane boosters (e.g., MTBE, ethanol)
+
+**Exam Tip:** Always connect structure → function → hazard in this order; examiners reward this cause-effect logic chain over a plain list of facts.
+
+---
+
+## Section D: Alcohols and Phenols
+
+### Q25. Differentiate between Alcohols and Phenols. (5 Marks)
+
+**Answer:**
+
+| Property | Alcohols (R–OH) | Phenols (Ar–OH) |
+|---|---|---|
+| **–OH attached to** | sp³ carbon (alkyl) | sp² carbon of aromatic ring |
+| **Acidity** | Weakly acidic (pKa ~16–18) | More acidic (pKa ~10) due to resonance stabilization of phenoxide ion |
+| **Reaction with NaOH** | Does not react | Reacts to form sodium phenoxide + water |
+| **Reaction with FeCl3** | No color change | Gives violet/purple color (test for phenols) |
+| **Reaction with HX** | Undergoes SN1/SN2 substitution | Does not undergo substitution (C–O bond has partial double bond character) |
+| **Oxidation** | Oxidized to aldehyde/ketone/acid | Resistant to oxidation of ring; forms quinones under strong oxidation |
+
+**Why phenol is more acidic:** The phenoxide ion (C₆H₅O⁻) formed after loss of H⁺ is stabilized by **resonance delocalization** of the negative charge into the aromatic ring, unlike an alkoxide ion (RO⁻) which has no such stabilization.
+
+```
+   OH                    O⁻                O            O            O
+    |         –H+         |                 ‖             |            |
+   ⌬     ──────→        ⌬    ↔     ⌬     ↔    ⌬     ↔     ⌬       (resonance
+ (phenol)            (phenoxide ion — negative charge delocalized      stabilized)
+                       onto ortho/para ring carbons)
+```
+
+**Exam Tip:** The resonance stabilization explanation for phenol's acidity is one of the most frequently asked "reason" questions — always draw at least 2 resonance structures.
+
+---
+
+### Q26. Explain the acidic character of Phenol with resonance structures, and how substituents affect its acidity. (5 Marks)
+
+**Answer:**
+Phenol (C₆H₅OH) is acidic because it can lose a proton to form a resonance-stabilized **phenoxide ion**. The negative charge on oxygen is delocalized into the ring at ortho and para positions through resonance, spreading the charge and lowering energy (increasing stability), thereby increasing the tendency to ionize.
+
+```
+Resonance structures of phenoxide ion:
+  O⁻        O          O          O          O
+  |         ‖           |          |           |
+ (ring)  ↔ (ring, –ve  ↔ (ring,   ↔ (ring,    ↔ (all contribute to
+           at ortho C)    –ve at    –ve at        delocalized negative
+                          para C)   ortho C)       charge)
+```
+
+**Effect of substituents on acidity:**
+- **Electron-withdrawing groups (–NO₂, –Cl, –CHO)** at ortho/para positions **increase acidity** further (additional resonance/inductive stabilization of the phenoxide ion). E.g., *p*-nitrophenol is far more acidic than phenol.
+- **Electron-donating groups (–CH₃, –OCH₃, –NH₂)** at ortho/para positions **decrease acidity** (destabilize the negative charge by pushing more electron density onto the ring).
+
+**Exam Tip:** If asked to rank acidity of substituted phenols, always check both **position** (ortho/para vs meta) and **nature** (EWG vs EDG) of the substituent — meta-substituents have a much smaller effect since they cannot participate in resonance with the O⁻.
+
+---
+
+## Section E: Carboxylic Acid Derivatives
+
+### Q27. Name the important derivatives of Carboxylic Acids and give their general formulas. (2 Marks)
+
+**Answer:**
+Carboxylic acid derivatives are compounds formed by replacing the –OH of –COOH with another group:
+
+| Derivative | General Formula | Example |
+|---|---|---|
+| Acid halide | R–COX | CH3COCl (acetyl chloride) |
+| Acid anhydride | R–CO–O–CO–R | (CH3CO)2O (acetic anhydride) |
+| Ester | R–COOR' | CH3COOC2H5 (ethyl acetate) |
+| Amide | R–CONH2 | CH3CONH2 (acetamide) |
+
+**Exam Tip:** Simply listing all four with one correct example each secures full marks — no mechanism required for a 2-mark question.
+
+---
+
+### Q28. Discuss the relative reactivity order of Carboxylic Acid Derivatives towards nucleophilic acyl substitution, with reasons. (5 Marks)
+
+**Answer:**
+The general reaction of acid derivatives with nucleophiles is **nucleophilic acyl substitution**, where the nucleophile attacks the carbonyl carbon, displacing the leaving group.
+
+```
+        O                      O⁻                    O
+        ‖         Nu:          |         –LG          ‖
+   R — C — LG   ──────→   R — C — LG    ──────→   R — C — Nu
+                              |
+                              Nu
+              (tetrahedral intermediate)
+```
+
+**Reactivity order:**
+```
+Acid halide  >  Acid anhydride  >  Ester  >  Amide
+(most reactive)                              (least reactive)
+```
+
+**Reason:** Reactivity depends on how good the leaving group is and how much the carbonyl carbon's electrophilicity is reduced by resonance donation from the attached group:
+
+- **Acid halides:** X (halogen) is a poor resonance donor (poor orbital overlap) and an excellent leaving group → carbonyl carbon remains highly electrophilic → most reactive
+- **Anhydrides:** The second –COOR group is a moderate donor and a decent leaving group (a carboxylate) → intermediate reactivity
+- **Esters:** –OR donates electron density into the carbonyl by resonance, reducing electrophilicity; RO⁻ is a moderate leaving group → less reactive
+- **Amides:** –NH₂ is the best resonance donor (N lone pair strongly delocalized into C=O), making the carbonyl carbon least electrophilic; NH₂⁻ is also a very poor leaving group → least reactive
+
+**Exam Tip:** The mnemonic **"AAEA"** (Acid halide > Anhydride > Ester > Amide) — pair it with the resonance-donation reasoning for full marks, since examiners often ask "why" and not just "what."
+
+---
+
+# 🔥 Most Important Questions (Top 20 High-Probability)
+
+1. Define and differentiate Inductive, Electromeric, and Mesomeric effects. (Q4)
+2. Explain SN1 mechanism with energy profile diagram. (Q8)
+3. Explain SN2 mechanism with Walden inversion. (Q9)
+4. Compare SN1 vs SN2 in tabular form. (Q10)
+5. Explain E1 and E2 mechanisms with examples. (Q11, Q12)
+6. Compare E1 vs E2. (Q13)
+7. What factors favor substitution over elimination? (Q14)
+8. Explain carbocation structure, formation, and stability order. (Q5)
+9. Explain carbanion structure and stability order. (Q6)
+10. Compare carbocation and carbanion. (Q7)
+11. State and explain Markovnikov's Rule with mechanism. (Q15)
+12. Explain the peroxide/Kharasch effect. (Q16)
+13. Explain bromonium ion formation in Br₂ addition to alkenes. (Q17)
+14. Preparation of Grignard reagent with precautions. (Q19)
+15. Applications of Grignard reagent with all carbonyl compound types. (Q20)
+16. Why must Grignard reagents be used under anhydrous conditions? (Q21)
+17. Compare Grignard reagent and organozinc compound. (Q23)
+18. Tetraethyl lead: preparation, use as anti-knock agent, hazards. (Q24)
+19. Differentiate alcohol and phenol; explain phenol's acidity with resonance. (Q25, Q26)
+20. Reactivity order of carboxylic acid derivatives with reasoning. (Q28)
+
+---
+
+# 📝 Last-Minute Revision (One-Line Key Points)
+
+**Electronic Effects**
+- Inductive: permanent, σ-bond, dies out after 3 C atoms
+- Electromeric: temporary, only during reagent attack, π-bond
+- Mesomeric: permanent, conjugated π-system, transmitted throughout chain
+
+**Intermediates**
+- Carbocation: sp², planar, 6 electrons, stability 3°>2°>1°
+- Carbanion: sp³, pyramidal, 8 electrons (lone pair), stability CH3⁻>1°>2°>3°
+
+**Substitution**
+- SN1: 2 steps, carbocation, racemization, 3° substrate, first order
+- SN2: 1 step, backside attack, Walden inversion, 1° substrate, second order
+
+**Elimination**
+- E1: 2 steps, carbocation, weak base, Zaitsev product
+- E2: 1 step, anti-periplanar, strong base, concerted
+
+**Addition**
+- Markovnikov: H to C with more H's; via more stable carbocation
+- Anti-Markovnikov (peroxide/Kharasch effect): only with HBr, free radical mechanism
+- Br2 addition: bromonium ion → anti addition
+
+**Organometallics**
+- Grignard: R–Mg–X, prepared in dry ether, extremely moisture-sensitive
+- Grignard + HCHO → 1° alcohol; + RCHO → 2° alcohol; + R2CO → 3° alcohol; + CO2 → carboxylic acid
+- Organozinc: R–Zn–X, discovered by Frankland (1849), less reactive than Grignard
+- Tetraethyl lead: (C2H5)4Pb, anti-knock agent, toxic, banned in most countries
+
+**Alcohols & Phenols**
+- Phenol more acidic than alcohol due to resonance-stabilized phenoxide ion
+- EWG (ortho/para) increases phenol acidity; EDG decreases it
+- FeCl3 test: phenols give violet/purple color; alcohols do not
+
+**Carboxylic Acid Derivatives**
+- Reactivity: Acid halide > Anhydride > Ester > Amide (AAEA)
+- Mechanism: nucleophilic acyl substitution via tetrahedral intermediate
+- Reactivity decreases as the leaving group's resonance donation to carbonyl increases
+
+---
+
+*Prepared for CHEM-103 Class Test — Organic Reactions & Organometallic Compounds. Good luck!*
