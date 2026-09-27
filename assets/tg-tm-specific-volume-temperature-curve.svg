@@ -1,65 +1,111 @@
-<svg viewBox="0 0 820 500" xmlns="http://www.w3.org/2000/svg" font-family="Verdana, Arial, sans-serif">
+<svg viewBox="0 0 900 620" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
   <defs>
-    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
-      <path d="M0,0 L0,6 L9,3 z" fill="#333"/>
+    <marker id="arrowBlue" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L7,3 z" fill="#2563eb"/>
+    </marker>
+    <marker id="arrowGreen" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L7,3 z" fill="#16a34a"/>
+    </marker>
+    <marker id="arrowRed" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L7,3 z" fill="#dc2626"/>
     </marker>
   </defs>
 
-  <rect width="820" height="500" fill="#ffffff"/>
-  <text x="410" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#1a1a1a">Specific Volume vs. Temperature: T&#103; and T&#109;</text>
-  <text x="410" y="50" text-anchor="middle" font-size="12" fill="#666">Amorphous vs. Semi-crystalline Polymer Behavior</text>
+  <rect width="900" height="620" fill="#ffffff"/>
+  <text x="450" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#111">V vs T behaviour of crystalline, amorphous and semi-crystalline polymers</text>
 
-  <!-- Background state regions (amorphous path reference) -->
-  <rect x="95" y="60" width="205" height="330" fill="#eff6ff" opacity="0.5"/>
-  <rect x="300" y="60" width="120" height="330" fill="#e0f2fe" opacity="0.5"/>
-  <rect x="420" y="60" width="255" height="330" fill="#fef3c7" opacity="0.35"/>
+  <!-- Plot area border -->
+  <rect x="110" y="60" width="700" height="440" fill="#ffffff" stroke="#999" stroke-width="1"/>
 
-  <text x="197" y="78" text-anchor="middle" font-size="11" fill="#1e40af" font-weight="bold">Glassy solid</text>
-  <text x="360" y="78" text-anchor="middle" font-size="11" fill="#0369a1" font-weight="bold">Rubbery / Leathery</text>
-  <text x="547" y="78" text-anchor="middle" font-size="11" fill="#b45309" font-weight="bold">Viscous melt</text>
+  <!-- Gridlines (vertical) -->
+  <g stroke="#e5e7eb" stroke-width="1">
+    <line x1="210" y1="60" x2="210" y2="500"/>
+    <line x1="310" y1="60" x2="310" y2="500"/>
+    <line x1="410" y1="60" x2="410" y2="500"/>
+    <line x1="510" y1="60" x2="510" y2="500"/>
+    <line x1="610" y1="60" x2="610" y2="500"/>
+    <line x1="710" y1="60" x2="710" y2="500"/>
+    <line x1="810" y1="60" x2="810" y2="500"/>
+  </g>
+  <!-- Gridlines (horizontal) -->
+  <g stroke="#e5e7eb" stroke-width="1">
+    <line x1="110" y1="120" x2="810" y2="120"/>
+    <line x1="110" y1="200" x2="810" y2="200"/>
+    <line x1="110" y1="280" x2="810" y2="280"/>
+    <line x1="110" y1="360" x2="810" y2="360"/>
+    <line x1="110" y1="440" x2="810" y2="440"/>
+  </g>
 
-  <!-- Axes -->
-  <line x1="80" y1="390" x2="710" y2="390" stroke="#333" stroke-width="2" marker-end="url(#arrow)"/>
-  <line x1="80" y1="390" x2="80" y2="55" stroke="#333" stroke-width="2" marker-end="url(#arrow)"/>
-  <text x="400" y="425" text-anchor="middle" font-size="14" fill="#222">Temperature, T &#8594;</text>
-  <text x="30" y="220" text-anchor="middle" font-size="14" fill="#222" transform="rotate(-90 30 220)">Specific volume, V &#8594;</text>
+  <!-- Y axis labels -->
+  <text x="95" y="124" text-anchor="end" font-size="12" fill="#333">1.0</text>
+  <text x="95" y="204" text-anchor="end" font-size="12" fill="#333">0.9</text>
+  <text x="95" y="284" text-anchor="end" font-size="12" fill="#333">0.8</text>
+  <text x="95" y="364" text-anchor="end" font-size="12" fill="#333">0.7</text>
 
-  <!-- Axis ticks -->
-  <line x1="300" y1="390" x2="300" y2="395" stroke="#333" stroke-width="1.5"/>
-  <line x1="420" y1="390" x2="420" y2="395" stroke="#333" stroke-width="1.5"/>
+  <!-- X axis labels -->
+  <text x="110" y="518" text-anchor="middle" font-size="12" fill="#333">0</text>
+  <text x="210" y="518" text-anchor="middle" font-size="12" fill="#333">50</text>
+  <text x="310" y="518" text-anchor="middle" font-size="12" fill="#333">100</text>
+  <text x="410" y="518" text-anchor="middle" font-size="12" fill="#333">150</text>
+  <text x="510" y="518" text-anchor="middle" font-size="12" fill="#333">200</text>
+  <text x="610" y="518" text-anchor="middle" font-size="12" fill="#333">250</text>
+  <text x="710" y="518" text-anchor="middle" font-size="12" fill="#333">300</text>
 
-  <!-- Semi-crystalline curve: gentle slope, sharp 1st-order jump at Tm -->
-  <path d="M 100 372 C 200 366, 320 358, 420 345" fill="none" stroke="#dc2626" stroke-width="3"/>
-  <line x1="420" y1="345" x2="420" y2="245" stroke="#dc2626" stroke-width="2.5" stroke-dasharray="3,3"/>
-  <path d="M 420 245 C 500 210, 590 175, 660 150" fill="none" stroke="#dc2626" stroke-width="3"/>
+  <text x="460" y="548" text-anchor="middle" font-size="14" fill="#222">Temperature (T) &#8594;</text>
+  <text x="55" y="280" text-anchor="middle" font-size="14" fill="#222" transform="rotate(-90 55 280)">Specific volume (V) &#8594;</text>
 
-  <!-- Amorphous curve: smooth 2nd-order kink at Tg -->
-  <path d="M 100 355 C 200 335, 270 318, 300 310" fill="none" stroke="#2563eb" stroke-width="3"/>
-  <path d="M 300 310 C 340 298, 370 285, 400 265" fill="none" stroke="#2563eb" stroke-width="3"/>
-  <path d="M 400 265 C 480 220, 580 155, 660 105" fill="none" stroke="#2563eb" stroke-width="3"/>
+  <!-- Tg vertical dashed reference line at T=100 (x=310) -->
+  <line x1="310" y1="60" x2="310" y2="500" stroke="#999" stroke-width="1.3" stroke-dasharray="5,4"/>
+  <text x="310" y="520" text-anchor="middle" font-size="13" fill="#333" font-style="italic">T<tspan baseline-shift="sub" font-size="10">g</tspan></text>
 
-  <!-- Tg marker -->
-  <line x1="300" y1="390" x2="300" y2="310" stroke="#2563eb" stroke-width="1.2" stroke-dasharray="4,3"/>
-  <circle cx="300" cy="310" r="5" fill="#2563eb" stroke="#fff" stroke-width="1.5"/>
-  <text x="300" y="408" text-anchor="middle" font-size="15" fill="#2563eb" font-weight="bold">T&#103;</text>
+  <!-- Tm vertical dashed reference line at T=250 (x=610) -->
+  <line x1="610" y1="60" x2="610" y2="500" stroke="#999" stroke-width="1.3" stroke-dasharray="5,4"/>
 
-  <!-- Tm marker -->
-  <line x1="420" y1="390" x2="420" y2="245" stroke="#dc2626" stroke-width="1.2" stroke-dasharray="4,3"/>
-  <circle cx="420" cy="345" r="5" fill="#dc2626" stroke="#fff" stroke-width="1.5"/>
-  <circle cx="420" cy="245" r="5" fill="#dc2626" stroke="#fff" stroke-width="1.5"/>
-  <text x="420" y="408" text-anchor="middle" font-size="15" fill="#dc2626" font-weight="bold">T&#109;</text>
+  <!-- Sample A: Highly crystalline (red) — flat-ish slope, abrupt jump at Tm -->
+  <path d="M 110 372 L 610 336" fill="none" stroke="#dc2626" stroke-width="2.5"/>
+  <line x1="610" y1="336" x2="610" y2="300" stroke="#dc2626" stroke-width="2.5"/>
+  <path d="M 610 300 L 810 288" fill="none" stroke="#dc2626" stroke-width="2.5"/>
+
+  <!-- Sample B: Amorphous (blue) — gentle slope change at Tg only, no discontinuity -->
+  <path d="M 110 336 C 200 324, 270 302, 310 292" fill="none" stroke="#2563eb" stroke-width="2.5"/>
+  <path d="M 310 292 C 420 264, 540 206, 660 140" fill="none" stroke="#2563eb" stroke-width="2.5"/>
+  <path d="M 660 140 L 810 100" fill="none" stroke="#2563eb" stroke-width="2.5"/>
+
+  <!-- Sample C: Semi-crystalline (green) — slope change at Tg, smaller jump at Tm -->
+  <path d="M 110 356 C 200 348, 270 330, 310 320" fill="none" stroke="#16a34a" stroke-width="2.5"/>
+  <path d="M 310 320 C 420 300, 540 260, 610 232" fill="none" stroke="#16a34a" stroke-width="2.5"/>
+  <line x1="610" y1="232" x2="610" y2="208" stroke="#16a34a" stroke-width="2.5"/>
+  <path d="M 610 208 L 810 176" fill="none" stroke="#16a34a" stroke-width="2.5"/>
+
+  <!-- Annotation: no discontinuity, only slope change at Tg (blue) -->
+  <text x="150" y="222" font-size="12.5" fill="#2563eb">no discontinuity,</text>
+  <text x="150" y="238" font-size="12.5" fill="#2563eb">only slope change at T<tspan baseline-shift="sub" font-size="9">g</tspan></text>
+  <path d="M 245 245 Q 275 265, 300 288" fill="none" stroke="#2563eb" stroke-width="1.3" marker-end="url(#arrowBlue)"/>
+
+  <!-- Annotation: slope change at Tg + smaller jump at Tm (green) -->
+  <text x="420" y="150" font-size="12.5" fill="#16a34a">slope change at T<tspan baseline-shift="sub" font-size="9">g</tspan> +</text>
+  <text x="420" y="166" font-size="12.5" fill="#16a34a">smaller jump at T<tspan baseline-shift="sub" font-size="9">m</tspan></text>
+  <path d="M 470 172 Q 520 200, 590 220" fill="none" stroke="#16a34a" stroke-width="1.3" marker-end="url(#arrowGreen)"/>
+
+  <!-- Annotation: abrupt jump (melting) at Tm (red) -->
+  <text x="530" y="248" font-size="12.5" fill="#dc2626">abrupt jump</text>
+  <text x="530" y="264" font-size="12.5" fill="#dc2626">(melting) at T<tspan baseline-shift="sub" font-size="9">m</tspan></text>
+  <path d="M 585 268 Q 605 285, 612 315" fill="none" stroke="#dc2626" stroke-width="1.3" marker-end="url(#arrowRed)"/>
 
   <!-- Legend -->
-  <rect x="520" y="270" width="180" height="70" fill="#ffffff" stroke="#ccc" stroke-width="1" rx="6"/>
-  <line x1="535" y1="288" x2="565" y2="288" stroke="#2563eb" stroke-width="3"/>
-  <text x="572" y="292" font-size="12" fill="#333">Amorphous polymer</text>
-  <line x1="535" y1="312" x2="565" y2="312" stroke="#dc2626" stroke-width="3"/>
-  <text x="572" y="316" font-size="12" fill="#333">Semi-crystalline polymer</text>
+  <rect x="500" y="410" width="290" height="80" fill="#ffffff" stroke="#999" stroke-width="1"/>
+  <line x1="512" y1="430" x2="542" y2="430" stroke="#dc2626" stroke-width="2.5"/>
+  <text x="550" y="434" font-size="12" fill="#222">A &#8212; Sample 1: Highly crystalline</text>
+  <line x1="512" y1="452" x2="542" y2="452" stroke="#2563eb" stroke-width="2.5"/>
+  <text x="550" y="456" font-size="12" fill="#222">B &#8212; Sample 2: Amorphous</text>
+  <line x1="512" y1="474" x2="542" y2="474" stroke="#16a34a" stroke-width="2.5"/>
+  <text x="550" y="478" font-size="12" fill="#222">C &#8212; Sample 3: Partially crystalline (semi-crystalline)</text>
 
-  <!-- Footnote -->
-  <rect x="80" y="440" width="630" height="50" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1" rx="4"/>
-  <text x="90" y="458" font-size="11.5" fill="#444">
-    <tspan x="90" dy="0">&#8226; T&#103;: second-order transition &#8212; gradual slope change in V vs. T, no discontinuity, no latent heat.</tspan>
-    <tspan x="90" dy="16">&#8226; T&#109;: first-order transition &#8212; abrupt volume jump, absorbs latent heat of fusion (&#916;H&#102;).</tspan>
+  <!-- Caption -->
+  <text x="450" y="580" text-anchor="middle" font-size="12" font-style="italic" fill="#555">
+    V&#8211;T behaviour: A = highly crystalline (abrupt jump at T&#109;), B = amorphous (only a slope
+  </text>
+  <text x="450" y="598" text-anchor="middle" font-size="12" font-style="italic" fill="#555">
+    change at T&#103;, no discontinuity), C = partially crystalline (slope change at T&#103; plus a smaller jump at T&#109;).
   </text>
 </svg>
