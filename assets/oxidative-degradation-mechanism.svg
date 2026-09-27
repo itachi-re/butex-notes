@@ -1,0 +1,37 @@
+<svg viewBox="0 0 780 400" xmlns="http://www.w3.org/2000/svg" font-family="Verdana, Arial, sans-serif">
+  <rect width="780" height="400" fill="#ffffff"/>
+  <text x="390" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">Oxidative Degradation: Auto-Oxidation Radical Cycle</text>
+
+  <rect x="300" y="55" width="220" height="55" rx="6" fill="#fee2e2" stroke="#dc2626"/>
+  <text x="410" y="78" text-anchor="middle" font-size="12" font-weight="bold">Initiation</text>
+  <text x="410" y="95" text-anchor="middle" font-size="12">RH &#8594; R&#8226; + H&#8226; (heat/UV/metal ion)</text>
+
+  <path d="M 410 110 L 410 140" stroke="#333" stroke-width="2" marker-end="url(#a2)"/>
+
+  <rect x="270" y="140" width="280" height="55" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="410" y="163" text-anchor="middle" font-size="12" font-weight="bold">Propagation (O2 uptake)</text>
+  <text x="410" y="180" text-anchor="middle" font-size="12">R&#8226; + O&#8322; &#8594; ROO&#8226; (peroxy radical)</text>
+
+  <path d="M 410 195 L 410 225" stroke="#333" stroke-width="2" marker-end="url(#a2)"/>
+
+  <rect x="240" y="225" width="340" height="55" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="410" y="248" text-anchor="middle" font-size="12" font-weight="bold">Chain transfer</text>
+  <text x="410" y="265" text-anchor="middle" font-size="12">ROO&#8226; + RH &#8594; ROOH + R&#8226;  (hydroperoxide + new R&#8226;)</text>
+
+  <!-- loop arrow back to propagation -->
+  <path d="M 580 250 C 660 250, 660 165, 555 165" fill="none" stroke="#555" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#a2)"/>
+  <text x="660" y="205" font-size="10" fill="#555" transform="rotate(90 660 205)">cycle repeats (R&#8226; regenerated)</text>
+
+  <path d="M 410 280 L 410 310" stroke="#333" stroke-width="2" marker-end="url(#a2)"/>
+
+  <rect x="200" y="310" width="420" height="60" rx="6" fill="#fecaca" stroke="#dc2626"/>
+  <text x="410" y="332" text-anchor="middle" font-size="12" font-weight="bold">Branching / Termination</text>
+  <text x="410" y="350" text-anchor="middle" font-size="12">2 ROOH &#8594; RO&#8226; + ROO&#8226; + H&#8322;O  (chain scission &amp; crosslinking)</text>
+  <text x="410" y="365" text-anchor="middle" font-size="11" fill="#555">or  2R&#8226;/2ROO&#8226; &#8594; stable products (termination)</text>
+
+  <defs>
+    <marker id="a2" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#333"/>
+    </marker>
+  </defs>
+</svg>
