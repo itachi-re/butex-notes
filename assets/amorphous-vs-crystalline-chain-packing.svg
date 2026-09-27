@@ -1,0 +1,40 @@
+<svg viewBox="0 0 760 380" xmlns="http://www.w3.org/2000/svg" font-family="Verdana, Arial, sans-serif">
+  <rect width="760" height="380" fill="#ffffff"/>
+  <text x="380" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">Amorphous vs. Crystalline Chain Packing</text>
+
+  <!-- Amorphous side -->
+  <text x="185" y="60" text-anchor="middle" font-size="14" font-weight="bold" fill="#2563eb">Amorphous</text>
+  <rect x="40" y="75" width="290" height="260" fill="#eff6ff" stroke="#93c5fd"/>
+  <path d="M 60 110 C 100 150, 60 190, 110 210 C 160 230, 120 260, 170 290" fill="none" stroke="#1d4ed8" stroke-width="2.5"/>
+  <path d="M 90 95 C 140 120, 100 160, 150 180 C 200 200, 160 240, 210 270" fill="none" stroke="#3b82f6" stroke-width="2.5"/>
+  <path d="M 150 100 C 190 130, 150 170, 200 195 C 250 220, 210 250, 260 300" fill="none" stroke="#60a5fa" stroke-width="2.5"/>
+  <path d="M 250 90 C 280 130, 240 160, 280 200 C 300 230, 260 260, 290 310" fill="none" stroke="#2563eb" stroke-width="2.5"/>
+  <path d="M 60 300 C 100 320, 130 300, 180 320" fill="none" stroke="#1e40af" stroke-width="2.5"/>
+  <text x="185" y="350" text-anchor="middle" font-size="11" fill="#555">Randomly coiled, entangled chains &#8212; no long-range order</text>
+
+  <!-- Crystalline side -->
+  <text x="575" y="60" text-anchor="middle" font-size="14" font-weight="bold" fill="#dc2626">Semi-crystalline (lamellae + spherulite)</text>
+  <rect x="430" y="75" width="290" height="260" fill="#fef2f2" stroke="#fca5a5"/>
+
+  <!-- Folded chain lamellae stack -->
+  <g stroke="#b91c1c" stroke-width="2.2" fill="none">
+    <path d="M 460 120 L 520 120 L 520 100 L 580 100 L 580 120 L 640 120"/>
+    <path d="M 460 140 L 520 140 L 520 160 L 580 160 L 580 140 L 640 140"/>
+    <path d="M 460 165 L 520 165 L 520 145 L 580 145 L 580 165 L 640 165"/>
+  </g>
+  <text x="550" y="185" text-anchor="middle" font-size="10" fill="#7f1d1d">Folded-chain lamellae</text>
+
+  <!-- Spherulite sketch: radiating lamellae from center -->
+  <circle cx="565" cy="255" r="55" fill="none" stroke="#b91c1c" stroke-width="1"/>
+  <g stroke="#dc2626" stroke-width="1.5">
+    <line x1="565" y1="255" x2="565" y2="200"/>
+    <line x1="565" y1="255" x2="612" y2="228"/>
+    <line x1="565" y1="255" x2="612" y2="282"/>
+    <line x1="565" y1="255" x2="565" y2="310"/>
+    <line x1="565" y1="255" x2="518" y2="282"/>
+    <line x1="565" y1="255" x2="518" y2="228"/>
+  </g>
+  <!-- amorphous region between lamellae (tie chains) -->
+  <path d="M 460 300 C 480 285, 495 315, 515 300" fill="none" stroke="#f87171" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <text x="575" y="350" text-anchor="middle" font-size="11" fill="#555">Folded chains in ordered lamellae, radiating into a spherulite</text>
+</svg>
