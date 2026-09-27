@@ -189,7 +189,23 @@ sometimes used directly as a breadth-of-distribution metric.
 Verify: if all three populations instead had $M=20$ (monodisperse, same total
 N), recompute $M_n$ and $M_w$ and confirm they are equal, PDI $=1$.
 </details>
+PDI = $M_w / M_n$ = 20 / 16.67 = 1.2
 
+**Prove that $M_w > M_n$:**
+
+Subtract $M_n$ from $M_w$:
+
+$$
+M_w - M_n = \frac{\sum N_i M_i^2}{\sum N_i M_i} - \frac{\sum N_i M_i}{\sum N_i}
+$$
+
+$$
+= \frac{(\sum N_i)(\sum N_i M_i^2) - (\sum N_i M_i)^2}{(\sum N_i M_i)(\sum N_i)}
+$$
+
+The numerator is $(\sum N_i)(\sum N_i M_i^2) - (\sum N_i M_i)^2$, which is $\geq 0$ by the **Cauchy–Schwarz inequality** (equality only when all $M_i$ are identical, i.e. a monodisperse sample). Since the denominator is positive, $M_w - M_n \geq 0$, i.e. $\boxed{M_w \geq M_n}$, with strict inequality $M_w > M_n$ for any polydisperse polymer.
+
+In our data: $20 > 16.67$ ✓
 ---
 
 ## Question 2 — Thermal Transitions, Morphology, and Degradation/Stabilization
