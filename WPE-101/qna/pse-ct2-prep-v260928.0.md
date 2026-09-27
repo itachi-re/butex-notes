@@ -2,6 +2,58 @@
 
 ## SET-A
 
+### 1.
+Discuss the following pairs with examples:
+
+1. **Number-average and weight-average molecular weight**
+2. **Polydispersity and degree of polydispersity of a polymer**
+3. Find out the values of $M_n$, $M_w$, $M_v$, $M_z$ and **degree of polydispersity** of a polymer when there are three entities having molecular weights **10, 20, 30** and the number of each entity is **6, 4, 2**, respectively. Also prove that:
+
+   $$
+   M_w > M_n
+   $$
+
+### 2.
+Discuss the following pairs with examples:
+
+1. **$T_g$ and $T_m$**
+2. **Amorphous and crystalline polymer**
+3. **Degree of crystallinity and crystallisability of polymer**
+4. **Photodegradation and oxidative degradation**
+5. Write the **function and mechanism of photostabilizer and antioxidant**.
+
+---
+
+## SET-B
+
+### 1.
+
+1. Write the **practical significance of polymer molecular weight**.
+2. Write the **names of techniques of polymerization** and explain **suspension and emulsion polymerization**.
+3. Discuss **monodispersity, polydispersity and degree of polydispersity** of a polymer.
+4. Explain the **physical and chemical degradation of polymer**.
+5. Prove that:
+
+   $$
+   M_w = \frac{\sum n_i m_i^2}{\sum n_i m_i}
+   $$
+
+6. Write the **name and structure of 4 photostabilizers and 4 antioxidants**.
+
+### 2.
+
+1. Write the **relation between $T_g$ and $T_m$**.
+2. Draw the diagram of **amorphous, crystalline and semi-crystalline polymer**.
+3. Write the **difference between crystalline and amorphous polymer**.
+4. Write the **$T_g$ and $T_m$ values of 4 polymers**.
+5. Write the **importance of $T_g$** and the **factors influencing $T_g$**.
+
+**OR**
+
+Why is the $T_g$ value of **polyvinyl carbazole** higher than **polyethylene**, and which factors are considered for the **selection of plasticizer for commercial applications**?
+
+## SET-A
+
 ### Question 1
 
 #### 1. Number-average ($M_n$) and Weight-average ($M_w$) Molecular Weight
