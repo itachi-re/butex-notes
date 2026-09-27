@@ -1,0 +1,33 @@
+<svg viewBox="0 0 760 440" xmlns="http://www.w3.org/2000/svg" font-family="Verdana, Arial, sans-serif">
+  <rect width="760" height="440" fill="#ffffff"/>
+  <text x="380" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">Worked Example: Three Molecular-Weight Populations</text>
+  <text x="380" y="48" text-anchor="middle" font-size="12" fill="#555">M = 10, 20, 30 present in numbers N = 6, 4, 2</text>
+
+  <!-- Axes -->
+  <line x1="90" y1="330" x2="650" y2="330" stroke="#333" stroke-width="2"/>
+  <line x1="90" y1="330" x2="90" y2="80" stroke="#333" stroke-width="2"/>
+  <text x="370" y="360" text-anchor="middle" font-size="13" fill="#333">Molecular weight, M</text>
+  <text x="45" y="205" text-anchor="middle" font-size="13" fill="#333" transform="rotate(-90 45 205)">Number of chains, N&#8722;i</text>
+
+  <!-- Bars: heights proportional to Ni (scale: 40 px per unit) -->
+  <rect x="150" y="90" width="80" height="240" fill="#2563eb"/>
+  <text x="190" y="345" text-anchor="middle" font-size="13" fill="#333">M&#8321;=10</text>
+  <text x="190" y="80" text-anchor="middle" font-size="13" fill="#2563eb" font-weight="bold">N&#8321;=6</text>
+
+  <rect x="330" y="170" width="80" height="160" fill="#059669"/>
+  <text x="370" y="345" text-anchor="middle" font-size="13" fill="#333">M&#8322;=20</text>
+  <text x="370" y="160" text-anchor="middle" font-size="13" fill="#059669" font-weight="bold">N&#8322;=4</text>
+
+  <rect x="510" y="250" width="80" height="80" fill="#dc2626"/>
+  <text x="550" y="345" text-anchor="middle" font-size="13" fill="#333">M&#8323;=30</text>
+  <text x="550" y="240" text-anchor="middle" font-size="13" fill="#dc2626" font-weight="bold">N&#8323;=2</text>
+
+  <!-- Computed averages panel -->
+  <rect x="90" y="380" width="560" height="50" fill="#f3f4f6" stroke="#ccc"/>
+  <text x="370" y="400" text-anchor="middle" font-size="13" fill="#111" font-weight="bold">
+    Mn = 16.67   |   Mv &#8776; 19.5 (a=0.7)   |   Mw = 20.0   |   Mz = 23.0   |   PDI = Mw/Mn = 1.20
+  </text>
+  <text x="370" y="418" text-anchor="middle" font-size="11" fill="#555">
+    Order confirms Mn &lt; Mv &lt; Mw &lt; Mz, i.e. the sample is polydisperse (PDI &gt; 1).
+  </text>
+</svg>
