@@ -1,0 +1,38 @@
+<svg viewBox="0 0 780 340" xmlns="http://www.w3.org/2000/svg" font-family="Verdana, Arial, sans-serif">
+  <rect width="780" height="340" fill="#ffffff"/>
+  <text x="390" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">Anti-oxidant: Chain-Breaking (Primary) Mechanism</text>
+
+  <rect x="40" y="60" width="220" height="60" rx="6" fill="#fee2e2" stroke="#dc2626"/>
+  <text x="150" y="85" text-anchor="middle" font-size="12" font-weight="bold">Propagating radical</text>
+  <text x="150" y="102" text-anchor="middle" font-size="12">ROO&#8226; (chain-carrying)</text>
+
+  <path d="M 260 90 L 310 90" stroke="#333" stroke-width="2" marker-end="url(#a4)"/>
+
+  <rect x="310" y="60" width="220" height="60" rx="6" fill="#dcfce7" stroke="#059669"/>
+  <text x="420" y="80" text-anchor="middle" font-size="12" font-weight="bold">Hindered phenol AO-H</text>
+  <text x="420" y="97" text-anchor="middle" font-size="12">donates H&#8226; (bulky t-Bu groups</text>
+  <text x="420" y="112" text-anchor="middle" font-size="10">shield the O-H bond)</text>
+
+  <path d="M 530 90 L 580 90" stroke="#333" stroke-width="2" marker-end="url(#a4)"/>
+
+  <rect x="580 " y="60" width="170" height="60" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="665" y="85" text-anchor="middle" font-size="12" font-weight="bold">ROOH (stable)</text>
+  <text x="665" y="102" text-anchor="middle" font-size="12">+ AO&#8226; (resonance-</text>
+  <text x="665" y="117" text-anchor="middle" font-size="10">stabilized, unreactive)</text>
+
+  <text x="390" y="155" text-anchor="middle" font-size="13" font-weight="bold" fill="#111">Reaction: ROO&#8226; + AO-H &#8594; ROOH + AO&#8226;</text>
+
+  <rect x="140" y="185" width="500" height="70" rx="6" fill="#f3f4f6" stroke="#333"/>
+  <text x="390" y="208" text-anchor="middle" font-size="12" font-weight="bold">Why AO&#8226; does not propagate:</text>
+  <text x="390" y="226" text-anchor="middle" font-size="11">The unpaired electron delocalizes over the aromatic ring (resonance),</text>
+  <text x="390" y="242" text-anchor="middle" font-size="11">and bulky ortho-substituents sterically block further H-abstraction &#8594; the chain is broken.</text>
+
+  <text x="390" y="290" text-anchor="middle" font-size="12" fill="#555">Net effect: converts a reactive ROO&#8226; into stable ROOH, terminating the auto-oxidation cycle.</text>
+  <text x="390" y="310" text-anchor="middle" font-size="11" fill="#777">Secondary AOs (e.g. phosphites, thioesters) additionally decompose ROOH non-radically to alcohols.</text>
+
+  <defs>
+    <marker id="a4" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#333"/>
+    </marker>
+  </defs>
+</svg>
