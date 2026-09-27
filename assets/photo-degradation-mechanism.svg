@@ -1,0 +1,47 @@
+<svg viewBox="0 0 780 380" xmlns="http://www.w3.org/2000/svg" font-family="Verdana, Arial, sans-serif">
+  <rect width="780" height="380" fill="#ffffff"/>
+  <text x="390" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">Photo-Degradation: UV-Initiated Radical Chain Scission</text>
+
+  <!-- Step 1: absorption -->
+  <rect x="30" y="60" width="200" height="60" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="130" y="85" text-anchor="middle" font-size="12" font-weight="bold">Chromophore</text>
+  <text x="130" y="102" text-anchor="middle" font-size="12">(C=O, impurity) + h&#957; (UV)</text>
+
+  <path d="M 230 90 L 280 90" stroke="#333" stroke-width="2" marker-end="url(#a1)"/>
+
+  <rect x="280" y="60" width="200" height="60" rx="6" fill="#fde68a" stroke="#f59e0b"/>
+  <text x="380" y="85" text-anchor="middle" font-size="12" font-weight="bold">Excited state</text>
+  <text x="380" y="102" text-anchor="middle" font-size="12">R&#8226;&#8226;&#8226; (singlet/triplet)</text>
+
+  <path d="M 480 90 L 530 90" stroke="#333" stroke-width="2" marker-end="url(#a1)"/>
+
+  <rect x="530" y="60" width="210" height="60" rx="6" fill="#fecaca" stroke="#dc2626"/>
+  <text x="635" y="85" text-anchor="middle" font-size="12" font-weight="bold">Norrish I: &#945;-scission</text>
+  <text x="635" y="102" text-anchor="middle" font-size="12">R-CO-R' &#8594; R&#8226; + &#8226;CO-R'</text>
+
+  <path d="M 380 120 L 380 155" stroke="#333" stroke-width="2" marker-end="url(#a1)"/>
+  <text x="480" y="145" font-size="11" fill="#555">(alternative path)</text>
+  <path d="M 380 155 L 320 190" stroke="#333" stroke-width="1.5" marker-end="url(#a1)"/>
+  <path d="M 380 155 L 500 190" stroke="#333" stroke-width="1.5" marker-end="url(#a1)"/>
+
+  <rect x="180" y="190" width="230" height="55" rx="6" fill="#fecaca" stroke="#dc2626"/>
+  <text x="295" y="212" text-anchor="middle" font-size="12" font-weight="bold">Norrish II: intramolecular</text>
+  <text x="295" y="228" text-anchor="middle" font-size="12">H-transfer &#8594; chain cleavage</text>
+
+  <rect x="410" y="190" width="230" height="55" rx="6" fill="#fecaca" stroke="#dc2626"/>
+  <text x="525" y="212" text-anchor="middle" font-size="12" font-weight="bold">Radical propagation</text>
+  <text x="525" y="228" text-anchor="middle" font-size="12">R&#8226; + O2 &#8594; ROO&#8226; (couples to auto-ox.)</text>
+
+  <path d="M 295 245 L 295 280" stroke="#333" stroke-width="2" marker-end="url(#a1)"/>
+  <path d="M 525 245 L 400 280" stroke="#333" stroke-width="2" marker-end="url(#a1)"/>
+
+  <rect x="180" y="280" width="450" height="60" rx="6" fill="#e5e7eb" stroke="#374151"/>
+  <text x="405" y="305" text-anchor="middle" font-size="13" font-weight="bold">Net result</text>
+  <text x="405" y="325" text-anchor="middle" font-size="12">Main-chain scission &#8594; &#8595;molecular weight, chalking, surface cracking, embrittlement</text>
+
+  <defs>
+    <marker id="a1" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#333"/>
+    </marker>
+  </defs>
+</svg>
