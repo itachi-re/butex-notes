@@ -11,7 +11,7 @@ Exam-oriented revision notes for **C Programming (MDM-102)**, written in GitHub-
 ```text
 quick_rev/
 ├── c_programming_260907.0.md   # Class-test prep: operators, conversions, decisions, 12 pattern programs
-├── c_programming_260929.0.md   # Complete exam answers — 19 topics, full depth + practice questions
+├── c_programming_260929.0.md   # Complete exam answers — 20 topics incl. pyramid patterns, full depth + practice questions
 ├── c_programming_260929.1.md   # Same 20 questions, condensed exam-style answers
 ├── c_programming_sug.md        # Computer fundamentals + C basics study guide (base edition)
 └── c_programming_sug_2.md      # Same guide, enhanced with worked/real-life examples
@@ -20,7 +20,7 @@ quick_rev/
 | File | Size | Lines | C code blocks | Best for |
 |---|---|---|---|---|
 | [`c_programming_260907.0.md`](c_programming_260907.0.md) | 27 KB | 1,245 | 38 | Class tests; loop and pattern programs |
-| [`c_programming_260929.0.md`](c_programming_260929.0.md) | 57 KB | 2,270 | 84 | Deep revision; writing full-mark answers |
+| [`c_programming_260929.0.md`](c_programming_260929.0.md) | 67 KB | 2,658 | 93 | Deep revision; writing full-mark answers; pyramid programs |
 | [`c_programming_260929.1.md`](c_programming_260929.1.md) | 37 KB | 1,147 | 41 | Last-day revision; 20 short answers |
 | [`c_programming_sug.md`](c_programming_sug.md) | 70 KB | 1,493 | 10 | Foundations, viva, cheat sheets |
 | [`c_programming_sug_2.md`](c_programming_sug_2.md) | 74 KB | 1,592 | 16 | Same as above, with extra examples |
@@ -37,14 +37,15 @@ Operators and control flow, followed by a long run of loop-pattern programs.
 - **Extras:** common mistakes in pyramid programs (with a wrong-vs-correct off-by-one example) · quick revision table of the loop condition for each pattern
 
 ### 2 · `c_programming_260929.0.md` — Complete Exam Answers
-The most thorough file. A linked table of contents covers 19 core topics, each with definition, rules, examples, programs and output.
+The most thorough file. A linked table of contents covers 20 core topics, each with definition, rules, examples, programs and output.
 
-- **Topics:** identifiers · keywords · data types · constants and variables · ways of defining constants · `i++` vs `++i` · pre- vs post-increment · conditional operator · type casting · `break` / `continue` · arrays · type conversion · implicit vs explicit conversion · statements · `if` · `switch` · odd/even with loops · 2D and 3D arrays · I/O functions
-- **Back matter:** quick revision tables · frequently confused concepts · C syntax at a glance · **20 practice questions**
+- **Topics:** identifiers · keywords · data types · constants and variables · ways of defining constants · `i++` vs `++i` · pre- vs post-increment · conditional operator · type casting · `break` / `continue` · arrays · type conversion · implicit vs explicit conversion · statements · `if` · `switch` · odd/even with loops · 2D and 3D arrays · I/O functions · **pyramid patterns (§20)**
+- **Pyramid patterns (§20):** 8 programs, each run with `n = 5` and shown with its output: half, full, inverted half and inverted full pyramids of stars; half pyramids of numbers (1 to 5 and 5 to 1); full number pyramids (`1, 121, 12321, ...` and `5, 545, 54345, ...`). Includes row formulas (`n - i` spaces, `2*i - 1` symbols), common mistakes and viva questions
+- **Back matter:** quick revision tables (now with a pyramid table) · frequently confused concepts · C syntax at a glance · **24 practice questions**
 - **Conventions:** standard C99 or later; machine-dependent values are flagged in the text
 
 ### 3 · `c_programming_260929.1.md` — Exam-Style Answers (Q1–Q20)
-The same question set as file 2, condensed into the format a written exam rewards: definition → purpose → program → output → comparison table.
+The same topics as file 2 (except pyramid patterns), condensed into the format a written exam rewards: definition → purpose → program → output → comparison table.
 
 - Splits *Rules of Identifier* and *Keyword* into their own questions (Q2, Q3), giving 20 questions
 - Ends with a one-line-per-topic **Quick Revision Summary**
@@ -78,7 +79,7 @@ The same 30-section structure and headings as `c_programming_sug.md`, with about
 | Statements (incl. null statement) | ✔ | ✔ | ✔ | |
 | Arrays (1D, 2D, 3D) | | ✔ | ✔ | |
 | I/O functions (`printf`, `scanf`, `fgets`, …) | | ✔ | ✔ | |
-| Pattern programs (pyramids, Floyd's triangle) | ✔ | | | |
+| Pattern programs (pyramids, Floyd's triangle) | ✔ | ✔ (pyramids only) | | |
 | Viva questions, glossary, ASCII table | | | | ✔ |
 | Practice questions | | ✔ | | |
 
@@ -89,7 +90,7 @@ The same 30-section structure and headings as `c_programming_sug.md`, with about
 1. **Foundations** — `c_programming_sug_2.md`: sections on tokens, data types and operators, then the cheat sheets.
 2. **Core exam topics** — `c_programming_260929.0.md`: read a topic, then attempt the matching practice question without looking.
 3. **Fast revision** — `c_programming_260929.1.md`: use as the last-night pass; check yourself against its Quick Revision Summary.
-4. **Programs** — `c_programming_260907.0.md`: type out the pattern programs from memory; the loop-condition table at the end is the shortcut.
+4. **Programs** — `c_programming_260907.0.md` and §20 of `c_programming_260929.0.md`: type out the pattern programs from memory; the row-formula and loop-condition tables are the shortcut.
 5. **Viva** — the Viva Questions and Memory Tricks sections in `c_programming_sug_2.md`.
 
 ---
@@ -119,7 +120,7 @@ Some programs deliberately demonstrate undefined or unspecified behaviour (for e
 
 - `c_programming_sug.md` begins with a stray line containing a GitHub attachment link. It looks like a paste artifact and can be deleted.
 - `c_programming_sug_2.md` is a strict superset of `c_programming_sug.md`. Keep both only if you want the un-enhanced version for reference.
-- `c_programming_260929.0.md` and `c_programming_260929.1.md` cover the same questions at different depths. Keep both; they serve different purposes.
+- `c_programming_260929.0.md` and `c_programming_260929.1.md` cover the same topics at different depths, except that only `.0` has §20 Pyramid Patterns. Keep both; they serve different purposes. Floyd's triangle and the character pyramid are still only in `c_programming_260907.0.md`.
 
 ---
 
