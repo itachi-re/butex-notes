@@ -731,27 +731,3 @@ Austenitize → salt bath in bainite range (400–800 °F) → hold → 100 % ba
 8. Austempering: 100 % bainite, no tempering, < ≈ 0.5 in. parts.
 
 ---
-
-# 24. Figure Index
-
-| Figure | File |
-|--------|------|
-| Heat treatment overview | `../../assets/heat-treatment-overview.svg` |
-| Full annealing cycle | `../../assets/full-annealing-cycle.svg` |
-| Spheroidizing | `../../assets/spheroidizing-process-flow.svg` |
-| Annealing temperature map | `../../assets/annealing-temperature-map.svg` |
-| Process annealing flow | `../../assets/process-annealing-flow.svg` |
-| Normalizing vs annealing | `../../assets/normalizing-vs-annealing.svg` |
-| Hardening flow | `../../assets/hardening-flow.svg` |
-| Martensite structure | `../../assets/martensite-crystal-structure.svg` |
-| Tempering trend | `../../assets/tempering-property-trend.svg` |
-| Tempering ranges | `../../assets/tempering-temperature-ranges.svg` |
-| Tempered microstructure progression | `../../assets/tempered-microstructure-progression.svg` |
-| Temper brittleness | `../../assets/temper-brittleness-cause.svg` |
-| TTT derivation | `../../assets/ttt-experimental-derivation.svg` |
-| TTT reading guide | `../../assets/ttt-diagram-reading-guide.svg` |
-| Pearlite morphology | `../../assets/pearlite-morphology-schematic.svg` |
-| Bainite comparison | `../../assets/bainite-upper-vs-lower.svg` |
-| Cooling paths on TTT | `../../assets/cooling-paths-on-ttt.svg` |
-| Austempering | `../../assets/austempering-cooling-path.svg` |
-| Concept map | `../../assets/heat-treatment-concept-map.svg` |
