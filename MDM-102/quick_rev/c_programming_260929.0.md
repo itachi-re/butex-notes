@@ -1,6 +1,6 @@
 # C Programming — Complete Exam Answers
 
-> A university-exam-style study sheet covering 19 core C topics, from identifiers to I/O functions. Every program is standard C (C99 or later) and every output block matches its program. Where a value depends on the machine or compiler, the text says so.
+> A university-exam-style study sheet covering 20 core C topics, from identifiers to I/O functions and pyramid patterns. Every program is standard C (C99 or later) and every output block matches its program. Where a value depends on the machine or compiler, the text says so.
 
 ## Table of Contents
 
@@ -23,10 +23,11 @@
 17. [Odd and Even Numbers Using a Loop](#17-odd-and-even-numbers-using-a-loop)
 18. [2D Array and 3D Array](#18-2d-array-and-3d-array)
 19. [I/O Functions](#19-io-functions)
-20. [Quick Revision Tables](#quick-revision-tables)
-21. [Frequently Confused Concepts](#frequently-confused-concepts)
-22. [Important C Syntax at a Glance](#important-c-syntax-at-a-glance)
-23. [Practice Questions](#practice-questions)
+20. [Pyramid Patterns](#20-pyramid-patterns)
+21. [Quick Revision Tables](#quick-revision-tables)
+22. [Frequently Confused Concepts](#frequently-confused-concepts)
+23. [Important C Syntax at a Glance](#important-c-syntax-at-a-glance)
+24. [Practice Questions](#practice-questions)
 
 ---
 
@@ -2151,6 +2152,369 @@ Leftover newline problem: after `scanf("%d", &n)` the newline stays in the input
 
 ---
 
+## 20. Pyramid Patterns
+
+### Definition
+
+A **pyramid (pattern) program** prints characters or numbers in rows so that the output forms a triangle or pyramid. Every such program is built from **nested loops**: the **outer loop** chooses the row, and one or more **inner loops** print the spaces and symbols on that row.
+
+### Core Idea
+
+| Part | Job |
+|---|---|
+| Outer loop (`i`) | Runs once per row (`1` to `n`, or `n` down to `1` for inverted patterns) |
+| Space loop (`s`) | Prints the leading blanks that centre a full pyramid (not needed for half pyramids) |
+| Symbol loop (`j`) | Prints the stars or numbers of the row |
+| `printf("\n")` | Ends the row; it belongs **after** the inner loops, inside the outer loop |
+
+### Row Formulas (`n` rows, row `i`)
+
+| Pattern | Leading spaces | Symbols per row | Value printed |
+|---|---|---|---|
+| Half pyramid | none | `i` | `*` |
+| Full pyramid | `n - i` | `2*i - 1` | `*` |
+| Inverted half pyramid | none | `i` (outer loop counts down) | `*` |
+| Inverted full pyramid | `n - i` (outer loop counts down) | `2*i - 1` | `*` |
+| Half pyramid, numbers 1 to 5 | none | `i` | `j` |
+| Half pyramid, numbers 5 to 1 | none | `i` | `n - j + 1` |
+| Full pyramid, numbers 1 to 5 | `n - i` | `i` rising + `i - 1` falling | `j` |
+| Full pyramid, numbers 5 to 1 | `n - i` | `i` falling + `i - 1` rising | `n - j + 1` |
+
+All programs below read the number of rows `n` and were run with `n = 5`.
+
+### Pattern 1 — Half Pyramid Using Stars
+
+```c
+#include <stdio.h>
+
+int main(void)
+{
+    int n;
+
+    printf("Enter number of rows: ");
+    scanf("%d", &n);
+
+    for (int i = 1; i <= n; i++) {
+        for (int j = 1; j <= i; j++)
+            printf("*");
+        printf("\n");
+    }
+    return 0;
+}
+```
+
+```text
+Enter number of rows: 5
+*
+**
+***
+****
+*****
+```
+
+**Working**
+
+- Outer loop `i` runs from `1` to `n`: one pass per row.
+- Inner loop `j` runs from `1` to `i`, so row `i` prints exactly `i` stars.
+- `printf("\n")` after the inner loop moves to the next row.
+
+### Pattern 2 — Full Pyramid Using Stars
+
+```c
+#include <stdio.h>
+
+int main(void)
+{
+    int n;
+
+    printf("Enter number of rows: ");
+    scanf("%d", &n);
+
+    for (int i = 1; i <= n; i++) {
+        for (int s = 1; s <= n - i; s++)      /* leading spaces */
+            printf(" ");
+        for (int j = 1; j <= 2 * i - 1; j++)  /* stars */
+            printf("*");
+        printf("\n");
+    }
+    return 0;
+}
+```
+
+```text
+Enter number of rows: 5
+    *
+   ***
+  *****
+ *******
+*********
+```
+
+**Working**
+
+- Row `i` needs `n - i` leading spaces to centre it: 4, 3, 2, 1, 0 for `n = 5`.
+- Row `i` prints `2*i - 1` stars (1, 3, 5, 7, 9), so each row grows by two stars, one on each side.
+- Remove the space loop and the pyramid turns into a left-aligned triangle.
+
+### Pattern 3 — Inverted Half Pyramid Using Stars
+
+```c
+#include <stdio.h>
+
+int main(void)
+{
+    int n;
+
+    printf("Enter number of rows: ");
+    scanf("%d", &n);
+
+    for (int i = n; i >= 1; i--) {
+        for (int j = 1; j <= i; j++)
+            printf("*");
+        printf("\n");
+    }
+    return 0;
+}
+```
+
+```text
+Enter number of rows: 5
+*****
+****
+***
+**
+*
+```
+
+**Working**
+
+- The outer loop counts **down** from `n` to `1`, so the number of stars falls by one each row.
+- The inner loop is unchanged (`j <= i`); only the direction of the outer loop is reversed.
+- Equivalent condition when the outer loop counts up: `j <= n - i + 1`.
+
+### Pattern 4 — Inverted Full Pyramid Using Stars
+
+```c
+#include <stdio.h>
+
+int main(void)
+{
+    int n;
+
+    printf("Enter number of rows: ");
+    scanf("%d", &n);
+
+    for (int i = n; i >= 1; i--) {
+        for (int s = 1; s <= n - i; s++)      /* leading spaces */
+            printf(" ");
+        for (int j = 1; j <= 2 * i - 1; j++)  /* stars */
+            printf("*");
+        printf("\n");
+    }
+    return 0;
+}
+```
+
+```text
+Enter number of rows: 5
+*********
+ *******
+  *****
+   ***
+    *
+```
+
+**Working**
+
+- This is the full pyramid with the outer loop reversed: it starts with the widest row (`2*n - 1` stars).
+- Spaces are `n - i`, so they **increase** from 0 to `n - 1` as `i` falls, pushing each shorter row towards the centre.
+
+### Pattern 5 — Half Pyramid Using Numbers (1 to 5)
+
+```c
+#include <stdio.h>
+
+int main(void)
+{
+    int n;
+
+    printf("Enter number of rows: ");
+    scanf("%d", &n);
+
+    for (int i = 1; i <= n; i++) {
+        for (int j = 1; j <= i; j++)
+            printf("%d", j);
+        printf("\n");
+    }
+    return 0;
+}
+```
+
+```text
+Enter number of rows: 5
+1
+12
+123
+1234
+12345
+```
+
+**Working**
+
+- Same structure as the star half pyramid; `printf("*")` is replaced by `printf("%d", j)`.
+- `j` restarts at `1` on every row, so each row reads `1, 2, ... , i`.
+
+### Pattern 6 — Half Pyramid Using Numbers (5 to 1)
+
+```c
+#include <stdio.h>
+
+int main(void)
+{
+    int n;
+
+    printf("Enter number of rows: ");
+    scanf("%d", &n);
+
+    for (int i = 1; i <= n; i++) {
+        for (int j = 1; j <= i; j++)
+            printf("%d", n - j + 1);
+        printf("\n");
+    }
+    return 0;
+}
+```
+
+```text
+Enter number of rows: 5
+5
+54
+543
+5432
+54321
+```
+
+**Working**
+
+- The loop structure is identical; only the printed value changes to `n - j + 1`.
+- For `j = 1, 2, 3, ...` this gives `n, n-1, n-2, ...`, so every row starts at `5` and counts down.
+- The last row reads `54321`: the digits run from 5 to 1 across the widest row.
+
+### Pattern 7 — Full Pyramid Using Numbers (1 to 5, Mirrored)
+
+```c
+#include <stdio.h>
+
+int main(void)
+{
+    int n;
+
+    printf("Enter number of rows: ");
+    scanf("%d", &n);
+
+    for (int i = 1; i <= n; i++) {
+        for (int s = 1; s <= n - i; s++)      /* leading spaces */
+            printf(" ");
+        for (int j = 1; j <= i; j++)          /* rising half: 1 .. i */
+            printf("%d", j);
+        for (int j = i - 1; j >= 1; j--)      /* falling half: i-1 .. 1 */
+            printf("%d", j);
+        printf("\n");
+    }
+    return 0;
+}
+```
+
+```text
+Enter number of rows: 5
+    1
+   121
+  12321
+ 1234321
+123454321
+```
+
+**Working**
+
+- Leading spaces are `n - i`, as in the star pyramid.
+- The first number loop prints the rising half `1 .. i`; the second prints the falling half `i-1 .. 1`.
+- Together they print `2*i - 1` digits per row, and the peak digit `i` appears once, in the centre.
+
+### Pattern 8 — Full Pyramid Using Numbers (5 to 1, Mirrored)
+
+```c
+#include <stdio.h>
+
+int main(void)
+{
+    int n;
+
+    printf("Enter number of rows: ");
+    scanf("%d", &n);
+
+    for (int i = 1; i <= n; i++) {
+        for (int s = 1; s <= n - i; s++)      /* leading spaces */
+            printf(" ");
+        for (int j = 1; j <= i; j++)          /* falling half: n .. n-i+1 */
+            printf("%d", n - j + 1);
+        for (int j = i - 1; j >= 1; j--)      /* rising half: n-i+2 .. n */
+            printf("%d", n - j + 1);
+        printf("\n");
+    }
+    return 0;
+}
+```
+
+```text
+Enter number of rows: 5
+    5
+   545
+  54345
+ 5432345
+543212345
+```
+
+**Working**
+
+- This is the vice-versa version: the same loops as the previous pattern, with `j` replaced by `n - j + 1`.
+- Every row starts and ends with `5`; the smallest digit (`n - i + 1`) sits in the centre.
+- The bottom row reads `543212345`.
+
+### Comparison of the Patterns
+
+| Feature | Half pyramid | Full pyramid | Inverted |
+|---|---|---|---|
+| Shape | Right-angled triangle | Centred, symmetric | Widest row first |
+| Space loop needed | No | Yes (`n - i` spaces) | Only for the full version |
+| Outer loop | `1` to `n` | `1` to `n` | `n` down to `1` |
+| Symbols on row `i` | `i` | `2*i - 1` | same formula as its upright form |
+| Loops per row | 1 | 2 (stars) or 3 (numbers) | same as upright form |
+
+### Exam Point
+
+- Learn the two formulas: **`n - i` spaces** and **`2*i - 1` symbols**. Every full pyramid uses them.
+- To invert a pattern, reverse the **outer** loop (`for (i = n; i >= 1; i--)`); the inner loops stay the same.
+- To print numbers instead of stars, replace `printf("*")` with `printf("%d", value)`. The loop structure does not change.
+- To count down instead of up, print `n - j + 1` in place of `j`.
+- The digit patterns assume `n <= 9`. For `n >= 10` some values take two characters and the alignment breaks.
+
+### Common Mistakes
+
+```c
+for (int j = 1; j < i; j++)            /* prints i-1 symbols: one too few */
+for (int s = 1; s <= n - i + 1; s++)   /* one extra space per row: pyramid shifts right */
+for (int j = 1; j <= 2 * i + 1; j++)   /* wrong: 2*i + 1 gives 3, 5, 7, ... (starts at 3, not 1) */
+```
+
+Forgetting `printf("\n");` prints every row on one line. Putting it inside the inner loop prints one symbol per line.
+
+### Viva / Short Question
+
+- *Why is the number of stars `2*i - 1`?* Each row adds one star on the left and one on the right of the previous row, so the count follows 1, 3, 5, 7, ... (odd numbers).
+- *How do you turn a full pyramid upside down?* Run the outer loop from `n` down to `1`; keep the formulas the same.
+
+---
+
 # Quick Revision Tables
 
 ### Operators Covered
@@ -2186,6 +2550,18 @@ Leftover newline problem: after `scanf("%d", &n)` the newline stays in the input
 | `#define` | `#define MAX 100` |
 | `enum` | `enum { LOW, HIGH };` |
 
+### Pyramid Patterns (`n` rows, row `i`)
+
+| Pattern | Spaces | Symbols | Outer loop |
+|---|---|---|---|
+| Half pyramid | none | `j <= i` | `1` to `n` |
+| Full pyramid | `n - i` | `j <= 2*i - 1` | `1` to `n` |
+| Inverted half | none | `j <= i` | `n` down to `1` |
+| Inverted full | `n - i` | `j <= 2*i - 1` | `n` down to `1` |
+| Numbers 1 to 5 | as above | print `j` | as above |
+| Numbers 5 to 1 | as above | print `n - j + 1` | as above |
+| Full number pyramid | `n - i` | rising `1..i`, then falling `i-1..1` | `1` to `n` |
+
 ---
 
 # Frequently Confused Concepts
@@ -2203,6 +2579,7 @@ Leftover newline problem: after `scanf("%d", &n)` the newline stays in the input
 | `scanf("%s")` vs `fgets` | One word, unbounded vs a whole line, bounded |
 | `a[2][3]` vs `a[2,3]` | Two-dimensional index vs comma operator |
 | `int / int` vs `float / int` | Integer division vs floating-point division |
+| Half vs full pyramid | `i` symbols, no spaces vs `2*i - 1` symbols with `n - i` leading spaces |
 
 ---
 
@@ -2228,6 +2605,13 @@ switch (ch) { case 'a': ...; break; default: ...; }
 for (int i = 0; i < n; i++) { ... }
 while (cond) { ... }
 do { ... } while (cond);
+
+/* pyramid: row i of n */
+for (int i = 1; i <= n; i++) {
+    for (int s = 1; s <= n - i; s++)      printf(" ");
+    for (int j = 1; j <= 2 * i - 1; j++)  printf("*");
+    printf("\n");
+}
 
 /* arrays */
 int a[5] = {1, 2, 3, 4, 5};
@@ -2264,6 +2648,10 @@ fgets(buf, sizeof buf, stdin);
 18. Define 2D and 3D arrays. Write a program to print a 2 x 3 matrix and the sum of its elements.
 19. Differentiate between `scanf` and `fgets`. Why must `gets` not be used?
 20. Find the error: `int a[3] = {1, 2, 3}; for (int i = 0; i <= 3; i++) printf("%d", a[i]);`
+21. Write C programs to print a half pyramid, a full pyramid and an inverted half pyramid of stars for `n` rows. Give the output for `n = 5`.
+22. Write programs to print the half pyramids `1, 12, 123, ...` and `5, 54, 543, ...` for `n = 5`. What single change turns one into the other?
+23. Write a program to print the full number pyramid `1, 121, 12321, ...` and its vice-versa form (`5, 545, 54345, ...`) for `n = 5`.
+24. Why does the space loop of a full pyramid run `n - i` times and the star loop `2*i - 1` times? What happens if the space loop is `n - i + 1`?
 
 ---
 
