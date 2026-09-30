@@ -8,13 +8,13 @@
 
 > **Definition — Laplace Transform**
 >
-> Let $F(t)$ be a function of $t$ specified for $t>0$. Then the Laplace transform of $F(t)$, denoted by $L\{F(t)\}$, is defined by
+> Let $F(t)$ be a function of $t$ specified for $t>0$. Then the Laplace transform of $F(t)$, denoted by $L\lbrace F(t)\rbrace$, is defined by
 >
-> $$L\{F(t)\} = \int_0^{\infty} e^{-st}F(t)\,dt = f(s).$$
+> $$L\lbrace F(t)\rbrace = \int_0^{\infty} e^{-st}F(t)\,dt = f(s).$$
 
 ### 2. Laplace Transform of Some Elementary Functions
 
-| No. | $F(t)$ | $L\{F(t)\}=f(s)$ | Condition |
+| No. | $F(t)$ | $L\lbrace F(t)\rbrace=f(s)$ | Condition |
 |---|---|---|---|
 | 01 | $1$ (i.e. $t^0$) | $\dfrac{1}{s}$ | $s>0$ |
 | 02 | $t$ | $\dfrac{1}{s^2}$ | $s>0$ |
@@ -50,73 +50,73 @@ $$\sinh x = \frac{e^{x}-e^{-x}}{2}, \qquad \cosh x = \frac{e^{x}+e^{-x}}{2}$$
 
 By the definition of Laplace transform, we know
 
-$$L\{F(t)\} = \int_0^\infty e^{-st}F(t)\,dt.$$
+$$L\lbrace F(t)\rbrace = \int_0^\infty e^{-st}F(t)\,dt.$$
 
 Here $F(t)=1$.
 
-$$L\{1\} = \int_0^\infty e^{-st}\,dt = \left[\frac{e^{-st}}{-s}\right]_0^\infty = \left(\frac{e^{-\infty}}{-s}-\frac{e^{0}}{-s}\right) = \left(0+\frac{1}{s}\right)$$
+$$L\lbrace 1\rbrace = \int_0^\infty e^{-st}\,dt = \left[\frac{e^{-st}}{-s}\right]_0^\infty = \left(\frac{e^{-\infty}}{-s}-\frac{e^{0}}{-s}\right) = \left(0+\frac{1}{s}\right)$$
 
-$$\boxed{L\{1\} = \frac{1}{s}}$$
+$$\boxed{L\lbrace 1\rbrace = \frac{1}{s}}$$
 
 #### Example (ii) — $F(t) = a$
 
-$$L\{a\} = \int_0^\infty e^{-st}a\,dt = a\left[\frac{e^{-st}}{-s}\right]_0^\infty = a\left(\frac{e^{-\infty}}{-s}-\frac{e^{0}}{-s}\right) = a\left(0+\frac{1}{s}\right)$$
+$$L\lbrace a\rbrace = \int_0^\infty e^{-st}a\,dt = a\left[\frac{e^{-st}}{-s}\right]_0^\infty = a\left(\frac{e^{-\infty}}{-s}-\frac{e^{0}}{-s}\right) = a\left(0+\frac{1}{s}\right)$$
 
-$$\boxed{L\{a\} = \frac{a}{s}}$$
+$$\boxed{L\lbrace a\rbrace = \frac{a}{s}}$$
 
 #### Example (iii) — $F(t) = e^{at}$
 
-$$L\{e^{at}\} = \int_0^\infty e^{-st}\cdot e^{at}\,dt = \int_0^\infty e^{-(s-a)t}\,dt = \left[\frac{e^{-(s-a)t}}{-(s-a)}\right]_0^\infty$$
+$$L\lbrace e^{at}\rbrace = \int_0^\infty e^{-st}\cdot e^{at}\,dt = \int_0^\infty e^{-(s-a)t}\,dt = \left[\frac{e^{-(s-a)t}}{-(s-a)}\right]_0^\infty$$
 
 $$= \left[\frac{e^{-\infty}}{-(s-a)} - \frac{e^{0}}{-(s-a)}\right] = 0 + \frac{1}{s-a}$$
 
-$$\boxed{L\{e^{at}\} = \frac{1}{s-a}}$$
+$$\boxed{L\lbrace e^{at}\rbrace = \frac{1}{s-a}}$$
 
 > **Source note:** The source's worked-examples list skips directly from $F(t)=e^{at}$ to $F(t)=\sin at$; the case $F(t)=e^{-at}$ is not separately derived in these pages, although its result appears in the table of elementary transforms above (entry 05).
 
 #### Example (v) — $F(t) = \sin at$
 
-$$L\{\sin at\} = \int_0^\infty e^{-st}\sin at\,dt = \left[\frac{e^{-st}}{s^2+a^2}\left(-s\sin at - a\cos at\right)\right]_0^\infty$$
+$$L\lbrace \sin at\rbrace = \int_0^\infty e^{-st}\sin at\,dt = \left[\frac{e^{-st}}{s^2+a^2}\left( -s\sin at - a\cos at \right)\right]_0^\infty$$
 
 $$= 0 - \frac{1}{s^2+a^2}\times(-a) = \frac{a}{s^2+a^2}$$
 
-$$\boxed{L\{\sin at\} = \frac{a}{s^2+a^2}}$$
+$$\boxed{L\lbrace \sin at\rbrace = \frac{a}{s^2+a^2}}$$
 
 #### Example (vi) — $F(t) = \cos at$
 
-$$L\{\cos at\} = \int_0^\infty e^{-st}\cos at\,dt$$
+$$L\lbrace \cos at\rbrace = \int_0^\infty e^{-st}\cos at\,dt$$
 
 Using $\displaystyle\int_0^\infty e^{ax}\cos bx\,dx = \frac{e^{ax}}{a^2+b^2}[a\cos bx+b\sin bx]$ with $a\to -s,\ b\to a$:
 
-$$= \left[\frac{e^{-st}}{s^2+a^2}\left(-s\cos at + a\sin at\right)\right]_0^\infty = 0-\frac{1}{s^2+a^2}\left[-s\cdot 1 + a\cdot 0\right]$$
+$$= \left[\frac{e^{-st}}{s^2+a^2}\left( -s\cos at + a\sin at \right)\right]_0^\infty = 0-\frac{1}{s^2+a^2}\left[ -s\cdot 1 + a\cdot 0 \right]$$
 
-$$\boxed{L\{\cos at\} = \frac{s}{s^2+a^2}}$$
+$$\boxed{L\lbrace \cos at\rbrace = \frac{s}{s^2+a^2}}$$
 
 #### Example (vii) — $F(t) = t$
 
-$$L\{t\} = \int_0^\infty e^{-st}t\,dt$$
+$$L\lbrace t\rbrace = \int_0^\infty e^{-st}t\,dt$$
 
 Let $st=z\Rightarrow t=\dfrac{z}{s},\ dt=\dfrac{dz}{s}$; as $t:0\to\infty,\ z:0\to\infty$.
 
 $$= \int_0^\infty e^{-z}\cdot\frac{z}{s}\cdot\frac{dz}{s} = \frac{1}{s^2}\int_0^\infty e^{-z}z^{2-1}\,dz = \frac{1}{s^2}\Gamma(2) = \frac{1}{s^2}\cdot 1$$
 
-$$\boxed{L\{t\} = \frac{1}{s^2}}$$
+$$\boxed{L\lbrace t\rbrace = \frac{1}{s^2}}$$
 
 #### Example (viii) — $F(t) = t^n$
 
-$$L\{t^n\} = \int_0^\infty e^{-st}t^n\,dt$$
+$$L\lbrace t^n\rbrace = \int_0^\infty e^{-st}t^n\,dt$$
 
 Let $st=z\Rightarrow t=\dfrac{z}{s},\ dt=\dfrac{dz}{s}$.
 
 $$= \int_0^\infty e^{-z}\left(\frac{z}{s}\right)^n\frac{dz}{s} = \frac{1}{s^{n+1}}\int_0^\infty e^{-z}z^{(n+1)-1}\,dz = \frac{1}{s^{n+1}}\times\Gamma(n+1)$$
 
-$$\boxed{L\{t^n\} = \frac{n!}{s^{n+1}}}$$
+$$\boxed{L\lbrace t^n\rbrace = \frac{n!}{s^{n+1}}}$$
 
 #### Example (ix) — $F(t) = t^{-1/2}$
 
-$$L\{t^{-1/2}\} = \int_0^\infty e^{-st}\,t^{-1/2}\,dt = \int_0^\infty e^{-st}\,t^{1/2-1}\,dt = \frac{\Gamma(1/2)}{s^{1/2}} = \frac{\sqrt{\pi}}{\sqrt{s}}$$
+$$L\lbrace t^{-1/2}\rbrace = \int_0^\infty e^{-st}\,t^{-1/2}\,dt = \int_0^\infty e^{-st}\,t^{1/2-1}\,dt = \frac{\Gamma(1/2)}{s^{1/2}} = \frac{\sqrt{\pi}}{\sqrt{s}}$$
 
-$$\boxed{L\{t^{-1/2}\} = \sqrt{\frac{\pi}{s}}}$$
+$$\boxed{L\lbrace t^{-1/2}\rbrace = \sqrt{\frac{\pi}{s}}}$$
 
 ### 5. Question 02 — Laplace Transform of $\cosh at$ and $\sinh at$
 
@@ -128,25 +128,25 @@ $$\boxed{L\{t^{-1/2}\} = \sqrt{\frac{\pi}{s}}}$$
 
 Since $\cosh at = \dfrac{e^{at}+e^{-at}}{2}$,
 
-$$L\{\cosh at\} = \int_0^\infty e^{-st}\left(\frac{e^{at}+e^{-at}}{2}\right)dt = \frac{1}{2}\int_0^\infty e^{-st}\left\{e^{-(s-a)t}+e^{-(s+a)t}\right\}dt$$
+$$L\lbrace \cosh at\rbrace = \int_0^\infty e^{-st}\left(\frac{e^{at}+e^{-at}}{2}\right)dt = \frac{1}{2}\int_0^\infty e^{-st}\left\lbrace e^{-(s-a)t}+e^{-(s+a)t} \right\rbrace dt$$
 
 $$= \frac{1}{2}\left[\frac{e^{-(s-a)t}}{-(s-a)}+\frac{e^{-(s+a)t}}{-(s+a)}\right]_0^\infty = \frac{1}{2}\left[0+0-\left(\frac{-1}{s-a}-\frac{1}{s+a}\right)\right]$$
 
 $$= \frac{1}{2}\left[\frac{1}{s-a}+\frac{1}{s+a}\right] = \frac{1}{2}\left(\frac{s+a+s-a}{s^2-a^2}\right) = \frac{1}{2}\cdot\frac{2s}{s^2-a^2}$$
 
-$$\boxed{L\{\cosh at\} = \frac{s}{s^2-a^2}}$$
+$$\boxed{L\lbrace \cosh at\rbrace = \frac{s}{s^2-a^2}}$$
 
 **Solution (ii) — $F(t)=\sinh at$:**
 
 Since $\sinh at = \dfrac{e^{at}-e^{-at}}{2}$,
 
-$$L\{\sinh at\} = \int_0^\infty e^{-st}\left(\frac{e^{at}-e^{-at}}{2}\right)dt = \frac{1}{2}\int_0^\infty\left\{e^{-(s-a)t}-e^{-(s+a)t}\right\}dt$$
+$$L\lbrace \sinh at\rbrace = \int_0^\infty e^{-st}\left(\frac{e^{at}-e^{-at}}{2}\right)dt = \frac{1}{2}\int_0^\infty\left\lbrace e^{-(s-a)t}-e^{-(s+a)t} \right\rbrace dt$$
 
 $$= \frac{1}{2}\left[\frac{e^{-(s-a)t}}{-(s-a)}-\frac{e^{-(s+a)t}}{-(s+a)}\right]_0^\infty = \frac{1}{2}\left[0+\frac{1}{s-a}-\frac{1}{s+a}\right]$$
 
 $$= \frac{1}{2}\left(\frac{2a}{s^2-a^2}\right)$$
 
-$$\boxed{L\{\sinh at\} = \frac{a}{s^2-a^2}}$$
+$$\boxed{L\lbrace \sinh at\rbrace = \frac{a}{s^2-a^2}}$$
 
 ### 6. Question 03 — Laplace Transforms of Exponentially Damped Sine/Cosine
 
@@ -157,39 +157,39 @@ $$\boxed{L\{\sinh at\} = \frac{a}{s^2-a^2}}$$
 
 **Solution (i) — $F(t)=e^{at}\sin bt$:**
 
-$$L\{e^{at}\sin bt\} = \int_0^\infty e^{-st}\,e^{at}\sin bt\,dt = \int_0^\infty e^{-(s-a)t}\sin bt\,dt$$
+$$L\lbrace e^{at}\sin bt\rbrace = \int_0^\infty e^{-st}\,e^{at}\sin bt\,dt = \int_0^\infty e^{-(s-a)t}\sin bt\,dt$$
 
-$$= \left[\frac{e^{-(s-a)t}}{(s-a)^2+b^2}\left\{-(s-a)\sin bt - b\cos bt\right\}\right]_0^\infty = 0-\frac{1}{(s-a)^2+b^2}\times(-b)$$
+$$= \left[\frac{e^{-(s-a)t}}{(s-a)^2+b^2}\left\lbrace -(s-a)\sin bt - b\cos bt \right\rbrace\right]_0^\infty = 0-\frac{1}{(s-a)^2+b^2}\times(-b)$$
 
-$$\boxed{L\{e^{at}\sin bt\} = \frac{b}{(s-a)^2+b^2}}$$
+$$\boxed{L\lbrace e^{at}\sin bt\rbrace = \frac{b}{(s-a)^2+b^2}}$$
 
 **Solution (ii) — $F(t)=e^{at}\cos bt$:**
 
-$$L\{e^{at}\cos bt\} = \int_0^\infty e^{-(s-a)t}\cos bt\,dt = \left[\frac{e^{-(s-a)t}}{(s-a)^2+b^2}\left\{-(s-a)\cos bt+b\sin bt\right\}\right]_0^\infty$$
+$$L\lbrace e^{at}\cos bt\rbrace = \int_0^\infty e^{-(s-a)t}\cos bt\,dt = \left[\frac{e^{-(s-a)t}}{(s-a)^2+b^2}\left\lbrace -(s-a)\cos bt+b\sin bt \right\rbrace\right]_0^\infty$$
 
-$$= -\frac{1}{(s-a)^2+b^2}\times\left\{-(s-a)\right\}$$
+$$= -\frac{1}{(s-a)^2+b^2}\times\left\lbrace -(s-a) \right\rbrace$$
 
-$$\boxed{L\{e^{at}\cos bt\} = \frac{s-a}{(s-a)^2+b^2}}$$
+$$\boxed{L\lbrace e^{at}\cos bt\rbrace = \frac{s-a}{(s-a)^2+b^2}}$$
 
 **Solution (iii) — $F(t)=e^{-2t}\sin 3t$:**
 
 Here $a=-2,\ b=3$:
 
-$$L\{e^{-2t}\sin 3t\} = \int_0^\infty e^{-(s+2)t}\sin 3t\,dt = \left[\frac{e^{-(s+2)t}}{(s+2)^2+9}\left\{-(s+2)\sin 3t - 3\cos 3t\right\}\right]_0^\infty$$
+$$L\lbrace e^{-2t}\sin 3t\rbrace = \int_0^\infty e^{-(s+2)t}\sin 3t\,dt = \left[\frac{e^{-(s+2)t}}{(s+2)^2+9}\left\lbrace -(s+2)\sin 3t - 3\cos 3t \right\rbrace\right]_0^\infty$$
 
 $$= 0+\frac{1}{(s+2)^2+9}\times 3$$
 
-$$\boxed{L\{e^{-2t}\sin 3t\} = \frac{3}{(s+2)^2+9}}$$
+$$\boxed{L\lbrace e^{-2t}\sin 3t\rbrace = \frac{3}{(s+2)^2+9}}$$
 
 **Solution (iv) — $F(t)=e^{-3t}\cos 2t$:**
 
 Here $a=-3,\ b=2$:
 
-$$L\{e^{-3t}\cos 2t\} = \int_0^\infty e^{-(s+3)t}\cos 2t\,dt = \left[\frac{e^{-(s+3)t}}{(s+3)^2+4}\left\{-(s+3)\cos 2t+2\sin 2t\right\}\right]_0^\infty$$
+$$L\lbrace e^{-3t}\cos 2t\rbrace = \int_0^\infty e^{-(s+3)t}\cos 2t\,dt = \left[\frac{e^{-(s+3)t}}{(s+3)^2+4}\left\lbrace -(s+3)\cos 2t+2\sin 2t \right\rbrace\right]_0^\infty$$
 
-$$= 0-\frac{1}{(s+3)^2+4}\times\{-(s+3)\}$$
+$$= 0-\frac{1}{(s+3)^2+4}\times\left\lbrace -(s+3) \right\rbrace$$
 
-$$\boxed{L\{e^{-3t}\cos 2t\} = \frac{s+3}{(s+3)^2+4}}$$
+$$\boxed{L\lbrace e^{-3t}\cos 2t\rbrace = \frac{s+3}{(s+3)^2+4}}$$
 
 ### 7. Question 4 — Linearity Applied to a Combined Function
 
@@ -199,134 +199,138 @@ $$\boxed{L\{e^{-3t}\cos 2t\} = \frac{s+3}{(s+3)^2+4}}$$
 
 **Solution:**
 
-$$L\{4e^{5t}+6t^3-3\cos 4t+4\sin 5t\} = 4L\{e^{5t}\}+6L\{t^3\}-3L\{\cos 4t\}+4L\{\sin 5t\}$$
+$$L\lbrace 4e^{5t}+6t^3-3\cos 4t+4\sin 5t\rbrace = 4L\lbrace e^{5t}\rbrace +6L\lbrace t^3\rbrace -3L\lbrace \cos 4t\rbrace +4L\lbrace \sin 5t\rbrace$$
 
 $$= 4\times\frac{1}{s-5}+6\times\frac{3!}{s^{3+1}}-3\times\frac{s}{s^2+16}+4\times\frac{5}{s^2+25}$$
 
-$$\boxed{L\{4e^{5t}+6t^3-3\cos 4t+4\sin 5t\} = \frac{4}{s-5}+\frac{36}{s^4}-\frac{3s}{s^2+16}+\frac{20}{s^2+25}}$$
+$$\boxed{L\lbrace 4e^{5t}+6t^3-3\cos 4t+4\sin 5t\rbrace = \frac{4}{s-5}+\frac{36}{s^4}-\frac{3s}{s^2+16}+\frac{20}{s^2+25}}$$
 
 ### 8. Change of Scale Property
 
-> **Statement:** If $L\{F(t)\}=f(s)$, then
-> $$L\{F(at)\}=\frac{1}{a}f\!\left(\frac{s}{a}\right).$$
+> **Statement:** If $L\lbrace F(t)\rbrace =f(s)$, then
+> $$L\lbrace F(at)\rbrace =\frac{1}{a}f\!\left(\frac{s}{a}\right).$$
 
 **Proof:**
 
 By the definition of L.T.,
 
-$$L\{F(t)\}=\int_0^\infty e^{-st}F(t)\,dt = f(s)$$
+$$L\lbrace F(t)\rbrace =\int_0^\infty e^{-st}F(t)\,dt = f(s)$$
 
-$$\therefore L\{F(at)\} = \int_0^\infty e^{-st}F(at)\,dt$$
+$$\therefore L\lbrace F(at)\rbrace = \int_0^\infty e^{-st}F(at)\,dt$$
 
 Let $at=z\Rightarrow t=\dfrac{z}{a},\ dt=\dfrac{dz}{a}$.
 
-$$= \int_0^\infty e^{-s(z/a)}F(z)\frac{dz}{a} = \frac{1}{a}\int_0^\infty e^{-\frac{s}{a}z}F(z)\,dz = \frac{1}{a}f\!\left(\frac{s}{a}\right)\quad[\text{by L.T. definition}]$$
+$$= \int_0^\infty e^{-s(z/a)}F(z)\frac{dz}{a} = \frac{1}{a}\int_0^\infty e^{-\frac{s}{a}z}F(z)\,dz = \frac{1}{a}f\!\left(\frac{s}{a}\right)$$
 
-$$\boxed{L\{F(at)\}=\frac{1}{a}f\!\left(\frac{s}{a}\right)}\quad\text{(proved)}$$
+$$\boxed{L\lbrace F(at)\rbrace =\frac{1}{a}f\!\left(\frac{s}{a}\right)}$$
+*(Proved)*
 
 **Examples applying the change of scale property:**
 
-$$L\{\sin at\} = \frac{1}{a}\times\frac{1}{(s/a)^2+1} = \frac{1}{a}\times\frac{a^2}{s^2+a^2}=\frac{a}{s^2+a^2}$$
+$$L\lbrace \sin at\rbrace = \frac{1}{a}\times\frac{1}{(s/a)^2+1} = \frac{1}{a}\times\frac{a^2}{s^2+a^2}=\frac{a}{s^2+a^2}$$
 
-$$L\{\sin t\cos t\} = \frac{1}{2}L\{2\sin t\cos t\} = \frac{1}{2}L\{\sin 2t\} = \frac{1}{2}\times\frac{1}{2}\times\frac{1}{(s/2)^2+1} = \frac{1}{4}\times\frac{4}{s^2+4}$$
+$$L\lbrace \sin t\cos t\rbrace = \frac{1}{2}L\lbrace 2\sin t\cos t\rbrace = \frac{1}{2}L\lbrace \sin 2t\rbrace = \frac{1}{2}\times\frac{1}{2}\times\frac{1}{(s/2)^2+1} = \frac{1}{4}\times\frac{4}{s^2+4}$$
 
-$$\boxed{L\{\sin t\cos t\}=\frac{1}{s^2+4}}$$
+$$\boxed{L\lbrace \sin t\cos t\rbrace =\frac{1}{s^2+4}}$$
 
-$$L\{\cos^3(3t)\}:\quad \cos 3A = 4\cos^3A-3\cos A\ \Rightarrow\ \cos^3A = \frac{1}{4}(\cos 3A+3\cos A)$$
+$$L\lbrace \cos^3(3t)\rbrace :\quad \cos 3A = 4\cos^3A-3\cos A\ \Rightarrow\ \cos^3A = \frac{1}{4}(\cos 3A+3\cos A)$$
 
-$$L\{\cos^3(3t)\} = \frac{1}{4}L\{\cos 9t + 3\cos 3t\} = \frac{1}{4}\left[L\{\cos 9t\}+3L\{\cos 3t\}\right]$$
+$$L\lbrace \cos^3(3t)\rbrace = \frac{1}{4}L\lbrace \cos 9t + 3\cos 3t\rbrace = \frac{1}{4}\left[L\lbrace \cos 9t\rbrace +3L\lbrace \cos 3t\rbrace \right]$$
 
 $$= \frac{1}{4}\left[\frac{1}{9}\times\frac{s/9}{(s/9)^2+1}+3\times\frac{1}{3}\times\frac{s/3}{(s/3)^2+1}\right] = \frac{1}{4}\left[\frac{s}{s^2+81}+\frac{3s}{s^2+9}\right]$$
 
-$$\boxed{L\{\cos^3(3t)\}=\frac{1}{4}\left[\frac{s}{s^2+81}+\frac{3s}{s^2+9}\right]}$$
+$$\boxed{L\lbrace \cos^3(3t)\rbrace =\frac{1}{4}\left[\frac{s}{s^2+81}+\frac{3s}{s^2+9}\right]}$$
 
 ### 9. First Shifting Property (Shifting on the $s$-axis)
 
-> **Statement:** If $L\{F(t)\}=f(s)$, then
-> $$L\{e^{at}F(t)\} = f(s-a).$$
+> **Statement:** If $L\lbrace F(t)\rbrace =f(s)$, then
+> $$L\lbrace e^{at}F(t)\rbrace = f(s-a).$$
 
 **Proof:**
 
 By the definition of L.T.,
 
-$$L\{F(t)\}=\int_0^\infty e^{-st}F(t)\,dt=f(s)$$
+$$L\lbrace F(t)\rbrace =\int_0^\infty e^{-st}F(t)\,dt=f(s)$$
 
-$$\therefore L\{e^{at}F(t)\} = \int_0^\infty e^{-st}\,e^{at}F(t)\,dt = \int_0^\infty e^{-(s-a)t}F(t)\,dt = f(s-a)$$
+$$\therefore L\lbrace e^{at}F(t)\rbrace = \int_0^\infty e^{-st}\,e^{at}F(t)\,dt = \int_0^\infty e^{-(s-a)t}F(t)\,dt = f(s-a)$$
 
-$$\boxed{L\{e^{at}F(t)\}=f(s-a)}\quad\text{(proved)}$$
+$$\boxed{L\lbrace e^{at}F(t)\rbrace =f(s-a)}$$
+*(Proved)*
 
 **Examples applying the shifting property:**
 
-(i) $L\{e^{3t}t^2\}$: Here $F(t)=t^2,\ L\{t^2\}=\dfrac{2!}{s^{2+1}}=\dfrac{2}{s^3}$.
+(i) $L\lbrace e^{3t}t^2\rbrace$: Here $F(t)=t^2,\ L\lbrace t^2\rbrace =\dfrac{2!}{s^{2+1}}=\dfrac{2}{s^3}$.
 
-$$\boxed{L\{e^{3t}t^2\} = \frac{2}{(s-3)^3}}$$
+$$\boxed{L\lbrace e^{3t}t^2\rbrace = \frac{2}{(s-3)^3}}$$
 
-(ii) $L\{e^{4t}\cosh 5t\}$: Here $F(t)=\cosh 5t,\ L\{\cosh 5t\}=\dfrac{s}{s^2-25}$.
+(ii) $L\lbrace e^{4t}\cosh 5t\rbrace$: Here $F(t)=\cosh 5t,\ L\lbrace \cosh 5t\rbrace =\dfrac{s}{s^2-25}$.
 
-$$L\{e^{4t}\cosh 5t\} = \frac{s-4}{(s-4)^2-25} = \frac{s-4}{s^2-8s+16-25}$$
+$$L\lbrace e^{4t}\cosh 5t\rbrace = \frac{s-4}{(s-4)^2-25} = \frac{s-4}{s^2-8s+16-25}$$
 
-$$\boxed{L\{e^{4t}\cosh 5t\} = \frac{s-4}{s^2-8s-9}}$$
+$$\boxed{L\lbrace e^{4t}\cosh 5t\rbrace = \frac{s-4}{s^2-8s-9}}$$
 
-(iii) $L\{e^{-3t}(3\cos 6t-5\sin 6t)\}$: Here $F(t)=3\cos 6t-5\sin 6t$.
+(iii) $L\lbrace e^{-3t}(3\cos 6t-5\sin 6t)\rbrace$: Here $F(t)=3\cos 6t-5\sin 6t$.
 
-$$L\{3\cos 6t-5\sin 6t\} = 3L\{\cos 6t\}-5L\{\sin 6t\} = 3\times\frac{s}{s^2+36}-5\times\frac{6}{s^2+36}=\frac{3s-30}{s^2+36}$$
+$$L\lbrace 3\cos 6t-5\sin 6t\rbrace = 3L\lbrace \cos 6t\rbrace -5L\lbrace \sin 6t\rbrace = 3\times\frac{s}{s^2+36}-5\times\frac{6}{s^2+36}=\frac{3s-30}{s^2+36}$$
 
-$$\boxed{L\{e^{-3t}(3\cos 6t-5\sin 6t)\} = \frac{3(s+3)-30}{(s+3)^2+36}}$$
+$$\boxed{L\lbrace e^{-3t}(3\cos 6t-5\sin 6t)\rbrace = \frac{3(s+3)-30}{(s+3)^2+36}}$$
 
-(iv) $L\{e^{at}t^n\}$: Here $F(t)=t^n=\dfrac{n!}{s^{n+1}}$.
+(iv) $L\lbrace e^{at}t^n\rbrace$: Here $F(t)=t^n=\dfrac{n!}{s^{n+1}}$.
 
-$$\boxed{L\{e^{at}t^n\} = \frac{n!}{(s-a)^{n+1}}}$$
+$$\boxed{L\lbrace e^{at}t^n\rbrace = \frac{n!}{(s-a)^{n+1}}}$$
 
 ### 10. Second Shifting Property (Shifting on the $t$-axis / Unit-Step Shift)
 
-> **Statement:** If $L\{F(t)\}=f(s)$ and
+> **Statement:** If $L\lbrace F(t)\rbrace =f(s)$ and
 > $$G(t) = \begin{cases} F(t-a), & t>a \\ 0, & t<a \end{cases}$$
-> then $L\{G(t)\} = e^{-as}f(s)$, for $a>0$.
+> then $L\lbrace G(t)\rbrace = e^{-as}f(s)$, for $a>0$.
 
 **Proof:**
 
 By the definition of L.T.,
 
-$$L\{F(t)\} = \int_0^\infty e^{-st}F(t)\,dt = f(s)$$
+$$L\lbrace F(t)\rbrace = \int_0^\infty e^{-st}F(t)\,dt = f(s)$$
 
 Given
 
 $$G(t) = \begin{cases} F(t-a), & t>a \\ 0, & t<a\end{cases}$$
 
-$$L\{G(t)\} = \int_0^\infty e^{-st}G(t)\,dt = \int_0^{a}e^{-st}\cdot 0\,dt + \int_{a}^{\infty}e^{-st}F(t-a)\,dt = 0+\int_a^\infty e^{-st}F(t-a)\,dt$$
+$$L\lbrace G(t)\rbrace = \int_0^\infty e^{-st}G(t)\,dt = \int_0^{a}e^{-st}\cdot 0\,dt + \int_{a}^{\infty}e^{-st}F(t-a)\,dt = 0+\int_a^\infty e^{-st}F(t-a)\,dt$$
 
 Let $t-a=z\Rightarrow t=z+a,\ dt=dz$; as $t:a\to\infty,\ z:0\to\infty$.
 
-$$L\{G(t)\} = \int_0^\infty e^{-s(z+a)}F(z)\,dz = e^{-sa}\int_0^\infty e^{-sz}F(z)\,dz = e^{-sa}f(s)$$
+$$L\lbrace G(t)\rbrace = \int_0^\infty e^{-s(z+a)}F(z)\,dz = e^{-sa}\int_0^\infty e^{-sz}F(z)\,dz = e^{-sa}f(s)$$
 
-$$\boxed{L\{G(t)\}=e^{-sa}f(s)}\quad\text{(proved)}$$
+$$\boxed{L\lbrace G(t)\rbrace =e^{-sa}f(s)}$$
+*(Proved)*
 
 ### 11. Multiplication by Powers of $t$ Property
 
-> **Statement:** If $L\{F(t)\}=f(s)$, then for $n=0,1,2,3,\dots$
-> $$L\{t^nF(t)\} = (-1)^n\frac{d^n}{ds^n}f(s) = (-1)^n f^{(n)}(s).$$
+> **Statement:** If $L\lbrace F(t)\rbrace =f(s)$, then for $n=0,1,2,3,\dots$
+> $$L\lbrace t^nF(t)\rbrace = (-1)^n\frac{d^n}{ds^n}f(s) = (-1)^n f^{(n)}(s).$$
 
 **Proof:**
 
 By the definition of L.T.,
 
-$$L\{F(t)\}=\int_0^\infty e^{-st}F(t)\,dt=f(s)$$
+$$L\lbrace F(t)\rbrace =\int_0^\infty e^{-st}F(t)\,dt=f(s)$$
 
 Differentiating with respect to $s$:
 
-$$\frac{d}{ds}L\{F(t)\} = \frac{d}{ds}\left[\int_0^\infty e^{-st}F(t)\,dt\right] = \int_0^\infty \frac{\partial}{\partial s}(e^{-st})F(t)\,dt = \int_0^\infty (-t)e^{-st}F(t)\,dt$$
+$$\frac{d}{ds}L\lbrace F(t)\rbrace = \frac{d}{ds}\left[\int_0^\infty e^{-st}F(t)\,dt\right] = \int_0^\infty \frac{\partial}{\partial s}(e^{-st})F(t)\,dt = \int_0^\infty (-t)e^{-st}F(t)\,dt$$
 
-$$= -\int_0^\infty e^{-st}\,t\,F(t)\,dt = -L\{tF(t)\}$$
+$$= -\int_0^\infty e^{-st}\,t\,F(t)\,dt = -L\lbrace tF(t)\rbrace $$
 
-$$\Rightarrow \frac{d}{ds}\{f(s)\} = -L\{tF(t)\}\ \Rightarrow\ L\{tF(t)\} = (-1)\frac{d}{ds}f(s)$$
+$$\Rightarrow \frac{d}{ds}\lbrace f(s)\rbrace = -L\lbrace tF(t)\rbrace \ \Rightarrow\ L\lbrace tF(t)\rbrace = (-1)\frac{d}{ds}f(s)$$
 
 Similarly,
 
-$$L\{t^2F(t)\} = (-1)^2\frac{d^2}{ds^2}f(s)$$
+$$L\lbrace t^2F(t)\rbrace = (-1)^2\frac{d^2}{ds^2}f(s)$$
 
 $$\vdots$$
 
-$$\boxed{L\{t^nF(t)\} = (-1)^n\frac{d^n}{ds^n}f(s)}\quad\text{(proved)}$$
+$$\boxed{L\lbrace t^nF(t)\rbrace = (-1)^n\frac{d^n}{ds^n}f(s)}$$
+*(Proved)*
 
 ### 12. Supplementary Questions and Cross-Checks
 
@@ -336,7 +340,7 @@ $$\boxed{L\{t^nF(t)\} = (-1)^n\frac{d^n}{ds^n}f(s)}\quad\text{(proved)}$$
 
 **Ans.** If $F(t)$ is defined for $t\geq 0$, its Laplace transform is
 
-$$L\{F(t)\} = f(s) = \int_0^\infty e^{-st}F(t)\,dt,$$
+$$L\lbrace F(t)\rbrace = f(s) = \int_0^\infty e^{-st}F(t)\,dt,$$
 
 provided this improper integral converges, where $s$ is a real (or complex) parameter chosen large enough for convergence.
 
@@ -344,27 +348,27 @@ provided this improper integral converges, where $s$ is a real (or complex) para
 
 By the definition of Laplace transform,
 
-$$L\{F(t)\} = \int_0^\infty e^{-st}F(t)\,dt$$
+$$L\lbrace F(t)\rbrace = \int_0^\infty e^{-st}F(t)\,dt$$
 
-$$L\{\sinh t\} = \int_0^\infty e^{-st}\left(\frac{e^t-e^{-t}}{2}\right)dt \qquad\left[\because \sinh t=\frac{e^t-e^{-t}}{2}\right]$$
+$$L\lbrace \sinh t\rbrace = \int_0^\infty e^{-st}\left(\frac{e^t-e^{-t}}{2}\right)dt$$
 
 $$= \frac{1}{2}\int_0^\infty\left(e^{-(s-1)t}-e^{-(s+1)t}\right)dt = \frac{1}{2}\left[\frac{1}{s-1}-\frac{1}{s+1}\right]$$
 
 $$= \frac{1}{2}\left[\frac{s+1-s+1}{s^2-1}\right] = \frac{1}{2}\cdot\frac{2}{s^2-1}$$
 
-$$\boxed{L\{\sinh t\} = \frac{1}{s^2-1}},\qquad s>1$$
+$$\boxed{L\lbrace \sinh t\rbrace = \frac{1}{s^2-1}},\qquad s>1$$
 
-**Cross-check:** $L\{\sinh at\} = \dfrac{a}{s^2-a^2}$; with $a=1$, $L\{\sinh t\}=\dfrac{1}{s^2-1}$. ✓ Consistent.
+**Cross-check:** $L\lbrace \sinh at\rbrace = \dfrac{a}{s^2-a^2}$; with $a=1$, $L\lbrace \sinh t\rbrace =\dfrac{1}{s^2-1}$. ✓ Consistent.
 
 **Q. State and prove the second shifting property of Laplace transformation.** *(Restated derivation — same result as §10 above; see that section for the full proof.)*
 
 **Q. Find the Laplace transform of $F(t)=e^{-t}\cos 2t$.**
 
-$$L\{e^{-t}\cos 2t\} = \int_0^\infty e^{-st}e^{-t}\cos 2t\,dt = \int_0^\infty e^{-(s+1)t}\cos 2t\,dt$$
+$$L\lbrace e^{-t}\cos 2t\rbrace = \int_0^\infty e^{-st}e^{-t}\cos 2t\,dt = \int_0^\infty e^{-(s+1)t}\cos 2t\,dt$$
 
-$$= \left[\frac{e^{-(s+1)t}}{(s+1)^2+4}\left\{-(s+1)\cos 2t+2\sin 2t\right\}\right]_0^\infty = 0-\frac{1}{(s+1)^2+4}\times\{-(s+1)\}$$
+$$= \left[\frac{e^{-(s+1)t}}{(s+1)^2+4}\left\lbrace -(s+1)\cos 2t+2\sin 2t \right\rbrace\right]_0^\infty = 0-\frac{1}{(s+1)^2+4}\times\left\lbrace -(s+1) \right\rbrace$$
 
-$$\boxed{L\{e^{-t}\cos 2t\} = \frac{s+1}{(s+1)^2+4}}$$
+$$\boxed{L\lbrace e^{-t}\cos 2t\rbrace = \frac{s+1}{(s+1)^2+4}}$$
 
 ### 13. Solving a First-Order Differential Equation by Laplace Transform
 
@@ -376,13 +380,13 @@ $$\boxed{L\{e^{-t}\cos 2t\} = \frac{s+1}{(s+1)^2+4}}$$
 
 Let $y'=\dfrac{dy}{dt}$. We know
 
-$$L\{y'(t)\} = sY(s)-y(0), \qquad L\{y(t)\}=Y(s)$$
+$$L\lbrace y'(t)\rbrace = sY(s)-y(0), \qquad L\lbrace y(t)\rbrace =Y(s)$$
 
-and $L\{e^{3t}\}=\dfrac{1}{s-3}$.
+and $L\lbrace e^{3t}\rbrace =\dfrac{1}{s-3}$.
 
 Given $\dfrac{dy}{dt}-y=e^{3t}$, $y(0)=2$. Taking the Laplace transform of both sides,
 
-$$L\left\{\frac{dy}{dt}\right\}-L\{y\} = L\{e^{3t}\}$$
+$$L\left\lbrace \frac{dy}{dt}\right\rbrace -L\lbrace y\rbrace = L\lbrace e^{3t}\rbrace$$
 
 $$[sY(s)-y(0)]-Y(s) = \frac{1}{s-3}$$
 
@@ -402,7 +406,7 @@ $$Y(s) = \frac{3/2}{s-1}+\frac{1/2}{s-3}$$
 
 Taking the inverse Laplace transform,
 
-$$L^{-1}\{Y(s)\} = \frac{3}{2}L^{-1}\!\left(\frac{1}{s-1}\right)+\frac{1}{2}L^{-1}\!\left(\frac{1}{s-3}\right)$$
+$$L^{-1}\lbrace Y(s)\rbrace = \frac{3}{2}L^{-1}\!\left(\frac{1}{s-1}\right)+\frac{1}{2}L^{-1}\!\left(\frac{1}{s-3}\right)$$
 
 > **Source note:** The partial-fraction coefficients computed above give $A=3/2,\ B=1/2$, so $y(t)=\tfrac{3}{2}e^{t}+\tfrac{1}{2}e^{3t}$ is the result implied by the algebra shown. The original handwritten page, however, writes the final boxed answer with a **negative** sign on the first term:
 > $$y(t) = -\frac{3}{2}e^{t}+\frac{1}{2}e^{3t}$$
@@ -426,29 +430,30 @@ $$L^{-1}\{Y(s)\} = \frac{3}{2}L^{-1}\!\left(\frac{1}{s-1}\right)+\frac{1}{2}L^{-
 
 > **Source unclear:** Part (ii) of this question, as written in the source ("$F(t\bar e^{-at}.e^{at})$"), is not legible as a well-formed mathematical expression; it has not been reconstructed. Part (i), $F(t)=\cosh at$, is solved below and reproduces the same derivation and result as §5, Example (i) above:
 
-$$\boxed{L\{\cosh at\} = \frac{s}{s^2-a^2}}$$
+$$\boxed{L\lbrace \cosh at\rbrace = \frac{s}{s^2-a^2}}$$
 
-**Q. State first shifting property. Then find the Laplace transform of $e^{2t}\sin 4t$.** $\big[L\{e^{at}F(t)\}=f(s-a)\big]$
+**Q. State first shifting property. Then find the Laplace transform of $e^{2t}\sin 4t$.** $\big[L\lbrace e^{at}F(t)\rbrace =f(s-a)\big]$
 
 *(Statement and proof — identical to §9 above.)*
 
-**Finding $L\{e^{2t}\sin 4t\}$:**
+**Finding $L\lbrace e^{2t}\sin 4t\rbrace$:**
 
-By the definition of L.T. we know $L\{F(t)\}=\displaystyle\int_0^\infty e^{-st}F(t)\,dt$. Put $F(t)=\sin 4t$:
+By the definition of L.T. we know $L\lbrace F(t)\rbrace =\displaystyle\int_0^\infty e^{-st}F(t)\,dt$. Put $F(t)=\sin 4t$:
 
-$$L\{e^{2t}\sin 4t\} = \int_0^\infty e^{-st}e^{2t}\sin 4t\,dt = \int_0^\infty e^{-(s-2)t}\sin 4t\,dt$$
+$$L\lbrace e^{2t}\sin 4t\rbrace = \int_0^\infty e^{-st}e^{2t}\sin 4t\,dt = \int_0^\infty e^{-(s-2)t}\sin 4t\,dt$$
 
-$$= \left[\frac{e^{-(s-2)t}}{(s-2)^2+16}\left\{-(s-2)\sin 4t-4\cos 4t\right\}\right]_0^\infty = 0-\frac{1}{(s-2)^2+16}\times(-4)$$
+$$= \left[\frac{e^{-(s-2)t}}{(s-2)^2+16}\left\lbrace -(s-2)\sin 4t-4\cos 4t \right\rbrace\right]_0^\infty = 0-\frac{1}{(s-2)^2+16}\times(-4)$$
 
-$$\boxed{L\{e^{2t}\sin 4t\} = \frac{4}{(s-2)^2+16}}\quad\text{(proved)}$$
+$$\boxed{L\lbrace e^{2t}\sin 4t\rbrace = \frac{4}{(s-2)^2+16}}$$
+*(Proved)*
 
-**Q. If $L\{F(t)\}=f(s)$, then show that $L\{F'''(t)\} = s^3f(s)-s^2F(0)-sF'(0)-F''(0)$.**
+**Q. If $L\lbrace F(t)\rbrace =f(s)$, then show that $L\lbrace F'''(t)\rbrace = s^3f(s)-s^2F(0)-sF'(0)-F''(0)$.**
 
-**Solution.** Given $L\{F(t)\}=f(s)$. By the definition of L.T.,
+**Solution.** Given $L\lbrace F(t)\rbrace =f(s)$. By the definition of L.T.,
 
-$$L\{F(t)\}=\int_0^\infty e^{-st}F(t)\,dt$$
+$$L\lbrace F(t)\rbrace =\int_0^\infty e^{-st}F(t)\,dt$$
 
-$$\therefore L\{F'''(t)\} = \int_0^\infty e^{-st}F'''(t)\,dt$$
+$$\therefore L\lbrace F'''(t)\rbrace = \int_0^\infty e^{-st}F'''(t)\,dt$$
 
 Integrating by parts,
 
@@ -458,7 +463,8 @@ $$= -F''(0)+s\left[-F'(0)+s\int_0^\infty e^{-st}F'(t)\,dt\right] = -F''(0)-sF'(0
 
 $$= -F''(0)-sF'(0)-s^2F(0)+s^3f(s)$$
 
-$$\boxed{L\{F'''(t)\} = s^3f(s)-s^2F(0)-sF'(0)-F''(0)}\quad\text{(proved)}$$
+$$\boxed{L\lbrace F'''(t)\rbrace = s^3f(s)-s^2F(0)-sF'(0)-F''(0)}$$
+*(Proved)*
 
 **Q. Solve the following differential equation using Laplace transforms:**
 $$Y''(t)+9Y(t)=\cos 2t,\quad Y(0)=1,\ Y'(0)=a,\ Y(\pi/2)=-1.$$
@@ -467,7 +473,7 @@ $$Y''(t)+9Y(t)=\cos 2t,\quad Y(0)=1,\ Y'(0)=a,\ Y(\pi/2)=-1.$$
 
 Taking the Laplace transform of both sides,
 
-$$L\{Y''(t)\}+9L\{Y(t)\} = L\{\cos 2t\}$$
+$$L\lbrace Y''(t)\rbrace +9L\lbrace Y(t)\rbrace = L\lbrace \cos 2t\rbrace$$
 
 $$s^2y(s)-sY(0)-Y'(0)+9y(s) = \frac{s}{s^2+4}$$
 
@@ -499,9 +505,9 @@ $$y(t) = \cos 3t + \frac{a}{3}\sin 3t + \frac{1}{5}\cos 2t - \frac{1}{5}\cos 3t$
 
 > **Source:** `Math-II-Laplace-16-24.pdf`, pages 47–50.
 
-**Q. Evaluate $L^{-1}\left\{\dfrac{4s+12}{s^2+8s+16}\right\}$.**
+**Q. Evaluate $L^{-1}\left\lbrace \dfrac{4s+12}{s^2+8s+16}\right\rbrace$.**
 
-$$L^{-1}\left\{\frac{4s+12}{s^2+8s+16}\right\} = L^{-1}\left\{\frac{4s+16-4}{(s+4)^2}\right\} = L^{-1}\left\{\frac{4(s+4)}{(s+4)^2}-\frac{4}{(s+4)^2}\right\}$$
+$$L^{-1}\left\lbrace \frac{4s+12}{s^2+8s+16}\right\rbrace = L^{-1}\left\lbrace \frac{4s+16-4}{(s+4)^2}\right\rbrace = L^{-1}\left\lbrace \frac{4(s+4)}{(s+4)^2}-\frac{4}{(s+4)^2}\right\rbrace$$
 
 $$= 4L^{-1}\left(\frac{1}{s+4}\right)-4L^{-1}\left(\frac{1}{(s+4)^2}\right)$$
 
@@ -509,9 +515,9 @@ Using the first shifting property, $L^{-1}\left(\dfrac{1}{(s+a)^2}\right)=te^{-a
 
 $$= 4e^{-4t}-4e^{-4t}\cdot L^{-1}\left(\frac{1}{s^2}\right) = 4e^{-4t}-4e^{-4t}\cdot\frac{t^{2-1}}{1!} = 4e^{-4t}-4te^{-4t}$$
 
-$$\boxed{L^{-1}\left\{\frac{4s+12}{s^2+8s+16}\right\} = 4e^{-4t}(1-t)}$$
+$$\boxed{L^{-1}\left\lbrace \frac{4s+12}{s^2+8s+16}\right\rbrace = 4e^{-4t}(1-t)}$$
 
-**Q. Evaluate $L^{-1}\left\{\dfrac{s^2+2s+3}{(s^2+2s+2)(s^2+2s+5)}\right\}$.**
+**Q. Evaluate $L^{-1}\left\lbrace \dfrac{s^2+2s+3}{(s^2+2s+2)(s^2+2s+5)}\right\rbrace$.**
 
 Complete the square in each factor:
 
@@ -531,13 +537,13 @@ $$\frac{s^2+2s+3}{(s^2+2s+2)(s^2+2s+5)} = \frac{1}{3}\cdot\frac{1}{u^2+1}+\frac{
 
 Taking the inverse Laplace transform (with $u=s+1$):
 
-$$L^{-1}\left\{\cdots\right\} = \frac{1}{3}L^{-1}\left(\frac{1}{(s+1)^2+1}\right)+\frac{1}{3}L^{-1}\left(\frac{2}{(s+1)^2+4}\right)$$
+$$L^{-1}\left\lbrace \cdots \right\rbrace = \frac{1}{3}L^{-1}\left(\frac{1}{(s+1)^2+1}\right)+\frac{1}{3}L^{-1}\left(\frac{2}{(s+1)^2+4}\right)$$
 
 $$= \frac{1}{3}e^{-t}\sin t+\frac{1}{3}e^{-t}\sin 2t$$
 
-$$\boxed{L^{-1}\left\{\frac{s^2+2s+3}{(s^2+2s+2)(s^2+2s+5)}\right\} = \frac{1}{3}e^{-t}(\sin t+\sin 2t)}$$
+$$\boxed{L^{-1}\left\lbrace \frac{s^2+2s+3}{(s^2+2s+2)(s^2+2s+5)}\right\rbrace = \frac{1}{3}e^{-t}(\sin t+\sin 2t)}$$
 
-**Q. Evaluate $L^{-1}\left\{\dfrac{s+2}{s^2+4s+13}\right\}$.**
+**Q. Evaluate $L^{-1}\left\lbrace \dfrac{s+2}{s^2+4s+13}\right\rbrace$.**
 
 Complete the square:
 
@@ -545,11 +551,11 @@ $$s^2+4s+13 = (s+2)^2+9$$
 
 $$\therefore \frac{s+2}{s^2+4s+13} = \frac{s+2}{(s+2)^2+9}$$
 
-$$L^{-1}\left\{\frac{s+2}{(s+2)^2+9}\right\} = e^{-2t}\,L^{-1}\left(\frac{s}{s^2+3^2}\right) = e^{-2t}\cos 3t$$
+$$L^{-1}\left\lbrace \frac{s+2}{(s+2)^2+9}\right\rbrace = e^{-2t}\,L^{-1}\left(\frac{s}{s^2+3^2}\right) = e^{-2t}\cos 3t$$
 
 > **Source note:** The handwritten final line of this solution writes the answer as $e^{-3t}\cos 3t$. Given that the shift applied was by $a=2$ (from the factor $(s+2)^2+9$), the first-shifting property gives $e^{-2t}\cos 3t$ as computed directly above; the source's boxed exponent of $-3t$ is inconsistent with its own preceding algebra and is likely a transcription slip in the original notes. Both the derived result and the source's written answer are noted here.
 
-$$\boxed{L^{-1}\left\{\frac{s+2}{s^2+4s+13}\right\} = e^{-2t}\cos 3t}$$
+$$\boxed{L^{-1}\left\lbrace \frac{s+2}{s^2+4s+13}\right\rbrace = e^{-2t}\cos 3t}$$
 
 ## Part II — Vector Algebra and Vector Calculus
 
@@ -597,7 +603,8 @@ $$|\mathbf{a}|^2+2\mathbf{a}\cdot\mathbf{b}+|\mathbf{b}|^2 = |\mathbf{a}|^2-2\ma
 
 $$\Rightarrow 4\mathbf{a}\cdot\mathbf{b}=0 \Rightarrow \mathbf{a}\cdot\mathbf{b}=0$$
 
-$$\boxed{\Rightarrow \mathbf{a}\perp\mathbf{b}}\qquad[\text{if }\mathbf{a}\cdot\mathbf{b}=0\text{ then the vectors are perpendicular}]$$
+$$\boxed{\Rightarrow \mathbf{a}\perp\mathbf{b}}$$
+*(If $\mathbf{a}\cdot\mathbf{b}=0$ then the vectors are perpendicular)*
 
 ### 2. Cross Product — Geometric Interpretation
 
@@ -661,7 +668,8 @@ $$= a_2\mathbf{j}+a_3\mathbf{k}+a_1\mathbf{i}+a_3\mathbf{k}+a_1\mathbf{i}+a_2\ma
 
 $$= 2(a_1\mathbf{i}+a_2\mathbf{j}+a_3\mathbf{k}) = 2\mathbf{a}$$
 
-$$\boxed{\mathbf{i}\times(\mathbf{a}\times\mathbf{i})+\mathbf{j}\times(\mathbf{a}\times\mathbf{j})+\mathbf{k}\times(\mathbf{a}\times\mathbf{k}) = 2\mathbf{a}}\quad\text{(proved)}$$
+$$\boxed{\mathbf{i}\times(\mathbf{a}\times\mathbf{i})+\mathbf{j}\times(\mathbf{a}\times\mathbf{j})+\mathbf{k}\times(\mathbf{a}\times\mathbf{k}) = 2\mathbf{a}}$$
+*(Proved)*
 
 ### 4. Identity: $[\mathbf{a}+\mathbf{b},\,\mathbf{b}+\mathbf{c},\,\mathbf{c}+\mathbf{a}] = 2[\mathbf{a},\mathbf{b},\mathbf{c}]$
 
@@ -705,7 +713,8 @@ Using the cyclic property $[\mathbf{b},\mathbf{c},\mathbf{a}]=[\mathbf{a},\mathb
 
 $$[\mathbf{a}+\mathbf{b},\mathbf{b}+\mathbf{c},\mathbf{c}+\mathbf{a}] = [\mathbf{a},\mathbf{b},\mathbf{c}]+[\mathbf{a},\mathbf{b},\mathbf{c}]$$
 
-$$\boxed{[\mathbf{a}+\mathbf{b},\,\mathbf{b}+\mathbf{c},\,\mathbf{c}+\mathbf{a}] = 2[\mathbf{a},\mathbf{b},\mathbf{c}]}\quad\text{(proved)}$$
+$$\boxed{[\mathbf{a}+\mathbf{b},\,\mathbf{b}+\mathbf{c},\,\mathbf{c}+\mathbf{a}] = 2[\mathbf{a},\mathbf{b},\mathbf{c}]}$$
+*(Proved)*
 
 ### 5. Vector Triple Product (BAC–CAB Rule)
 
@@ -743,7 +752,8 @@ $$= (a_1b_2c_1-a_1b_1c_2)\hat{\mathbf{j}}-a_1b_1c_3\hat{\mathbf{k}}$$
 
 Both expressions match, so
 
-$$\boxed{\mathbf{a}\times(\mathbf{b}\times\mathbf{c}) = (\mathbf{a}\cdot\mathbf{c})\mathbf{b}-(\mathbf{a}\cdot\mathbf{b})\mathbf{c}}\quad\text{(proved)}$$
+$$\boxed{\mathbf{a}\times(\mathbf{b}\times\mathbf{c}) = (\mathbf{a}\cdot\mathbf{c})\mathbf{b}-(\mathbf{a}\cdot\mathbf{b})\mathbf{c}}$$
+*(Proved)*
 
 ### 6. Identity: $(\mathbf{a}\times\mathbf{b})\times(\mathbf{c}\times\mathbf{d})$
 
@@ -775,29 +785,31 @@ $$= [\mathbf{a},\mathbf{c},\mathbf{d}]\mathbf{b}-[\mathbf{b},\mathbf{c},\mathbf{
 
 Both expressions represent the same vector $(\mathbf{a}\times\mathbf{b})\times(\mathbf{c}\times\mathbf{d})$; therefore
 
-$$\boxed{(\mathbf{a}\times\mathbf{b})\times(\mathbf{c}\times\mathbf{d}) = [\mathbf{a},\mathbf{c},\mathbf{d}]\mathbf{b}-[\mathbf{b},\mathbf{c},\mathbf{d}]\mathbf{a} = [\mathbf{a},\mathbf{b},\mathbf{d}]\mathbf{c}-[\mathbf{a},\mathbf{b},\mathbf{c}]\mathbf{d}}\quad\text{(proved)}$$
+$$\boxed{(\mathbf{a}\times\mathbf{b})\times(\mathbf{c}\times\mathbf{d}) = [\mathbf{a},\mathbf{c},\mathbf{d}]\mathbf{b}-[\mathbf{b},\mathbf{c},\mathbf{d}]\mathbf{a} = [\mathbf{a},\mathbf{b},\mathbf{d}]\mathbf{c}-[\mathbf{a},\mathbf{b},\mathbf{c}]\mathbf{d}}$$
+*(Proved)*
 
 ### 7. Triangle Identity and the Sine Rule
 
 > **Source:** `Math-II-Vector-16-24.pdf`, pages 13–14.
 
-**Question.** In a triangle $ABC$, if $\vec{\mathbf{a}}+\vec{\mathbf{b}}+\vec{\mathbf{c}}=\vec{0}$, then show that $\mathbf{a}\times\mathbf{b}=\mathbf{b}\times\mathbf{c}=\mathbf{c}\times\mathbf{a}$, and hence show that $\dfrac{\sin A}{a}=\dfrac{\sin B}{b}=\dfrac{\sin C}{c}$.
+**Question.** In a triangle $ABC$, if $\mathbf{a}+\mathbf{b}+\mathbf{c}=\mathbf{0}$, then show that $\mathbf{a}\times\mathbf{b}=\mathbf{b}\times\mathbf{c}=\mathbf{c}\times\mathbf{a}$, and hence show that $\dfrac{\sin A}{a}=\dfrac{\sin B}{b}=\dfrac{\sin C}{c}$.
 
 **1st part.**
 
-By the triangle law of vectors, $\vec{\mathbf{a}}+\vec{\mathbf{b}}+\vec{\mathbf{c}}=\vec{0}$.
+By the triangle law of vectors, $\mathbf{a}+\mathbf{b}+\mathbf{c}=\mathbf{0}$.
 
-Taking the cross product by $\vec{\mathbf{a}}$:
+Taking the cross product by $\mathbf{a}$:
 
-$$\vec{\mathbf{a}}\times(\vec{\mathbf{a}}+\vec{\mathbf{b}}+\vec{\mathbf{c}}) = \vec{\mathbf{a}}\times\vec{0} = \vec{0}$$
+$$\mathbf{a}\times(\mathbf{a}+\mathbf{b}+\mathbf{c}) = \mathbf{a}\times\mathbf{0} = \mathbf{0}$$
 
-$$\Rightarrow \vec{\mathbf{a}}\times\vec{\mathbf{a}}+\vec{\mathbf{a}}\times\vec{\mathbf{b}}+\vec{\mathbf{a}}\times\vec{\mathbf{c}} = 0$$
+$$\Rightarrow \mathbf{a}\times\mathbf{a}+\mathbf{a}\times\mathbf{b}+\mathbf{a}\times\mathbf{c} = 0$$
 
-$$\Rightarrow \vec{\mathbf{a}}\times\vec{\mathbf{b}}+\vec{\mathbf{a}}\times\vec{\mathbf{c}} = 0 \Rightarrow \vec{\mathbf{a}}\times\vec{\mathbf{b}} = -\vec{\mathbf{a}}\times\vec{\mathbf{c}} \Rightarrow \mathbf{a}\times\mathbf{b} = \mathbf{c}\times\mathbf{a}$$
+$$\Rightarrow \mathbf{a}\times\mathbf{b}+\mathbf{a}\times\mathbf{c} = 0 \Rightarrow \mathbf{a}\times\mathbf{b} = -\mathbf{a}\times\mathbf{c} \Rightarrow \mathbf{a}\times\mathbf{b} = \mathbf{c}\times\mathbf{a}$$
 
 Similarly, $\mathbf{a}\times\mathbf{b}=\mathbf{b}\times\mathbf{c}$.
 
-$$\boxed{\mathbf{a}\times\mathbf{b} = \mathbf{b}\times\mathbf{c} = \mathbf{c}\times\mathbf{a}}\quad\text{(proved)}$$
+$$\boxed{\mathbf{a}\times\mathbf{b} = \mathbf{b}\times\mathbf{c} = \mathbf{c}\times\mathbf{a}}$$
+*(Proved)*
 
 **2nd part.**
 
@@ -809,7 +821,8 @@ $$\Rightarrow ab\sin C = bc\sin A = ca\sin B$$
 
 $$\Rightarrow \frac{ab\sin C}{abc} = \frac{bc\sin A}{abc} = \frac{ca\sin B}{abc}$$
 
-$$\boxed{\frac{\sin A}{a} = \frac{\sin B}{b} = \frac{\sin C}{c}}\quad\text{(proved)}$$
+$$\boxed{\frac{\sin A}{a} = \frac{\sin B}{b} = \frac{\sin C}{c}}$$
+*(Proved)*
 
 ### 8. Area of a Parallelogram Given Its Diagonals
 
@@ -880,7 +893,8 @@ $$= \begin{vmatrix} a_1a_1+a_2a_2+a_3a_3 & a_1b_1+a_2b_2+a_3b_3 & a_1c_1+a_2c_2+
 
 $$= \begin{vmatrix} \mathbf{a}\cdot\mathbf{a} & \mathbf{a}\cdot\mathbf{b} & \mathbf{a}\cdot\mathbf{c}\\ \mathbf{b}\cdot\mathbf{a} & \mathbf{b}\cdot\mathbf{b} & \mathbf{b}\cdot\mathbf{c}\\ \mathbf{c}\cdot\mathbf{a} & \mathbf{c}\cdot\mathbf{b} & \mathbf{c}\cdot\mathbf{c} \end{vmatrix}$$
 
-$$\boxed{[\mathbf{a},\mathbf{b},\mathbf{c}]^2 = \begin{vmatrix}\mathbf{a}\cdot\mathbf{a} & \mathbf{a}\cdot\mathbf{b} & \mathbf{a}\cdot\mathbf{c}\\ \mathbf{b}\cdot\mathbf{a} & \mathbf{b}\cdot\mathbf{b} & \mathbf{b}\cdot\mathbf{c}\\ \mathbf{c}\cdot\mathbf{a} & \mathbf{c}\cdot\mathbf{b} & \mathbf{c}\cdot\mathbf{c}\end{vmatrix}}\quad\text{(proved)}$$
+$$\boxed{[\mathbf{a},\mathbf{b},\mathbf{c}]^2 = \begin{vmatrix}\mathbf{a}\cdot\mathbf{a} & \mathbf{a}\cdot\mathbf{b} & \mathbf{a}\cdot\mathbf{c}\\ \mathbf{b}\cdot\mathbf{a} & \mathbf{b}\cdot\mathbf{b} & \mathbf{b}\cdot\mathbf{c}\\ \mathbf{c}\cdot\mathbf{a} & \mathbf{c}\cdot\mathbf{b} & \mathbf{c}\cdot\mathbf{c}\end{vmatrix}}$$
+*(Proved)*
 
 ### 11. Jacobi Identity: $\mathbf{a}\times(\mathbf{b}\times\mathbf{c})+\mathbf{b}\times(\mathbf{c}\times\mathbf{a})+\mathbf{c}\times(\mathbf{a}\times\mathbf{b})=0$
 
@@ -912,29 +926,30 @@ Coefficient of $\mathbf{c}$: $-(\mathbf{a}\cdot\mathbf{b})+(\mathbf{b}\cdot\math
 
 Since every coefficient is zero:
 
-$$\boxed{\mathbf{a}\times(\mathbf{b}\times\mathbf{c})+\mathbf{b}\times(\mathbf{c}\times\mathbf{a})+\mathbf{c}\times(\mathbf{a}\times\mathbf{b})=0}\quad\text{(proved)}$$
+$$\boxed{\mathbf{a}\times(\mathbf{b}\times\mathbf{c})+\mathbf{b}\times(\mathbf{c}\times\mathbf{a})+\mathbf{c}\times(\mathbf{a}\times\mathbf{b})=0}$$
+*(Proved)*
 
 ### 12. Unit Vector Perpendicular to a Plane
 
 > **Source:** `Math-II-Vector-16-24.pdf`, page 21.
 
-**Question.** Determine a unit vector perpendicular to the plane of $\vec{\mathbf{A}}=2\hat{\mathbf{i}}-6\hat{\mathbf{j}}-3\hat{\mathbf{k}}$ and $\vec{\mathbf{B}}=4\hat{\mathbf{i}}+3\hat{\mathbf{j}}-\hat{\mathbf{k}}$.
+**Question.** Determine a unit vector perpendicular to the plane of $\mathbf{A}=2\hat{\mathbf{i}}-6\hat{\mathbf{j}}-3\hat{\mathbf{k}}$ and $\mathbf{B}=4\hat{\mathbf{i}}+3\hat{\mathbf{j}}-\hat{\mathbf{k}}$.
 
-Let $\vec{\mathbf{c}}=c_1\hat{\mathbf{i}}+c_2\hat{\mathbf{j}}+c_3\hat{\mathbf{k}}$ be perpendicular to the plane of $\vec{\mathbf{A}}$ and $\vec{\mathbf{B}}$.
+Let $\mathbf{c}=c_1\hat{\mathbf{i}}+c_2\hat{\mathbf{j}}+c_3\hat{\mathbf{k}}$ be perpendicular to the plane of $\mathbf{A}$ and $\mathbf{B}$.
 
-$$\vec{\mathbf{c}}\cdot\vec{\mathbf{A}} = 2c_1-6c_2-3c_3 = 0\qquad\text{(i)}$$
+$$\mathbf{c}\cdot\mathbf{A} = 2c_1-6c_2-3c_3 = 0\qquad\text{(i)}$$
 
-$$\vec{\mathbf{c}}\cdot\vec{\mathbf{B}} = 4c_1+3c_2-c_3 = 0\qquad\text{(ii)}$$
+$$\mathbf{c}\cdot\mathbf{B} = 4c_1+3c_2-c_3 = 0\qquad\text{(ii)}$$
 
 From (i) and (ii), we get
 
 $$c_1=\frac{1}{2}c_3,\qquad c_2=-\frac{1}{3}c_3$$
 
-$$\therefore \vec{\mathbf{c}} = \frac{1}{2}c_3\hat{\mathbf{i}}-\frac{1}{3}c_3\hat{\mathbf{j}}+c_3\hat{\mathbf{k}}$$
+$$\therefore \mathbf{c} = \frac{1}{2}c_3\hat{\mathbf{i}}-\frac{1}{3}c_3\hat{\mathbf{j}}+c_3\hat{\mathbf{k}}$$
 
-The unit vector in the direction of $\vec{\mathbf{c}}$ is
+The unit vector in the direction of $\mathbf{c}$ is
 
-$$\frac{\vec{\mathbf{c}}}{|\vec{\mathbf{c}}|} = \frac{\tfrac12\hat{\mathbf{i}}-\tfrac13\hat{\mathbf{j}}+\hat{\mathbf{k}}}{\sqrt{(1/2)^2+(-1/3)^2+1^2}}$$
+$$\frac{\mathbf{c}}{|\mathbf{c}|} = \frac{\tfrac12\hat{\mathbf{i}}-\tfrac13\hat{\mathbf{j}}+\hat{\mathbf{k}}}{\sqrt{(1/2)^2+(-1/3)^2+1^2}}$$
 
 > **Source note:** The final simplification on this page (which arrives at a common denominator, apparently $\tfrac{3}{7}\hat{\mathbf i}-\tfrac{2}{7}\hat{\mathbf j}+\tfrac{6}{7}\hat{\mathbf k}$ in the source's own last line) is only partially legible; the intermediate, verified expression is retained here in boxed form instead.
 
@@ -953,8 +968,8 @@ $$\boxed{\hat{\mathbf{n}} = \frac{\tfrac12\hat{\mathbf{i}}-\tfrac13\hat{\mathbf{
 > **Definition — Position Vector**
 >
 > For a point $P(x,y,z)$ in space, the position vector is the vector drawn from the origin $O$ to $P$:
-> $$\vec{\mathbf{r}} = \vec{OP} = x\mathbf{i}+y\mathbf{j}+z\mathbf{k},$$
-> with magnitude $\vert{}\vec{\mathbf{r}}\vert{} = \sqrt{x^2+y^2+z^2}$.
+> $$\mathbf{r} = \mathbf{OP} = x\mathbf{i}+y\mathbf{j}+z\mathbf{k},$$
+> with magnitude $\vert{}\mathbf{r}\vert{} = \sqrt{x^2+y^2+z^2}$.
 
 > **Definition — Curl**
 >
@@ -1005,7 +1020,8 @@ Each pair of mixed partial derivatives cancels (assuming $\mathbf{A}$ has contin
 
 $$= 0$$
 
-$$\boxed{\nabla\cdot(\nabla\times\mathbf{A}) = 0}\quad\text{(proved)}$$
+$$\boxed{\nabla\cdot(\nabla\times\mathbf{A}) = 0}$$
+*(Proved)*
 
 ### 16. Proof: $\nabla\times(\nabla\times\mathbf{A}) = \nabla(\nabla\cdot\mathbf{A})-\nabla^2\mathbf{A}$
 
@@ -1037,17 +1053,18 @@ $$\left[\nabla(\nabla\cdot\mathbf{A})-\nabla^2\mathbf{A}\right]_x = \frac{\parti
 
 Comparing (i) and (ii), the $x$-components are identical (mixed partial derivatives commute). By symmetry the $y$- and $z$-components agree likewise, so
 
-$$\boxed{\nabla\times(\nabla\times\mathbf{A}) = \nabla(\nabla\cdot\mathbf{A})-\nabla^2\mathbf{A}}\quad\text{(proved)}$$
+$$\boxed{\nabla\times(\nabla\times\mathbf{A}) = \nabla(\nabla\cdot\mathbf{A})-\nabla^2\mathbf{A}}$$
+*(Proved)*
 
-### 17. Gradient of $r^n$: $\nabla r^n = n r^{n-2}\vec{\mathbf{r}}$
+### 17. Gradient of $r^n$: $\nabla r^n = n r^{n-2}\mathbf{r}$
 
 > **Source:** `Math-II-Vector-16-24.pdf`, pages 27–28.
 
-**Question.** Define curl. Show that $\nabla r^n = n r^{n-2}\vec{\mathbf{r}}$, where $\vec{\mathbf{r}}=x\mathbf{i}+y\mathbf{j}+z\mathbf{k}$ and $r=\vert{}\vec{\mathbf{r}}\vert{}$.
+**Question.** Define curl. Show that $\nabla r^n = n r^{n-2}\mathbf{r}$, where $\mathbf{r}=x\mathbf{i}+y\mathbf{j}+z\mathbf{k}$ and $r=\vert{}\mathbf{r}\vert{}$.
 
 *(Definition of curl — as given in §13 above.)*
 
-**Proof.** Let $\vec{\mathbf{r}}=x\mathbf{i}+y\mathbf{j}+z\mathbf{k}$, so $r^2=x^2+y^2+z^2$, i.e. $r=(x^2+y^2+z^2)^{1/2}$.
+**Proof.** Let $\mathbf{r}=x\mathbf{i}+y\mathbf{j}+z\mathbf{k}$, so $r^2=x^2+y^2+z^2$, i.e. $r=(x^2+y^2+z^2)^{1/2}$.
 
 Differentiate $r^n$ with respect to $x$ (using the chain rule):
 
@@ -1065,17 +1082,18 @@ $$\frac{\partial (r^n)}{\partial y} = nr^{n-2}y,\qquad \frac{\partial(r^n)}{\par
 
 Combine into the gradient:
 
-$$\nabla(r^n) = nr^{n-2}x\,\mathbf{i}+nr^{n-2}y\,\mathbf{j}+nr^{n-2}z\,\mathbf{k} = nr^{n-2}(x\mathbf{i}+y\mathbf{j}+z\mathbf{k}) = nr^{n-2}\vec{\mathbf{r}}$$
+$$\nabla(r^n) = nr^{n-2}x\,\mathbf{i}+nr^{n-2}y\,\mathbf{j}+nr^{n-2}z\,\mathbf{k} = nr^{n-2}(x\mathbf{i}+y\mathbf{j}+z\mathbf{k}) = nr^{n-2}\mathbf{r}$$
 
-$$\boxed{\nabla r^n = nr^{n-2}\vec{\mathbf{r}}}\quad\text{(proved)}$$
+$$\boxed{\nabla r^n = nr^{n-2}\mathbf{r}}$$
+*(Proved)*
 
-### 18. Solenoidal Vector Field $r^n\vec{\mathbf{r}}$
+### 18. Solenoidal Vector Field $r^n\mathbf{r}$
 
 > **Source:** `Math-II-Vector-16-24.pdf`, pages 28–29.
 
-**Question.** Find the value of $n$ for which the vector $r^n\vec{\mathbf{r}}$ is solenoidal (i.e. divergence-free).
+**Question.** Find the value of $n$ for which the vector $r^n\mathbf{r}$ is solenoidal (i.e. divergence-free).
 
-A vector field $\mathbf{F}$ is solenoidal if $\operatorname{div}\mathbf{F}=0$. Let $\mathbf{F}=r^n\vec{\mathbf{r}} = r^nx\,\mathbf{i}+r^ny\,\mathbf{j}+r^nz\,\mathbf{k}$, where $r^2=x^2+y^2+z^2$.
+A vector field $\mathbf{F}$ is solenoidal if $\operatorname{div}\mathbf{F}=0$. Let $\mathbf{F}=r^n\mathbf{r} = r^nx\,\mathbf{i}+r^ny\,\mathbf{j}+r^nz\,\mathbf{k}$, where $r^2=x^2+y^2+z^2$.
 
 Differentiate the $x$-component (product rule):
 
@@ -1095,7 +1113,8 @@ For $\mathbf{F}$ to be solenoidal, $\operatorname{div}\mathbf{F}=0$, for $r^n\ne
 
 $$(n+3)r^n = 0 \ \Rightarrow\ n+3=0$$
 
-$$\boxed{n = -3}\quad\text{(solved)}$$
+$$\boxed{n = -3}$$
+*(Solved)*
 
 ### 19. Curl of Curl for $\mathbf{F}=x^2y\mathbf{i}+2xz\mathbf{j}+2yz\mathbf{k}$
 
@@ -1119,7 +1138,7 @@ Now find $\operatorname{curl}(\operatorname{curl}\mathbf{F}) = \nabla\times(\nab
 
 $$\nabla\times(\nabla\times\mathbf{F}) = \begin{vmatrix}\mathbf{i}&\mathbf{j}&\mathbf{k}\\ \dfrac{\partial}{\partial x}&\dfrac{\partial}{\partial y}&\dfrac{\partial}{\partial z}\\ 2x+2z & 0 & -(x^2+2z)\end{vmatrix}$$
 
-$$= \mathbf{i}\left[\frac{\partial}{\partial y}\{-(x^2+2z)\}-\frac{\partial}{\partial z}(0)\right]-\mathbf{j}\left[\frac{\partial}{\partial x}\{-(x^2+2z)\}-\frac{\partial}{\partial z}(2x+2z)\right]+\mathbf{k}\left[\frac{\partial}{\partial x}(0)-\frac{\partial}{\partial y}(2x+2z)\right]$$
+$$= \mathbf{i}\left[\frac{\partial}{\partial y}\lbrace -(x^2+2z)\rbrace -\frac{\partial}{\partial z}(0)\right]-\mathbf{j}\left[\frac{\partial}{\partial x}\lbrace -(x^2+2z)\rbrace -\frac{\partial}{\partial z}(2x+2z)\right]+\mathbf{k}\left[\frac{\partial}{\partial x}(0)-\frac{\partial}{\partial y}(2x+2z)\right]$$
 
 $$= \mathbf{i}(0-0)-\mathbf{j}(-2x-2)+\mathbf{k}(0-0)$$
 
@@ -1192,7 +1211,7 @@ $$\therefore \text{L.H.S.} = I_1+I_2 = \frac{19}{20}-1 = -\frac{1}{20}$$
 
 **R.H.S. — double integral.**
 
-$$\text{R.H.S.} = \iint_R\left(\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}\right)dx\,dy = \iint_R\left\{\frac{\partial}{\partial x}(x^2)-\frac{\partial}{\partial y}(xy+y^2)\right\}dx\,dy$$
+$$\text{R.H.S.} = \iint_R\left(\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}\right)dx\,dy = \iint_R\left\lbrace \frac{\partial}{\partial x}(x^2)-\frac{\partial}{\partial y}(xy+y^2)\right\rbrace dx\,dy$$
 
 $$= \int_{x=0}^{x=1}\int_{y=x^2}^{y=x}(2x-x-2y)\,dx\,dy = \int_{x=0}^{x=1}\int_{y=x^2}^{y=x}(x-2y)\,dx\,dy$$
 
@@ -1200,7 +1219,8 @@ $$= \int_{x=0}^{1}\left[xy-y^2\right]_{y=x^2}^{y=x}dx = \int_0^1\left(x\cdot x-x
 
 $$= \left[\frac{x^5}{5}-\frac{x^4}{4}\right]_0^1 = \frac{1}{5}-\frac{1}{4}-0 = -\frac{1}{20}$$
 
-$$\boxed{\text{L.H.S.} = \text{R.H.S.} = -\frac{1}{20}}\quad\text{(Green's theorem verified)}$$
+$$\boxed{\text{L.H.S.} = \text{R.H.S.} = -\frac{1}{20}}$$
+*(Green's theorem verified)*
 
 ### 23. Line Integral Around a Triangle
 
@@ -1326,4 +1346,5 @@ $$= \int_0^1\int_0^1(4z-y)\,dy\,dz = \int_0^1\left[4zy-\frac{y^2}{2}\right]_0^1d
 
 $$= \left[2z^2-\frac{z}{2}\right]_0^1 = 2-\frac{1}{2} = \frac{3}{2}$$
 
-$$\boxed{I = \frac{3}{2}}\quad\text{solved.}$$
+$$\boxed{I = \frac{3}{2}}$$
+*(Solved)*
