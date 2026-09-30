@@ -39,16 +39,22 @@ Exam-style solutions to 21 questions. Math is written in GitHub-flavored LaTeX (
 
 ## Identities used repeatedly
 
-$$\mathbf{a}\times(\mathbf{b}\times\mathbf{c}) = \mathbf{b}(\mathbf{a}\cdot\mathbf{c}) - \mathbf{c}(\mathbf{a}\cdot\mathbf{b})$$
+```math
+\mathbf{a}\times(\mathbf{b}\times\mathbf{c}) = \mathbf{b}(\mathbf{a}\cdot\mathbf{c}) - \mathbf{c}(\mathbf{a}\cdot\mathbf{b})
+```
 
-$$\nabla\times\mathbf{F}=\begin{vmatrix}\mathbf{i}&\mathbf{j}&\mathbf{k}\\ \partial_x&\partial_y&\partial_z\\ P&Q&R\end{vmatrix},\qquad \mathbf{F}\ \text{conservative}\iff\nabla\times\mathbf{F}=\mathbf{0}\ \text{(on a simply connected domain)}$$
+```math
+\nabla\times\mathbf{F}=\begin{vmatrix}\mathbf{i}&\mathbf{j}&\mathbf{k}\\ \partial_x&\partial_y&\partial_z\\ P&Q&R\end{vmatrix},\qquad \mathbf{F}\ \text{conservative}\iff\nabla\times\mathbf{F}=\mathbf{0}\ \text{(on a simply connected domain)}
+```
 
 ---
 
 <a id="q1"></a>
 ## Q1. Find $a, b$ so that $\mathbf{A}$ is conservative
 
-$$\mathbf{A}=(2xy+3yz)\,\mathbf{i}+(x^2+axz-4z^2)\,\mathbf{j}-(3xy+byz)\,\mathbf{k}$$
+```math
+\mathbf{A}=(2xy+3yz)\,\mathbf{i}+(x^2+axz-4z^2)\,\mathbf{j}-(3xy+byz)\,\mathbf{k}
+```
 
 **Method.** $\mathbf{A}$ is conservative iff $\nabla\times\mathbf{A}=\mathbf{0}$.
 
@@ -61,21 +67,31 @@ flowchart LR
 
 **Check the problem as printed.** Here $P=2xy+3yz$, $Q=x^2+axz-4z^2$, $R=-(3xy+byz)$.
 
-$$(\nabla\times\mathbf{A})_j=\frac{\partial P}{\partial z}-\frac{\partial R}{\partial x}=3y-(-3y)=6y\neq0$$
+```math
+(\nabla\times\mathbf{A})_j=\frac{\partial P}{\partial z}-\frac{\partial R}{\partial x}=3y-(-3y)=6y\neq0
+```
 
 The $\mathbf{j}$-component is $6y$ regardless of $a,b$, and the $\mathbf{i}$ and $\mathbf{k}$ components demand $a=-3$ and $a=3$ respectively. So **as printed, no constants $a,b$ exist**. The standard version of this problem has $+(3xy+byz)\,\mathbf{k}$, so the working below uses that.
 
 **Solution (with $R=3xy+byz$).**
 
-$$(\nabla\times\mathbf{A})_i=\frac{\partial R}{\partial y}-\frac{\partial Q}{\partial z}=(3x+bz)-(ax-8z)=(3-a)x+(b+8)z$$
+```math
+(\nabla\times\mathbf{A})_i=\frac{\partial R}{\partial y}-\frac{\partial Q}{\partial z}=(3x+bz)-(ax-8z)=(3-a)x+(b+8)z
+```
 
-$$(\nabla\times\mathbf{A})_j=\frac{\partial P}{\partial z}-\frac{\partial R}{\partial x}=3y-3y=0$$
+```math
+(\nabla\times\mathbf{A})_j=\frac{\partial P}{\partial z}-\frac{\partial R}{\partial x}=3y-3y=0
+```
 
-$$(\nabla\times\mathbf{A})_k=\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}=(2x+az)-(2x+3z)=(a-3)z$$
+```math
+(\nabla\times\mathbf{A})_k=\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}=(2x+az)-(2x+3z)=(a-3)z
+```
 
 Setting each to zero for all $x,y,z$:
 
-$$3-a=0,\quad b+8=0,\quad a-3=0\ \Longrightarrow\ \boxed{a=3,\quad b=-8}$$
+```math
+3-a=0,\quad b+8=0,\quad a-3=0\ \Longrightarrow\ \boxed{a=3,\quad b=-8}
+```
 
 ---
 
@@ -86,11 +102,15 @@ $$3-a=0,\quad b+8=0,\quad a-3=0\ \Longrightarrow\ \boxed{a=3,\quad b=-8}$$
 
 **Proof.** Since $r^2=x^2+y^2+z^2$, differentiating gives $r\,\partial_x r = x$, so $\nabla r=\mathbf{r}/r$ and
 
-$$\nabla(r^n)=n r^{n-1}\nabla r=n r^{n-2}\,\mathbf{r}$$
+```math
+\nabla(r^n)=n r^{n-1}\nabla r=n r^{n-2}\,\mathbf{r}
+```
 
 Using $\nabla\cdot(\phi\mathbf{F})=\nabla\phi\cdot\mathbf{F}+\phi\,\nabla\cdot\mathbf{F}$ with $\nabla\cdot\mathbf{r}=3$:
 
-$$\nabla\cdot(r^n\mathbf{r})=n r^{n-2}(\mathbf{r}\cdot\mathbf{r})+3r^n=n r^n+3r^n=(n+3)\,r^n$$
+```math
+\nabla\cdot(r^n\mathbf{r})=n r^{n-2}(\mathbf{r}\cdot\mathbf{r})+3r^n=n r^n+3r^n=(n+3)\,r^n
+```
 
 This vanishes for all $r\neq0$ iff $n+3=0$, i.e. $\boxed{n=-3}$. Hence $r^{-3}\mathbf{r}$ is solenoidal. $\blacksquare$
 
@@ -125,15 +145,21 @@ The quantity $|\mathbf{a}\cdot(\mathbf{b}\times\mathbf{c})|$ is the volume of th
 
 Both sides are vectors defined without reference to a coordinate system, so we may choose axes conveniently. Take $\mathbf{i}$ along $\mathbf{a}$ and $\mathbf{j}$ in the plane of $\mathbf{a},\mathbf{b}$:
 
-$$\mathbf{a}=a_1\mathbf{i},\qquad \mathbf{b}=b_1\mathbf{i}+b_2\mathbf{j},\qquad \mathbf{c}=c_1\mathbf{i}+c_2\mathbf{j}+c_3\mathbf{k}$$
+```math
+\mathbf{a}=a_1\mathbf{i},\qquad \mathbf{b}=b_1\mathbf{i}+b_2\mathbf{j},\qquad \mathbf{c}=c_1\mathbf{i}+c_2\mathbf{j}+c_3\mathbf{k}
+```
 
 **LHS.** $\mathbf{a}\times\mathbf{b}=a_1b_2\,\mathbf{k}$, so
 
-$$(\mathbf{a}\times\mathbf{b})\times\mathbf{c}=a_1b_2\,\mathbf{k}\times(c_1\mathbf{i}+c_2\mathbf{j}+c_3\mathbf{k})=a_1b_2\,(c_1\mathbf{j}-c_2\mathbf{i})$$
+```math
+(\mathbf{a}\times\mathbf{b})\times\mathbf{c}=a_1b_2\,\mathbf{k}\times(c_1\mathbf{i}+c_2\mathbf{j}+c_3\mathbf{k})=a_1b_2\,(c_1\mathbf{j}-c_2\mathbf{i})
+```
 
 **RHS.** $\mathbf{a}\cdot\mathbf{c}=a_1c_1$ and $\mathbf{b}\cdot\mathbf{c}=b_1c_1+b_2c_2$, so
 
-$$(\mathbf{a}\cdot\mathbf{c})\mathbf{b}-(\mathbf{b}\cdot\mathbf{c})\mathbf{a}=a_1c_1(b_1\mathbf{i}+b_2\mathbf{j})-a_1(b_1c_1+b_2c_2)\mathbf{i}=a_1b_2c_1\,\mathbf{j}-a_1b_2c_2\,\mathbf{i}$$
+```math
+(\mathbf{a}\cdot\mathbf{c})\mathbf{b}-(\mathbf{b}\cdot\mathbf{c})\mathbf{a}=a_1c_1(b_1\mathbf{i}+b_2\mathbf{j})-a_1(b_1c_1+b_2c_2)\mathbf{i}=a_1b_2c_1\,\mathbf{j}-a_1b_2c_2\,\mathbf{i}
+```
 
 LHS $=$ RHS. $\blacksquare$
 
@@ -154,19 +180,27 @@ LHS $=$ RHS. $\blacksquare$
 
 **Segment AB:** $y=1-x$, $dy=-dx$, $x:1\to0$.
 
-$$\int_{AB}=\int_{1}^{0}\big[(1-x)^2+x^2\big]dx=-\int_0^1(1-2x+2x^2)\,dx=-\Big(1-1+\tfrac23\Big)=-\tfrac23$$
+```math
+\int_{AB}=\int_{1}^{0}\big[(1-x)^2+x^2\big]dx=-\int_0^1(1-2x+2x^2)\,dx=-\Big(1-1+\tfrac23\Big)=-\tfrac23
+```
 
 **Segment BC:** $y=x+1$, $dy=dx$, $x:0\to-1$.
 
-$$\int_{BC}=\int_0^{-1}\big[(x+1)^2-x^2\big]dx=\int_0^{-1}(2x+1)\,dx=\big[x^2+x\big]_0^{-1}=0$$
+```math
+\int_{BC}=\int_0^{-1}\big[(x+1)^2-x^2\big]dx=\int_0^{-1}(2x+1)\,dx=\big[x^2+x\big]_0^{-1}=0
+```
 
 **Segment CA:** $y=0$, $dy=0$, so $\int_{CA}=0$.
 
-$$\boxed{\oint = -\tfrac23}$$
+```math
+\boxed{\oint = -\tfrac23}
+```
 
 **Check by Green's theorem.** With $P=y^2,\ Q=-x^2$: $\iint(-2x-2y)\,dA$. The $x$-term vanishes by symmetry. The region is $0\le y\le1-|x|$, so
 
-$$-2\int_{-1}^{1}\frac{(1-|x|)^2}{2}\,dx=-2\cdot\frac13=-\frac23\ \checkmark$$
+```math
+-2\int_{-1}^{1}\frac{(1-|x|)^2}{2}\,dx=-2\cdot\frac13=-\frac23\ \checkmark
+```
 
 ---
 
@@ -189,7 +223,9 @@ $$-2\int_{-1}^{1}\frac{(1-|x|)^2}{2}\,dx=-2\cdot\frac13=-\frac23\ \checkmark$$
 | CD | $y=1,\ dy=0$ | $-\int_{1}^{0}dx$ | $1$ |
 | DA | $x=0,\ dx=0$ | $0$ | $0$ |
 
-$$\boxed{\oint=2}$$
+```math
+\boxed{\oint=2}
+```
 
 **Check.** $\tfrac12\oint(x\,dy-y\,dx)$ is the enclosed area, so the integral should equal $2\times\text{Area}=2\times1=2$. $\checkmark$
 
@@ -202,9 +238,13 @@ Gauss's theorem: $\displaystyle\iiint_V\nabla\cdot\mathbf{F}\,dV=\oiint_S\mathbf
 
 **Volume integral.**
 
-$$\nabla\cdot\mathbf{F}=4z+2y+y=4z+3y$$
+```math
+\nabla\cdot\mathbf{F}=4z+2y+y=4z+3y
+```
 
-$$\int_0^1\!\!\int_0^1\!\!\int_0^1(4z+3y)\,dx\,dy\,dz=4\cdot\tfrac12+3\cdot\tfrac12=\tfrac72$$
+```math
+\int_0^1\!\!\int_0^1\!\!\int_0^1(4z+3y)\,dx\,dy\,dz=4\cdot\tfrac12+3\cdot\tfrac12=\tfrac72
+```
 
 **Surface integral** over the six faces:
 
@@ -217,7 +257,9 @@ $$\int_0^1\!\!\int_0^1\!\!\int_0^1(4z+3y)\,dx\,dy\,dz=4\cdot\tfrac12+3\cdot\tfra
 | $z=1$ | $\mathbf{k}$ | $zy=y$ | $\int_0^1\!\int_0^1 y\,dx\,dy=\tfrac12$ |
 | $z=0$ | $-\mathbf{k}$ | $-zy=0$ | $0$ |
 
-$$\text{Surface integral}=2+1+\tfrac12=\tfrac72$$
+```math
+\text{Surface integral}=2+1+\tfrac12=\tfrac72
+```
 
 Both sides equal $\tfrac72$, so Gauss's theorem is verified. $\blacksquare$
 
@@ -226,9 +268,13 @@ Both sides equal $\tfrac72$, so Gauss's theorem is verified. $\blacksquare$
 <a id="q8"></a>
 ## Q8. Angle between $\mathbf{A}=2\mathbf{i}-3\mathbf{j}+6\mathbf{k}$ and $\mathbf{B}=\mathbf{i}+2\mathbf{j}+2\mathbf{k}$
 
-$$\mathbf{A}\cdot\mathbf{B}=2-6+12=8,\qquad |\mathbf{A}|=\sqrt{4+9+36}=7,\qquad |\mathbf{B}|=\sqrt{1+4+4}=3$$
+```math
+\mathbf{A}\cdot\mathbf{B}=2-6+12=8,\qquad |\mathbf{A}|=\sqrt{4+9+36}=7,\qquad |\mathbf{B}|=\sqrt{1+4+4}=3
+```
 
-$$\cos\theta=\frac{\mathbf{A}\cdot\mathbf{B}}{|\mathbf{A}||\mathbf{B}|}=\frac{8}{21}\quad\Longrightarrow\quad\boxed{\theta=\cos^{-1}\!\tfrac{8}{21}\approx67.6^\circ}$$
+```math
+\cos\theta=\frac{\mathbf{A}\cdot\mathbf{B}}{|\mathbf{A}||\mathbf{B}|}=\frac{8}{21}\quad\Longrightarrow\quad\boxed{\theta=\cos^{-1}\!\tfrac{8}{21}\approx67.6^\circ}
+```
 
 ---
 
@@ -237,11 +283,17 @@ $$\cos\theta=\frac{\mathbf{A}\cdot\mathbf{B}}{|\mathbf{A}||\mathbf{B}|}=\frac{8}
 
 Let $P=2xz^3+6y$, $Q=6x-2yz$, $R=3x^2z^2-y^2$.
 
-$$(\nabla\times\mathbf{F})_i=\partial_yR-\partial_zQ=-2y-(-2y)=0$$
+```math
+(\nabla\times\mathbf{F})_i=\partial_yR-\partial_zQ=-2y-(-2y)=0
+```
 
-$$(\nabla\times\mathbf{F})_j=\partial_zP-\partial_xR=6xz^2-6xz^2=0$$
+```math
+(\nabla\times\mathbf{F})_j=\partial_zP-\partial_xR=6xz^2-6xz^2=0
+```
 
-$$(\nabla\times\mathbf{F})_k=\partial_xQ-\partial_yP=6-6=0$$
+```math
+(\nabla\times\mathbf{F})_k=\partial_xQ-\partial_yP=6-6=0
+```
 
 So $\nabla\times\mathbf{F}=\mathbf{0}$ and $\mathbf{F}$ is conservative. $\blacksquare$
 
@@ -272,17 +324,25 @@ The curves meet at $O(0,0)$ and $(1,1)$.
 
 *Along $y=x^2$, $x:0\to1$, $dy=2x\,dx$:*
 
-$$\int(x^3+x^4)\,dx+x^2(2x)\,dx=\int_0^1(3x^3+x^4)\,dx=\tfrac34+\tfrac15=\tfrac{19}{20}$$
+```math
+\int(x^3+x^4)\,dx+x^2(2x)\,dx=\int_0^1(3x^3+x^4)\,dx=\tfrac34+\tfrac15=\tfrac{19}{20}
+```
 
 *Along $y=x$, $x:1\to0$, $dy=dx$:*
 
-$$\int(x^2+x^2)\,dx+x^2\,dx=\int_1^0 3x^2\,dx=-1$$
+```math
+\int(x^2+x^2)\,dx+x^2\,dx=\int_1^0 3x^2\,dx=-1
+```
 
-$$\oint=\tfrac{19}{20}-1=-\tfrac1{20}$$
+```math
+\oint=\tfrac{19}{20}-1=-\tfrac1{20}
+```
 
 **Double integral.** $\partial_xQ-\partial_yP=2x-(x+2y)=x-2y$.
 
-$$\int_0^1\!\!\int_{x^2}^{x}(x-2y)\,dy\,dx=\int_0^1\big[xy-y^2\big]_{x^2}^{x}dx=\int_0^1(-x^3+x^4)\,dx=-\tfrac14+\tfrac15=-\tfrac1{20}$$
+```math
+\int_0^1\!\!\int_{x^2}^{x}(x-2y)\,dy\,dx=\int_0^1\big[xy-y^2\big]_{x^2}^{x}dx=\int_0^1(-x^3+x^4)\,dx=-\tfrac14+\tfrac15=-\tfrac1{20}
+```
 
 Both sides equal $-\tfrac1{20}$, so Green's theorem is verified. $\blacksquare$
 
@@ -295,19 +355,25 @@ Let $\mathbf{B}=\nabla\times\mathbf{A}=(\partial_yA_z-\partial_zA_y,\ \partial_z
 
 Take the $x$-component of $\nabla\times\mathbf{B}$:
 
-$$\begin{aligned}
+```math
+\begin{aligned}
 (\nabla\times\mathbf{B})_x&=\partial_yB_z-\partial_zB_y\\
 &=\partial_y(\partial_xA_y-\partial_yA_x)-\partial_z(\partial_zA_x-\partial_xA_z)\\
 &=\partial_x\partial_yA_y+\partial_x\partial_zA_z-\partial_y^2A_x-\partial_z^2A_x
-\end{aligned}$$
+\end{aligned}
+```
 
 Add and subtract $\partial_x^2A_x$:
 
-$$=\partial_x(\partial_xA_x+\partial_yA_y+\partial_zA_z)-(\partial_x^2+\partial_y^2+\partial_z^2)A_x=\big[\nabla(\nabla\cdot\mathbf{A})\big]_x-\nabla^2A_x$$
+```math
+=\partial_x(\partial_xA_x+\partial_yA_y+\partial_zA_z)-(\partial_x^2+\partial_y^2+\partial_z^2)A_x=\big[\nabla(\nabla\cdot\mathbf{A})\big]_x-\nabla^2A_x
+```
 
 The $y$ and $z$ components follow identically by cyclic permutation of $(x,y,z)$. Hence
 
-$$\nabla\times(\nabla\times\mathbf{A})=\nabla(\nabla\cdot\mathbf{A})-\nabla^2\mathbf{A}.\ \blacksquare$$
+```math
+\nabla\times(\nabla\times\mathbf{A})=\nabla(\nabla\cdot\mathbf{A})-\nabla^2\mathbf{A}.\ \blacksquare
+```
 
 ---
 
@@ -316,11 +382,15 @@ $$\nabla\times(\nabla\times\mathbf{A})=\nabla(\nabla\cdot\mathbf{A})-\nabla^2\ma
 
 Use $\mathbf{u}\times(\mathbf{v}\times\mathbf{w})=\mathbf{v}(\mathbf{u}\cdot\mathbf{w})-\mathbf{w}(\mathbf{u}\cdot\mathbf{v})$ with $\mathbf{a}=a_1\mathbf{i}+a_2\mathbf{j}+a_3\mathbf{k}$:
 
-$$\mathbf{i}\times(\mathbf{a}\times\mathbf{i})=\mathbf{a}(\mathbf{i}\cdot\mathbf{i})-\mathbf{i}(\mathbf{i}\cdot\mathbf{a})=\mathbf{a}-a_1\mathbf{i}$$
+```math
+\mathbf{i}\times(\mathbf{a}\times\mathbf{i})=\mathbf{a}(\mathbf{i}\cdot\mathbf{i})-\mathbf{i}(\mathbf{i}\cdot\mathbf{a})=\mathbf{a}-a_1\mathbf{i}
+```
 
 Similarly $\mathbf{j}\times(\mathbf{a}\times\mathbf{j})=\mathbf{a}-a_2\mathbf{j}$ and $\mathbf{k}\times(\mathbf{a}\times\mathbf{k})=\mathbf{a}-a_3\mathbf{k}$. Adding:
 
-$$3\mathbf{a}-(a_1\mathbf{i}+a_2\mathbf{j}+a_3\mathbf{k})=3\mathbf{a}-\mathbf{a}=2\mathbf{a}.\ \blacksquare$$
+```math
+3\mathbf{a}-(a_1\mathbf{i}+a_2\mathbf{j}+a_3\mathbf{k})=3\mathbf{a}-\mathbf{a}=2\mathbf{a}.\ \blacksquare
+```
 
 ---
 
@@ -329,7 +399,9 @@ $$3\mathbf{a}-(a_1\mathbf{i}+a_2\mathbf{j}+a_3\mathbf{k})=3\mathbf{a}-\mathbf{a}
 
 Square both sides:
 
-$$|\mathbf{a}|^2+2\,\mathbf{a}\cdot\mathbf{b}+|\mathbf{b}|^2=|\mathbf{a}|^2-2\,\mathbf{a}\cdot\mathbf{b}+|\mathbf{b}|^2\ \Longrightarrow\ 4\,\mathbf{a}\cdot\mathbf{b}=0$$
+```math
+|\mathbf{a}|^2+2\,\mathbf{a}\cdot\mathbf{b}+|\mathbf{b}|^2=|\mathbf{a}|^2-2\,\mathbf{a}\cdot\mathbf{b}+|\mathbf{b}|^2\ \Longrightarrow\ 4\,\mathbf{a}\cdot\mathbf{b}=0
+```
 
 So $\mathbf{a}\cdot\mathbf{b}=0$. For non-zero vectors this means $\cos\theta=0$, i.e. $\mathbf{a}\perp\mathbf{b}$. $\blacksquare$
 
@@ -340,19 +412,27 @@ So $\mathbf{a}\cdot\mathbf{b}=0$. For non-zero vectors this means $\cos\theta=0$
 <a id="q14"></a>
 ## Q14. Area of parallelogram on $\mathbf{A}=3\mathbf{i}+\mathbf{j}-2\mathbf{k}$, $\mathbf{B}=\mathbf{i}-3\mathbf{j}+4\mathbf{k}$
 
-$$\mathbf{A}\times\mathbf{B}=\begin{vmatrix}\mathbf{i}&\mathbf{j}&\mathbf{k}\\3&1&-2\\1&-3&4\end{vmatrix}
-=\mathbf{i}(4-6)-\mathbf{j}(12+2)+\mathbf{k}(-9-1)=-2\mathbf{i}-14\mathbf{j}-10\mathbf{k}$$
+```math
+\mathbf{A}\times\mathbf{B}=\begin{vmatrix}\mathbf{i}&\mathbf{j}&\mathbf{k}\\3&1&-2\\1&-3&4\end{vmatrix}
+=\mathbf{i}(4-6)-\mathbf{j}(12+2)+\mathbf{k}(-9-1)=-2\mathbf{i}-14\mathbf{j}-10\mathbf{k}
+```
 
-$$\text{Area}=|\mathbf{A}\times\mathbf{B}|=\sqrt{4+196+100}=\sqrt{300}=\boxed{10\sqrt3\approx17.32\ \text{sq. units}}$$
+```math
+\text{Area}=|\mathbf{A}\times\mathbf{B}|=\sqrt{4+196+100}=\sqrt{300}=\boxed{10\sqrt3\approx17.32\ \text{sq. units}}
+```
 
 ---
 
 <a id="q15"></a>
 ## Q15. Angle between $\mathbf{a}=\mathbf{i}-7\mathbf{j}-\mathbf{k}$ and $\mathbf{b}=4\mathbf{i}-4\mathbf{j}+7\mathbf{k}$
 
-$$\mathbf{a}\cdot\mathbf{b}=4+28-7=25,\qquad |\mathbf{a}|=\sqrt{1+49+1}=\sqrt{51},\qquad |\mathbf{b}|=\sqrt{16+16+49}=9$$
+```math
+\mathbf{a}\cdot\mathbf{b}=4+28-7=25,\qquad |\mathbf{a}|=\sqrt{1+49+1}=\sqrt{51},\qquad |\mathbf{b}|=\sqrt{16+16+49}=9
+```
 
-$$\cos\theta=\frac{25}{9\sqrt{51}}\approx0.389\quad\Longrightarrow\quad\boxed{\theta\approx67.1^\circ}$$
+```math
+\cos\theta=\frac{25}{9\sqrt{51}}\approx0.389\quad\Longrightarrow\quad\boxed{\theta\approx67.1^\circ}
+```
 
 ---
 
@@ -361,7 +441,9 @@ $$\cos\theta=\frac{25}{9\sqrt{51}}\approx0.389\quad\Longrightarrow\quad\boxed{\t
 
 Let the sides of $\triangle ABC$ be the vectors $\mathbf{a}=\overrightarrow{BC}$, $\mathbf{b}=\overrightarrow{CA}$, $\mathbf{c}=\overrightarrow{AB}$, with magnitudes $a,b,c$. Going round the triangle,
 
-$$\mathbf{a}+\mathbf{b}+\mathbf{c}=\mathbf{0}$$
+```math
+\mathbf{a}+\mathbf{b}+\mathbf{c}=\mathbf{0}
+```
 
 ```text
             A
@@ -374,17 +456,25 @@ $$\mathbf{a}+\mathbf{b}+\mathbf{c}=\mathbf{0}$$
 
 Cross this relation with $\mathbf{a}$ and with $\mathbf{b}$:
 
-$$\mathbf{a}\times(\mathbf{a}+\mathbf{b}+\mathbf{c})=\mathbf{0}\ \Rightarrow\ \mathbf{a}\times\mathbf{b}=\mathbf{c}\times\mathbf{a}$$
+```math
+\mathbf{a}\times(\mathbf{a}+\mathbf{b}+\mathbf{c})=\mathbf{0}\ \Rightarrow\ \mathbf{a}\times\mathbf{b}=\mathbf{c}\times\mathbf{a}
+```
 
-$$\mathbf{b}\times(\mathbf{a}+\mathbf{b}+\mathbf{c})=\mathbf{0}\ \Rightarrow\ \mathbf{a}\times\mathbf{b}=\mathbf{b}\times\mathbf{c}$$
+```math
+\mathbf{b}\times(\mathbf{a}+\mathbf{b}+\mathbf{c})=\mathbf{0}\ \Rightarrow\ \mathbf{a}\times\mathbf{b}=\mathbf{b}\times\mathbf{c}
+```
 
 Hence $\mathbf{a}\times\mathbf{b}=\mathbf{b}\times\mathbf{c}=\mathbf{c}\times\mathbf{a}$. Taking magnitudes: the angle between $\mathbf{a}$ and $\mathbf{b}$ (placed tail to tail) is $\pi-C$, between $\mathbf{b}$ and $\mathbf{c}$ is $\pi-A$, and between $\mathbf{c}$ and $\mathbf{a}$ is $\pi-B$. Since $\sin(\pi-\theta)=\sin\theta$:
 
-$$ab\sin C=bc\sin A=ca\sin B$$
+```math
+ab\sin C=bc\sin A=ca\sin B
+```
 
 Divide throughout by $abc$:
 
-$$\boxed{\frac{\sin A}{a}=\frac{\sin B}{b}=\frac{\sin C}{c}}\ \blacksquare$$
+```math
+\boxed{\frac{\sin A}{a}=\frac{\sin B}{b}=\frac{\sin C}{c}}\ \blacksquare
+```
 
 ---
 
@@ -393,11 +483,15 @@ $$\boxed{\frac{\sin A}{a}=\frac{\sin B}{b}=\frac{\sin C}{c}}\ \blacksquare$$
 
 Put $\mathbf{u}=\mathbf{c}\times\mathbf{d}$. By the identity of Q4, $(\mathbf{a}\times\mathbf{b})\times\mathbf{u}=(\mathbf{a}\cdot\mathbf{u})\mathbf{b}-(\mathbf{b}\cdot\mathbf{u})\mathbf{a}$. Now
 
-$$\mathbf{a}\cdot\mathbf{u}=\mathbf{a}\cdot(\mathbf{c}\times\mathbf{d})=[\mathbf{a}\ \mathbf{c}\ \mathbf{d}],\qquad \mathbf{b}\cdot\mathbf{u}=[\mathbf{b}\ \mathbf{c}\ \mathbf{d}]$$
+```math
+\mathbf{a}\cdot\mathbf{u}=\mathbf{a}\cdot(\mathbf{c}\times\mathbf{d})=[\mathbf{a}\ \mathbf{c}\ \mathbf{d}],\qquad \mathbf{b}\cdot\mathbf{u}=[\mathbf{b}\ \mathbf{c}\ \mathbf{d}]
+```
 
 Therefore
 
-$$(\mathbf{a}\times\mathbf{b})\times(\mathbf{c}\times\mathbf{d})=[\mathbf{a}\ \mathbf{c}\ \mathbf{d}]\,\mathbf{b}-[\mathbf{b}\ \mathbf{c}\ \mathbf{d}]\,\mathbf{a}.\ \blacksquare$$
+```math
+(\mathbf{a}\times\mathbf{b})\times(\mathbf{c}\times\mathbf{d})=[\mathbf{a}\ \mathbf{c}\ \mathbf{d}]\,\mathbf{b}-[\mathbf{b}\ \mathbf{c}\ \mathbf{d}]\,\mathbf{a}.\ \blacksquare
+```
 
 ---
 
@@ -406,10 +500,12 @@ $$(\mathbf{a}\times\mathbf{b})\times(\mathbf{c}\times\mathbf{d})=[\mathbf{a}\ \m
 
 Assume $\mathbf{A}$ has continuous second partial derivatives.
 
-$$\begin{aligned}
+```math
+\begin{aligned}
 \nabla\cdot(\nabla\times\mathbf{A})&=\partial_x(\partial_yA_z-\partial_zA_y)+\partial_y(\partial_zA_x-\partial_xA_z)+\partial_z(\partial_xA_y-\partial_yA_x)\\
 &=(\partial_x\partial_yA_z-\partial_y\partial_xA_z)+(\partial_y\partial_zA_x-\partial_z\partial_yA_x)+(\partial_z\partial_xA_y-\partial_x\partial_zA_y)
-\end{aligned}$$
+\end{aligned}
+```
 
 Each bracket vanishes because mixed partial derivatives are equal ($\partial_x\partial_y=\partial_y\partial_x$ for $C^2$ functions). Hence $\nabla\cdot(\nabla\times\mathbf{A})=0$. $\blacksquare$
 
@@ -429,9 +525,13 @@ Each bracket vanishes because mixed partial derivatives are equal ($\partial_x\p
 
 **Volume integral.**
 
-$$\nabla\cdot\mathbf{F}=-1-x+3=2-x$$
+```math
+\nabla\cdot\mathbf{F}=-1-x+3=2-x
+```
 
-$$\iiint(2-x)\,dV=\int_0^3(2-x)\,dx\int_{-2}^{2}(4-y^2)\,dy=\tfrac32\cdot\tfrac{32}{3}=16$$
+```math
+\iiint(2-x)\,dV=\int_0^3(2-x)\,dx\int_{-2}^{2}(4-y^2)\,dy=\tfrac32\cdot\tfrac{32}{3}=16
+```
 
 **Surface integral.** The boundary has four pieces. The ends $y=\pm2$ have zero area because the roof meets the floor there.
 
@@ -444,11 +544,17 @@ $$\iiint(2-x)\,dV=\int_0^3(2-x)\,dx\int_{-2}^{2}(4-y^2)\,dy=\tfrac32\cdot\tfrac{
 
 For $S_4$, write the surface as $\phi=z+y^2-4=0$, so $\nabla\phi=(0,2y,1)$ points outward (upward). Then $\mathbf{F}\cdot\hat{\mathbf{n}}\,dS=\mathbf{F}\cdot\nabla\phi\,dx\,dy$ with $z=4-y^2$:
 
-$$\mathbf{F}\cdot\nabla\phi=-2xy^2+3z=-2xy^2+3(4-y^2)$$
+```math
+\mathbf{F}\cdot\nabla\phi=-2xy^2+3z=-2xy^2+3(4-y^2)
+```
 
-$$\int_{-2}^{2}\!\!\int_0^3\big[-2xy^2+12-3y^2\big]dx\,dy=\int_{-2}^{2}(36-18y^2)\,dy=48$$
+```math
+\int_{-2}^{2}\!\!\int_0^3\big[-2xy^2+12-3y^2\big]dx\,dy=\int_{-2}^{2}(36-18y^2)\,dy=48
+```
 
-$$\text{Surface integral}=-\tfrac{4096}{105}+\Big(\tfrac{4096}{105}-32\Big)+0+48=16$$
+```math
+\text{Surface integral}=-\tfrac{4096}{105}+\Big(\tfrac{4096}{105}-32\Big)+0+48=16
+```
 
 Both sides equal $16$, so Gauss's theorem is verified. $\blacksquare$
 
@@ -461,7 +567,9 @@ Let $\mathbf{u}=\mathbf{A}\times\mathbf{B}$. Using the cyclic property of the sc
 
 Now expand $\mathbf{D}\times\mathbf{u}=\mathbf{D}\times(\mathbf{A}\times\mathbf{B})=\mathbf{A}(\mathbf{D}\cdot\mathbf{B})-\mathbf{B}(\mathbf{D}\cdot\mathbf{A})$. Taking the dot product with $\mathbf{C}$:
 
-$$(\mathbf{A}\times\mathbf{B})\cdot(\mathbf{C}\times\mathbf{D})=(\mathbf{A}\cdot\mathbf{C})(\mathbf{B}\cdot\mathbf{D})-(\mathbf{A}\cdot\mathbf{D})(\mathbf{B}\cdot\mathbf{C}).\ \blacksquare$$
+```math
+(\mathbf{A}\times\mathbf{B})\cdot(\mathbf{C}\times\mathbf{D})=(\mathbf{A}\cdot\mathbf{C})(\mathbf{B}\cdot\mathbf{D})-(\mathbf{A}\cdot\mathbf{D})(\mathbf{B}\cdot\mathbf{C}).\ \blacksquare
+```
 
 ---
 
@@ -470,15 +578,21 @@ $$(\mathbf{A}\times\mathbf{B})\cdot(\mathbf{C}\times\mathbf{D})=(\mathbf{A}\cdot
 
 **Statement.** Let $F(s)=\mathcal{L}\{f(t)\}$ and $G(s)=\mathcal{L}\{g(t)\}$ (the question writes these as $f(s),g(s)$). Then
 
-$$\mathcal{L}^{-1}\{F(s)G(s)\}=\int_0^t f(v)\,g(t-v)\,dv=(f*g)(t)$$
+```math
+\mathcal{L}^{-1}\{F(s)G(s)\}=\int_0^t f(v)\,g(t-v)\,dv=(f*g)(t)
+```
 
 **Proof.** For $s$ large enough that both transforms converge absolutely,
 
-$$F(s)G(s)=\int_0^\infty e^{-su}f(u)\,du\int_0^\infty e^{-sw}g(w)\,dw=\int_0^\infty\!\!\int_0^\infty e^{-s(u+w)}f(u)\,g(w)\,dw\,du$$
+```math
+F(s)G(s)=\int_0^\infty e^{-su}f(u)\,du\int_0^\infty e^{-sw}g(w)\,dw=\int_0^\infty\!\!\int_0^\infty e^{-s(u+w)}f(u)\,g(w)\,dw\,du
+```
 
 In the inner integral hold $u$ fixed and substitute $t=u+w$, so $w=t-u$, $dw=dt$, and $t$ runs from $u$ to $\infty$:
 
-$$F(s)G(s)=\int_0^\infty f(u)\int_u^\infty e^{-st}\,g(t-u)\,dt\,du$$
+```math
+F(s)G(s)=\int_0^\infty f(u)\int_u^\infty e^{-st}\,g(t-u)\,dt\,du
+```
 
 The region of integration is $0\le u\le t<\infty$ in the $(u,t)$ plane:
 
@@ -495,15 +609,21 @@ The region of integration is $0\le u\le t<\infty$ in the $(u,t)$ plane:
 
 By Fubini's theorem (justified by absolute convergence) we swap the order of integration:
 
-$$F(s)G(s)=\int_0^\infty e^{-st}\left[\int_0^t f(u)\,g(t-u)\,du\right]dt=\mathcal{L}\left\{\int_0^t f(u)\,g(t-u)\,du\right\}$$
+```math
+F(s)G(s)=\int_0^\infty e^{-st}\left[\int_0^t f(u)\,g(t-u)\,du\right]dt=\mathcal{L}\left\{\int_0^t f(u)\,g(t-u)\,du\right\}
+```
 
 Renaming the dummy variable $u\to v$ and taking the inverse transform:
 
-$$\boxed{\mathcal{L}^{-1}\{F(s)G(s)\}=\int_0^t f(v)\,g(t-v)\,dv}\ \blacksquare$$
+```math
+\boxed{\mathcal{L}^{-1}\{F(s)G(s)\}=\int_0^t f(v)\,g(t-v)\,dv}\ \blacksquare
+```
 
 **Quick example.** $\mathcal{L}^{-1}\!\left\{\dfrac{1}{s^2(s+1)}\right\}$ with $f=t$ (from $1/s^2$) and $g=e^{-t}$:
 
-$$\int_0^t v\,e^{-(t-v)}\,dv=e^{-t}\int_0^t v\,e^{v}\,dv=e^{-t}\big[(v-1)e^v\big]_0^t=t-1+e^{-t}$$
+```math
+\int_0^t v\,e^{-(t-v)}\,dv=e^{-t}\int_0^t v\,e^{v}\,dv=e^{-t}\big[(v-1)e^v\big]_0^t=t-1+e^{-t}
+```
 
 ---
 
@@ -512,18 +632,18 @@ $$\int_0^t v\,e^{-(t-v)}\,dv=e^{-t}\int_0^t v\,e^{v}\,dv=e^{-t}\big[(v-1)e^v\big
 
 By linearity:
 
-$$
+```math
 \begin{aligned}
 &=4\mathcal L\{e^{5t}\}+6\mathcal L\{t^3\}-3\mathcal L\{\cos4t\}+4\mathcal L\{\sin5t\}\\
 &=\frac{4}{s-5}+6\cdot\frac{3!}{s^4}-3\cdot\frac{s}{s^2+16}+4\cdot\frac{5}{s^2+25}
 \end{aligned}
-$$
+```
 
 **Ans.**
 
-$$
+```math
 \frac{4}{s-5}+\frac{36}{s^4}-\frac{3s}{s^2+16}+\frac{20}{s^2+25}
-$$
+```
 
 ---
 
@@ -534,9 +654,9 @@ $$
 
 **Proof:** By definition,
 
-$$
+```math
 \mathcal L\{e^{at}F(t)\}=\int_0^\infty e^{-st}e^{at}F(t)\,dt=\int_0^\infty e^{-(s-a)t}F(t)\,dt=f(s-a)
-$$
+```
 
 since $\int_0^\infty e^{-st}F(t)\,dt=f(s)$ with $s$ replaced by $s-a$. **(Proved)**
 
@@ -549,20 +669,20 @@ since $\int_0^\infty e^{-st}F(t)\,dt=f(s)$ with $s$ replaced by $s-a$. **(Proved
 
 **Proof:** For a function $G$ with $\mathcal L\{G\}=g(s)$,
 
-$$
+```math
 \mathcal L\{G'(t)\}=\int_0^\infty e^{-st}G'(t)\,dt=\Big[e^{-st}G(t)\Big]_0^\infty+s\int_0^\infty e^{-st}G(t)\,dt=s\,g(s)-G(0)\quad(1)
-$$
+```
 
 Applying (1) with $G=F''$, then $F'$, then $F$:
 
-$$
+```math
 \begin{aligned}
 \mathcal L\{F'''\}&=s\mathcal L\{F''\}-F''(0)\\
 &=s\left[s\mathcal L\{F'\}-F'(0)\right]-F''(0)\\
 &=s^2\left[s f(s)-F(0)\right]-sF'(0)-F''(0)\\
 &=s^3f(s)-s^2F(0)-sF'(0)-F''(0)\quad\textbf{(Proved)}
 \end{aligned}
-$$
+```
 
 ---
 
@@ -571,19 +691,19 @@ $$
 <a id="q25"></a>
 ## Q25. $\mathcal L^{-1}\left\{\dfrac{s+2}{s^2-4s+13}\right\}$
 
-$$
+```math
 s^2-4s+13=(s-2)^2+9
-$$
+```
 
-$$
+```math
 \frac{s+2}{(s-2)^2+3^2}=\frac{(s-2)+4}{(s-2)^2+3^2}=\frac{s-2}{(s-2)^2+3^2}+\frac43\cdot\frac{3}{(s-2)^2+3^2}
-$$
+```
 
 By the first shifting property ($a=2$):
 
-$$
+```math
 \mathcal L^{-1}\{\cdot\}=e^{2t}\left[\cos3t+\frac43\sin3t\right]
-$$
+```
 
 **Ans.** $e^{2t}\left(\cos3t+\dfrac43\sin3t\right)$
 
@@ -596,25 +716,25 @@ $$
 
 Put $u=s^2+2s$:
 
-$$
+```math
 \frac{u+3}{(u+2)(u+5)}=\frac{A}{u+2}+\frac{B}{u+5}
-$$
+```
 
-$$
+```math
 u+3=A(u+5)+B(u+2)
-$$
+```
 
 Put $u=-2$: $1=3A\Rightarrow A=\tfrac13$. Put $u=-5$: $-2=-3B\Rightarrow B=\tfrac23$.
 
-$$
+```math
 \frac{s^2+2s+3}{(\cdots)(\cdots)}=\frac13\cdot\frac{1}{(s+1)^2+1^2}+\frac23\cdot\frac{1}{(s+1)^2+2^2}
-$$
+```
 
 By the first shifting property ($a=-1$):
 
-$$
+```math
 \mathcal L^{-1}\{\cdot\}=\frac13e^{-t}\sin t+\frac23\cdot\frac12e^{-t}\sin2t
-$$
+```
 
 **Ans.** $\dfrac13e^{-t}(\sin t+\sin2t)$
 
@@ -627,27 +747,27 @@ $$
 
 **(i)** Formula: $\mathcal L\{t^nF(t)\}=(-1)^n\dfrac{d^n}{ds^n}f(s)$. Here $F=\cos at$, $f(s)=\dfrac{s}{s^2+a^2}$, $n=2$.
 
-$$
+```math
 f'(s)=\frac{(s^2+a^2)-s(2s)}{(s^2+a^2)^2}=\frac{a^2-s^2}{(s^2+a^2)^2}
-$$
+```
 
-$$
+```math
 \begin{aligned}
 f''(s)&=\frac{-2s(s^2+a^2)^2-(a^2-s^2)\cdot2(s^2+a^2)\cdot2s}{(s^2+a^2)^4}\\
 &=\frac{-2s(s^2+a^2)-4s(a^2-s^2)}{(s^2+a^2)^3}\\
 &=\frac{2s^3-6a^2s}{(s^2+a^2)^3}
 \end{aligned}
-$$
+```
 
-$$
+```math
 \mathcal L\{t^2\cos at\}=(-1)^2f''(s)=\frac{2s(s^2-3a^2)}{(s^2+a^2)^3}
-$$
+```
 
 **(ii)** $\mathcal L\{t^3\}=\dfrac{3!}{s^4}=\dfrac{6}{s^4}$. By the first shifting property ($a=1$):
 
-$$
+```math
 \mathcal L\{t^3e^t\}=\frac{6}{(s-1)^4}
-$$
+```
 
 **Ans.** (i) $\dfrac{2s(s^2-3a^2)}{(s^2+a^2)^3}$  (ii) $\dfrac{6}{(s-1)^4}$
 
@@ -660,45 +780,45 @@ $$
 
 Let $Y'(0)=A$ (unknown constant) and $\mathcal L\{Y\}=y(s)$. Taking the Laplace transform:
 
-$$
+```math
 \left[s^2y-sY(0)-Y'(0)\right]+9y=\frac{s}{s^2+4}
-$$
+```
 
-$$
+```math
 (s^2+9)y=s+A+\frac{s}{s^2+4}
-$$
+```
 
-$$
+```math
 y=\frac{s+A}{s^2+9}+\frac{s}{(s^2+4)(s^2+9)}
-$$
+```
 
 Partial fractions:
 
-$$
+```math
 \frac{s}{(s^2+4)(s^2+9)}=\frac15\left[\frac{s}{s^2+4}-\frac{s}{s^2+9}\right]
-$$
+```
 
-$$
+```math
 y=\frac{s}{s^2+9}+\frac A3\cdot\frac{3}{s^2+9}+\frac15\cdot\frac{s}{s^2+4}-\frac15\cdot\frac{s}{s^2+9}
-$$
+```
 
 Taking the inverse transform:
 
-$$
+```math
 Y(t)=\frac45\cos3t+\frac A3\sin3t+\frac15\cos2t
-$$
+```
 
 Using $Y(\pi/2)=-1$: $\cos\dfrac{3\pi}2=0$, $\sin\dfrac{3\pi}2=-1$, $\cos\pi=-1$.
 
-$$
+```math
 -\frac A3-\frac15=-1\;\Rightarrow\;\frac A3=\frac45
-$$
+```
 
 **Ans.**
 
-$$
+```math
 Y(t)=\frac45\cos3t+\frac45\sin3t+\frac15\cos2t
-$$
+```
 
 ---
 
@@ -714,3 +834,5 @@ $$
 | First shift | $\mathcal L\{e^{at}F\}=f(s-a)$ |
 | Multiplication by $t^n$ | $\mathcal L\{t^nF\}=(-1)^n f^{(n)}(s)$ |
 | Derivative | $\mathcal L\{F'\}=sf-F(0)$ |
+
+The above content shows the entire, complete file contents of the requested file.
