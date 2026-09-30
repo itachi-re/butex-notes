@@ -592,23 +592,23 @@ $$
 
 **Gradient:** for a scalar point function $\phi(x,y,z)$,
 
-$$\operatorname{grad}\phi=\nabla\phi=\hat\imath\frac{\partial\phi}{\partial x}+\hat\jmath\frac{\partial\phi}{\partial y}+\hat k\frac{\partial\phi}{\partial z}$$
+$$\nabla\phi=\hat\imath\frac{\partial\phi}{\partial x}+\hat\jmath\frac{\partial\phi}{\partial y}+\hat k\frac{\partial\phi}{\partial z}$$
 
 **Divergence:** for a vector point function $\vec A=A_1\hat\imath+A_2\hat\jmath+A_3\hat k$,
 
-$$\operatorname{div}\vec A=\nabla\cdot\vec A=\frac{\partial A_1}{\partial x}+\frac{\partial A_2}{\partial y}+\frac{\partial A_3}{\partial z}$$
+$$\nabla\cdot\vec A=\frac{\partial A_1}{\partial x}+\frac{\partial A_2}{\partial y}+\frac{\partial A_3}{\partial z}$$
 
-**To prove:** $\operatorname{div}\operatorname{curl}\vec A=0$
+**To prove:** $\nabla\cdot(\nabla\times\vec A)=0$
 
 **Proof:**
 
 $$
-\operatorname{curl}\vec A=\left(\frac{\partial A_3}{\partial y}-\frac{\partial A_2}{\partial z}\right)\hat\imath+\left(\frac{\partial A_1}{\partial z}-\frac{\partial A_3}{\partial x}\right)\hat\jmath+\left(\frac{\partial A_2}{\partial x}-\frac{\partial A_1}{\partial y}\right)\hat k
+\nabla\times\vec A=\left(\frac{\partial A_3}{\partial y}-\frac{\partial A_2}{\partial z}\right)\hat\imath+\left(\frac{\partial A_1}{\partial z}-\frac{\partial A_3}{\partial x}\right)\hat\jmath+\left(\frac{\partial A_2}{\partial x}-\frac{\partial A_1}{\partial y}\right)\hat k
 $$
 
 $$
 \begin{aligned}
-\operatorname{div}\operatorname{curl}\vec A
+\nabla\cdot(\nabla\times\vec A)
 &=\frac{\partial^2A_3}{\partial x\partial y}-\frac{\partial^2A_2}{\partial x\partial z}+\frac{\partial^2A_1}{\partial y\partial z}-\frac{\partial^2A_3}{\partial y\partial x}+\frac{\partial^2A_2}{\partial z\partial x}-\frac{\partial^2A_1}{\partial z\partial y}
 \end{aligned}
 $$
@@ -616,7 +616,7 @@ $$
 Assuming continuous second-order partial derivatives, the mixed partials are equal, so all terms cancel in pairs:
 
 $$
-\operatorname{div}\operatorname{curl}\vec A=0\quad\textbf{(Proved)}
+\nabla\cdot(\nabla\times\vec A)=0\quad\textbf{(Proved)}
 $$
 
 ---
