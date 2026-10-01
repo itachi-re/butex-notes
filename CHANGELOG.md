@@ -8,6 +8,180 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) with [Se
 
 _Nothing pending — all tracked changes below are already on `master`._
 
+## [0.14.0] — 2026-09-26 to 2026-10-01
+
+### Summary
+Exam-season push (233 commits): CHEM-103 CT-2 material for amines, carbohydrates,
+amino acids/proteins and dyes, WPE-101 CT-2 prep (Set A/B), a five-guide IPE-101
+Heat Treatment of Steel series, MDM-102 C Programming exam answers, and a large
+MATH-103 vector calculus / Laplace Transform practice set. All MATH-103 Q&A and
+quick-revision files were renamed to a consistent `ms-103-*` scheme, and the
+CHEM-103 Q&A files to lowercase kebab-case.
+
+### Added
+- **CHEM-103/qna** — CT-2 and exam material:
+  - `chem103-ct2-amines-carbohydrates-proteins-dyes.md` — Question bank, Class Test 2
+  - `chem103-ct2-solution-v260927.0.md` — Class Test 2 solutions
+  - `organic-chemistry-exam-answers-260923-0.md` — Exam answers (2026-09-23)
+- **CHEM-103/quick_rev** — `chem103-ct2-prep.md`, `CHEM103-ct-qna.md`
+  (amines, amino acids, carbohydrates & dyes exam answers)
+- **WPE-101/qna** — CT-2 prep series: `pse-ct2-prep-v260927.0.md` →
+  `v260927.3.md` (Set A solutions, Set B notes and answer script) and
+  `pse-ct2-prep-v260928.0.md` (complete polymer chemistry exam answers, incl. a
+  proof that M<sub>w</sub> > M<sub>n</sub>); new figures for T<sub>g</sub>/T<sub>m</sub> vs
+  specific volume, polymer morphology (amorphous / crystalline / semi-crystalline),
+  photostabilizers and antioxidant mechanisms
+- **IPE-101/quick_rev** — Heat Treatment of Steel series (annealing, normalizing,
+  hardening, tempering, austempering, TTT/CCT, Fe–Fe₃C critical range):
+  `ipe-101-heat-treatment-v260929.0.md`, `v260929.1.md`, `v260930.0.md`,
+  `v260930.1.md`, and `ipe-101-heat-treatment-ct2-prep-v260930.2.md`;
+  new diagrams (annealing cycles, cooling paths on TTT, bainite, martensite,
+  pearlite, spheroidizing, hardening flow, …)
+- **IPE-101/qna** — `ipe-101-qna-exam-sol-15-24.md` (Engineering Materials exam
+  solutions 2015–2024)
+- **MDM-102/quick_rev** — `README.md` (file map and "which file to read" guide),
+  `c_programming_260929.0.md` (complete exam answers — 20 topics incl. pyramid
+  patterns), `c_programming_260929.1.md` (condensed answers)
+- **MATH-103/qna** — `ms-103-scalar-potential-and-divergence.md`,
+  `ms-103_vector_calculus_exam_practice.md` (problems, proofs, full solutions),
+  `ms-103-laplace-vector-11-18.md` (2011–2018 solutions), `MS-103-CT2-solutions.md`
+- **MATH-103/quick_rev** — `ms-103-laplace-qna.md` (Laplace solved question bank),
+  `ms-103-laplace-vector-16-24.md`, and three model-answer editions
+  `ms-103-vector-laplace-qna-v260930-1.md` / `-2.md` / `-3.md`
+- **assets/** — New figures: vector-calculus exam figures (`fig-q3-parallelepiped`,
+  `fig-q5-triangle-path`, `fig-q6-square-path`, `fig-q7-unit-cube`,
+  `fig-q10-green-region`, `fig-q13-diagonals`, `fig-q16-triangle-sines`,
+  `fig-q19-cross-section`, `fig-q21-region`, `fig-ms103-q8c-solution`),
+  CHEM-103 reaction/structure diagrams (`chem103-*.svg`: Hinsberg, diazonium
+  coupling, dye structures, Gly–Ala synthesis, Hofmann/Curtius, Haworth glucose,
+  Kiliani–Fischer, Sandmeyer/Gattermann, Strecker, sulfa-drug synthesis),
+  amine/amino-acid/carbohydrate/dye diagrams, and the polymer and heat-treatment
+  figures above
+
+### Changed
+- **MATH-103/qna & quick_rev** — All files renamed to the `ms-103-*` scheme
+  (e.g. `Differential_Equations_qna.md` → `ms-103-differential-equations-qna.md`,
+  `ODE_CT.260721_Solutions.md` → `ms-103-ode-ct-260721-solutions.md`,
+  `Differential_Equations_Complete_Revision_Handbook.md` →
+  `ms-103-ode-complete-v260712-0.md`, `03_complex_variables.md` →
+  `ms-103-complex-variables.md`; 18 renames in total)
+- **CHEM-103/qna** — Renamed to lowercase kebab-case (`qb_ct1.md` →
+  `chem103-ct1-organic-reactions-organometallics.md`,
+  `Organic_Chemistry_Qna_260820.md` → `organic-chemistry-qna-260820.md`,
+  `organic_chemistry_exam_answers_260825[.1|.2].md` →
+  `organic-chemistry-exam-answers-260825[-1|-2].md`,
+  `Chemistry-II_Complete_Solved_Question_Bank_2017-2023.md` →
+  `complete-solved-question-bank-2017-2023.md`)
+- **IPE-101/qna** — `ipe-ct-2025.md` → `ipe-ct-250715.md`;
+  `IPE-101_Engineering_Materials_Practice_Exams.md` → `ipe-ct-260715.md`
+- **PHY-103/qna** — `phy-103_complete_solved_question_bank_2017-2023.md` →
+  `phy-103-qna-2017-2023.md`
+- **MDM-102/quick_rev** — `c_programming_260907.md` → `c_programming_260907.0.md`
+- Community PRs #54–#58 — CHEM-103 CT/exam answers expanded and revised with new questions,
+  and polymer chemistry exam content expanded; PR #59 — revised Tg/Tm specific-volume SVG;
+  PR #60 — figure index removed from the heat-treatment guide
+- README: CHEM-103, PHY-103, MATH-103, MDM-102, IPE-101, WPE-101, HSS-101 and
+  Lab Reports sections re-synced with the repository (see 0.12.0–0.14.0)
+
+### Removed
+- `CHEM-103/qna/.gitkeep` (directory now populated)
+- Intermediate drafts superseded by the versioned files above (e.g.
+  `MDM-102/quick_rev/c_programming_260907.md`, `tmp/MS-103_vector_calculus_exam_practice.md`)
+
+### Fixed
+- 28 README links that pointed at pre-rename paths (CHEM-103, PHY-103, MATH-103,
+  MDM-102, IPE-101) — README now validates with 0 broken repo links
+- Rendering and notation fixes merged via community PRs #52 (MATH-103 question bank),
+  #53 (Laplace/vector notes) and #62 (vector/Laplace model answers)
+
+---
+
+## [0.13.0] — 2026-09-20 to 2026-09-25
+
+### Summary
+CHEM-103 gets a 97-diagram visual asset library and a new solved question bank,
+PHY-103 gets its split question bank (14 parts), two new lab reports
+(CHEM-104 qualitative/volumetric and IPE-102 machine tools), and the
+PHY-104 lab reports received equation-rendering fixes (199 commits).
+
+### Added
+- **CHEM-103/quick_rev/assets/** — Visual asset library (97 SVG diagrams in
+  14 topic folders: `electronic-effects`, `mechanisms`, `organometallics`,
+  `alcohols-phenols`, `aldehydes-ketones`, `carboxylic-acids`, `amines`,
+  `amino-acids-proteins`, `carbohydrates`, `dyes`, `reactions`, `tests`,
+  `structures`, `summary`) with an index and usage guide,
+  `chem103-asset-index.md`
+- **CHEM-103/quick_rev** — `chem103-qna-v260923.0-2017-2023.md` and
+  `Complete_Solved_Question_Bank_en_2017-2023.md` (Chemistry-II solved
+  question bank 2017–2023)
+- **PHY-103/qna/phy-103-qna/** — Solved question bank split into 14 files plus a
+  README: standard derivations D-1 → D-51 (8 files), year-wise final exams
+  2017–2023 (5 files), and a formula sheet / repeated-topics / revision checklist
+  (so GitHub renders every equation)
+- **lab-reports/chem-104-qual-organic-volumetric-titrations.md** — Qualitative
+  organic analysis (iodoform, FeCl₃) and volumetric titration report, with
+  apparatus and end-point images (`apparatus_qualitative`, `apparatus_titration`,
+  `exp1_iodoform`, `exp2_feCl3`, `titration_endpoints`)
+- **lab-reports/ipe-102-leathe-shaper-grinding.md** — IPE-102 lathe, shaper and
+  grinding machine report with new SVG/PNG machine diagrams
+- **assets/** — Carbohydrate chemistry diagrams (Haworth α/β-glucose, open-chain,
+  mutarotation, glycosidic linkage, Kiliani–Fischer, glucose→fructose, bromine-water
+  oxidation), amino acid / amine / dye diagrams (zwitterion & isoelectric point,
+  Hinsberg separation, Sandmeyer/Gattermann, Strecker, Hofmann/Curtius,
+  chromophore–auxochrome, end-group analysis)
+
+### Changed
+- **lab-reports/phy-104-*** — 13 PHY-104 Electricity & Heat reports: LaTeX subscript/
+  formatting fixes so formulas render on GitHub (2026-09-22)
+- **lab-reports/chem-104-qual-organic-volumetric-titrations.md** — measured values
+  filled in (community PR #50)
+- **PHY-103/lab** — KVL figure captions simplified; specific-heat lab symbols and
+  cooling-rate fixes (community PRs #46–#48)
+- Community PR #49 — CHEM-104 lab README; PR #51 — PHY-103 question-bank rendering fix
+
+---
+
+## [0.12.0] — 2026-09-11 to 2026-09-19
+
+### Summary
+PHY-103 completes its second half (Thermodynamics, Entropy, Modern Physics) and
+gains lab notes; CHEM-104 lab grows from 4 to 13 files; Laplace Transform gets a
+formula sheet; README expanded for Physics II and retitled "BUTEX Notes"
+(182 commits).
+
+### Added
+- **PHY-103/thermodynamics** — Full module, 19/19 topics (system & functions →
+  internal energy → first/second/third law → Carnot cycle & theorem → Maxwell's
+  relations) plus `README.md`, `formulas.md` and `glossary.md`
+- **PHY-103/entropy** — 9 topics (entropy → Clausius–Clapeyron equation)
+- **PHY-103/modern_physics** — 12 topics (properties of radiation → blackbody,
+  emissive/absorptive power, Kirchhoff's law, Stefan–Boltzmann, quantum theory
+  of radiation → special relativity, Lorentz transformation, de Broglie wave)
+- **PHY-103/lab** — PHY-104 lab notes for six experiments (Ohm's law, KVL, KCL,
+  specific heat by cooling, meter bridge, post office box) + README
+- **PHY-103/qna** — `Physics-II.question-bank-1422.md`, `…-1422-g.md` (grouped),
+  `…-1422-answers.md`; **PHY-103/quick_rev** —
+  `kinetic_theory_of_gases-QnA-2018_23.md`
+- **CHEM-104/lab** — 9 new files: `README.md` index, identification tests for
+  methyl alcohol, ethyl alcohol, oxalic acid, acetic acid and benzoic acid,
+  methyl-vs-ethyl comparison, washing-soda estimation, and KMnO₄ standardization
+  with oxalic acid
+- **CHEM-103/qna** — `amines-aminoacids-notes-260918.md` (high-yield amines & amino acid notes)
+- **MATH-103/04_laplace_transform/formulas.md** — Laplace formula sheet
+- **assets/** — ~95 new diagrams: radiation & entropy figures (EM spectrum,
+  blackbody curve, T–S diagrams, Clausius cycles, Compton scattering), circuit
+  and capacitor diagrams, Carnot/adiabatic PV curves, `phy103-thermodynamics-*`
+  figures, and materials-science figures (blast furnace, Brinell/Rockwell tests,
+  creep, DBTT, Fe–Fe₃C, Frenkel/Schottky defects, KCL/KVL circuits)
+
+### Changed
+- README: PHY-103 section expanded (Thermodynamics, Entropy, Modern Physics);
+  title changed from "BUTEX University Notes" to "BUTEX Notes"; PHY-103 README
+  revised for clarity (community PRs #42, #44, #45)
+- MDM-102/quick_rev — `c_programming_260907.md` updated
+
+---
+
 ## [0.11.0] — 2026-09-11
 
 ### Summary
@@ -482,6 +656,9 @@ Initial project setup establishing comprehensive BUTEX course notes repository f
 - **2026-09-03** — v0.9.1: MATH-103 Complex Variables module (22/22 topics), complete solved question banks (PHY-103, CHEM-103, MATH-103, WPE-101)
 - **2026-09-08** — v0.10.0: MATH-103 vector calculus notation/diagram revisions, Laplace Transform corrections
 - **2026-09-11** — v0.11.0: `lab_reports/` → `lab-reports/` restructure (23 files), IPE-101 Practical Lab module (7 experiments), CHEM-104 Lab additions
+- **2026-09-19** — v0.12.0: PHY-103 Thermodynamics (19 topics), Entropy (9), Modern Physics (12), PHY-104 lab notes; CHEM-104 lab grows to 13 files
+- **2026-09-25** — v0.13.0: CHEM-103 97-diagram visual asset library, PHY-103 split solved question bank (14 parts), IPE-102 and CHEM-104 lab reports
+- **2026-10-01** — v0.14.0: CT-2 exam-prep wave (CHEM-103, WPE-101, IPE-101 heat treatment, MDM-102, MATH-103 vector/Laplace); `ms-103-*` renames; README link repair
 
 ---
 
