@@ -31,9 +31,9 @@ The lathe is known as the "mother of all machines." It is the oldest machine too
 | Lead Screw | Used for thread cutting. The job rotates while the tool moves at a fixed ratio. |
 | Spindle | A hollow shaft. Its bore decides the largest bar that can pass through it. |
 
-**Diagram:** [SVG](../assets/lathe-machine.svg) · [PNG](../assets/lathe-machine.png)
+**Diagram:** [SVG](../../assets/lathe-machine.svg) · [PNG](../../assets/lathe-machine.png)
 
-![Lathe machine](../assets/lathe-machine.svg)
+![Lathe machine](../../assets/lathe-machine.svg)
 
 ### Working Principle
 The workpiece rotates between centers, in a chuck, or on a faceplate. A fixed cutting tool removes the extra material as chips. For straight turning, the tool moves parallel to the work axis. For facing, it moves at right angles to the axis. For tapers, it moves at an angle to the axis.
@@ -135,9 +135,9 @@ A shaper is a machine tool with a single-point cutting tool. The workpiece stays
 | Tool Post | Mounted on the clapper box. Clamps the cutting tool. |
 | Vice | Holds the workpiece firmly using two jaws. |
 
-**Diagram:** [SVG](../assets/shaper-machine.svg) · [PNG](../assets/shaper-machine.png)
+**Diagram:** [SVG](../../assets/shaper-machine.svg) · [PNG](../../assets/shaper-machine.png)
 
-![Shaper machine](../assets/shaper-machine.svg)
+![Shaper machine](../../assets/shaper-machine.svg)
 
 ### Working Principle
 The shaper works on the quick-return principle. It commonly uses a crank and slotted-link mechanism. The tool is held by the ram. The workpiece is fixed on the table. The ram moves back and forth. The tool cuts on the slower forward stroke. It returns faster without cutting. At the end of each return stroke, the table moves a small amount sideways. This is the feed.
@@ -235,9 +235,9 @@ A grinding machine removes material using bonded abrasive grains. The grains act
 | Handwheels | Three types: traverse, cross-feed, and vertical feed. |
 | Coolant Nozzle | Supplies coolant to reduce heat. |
 
-**Diagram:** [SVG](../assets/grinding-machine.svg) · [PNG](../assets/grinding-machine.png)
+**Diagram:** [SVG](../../assets/grinding-machine.svg) · [PNG](../../assets/grinding-machine.png)
 
-![Grinding machine](../assets/grinding-machine.svg)
+![Grinding machine](../../assets/grinding-machine.svg)
 
 ### Working Principle
 A motor spins the grinding wheel at high speed. The bed guides and holds the workpiece. Either the wheel head moves over a fixed workpiece, or the workpiece moves under a fixed wheel. A vernier handwheel or CNC control gives fine positioning. Grinding makes a lot of heat. So coolant is supplied to cool the workpiece.
