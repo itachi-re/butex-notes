@@ -221,7 +221,7 @@ single unit:
 
 | Folder | Contents |
 |:--|:--|
-| [`qna/`](qna/) | Solved question banks covering BUTEX final exams 2017–2023 — [phy-103\_complete\_solved\_question\_bank\_2017-2023.md](qna/phy-103_complete_solved_question_bank_2017-2023.md) and [Physics-II\_complete\_solved\_question\_bank\_2017-2023.md](qna/Physics-II_complete_solved_question_bank_2017-2023.md) — plus a separate exam-code 1422 set: [Physics-II.question-bank-1422.md](qna/Physics-II.question-bank-1422.md) (questions), [Physics-II.question-bank-1422-answers.md](qna/Physics-II.question-bank-1422-answers.md) (answers), and [Physics-II.question-bank-1422-g.md](qna/Physics-II.question-bank-1422-g.md) (G-set variant) |
+| [`qna/`](qna/) | Solved question banks covering BUTEX final exams 2017–2023 — [phy-103-qna-2017-2023.md](qna/phy-103-qna-2017-2023.md) and [phy-103-question-bank-complete-solved-2017-2023.md](qna/phy-103-question-bank-complete-solved-2017-2023.md) — plus a separate exam-code 1422 set: [phy-103-question-bank-1422.md](qna/phy-103-question-bank-1422.md) (questions), [phy-103-question-bank-1422-answers.md](qna/phy-103-question-bank-1422-answers.md) (answers), and [phy-103-question-bank-1422-g.md](qna/phy-103-question-bank-1422-g.md) (G-set variant) |
 | [`quick_rev/`](quick_rev/) | One-page cram sheets and exam-prep sets: [phy-103-electricity-qna-2015-2024.md](quick_rev/phy-103-electricity-qna-2015-2024.md), [phy-103-electricity-exam-prep.md](quick_rev/phy-103-electricity-exam-prep.md), [phy-103-kinetic-theory-of-gases-qna-2018-2023.md](quick_rev/phy-103-kinetic-theory-of-gases-qna-2018-2023.md), [phy-103-kinetic-theory-of-gases-notes.md](quick_rev/phy-103-kinetic-theory-of-gases-notes.md) |
 
 Electricity and Kinetic Theory of Gases currently have both a question
