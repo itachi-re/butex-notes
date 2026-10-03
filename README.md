@@ -699,11 +699,11 @@ This repository contains comprehensive course notes from my journey through the 
 <details>
 <summary><b>📂 Q&A</b></summary>
 
-- [Complete Solved Question Bank 2017–2023](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/qna/Physics-II_complete_solved_question_bank_2017-2023.md)
+- [Complete Solved Question Bank 2017–2023](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/qna/phy-103-question-bank-complete-solved-2017-2023.md)
 - [Complete Solved Question Bank 2017–2023 (alt)](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/qna/phy-103-qna-2017-2023.md)
-- [Question Bank 1422](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/qna/Physics-II.question-bank-1422.md)
-- [Question Bank 1422 (Grouped)](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/qna/Physics-II.question-bank-1422-g.md)
-- [Question Bank 1422 — Answers](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/qna/Physics-II.question-bank-1422-answers.md)
+- [Question Bank 1422](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/qna/phy-103-question-bank-1422.md)
+- [Question Bank 1422 (Grouped)](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/qna/phy-103-question-bank-1422-g.md)
+- [Question Bank 1422 — Answers](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/qna/phy-103-question-bank-1422-answers.md)
 
 **Split Solved Question Bank (14 parts) ✨** — standard derivations written once and cross-referenced by code (D-1…D-51), split so GitHub renders every equation:
 - [📖 Contents & Derivation Finder](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/qna/phy-103-qna/README.md)
