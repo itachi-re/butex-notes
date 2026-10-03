@@ -727,10 +727,10 @@ This repository contains comprehensive course notes from my journey through the 
 <details>
 <summary><b>📂 Quick Revision</b></summary>
 
-- [Kinetic Theory of Gases](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/quick_rev/kinetic_theory_of_gases.md)
-- [Kinetic Theory of Gases — Q&A 2018–2023](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/quick_rev/kinetic_theory_of_gases-QnA-2018_23.md)
-- [Electricity Q&A 2015–2024](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/quick_rev/Electricity_QnA_2015_2024.md)
-- [Electricity Exam Prep](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/quick_rev/Electricity_exam_prep.md)
+- [Kinetic Theory of Gases](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/quick_rev/phy-103-kinetic-theory-of-gases-notes.md)
+- [Kinetic Theory of Gases — Q&A 2018–2023](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/quick_rev/phy-103-kinetic-theory-of-gases-qna-2018-2023.md)
+- [Electricity Q&A 2015–2024](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/quick_rev/phy-103-electricity-qna-2015-2024.md)
+- [Electricity Exam Prep](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/quick_rev/phy-103-electricity-exam-prep.md)
 
 </details>
 ---
