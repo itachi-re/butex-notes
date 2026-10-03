@@ -112,7 +112,7 @@ graph LR
 | File | Purpose |
 |------|---------|
 | [qna/README.md](qna/README.md) | Past paper questions index — fill in as papers become available |
-| [quick_rev/01_kinetic_theory_of_gases.md](quick_rev/01_kinetic_theory_of_gases.md) | One-page exam cram sheet — definitions, formulae, exam question types |
+| [phy-103-kinetic-theory-of-gases-notes.md](../quick_rev/phy-103-kinetic-theory-of-gases-notes.md) | One-page exam cram sheet — definitions, formulae, exam question types |
 
 ---
 
