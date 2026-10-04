@@ -1,10 +1,4 @@
 # PHY103: Physics-II — 2nd Class Test (Solved)
-
-**Compiled by:** sigkill0x00
-
-**Institution:** Gopalganj Textile Engineering College, Gopalganj
-**Time:** 30 min · **Full marks:** 10 · *Answer any one set.* Both sets are solved below.
-
 **Conventions:** $W$ = work done **by** the gas, $\Delta U=Q-W$.
 
 ---
