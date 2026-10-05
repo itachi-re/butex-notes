@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 230" width="300" height="230" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<g stroke="#111" stroke-width="2" stroke-linecap="round" fill="none">
+<line x1="150.0" y1="110.0" x2="184.6" y2="130.0"/>
+<line x1="153.5" y1="118.8" x2="175.3" y2="131.4"/>
+<line x1="184.6" y1="130.0" x2="184.6" y2="170.0"/>
+<line x1="184.6" y1="170.0" x2="150.0" y2="190.0"/>
+<line x1="175.3" y1="168.6" x2="153.5" y2="181.2"/>
+<line x1="150.0" y1="190.0" x2="115.4" y2="170.0"/>
+<line x1="115.4" y1="170.0" x2="115.4" y2="130.0"/>
+<line x1="121.2" y1="162.6" x2="121.2" y2="137.4"/>
+<line x1="115.4" y1="130.0" x2="150.0" y2="110.0"/>
+<line x1="150.0" y1="110.0" x2="150.0" y2="70.0"/>
+<line x1="151.4" y1="72.4" x2="177.3" y2="57.4"/>
+<line x1="148.6" y1="67.6" x2="174.5" y2="52.6"/>
+<line x1="150.0" y1="70.0" x2="126.7" y2="56.5"/>
+</g>
+<text x="184.6" y="50.0" font-size="17" text-anchor="middle" dominant-baseline="central" fill="#111">O</text>
+<text x="115.4" y="50.0" font-size="17" text-anchor="middle" dominant-baseline="central" fill="#111">O⁻</text>
+<text x="65.0" y="45.0" font-size="17" text-anchor="middle" dominant-baseline="central" fill="#111">Na⁺</text>
+<text x="150.0" y="220" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">Sodium benzoate  C₆H₅COONa</text>
+</svg>
