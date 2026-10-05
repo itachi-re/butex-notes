@@ -7,7 +7,7 @@ Notes on the question paper:
 - Q2(a) lists **sodium formate twice** (items 3 and 8). It is the same compound, answered once and marked as a repeat.
 - "Ammonium hydroxide" is aqueous ammonia: NH₃ + H₂O ⇌ NH₄⁺ + OH⁻.
 - **Sodium acetate** appears in both Q1 and Q2.
-- All structure images are in the `assets/` folder (keep it next to this file).
+- All structure images are linked from `../../assets/`.
 
 ---
 
@@ -31,12 +31,45 @@ Notes on the question paper:
 
 ### Structural formulae
 
-| | | |
-|:---:|:---:|:---:|
-| <img src="assets/oxalic_acid.svg" width="230"> | <img src="assets/formic_acid.svg" width="230"> | <img src="assets/acetic_acid.svg" width="230"> |
-| <img src="assets/benzoic_acid.svg" width="230"> | <img src="assets/sodium_benzoate.svg" width="230"> | <img src="assets/formaldehyde.svg" width="230"> |
-| <img src="assets/methyl_acetate.svg" width="230"> | <img src="assets/ethanol.svg" width="230"> | <img src="assets/sodium_acetate.svg" width="230"> |
-| <img src="assets/silver_acetate.svg" width="230"> | | |
+**Oxalic acid**
+
+![Oxalic acid](../../assets/oxalic_acid.svg)
+
+**Formic acid**
+
+![Formic acid](../../assets/formic_acid.svg)
+
+**Acetic acid**
+
+![Acetic acid](../../assets/acetic_acid.svg)
+
+**Benzoic acid**
+
+![Benzoic acid](../../assets/benzoic_acid.svg)
+
+**Sodium benzoate**
+
+![Sodium benzoate](../../assets/sodium_benzoate.svg)
+
+**Formaldehyde**
+
+![Formaldehyde](../../assets/formaldehyde.svg)
+
+**Methyl acetate**
+
+![Methyl acetate](../../assets/methyl_acetate.svg)
+
+**Ethanol**
+
+![Ethanol](../../assets/ethanol.svg)
+
+**Sodium acetate**
+
+![Sodium acetate](../../assets/sodium_acetate.svg)
+
+**Silver acetate**
+
+![Silver acetate](../../assets/silver_acetate.svg)
 
 Inorganic compounds (no skeletal drawing needed):
 
@@ -202,11 +235,33 @@ Unknown acid
 
 ### Structural formulae
 
-| | | |
-|:---:|:---:|:---:|
-| <img src="assets/benzaldehyde.svg" width="250"> | <img src="assets/benzoic_acid.svg" width="250"> | <img src="assets/salicylic_acid.svg" width="250"> |
-| <img src="assets/methyl_salicylate.svg" width="250"> | <img src="assets/ethyl_salicylate.svg" width="250"> | <img src="assets/sodium_acetate.svg" width="250"> |
-| <img src="assets/sodium_formate.svg" width="250"> | | |
+**Benzaldehyde**
+
+![Benzaldehyde](../../assets/benzaldehyde.svg)
+
+**Benzoic acid**
+
+![Benzoic acid](../../assets/benzoic_acid.svg)
+
+**Salicylic acid**
+
+![Salicylic acid](../../assets/salicylic_acid.svg)
+
+**Methyl salicylate**
+
+![Methyl salicylate](../../assets/methyl_salicylate.svg)
+
+**Ethyl salicylate**
+
+![Ethyl salicylate](../../assets/ethyl_salicylate.svg)
+
+**Sodium acetate**
+
+![Sodium acetate](../../assets/sodium_acetate.svg)
+
+**Sodium formate**
+
+![Sodium formate](../../assets/sodium_formate.svg)
 
 Inorganic compounds:
 
@@ -244,7 +299,7 @@ Stoichiometry: **1 mol Na₂CO₃ ≡ 2 mol HCl**. Phenolphthalein alone is not 
 
 Burette (50 mL) with stand, pipette (25 mL) with filler, conical flasks (250 mL), volumetric flask (250 mL), analytical balance, beaker, glass rod, funnel, wash bottle, white tile.
 
-<img src="assets/titration_setup.svg" width="420">
+![Titration setup](../../assets/titration_setup.svg)
 
 ### 3. Reagents
 
