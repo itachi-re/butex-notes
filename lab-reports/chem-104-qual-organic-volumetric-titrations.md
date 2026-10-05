@@ -8,18 +8,23 @@
 
 ## Table of Contents
 
-1. Experiment 1 – Identification of Alcohols (Methyl Alcohol & Ethyl Alcohol)
-2. Experiment 2 – Identification of Organic (Carboxylic) Acids
-   - 2.1 Formic Acid  2.2 Oxalic Acid  2.3 Acetic Acid  2.4 Benzoic Acid
-3. Experiment 3 – Determination of Na₂CO₃ Content of Washing Soda
-4. Experiment 4 – Standardization of KMnO₄ Solution with Standard Oxalic Acid
-5. Experiment 5 – Estimation of Fe²⁺ (Ferrous Iron) with Standard KMnO₄ Solution
+| SL. No. | Name of the Experiment | Date | Page |
+|---|---|---|---|
+| 01 | Identification of Alcohols (Methyl Alcohol & Ethyl Alcohol) | 12.08.26 | 01–08 |
+| 02 | Identification of Organic (Carboxylic) Acids | 25.08.26 | 09–16 |
+| 03 | Determination of Na₂CO₃ Content of Washing Soda | 01.09.26 | 17–23 |
+| 04 | Standardization of KMnO₄ Solution with Standard Oxalic Acid | 06.09.26 | 24–28 |
+| 05 | Estimation of Fe²⁺ with Standard KMnO₄ Solution | 15.09.26 | 29–34 |
+
+*Experiment 2 covers: 2.1 Formic Acid · 2.2 Oxalic Acid · 2.3 Acetic Acid · 2.4 Benzoic Acid*
 
 *Each experiment follows the standard format: Experiment No. → Experiment Name → Objective → Theory → Reaction → Apparatus → Required Chemicals → Procedure → Observation → Pre‑Calculation → Calculation → Result → Precautions.*
 
 ---
 
 ## Experiment 1 – Identification of Alcohols (Methyl Alcohol & Ethyl Alcohol)
+
+**Date:** 12.08.26
 
 ### Objective
 To identify and distinguish between two unlabelled samples of methyl alcohol (methanol) and ethyl alcohol (ethanol) using characteristic chemical spot tests.
@@ -104,6 +109,8 @@ Not applicable — identification is based entirely on the observed chemical res
 ## Experiment 2 – Identification of Organic (Carboxylic) Acids
 *2.1 Formic Acid · 2.2 Oxalic Acid · 2.3 Acetic Acid · 2.4 Benzoic Acid*
 
+**Date:** 25.08.26
+
 ### Objective
 To identify four given samples as formic acid, oxalic acid, acetic acid and benzoic acid on the basis of general and specific chemical tests.
 
@@ -183,6 +190,8 @@ Not applicable. (The quantitative estimation of oxalic acid by KMnO₄ titration
 
 ## Experiment 3 – Determination of Na₂CO₃ Content of Washing Soda
 
+**Date:** 01.09.26
+
 ### Objective
 To determine the percentage of sodium carbonate (Na₂CO₃) present in a given sample of washing soda by acid–base titration against a standard solution of hydrochloric acid.
 
@@ -255,6 +264,8 @@ Let N₁ = normality of standard HCl = 0.1 N; V₁ = volume of HCl used (titre) 
 
 ## Experiment 4 – Standardization of KMnO₄ Solution with Standard Oxalic Acid
 
+**Date:** 06.09.26
+
 ### Objective
 To standardise an approximately 0.1 N potassium permanganate (KMnO₄) solution by titrating it against a standard solution of oxalic acid.
 
@@ -326,6 +337,8 @@ Let N₁ = normality of standard oxalic acid = 0.1 N; V₁ = volume of oxalic ac
 ---
 
 ## Experiment 5 – Estimation of Fe²⁺ (Ferrous Iron) with Standard KMnO₄ Solution
+
+**Date:** 15.09.26
 
 ### Objective
 To determine the strength (concentration) of ferrous ion, Fe²⁺, in a given solution (e.g. Mohr's salt solution) by titration against the KMnO₄ solution standardised in Experiment 4.
