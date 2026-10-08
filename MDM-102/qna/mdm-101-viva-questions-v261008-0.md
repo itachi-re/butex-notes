@@ -1,4 +1,4 @@
-# CP Viva: Important Short Questions
+# CP Viva: Important Short Questions (Enhanced, English)
 
 **How to use this file**
 
@@ -251,21 +251,231 @@
 
 ## 6. Type Conversion ⭐
 
-69. **What is type conversion?**
-    Converting one data type into another data type.
+### 69. What is type conversion?
 
-70. **What is implicit type conversion?**
-    Conversion done automatically by the compiler (for example, `int` to `float` in a mixed expression).
+Converting one data type into another data type.
 
-71. **What is explicit type conversion?**
-    Conversion done manually by the programmer using type casting.
-    Example: `float x = (float)7 / 5;`
+**Full example: three common conversions**
 
-72. **Why is type casting used?**
-    To convert a value into a required data type and get the desired result.
+```c
+#include <stdio.h>
 
-73. ➕ **Why does `float x = 7 / 5;` give `1.0` and not `1.4`?**
-    Both `7` and `5` are integers, so integer division gives `1` before it is stored in `x`. Cast one of them: `(float)7 / 5`.
+int main(void) {
+    int i = 10;
+    float pi = 3.14;
+    char ch = 'A';
+
+    float f = i;        /* int -> float */
+    int n = pi;         /* float -> int (decimal part is lost) */
+    int code = ch;      /* char -> int (ASCII value) */
+
+    printf("int   %d    -> float %.2f\n", i, f);
+    printf("float %.2f  -> int   %d\n", pi, n);
+    printf("char  %c     -> int   %d\n", ch, code);
+
+    return 0;
+}
+```
+
+Output:
+```
+int   10    -> float 10.00
+float 3.14  -> int   3
+char  A     -> int   65
+```
+
+---
+
+### 70. What is implicit type conversion?
+
+Conversion done automatically by the compiler. When different types are mixed in one expression, the smaller type is promoted to the larger one:
+
+`char` → `int` → `float` → `double`
+
+**Full example: mixing types in expressions**
+
+```c
+#include <stdio.h>
+
+int main(void) {
+    int a = 5;
+    float b = 2.5;
+    double d = 1.5;
+    char c = 'a';           /* ASCII value of 'a' is 97 */
+
+    /* int + float: a becomes float automatically */
+    printf("int + float    = %.2f\n", a + b);
+
+    /* float + double: b becomes double automatically */
+    printf("float + double = %.2f\n", b + d);
+
+    /* char + int: c becomes int (97) automatically */
+    printf("char + int     = %d\n", c + 1);
+
+    /* int / int: no conversion, so the decimal part is lost */
+    printf("7 / 2          = %d\n", 7 / 2);
+
+    /* int / float: the int becomes float, so decimals are kept */
+    float two = 2.0;
+    printf("7 / 2.0        = %.2f\n", 7 / two);
+
+    /* assigning float to int: decimal part is dropped, not rounded */
+    int whole = 9.99;
+    printf("int = 9.99     -> %d\n", whole);
+
+    return 0;
+}
+```
+
+Output:
+```
+int + float    = 7.50
+float + double = 4.00
+char + int     = 98
+7 / 2          = 3
+7 / 2.0        = 3.50
+int = 9.99     -> 9
+```
+
+Key point: the compiler does all of this on its own, and you never write anything special.
+
+---
+
+### 71. What is explicit type conversion?
+
+Conversion done manually by the programmer using type casting, like `(float)x`.
+
+Syntax: `(data_type) value`
+
+**Full example: casting in a division**
+
+```c
+#include <stdio.h>
+
+int main(void) {
+    int total = 245;
+    int subjects = 3;
+
+    float wrong1 = total / subjects;            /* int / int = 81, stored as 81.00 */
+    float wrong2 = (float)(total / subjects);   /* cast too late: division already done */
+    float right  = (float)total / subjects;     /* cast first, then divide */
+
+    printf("No cast         : %.2f\n", wrong1);
+    printf("Cast too late   : %.2f\n", wrong2);
+    printf("Cast correctly  : %.2f\n", right);
+
+    /* other casts */
+    double x = 9.99;
+    int y = (int)x;             /* double -> int */
+    char letter = (char)66;     /* int -> char */
+
+    printf("(int)9.99       : %d\n", y);
+    printf("(char)66        : %c\n", letter);
+
+    return 0;
+}
+```
+
+Output:
+```
+No cast         : 81.00
+Cast too late   : 81.00
+Cast correctly  : 81.67
+(int)9.99       : 9
+(char)66        : B
+```
+
+Key point: `(float)total / subjects` casts only `total`, but then `subjects` is promoted to `float` automatically, so the division happens in `float`. Writing `(float)(total / subjects)` is wrong because the integer division is done first.
+
+---
+
+### 72. Why do we use type casting?
+
+To get the correct result when the automatic conversion is not enough, such as keeping the decimal part in a division.
+
+**Full example: three real uses**
+
+```c
+#include <stdio.h>
+
+int main(void) {
+    /* Use 1: percentage (without a cast, 420 / 500 = 0) */
+    int obtained = 420;
+    int full = 500;
+
+    float wrong_pct = obtained / full * 100;
+    float right_pct = (float)obtained / full * 100;
+
+    printf("Percentage without cast: %.2f\n", wrong_pct);
+    printf("Percentage with cast   : %.2f\n", right_pct);
+
+    /* Use 2: convert a digit character to its number */
+    char digit = '7';
+    int number = digit - '0';           /* '7' is ASCII 55, '0' is 48, so 55 - 48 = 7 */
+    printf("Character '%c' as number: %d\n", digit, number);
+
+    /* Use 3: convert a number to a letter */
+    int n = 3;
+    char grade = (char)('A' + n - 1);   /* 'A' + 2 = 'C' */
+    printf("Position %d in alphabet : %c\n", n, grade);
+
+    /* Use 4: round to the nearest whole number */
+    float value = 3.6;
+    int rounded = (int)(value + 0.5);
+    printf("%.1f rounded            : %d\n", value, rounded);
+
+    return 0;
+}
+```
+
+Output:
+```
+Percentage without cast: 0.00
+Percentage with cast   : 84.00
+Character '7' as number: 7
+Position 3 in alphabet : C
+3.6 rounded            : 4
+```
+
+---
+
+### 73. Why does `float x = 7 / 5;` give `1.0` and not `1.4`?
+
+Both `7` and `5` are integers, so integer division gives `1` before it is stored in `x`. Cast one of them: `(float)7 / 5`, or write `7 / 5.0`.
+
+**Full example**
+
+```c
+#include <stdio.h>
+
+int main(void) {
+    float a = 7 / 5;            /* integer division first */
+    float b = (float)7 / 5;     /* cast one operand */
+    float c = 7 / 5.0;          /* decimal literal does the same job */
+
+    printf("7 / 5          = %.1f\n", a);
+    printf("(float)7 / 5   = %.1f\n", b);
+    printf("7 / 5.0        = %.1f\n", c);
+
+    return 0;
+}
+```
+
+Output:
+```
+7 / 5          = 1.0
+(float)7 / 5   = 1.4
+7 / 5.0        = 1.4
+```
+
+---
+
+### Quick summary table
+
+| Type | Who does it | Syntax | Example |
+|---|---|---|---|
+| Implicit | Compiler | none | `float f = 5;` |
+| Explicit (casting) | Programmer | `(type)value` | `(float)7 / 5` |
 
 ---
 
