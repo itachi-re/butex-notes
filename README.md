@@ -23,8 +23,8 @@ This repository contains comprehensive course notes from my journey through the 
 - 📄 **PDF Export Ready** - Automated scripts to convert notes to PDF
 - 🏷️ **Tagged & Organized** - Easy navigation with course codes and topics
 - 🔍 **Searchable** - Quick find using Git search or GitHub search features
-- 🖼️ **Diagram Library** - 460+ hand-built SVG/PNG figures (380 shared in `assets/` + a 97-diagram CHEM-103 reaction/mechanism library)
-- 🎯 **Exam-Prep Ready** - Solved question banks (2017–2024), class-test (CT) prep sets, and quick-revision guides for most courses
+- 🖼️ **Diagram Library** - 500 hand-built SVG/PNG figures (403 shared in `assets/` + a 97-diagram CHEM-103 reaction/mechanism library)
+- 🎯 **Exam-Prep Ready** - Solved question banks (2017–2024), class-test (CT) prep sets, viva question sets, and quick-revision guides for most courses
 - 📋 **Changelog Tracked** - Every notable update logged in [CHANGELOG.md](CHANGELOG.md)
 
 ---
@@ -36,10 +36,10 @@ This repository contains comprehensive course notes from my journey through the 
 | Course Code | Course Title | Status | Topics Covered | Quick Links |
 | :--- | :--- | :---: | :--- | :--- |
 | **[CHEM-101](https://github.com/itachi-re/butex-notes/tree/master/CHEM-101)** | Chemistry - I | 🟢 Active | Periodicity, Bonding, Acids/Bases, Equilibrium, Kinetics, Colloids, Photochemistry | [📑 Topics](#chemistry-101-topics) |
-| **[CHEM-103](https://github.com/itachi-re/butex-notes/tree/master/CHEM-103)** | Organic Chemistry — Reactions & Mechanisms | 🟢 Active | Inductive/Electromeric/Mesomeric Effects, Carbonium Ions, Carbanions, SN1/SN2/E1/E2, Addition Reactions, Organometallics (Grignard, Organozinc, TEL), Alcohols, Phenols, Carboxylic Acid Derivatives; exam prep for Amines, Carbohydrates, Amino Acids/Proteins & Dyes with a 97-diagram visual asset library | [📑 Topics](#chem-103-topics) |
+| **[CHEM-103](https://github.com/itachi-re/butex-notes/tree/master/CHEM-103)** | Organic Chemistry — Reactions & Mechanisms | 🟢 Active | Inductive/Electromeric/Mesomeric Effects, Carbonium Ions, Carbanions, SN1/SN2/E1/E2, Addition Reactions, Organometallics (Grignard, Organozinc, TEL), Alcohols, Phenols, Carboxylic Acid Derivatives; exam prep for Amines, Carbohydrates, Amino Acids/Proteins & Dyes; Chemistry-II lab-final model answers (odd/even ID sets); 97-diagram visual asset library | [📑 Topics](#chem-103-topics) |
 | **[CHEM-104](https://github.com/itachi-re/butex-notes/tree/master/CHEM-104)** | Chemistry - II (Practical) | 🟡 In Progress | Identification of Organic Compounds (23 compounds: Alcohols, Acids, Aldehydes, Ketones, Phenols, Amines, Amides), Amino Acids & Proteins, Colours/Dyes & Pigments, Lab write-ups (alcohol & acid identification tests, KMnO₄ standardization, ferrous iron & washing soda estimations — 13 files), Titrations (⚪ Pending) | [📑 Topics](#chem-104-topics) |
 | **[PHY-101](https://github.com/itachi-re/butex-notes/tree/master/PHY-101)** | Physics - I | 🟢 Active | Elasticity, Fluid Mechanics, Interference, Dynamics, Surface Tension, Viscosity, Diffraction, Polarization | [📑 Topics](#physics-101-topics) |
-| **[PHY-103](https://github.com/itachi-re/butex-notes/tree/master/PHY-103)** | Physics - II | 🟢 Active | Electricity (Coulomb's Law → Parallel Resonance, 14/14 topics), Kinetic Theory of Gases (13/13 topics), Magnetism (Induction → LC-SHM Analogy, 13/13 topics), Thermodynamics (System → Maxwell's Relations, 19/19 topics), Entropy (9 topics), Modern Physics (Radiation → de Broglie Wave, 12 topics), PHY-104 Lab Notes (6 experiments), Solved Question Bank 2017–2023 (split into 14 parts) | [📑 Topics](#phy-103-topics) |
+| **[PHY-103](https://github.com/itachi-re/butex-notes/tree/master/PHY-103)** | Physics - II | 🟢 Active | Electricity (Coulomb's Law → Parallel Resonance, 14/14 topics), Kinetic Theory of Gases (13/13 topics), Magnetism (Induction → LC-SHM Analogy, 13/13 topics), Thermodynamics (System → Maxwell's Relations, 19/19 topics), Entropy (9 topics), Modern Physics (Radiation → de Broglie Wave, 12 topics), PHY-104 Lab Notes (6 experiments), Solved Question Bank 2017–2023 (split into 14 parts), Kinetic Theory & Thermodynamics CT prep, Class Test 2 solved papers | [📑 Topics](#phy-103-topics) |
 | **[MATH-101](https://github.com/itachi-re/butex-notes/tree/master/MATH-101)** | Mathematics - I | 🟢 Active | Differential Calculus, Integral Calculus, Linear Algebra, Coordinate Geometry | [📑 Topics](#math-101-topics) |
 | **[MATH-103](https://github.com/itachi-re/butex-notes/tree/master/MATH-103)** | Mathematics - II | 🟡 In Progress | Ordinary Differential Equations, Vector Analysis (Gradient/Divergence/Curl, Green's/Stokes'/Gauss's Theorems), Complex Variables (Number System → Residue Theorem, 22 topics), Laplace Transform (Definition → Solving ODEs/PDEs, 7 topics + formula sheet), Calculus Extras, Vector/Laplace exam practice & CT-2 solutions | [📑 Topics](#math-103-topics) |
 | **[HSS-101](https://github.com/itachi-re/butex-notes/tree/master/HSS-101)** | Humanities & Social Science | 🟢 Active | Communication, Letters, Presentations, Meetings, Group Project | [📑 Topics](#hss-101-topics) |
@@ -49,13 +49,13 @@ This repository contains comprehensive course notes from my journey through the 
 | Course Code | Course Title | Status | Topics Covered | Quick Links |
 | :--- | :--- | :---: | :--- | :--- |
 | **[MDM-101](https://github.com/itachi-re/butex-notes/tree/master/MDM-101)** | Computer Programming - I | 🟢 Active | Programming Basics, C Language, Functions, Preprocessor, Pointers, Arrays, Strings, User-Defined Types, File I/O | [📑 Topics](#mdm-101-topics) |
-| **[MDM-102](https://github.com/itachi-re/butex-notes/tree/master/MDM-102)** ✨ New | Computer Programming - II (C Programming) | 🟢 Active | Simple Programs, Variables/Datatypes, Operators, Decision Control, Loops, Functions, Recursion, Pointers & Arrays, User-Defined Types, Exception Handling, Graphics/Game Dev, Homework Programs, Exam Quick-Revision Guides | [📑 Topics](#mdm-102-topics) |
+| **[MDM-102](https://github.com/itachi-re/butex-notes/tree/master/MDM-102)** ✨ New | Computer Programming - II (C Programming) | 🟢 Active | Simple Programs, Variables/Datatypes, Operators, Decision Control, Loops, Functions, Recursion, Pointers & Arrays, User-Defined Types, Exception Handling, Graphics/Game Dev, Homework Programs, Exam Quick-Revision Guides, Viva Question Sets | [📑 Topics](#mdm-102-topics) |
 
 ### 🧬 Materials & Polymer Science
 
 | Course Code | Course Title | Status | Topics Covered | Quick Links |
 | :--- | :--- | :---: | :--- | :--- |
-| **[IPE-101](https://github.com/itachi-re/butex-notes/tree/master/IPE-101)** ✨ New | Industrial & Production Engineering (Materials Science) | 🟢 Active | Properties of Materials, Processing, Material Selection, Atomic/Molecular/Crystalline Structures, Elastic-Plastic Behavior, Phase Diagrams, Heat Treatment of Steel (exam guides), IPE-102 Practical Lab (7 experiments) | [📑 Topics](#ipe-101-topics) |
+| **[IPE-101](https://github.com/itachi-re/butex-notes/tree/master/IPE-101)** ✨ New | Industrial & Production Engineering (Materials Science) | 🟢 Active | Properties of Materials, Processing, Material Selection, Atomic/Molecular/Crystalline Structures, Elastic-Plastic Behavior, Phase Diagrams, Heat Treatment of Steel (exam guides), IPE-102 Practical Lab (7 experiments + final Lathe/Shaper/Grinding report), IPE-102 Viva Revision | [📑 Topics](#ipe-101-topics) |
 | **[WPE-101](https://github.com/itachi-re/butex-notes/tree/master/WPE-101)** | Polymer Science and Engineering | 🟢 Active | Fundamentals & History, Classification, Raw Materials, Synthesis (Addition/Condensation), Fibre-Forming Polymers, CT-2 Exam Prep (Set A/B solutions) | [📑 Topics](#wpe-101-topics) |
 
 ### 🧵 Yarn Engineering (Fabric Department Focus)
@@ -192,7 +192,7 @@ This repository contains comprehensive course notes from my journey through the 
 
 **[🔗 View All Organic Chemistry Notes](https://github.com/itachi-re/butex-notes/tree/master/CHEM-103)**
 
-> Organic reaction mechanisms and organometallic chemistry (CHEM-103 modules 11–12), plus exam-prep material for amines, carbohydrates, amino acids/proteins and dyes.
+> Organic reaction mechanisms and organometallic chemistry (CHEM-103 modules 11–12), plus exam-prep material for amines, carbohydrates, amino acids/proteins and dyes, and Chemistry-II lab-final model answers. Files in `qna/` and `quick_rev/` follow the `chem-103-<topic>-<type>-vYYMMDD-N.md` naming scheme (version = date made + revision number).
 
 <details>
 <summary><b>📂 Organic Reaction Mechanisms</b></summary>
@@ -229,33 +229,35 @@ This repository contains comprehensive course notes from my journey through the 
 <details>
 <summary><b>📂 Q&A</b></summary>
 
-- [Grignard Reagents & TEL](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/qna/grignard-reagents-and-tel.md)
-- [Kinetics Proof](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/qna/kinetics-proof.md)
-- [Organic Reactions](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/qna/organic_reactions.md)
-- [Question Bank — Class Test 1](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/qna/chem103-ct1-organic-reactions-organometallics.md) — Organic reactions & organometallics
-- [Question Bank — Class Test 2](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/qna/chem103-ct2-amines-carbohydrates-proteins-dyes.md) — Amines, carbohydrates, amino acids & dyes
-- [Class Test 2 — Solutions (v260927.0)](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/qna/chem103-ct2-solution-v260927.0.md)
-- [Amines & Amino Acids — High-Yield Notes (2026-09-18)](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/qna/amines-aminoacids-notes-260918.md)
-- [Organic Chemistry Q&A (2026-08-20)](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/qna/organic-chemistry-qna-260820.md)
-- [Organic Chemistry Exam Answers (2026-08-25)](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/qna/organic-chemistry-exam-answers-260825.md)
-- [Organic Chemistry Exam Answers (2026-08-25).1](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/qna/organic-chemistry-exam-answers-260825-1.md)
-- [Organic Chemistry Exam Answers (2026-08-25).2 — Corrected Final](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/qna/organic-chemistry-exam-answers-260825-2.md)
-- [Organic Chemistry Exam Answers (2026-09-23)](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/qna/organic-chemistry-exam-answers-260923-0.md) — Amines, carbohydrates, amino acids & dyes
-- [Complete Solved Question Bank 2017–2023](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/qna/complete-solved-question-bank-2017-2023.md)
+- [Grignard Reagents & TEL](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/qna/chem-103-grignard-reagents-tel-notes-v260726-0.md)
+- [Kinetics Proof](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/qna/chem-103-kinetics-proof-v260726-0.md)
+- [Organic Reactions](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/qna/chem-103-organic-reactions-notes-v260725-0.md)
+- [Question Bank — Class Test 1](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/qna/chem-103-organic-reactions-organometallics-ct1-v260927-0.md) — Organic reactions & organometallics
+- [Question Bank — Class Test 2](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/qna/chem-103-amines-carbohydrates-proteins-dyes-ct2-v260927-0.md) — Amines, carbohydrates, amino acids & dyes
+- [Class Test 2 — Solutions (v260927-0)](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/qna/chem-103-ct2-solution-v260927-0.md)
+- [Amines & Amino Acids — High-Yield Notes (2026-09-18)](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/qna/chem-103-amines-aminoacids-notes-v260918-0.md)
+- [Organic Chemistry Q&A (2026-08-20)](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/qna/chem-103-qna-v260820-0.md)
+- [Organic Chemistry Exam Answers (2026-08-25)](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/qna/chem-103-qna-v260825-0.md)
+- [Organic Chemistry Exam Answers (2026-08-25).1](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/qna/chem-103-qna-v260825-1.md)
+- [Organic Chemistry Exam Answers (2026-08-25).2 — Corrected Final](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/qna/chem-103-qna-v260825-2.md)
+- [Organic Chemistry Exam Answers (2026-09-23)](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/qna/chem-103-qna-v260923-0.md) — Amines, carbohydrates, amino acids & dyes
+- [Chemistry-II Lab Final — Model Answers, Odd/Even ID (v261005-0) ✨](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/qna/chem-103-odd-even-qna-v261005-0.md) — Molecular formulae, identification of organic acids, estimation of sodium carbonate in washing soda
+- [Chemistry-II Lab Final — Odd/Even ID with Memorization Sheet (v261005-1) ✨](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/qna/chem-103-odd-even-qna-v261005-1.md) — Formulae & structures, formic/acetic/oxalic/benzoic acid identification, washing soda estimation
+- [Complete Solved Question Bank 2017–2023](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/qna/chem-103-2017-2023-qb-v260902-0.md)
 
 </details>
 
 <details>
 <summary><b>📂 Quick Revision</b></summary>
 
-- [One-Shot: Organic Reactions & Organometallic](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/quick_rev/OneShot_OrganicReactions_Organometallic.md)
-- [Addition, Substitution, Grignard & TEL](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/quick_rev/addition_substitution_grignard_tel.md)
-- [Nucleophilic Mechanisms](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/quick_rev/nucleophilic_mechanisms.md)
-- [Colors, Dyes and Pigments Notes](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/quick_rev/Colors_Dyes_Pigments_Notes.md)
-- [CT-2 Exam Prep — Complete Answers ✨](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/quick_rev/chem103-ct2-prep.md)
-- [CT Exam Answers — Amines, Amino Acids, Carbohydrates & Dyes ✨](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/quick_rev/CHEM103-ct-qna.md)
-- [Chemistry-II Solved Question Bank 2017–2023 (v260923.0) ✨](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/quick_rev/chem103-qna-v260923.0-2017-2023.md)
-- [Chemistry-II Solved Question Bank 2017–2023 (English edition) ✨](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/quick_rev/Complete_Solved_Question_Bank_en_2017-2023.md)
+- [One-Shot: Organic Reactions & Organometallic](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/quick_rev/chem-103-organic-reactions-organometallic-oneshot-v260725-0.md)
+- [Addition, Substitution, Grignard & TEL](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/quick_rev/chem-103-addition-substitution-grignard-tel-notes-v260725-0.md)
+- [Nucleophilic Mechanisms](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/quick_rev/chem-103-nucleophilic-mechanisms-notes-v260726-0.md)
+- [Colors, Dyes and Pigments Notes](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/quick_rev/chem-103-colors-dyes-pigments-notes-v260821-0.md)
+- [CT-2 Exam Prep — Complete Answers ✨](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/quick_rev/chem-103-ct2-prep-v260927-0.md)
+- [CT Exam Answers — Amines, Amino Acids, Carbohydrates & Dyes ✨](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/quick_rev/chem-103-ct-qna-v260926-0.md)
+- [Chemistry-II Solved Question Bank 2017–2023 (v260923-0) ✨](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/quick_rev/chem-103-2017-2023-qna-v260923-0.md)
+- [Chemistry-II Solved Question Bank 2017–2023 (English edition) ✨](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/quick_rev/chem-103-2017-2023-qb-v260922-0.md)
 
 </details>
 
@@ -264,7 +266,7 @@ This repository contains comprehensive course notes from my journey through the 
 
 > Reusable SVG diagrams embedded across the CHEM-103 quick-revision notes, grouped by topic.
 
-- [📖 Asset Index & Usage Guide](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/quick_rev/chem103-asset-index.md)
+- [📖 Asset Index & Usage Guide](https://github.com/itachi-re/butex-notes/blob/master/CHEM-103/quick_rev/chem-103-asset-index-v260923-0.md)
 
 | Folder | Diagrams | Covers |
 | :--- | :---: | :--- |
@@ -284,6 +286,7 @@ This repository contains comprehensive course notes from my journey through the 
 | [`summary/`](https://github.com/itachi-re/butex-notes/tree/master/CHEM-103/quick_rev/assets/summary) | 2 | Mechanisms overview & reactions index |
 
 </details>
+
 ---
 
 ### CHEM-104 Topics
@@ -368,6 +371,7 @@ This repository contains comprehensive course notes from my journey through the 
 - [Fe²⁺ / KMnO₄ Estimation](https://github.com/itachi-re/butex-notes/blob/master/CHEM-104/lab/Fe2-KMnO4-estimation.md)
 
 </details>
+
 ---
 
 ### Physics 101 Topics
@@ -699,11 +703,16 @@ This repository contains comprehensive course notes from my journey through the 
 <details>
 <summary><b>📂 Q&A</b></summary>
 
+- [📖 Q&A Guide — Which file do I open?](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/qna/README.md)
 - [Complete Solved Question Bank 2017–2023](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/qna/phy-103-question-bank-complete-solved-2017-2023.md)
 - [Complete Solved Question Bank 2017–2023 (alt)](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/qna/phy-103-qna-2017-2023.md)
 - [Question Bank 1422](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/qna/phy-103-question-bank-1422.md)
 - [Question Bank 1422 (Grouped)](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/qna/phy-103-question-bank-1422-g.md)
 - [Question Bank 1422 — Answers](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/qna/phy-103-question-bank-1422-answers.md)
+- [Kinetic Theory of Gases — Exam-Oriented Q&A Chapter ✨](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/qna/phy-103-kinetic-theory-of-gases-qna.md)
+- [Kinetic Theory & Thermodynamics — CT Preparation ✨](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/qna/phy-103-ct-prep-kinetic-theory-thermodynamics.md)
+- [Class Test 2 — Solved (v261004-1) ✨](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/qna/phy103-ct2-solution-v.261004-1.md) — Hysteresis, magnetic force on a moving charge, Newton's law of cooling, isothermal work
+- [Class Test 2 — Solved (v261004-2) ✨](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/qna/phy103-ct2-solution-v.261004-2.md) — Kinetic theory postulates and pressure, specific heats, isentropic process
 
 **Split Solved Question Bank (14 parts) ✨** — standard derivations written once and cross-referenced by code (D-1…D-51), split so GitHub renders every equation:
 - [📖 Contents & Derivation Finder](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/qna/phy-103-qna/README.md)
@@ -731,8 +740,10 @@ This repository contains comprehensive course notes from my journey through the 
 - [Kinetic Theory of Gases — Q&A 2018–2023](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/quick_rev/phy-103-kinetic-theory-of-gases-qna-2018-2023.md)
 - [Electricity Q&A 2015–2024](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/quick_rev/phy-103-electricity-qna-2015-2024.md)
 - [Electricity Exam Prep](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/quick_rev/phy-103-electricity-exam-prep.md)
+- [Physics-II CT — Practice Questions with Solutions (v261004-0) ✨](https://github.com/itachi-re/butex-notes/blob/master/PHY-103/quick_rev/phy103-ct-prep-qna-v.261004-0.md) — MCQs, short answers, derivations, numericals, mock CT paper
 
 </details>
+
 ---
 
 ### MATH-101 Topics
@@ -975,6 +986,7 @@ This repository contains comprehensive course notes from my journey through the 
 - [Complex Variables Quick Revision](https://github.com/itachi-re/butex-notes/blob/master/MATH-103/quick_rev/ms-103-complex-variables.md)
 
 </details>
+
 ---
 
 ### YE-101 Topics
@@ -1259,9 +1271,13 @@ This repository contains comprehensive course notes from my journey through the 
 </details>
 
 <details>
-<summary><b>📂 Q&A</b></summary>
+<summary><b>📂 Q&A ✨ Expanded</b></summary>
 
 - [C Loops and Switch-Case](https://github.com/itachi-re/butex-notes/blob/master/MDM-102/qna/c-loops-and-switch-case.md)
+- [Viva — Important Short Questions (2026-10-08) ✨](https://github.com/itachi-re/butex-notes/blob/master/MDM-102/qna/mdm-101-viva-questions-v261008-0.md) — Star-ranked short answers from C basics to pointers, rapid-fire round, commonly asked programs
+- [C Programming — Enhanced Quick Revision with Code, Topics 1–11 (2026-10-08) ✨](https://github.com/itachi-re/butex-notes/blob/master/MDM-102/qna/mdm-102-quick-revision-v.261008-0.md) — Complete example programs for all 11 topics, last-minute exam traps, compile & debug commands
+- [C Programming — Homework Programs Quick Revision (2026-10-08) ✨](https://github.com/itachi-re/butex-notes/blob/master/MDM-102/qna/mdm-102-quick-revision-v.261008-1.md) — Walk-through of the seven homework programs, loop cheat sheet, self-test
+- [C Programming — Unified Quick Revision (2026-10-08) ✨](https://github.com/itachi-re/butex-notes/blob/master/MDM-102/qna/mdm-102-quick-revision-v.261008-2.md) — Class-test notes, Q1–Q20 exam answers and study guides merged in 20 sections
 
 </details>
 
@@ -1274,8 +1290,10 @@ This repository contains comprehensive course notes from my journey through the 
 - [C Programming — Condensed Exam Answers (2026-09-29)](https://github.com/itachi-re/butex-notes/blob/master/MDM-102/quick_rev/c_programming_260929.1.md) — Same 20 questions, last-day revision
 - [C Programming Suggestions](https://github.com/itachi-re/butex-notes/blob/master/MDM-102/quick_rev/c_programming_sug.md)
 - [C Programming Suggestions (Part 2)](https://github.com/itachi-re/butex-notes/blob/master/MDM-102/quick_rev/c_programming_sug_2.md)
+- [C Programming — Viva-Ready File (2026-10-08) ✨](https://github.com/itachi-re/butex-notes/blob/master/MDM-102/quick_rev/mdm-102-ruick-rev-viva-v261008-0.md) — Q&A by topic, lab-program walk-throughs, output-prediction drill, true/false rapid fire
 
 </details>
+
 ---
 
 ### IPE-101 Topics
@@ -1314,6 +1332,7 @@ This repository contains comprehensive course notes from my journey through the 
 - [05 - Heat Treatment of Steel (Annealing, Normalizing, Quenching, Tempering, Surface Hardening)](https://github.com/itachi-re/butex-notes/blob/master/IPE-101/lab/ipe102-lab-05-heat-treatment.md)
 - [06 - Sand Moulds, Core Making, Pattern for Casting, Sand Casting](https://github.com/itachi-re/butex-notes/blob/master/IPE-101/lab/ipe102-lab-06-sand-casting.md)
 - [07 - Gear Cutting and Thread Cutting](https://github.com/itachi-re/butex-notes/blob/master/IPE-101/lab/ipe102-lab-07-gear-thread-cutting.md)
+- [Final Practical Report — Lathe, Shaper & Grinding Machines (Experiments 1–3) ✨](https://github.com/itachi-re/butex-notes/blob/master/IPE-101/lab/ipe-102-practical-report-final.md)
 
 </details>
 
@@ -1321,6 +1340,7 @@ This repository contains comprehensive course notes from my journey through the 
 <summary><b>📂 Quick Revision</b></summary>
 
 - [Materials Revision Notebook](https://github.com/itachi-re/butex-notes/blob/master/IPE-101/quick_rev/materials_revision_notebook.md)
+- [IPE-102 Viva Quick Revision — Lathe, Shaper & Grinding (v261009-0) ✨](https://github.com/itachi-re/butex-notes/blob/master/IPE-101/quick_rev/ipe-102-viva-quick-revision-v261009-0.md)
 
 **Heat Treatment of Steel ✨** — annealing, normalizing, hardening, tempering, austempering, TTT/CCT, with dedicated diagrams:
 - [Comprehensive Exam Guide (v260929.0)](https://github.com/itachi-re/butex-notes/blob/master/IPE-101/quick_rev/ipe-101-heat-treatment-v260929.0.md)
@@ -1330,6 +1350,7 @@ This repository contains comprehensive course notes from my journey through the 
 - [CT-2 Exam Preparation Guide (v260930.2)](https://github.com/itachi-re/butex-notes/blob/master/IPE-101/quick_rev/ipe-101-heat-treatment-ct2-prep-v260930.2.md)
 
 </details>
+
 ---
 
 ### WPE-101 Topics
@@ -1393,7 +1414,8 @@ This repository contains comprehensive course notes from my journey through the 
 
 - [Analytical Chemistry — Lab Notes & Solutions](https://github.com/itachi-re/butex-notes/blob/master/lab-reports/chem-102-analytical.md) — Molecular formulae, standard solution preparation, standardization procedures, practice problems
 - [Chemistry Extra](https://github.com/itachi-re/butex-notes/blob/master/lab-reports/chem-102-extra.md) — Acids reference
-- [Qualitative Organic Analysis & Volumetric Titrations ✨](https://github.com/itachi-re/butex-notes/blob/master/lab-reports/chem-104-qual-organic-volumetric-titrations.md) — Iodoform/FeCl₃ identification tests, titration end-points, apparatus diagrams
+- [Qualitative Organic Analysis & Volumetric Titrations ✨](https://github.com/itachi-re/butex-notes/blob/master/lab-reports/chem-104-qual-organic-volumetric-titrations.md) — Full report with table of contents and experiment dates: Iodoform/FeCl₃ identification tests, titration end-points, apparatus diagrams
+- [Qualitative Organic Analysis & Volumetric Titrations — Exam Notebook Version ✨](https://github.com/itachi-re/butex-notes/blob/master/lab-reports/chem-104-qual-organic-volumetric-titrations-1.md) — Condensed notebook of Experiments 1–5 (12 Aug – 15 Sep 2026): alcohols, carboxylic acids, washing soda, KMnO₄ standardization, Fe²⁺ estimation
 
 </details>
 
@@ -1545,8 +1567,8 @@ butex-notes/
 ├── CHEM-103/                    # Organic Chemistry — Reactions & Mechanisms
 │   ├── organic_reaction/        # Inductive/electromeric/mesomeric effects → addition rxns (12 files)
 │   ├── organometallic/          # Grignard, organozinc, TEL, alcohols, phenols (8 files)
-│   ├── qna/                     # Class tests, exam answers, solved question bank (13 files)
-│   └── quick_rev/               # Exam prep + assets/ (✨ 97-diagram library in 14 topic folders)
+│   ├── qna/                     # Class tests, exam answers, solved question bank, ✨ lab-final answers (15 files; chem-103-*-vYYMMDD-N naming)
+│   └── quick_rev/               # Exam prep (9 files, same naming) + assets/ (✨ 97-diagram library in 14 topic folders)
 ├── CHEM-104/                    # Chemistry - II (Practical)
 │   ├── identification_of_organic_compounds/  # 23 compounds + qna
 │   ├── amino_acids_proteins/    # Amino Acids and Proteins
@@ -1575,8 +1597,8 @@ butex-notes/
 │   ├── entropy/                  # ✨ Entropy (9 topics)
 │   ├── modern_physics/           # ✨ Radiation → de Broglie wave (12 topics)
 │   ├── lab/                      # ✨ PHY-104 lab notes — 6 experiments + README (7 files)
-│   ├── qna/                      # Solved question banks 2017–2023, question bank 1422, ✨ split bank in phy-103-qna/ (14 parts)
-│   └── quick_rev/
+│   ├── qna/                      # Solved question banks 2017–2023, question bank 1422, ✨ split bank in phy-103-qna/ (14 parts), ✨ kinetic-theory Q&A, CT prep & CT-2 solutions, README guide
+│   └── quick_rev/                # Kinetic theory & electricity revision + ✨ CT practice questions (5 files)
 ├── MATH-101/                    # Mathematics - I
 │   ├── differential_calculus/
 │   ├── integral_calculus/
@@ -1612,13 +1634,13 @@ butex-notes/
 │   ├── C-Programming/
 │   │   ├── homeworks/             # circle.c, triangle.c, grading programs, atm/menu/student-group
 │   │   └── c-learning-notes/      # ✨ git submodule → itachi-re/c-learning-notes
-│   ├── qna/                      # C loops and switch-case
-│   └── quick_rev/                # ✨ README + class-test prep + complete/condensed exam answers + study guides (6 files)
+│   ├── qna/                      # C loops/switch-case + ✨ quick-revision sheets & viva questions (5 files)
+│   └── quick_rev/                # ✨ README + class-test prep + complete/condensed exam answers + study guides + ✨ viva-ready file (7 files)
 ├── IPE-101/                     # Industrial & Production Engineering (Materials Science)
 │   ├── 01-properties-of-materials.md … 06-phase-diagrams-mixtures.md
-│   ├── lab/                     # IPE-102 practical lab write-ups (7 files)
+│   ├── lab/                     # IPE-102 practical lab write-ups (7 experiment notes + ✨ final practical report = 8 files)
 │   ├── qna/                     # Class tests + ✨ exam solutions 2015–2024 (3 files)
-│   └── quick_rev/               # Materials notebook + ✨ heat-treatment exam guides (6 files)
+│   └── quick_rev/               # Materials notebook + ✨ heat-treatment exam guides + ✨ IPE-102 viva revision (7 files)
 ├── WPE-101/                     # Polymer Science and Engineering
 │   ├── fundamentals/
 │   ├── classification/
@@ -1643,10 +1665,10 @@ butex-notes/
 │   └── quick_rev/                # ✨ Complete study/answer/visual guides (5 files)
 ├── YE-201/                      # Fibre & Yarn Testing
 │   └── 01_testing_and_moisture.md
-├── lab-reports/                 # Subject-organized lab reports (CHEM-102/104, PHY-102, PHY-104 electricity & heat, ✨ IPE-102) — 25 files
+├── lab-reports/                 # Subject-organized lab reports (CHEM-102/104, PHY-102, PHY-104 electricity & heat, ✨ IPE-102, ✨ exam-notebook CHEM-104 report) — 26 files
 ├── tmp/
 │   └── ME-102-Practical/        # ME practical notes (5 topics)
-├── assets/                      # Diagrams & images referenced by notes (380 SVG/PNG files)
+├── assets/                      # Diagrams & images referenced by notes (403 SVG/PNG files + 15 JPG)
 ├── pdfs/                        # PDF resources
 ├── scripts/                     # Automation scripts
 │   ├── new_note.sh
@@ -1787,8 +1809,8 @@ This project is licensed under the terms specified in the [LICENSE](LICENSE) fil
 ## 📊 Repository Stats
 
 ```
-Total Notes: 131 directories, 1,299 files (799 Markdown notes, 462 SVG/PNG diagrams)
-Last Updated: Thursday, October 1, 2026
+Total Notes: 131 directories, 1,353 files (815 Markdown notes, 500 SVG/PNG diagrams)
+Last Updated: Sunday, October 11, 2026
 Export Format: Markdown → PDF
 Department: Fabric Engineering
 University: BUTEX
