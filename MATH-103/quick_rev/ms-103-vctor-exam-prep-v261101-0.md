@@ -16,7 +16,7 @@
 The scalar projection of $\mathbf A$ on $\mathbf B$ is
 
 $$
-\operatorname{comp}_{\mathbf B}\mathbf A=\frac{\mathbf A\cdot\mathbf B}{|\mathbf B|}.
+\mathrm{comp}_{\mathbf B}\mathbf A=\frac{\mathbf A\cdot\mathbf B}{|\mathbf B|}.
 $$
 
 First,
@@ -34,13 +34,13 @@ $$
 Therefore,
 
 $$
-\boxed{\operatorname{comp}_{\mathbf B}\mathbf A=\frac{19}{9}}
+\boxed{\mathrm{comp}_{\mathbf B}\mathbf A=\frac{19}{9}}
 $$
 
 *Note:* If the question asks for the **vector projection**, use
 
 $$
-\operatorname{proj}_{\mathbf B}\mathbf A=\frac{\mathbf A\cdot\mathbf B}{|\mathbf B|^2}\mathbf B=\frac{19}{81}(4\hat i-4\hat j+7\hat k).
+\mathrm{proj}_{\mathbf B}\mathbf A=\frac{\mathbf A\cdot\mathbf B}{|\mathbf B|^2}\mathbf B=\frac{19}{81}(4\hat i-4\hat j+7\hat k).
 $$
 
 ## Q2. If $|\mathbf a+\mathbf b|=|\mathbf a-\mathbf b|$, prove that $\mathbf a$ and $\mathbf b$ are perpendicular.
@@ -715,7 +715,7 @@ $$
 **Gradient.** If $\phi(x,y,z)$ is a differentiable scalar function, its gradient is
 
 $$
-\boxed{\operatorname{grad}\phi=\nabla\phi=\frac{\partial\phi}{\partial x}\hat i+\frac{\partial\phi}{\partial y}\hat j+\frac{\partial\phi}{\partial z}\hat k}
+\boxed{\mathrm{grad}\phi=\nabla\phi=\frac{\partial\phi}{\partial x}\hat i+\frac{\partial\phi}{\partial y}\hat j+\frac{\partial\phi}{\partial z}\hat k}
 $$
 
 The gradient is a vector.
@@ -723,7 +723,7 @@ The gradient is a vector.
 **Divergence.** For $\mathbf A=A_1\hat i+A_2\hat j+A_3\hat k$,
 
 $$
-\boxed{\operatorname{div}\mathbf A=\nabla\cdot\mathbf A=\frac{\partial A_1}{\partial x}+\frac{\partial A_2}{\partial y}+\frac{\partial A_3}{\partial z}}
+\boxed{\mathrm{div}\mathbf A=\nabla\cdot\mathbf A=\frac{\partial A_1}{\partial x}+\frac{\partial A_2}{\partial y}+\frac{\partial A_3}{\partial z}}
 $$
 
 The divergence is a scalar.
@@ -731,7 +731,7 @@ The divergence is a scalar.
 **Curl.**
 
 $$
-\boxed{\operatorname{curl}\mathbf A=\nabla\times\mathbf A=
+\boxed{\mathrm{curl}\mathbf A=\nabla\times\mathbf A=
 \begin{vmatrix}
 \hat i&\hat j&\hat k\\
 \partial/\partial x&\partial/\partial y&\partial/\partial z\\
@@ -814,7 +814,7 @@ $$
 \boxed{\nabla\times(\nabla\phi)=\mathbf 0}
 $$
 
-## Q28. Prove that $\operatorname{div}(\mathbf A\times\mathbf B)=\mathbf B\cdot(\nabla\times\mathbf A)-\mathbf A\cdot(\nabla\times\mathbf B)$.
+## Q28. Prove that $\mathrm{div}(\mathbf A\times\mathbf B)=\mathbf B\cdot(\nabla\times\mathbf A)-\mathbf A\cdot(\nabla\times\mathbf B)$.
 
 **Proof.** Using the product rule in Cartesian coordinates,
 
