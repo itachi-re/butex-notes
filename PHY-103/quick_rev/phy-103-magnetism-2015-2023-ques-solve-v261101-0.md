@@ -1,9 +1,9 @@
-# PHY-103 · Magnetism (Magnetic Effects of Current): Solved Previous Questions, 2015–2023
+# PHY-103 · Magnetism: Magnetic Effects of Current, Induction and AC. Solved Previous Questions, 2015–2023
 
 > **Compiled by:** sigkill0x00  
 > **Course:** Physics-II (AS 107 / PHY-103), BUTEX, B.Sc. in Textile Engineering  
-> **Chapter:** 4. Magnetic Effects of Current (from the chapter-wise question bank, 2015–2023)  
-> **Version:** v261101-0 · Every sub-question of the chapter is answered **in the order of the question bank**.
+> **Chapters:** 4. Magnetic Effects of Current, and 5. Electromagnetic Induction, Inductance and AC (plus the resonance part of 2016 Q1(a)), from the chapter-wise question bank, 2015–2023  
+> **Version:** v261101-0 · Every sub-question of both chapters is answered **in the order of the question bank** (Part A = Chapter 4, Part B = Chapter 5).
 
 **How to read this file**
 
@@ -11,11 +11,12 @@
 - Figures are stored in [`../../assets/`](../../assets/) and linked from there.
 - Where the same question was asked in several years, the **full answer is written once** (at its first appearance) and each repeat gets a **condensed model answer** with a link back to the full version. Nothing is skipped.
 - Numerical answers show data → formula → substitution → result with units.
+- RC-circuit questions are included in Part B because the question bank lists them under Chapter 5.
 - **Assumption note (2018 Q2(c)):** the loop is taken as a single turn (N = 1), since no number of turns is given.
 
 ---
 
-## Question index
+## Question index, Part A: Magnetic Effects of Current (Chapter 4)
 
 | # | Year · Question | Topic | Jump |
 |---|---|---|---|
@@ -42,7 +43,46 @@
 | 21 | 2023 · Q2(c) | Force on a conductor (numerical) | [go](#q2023-2c) |
 | 22 | 2023 · Q3(b) | Hysteresis and the hysteresis curve | [go](#q2023-3b) |
 
+## Question index, Part B: Electromagnetic Induction, Inductance and AC (Chapter 5)
+
+| # | Year · Question | Topic | Jump |
+|---|---|---|---|
+| 23 | 2015 · Q2(a)(i) | Define choke coil | [go](#b2015-2ai) |
+| 24 | 2015 · Q3(a) | Faraday's law and Lenz's law | [go](#b2015-3a) |
+| 25 | 2015 · Q3(b) | Current loop and magnetic induction (torque) | [go](#b2015-3b) |
+| 26 | 2015 · Q4(a) | Faraday's laws of electromagnetic induction | [go](#b2015-4a) |
+| 27 | 2015 · Q4(c) | Lenz's law and conservation of energy | [go](#b2015-4c) |
+| 28 | 2016 · Q1(a) | Resonance (with Ohm's law) | [go](#b2016-1a) |
+| 29 | 2016 · Q2(a) | Faraday's laws | [go](#b2016-2a) |
+| 30 | 2016 · Q2(c)(ii) | Define mutual induction | [go](#b2016-2cii) |
+| 31 | 2016 · Q2(c)(iii) | Define self-induction | [go](#b2016-2ciii) |
+| 32 | 2016 · Q3(c) | Self-inductance of a coil (numerical) | [go](#b2016-3c) |
+| 33 | 2016 · Q4(b) | LR circuit: growth and decay | [go](#b2016-4b) |
+| 34 | 2017 · Q3(c) | Faraday's law | [go](#b2017-3c) |
+| 35 | 2017 · Q4(b) | Time constant; charging of an RC circuit | [go](#b2017-4b) |
+| 36 | 2017 · Q4(c) | Lenz's law and conservation of energy | [go](#b2017-4c) |
+| 37 | 2018 · Q2(b) | Lenz's law and conservation of energy | [go](#b2018-2b) |
+| 38 | 2018 · Q4(a) | RC time constant; charge equation | [go](#b2018-4a) |
+| 39 | 2018 · Q4(b) | Resonance; resonant frequency of RLC | [go](#b2018-4b) |
+| 40 | 2018 · Q4(c) | RLC frequency (numerical) | [go](#b2018-4c) |
+| 41 | 2020 · Q2(a) | Lenz's law and conservation of energy | [go](#b2020-2a) |
+| 42 | 2020 · Q2(b) | Current growth in an LR circuit | [go](#b2020-2b) |
+| 43 | 2020 · Q2(c) | LR time constant (numerical) | [go](#b2020-2c) |
+| 44 | 2020 · Q3(b) | LR circuit: growth and decay | [go](#b2020-3b) |
+| 45 | 2021 · Q2(a) | Faraday's law and Lenz's law | [go](#b2021-2a) |
+| 46 | 2021 · Q2(b) | Lenz's law and conservation of energy | [go](#b2021-2b) |
+| 47 | 2021 · Q2(c) | Self-inductance of a coil (numerical) | [go](#b2021-2c) |
+| 48 | 2021 · Q4(b) | LR growth and decay curves | [go](#b2021-4b) |
+| 49 | 2021 · Q4(c) | LR half-current time (numerical) | [go](#b2021-4c) |
+| 50 | 2023 · Q3(a) | Faraday's law | [go](#b2023-3a) |
+| 51 | 2023 · Q3(c) | Lenz's law and direction of induced current | [go](#b2023-3c) |
+| 52 | 2023 · Q4(a) | RC time constant; charge equation | [go](#b2023-4a) |
+| 53 | 2023 · Q4(b) | Resonance; resonant frequency of RLC | [go](#b2023-4b) |
+| 54 | 2023 · Q4(c) | RLC frequency (numerical) | [go](#b2023-4c) |
+
 ---
+
+# Part A · Magnetic Effects of Current (Chapter 4)
 
 <a id="q2015-2aii"></a>
 ## 2015 · Q2(a)(ii): Define torque.
@@ -658,14 +698,602 @@ The force is perpendicular to the plane containing the conductor and the field (
 
 ---
 
+---
+
+# Part B · Electromagnetic Induction, Inductance and AC (Chapter 5)
+
+These are the induction, inductance, RC/LR/RLC and resonance questions of the bank. Where a Chapter 5 question is identical to one already answered in Part A, it is listed again in order with a short answer and a link, so nothing is skipped.
+
+<a id="b2015-2ai"></a>
+## 2015 · Q2(a)(i): Define choke coil.
+
+**Answer.** A **choke coil** is a coil of **high inductance and very low resistance**, wound with thick copper wire on a laminated soft-iron core. It is used to **reduce (choke) alternating current without wasting power**.
+
+**Principle.** Its opposition to AC is the inductive reactance $X_L=\omega L=2\pi fL$. The current is
+
+$$I_{rms}=\frac{V_{rms}}{\sqrt{R^2+X_L^2}}\approx\frac{V_{rms}}{X_L}\quad(R\approx0)$$
+
+and it lags the voltage by almost $90^\circ$, so the average power $P=VI\cos\phi\approx0$. For this reason it is called a **wattless** device. A resistor would reduce the current too, but it wastes energy as heat ($I^2R$).
+
+- **Uses:** tube-light circuits, fan regulators, radio and filter circuits (blocks high-frequency AC, passes DC).
+- **Example.** $L=0.5$ H at 50 Hz: $X_L=2\pi\times50\times0.5\approx157\ \Omega$. On a 220 V supply the current is $220/157\approx1.4$ A with almost no power loss.
+
+---
+
+<a id="b2015-3a"></a>
+## 2015 · Q3(a): Explain Faraday's law and Lenz's law. (Chapter 5 part of the question)
+
+The full answer (force on a moving charge, Faraday's law with the formula $\varepsilon=-N\,d\Phi/dt$, Lenz's law and the coil-and-magnet figure) is written in Part A: [2015 Q3(a)](#q2015-3a). Faraday's laws in more detail, with experiments and motional emf, are in [2015 Q4(a)](#b2015-4a), and Lenz's law with the energy argument is in [2015 Q4(c)](#b2015-4c).
+
+**In brief.**
+
+- **Faraday:** an emf is induced whenever the flux linked with a circuit changes, and its magnitude is the rate of change of flux linkage, $\varepsilon=-N\,d\Phi/dt$.
+- **Lenz:** the induced current flows in the direction that **opposes the change of flux** that causes it (the minus sign).
+
+---
+
+<a id="b2015-3b"></a>
+## 2015 · Q3(b): Derive an expression involving a current-carrying loop and magnetic induction. (Chapter 5 listing)
+
+The source wording is garbled. It is the same sub-question as the torque derivation in Part A, [2015 Q3(b)](#q2015-3b), which defines magnetic induction and derives the torque on the loop.
+
+$$\boxed{\tau=NIAB\sin\theta}\qquad(\vec\tau=\vec m\times\vec B,\ \vec m=NIA\,\hat n)$$
+
+![Forces on the loop form a couple of arm b sin θ](../../assets/magnetism-torque-on-loop.svg)
+
+---
+
+<a id="b2015-4a"></a>
+## 2015 · Q4(a): State and explain Faraday's laws of electromagnetic induction.
+
+### Faraday's experiments
+
+1. **Magnet and coil.** Moving a magnet towards or away from a coil connected to a galvanometer deflects the needle. There is no deflection when the magnet is at rest, and a faster motion gives a larger deflection.
+2. **Two coils.** Switching the current on or off in a primary coil (or changing it) makes the galvanometer of a nearby secondary coil deflect.
+3. **Changing area or angle.** Rotating a coil in a field, or changing its area, also induces an emf.
+
+In every case the **magnetic flux linked with the coil changes**.
+
+![Magnet and coil: induced current while the flux changes](../../assets/magnetism-faraday-lenz.svg)
+
+### Laws
+
+Magnetic flux: $\Phi=BA\cos\theta$ (unit: weber, Wb).
+
+- **First law.** Whenever the magnetic flux linked with a circuit changes, an emf is induced in the circuit. The emf lasts only as long as the flux is changing.
+- **Second law.** The magnitude of the induced emf is directly proportional to the rate of change of flux linkage.
+
+$$\varepsilon=-N\frac{d\Phi}{dt}$$
+
+The minus sign is Lenz's law. For a coil of $N$ turns, $N\Phi$ is the flux linkage. The emf can be increased by more turns, a stronger magnet, or faster motion.
+
+### Motional emf (a direct consequence)
+
+A conductor of length $l$ moving with speed $v$ perpendicular to a field $B$ sweeps area $l\,v\,dt$ in time $dt$, so $d\Phi=B\,l\,v\,dt$ and
+
+$$\varepsilon=Blv$$
+
+**Example.** $B=0.2$ T, $l=0.5$ m, $v=4$ m/s: $\varepsilon=0.2\times0.5\times4=0.4$ V.
+
+---
+
+<a id="b2015-4c"></a>
+## 2015 · Q4(c): State Lenz's law. Show that the law obeys the principle of conservation of energy.
+
+### Lenz's law
+
+> The direction of an induced emf (or current) is such that it **opposes the change in flux** that produces it.
+
+### Proof that it obeys conservation of energy
+
+**Qualitative argument.** Push the N pole of a magnet towards a coil. By Lenz's law the near face of the coil becomes an **N pole** and repels the magnet, so you must do work against this repulsion. That work appears as electrical energy (and then heat) in the coil.
+
+Suppose instead the induced current **aided** the change. The near face would become an S pole and attract the magnet, which would then speed up by itself and produce even more current. Kinetic energy and electrical energy would both increase with no work supplied, which is **creation of energy from nothing**. This is impossible, so the induced effect must oppose the change.
+
+![Rod sliding on rails: the opposing force F means work must be done](../../assets/magnetism-lenz-energy.svg)
+
+**Quantitative proof (sliding rod).** A rod of length $l$ moves at constant speed $v$ on rails of resistance $R$ in a field $B$ (into the page).
+
+1. Induced emf: $\varepsilon=Blv$. Current: $I=\dfrac{Blv}{R}$. By Lenz's law it is anticlockwise (opposing the growing flux).
+2. Force on the rod: $F=BIl=\dfrac{B^2l^2v}{R}$, directed **opposite to $v$**.
+3. Mechanical power needed to keep $v$ constant:
+
+$$P_{mech}=Fv=\frac{B^2l^2v^2}{R}$$
+
+4. Electrical power dissipated in $R$:
+
+$$P_{elec}=\varepsilon I=\frac{(Blv)^2}{R}=\frac{B^2l^2v^2}{R}$$
+
+$$\boxed{P_{mech}=P_{elec}}$$
+
+The mechanical work supplied equals the electrical energy produced, so Lenz's law is exactly energy conservation.
+
+**Example.** $B=0.5$ T, $l=0.4$ m, $v=3$ m/s, $R=2\ \Omega$: $\varepsilon=0.6$ V, $I=0.3$ A, $F=0.5\times0.3\times0.4=0.06$ N, $P_{mech}=0.06\times3=0.18$ W, $P_{elec}=0.6\times0.3=0.18$ W. ✓
+
+---
+
+<a id="b2016-1a"></a>
+## 2016 · Q1(a) (resonance part): State Ohm's law and explain resonance.
+
+*(This sub-question sits in Current Electricity in the bank. Its resonance portion belongs with AC, so it is answered here.)*
+
+**Ohm's law.** At constant temperature the current through a conductor is directly proportional to the potential difference across it, $V=IR$.
+
+**Resonance.** In a series **RLC circuit** driven by an AC source, resonance occurs at the frequency at which the inductive reactance equals the capacitive reactance, $X_L=X_C$. Then the impedance is minimum ($Z=R$), the current is maximum ($I=V/R$) and in phase with the voltage, and
+
+$$f_0=\frac{1}{2\pi\sqrt{LC}}$$
+
+The full derivation, properties and figure are in [2018 Q4(b)](#b2018-4b).
+
+---
+
+<a id="b2016-2a"></a>
+## 2016 · Q2(a): Write down Faraday's laws of electromagnetic induction.
+
+- **First law.** Whenever the magnetic flux linked with a circuit changes, an emf is induced in it. The emf exists only while the flux is changing.
+- **Second law.** The magnitude of the induced emf equals the rate of change of flux linkage:
+
+$$\varepsilon=-N\frac{d\Phi}{dt},\qquad\Phi=BA\cos\theta$$
+
+The minus sign expresses Lenz's law. Experiments, motional emf $\varepsilon=Blv$ and an example are in [2015 Q4(a)](#b2015-4a).
+
+---
+
+<a id="b2016-2cii"></a>
+## 2016 · Q2(c)(ii): Define mutual induction.
+
+**Answer.** **Mutual induction** is the phenomenon in which a **change of current in one coil induces an emf in a neighbouring coil**, because the changing flux of the first coil links with the second.
+
+![Two coils: changing I1 induces an emf in coil 2](../../assets/magnetism-mutual-induction.svg)
+
+$$\varepsilon_2=-M\frac{dI_1}{dt},\qquad M=\frac{N_2\Phi_{21}}{I_1}$$
+
+$M$ is the **mutual inductance** (unit: henry). 1 H is the mutual inductance of two coils when a current changing at 1 A/s in one induces 1 V in the other. $M$ depends on the number of turns, the geometry, the distance between the coils and the core. The transformer works on this principle.
+
+**Example.** $M=0.5$ H and the primary current falls from 3 A to 0 in 0.1 s: $|\varepsilon_2|=0.5\times\dfrac{3}{0.1}=15$ V.
+
+---
+
+<a id="b2016-2ciii"></a>
+## 2016 · Q2(c)(iii): Define self-induction.
+
+**Answer.** **Self-induction** is the property of a coil by which it **opposes any change of the current through it**, by inducing an emf (back emf) in itself when its own current, and hence its own flux, changes.
+
+$$\varepsilon=-L\frac{dI}{dt},\qquad L=\frac{N\Phi}{I}\ \ (\text{unit: henry})$$
+
+For a long solenoid $L=\dfrac{\mu_0\mu_rN^2A}{l}$. The figure and an example are in [2018 Q2(c)](#q2018-2c).
+
+![Self-induction: the induced emf opposes the change of current](../../assets/magnetism-self-induction.svg)
+
+---
+
+<a id="b2016-3c"></a>
+## 2016 · Q3(c): Calculate the self-inductance of a coil of 400 turns when a 2 A current creates $4\times10^{-4}$ Wb of flux.
+
+**Given:** $N=400$, $I=2$ A, $\Phi=4\times10^{-4}$ Wb.
+
+$$L=\frac{N\Phi}{I}=\frac{400\times4\times10^{-4}}{2}=\frac{0.16}{2}$$
+
+$$\boxed{L=0.08\ \text{H}}$$
+
+(The same problem appears in 2021: [2021 Q2(c)](#q2021-2c).)
+
+---
+
+<a id="b2016-4b"></a>
+## 2016 · Q4(b): Describe an LR circuit and plot the growth and decay of current with time.
+
+### The circuit
+
+An **LR circuit** has an inductor $L$ (with negligible resistance) in series with a resistor $R$, a battery $V$ and a switch. When the switch connects the battery the current **grows**. When the battery is removed and the circuit is closed through $R$ alone, the current **decays**.
+
+### Growth of current
+
+Apply Kirchhoff's voltage law after closing the switch:
+
+$$V=IR+L\frac{dI}{dt}\ \Rightarrow\ \frac{dI}{V-IR}=\frac{dt}{L}$$
+
+Integrating from $I=0$ at $t=0$:
+
+$$-\frac1R\ln\!\frac{V-IR}{V}=\frac{t}{L}\ \Rightarrow\ \boxed{I=I_0\left(1-e^{-Rt/L}\right)},\qquad I_0=\frac VR$$
+
+### Decay of current
+
+With the battery removed, $L\dfrac{dI}{dt}+IR=0$, so
+
+$$\boxed{I=I_0\,e^{-Rt/L}}$$
+
+![Growth and decay of current in an LR circuit](../../assets/magnetism-lr-growth-decay.svg)
+
+**Time constant** $\tau=\dfrac LR$ (seconds). At $t=\tau$ the growing current has reached **63.2%** of $I_0$ and the decaying current has fallen to **36.8%** of $I_0$. After about $5\tau$ both are practically at their final values. The inductor stores energy $U=\tfrac12LI_0^2$.
+
+**Example.** $L=2$ H, $R=10\ \Omega$, $V=20$ V: $\tau=0.2$ s, $I_0=2$ A. At $t=0.2$ s the growing current is $2\times0.632=1.26$ A.
+
+---
+
+<a id="b2017-3c"></a>
+## 2017 · Q3(c): Write down Faraday's law of electromagnetic induction.
+
+An emf is induced in a circuit whenever the magnetic flux linked with it changes (**first law**), and the magnitude of the induced emf equals the rate of change of flux linkage (**second law**):
+
+$$\varepsilon=-N\frac{d\Phi}{dt}$$
+
+where $\Phi=BA\cos\theta$ is in weber. See [2015 Q4(a)](#b2015-4a) for the explanation and motional emf.
+
+---
+
+<a id="b2017-4b"></a>
+## 2017 · Q4(b): What is time constant? Discuss the charging process of an RC circuit.
+
+### Time constant
+
+The **time constant** $\tau=RC$ of an RC circuit is the time in which the charge on a charging capacitor rises to $(1-1/e)\approx63.2\%$ of its final value (or, in discharge, falls to $1/e\approx36.8\%$ of its initial value). Unit: second.
+
+### Charging process
+
+A capacitor $C$ (initially uncharged) is connected through a resistor $R$ to a battery $V_0$. Current flows, charge builds on the plates, and the capacitor voltage rises until it equals $V_0$.
+
+At any instant, Kirchhoff's voltage law gives
+
+$$V_0=IR+\frac qC,\qquad I=\frac{dq}{dt}$$
+
+$$R\frac{dq}{dt}=\frac{CV_0-q}{C}\ \Rightarrow\ \frac{dq}{CV_0-q}=\frac{dt}{RC}$$
+
+Integrating from $q=0$ at $t=0$:
+
+$$-\ln\frac{CV_0-q}{CV_0}=\frac{t}{RC}\ \Rightarrow\ \boxed{q=Q_0\left(1-e^{-t/RC}\right)},\qquad Q_0=CV_0$$
+
+![Charge rises and current falls exponentially](../../assets/magnetism-rc-charging.svg)
+
+**Related results**
+
+- Current: $I=\dfrac{dq}{dt}=\dfrac{V_0}{R}e^{-t/RC}$ (maximum at $t=0$, falls to zero).
+- Capacitor voltage: $V_C=V_0(1-e^{-t/\tau})$. Resistor voltage: $V_R=V_0e^{-t/\tau}$.
+
+| Time | Charge reached |
+|---|---|
+| $\tau$ | 63.2% |
+| $2\tau$ | 86.5% |
+| $3\tau$ | 95.0% |
+| $5\tau$ | 99.3% |
+
+**Example.** $R=1\ \text{M}\Omega$, $C=2\ \mu\text{F}$, $V_0=10$ V: $\tau=2$ s, and at $t=2$ s the capacitor voltage is $10\times0.632=6.32$ V.
+
+---
+
+<a id="b2017-4c"></a>
+## 2017 · Q4(c): State Lenz's law. Show that the law obeys the principle of conservation of energy.
+
+**Lenz's law:** the induced emf and current oppose the change of flux that produces them.
+
+**Conservation of energy (summary).** The opposing force means external work must be done to produce the change. For a rod on rails, $\varepsilon=Blv$, $I=Blv/R$, the opposing force is $F=BIl=B^2l^2v/R$, and
+
+$$P_{mech}=Fv=\frac{B^2l^2v^2}{R}=\varepsilon I=P_{elec}$$
+
+Mechanical work in equals electrical energy out, so energy is conserved. If the induced effect aided the change, energy would be created from nothing. The complete argument with the figure is in [2015 Q4(c)](#b2015-4c).
+
+![The opposing force F; work done against it becomes electrical energy](../../assets/magnetism-lenz-energy.svg)
+
+---
+
+<a id="b2018-2b"></a>
+## 2018 · Q2(b): Show that Lenz's law follows the law of conservation of energy.
+
+Condensed model answer (full version: [2015 Q4(c)](#b2015-4c)).
+
+1. **Magnet and coil:** moving the N pole towards a coil makes its near face an N pole, which **repels** the magnet. Work must be done against this repulsion, and that work becomes electrical energy and heat. If the face became an S pole instead, the magnet would be pulled in and would gain kinetic energy while the coil also produced current, which means energy from nothing.
+2. **Rod on rails:** $\varepsilon=Blv$, $I=\dfrac{Blv}{R}$, opposing force $F=BIl=\dfrac{B^2l^2v}{R}$.
+
+$$P_{mech}=Fv=\frac{B^2l^2v^2}{R}=\varepsilon I=P_{elec}$$
+
+Hence Lenz's law is a consequence of conservation of energy.
+
+![Sliding rod: F opposes v and the work done appears as heat in R](../../assets/magnetism-lenz-energy.svg)
+
+---
+
+<a id="b2018-4a"></a>
+## 2018 · Q4(a): Define the time constant of an RC circuit. Derive an equation for the charge of an RC circuit when the capacitor is charging.
+
+**Time constant.** $\tau=RC$ is the time in which the charge on a charging capacitor reaches $63.2\%$ of its maximum value (equivalently, the time for the discharge charge to fall to $36.8\%$).
+
+**Derivation** (full discussion in [2017 Q4(b)](#b2017-4b)).
+
+1. KVL for the charging circuit: $V_0=IR+\dfrac qC$ with $I=\dfrac{dq}{dt}$.
+2. Rearranging: $\dfrac{dq}{CV_0-q}=\dfrac{dt}{RC}$.
+3. Integrating from $(q=0,\ t=0)$: $-\ln\!\dfrac{CV_0-q}{CV_0}=\dfrac{t}{RC}$.
+4. Hence
+
+$$\boxed{q=CV_0\left(1-e^{-t/RC}\right)=Q_0\left(1-e^{-t/\tau}\right)}$$
+
+At $t=\tau$: $q=0.632\,Q_0$. At $t\to\infty$: $q\to Q_0=CV_0$.
+
+![Charging curve of an RC circuit](../../assets/magnetism-rc-charging.svg)
+
+---
+
+<a id="b2018-4b"></a>
+## 2018 · Q4(b): What is resonance? Deduce the equation of resonant frequency of an RLC circuit.
+
+### Resonance
+
+In a **series RLC circuit** driven by an AC source of variable frequency, **resonance** occurs at the frequency at which the inductive reactance equals the capacitive reactance ($X_L=X_C$). At that frequency the impedance is minimum, the current is maximum, and the current is in phase with the applied voltage.
+
+### Derivation
+
+Reactances: $X_L=\omega L$ and $X_C=\dfrac1{\omega C}$. Impedance and current:
+
+$$Z=\sqrt{R^2+\left(\omega L-\frac1{\omega C}\right)^2},\qquad I=\frac VZ$$
+
+$Z$ is smallest (equal to $R$) when the bracket is zero:
+
+$$\omega_0L=\frac1{\omega_0C}\ \Rightarrow\ \omega_0^2=\frac1{LC}$$
+
+$$\boxed{\omega_0=\frac1{\sqrt{LC}}}\qquad\boxed{f_0=\frac1{2\pi\sqrt{LC}}}$$
+
+![Current versus frequency: the peak is at f0 and is sharper for a smaller R](../../assets/magnetism-rlc-resonance.svg)
+
+**At resonance**
+
+- $Z=R$ (minimum), $I_{max}=V/R$, phase angle $\phi=0$, power factor $=1$.
+- $V_L$ and $V_C$ are equal in magnitude and opposite in phase, so they cancel.
+- Below $f_0$ the circuit is capacitive ($X_C>X_L$); above $f_0$ it is inductive.
+- Quality factor $Q=\dfrac{\omega_0L}{R}=\dfrac1R\sqrt{\dfrac LC}$; bandwidth $\Delta f=\dfrac{f_0}{Q}=\dfrac{R}{2\pi L}$. A smaller $R$ gives a sharper peak.
+- **Application:** tuning a radio to a station.
+
+**Example.** $L=1$ mH, $C=1\ \mu$F: $f_0=\dfrac1{2\pi\sqrt{10^{-3}\times10^{-6}}}\approx5.03$ kHz.
+
+---
+
+<a id="b2018-4c"></a>
+## 2018 · Q4(c): An RLC circuit has an inductor of 50 μH, a capacitor of $5\times10^{-4}$ μF and a resistor of 100 Ω. Find the frequency of the circuit.
+
+**Given:** $L=50\ \mu\text{H}=5\times10^{-5}$ H, $C=5\times10^{-4}\ \mu\text{F}=5\times10^{-10}$ F, $R=100\ \Omega$.
+
+The frequency of the circuit is its **resonant frequency**,
+
+$$f_0=\frac1{2\pi\sqrt{LC}}$$
+
+$$LC=5\times10^{-5}\times5\times10^{-10}=2.5\times10^{-14}\ \text{s}^2,\qquad\sqrt{LC}=1.581\times10^{-7}\ \text{s}$$
+
+$$f_0=\frac{1}{2\pi\times1.581\times10^{-7}}=\frac{1}{9.935\times10^{-7}}$$
+
+$$\boxed{f_0\approx1.0\times10^{6}\ \text{Hz}\approx1.01\ \text{MHz}}$$
+
+**Remarks.** $R$ does not enter the resonant frequency. It sets the sharpness: $\omega_0=2\pi f_0=6.32\times10^{6}$ rad/s, so $Q=\dfrac{\omega_0L}{R}=\dfrac{316\ \Omega}{100\ \Omega}\approx3.2$. (Only if the circuit were treated as a freely oscillating damped circuit would the frequency be slightly lower, $\approx0.994$ MHz. The standard answer for this question is $f_0$.)
+
+---
+
+<a id="b2020-2a"></a>
+## 2020 · Q2(a): State Lenz's law of electromagnetic induction. Show that Lenz's law follows the law of conservation of energy.
+
+**Lenz's law.** The direction of the induced current is such that it opposes the change in flux that produced it.
+
+**Energy conservation.** Pulling a rod of length $l$ at speed $v$ through a field $B$ on rails of resistance $R$:
+
+$$\varepsilon=Blv,\quad I=\frac{Blv}{R},\quad F=BIl=\frac{B^2l^2v}{R}\ (\text{opposing }v)$$
+
+$$P_{mech}=Fv=\frac{B^2l^2v^2}{R}=\varepsilon I=P_{elec}\ \Rightarrow\ \text{energy is conserved.}$$
+
+If the force aided $v$, the rod would accelerate while producing current, which creates energy from nothing. Full version: [2015 Q4(c)](#b2015-4c).
+
+![Lenz's law with the sliding rod](../../assets/magnetism-lenz-energy.svg)
+
+---
+
+<a id="b2020-2b"></a>
+## 2020 · Q2(b): Show that in an LR circuit, current increases exponentially.
+
+Connect a battery $V$ to an inductor $L$ and resistor $R$ in series at $t=0$. At any instant the battery emf equals the resistor drop plus the back emf of the inductor:
+
+$$V=IR+L\frac{dI}{dt}\ \Rightarrow\ \frac{dI}{V-IR}=\frac{dt}{L}$$
+
+Integrate from $I=0$ at $t=0$ to $I$ at $t$:
+
+$$-\frac1R\ln\!\left(\frac{V-IR}{V}\right)=\frac tL\ \Rightarrow\ V-IR=Ve^{-Rt/L}$$
+
+$$\boxed{I=\frac VR\left(1-e^{-Rt/L}\right)=I_0\left(1-e^{-t/\tau}\right)},\qquad\tau=\frac LR$$
+
+So the current rises **exponentially** from zero towards the final value $I_0=V/R$. It reaches $63.2\%$ of $I_0$ at $t=\tau$ and is essentially final after $5\tau$.
+
+![Exponential growth of the current in an LR circuit](../../assets/magnetism-lr-growth-decay.svg)
+
+---
+
+<a id="b2020-2c"></a>
+## 2020 · Q2(c): In an LR circuit with a source, the current reaches one-third of its maximum value within 5 seconds. Find the time constant of the circuit.
+
+**Given:** $t=5$ s when $I=\dfrac13I_0$.
+
+**Formula:** $I=I_0\left(1-e^{-t/\tau}\right)$
+
+$$\frac13=1-e^{-t/\tau}\ \Rightarrow\ e^{-t/\tau}=\frac23\ \Rightarrow\ \frac t\tau=\ln\frac32=0.4055$$
+
+$$\tau=\frac{5}{0.4055}$$
+
+$$\boxed{\tau\approx12.3\ \text{s}}$$
+
+---
+
+<a id="b2020-3b"></a>
+## 2020 · Q3(b): Describe an LR circuit and plot the growth and decay of current with time.
+
+This is the same question as [2016 Q4(b)](#b2016-4b), which has the complete derivation. In brief:
+
+- **Growth** (battery connected): $I=I_0\left(1-e^{-Rt/L}\right)$, $I_0=V/R$.
+- **Decay** (battery removed): $I=I_0e^{-Rt/L}$.
+- **Time constant** $\tau=L/R$: at $t=\tau$ the growing current is $63.2\%$ of $I_0$ and the decaying current is $36.8\%$ of $I_0$.
+
+![Growth and decay of current in an LR circuit](../../assets/magnetism-lr-growth-decay.svg)
+
+---
+
+<a id="b2021-2a"></a>
+## 2021 · Q2(a): Explain Faraday's law and Lenz's law.
+
+- **Faraday's law.** (i) An emf is induced in a circuit whenever the magnetic flux linked with it changes. (ii) The induced emf equals the rate of change of flux linkage, $\varepsilon=-N\,d\Phi/dt$. Flux $\Phi=BA\cos\theta$ can be changed through $B$, $A$ or $\theta$.
+- **Lenz's law.** The induced current flows in the direction that **opposes the change of flux** producing it. This is the origin of the minus sign.
+
+![Induced polarity of the coil opposes the motion of the magnet](../../assets/magnetism-faraday-lenz.svg)
+
+**Example.** A 100-turn coil whose flux changes by 0.04 Wb in 0.2 s has $|\varepsilon|=100\times0.04/0.2=20$ V. Details: [2015 Q4(a)](#b2015-4a), [2015 Q4(c)](#b2015-4c).
+
+---
+
+<a id="b2021-2b"></a>
+## 2021 · Q2(b): Show that Lenz's law obeys the principle of conservation of energy.
+
+The induced force always **opposes** the motion that causes the induction, so work has to be done and that work becomes electrical energy. For a rod on rails:
+
+$$P_{mech}=Fv=\frac{B^2l^2v^2}{R}=\varepsilon I=P_{elec}$$
+
+If the induced current assisted the change, the system would gain energy without work being done, violating conservation of energy. Full version: [2015 Q4(c)](#b2015-4c).
+
+![Sliding rod: work done against F is converted to electrical energy](../../assets/magnetism-lenz-energy.svg)
+
+---
+
+<a id="b2021-2c"></a>
+## 2021 · Q2(c): Calculate the self-inductance of a coil of 400 turns when a 2 A current creates $4\times10^{-4}$ Wb of flux.
+
+$$L=\frac{N\Phi}{I}=\frac{400\times4\times10^{-4}}{2}\ \Rightarrow\ \boxed{L=0.08\ \text{H}}$$
+
+(Worked fully in Part A, [2021 Q2(c)](#q2021-2c).)
+
+---
+
+<a id="b2021-4b"></a>
+## 2021 · Q4(b): Draw the curves for growth and decay of current in an LR circuit and explain the diagram.
+
+![Growth (a) and decay (b) of current in an LR circuit](../../assets/magnetism-lr-growth-decay.svg)
+
+**Explanation**
+
+- **(a) Growth.** When the switch connects the battery, the changing current induces a back emf in $L$ that opposes the rise. So the current starts from zero with the steepest slope, $\dfrac{dI}{dt}=\dfrac VL$, and rises exponentially: $I=I_0\left(1-e^{-t/\tau}\right)$. At $t=\tau=L/R$ it is $63.2\%$ of $I_0=V/R$; by $5\tau$ it is about $99.3\%$.
+- **(b) Decay.** When the battery is removed, the collapsing flux induces an emf that tries to keep the current going. The current falls exponentially: $I=I_0e^{-t/\tau}$, reaching $36.8\%$ at $t=\tau$.
+- A larger $L$ or a smaller $R$ gives a larger $\tau$, so the current changes more slowly. The derivation is in [2016 Q4(b)](#b2016-4b).
+
+---
+
+<a id="b2021-4c"></a>
+## 2021 · Q4(c): An LR circuit has an inductance of 50 H and a resistance of 30 Ω. It is connected to a 100 V battery. How long will it take for the current to reach one-half of its final value?
+
+**Given:** $L=50$ H, $R=30\ \Omega$, $V=100$ V.
+
+**Final current:** $I_0=\dfrac VR=\dfrac{100}{30}=3.33$ A, so the target is $\tfrac12I_0=1.67$ A.
+
+**Time constant:** $\tau=\dfrac LR=\dfrac{50}{30}=1.667$ s
+
+**Growth law:** $I=I_0\left(1-e^{-t/\tau}\right)$ with $I=\tfrac12I_0$:
+
+$$\frac12=1-e^{-t/\tau}\ \Rightarrow\ e^{-t/\tau}=\frac12\ \Rightarrow\ t=\tau\ln2$$
+
+$$t=1.667\times0.693$$
+
+$$\boxed{t\approx1.16\ \text{s}}$$
+
+---
+
+<a id="b2023-3a"></a>
+## 2023 · Q3(a): State and explain Faraday's law of electromagnetic induction.
+
+**Statement.** (1) An emf is induced in a circuit whenever the magnetic flux linked with it changes. (2) The magnitude of the induced emf equals the rate of change of flux linkage:
+
+$$\varepsilon=-N\frac{d\Phi}{dt}$$
+
+**Explanation.** A magnet moved towards a coil (or a changing current in a nearby coil) changes the flux $\Phi=BA\cos\theta$ through the coil and drives a current in the galvanometer. The emf is larger for faster change, more turns and a stronger magnet, and there is no emf when the flux is steady. The minus sign shows that the induced emf opposes the change (Lenz's law).
+
+![Magnet and coil](../../assets/magnetism-faraday-lenz.svg)
+
+**Example.** A conductor of length 0.5 m moving at 4 m/s perpendicular to a 0.2 T field has $\varepsilon=Blv=0.4$ V. Full treatment: [2015 Q4(a)](#b2015-4a).
+
+---
+
+<a id="b2023-3c"></a>
+## 2023 · Q3(c): State Lenz's law. Explain how Lenz's law indicates the direction of induced current.
+
+**Lenz's law.** The direction of the induced current is such that its magnetic effect **opposes the change in flux** that produced it.
+
+### How to find the direction
+
+1. Note the direction of the original field through the loop and whether the flux is **increasing or decreasing**.
+2. The induced current produces its own field: **opposite** to the original field if the flux is increasing, **in the same direction** if the flux is decreasing.
+3. Use the right-hand grip rule to find the current direction that gives that induced field (anticlockwise current gives a field out of the page, clockwise gives a field into the page).
+
+![Induced polarity of a coil opposes the approach or the retreat of a magnet](../../assets/magnetism-faraday-lenz.svg)
+
+| Situation | Flux change | Induced field | Induced current |
+|---|---|---|---|
+| N pole of a magnet approaching a coil | Increasing | Near face acts as N (repels) | Anticlockwise (seen from the magnet) |
+| N pole of a magnet receding | Decreasing | Near face acts as S (attracts) | Clockwise (seen from the magnet) |
+| Loop in a field into the page, field growing | Into page, increasing | Out of the page | Anticlockwise |
+| Loop in a field into the page, field falling | Into page, decreasing | Into the page | Clockwise |
+
+For the sliding rod (field into the page, loop area growing), the current is anticlockwise and the force on the rod opposes its motion:
+
+![Rod on rails: anticlockwise current and opposing force](../../assets/magnetism-lenz-energy.svg)
+
+---
+
+<a id="b2023-4a"></a>
+## 2023 · Q4(a): Define the time constant of an RC circuit. Derive an equation for the charge of an RC circuit when the capacitor is charging.
+
+This is identical to [2018 Q4(a)](#b2018-4a), derived in full in [2017 Q4(b)](#b2017-4b).
+
+**Time constant.** $\tau=RC$: the time in which the charge reaches $63.2\%$ of its final value.
+
+**Derivation.** KVL: $V_0=IR+\dfrac qC$, with $I=\dfrac{dq}{dt}$. Then
+
+$$\frac{dq}{CV_0-q}=\frac{dt}{RC}\ \Rightarrow\ -\ln\frac{CV_0-q}{CV_0}=\frac{t}{RC}$$
+
+$$\boxed{q=CV_0\left(1-e^{-t/RC}\right)}$$
+
+![Charging curve of an RC circuit](../../assets/magnetism-rc-charging.svg)
+
+---
+
+<a id="b2023-4b"></a>
+## 2023 · Q4(b): What is resonance? Deduce the equation of resonant frequency of an RLC circuit.
+
+This is identical to [2018 Q4(b)](#b2018-4b). Condensed model answer:
+
+- **Resonance:** in a series RLC circuit with a variable-frequency AC source, resonance occurs when $X_L=X_C$. Then $Z=R$ is minimum and the current is maximum and in phase with the voltage.
+- **Derivation:** $Z=\sqrt{R^2+(\omega L-1/\omega C)^2}$ is minimum when $\omega_0L=\dfrac1{\omega_0C}$:
+
+$$\boxed{\omega_0=\frac1{\sqrt{LC}}},\qquad\boxed{f_0=\frac1{2\pi\sqrt{LC}}}$$
+
+![Resonance curve of a series RLC circuit](../../assets/magnetism-rlc-resonance.svg)
+
+---
+
+<a id="b2023-4c"></a>
+## 2023 · Q4(c): An RLC circuit has an inductor of 50 μH, a capacitor of $5\times10^{-4}$ μF and a resistor of 100 Ω. Find the frequency of the circuit.
+
+Same data as [2018 Q4(c)](#b2018-4c).
+
+$$L=5\times10^{-5}\ \text{H},\quad C=5\times10^{-10}\ \text{F}$$
+
+$$f_0=\frac1{2\pi\sqrt{LC}}=\frac1{2\pi\sqrt{2.5\times10^{-14}}}=\frac{1}{2\pi\times1.581\times10^{-7}}$$
+
+$$\boxed{f_0\approx1.0\times10^{6}\ \text{Hz}\approx1.01\ \text{MHz}}$$
+
+The resistance (100 Ω) does not affect the resonant frequency.
+
+---
+
+---
+
 ## Answers to the numerical questions at a glance
 
 | Question | Result |
 |---|---|
 | 2015 Q3(c): field on a 0.1 m wire, 10 A, 5 N, 30° | $B=10\ \text{T}$ |
 | 2018 Q2(c): loop 2.5 cm × 1 cm, 4 A, 2 T, plane parallel to $\vec B$ | $\tau=2\times10^{-3}\ \text{N·m}$ |
-| 2021 Q2(c): 400 turns, 2 A, $4\times10^{-4}$ Wb | $L=0.08\ \text{H}$ |
+| 2016 Q3(c) and 2021 Q2(c): 400 turns, 2 A, $4\times10^{-4}$ Wb | $L=0.08\ \text{H}$ |
 | 2023 Q2(c): 0.5 m, 30°, 1.5 T, 10 A | $F=3.75\ \text{N}$ |
+| 2018 Q4(c) and 2023 Q4(c): 50 μH, $5\times10^{-4}$ μF, 100 Ω | $f_0\approx1.01\ \text{MHz}$ |
+| 2020 Q2(c): LR current is one-third of maximum in 5 s | $\tau\approx12.3\ \text{s}$ |
+| 2021 Q4(c): 50 H, 30 Ω, 100 V, half of final current | $t\approx1.16\ \text{s}$ |
 
 ## Quick-recall formulas
 
@@ -676,10 +1304,15 @@ The force is perpendicular to the plane containing the conductor and the field (
 | Force on a conductor | $F=BIl\sin\theta$ |
 | Torque on a coil | $\tau=NIAB\sin\theta=mB\sin\theta,\quad m=NIA$ |
 | Hall voltage, Hall coefficient | $V_H=\dfrac{IB}{net},\quad R_H=\dfrac{1}{ne}$ |
-| Faraday's law | $\varepsilon=-N\dfrac{d\Phi}{dt}$ |
+| Faraday's law, motional emf | $\varepsilon=-N\dfrac{d\Phi}{dt},\quad\varepsilon=Blv$ |
 | Self-inductance | $L=\dfrac{N\Phi}{I},\quad\varepsilon=-L\dfrac{dI}{dt}$ |
+| Mutual inductance | $M=\dfrac{N_2\Phi_{21}}{I_1},\quad\varepsilon_2=-M\dfrac{dI_1}{dt}$ |
 | Hysteresis loss per cycle | $W=\oint H\,dB$ (area of the B–H loop) |
 | Susceptibility, permeability | $\chi=\dfrac{M}{H},\quad\mu_r=1+\chi$ |
+| RC charging, time constant | $q=Q_0\left(1-e^{-t/RC}\right),\quad\tau=RC$ |
+| LR growth, decay, time constant | $I=I_0\left(1-e^{-Rt/L}\right),\quad I=I_0e^{-Rt/L},\quad\tau=\dfrac LR$ |
+| Choke coil | $X_L=2\pi fL,\quad P=VI\cos\phi\approx0$ |
+| RLC resonance | $f_0=\dfrac{1}{2\pi\sqrt{LC}},\quad Z_{min}=R,\quad Q=\dfrac{\omega_0L}{R}$ |
 
 ---
 
