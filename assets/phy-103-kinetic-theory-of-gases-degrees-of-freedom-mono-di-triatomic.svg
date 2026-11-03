@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 250" width="600" height="250">
+    <rect width="600" height="250" fill="#ffffff"/>
+    
+    <g transform="translate(50, 50)">
+        <circle cx="50" cy="50" r="15" fill="#0072b2"/>
+        <text x="50" y="90" font-family="sans-serif" font-size="16" text-anchor="middle">Monatomic</text>
+        <text x="50" y="110" font-family="sans-serif" font-size="14" text-anchor="middle">f = 3</text>
+    </g>
+    
+    <g transform="translate(250, 50)">
+        <circle cx="30" cy="50" r="15" fill="#d55e00"/>
+        <circle cx="70" cy="50" r="15" fill="#d55e00"/>
+        <path d="M 30,50 L 70,50" stroke="#333" stroke-width="4"/>
+        <text x="50" y="90" font-family="sans-serif" font-size="16" text-anchor="middle">Diatomic</text>
+        <text x="50" y="110" font-family="sans-serif" font-size="14" text-anchor="middle">f = 5</text>
+    </g>
+
+    <g transform="translate(450, 50)">
+        <circle cx="30" cy="70" r="15" fill="#009e73"/>
+        <circle cx="70" cy="70" r="15" fill="#009e73"/>
+        <circle cx="50" cy="30" r="15" fill="#009e73"/>
+        <path d="M 30,70 L 50,30 L 70,70 Z" fill="none" stroke="#333" stroke-width="4"/>
+        <text x="50" y="110" font-family="sans-serif" font-size="16" text-anchor="middle">Polyatomic (non-linear)</text>
+        <text x="50" y="130" font-family="sans-serif" font-size="14" text-anchor="middle">f = 6</text>
+    </g>
+</svg>
