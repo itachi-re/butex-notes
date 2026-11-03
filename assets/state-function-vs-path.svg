@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" font-family="Arial, Helvetica, sans-serif">
+  <rect width="600" height="400" fill="#ffffff"/>
+  <!-- axes -->
+  <line x1="80" y1="340" x2="540" y2="340" stroke="#222" stroke-width="2"/>
+  <line x1="80" y1="340" x2="80" y2="60" stroke="#222" stroke-width="2"/>
+  <text x="545" y="345" font-size="16" fill="#222">V</text>
+  <text x="60" y="55" font-size="16" fill="#222">P</text>
+  <!-- states A and B -->
+  <circle cx="150" cy="280" r="6" fill="#222"/>
+  <text x="135" y="300" font-size="16" fill="#222">A</text>
+  <circle cx="470" cy="120" r="6" fill="#222"/>
+  <text x="478" y="115" font-size="16" fill="#222">B</text>
+  <!-- path 1 (upper) -->
+  <path d="M 150,280 Q 310,80 470,120" fill="none" stroke="#1f77b4" stroke-width="2.5"/>
+  <text x="280" y="150" font-size="14" fill="#1f77b4">Path I</text>
+  <!-- path 2 (lower) -->
+  <path d="M 150,280 Q 310,360 470,120" fill="none" stroke="#d62728" stroke-width="2.5" stroke-dasharray="5,3"/>
+  <text x="280" y="330" font-size="14" fill="#d62728">Path II</text>
+  <!-- caption -->
+  <text x="300" y="380" text-anchor="middle" font-size="14" fill="#222">ΔU is same for both paths (state function); Q and W differ (path functions).</text>
+</svg>
