@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="500" height="400">
+    <rect width="500" height="400" fill="#ffffff"/>
+    <defs>
+        <marker id="arrow" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+            <path d="M0,0 L10,5 L0,10 Z" fill="#000"/>
+        </marker>
+    </defs>
+    <!-- Box -->
+    <rect x="100" y="100" width="300" height="200" fill="none" stroke="#333" stroke-width="3"/>
+    
+    <!-- Molecules -->
+    <circle cx="150" cy="150" r="8" fill="#d55e00"/>
+    <path d="M 150,150 L 200,120" stroke="#0072b2" stroke-width="2" marker-end="url(#arrow)"/>
+    
+    <circle cx="350" cy="160" r="8" fill="#d55e00"/>
+    <path d="M 350,160 L 290,140" stroke="#0072b2" stroke-width="2" marker-end="url(#arrow)"/>
+    
+    <circle cx="200" cy="250" r="8" fill="#d55e00"/>
+    <path d="M 200,250 L 240,280" stroke="#0072b2" stroke-width="2" marker-end="url(#arrow)"/>
+    
+    <circle cx="380" cy="250" r="8" fill="#d55e00"/>
+    <path d="M 380,250 L 400,250" stroke="#0072b2" stroke-width="2" marker-end="url(#arrow)"/>
+    
+    <circle cx="120" cy="220" r="8" fill="#d55e00"/>
+    <path d="M 120,220 L 100,200" stroke="#0072b2" stroke-width="2" marker-end="url(#arrow)"/>
+    
+    <!-- Collisions -->
+    <!-- Rebound -->
+    <path d="M 400,250 L 380,220" stroke="#d55e00" stroke-width="2" stroke-dasharray="4,4" marker-end="url(#arrow)"/>
+    <path d="M 100,200 L 130,180" stroke="#d55e00" stroke-width="2" stroke-dasharray="4,4" marker-end="url(#arrow)"/>
+    
+    <!-- Labels -->
+    <text x="180" y="80" font-family="sans-serif" font-size="16">Volume, V</text>
+    <text x="420" y="200" font-family="sans-serif" font-size="16">Pressure on wall, P</text>
+</svg>
