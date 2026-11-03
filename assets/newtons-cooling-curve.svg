@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#f8f9fa"/>
+  <text x="200" y="30" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">Newton's Law of Cooling</text>
+  <!-- Axes -->
+  <line x1="50" y1="250" x2="350" y2="250" stroke="black" stroke-width="2"/>
+  <line x1="50" y1="250" x2="50" y2="50" stroke="black" stroke-width="2"/>
+  <text x="360" y="255" font-family="Arial" font-size="14">t (Time)</text>
+  <text x="35" y="45" font-family="Arial" font-size="14">T (Temp)</text>
+  <!-- Surroundings Temp Line -->
+  <line x1="50" y1="200" x2="350" y2="200" stroke="#94a3b8" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="360" y="205" font-family="Arial" font-size="12" fill="#64748b">Ts</text>
+  <!-- Cooling Curve -->
+  <path d="M 50 70 Q 150 180 350 195" fill="transparent" stroke="#ef4444" stroke-width="3"/>
+</svg>
