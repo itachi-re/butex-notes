@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" width="600" height="420" font-family="Arial, Helvetica, sans-serif">
+  <rect width="600" height="420" fill="#ffffff"/>
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#222"/>
+    </marker>
+  </defs>
+  <!-- axes -->
+  <line x1="70" y1="360" x2="560" y2="360" stroke="#222" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="70" y1="360" x2="70" y2="40" stroke="#222" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="560" y="385" font-size="16" fill="#222">V</text>
+  <text x="40" y="40" font-size="16" fill="#222">P</text>
+  <!-- isotherm T > Tc -->
+  <path d="M 100,90 Q 200,110 300,160 T 540,230" fill="none" stroke="#1f77b4" stroke-width="2"/>
+  <text x="545" y="225" font-size="14" fill="#1f77b4">T &gt; Tc</text>
+  <!-- critical isotherm T = Tc with inflection -->
+  <path d="M 100,180 C 180,200 240,260 300,260 S 420,260 540,290" fill="none" stroke="#d62728" stroke-width="2.5"/>
+  <circle cx="300" cy="260" r="5" fill="#d62728"/>
+  <text x="310" y="255" font-size="14" fill="#d62728">Critical point (Pc, Vc, Tc)</text>
+  <text x="545" y="285" font-size="14" fill="#d62728">T = Tc</text>
+  <!-- isotherm T < Tc with van der Waals loop -->
+  <path d="M 100,260 C 160,230 200,340 240,310 C 280,280 320,340 360,320 C 420,300 480,320 540,330" fill="none" stroke="#2ca02c" stroke-width="2" stroke-dasharray="5,3"/>
+  <text x="545" y="325" font-size="14" fill="#2ca02c">T &lt; Tc</text>
+  <!-- legend -->
+  <text x="90" y="400" font-size="13" fill="#222">Van der Waals isotherms; critical point is the inflection where ∂P/∂V = ∂²P/∂V² = 0.</text>
+</svg>
