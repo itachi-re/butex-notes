@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250">
+  <rect width="400" height="250" fill="#f8f9fa"/>
+  <text x="200" y="30" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">Kinetic Theory Pressure</text>
+  <!-- Box wall -->
+  <line x1="300" y1="60" x2="300" y2="220" stroke="black" stroke-width="4"/>
+  <!-- Molecule path -->
+  <circle cx="150" cy="120" r="10" fill="#3b82f6"/>
+  <circle cx="280" cy="140" r="10" fill="#3b82f6" opacity="0.5"/>
+  <line x1="160" y1="123" x2="270" y2="140" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+  <!-- Rebound path -->
+  <line x1="270" y1="145" x2="160" y2="180" stroke="red" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="310" y="140" font-family="Arial" font-size="14">Wall Area (A)</text>
+  <text x="200" y="115" font-family="Arial" font-size="12">vx</text>
+  <text x="200" y="175" font-family="Arial" font-size="12" fill="red">-vx</text>
+</svg>
