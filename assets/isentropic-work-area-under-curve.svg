@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" width="600" height="420" font-family="Arial, Helvetica, sans-serif">
+  <rect width="600" height="420" fill="#ffffff"/>
+  <defs>
+    <marker id="arr8" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#222"/>
+    </marker>
+  </defs>
+  <line x1="80" y1="360" x2="560" y2="360" stroke="#222" stroke-width="2" marker-end="url(#arr8)"/>
+  <line x1="80" y1="360" x2="80" y2="40" stroke="#222" stroke-width="2" marker-end="url(#arr8)"/>
+  <text x="565" y="365" font-size="16" fill="#222">V</text>
+  <text x="50" y="40" font-size="16" fill="#222">P</text>
+  <!-- filled area under adiabatic curve -->
+  <path d="M 150,100 Q 300,250 480,340 L 480,360 L 150,360 Z" fill="#1f77b4" fill-opacity="0.25" stroke="none"/>
+  <!-- adiabatic curve -->
+  <path d="M 150,100 Q 300,250 480,340" fill="none" stroke="#1f77b4" stroke-width="2.5"/>
+  <!-- points -->
+  <circle cx="150" cy="100" r="5" fill="#222"/>
+  <text x="135" y="95" font-size="14" fill="#222">1</text>
+  <circle cx="480" cy="340" r="5" fill="#222"/>
+  <text x="485" y="335" font-size="14" fill="#222">2</text>
+  <!-- V markers -->
+  <line x1="150" y1="360" x2="150" y2="370" stroke="#222" stroke-width="1.5"/>
+  <text x="150" y="385" text-anchor="middle" font-size="13" fill="#222">V₁</text>
+  <line x1="480" y1="360" x2="480" y2="370" stroke="#222" stroke-width="1.5"/>
+  <text x="480" y="385" text-anchor="middle" font-size="13" fill="#222">V₂</text>
+  <!-- caption -->
+  <text x="300" y="405" text-anchor="middle" font-size="14" fill="#222">Shaded area = ∫ P dV = work done during isentropic expansion.</text>
+  <text x="300" y="425" text-anchor="middle" font-size="13" fill="#555">W = (P₁V₁ − P₂V₂)/(γ − 1) = nR(T₁ − T₂)/(γ − 1).</text>
+</svg>
