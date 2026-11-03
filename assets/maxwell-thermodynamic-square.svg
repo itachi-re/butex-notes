@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" width="600" height="500" font-family="Arial, Helvetica, sans-serif">
+  <rect width="600" height="500" fill="#ffffff"/>
+  <text x="300" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#222">Thermodynamic (Born) Square</text>
+  <!-- square -->
+  <rect x="180" y="80" width="240" height="240" fill="none" stroke="#222" stroke-width="2"/>
+  <!-- corners: S (top-left), P (top-right), T (bottom-right), V (bottom-left) -->
+  <!-- mnem: "Good Physicists Have Studied Under Very Fine Teachers" -->
+  <!-- G at top, F left, H right, U bottom -->
+  <circle cx="180" cy="80" r="20" fill="#d62728"/>
+  <text x="180" y="87" text-anchor="middle" font-size="18" font-weight="bold" fill="#fff">S</text>
+  <circle cx="420" cy="80" r="20" fill="#1f77b4"/>
+  <text x="420" y="87" text-anchor="middle" font-size="18" font-weight="bold" fill="#fff">P</text>
+  <circle cx="420" cy="320" r="20" fill="#2ca02c"/>
+  <text x="420" y="327" text-anchor="middle" font-size="18" font-weight="bold" fill="#fff">T</text>
+  <circle cx="180" cy="320" r="20" fill="#9467bd"/>
+  <text x="180" y="327" text-anchor="middle" font-size="18" font-weight="bold" fill="#fff">V</text>
+  <!-- sides: G (top), F (left), H (right), U (bottom) -->
+  <text x="300" y="70" text-anchor="middle" font-size="16" font-weight="bold" fill="#222">G</text>
+  <text x="165" y="205" text-anchor="middle" font-size="16" font-weight="bold" fill="#222">F</text>
+  <text x="435" y="205" text-anchor="middle" font-size="16" font-weight="bold" fill="#222">H</text>
+  <text x="300" y="345" text-anchor="middle" font-size="16" font-weight="bold" fill="#222">U</text>
+  <!-- diagonals for Maxwell -->
+  <line x1="200" y1="100" x2="400" y2="300" stroke="#888" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="400" y1="100" x2="200" y2="300" stroke="#888" stroke-width="1" stroke-dasharray="4,3"/>
+  <!-- relations -->
+  <text x="300" y="390" text-anchor="middle" font-size="14" fill="#222">Read across a side → differential. E.g. bottom side U: dU = T dS − P dV.</text>
+  <text x="300" y="415" text-anchor="middle" font-size="14" fill="#222">Read diagonal → Maxwell relation. E.g. S↔T and P↔V diagonals give:</text>
+  <text x="300" y="440" text-anchor="middle" font-size="14" fill="#1f77b4">(∂T/∂V)_S = −(∂P/∂S)_V     (from dU)</text>
+  <text x="300" y="465" text-anchor="middle" font-size="14" fill="#1f77b4">(∂S/∂V)_T = (∂P/∂T)_V      (from dF)</text>
+  <text x="300" y="490" text-anchor="middle" font-size="13" fill="#555">Sign rule: follow the arrow S→P→T→V→S; against arrow → negative sign.</text>
+</svg>
