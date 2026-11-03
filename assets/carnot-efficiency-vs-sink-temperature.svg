@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" width="600" height="420" font-family="Arial, Helvetica, sans-serif">
+  <rect width="600" height="420" fill="#ffffff"/>
+  <defs>
+    <marker id="arr6" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#222"/>
+    </marker>
+  </defs>
+  <line x1="80" y1="360" x2="560" y2="360" stroke="#222" stroke-width="2" marker-end="url(#arr6)"/>
+  <line x1="80" y1="360" x2="80" y2="40" stroke="#222" stroke-width="2" marker-end="url(#arr6)"/>
+  <text x="565" y="365" font-size="16" fill="#222">T₂ (K)</text>
+  <text x="30" y="40" font-size="16" fill="#222">η</text>
+  <!-- gridlines -->
+  <line x1="80" y1="280" x2="560" y2="280" stroke="#ddd" stroke-width="1"/>
+  <line x1="80" y1="200" x2="560" y2="200" stroke="#ddd" stroke-width="1"/>
+  <line x1="80" y1="120" x2="560" y2="120" stroke="#ddd" stroke-width="1"/>
+  <text x="70" y="365" font-size="13" fill="#555" text-anchor="end">0</text>
+  <text x="70" y="285" font-size="13" fill="#555" text-anchor="end">0.25</text>
+  <text x="70" y="205" font-size="13" fill="#555" text-anchor="end">0.5</text>
+  <text x="70" y="125" font-size="13" fill="#555" text-anchor="end">0.75</text>
+  <text x="70" y="50" font-size="13" fill="#555" text-anchor="end">1.0</text>
+  <!-- curve for T1 = 600 K: η = 1 - T2/600 -->
+  <path d="M 80,60 L 560,360" fill="none" stroke="#d62728" stroke-width="2.5"/>
+  <text x="400" y="150" font-size="14" fill="#d62728">T₁ = 600 K</text>
+  <!-- curve for T1 = 900 K: η = 1 - T2/900 -->
+  <path d="M 80,60 Q 320,280 560,360" fill="none" stroke="#1f77b4" stroke-width="2.5"/>
+  <text x="460" y="230" font-size="14" fill="#1f77b4">T₁ = 900 K</text>
+  <!-- caption -->
+  <text x="300" y="400" text-anchor="middle" font-size="13" fill="#222">η = 1 − T₂/T₁. Higher T₁ or lower T₂ → higher efficiency. η = 1 only at T₂ = 0 K (unattainable).</text>
+</svg>
