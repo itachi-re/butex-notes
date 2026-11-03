@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" font-family="Arial, Helvetica, sans-serif">
+  <rect width="600" height="360" fill="#ffffff"/>
+  <!-- before -->
+  <text x="150" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#d62728">Before burst</text>
+  <ellipse cx="150" cy="130" rx="90" ry="70" fill="#fde8e8" stroke="#d62728" stroke-width="2"/>
+  <text x="150" y="125" text-anchor="middle" font-size="14" fill="#222">P₁ = 2 atm</text>
+  <text x="150" y="145" text-anchor="middle" font-size="14" fill="#222">T₁ = 300 K</text>
+  <!-- arrow -->
+  <line x1="260" y1="130" x2="340" y2="130" stroke="#222" stroke-width="3"/>
+  <text x="300" y="120" text-anchor="middle" font-size="14" fill="#9467bd">sudden</text>
+  <text x="300" y="155" text-anchor="middle" font-size="14" fill="#9467bd">adiabatic</text>
+  <!-- after -->
+  <text x="450" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#1f77b4">After burst</text>
+  <ellipse cx="450" cy="130" rx="110" ry="80" fill="#e8f0fe" stroke="#1f77b4" stroke-width="2" stroke-dasharray="5,3"/>
+  <text x="450" y="125" text-anchor="middle" font-size="14" fill="#222">P₂ = 1 atm</text>
+  <text x="450" y="145" text-anchor="middle" font-size="14" fill="#222">T₂ ≈ 246 K</text>
+  <!-- caption -->
+  <text x="300" y="260" text-anchor="middle" font-size="14" fill="#222">Air expands adiabatically: T₂ = T₁(P₂/P₁)^((γ−1)/γ)</text>
+  <text x="300" y="285" text-anchor="middle" font-size="14" fill="#222">= 300 × (1/2)^(0.286) ≈ 246 K ≈ −27 °C</text>
+  <text x="300" y="320" text-anchor="middle" font-size="13" fill="#555">Escaping air feels cold — same physics as CO₂ fire-extinguisher frost.</text>
+</svg>
