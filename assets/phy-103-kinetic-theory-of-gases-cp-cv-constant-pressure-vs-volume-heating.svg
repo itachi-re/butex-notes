@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300">
+    <rect width="600" height="300" fill="#ffffff"/>
+    
+    <!-- Constant Volume -->
+    <g transform="translate(100, 50)">
+        <text x="75" y="-20" font-family="sans-serif" font-size="16" text-anchor="middle">Constant Volume (C_v)</text>
+        <rect x="25" y="20" width="100" height="150" fill="none" stroke="#333" stroke-width="3"/>
+        <!-- Fixed Piston -->
+        <rect x="25" y="20" width="100" height="10" fill="#777"/>
+        <line x1="10" y1="25" x2="25" y2="25" stroke="#000" stroke-width="2"/>
+        <line x1="125" y1="25" x2="140" y2="25" stroke="#000" stroke-width="2"/>
+        <text x="-5" y="30" font-family="sans-serif" font-size="14">Fixed</text>
+        
+        <!-- Heat added -->
+        <path d="M 75,200 L 75,175" stroke="#d55e00" stroke-width="3" marker-end="url(#arrow)"/>
+        <text x="85" y="195" font-family="sans-serif" font-size="16" fill="#d55e00">dQ = dU</text>
+        <text x="75" y="100" font-family="sans-serif" font-size="14" text-anchor="middle">Gas</text>
+    </g>
+    
+    <!-- Constant Pressure -->
+    <g transform="translate(350, 50)">
+        <text x="75" y="-20" font-family="sans-serif" font-size="16" text-anchor="middle">Constant Pressure (C_p)</text>
+        <rect x="25" y="20" width="100" height="150" fill="none" stroke="#333" stroke-width="3"/>
+        <!-- Movable Piston -->
+        <rect x="25" y="40" width="100" height="10" fill="#777"/>
+        <path d="M 75,40 L 75,10" stroke="#000" stroke-width="2"/>
+        
+        <!-- Work done -->
+        <path d="M 75,10 L 75,-10" stroke="#0072b2" stroke-width="3" marker-end="url(#arrow)"/>
+        <text x="85" y="0" font-family="sans-serif" font-size="16" fill="#0072b2">dW</text>
+        
+        <!-- Heat added -->
+        <path d="M 75,200 L 75,175" stroke="#d55e00" stroke-width="3" marker-end="url(#arrow)"/>
+        <text x="85" y="195" font-family="sans-serif" font-size="16" fill="#d55e00">dQ = dU + dW</text>
+        <text x="75" y="100" font-family="sans-serif" font-size="14" text-anchor="middle">Gas</text>
+    </g>
+    <defs>
+        <marker id="arrow" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+            <path d="M0,0 L10,5 L0,10 Z" fill="#000"/>
+        </marker>
+    </defs>
+</svg>
