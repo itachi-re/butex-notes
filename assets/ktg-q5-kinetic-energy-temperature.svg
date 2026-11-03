@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="555" viewBox="0 0 1000 555" role="img" aria-labelledby="title desc">
+<title id="title">Mean translational kinetic energy versus absolute temperature</title><desc id="desc">Straight-line graph showing average translational kinetic energy per molecule increasing linearly with absolute temperature.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#334155"/></marker><marker id="bluearrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2563eb"/></marker><marker id="orangearrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#ea580c"/></marker></defs>
+<style>
+ text{font-family:Inter,Arial,sans-serif;fill:#172033}
+ .title{font-size:25px;font-weight:700}.sub{font-size:15px;fill:#475569}
+ .label{font-size:16px;font-weight:600}.small{font-size:13px;fill:#475569}
+ .tiny{font-size:11px;fill:#475569}
+ .axis{stroke:#334155;stroke-width:2;fill:none}
+ .grid{stroke:#cbd5e1;stroke-width:1;stroke-dasharray:4 5}
+ .blue{stroke:#2563eb;fill:none;stroke-width:3}.orange{stroke:#ea580c;fill:none;stroke-width:3}
+ .green{stroke:#059669;fill:none;stroke-width:3}.red{stroke:#dc2626;fill:none;stroke-width:2.5}
+ .box{fill:#f8fafc;stroke:#94a3b8;stroke-width:1.5}
+ .molecule{fill:#2563eb;stroke:#1e3a8a;stroke-width:1.5}
+ .hot{fill:#f97316;stroke:#9a3412;stroke-width:1.5}
+ .arrow{stroke:#334155;stroke-width:2;fill:none;marker-end:url(#arrow)}
+ .dasharrow{stroke:#64748b;stroke-width:1.8;stroke-dasharray:5 4;fill:none;marker-end:url(#arrow)}
+</style><rect width="1000" height="555" fill="#ffffff"/>
+<text x="45" y="42" class="title">Mean translational kinetic energy vs. absolute temperature</text>
+<text x="45" y="68" class="sub">For an ideal gas, the average translational kinetic energy per molecule depends only on T.</text>
+<g transform="translate(110,110)">
+ <path d="M75 345 V20 M75 345 H800" class="axis"/>
+ <text x="25" y="28" class="label">⟨ε⟩</text><text x="805" y="370" class="label">Absolute temperature, T (K)</text>
+ <path d="M75 345 L720 60" class="green"/>
+ <circle cx="75" cy="345" r="5" fill="#059669"/><circle cx="398" cy="202" r="6" fill="#059669"/><circle cx="720" cy="60" r="6" fill="#059669"/>
+ <path d="M398 202 V345 M75 202 H398" class="grid"/>
+ <text x="410" y="190" class="label" style="fill:#047857">⟨ε⟩ = 3/2 kᵦT</text>
+ <text x="410" y="220" class="small">Straight line through origin</text>
+ <text x="398" y="370" text-anchor="middle" class="small">T</text>
+ <text x="60" y="202" text-anchor="end" class="small">3/2 kᵦT</text>
+</g>
+<text x="150" y="510" class="small">At fixed T, all ideal gases have the same average translational kinetic energy per molecule.</text>
+</svg>
