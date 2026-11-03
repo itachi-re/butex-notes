@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" font-family="Arial, Helvetica, sans-serif">
+  <rect width="600" height="360" fill="#ffffff"/>
+  <!-- system A -->
+  <rect x="40" y="80" width="120" height="80" fill="#e8f0fe" stroke="#1f77b4" stroke-width="2" rx="8"/>
+  <text x="100" y="115" text-anchor="middle" font-size="16" font-weight="bold" fill="#1f77b4">A</text>
+  <text x="100" y="140" text-anchor="middle" font-size="13" fill="#222">T_A</text>
+  <!-- system B -->
+  <rect x="40" y="200" width="120" height="80" fill="#e8f8e8" stroke="#2ca02c" stroke-width="2" rx="8"/>
+  <text x="100" y="235" text-anchor="middle" font-size="16" font-weight="bold" fill="#2ca02c">B</text>
+  <text x="100" y="260" text-anchor="middle" font-size="13" fill="#222">T_B</text>
+  <!-- system C (thermometer) -->
+  <rect x="320" y="140" width="140" height="80" fill="#fde8e8" stroke="#d62728" stroke-width="2" rx="8"/>
+  <text x="390" y="175" text-anchor="middle" font-size="16" font-weight="bold" fill="#d62728">C</text>
+  <text x="390" y="200" text-anchor="middle" font-size="13" fill="#222">(thermometer)</text>
+  <!-- diathermic walls -->
+  <line x1="160" y1="120" x2="320" y2="170" stroke="#1f77b4" stroke-width="2" stroke-dasharray="5,3"/>
+  <text x="230" y="135" font-size="13" fill="#1f77b4">diathermic</text>
+  <line x1="160" y1="240" x2="320" y2="190" stroke="#2ca02c" stroke-width="2" stroke-dasharray="5,3"/>
+  <text x="230" y="235" font-size="13" fill="#2ca02c">diathermic</text>
+  <!-- conclusion -->
+  <text x="300" y="300" text-anchor="middle" font-size="14" fill="#222">If A ~ C and B ~ C (thermal equilibrium), then A ~ B.</text>
+  <text x="300" y="325" text-anchor="middle" font-size="14" fill="#222">Therefore T_A = T_B. This justifies temperature as a measurable quantity.</text>
+</svg>
