@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" width="600" height="420" font-family="Arial, Helvetica, sans-serif">
+  <rect width="600" height="420" fill="#ffffff"/>
+  <defs>
+    <marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#222"/>
+    </marker>
+  </defs>
+  <line x1="70" y1="360" x2="560" y2="360" stroke="#222" stroke-width="2" marker-end="url(#arr2)"/>
+  <line x1="70" y1="360" x2="70" y2="40" stroke="#222" stroke-width="2" marker-end="url(#arr2)"/>
+  <text x="560" y="385" font-size="16" fill="#222">P</text>
+  <text x="30" y="40" font-size="16" fill="#222">Z = PV/RT</text>
+  <!-- Z = 1 line -->
+  <line x1="70" y1="220" x2="560" y2="220" stroke="#888" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="500" y="215" font-size="13" fill="#888">Z = 1 (ideal)</text>
+  <!-- T = T0 (Boyle): horizontal near Z=1 -->
+  <path d="M 90,220 Q 300,222 540,225" fill="none" stroke="#d62728" stroke-width="2"/>
+  <text x="545" y="222" font-size="14" fill="#d62728">T = T₀ (Boyle)</text>
+  <!-- T > T0 -->
+  <path d="M 90,240 Q 300,280 540,320" fill="none" stroke="#1f77b4" stroke-width="2"/>
+  <text x="545" y="318" font-size="14" fill="#1f77b4">T &gt; T₀</text>
+  <!-- T < T0 -->
+  <path d="M 90,200 Q 200,130 300,110 Q 400,100 540,120" fill="none" stroke="#2ca02c" stroke-width="2"/>
+  <text x="545" y="118" font-size="14" fill="#2ca02c">T &lt; T₀</text>
+  <text x="90" y="400" font-size="13" fill="#222">At T = T₀, the second virial coefficient B(T) = 0, so Z ≈ 1 over a wide P range.</text>
+</svg>
