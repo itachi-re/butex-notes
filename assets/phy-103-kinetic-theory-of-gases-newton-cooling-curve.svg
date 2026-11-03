@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+    <rect width="500" height="350" fill="#ffffff"/>
+    <defs>
+        <marker id="arrow" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+            <path d="M0,0 L10,5 L0,10 Z" fill="#000"/>
+        </marker>
+    </defs>
+    <!-- Axes -->
+    <path d="M 50,300 L 450,300" stroke="#000" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M 50,300 L 50,50" stroke="#000" stroke-width="2" marker-end="url(#arrow)"/>
+    
+    <!-- Labels -->
+    <text x="240" y="340" font-family="sans-serif" font-size="16">Time, t</text>
+    <text x="30" y="40" font-family="sans-serif" font-size="16">Temperature, T</text>
+    
+    <!-- Curve -->
+    <path d="M 50,80 Q 150,220 400,240" stroke="#0072b2" stroke-width="3" fill="none"/>
+    
+    <!-- Asymptote T0 -->
+    <path d="M 40,240 L 450,240" stroke="#d55e00" stroke-width="2" stroke-dasharray="5,5"/>
+    <text x="15" y="245" font-family="sans-serif" font-size="14" fill="#d55e00">T_0</text>
+    <text x="15" y="85" font-family="sans-serif" font-size="14" fill="#0072b2">T_i</text>
+</svg>
