@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" font-family="Arial, Helvetica, sans-serif">
+  <rect width="600" height="400" fill="#ffffff"/>
+  <!-- reversible -->
+  <text x="150" y="40" text-anchor="middle" font-size="16" font-weight="bold" fill="#1f77b4">Reversible</text>
+  <rect x="50" y="60" width="200" height="100" fill="#e8f0fe" stroke="#1f77b4" stroke-width="2" rx="6"/>
+  <text x="150" y="100" text-anchor="middle" font-size="14" fill="#222">Quasi-static</text>
+  <text x="150" y="125" text-anchor="middle" font-size="14" fill="#222">No friction</text>
+  <text x="150" y="150" text-anchor="middle" font-size="14" fill="#222">ΔS_univ = 0</text>
+  <path d="M 50,200 Q 150,180 250,200" fill="none" stroke="#1f77b4" stroke-width="2" marker-end="url(#arr3)"/>
+  <path d="M 250,215 Q 150,235 50,215" fill="none" stroke="#1f77b4" stroke-width="2" stroke-dasharray="4,3" marker-end="url(#arr3)"/>
+  <text x="150" y="260" text-anchor="middle" font-size="13" fill="#222">Forward = reverse path</text>
+  <!-- irreversible -->
+  <text x="450" y="40" text-anchor="middle" font-size="16" font-weight="bold" fill="#d62728">Irreversible</text>
+  <rect x="350" y="60" width="200" height="100" fill="#fde8e8" stroke="#d62728" stroke-width="2" rx="6"/>
+  <text x="450" y="100" text-anchor="middle" font-size="14" fill="#222">Finite gradient</text>
+  <text x="450" y="125" text-anchor="middle" font-size="14" fill="#222">Friction, mixing</text>
+  <text x="450" y="150" text-anchor="middle" font-size="14" fill="#222">ΔS_univ &gt; 0</text>
+  <path d="M 350,200 Q 450,220 550,200" fill="none" stroke="#d62728" stroke-width="2" marker-end="url(#arr3)"/>
+  <text x="450" y="260" text-anchor="middle" font-size="13" fill="#222">Cannot retrace exactly</text>
+  <!-- bottom -->
+  <text x="300" y="320" text-anchor="middle" font-size="14" fill="#222">All natural processes are irreversible; reversibility is an idealisation.</text>
+  <text x="300" y="350" text-anchor="middle" font-size="14" fill="#222">Carnot cycle = set of reversible steps → maximum efficiency.</text>
+</svg>
