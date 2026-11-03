@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" font-family="Arial, Helvetica, sans-serif">
+  <rect width="600" height="400" fill="#ffffff"/>
+  <defs>
+    <marker id="arr5" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#222"/>
+    </marker>
+  </defs>
+  <!-- source -->
+  <rect x="40" y="60" width="140" height="80" fill="#fde8e8" stroke="#d62728" stroke-width="2" rx="8"/>
+  <text x="110" y="95" text-anchor="middle" font-size="16" font-weight="bold" fill="#d62728">Source</text>
+  <text x="110" y="120" text-anchor="middle" font-size="14" fill="#222">T₁ (hot)</text>
+  <!-- engine -->
+  <rect x="230" y="150" width="140" height="100" fill="#e8f0fe" stroke="#1f77b4" stroke-width="2" rx="8"/>
+  <text x="300" y="195" text-anchor="middle" font-size="16" font-weight="bold" fill="#1f77b4">Engine</text>
+  <text x="300" y="220" text-anchor="middle" font-size="14" fill="#222">Carnot</text>
+  <!-- sink -->
+  <rect x="420" y="260" width="140" height="80" fill="#e8f8e8" stroke="#2ca02c" stroke-width="2" rx="8"/>
+  <text x="490" y="295" text-anchor="middle" font-size="16" font-weight="bold" fill="#2ca02c">Sink</text>
+  <text x="490" y="320" text-anchor="middle" font-size="14" fill="#222">T₂ (cold)</text>
+  <!-- Q1 down -->
+  <line x1="110" y1="140" x2="250" y2="165" stroke="#d62728" stroke-width="3" marker-end="url(#arr5)"/>
+  <text x="150" y="140" font-size="15" fill="#d62728">Q₁</text>
+  <!-- W out -->
+  <line x1="370" y1="200" x2="500" y2="200" stroke="#9467bd" stroke-width="3" marker-end="url(#arr5)"/>
+  <text x="430" y="195" font-size="15" fill="#9467bd">W = Q₁ − Q₂</text>
+  <!-- Q2 down -->
+  <line x1="350" y1="230" x2="470" y2="270" stroke="#2ca02c" stroke-width="3" marker-end="url(#arr5)"/>
+  <text x="420" y="245" font-size="15" fill="#2ca02c">Q₂</text>
+  <!-- caption -->
+  <text x="300" y="380" text-anchor="middle" font-size="14" fill="#222">η = W/Q₁ = 1 − T₂/T₁. All processes reversible.</text>
+</svg>
