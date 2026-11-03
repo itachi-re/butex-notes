@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+    <rect width="500" height="350" fill="#ffffff"/>
+    <text x="250" y="30" font-family="sans-serif" font-size="18" text-anchor="middle" font-weight="bold">Callendar &amp; Griffiths Bridge</text>
+    
+    <!-- Wheatstone Bridge Diamond -->
+    <path d="M 250,70 L 150,150 L 250,230 L 350,150 Z" fill="none" stroke="#333" stroke-width="2"/>
+    
+    <!-- Galvanometer -->
+    <circle cx="250" cy="150" r="20" fill="none" stroke="#000" stroke-width="2"/>
+    <text x="250" y="155" font-family="sans-serif" font-size="16" text-anchor="middle">G</text>
+    <path d="M 150,150 L 230,150" stroke="#000" stroke-width="2"/>
+    <path d="M 270,150 L 350,150" stroke="#000" stroke-width="2"/>
+    
+    <!-- Resistor Labels -->
+    <text x="180" y="105" font-family="sans-serif" font-size="16">P</text>
+    <text x="310" y="105" font-family="sans-serif" font-size="16">Q</text>
+    
+    <!-- Connections at bottom -->
+    <path d="M 150,150 L 150,250" stroke="#000" stroke-width="2"/>
+    <path d="M 350,150 L 350,250" stroke="#000" stroke-width="2"/>
+    
+    <!-- Resistance box & PRT -->
+    <rect x="120" y="250" width="60" height="30" fill="none" stroke="#000" stroke-width="2"/>
+    <text x="150" y="270" font-family="sans-serif" font-size="16" text-anchor="middle">R</text>
+    
+    <rect x="320" y="250" width="60" height="30" fill="none" stroke="#000" stroke-width="2"/>
+    <text x="350" y="270" font-family="sans-serif" font-size="16" text-anchor="middle">PRT</text>
+    
+    <path d="M 150,280 L 150,300 L 350,300 L 350,280" stroke="#000" stroke-width="2" fill="none"/>
+    <path d="M 250,230 L 250,300" stroke="#000" stroke-width="2"/>
+    
+    <!-- Battery -->
+    <path d="M 250,70 L 250,45 L 60,45 L 60,300 L 150,300" stroke="#000" stroke-width="1"/>
+    <line x1="50" y1="160" x2="70" y2="160" stroke="#000" stroke-width="2"/>
+    <line x1="40" y1="170" x2="80" y2="170" stroke="#000" stroke-width="4"/>
+    <text x="75" y="165" font-family="sans-serif" font-size="16">+</text>
+</svg>
