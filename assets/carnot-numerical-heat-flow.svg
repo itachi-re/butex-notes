@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" font-family="Arial, Helvetica, sans-serif">
+  <rect width="600" height="400" fill="#ffffff"/>
+  <defs>
+    <marker id="arr9" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#222"/>
+    </marker>
+  </defs>
+  <text x="300" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#222">Carnot Numerical (2017 Q6c / 2023 Q6d)</text>
+  <!-- source -->
+  <rect x="40" y="70" width="140" height="80" fill="#fde8e8" stroke="#d62728" stroke-width="2" rx="8"/>
+  <text x="110" y="100" text-anchor="middle" font-size="15" font-weight="bold" fill="#d62728">Source</text>
+  <text x="110" y="125" text-anchor="middle" font-size="14" fill="#222">T₁ = 450 K</text>
+  <!-- engine -->
+  <rect x="230" y="160" width="140" height="90" fill="#e8f0fe" stroke="#1f77b4" stroke-width="2" rx="8"/>
+  <text x="300" y="200" text-anchor="middle" font-size="15" font-weight="bold" fill="#1f77b4">Carnot Engine</text>
+  <text x="300" y="225" text-anchor="middle" font-size="13" fill="#222">η = 22.2 %</text>
+  <!-- sink -->
+  <rect x="420" y="260" width="140" height="80" fill="#e8f8e8" stroke="#2ca02c" stroke-width="2" rx="8"/>
+  <text x="490" y="290" text-anchor="middle" font-size="15" font-weight="bold" fill="#2ca02c">Sink</text>
+  <text x="490" y="315" text-anchor="middle" font-size="14" fill="#222">T₂ = 350 K</text>
+  <!-- Q1 -->
+  <line x1="110" y1="150" x2="250" y2="175" stroke="#d62728" stroke-width="3" marker-end="url(#arr9)"/>
+  <text x="150" y="150" font-size="15" fill="#d62728">Q₁ = 4200 J</text>
+  <text x="150" y="170" font-size="13" fill="#d62728">(1000 cal)</text>
+  <!-- W -->
+  <line x1="370" y1="205" x2="500" y2="205" stroke="#9467bd" stroke-width="3" marker-end="url(#arr9)"/>
+  <text x="435" y="200" font-size="15" fill="#9467bd">W = 933 J</text>
+  <!-- Q2 -->
+  <line x1="350" y1="240" x2="470" y2="270" stroke="#2ca02c" stroke-width="3" marker-end="url(#arr9)"/>
+  <text x="420" y="250" font-size="15" fill="#2ca02c">Q₂ = 3267 J</text>
+  <text x="420" y="268" font-size="13" fill="#2ca02c">(778 cal)</text>
+  <!-- caption -->
+  <text x="300" y="380" text-anchor="middle" font-size="13" fill="#555">Same problem as 2017 Q6(c), just stated in calories in 2023.</text>
+</svg>
