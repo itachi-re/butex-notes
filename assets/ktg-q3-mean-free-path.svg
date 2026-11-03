@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="555" viewBox="0 0 1000 555" role="img" aria-labelledby="title desc">
+<title id="title">Mean free path and molecular collisions</title><desc id="desc">Gas chamber with moving molecules, collision points, free-flight segments, and a schematic collision diameter.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#334155"/></marker><marker id="bluearrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2563eb"/></marker><marker id="orangearrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#ea580c"/></marker></defs>
+<style>
+ text{font-family:Inter,Arial,sans-serif;fill:#172033}
+ .title{font-size:25px;font-weight:700}.sub{font-size:15px;fill:#475569}
+ .label{font-size:16px;font-weight:600}.small{font-size:13px;fill:#475569}
+ .tiny{font-size:11px;fill:#475569}
+ .axis{stroke:#334155;stroke-width:2;fill:none}
+ .grid{stroke:#cbd5e1;stroke-width:1;stroke-dasharray:4 5}
+ .blue{stroke:#2563eb;fill:none;stroke-width:3}.orange{stroke:#ea580c;fill:none;stroke-width:3}
+ .green{stroke:#059669;fill:none;stroke-width:3}.red{stroke:#dc2626;fill:none;stroke-width:2.5}
+ .box{fill:#f8fafc;stroke:#94a3b8;stroke-width:1.5}
+ .molecule{fill:#2563eb;stroke:#1e3a8a;stroke-width:1.5}
+ .hot{fill:#f97316;stroke:#9a3412;stroke-width:1.5}
+ .arrow{stroke:#334155;stroke-width:2;fill:none;marker-end:url(#arrow)}
+ .dasharrow{stroke:#64748b;stroke-width:1.8;stroke-dasharray:5 4;fill:none;marker-end:url(#arrow)}
+</style><rect width="1000" height="555" fill="#ffffff"/>
+<text x="40" y="42" class="title">Molecular motion, collisions and mean free path</text>
+<text x="40" y="68" class="sub">The mean free path λ is the ensemble-average distance traveled between successive molecular collisions.</text>
+<rect x="65" y="105" width="870" height="365" rx="14" fill="#f8fafc" stroke="#475569" stroke-width="3"/>
+<g stroke-width="3" fill="none">
+ <path d="M135 170 L310 230 L475 145" class="blue" marker-end="url(#bluearrow)"/>
+ <path d="M475 145 L590 255 L760 195" class="orange" marker-end="url(#orangearrow)"/>
+ <path d="M760 195 L850 335" class="green" marker-end="url(#arrow)"/>
+ <path d="M155 390 L300 310 L420 385 L560 330" class="dasharrow"/>
+ <path d="M650 365 L720 285 L845 410" class="dasharrow"/>
+</g>
+<g class="molecule"><circle cx="135" cy="170" r="12"/><circle cx="475" cy="145" r="12"/><circle cx="760" cy="195" r="12"/><circle cx="300" cy="310" r="12"/><circle cx="560" cy="330" r="12"/></g>
+<g class="hot"><circle cx="310" cy="230" r="13"/><circle cx="590" cy="255" r="13"/></g>
+<path d="M475 145 L520 100" class="arrow"/><text x="530" y="102" class="small">Collision event</text>
+<path d="M310 230 L340 275" class="arrow"/><text x="345" y="288" class="small">Change in direction</text>
+<path d="M135 170 L475 145" stroke="#0f766e" stroke-width="5" stroke-dasharray="7 5" fill="none"/><text x="285" y="132" text-anchor="middle" class="label" style="fill:#0f766e">Free-flight segment</text>
+<text x="285" y="155" text-anchor="middle" class="small">one molecule's path before collision</text>
+<g transform="translate(610,460)">
+ <circle cx="0" cy="0" r="17" fill="#2563eb" stroke="#1e3a8a" stroke-width="2"/><circle cx="55" cy="0" r="17" fill="#ea580c" stroke="#9a3412" stroke-width="2"/>
+ <line x1="17" y1="0" x2="38" y2="0" stroke="#0f172a" stroke-width="2"/><line x1="17" y1="-27" x2="38" y2="-27" stroke="#0f172a"/><line x1="17" y1="-32" x2="17" y2="-22" stroke="#0f172a"/><line x1="38" y1="-32" x2="38" y2="-22" stroke="#0f172a"/>
+ <text x="82" y="5" class="small">d = collision diameter (center-to-center contact distance)</text>
+</g>
+<text x="72" y="535" class="small">Random molecular velocities; paths are illustrative. λ is an average over many free-flight distances, not one selected segment.</text>
+</svg>
