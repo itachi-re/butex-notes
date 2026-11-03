@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="590" viewBox="0 0 1000 590" role="img" aria-labelledby="title desc">
+<title id="title">Isothermal and adiabatic P–V curves</title><desc id="desc">Pressure-volume graph comparing an isothermal curve and a steeper reversible adiabatic curve from the same initial state.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#334155"/></marker><marker id="bluearrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2563eb"/></marker><marker id="orangearrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#ea580c"/></marker></defs>
+<style>
+ text{font-family:Inter,Arial,sans-serif;fill:#172033}
+ .title{font-size:25px;font-weight:700}.sub{font-size:15px;fill:#475569}
+ .label{font-size:16px;font-weight:600}.small{font-size:13px;fill:#475569}
+ .tiny{font-size:11px;fill:#475569}
+ .axis{stroke:#334155;stroke-width:2;fill:none}
+ .grid{stroke:#cbd5e1;stroke-width:1;stroke-dasharray:4 5}
+ .blue{stroke:#2563eb;fill:none;stroke-width:3}.orange{stroke:#ea580c;fill:none;stroke-width:3}
+ .green{stroke:#059669;fill:none;stroke-width:3}.red{stroke:#dc2626;fill:none;stroke-width:2.5}
+ .box{fill:#f8fafc;stroke:#94a3b8;stroke-width:1.5}
+ .molecule{fill:#2563eb;stroke:#1e3a8a;stroke-width:1.5}
+ .hot{fill:#f97316;stroke:#9a3412;stroke-width:1.5}
+ .arrow{stroke:#334155;stroke-width:2;fill:none;marker-end:url(#arrow)}
+ .dasharrow{stroke:#64748b;stroke-width:1.8;stroke-dasharray:5 4;fill:none;marker-end:url(#arrow)}
+</style><rect width="1000" height="590" fill="#ffffff"/>
+<text x="45" y="42" class="title">Isothermal and adiabatic expansion on a P–V diagram</text>
+<text x="45" y="68" class="sub">Both curves start at the same state; the adiabatic pressure falls more steeply as volume increases.</text>
+<g transform="translate(105,105)">
+ <path d="M80 360 V30 M80 360 H800" class="axis"/>
+ <text x="35" y="38" class="label">P</text><text x="805" y="385" class="label">V</text>
+ <path d="M80 120 H800 M80 240 H800 M260 30 V360 M450 30 V360 M640 30 V360" class="grid"/>
+ <path d="M160 75 C235 125 360 190 760 285" class="blue"/>
+ <path d="M160 75 C225 170 320 270 760 335" class="orange"/>
+ <circle cx="160" cy="75" r="6" fill="#0f172a"/><text x="175" y="62" class="label">Initial state (P₁,V₁)</text>
+ <text x="570" y="220" class="label" style="fill:#2563eb">Isothermal: PV = constant</text>
+ <text x="520" y="320" class="label" style="fill:#ea580c">Adiabatic: PVᵞ = constant</text>
+ <path d="M285 143 L350 170" class="dasharrow"/><path d="M280 210 L340 250" class="dasharrow"/>
+ <text x="520" y="60" class="small">For expansion: T decreases</text>
+ <text x="520" y="82" class="small">only on the adiabatic path</text>
+ <text x="80" y="410" class="small">Qualitative curves; axes are schematic, not to scale.</text>
+</g>
+<g transform="translate(135,535)">
+ <line x1="0" y1="0" x2="45" y2="0" class="blue"/><text x="55" y="5" class="small">Isothermal (T constant)</text>
+ <line x1="275" y1="0" x2="320" y2="0" class="orange"/><text x="330" y="5" class="small">Reversible adiabatic (Q = 0)</text>
+</g>
+</svg>
