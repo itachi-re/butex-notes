@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="590" viewBox="0 0 1000 590" role="img" aria-labelledby="title desc">
+<title id="title">Constant-volume and constant-pressure heating</title><desc id="desc">Comparison of heat supplied to an ideal gas at constant volume and constant pressure, showing expansion work at constant pressure.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#334155"/></marker><marker id="bluearrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2563eb"/></marker><marker id="orangearrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#ea580c"/></marker></defs>
+<style>
+ text{font-family:Inter,Arial,sans-serif;fill:#172033}
+ .title{font-size:25px;font-weight:700}.sub{font-size:15px;fill:#475569}
+ .label{font-size:16px;font-weight:600}.small{font-size:13px;fill:#475569}
+ .tiny{font-size:11px;fill:#475569}
+ .axis{stroke:#334155;stroke-width:2;fill:none}
+ .grid{stroke:#cbd5e1;stroke-width:1;stroke-dasharray:4 5}
+ .blue{stroke:#2563eb;fill:none;stroke-width:3}.orange{stroke:#ea580c;fill:none;stroke-width:3}
+ .green{stroke:#059669;fill:none;stroke-width:3}.red{stroke:#dc2626;fill:none;stroke-width:2.5}
+ .box{fill:#f8fafc;stroke:#94a3b8;stroke-width:1.5}
+ .molecule{fill:#2563eb;stroke:#1e3a8a;stroke-width:1.5}
+ .hot{fill:#f97316;stroke:#9a3412;stroke-width:1.5}
+ .arrow{stroke:#334155;stroke-width:2;fill:none;marker-end:url(#arrow)}
+ .dasharrow{stroke:#64748b;stroke-width:1.8;stroke-dasharray:5 4;fill:none;marker-end:url(#arrow)}
+</style><rect width="1000" height="590" fill="#ffffff"/>
+<text x="40" y="42" class="title">Why molar heat capacity is larger at constant pressure</text>
+<text x="40" y="68" class="sub">Same temperature rise ΔT; the constant-pressure gas also expands and performs work.</text>
+<g transform="translate(55,105)">
+ <text x="155" y="0" text-anchor="middle" class="label">Constant volume</text>
+ <rect x="45" y="35" width="220" height="170" rx="7" fill="#eff6ff" stroke="#2563eb" stroke-width="3"/>
+ <line x1="42" y1="205" x2="268" y2="205" stroke="#1e3a8a" stroke-width="5"/>
+ <g fill="#2563eb"><circle cx="95" cy="92" r="8"/><circle cx="150" cy="70" r="8"/><circle cx="205" cy="130" r="8"/><circle cx="115" cy="160" r="8"/><circle cx="185" cy="175" r="8"/></g>
+ <path d="M150 205 V235" class="arrow"/><text x="150" y="260" text-anchor="middle" class="small">Rigid walls: ΔV = 0</text>
+ <path d="M150 300 V274" stroke="#ea580c" stroke-width="4" marker-end="url(#orangearrow)"/><text x="150" y="325" text-anchor="middle" class="label" fill="#c2410c">Heat Qᵥ</text>
+ <text x="150" y="350" text-anchor="middle" class="small">All supplied heat raises U</text>
+</g>
+<g transform="translate(535,105)">
+ <text x="155" y="0" text-anchor="middle" class="label">Constant pressure</text>
+ <rect x="45" y="68" width="220" height="137" rx="7" fill="#fff7ed" stroke="#ea580c" stroke-width="3"/>
+ <rect x="42" y="35" width="226" height="13" rx="3" fill="#64748b"/>
+ <g fill="#ea580c"><circle cx="95" cy="115" r="8"/><circle cx="150" cy="94" r="8"/><circle cx="205" cy="150" r="8"/><circle cx="115" cy="175" r="8"/><circle cx="185" cy="180" r="8"/></g>
+ <path d="M155 30 V7" class="arrow"/><text x="180" y="12" class="small">Piston rises</text>
+ <path d="M150 205 V235" class="arrow"/><text x="150" y="260" text-anchor="middle" class="small">Movable piston: ΔV &gt; 0</text>
+ <path d="M150 300 V274" stroke="#ea580c" stroke-width="4" marker-end="url(#orangearrow)"/><text x="150" y="325" text-anchor="middle" class="label" fill="#c2410c">Heat Qₚ</text>
+ <text x="150" y="350" text-anchor="middle" class="small">Heat raises U and supplies PΔV work</text>
+</g>
+<g transform="translate(70,485)">
+ <text x="0" y="0" class="label">Energy accounting for the same ΔT</text>
+ <rect x="0" y="18" width="340" height="26" rx="4" fill="#2563eb"/><text x="12" y="37" fill="white" style="fill:white;font-size:13px;font-weight:700">ΔU = CᵥΔT</text>
+ <rect x="430" y="18" width="340" height="26" rx="4" fill="#2563eb"/><rect x="770" y="18" width="100" height="26" rx="4" fill="#ea580c"/><text x="442" y="37" fill="white" style="fill:white;font-size:13px;font-weight:700">ΔU = CᵥΔT</text><text x="820" y="37" text-anchor="middle" fill="white" style="fill:white;font-size:12px;font-weight:700">PΔV</text>
+ <text x="170" y="68" text-anchor="middle" class="small">Qᵥ = CᵥΔT</text><text x="650" y="68" text-anchor="middle" class="small">Qₚ = CᵥΔT + RΔT = CₚΔT</text>
+</g>
+</svg>
