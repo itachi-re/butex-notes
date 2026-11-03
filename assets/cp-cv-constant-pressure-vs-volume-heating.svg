@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" width="600" height="420" font-family="Arial, Helvetica, sans-serif">
+  <rect width="600" height="420" fill="#ffffff"/>
+  <!-- Constant volume -->
+  <text x="150" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#d62728">Constant Volume (Cv)</text>
+  <rect x="60" y="60" width="180" height="120" fill="#fde8e8" stroke="#d62728" stroke-width="2" rx="6"/>
+  <text x="150" y="95" text-anchor="middle" font-size="14" fill="#222">Rigid container</text>
+  <text x="150" y="120" text-anchor="middle" font-size="14" fill="#222">dV = 0</text>
+  <text x="150" y="145" text-anchor="middle" font-size="14" fill="#222">δQ = dU = Cv dT</text>
+  <text x="150" y="170" text-anchor="middle" font-size="13" fill="#555">All heat → internal energy</text>
+  <!-- Constant pressure -->
+  <text x="450" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#1f77b4">Constant Pressure (Cp)</text>
+  <rect x="360" y="60" width="180" height="120" fill="#e8f0fe" stroke="#1f77b4" stroke-width="2" rx="6"/>
+  <text x="450" y="95" text-anchor="middle" font-size="14" fill="#222">Movable piston</text>
+  <text x="450" y="120" text-anchor="middle" font-size="14" fill="#222">dP = 0</text>
+  <text x="450" y="145" text-anchor="middle" font-size="14" fill="#222">δQ = dU + P dV = Cp dT</text>
+  <text x="450" y="170" text-anchor="middle" font-size="13" fill="#555">Heat → internal energy + work</text>
+  <!-- comparison -->
+  <rect x="60" y="220" width="480" height="140" fill="#fafafa" stroke="#888" stroke-width="1" rx="6"/>
+  <text x="300" y="250" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">For the same ΔT:</text>
+  <text x="300" y="285" text-anchor="middle" font-size="14" fill="#222">Cp needs MORE heat because gas does work expanding.</text>
+  <text x="300" y="315" text-anchor="middle" font-size="15" font-weight="bold" fill="#9467bd">Cp − Cv = R   (Mayer's relation)</text>
+  <text x="300" y="345" text-anchor="middle" font-size="13" fill="#555">Since R &gt; 0, always Cp &gt; Cv.</text>
+</svg>
