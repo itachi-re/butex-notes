@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" width="600" height="420" font-family="Arial, Helvetica, sans-serif">
+  <rect width="600" height="420" fill="#ffffff"/>
+  <!-- Kelvin-Planck -->
+  <text x="150" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#1f77b4">Kelvin–Planck</text>
+  <rect x="70" y="60" width="160" height="80" fill="#fde8e8" stroke="#d62728" stroke-width="2" rx="6"/>
+  <text x="150" y="95" text-anchor="middle" font-size="14" fill="#222">Hot reservoir T₁</text>
+  <text x="150" y="115" text-anchor="middle" font-size="13" fill="#555">Q₁ in</text>
+  <rect x="70" y="180" width="160" height="60" fill="#e8f0fe" stroke="#1f77b4" stroke-width="2" rx="6"/>
+  <text x="150" y="215" text-anchor="middle" font-size="14" fill="#222">Engine → W = Q₁</text>
+  <line x1="150" y1="140" x2="150" y2="178" stroke="#d62728" stroke-width="2"/>
+  <text x="150" y="275" text-anchor="middle" font-size="13" fill="#d62728">✗ Impossible: no Q₂ rejected</text>
+  <!-- Clausius -->
+  <text x="450" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#2ca02c">Clausius</text>
+  <rect x="370" y="60" width="160" height="60" fill="#fde8e8" stroke="#d62728" stroke-width="2" rx="6"/>
+  <text x="450" y="95" text-anchor="middle" font-size="14" fill="#222">Hot T₁</text>
+  <rect x="370" y="200" width="160" height="60" fill="#e8f8e8" stroke="#2ca02c" stroke-width="2" rx="6"/>
+  <text x="450" y="235" text-anchor="middle" font-size="14" fill="#222">Cold T₂</text>
+  <line x1="450" y1="198" x2="450" y2="122" stroke="#9467bd" stroke-width="2"/>
+  <text x="460" y="160" font-size="13" fill="#9467bd">Q</text>
+  <text x="450" y="295" text-anchor="middle" font-size="13" fill="#d62728">✗ Impossible: heat cold → hot with no work</text>
+  <!-- equivalence note -->
+  <text x="300" y="350" text-anchor="middle" font-size="14" fill="#222">Both statements are logically equivalent.</text>
+  <text x="300" y="375" text-anchor="middle" font-size="14" fill="#222">Violation of one implies violation of the other.</text>
+  <text x="300" y="405" text-anchor="middle" font-size="13" fill="#555">∮ δQ/T ≤ 0 (Clausius inequality) unifies both.</text>
+</svg>
