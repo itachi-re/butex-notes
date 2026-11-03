@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="540" viewBox="0 0 1100 540" role="img" aria-labelledby="title desc">
+<title id="title">Molecular motion and pressure</title><desc id="desc">Molecules move randomly in a container and transfer momentum at the walls; an inset illustrates reversal of one velocity component on impact.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#334155"/></marker><marker id="bluearrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2563eb"/></marker><marker id="orangearrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#ea580c"/></marker></defs>
+<style>
+ text{font-family:Inter,Arial,sans-serif;fill:#172033}
+ .title{font-size:25px;font-weight:700}.sub{font-size:15px;fill:#475569}
+ .label{font-size:16px;font-weight:600}.small{font-size:13px;fill:#475569}
+ .tiny{font-size:11px;fill:#475569}
+ .axis{stroke:#334155;stroke-width:2;fill:none}
+ .grid{stroke:#cbd5e1;stroke-width:1;stroke-dasharray:4 5}
+ .blue{stroke:#2563eb;fill:none;stroke-width:3}.orange{stroke:#ea580c;fill:none;stroke-width:3}
+ .green{stroke:#059669;fill:none;stroke-width:3}.red{stroke:#dc2626;fill:none;stroke-width:2.5}
+ .box{fill:#f8fafc;stroke:#94a3b8;stroke-width:1.5}
+ .molecule{fill:#2563eb;stroke:#1e3a8a;stroke-width:1.5}
+ .hot{fill:#f97316;stroke:#9a3412;stroke-width:1.5}
+ .arrow{stroke:#334155;stroke-width:2;fill:none;marker-end:url(#arrow)}
+ .dasharrow{stroke:#64748b;stroke-width:1.8;stroke-dasharray:5 4;fill:none;marker-end:url(#arrow)}
+</style><rect width="1100" height="540" fill="#ffffff"/>
+<text x="40" y="42" class="title">Kinetic theory: molecular impacts produce gas pressure</text>
+<text x="40" y="68" class="sub">Pressure is the normal momentum transferred to container walls per unit area per unit time.</text>
+<rect x="65" y="115" width="575" height="355" rx="12" fill="#eff6ff" stroke="#2563eb" stroke-width="3"/>
+<g class="molecule">
+ <circle cx="150" cy="190" r="10"/><circle cx="260" cy="165" r="10"/><circle cx="390" cy="220" r="10"/><circle cx="535" cy="170" r="10"/><circle cx="195" cy="330" r="10"/><circle cx="345" cy="370" r="10"/><circle cx="485" cy="315" r="10"/><circle cx="565" cy="405" r="10"/>
+</g>
+<g stroke-width="2.6" fill="none">
+ <path d="M150 190 L215 145" class="blue" marker-end="url(#bluearrow)"/>
+ <path d="M260 165 L320 235" class="orange" marker-end="url(#orangearrow)"/>
+ <path d="M390 220 L485 205" class="green" marker-end="url(#arrow)"/>
+ <path d="M535 170 L590 125" class="blue" marker-end="url(#bluearrow)"/>
+ <path d="M195 330 L115 285" class="orange" marker-end="url(#orangearrow)"/>
+ <path d="M345 370 L415 425" class="green" marker-end="url(#arrow)"/>
+ <path d="M485 315 L560 270" class="blue" marker-end="url(#bluearrow)"/>
+</g>
+<path d="M585 125 L585 90" stroke="#dc2626" stroke-width="4" marker-end="url(#orangearrow)"/><text x="600" y="96" class="small">Wall impact</text>
+<text x="90" y="500" class="small">Random directions → isotropic average: ⟨cₓ²⟩ = ⟨c²⟩/3</text>
+<g transform="translate(700,125)">
+ <text x="0" y="0" class="label">One molecule hitting a wall</text>
+ <rect x="250" y="30" width="14" height="240" fill="#94a3b8"/>
+ <circle cx="80" cy="150" r="12" fill="#2563eb" stroke="#1e3a8a" stroke-width="2"/>
+ <path d="M95 150 L225 150" stroke="#2563eb" stroke-width="3" marker-end="url(#bluearrow)"/>
+ <path d="M225 190 L95 190" stroke="#ea580c" stroke-width="3" marker-end="url(#orangearrow)"/>
+ <text x="155" y="132" text-anchor="middle" class="small">before: +muₓ</text>
+ <text x="155" y="215" text-anchor="middle" class="small">after: −muₓ</text>
+ <path d="M265 150 L330 150" stroke="#dc2626" stroke-width="3" marker-end="url(#orangearrow)"/>
+ <text x="300" y="180" class="small">wall impulse</text>
+ <text x="0" y="315" class="small">Magnitude of momentum change:</text>
+ <text x="0" y="340" class="label">|Δpₓ| = 2m|uₓ|</text>
+</g>
+</svg>
