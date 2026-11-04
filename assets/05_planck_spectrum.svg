@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="640" viewBox="0 0 1100 640">
+<rect width="1100" height="640" rx="24" fill="#f8fbff"/>
+<text x="55" y="58" font-family="Arial" font-size="28" font-weight="700" fill="#17324d">Blackbody spectrum predicted by Planck’s law</text>
+<text x="55" y="91" font-family="Arial" font-size="17" fill="#526579">As temperature rises, total emitted energy increases and the peak moves to shorter wavelengths.</text>
+<g stroke="#243b53" stroke-width="3" fill="none"><path d="M115 520 L1015 520"/><path d="M115 520 L115 145"/></g>
+<text x="520" y="570" font-family="Arial" font-size="19" fill="#34495e">Wavelength, λ</text><text x="55" y="340" transform="rotate(-90 55 340)" font-family="Arial" font-size="19" fill="#34495e">Spectral intensity</text>
+<path d="M120 515 C205 505 245 455 300 340 C350 235 410 225 470 300 C535 385 590 465 680 505 C790 520 890 520 1000 520" stroke="#2878c8" stroke-width="5" fill="none"/>
+<path d="M120 515 C170 495 205 360 245 220 C285 115 355 145 415 260 C480 380 550 470 650 505 C760 520 890 520 1000 520" stroke="#d17a22" stroke-width="5" fill="none"/>
+<path d="M120 515 C150 470 175 250 205 160 C235 95 290 125 345 260 C405 390 490 480 590 510 C720 520 880 520 1000 520" stroke="#2d9468" stroke-width="5" fill="none"/>
+<g font-family="Arial" font-size="18" font-weight="700"><text x="700" y="255" fill="#2878c8">T₁</text><text x="700" y="225" fill="#d17a22">T₂ &gt; T₁</text><text x="700" y="195" fill="#2d9468">T₃ &gt; T₂</text></g>
+<path d="M460 185 L345 180" stroke="#647b91" stroke-width="2" stroke-dasharray="5 5"/><text x="470" y="180" font-family="Arial" font-size="16" fill="#526579">Peak shifts left as T rises</text>
+<text x="145" y="610" font-family="Arial" font-size="15" fill="#526579">Qualitative curves (not to scale); area under a curve is related to total emitted power.</text>
+</svg>
