@@ -122,41 +122,41 @@ Useful values: $R = 8.314\,\mathrm{J\,mol^{-1}\,K^{-1}}$, $1\,\mathrm{atm} = 1.0
 
 **Derivation** ($a$, $b$ are the van der Waals constants, $R$ the gas constant):
 
-1. Solve for pressure:
+**Step 1.** Solve for pressure:
 
-   $$
-   P=\frac{RT}{V-b}-\frac{a}{V^2}
-   $$
+$$
+P=\frac{RT}{V-b}-\frac{a}{V^2}
+$$
 
-2. First condition, $\left(\partial P/\partial V\right)_T=0$:
+**Step 2.** First condition, $\left(\partial P/\partial V\right)_T=0$:
 
-   $$
-   -\frac{RT}{(V-b)^2}+\frac{2a}{V^3}=0 \quad\Rightarrow\quad \frac{RT}{(V-b)^2}=\frac{2a}{V^3}
-   $$
+$$
+-\frac{RT}{(V-b)^2}+\frac{2a}{V^3}=0 \quad\Rightarrow\quad \frac{RT}{(V-b)^2}=\frac{2a}{V^3}
+$$
 
-3. Second condition, $\left(\partial^2 P/\partial V^2\right)_T=0$:
+**Step 3.** Second condition, $\left(\partial^2 P/\partial V^2\right)_T=0$:
 
-   $$
-   \frac{2RT}{(V-b)^3}-\frac{6a}{V^4}=0 \quad\Rightarrow\quad \frac{RT}{(V-b)^3}=\frac{3a}{V^4}
-   $$
+$$
+\frac{2RT}{(V-b)^3}-\frac{6a}{V^4}=0 \quad\Rightarrow\quad \frac{RT}{(V-b)^3}=\frac{3a}{V^4}
+$$
 
-4. Divide step 2 by step 3:
+**Step 4.** Divide step 2 by step 3:
 
-   $$
-   V-b=\frac{2V}{3}\quad\Rightarrow\quad V_c=3b
-   $$
+$$
+V-b=\frac{2V}{3}\quad\Rightarrow\quad V_c=3b
+$$
 
-5. Put $V_c$ into step 2:
+**Step 5.** Put $V_c$ into step 2:
 
-   $$
-   RT_c=\frac{2a(V_c-b)^2}{V_c^3}=\frac{2a(2b)^2}{27b^3}=\frac{8a}{27b}\quad\Rightarrow\quad T_c=\frac{8a}{27bR}
-   $$
+$$
+RT_c=\frac{2a(V_c-b)^2}{V_c^3}=\frac{2a(2b)^2}{27b^3}=\frac{8a}{27b}\quad\Rightarrow\quad T_c=\frac{8a}{27bR}
+$$
 
-6. Put $V_c$ and $T_c$ into step 1:
+**Step 6.** Put $V_c$ and $T_c$ into step 1:
 
-   $$
-   P_c=\frac{8a/27b}{2b}-\frac{a}{9b^2}=\frac{4a}{27b^2}-\frac{3a}{27b^2}=\frac{a}{27b^2}
-   $$
+$$
+P_c=\frac{8a/27b}{2b}-\frac{a}{9b^2}=\frac{4a}{27b^2}-\frac{3a}{27b^2}=\frac{a}{27b^2}
+$$
 
 > [!IMPORTANT]
 >
@@ -206,29 +206,29 @@ $$
 
 **Derivation:**
 
-1. Multiply the van der Waals pressure by $V$ and expand for large $V$ (small $b/V$):
+**Step 1.** Multiply the van der Waals pressure by $V$ and expand for large $V$ (small $b/V$):
 
-   $$
-   PV=\frac{RTV}{V-b}-\frac{a}{V}\approx RT+\frac{RTb-a}{V}
-   $$
+$$
+PV=\frac{RTV}{V-b}-\frac{a}{V}\approx RT+\frac{RTb-a}{V}
+$$
 
-2. At low pressure $1/V\approx P/RT$, so
+**Step 2.** At low pressure $1/V\approx P/RT$, so
 
-   $$
-   PV\approx RT+\left(b-\frac{a}{RT}\right)P
-   $$
+$$
+PV\approx RT+\left(b-\frac{a}{RT}\right)P
+$$
 
-3. Boyle's law holds when the coefficient of $P$ vanishes:
+**Step 3.** Boyle's law holds when the coefficient of $P$ vanishes:
 
-   $$
-   b-\frac{a}{RT_0}=0\quad\Rightarrow\quad T_0=\frac{a}{bR}
-   $$
+$$
+b-\frac{a}{RT_0}=0\quad\Rightarrow\quad T_0=\frac{a}{bR}
+$$
 
-4. Divide the critical temperature (from 2016 Q5(b)) by $T_0$:
+**Step 4.** Divide the critical temperature (from 2016 Q5(b)) by $T_0$:
 
-   $$
-   \frac{T_c}{T_0}=\frac{8a/(27bR)}{a/(bR)}=\frac{8}{27}
-   $$
+$$
+\frac{T_c}{T_0}=\frac{8a/(27bR)}{a/(bR)}=\frac{8}{27}
+$$
 
 > [!IMPORTANT]
 >
@@ -310,12 +310,13 @@ First law: a perpetual-motion machine of the first kind (work without energy inp
 
 **Substitution.**
 
-1. In these units $R=\dfrac{1\times1}{273}=\dfrac{1}{273}$.
-2. Then
+**Step 1.** In these units $R=\dfrac{1\times1}{273}=\dfrac{1}{273}$.
 
-   $$
-   T_c=\frac{8\times0.00874\times273}{27\times0.0023}=\frac{19.088}{0.0621}\approx307.4\,\mathrm{K}
-   $$
+**Step 2.** Then
+
+$$
+T_c=\frac{8\times0.00874\times273}{27\times0.0023}=\frac{19.088}{0.0621}\approx307.4\,\mathrm{K}
+$$
 
 > [!IMPORTANT]
 > $T_c\approx307.4\,\mathrm{K}\approx34.4\,^\circ\mathrm{C}$. The measured critical temperature of CO2 is about $304\,\mathrm{K}$, so the van der Waals model is close but not exact.
@@ -428,47 +429,47 @@ When one mole of an ideal gas expands freely into a vacuum to twice its volume, 
 
 **Derivation** (one mole of ideal gas, $\gamma=C_p/C_v$; states A, B, C, D with volumes $V_1,V_2,V_3,V_4$):
 
-1. A to B, isothermal expansion at $T_1$ ($\Delta U=0$): heat absorbed
+**Step 1.** A to B, isothermal expansion at $T_1$ ($\Delta U=0$): heat absorbed
 
-   $$
-   Q_1=RT_1\ln\frac{V_2}{V_1}
-   $$
+$$
+Q_1=RT_1\ln\frac{V_2}{V_1}
+$$
 
-2. B to C, adiabatic expansion:
+**Step 2.** B to C, adiabatic expansion:
 
-   $$
-   T_1V_2^{\gamma-1}=T_2V_3^{\gamma-1}
-   $$
+$$
+T_1V_2^{\gamma-1}=T_2V_3^{\gamma-1}
+$$
 
-3. C to D, isothermal compression at $T_2$: heat rejected
+**Step 3.** C to D, isothermal compression at $T_2$: heat rejected
 
-   $$
-   Q_2=RT_2\ln\frac{V_3}{V_4}
-   $$
+$$
+Q_2=RT_2\ln\frac{V_3}{V_4}
+$$
 
-4. D to A, adiabatic compression:
+**Step 4.** D to A, adiabatic compression:
 
-   $$
-   T_2V_4^{\gamma-1}=T_1V_1^{\gamma-1}
-   $$
+$$
+T_2V_4^{\gamma-1}=T_1V_1^{\gamma-1}
+$$
 
-5. Divide step 2 by step 4:
+**Step 5.** Divide step 2 by step 4:
 
-   $$
-   \frac{V_2}{V_1}=\frac{V_3}{V_4}
-   $$
+$$
+\frac{V_2}{V_1}=\frac{V_3}{V_4}
+$$
 
-6. Hence the logarithms are equal and
+**Step 6.** Hence the logarithms are equal and
 
-   $$
-   \frac{Q_1}{Q_2}=\frac{T_1}{T_2}
-   $$
+$$
+\frac{Q_1}{Q_2}=\frac{T_1}{T_2}
+$$
 
-7. Efficiency:
+**Step 7.** Efficiency:
 
-   $$
-   \eta=\frac{W}{Q_1}=\frac{Q_1-Q_2}{Q_1}=1-\frac{T_2}{T_1}
-   $$
+$$
+\eta=\frac{W}{Q_1}=\frac{Q_1-Q_2}{Q_1}=1-\frac{T_2}{T_1}
+$$
 
 > [!IMPORTANT]
 >
@@ -613,25 +614,27 @@ Same as [2017 Q6(a)](#ans-to-the-question-no-6a-2017).
 
 **Derivation** (one mole of ideal gas, $PV=RT$):
 
-1. First law for a small change: $dQ=dU+P\,dV$.
-2. At constant volume $dV=0$, so
+**Step 1.** First law for a small change: $dQ=dU+P\,dV$.
 
-   $$
-   C_v=\left(\frac{dQ}{dT}\right)_V=\left(\frac{dU}{dT}\right)_V
-   $$
+**Step 2.** At constant volume $dV=0$, so
 
-3. For an ideal gas $U$ depends on $T$ only (Joule's law), so $dU=C_v\,dT$ in every process.
-4. At constant pressure
+$$
+C_v=\left(\frac{dQ}{dT}\right)_V=\left(\frac{dU}{dT}\right)_V
+$$
 
-   $$
-   C_p=\left(\frac{dQ}{dT}\right)_P=C_v+P\left(\frac{dV}{dT}\right)_P
-   $$
+**Step 3.** For an ideal gas $U$ depends on $T$ only (Joule's law), so $dU=C_v\,dT$ in every process.
 
-5. From $PV=RT$ at constant $P$: $P\,(dV/dT)_P=R$. Therefore
+**Step 4.** At constant pressure
 
-   $$
-   C_p=C_v+R
-   $$
+$$
+C_p=\left(\frac{dQ}{dT}\right)_P=C_v+P\left(\frac{dV}{dT}\right)_P
+$$
+
+**Step 5.** From $PV=RT$ at constant $P$: $P\,(dV/dT)_P=R$. Therefore
+
+$$
+C_p=C_v+R
+$$
 
 > [!IMPORTANT]
 >
@@ -673,21 +676,25 @@ For a monatomic gas $\gamma=5/3$; for a diatomic gas $\gamma=7/5=1.4$. Always $C
 
 **To show the cycle is reversible:**
 
-1. Every step is quasi-static, so the gas is in equilibrium at each stage.
-2. In the isothermal steps the gas and the reservoir differ in temperature by only an infinitesimal amount, so heat flows reversibly and a tiny change would reverse the direction.
-3. The adiabatic steps are done with perfect insulation, so no heat enters or leaves.
-4. There is no friction or other dissipation.
-5. Run backwards, the cycle retraces every state: $A\to D\to C\to B\to A$. Heat $Q_2$ is absorbed at $T_2$, heat $Q_1$ is rejected at $T_1$ and work $W$ is done on the gas.
+**Step 1.** Every step is quasi-static, so the gas is in equilibrium at each stage.
 
-   ![Reversed Carnot cycle acting as a refrigerator](../../assets/phy-103-thermodynamics-carnot-cycle-reversed-refrigerator.svg)
+**Step 2.** In the isothermal steps the gas and the reservoir differ in temperature by only an infinitesimal amount, so heat flows reversibly and a tiny change would reverse the direction.
 
-6. Entropy check:
+**Step 3.** The adiabatic steps are done with perfect insulation, so no heat enters or leaves.
 
-   $$
-   \Delta S_{\text{universe}}=-\frac{Q_1}{T_1}+\frac{Q_2}{T_2}=0
-   $$
+**Step 4.** There is no friction or other dissipation.
 
-   because $Q_1/Q_2=T_1/T_2$.
+**Step 5.** Run backwards, the cycle retraces every state: $A\to D\to C\to B\to A$. Heat $Q_2$ is absorbed at $T_2$, heat $Q_1$ is rejected at $T_1$ and work $W$ is done on the gas.
+
+![Reversed Carnot cycle acting as a refrigerator](../../assets/phy-103-thermodynamics-carnot-cycle-reversed-refrigerator.svg)
+
+**Step 6.** Entropy check:
+
+$$
+\Delta S_{\text{universe}}=-\frac{Q_1}{T_1}+\frac{Q_2}{T_2}=0
+$$
+
+because $Q_1/Q_2=T_1/T_2$.
 
 > [!IMPORTANT]
 > The Carnot cycle is reversible: every step is quasi-static and free of dissipation, reversing it retraces every state, and $\Delta S_{\text{universe}}=0$.
@@ -728,39 +735,41 @@ Applying this to the four thermodynamic potentials gives the four Maxwell relati
 
 **Derivation** ($S$ entropy, $T$ temperature, $P$ pressure, $V$ volume):
 
-1. Exactness: since $M=(\partial Z/\partial x)_y$ and $N=(\partial Z/\partial y)_x$, the equality of mixed second derivatives gives the condition above.
-2. First and second laws for a reversible change: $dU=T\,dS-P\,dV$.
-3. Define $H=U+PV$, $F=U-TS$, $G=H-TS$. Then
+**Step 1.** Exactness: since $M=(\partial Z/\partial x)_y$ and $N=(\partial Z/\partial y)_x$, the equality of mixed second derivatives gives the condition above.
 
-   $$
-   dH=T\,dS+V\,dP,\qquad dF=-S\,dT-P\,dV,\qquad dG=-S\,dT+V\,dP
-   $$
+**Step 2.** First and second laws for a reversible change: $dU=T\,dS-P\,dV$.
 
-4. Apply the exactness condition to each:
+**Step 3.** Define $H=U+PV$, $F=U-TS$, $G=H-TS$. Then
 
-   From $dU$:
+$$
+dH=T\,dS+V\,dP,\qquad dF=-S\,dT-P\,dV,\qquad dG=-S\,dT+V\,dP
+$$
 
-   $$
-   \left(\frac{\partial T}{\partial V}\right)_S=-\left(\frac{\partial P}{\partial S}\right)_V
-   $$
+**Step 4.** Apply the exactness condition to each:
 
-   From $dH$:
+From $dU$:
 
-   $$
-   \left(\frac{\partial T}{\partial P}\right)_S=\left(\frac{\partial V}{\partial S}\right)_P
-   $$
+$$
+\left(\frac{\partial T}{\partial V}\right)_S=-\left(\frac{\partial P}{\partial S}\right)_V
+$$
 
-   From $dF$:
+From $dH$:
 
-   $$
-   \left(\frac{\partial S}{\partial V}\right)_T=\left(\frac{\partial P}{\partial T}\right)_V
-   $$
+$$
+\left(\frac{\partial T}{\partial P}\right)_S=\left(\frac{\partial V}{\partial S}\right)_P
+$$
 
-   From $dG$:
+From $dF$:
 
-   $$
-   \left(\frac{\partial S}{\partial P}\right)_T=-\left(\frac{\partial V}{\partial T}\right)_P
-   $$
+$$
+\left(\frac{\partial S}{\partial V}\right)_T=\left(\frac{\partial P}{\partial T}\right)_V
+$$
+
+From $dG$:
+
+$$
+\left(\frac{\partial S}{\partial P}\right)_T=-\left(\frac{\partial V}{\partial T}\right)_P
+$$
 
 > [!IMPORTANT]
 > The four Maxwell relations follow from the exactness of $dU$, $dH$, $dF$ and $dG$, through $\left(\partial M/\partial y\right)_x=\left(\partial N/\partial x\right)_y$.
@@ -800,29 +809,29 @@ On the thermodynamic square each side is a potential, its two corners are its na
 
 **Derivation:**
 
-1. For part (i), at constant $T$:
+**Step 1.** For part (i), at constant $T$:
 
-   $$
-   \left(\frac{\partial Q}{\partial V}\right)_T=T\left(\frac{\partial S}{\partial V}\right)_T
-   $$
+$$
+\left(\frac{\partial Q}{\partial V}\right)_T=T\left(\frac{\partial S}{\partial V}\right)_T
+$$
 
-2. Use the $dF$ relation $\left(\partial S/\partial V\right)_T=\left(\partial P/\partial T\right)_V$:
+**Step 2.** Use the $dF$ relation $\left(\partial S/\partial V\right)_T=\left(\partial P/\partial T\right)_V$:
 
-   $$
-   \left(\frac{\partial Q}{\partial V}\right)_T=T\left(\frac{\partial P}{\partial T}\right)_V
-   $$
+$$
+\left(\frac{\partial Q}{\partial V}\right)_T=T\left(\frac{\partial P}{\partial T}\right)_V
+$$
 
-3. For part (ii), at constant $V$ we have $dQ=T\,dS$, so $\left(\partial P/\partial Q\right)_V=\dfrac{1}{T}\left(\partial P/\partial S\right)_V$. Hence
+**Step 3.** For part (ii), at constant $V$ we have $dQ=T\,dS$, so $\left(\partial P/\partial Q\right)_V=\dfrac{1}{T}\left(\partial P/\partial S\right)_V$. Hence
 
-   $$
-   -T\left(\frac{\partial P}{\partial Q}\right)_V=-\left(\frac{\partial P}{\partial S}\right)_V
-   $$
+$$
+-T\left(\frac{\partial P}{\partial Q}\right)_V=-\left(\frac{\partial P}{\partial S}\right)_V
+$$
 
-4. The $dU$ relation gives
+**Step 4.** The $dU$ relation gives
 
-   $$
-   \left(\frac{\partial T}{\partial V}\right)_S=-\left(\frac{\partial P}{\partial S}\right)_V=-T\left(\frac{\partial P}{\partial Q}\right)_V
-   $$
+$$
+\left(\frac{\partial T}{\partial V}\right)_S=-\left(\frac{\partial P}{\partial S}\right)_V=-T\left(\frac{\partial P}{\partial Q}\right)_V
+$$
 
 > [!IMPORTANT]
 > (i) $\left(\dfrac{\partial Q}{\partial V}\right)_T=T\left(\dfrac{\partial P}{\partial T}\right)_V$
@@ -1002,16 +1011,19 @@ Since $V_2=2V_1$, the pressure becomes $P_2=P_1\,2^{-1.4}=0.379\,P_1$. Check wit
 
 **Derivation** ($Q$ heat absorbed, $W$ work done by the system, $U$ internal energy):
 
-1. Energy can be neither created nor destroyed. Heat $Q$ given to a system can only increase its internal energy or be used to do work.
-2. Therefore
+**Step 1.** Energy can be neither created nor destroyed. Heat $Q$ given to a system can only increase its internal energy or be used to do work.
 
-   $$
-   Q=\Delta U+W\qquad\text{or}\qquad dQ=dU+P\,dV
-   $$
+**Step 2.** Therefore
 
-3. Isolated system: $Q=0$ and $W=0$, so $\Delta U=0$ and $U$ is constant.
-4. Complete cycle: $\Delta U=0$, so $W=Q$. An engine cannot give out more work than the heat it takes in, so a perpetual-motion machine of the first kind is impossible.
-5. Joule's experiment: the same work done adiabatically on a system always produces the same change in $U$, so $U$ is a state function.
+$$
+Q=\Delta U+W\qquad\text{or}\qquad dQ=dU+P\,dV
+$$
+
+**Step 3.** Isolated system: $Q=0$ and $W=0$, so $\Delta U=0$ and $U$ is constant.
+
+**Step 4.** Complete cycle: $\Delta U=0$, so $W=Q$. An engine cannot give out more work than the heat it takes in, so a perpetual-motion machine of the first kind is impossible.
+
+**Step 5.** Joule's experiment: the same work done adiabatically on a system always produces the same change in $U$, so $U$ is a state function.
 
 > [!IMPORTANT]
 > $Q=\Delta U+W$ is the statement of conservation of energy applied to heat, internal energy and work.
@@ -1064,18 +1076,19 @@ Same as [2018 Q8(c)](#ans-to-the-question-no-8c-2018).
 
 **Derivation** (gas goes from $(P_1,V_1)$ to $(P_2,V_2)$; $\gamma=C_p/C_v$; $K$ is the constant):
 
-1. Write $P=KV^{-\gamma}$ with $K=P_1V_1^\gamma=P_2V_2^\gamma$.
-2. Work done by the gas:
+**Step 1.** Write $P=KV^{-\gamma}$ with $K=P_1V_1^\gamma=P_2V_2^\gamma$.
 
-   $$
-   W=\int_{V_1}^{V_2}P\,dV=K\int_{V_1}^{V_2}V^{-\gamma}\,dV=K\,\frac{V_2^{1-\gamma}-V_1^{1-\gamma}}{1-\gamma}
-   $$
+**Step 2.** Work done by the gas:
 
-3. Since $KV_2^{1-\gamma}=P_2V_2$ and $KV_1^{1-\gamma}=P_1V_1$:
+$$
+W=\int_{V_1}^{V_2}P\,dV=K\int_{V_1}^{V_2}V^{-\gamma}\,dV=K\,\frac{V_2^{1-\gamma}-V_1^{1-\gamma}}{1-\gamma}
+$$
 
-   $$
-   W=\frac{P_2V_2-P_1V_1}{1-\gamma}
-   $$
+**Step 3.** Since $KV_2^{1-\gamma}=P_2V_2$ and $KV_1^{1-\gamma}=P_1V_1$:
+
+$$
+W=\frac{P_2V_2-P_1V_1}{1-\gamma}
+$$
 
 > [!IMPORTANT]
 >
@@ -1155,35 +1168,35 @@ If the same expansion were adiabatic with $\gamma=1.4$, the final pressure would
 
 **Derivation** (one mole; $dQ=0$):
 
-1. First law with $dQ=0$:
+**Step 1.** First law with $dQ=0$:
 
-   $$
-   0=C_v\,dT+P\,dV\quad\Rightarrow\quad C_v\,dT=-P\,dV
-   $$
+$$
+0=C_v\,dT+P\,dV\quad\Rightarrow\quad C_v\,dT=-P\,dV
+$$
 
-2. Differentiate $PV=RT$:
+**Step 2.** Differentiate $PV=RT$:
 
-   $$
-   P\,dV+V\,dP=R\,dT
-   $$
+$$
+P\,dV+V\,dP=R\,dT
+$$
 
-3. Eliminate $dT$ using step 1, $dT=-P\,dV/C_v$:
+**Step 3.** Eliminate $dT$ using step 1, $dT=-P\,dV/C_v$:
 
-   $$
-   P\,dV+V\,dP=-\frac{R}{C_v}P\,dV
-   $$
+$$
+P\,dV+V\,dP=-\frac{R}{C_v}P\,dV
+$$
 
-4. Rearrange and use $C_v+R=C_p$:
+**Step 4.** Rearrange and use $C_v+R=C_p$:
 
-   $$
-   V\,dP+\frac{C_v+R}{C_v}P\,dV=0\quad\Rightarrow\quad V\,dP+\gamma P\,dV=0
-   $$
+$$
+V\,dP+\frac{C_v+R}{C_v}P\,dV=0\quad\Rightarrow\quad V\,dP+\gamma P\,dV=0
+$$
 
-5. Divide by $PV$ and integrate:
+**Step 5.** Divide by $PV$ and integrate:
 
-   $$
-   \frac{dP}{P}+\gamma\frac{dV}{V}=0\quad\Rightarrow\quad \ln P+\gamma\ln V=\text{constant}
-   $$
+$$
+\frac{dP}{P}+\gamma\frac{dV}{V}=0\quad\Rightarrow\quad \ln P+\gamma\ln V=\text{constant}
+$$
 
 > [!IMPORTANT]
 >
