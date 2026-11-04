@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="570" viewBox="0 0 1100 570">
+<defs><marker id="ar" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0 L8 3 L0 6" fill="none" stroke="#243b53" stroke-width="1.7"/></marker></defs>
+<rect width="1100" height="570" rx="24" fill="#f8fbff"/>
+<text x="55" y="58" font-family="Arial" font-size="28" font-weight="700" fill="#17324d">Kirchhoff’s law: absorption and emission at equilibrium</text>
+<text x="55" y="91" font-family="Arial" font-size="17" fill="#526579">At the same temperature and wavelength, a good absorber is also a good emitter.</text>
+<rect x="390" y="190" width="320" height="210" rx="22" fill="#243b53" stroke="#102a43" stroke-width="4"/>
+<text x="550" y="270" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700" fill="#ffffff">Body at temperature T</text>
+<text x="550" y="310" text-anchor="middle" font-family="Arial" font-size="17" fill="#d9e2ec">absorbs and emits radiation</text>
+<path d="M80 295 L380 295" stroke="#d99a00" stroke-width="6" fill="none" marker-end="url(#ar)"/><text x="100" y="260" font-family="Arial" font-size="19" font-weight="700" fill="#956b00">Incident radiation</text><text x="100" y="335" font-family="Arial" font-size="16" fill="#956b00">absorbed fraction = aλ</text>
+<path d="M720 295 L1015 295" stroke="#2878c8" stroke-width="6" fill="none" marker-end="url(#ar)"/><text x="775" y="260" font-family="Arial" font-size="19" font-weight="700" fill="#1e5f9c">Emitted radiation</text><text x="775" y="335" font-family="Arial" font-size="16" fill="#1e5f9c">spectral emission = Eλ</text>
+<rect x="180" y="435" width="740" height="85" rx="16" fill="#ffffff" stroke="#c8d6e3" stroke-width="2"/>
+<text x="550" y="470" text-anchor="middle" font-family="Arial" font-size="21" font-weight="700" fill="#17324d">ελ = aλ  (at thermal equilibrium, same λ and T)</text>
+<text x="550" y="498" text-anchor="middle" font-family="Arial" font-size="17" fill="#526579">Spectral emissivity equals spectral absorptivity.</text>
+</svg>
