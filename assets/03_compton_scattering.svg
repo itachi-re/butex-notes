@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="600" viewBox="0 0 1100 600">
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0 L8 3 L0 6" fill="none" stroke="#243b53" stroke-width="1.8"/></marker></defs>
+<rect width="1100" height="600" rx="24" fill="#f8fbff"/>
+<text x="55" y="58" font-family="Arial" font-size="28" font-weight="700" fill="#17324d">Compton scattering: photon–electron collision</text>
+<text x="55" y="92" font-family="Arial" font-size="17" fill="#526579">An incident X-ray photon transfers energy and momentum to an initially stationary electron.</text>
+<circle cx="540" cy="330" r="12" fill="#bd6b25" stroke="#7d461b" stroke-width="2"/>
+<path d="M105 330 L525 330" stroke="#d99a00" stroke-width="5" fill="none" marker-end="url(#a)"/>
+<text x="110" y="300" font-family="Arial" font-size="19" fill="#956b00" font-weight="700">Incident photon</text><text x="110" y="365" font-family="Arial" font-size="17" fill="#956b00">wavelength λ, energy hc/λ</text>
+<path d="M552 321 L845 155" stroke="#2878c8" stroke-width="5" fill="none" marker-end="url(#a)"/>
+<text x="760" y="125" font-family="Arial" font-size="19" fill="#1e5f9c" font-weight="700">Scattered photon</text><text x="760" y="148" font-family="Arial" font-size="17" fill="#1e5f9c">λ′ &gt; λ</text>
+<path d="M550 344 L735 480" stroke="#2d9468" stroke-width="5" fill="none" marker-end="url(#a)"/>
+<text x="700" y="520" font-family="Arial" font-size="19" fill="#23734f" font-weight="700">Recoil electron</text><text x="700" y="545" font-family="Arial" font-size="17" fill="#23734f">momentum pₑ</text>
+<path d="M650 330 A110 110 0 0 0 635 275" stroke="#647b91" stroke-width="2.5" fill="none"/><text x="665" y="285" font-family="Arial" font-size="20" fill="#34495e">θ</text>
+<path d="M540 330 L700 330" stroke="#94a6b8" stroke-dasharray="6 6" stroke-width="2"/>
+<rect x="65" y="445" width="470" height="95" rx="14" fill="#fff" stroke="#c8d6e3" stroke-width="2"/>
+<text x="88" y="482" font-family="Arial" font-size="21" font-weight="700" fill="#17324d">Compton shift</text><text x="88" y="518" font-family="Arial" font-size="25" fill="#1e5f9c">Δλ = λ′ − λ = (h/mₑc)(1 − cos θ)</text>
+</svg>
