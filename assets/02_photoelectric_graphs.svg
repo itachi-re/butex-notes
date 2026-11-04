@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="570" viewBox="0 0 1100 570">
+<rect width="1100" height="570" rx="24" fill="#f7faff"/>
+<text x="55" y="55" font-family="Arial" font-size="28" font-weight="700" fill="#17324d">Photoelectric-effect characteristic graphs</text>
+<!-- left plot -->
+<g stroke="#243b53" stroke-width="3" fill="none"><path d="M100 430 L510 430"/><path d="M100 430 L100 115"/></g>
+<text x="310" y="475" font-family="Arial" font-size="18" fill="#34495e">Frequency, ν</text><text x="35" y="245" transform="rotate(-90 35 245)" font-family="Arial" font-size="18" fill="#34495e">Kₘₐₓ (or eVₛ)</text>
+<path d="M205 430 L460 145" stroke="#2878c8" stroke-width="5" fill="none"/>
+<path d="M205 430 L205 440" stroke="#bd6b25" stroke-width="3"/><text x="205" y="465" text-anchor="middle" font-family="Arial" font-size="17" fill="#956b00">ν₀</text>
+<text x="330" y="180" font-family="Arial" font-size="17" fill="#1e5f9c">Slope = h</text>
+<text x="110" y="105" font-family="Arial" font-size="20" font-weight="700" fill="#17324d">(a) Kinetic energy vs frequency</text>
+<!-- right plot -->
+<g stroke="#243b53" stroke-width="3" fill="none"><path d="M625 430 L1030 430"/><path d="M625 430 L625 115"/></g>
+<text x="800" y="475" font-family="Arial" font-size="18" fill="#34495e">Reverse potential</text><text x="575" y="265" transform="rotate(-90 575 265)" font-family="Arial" font-size="18" fill="#34495e">Photocurrent</text>
+<path d="M640 405 C690 390 725 320 745 245 C760 180 800 170 1010 170" stroke="#2878c8" stroke-width="4.5" fill="none"/>
+<path d="M640 405 C690 390 725 320 745 245 C760 180 800 170 1010 170" stroke="#2878c8" stroke-width="4.5" fill="none" transform="translate(0 65)" opacity=".6"/>
+<path d="M675 430 L675 390" stroke="#bd6b25" stroke-width="3"/><text x="675" y="455" text-anchor="middle" font-family="Arial" font-size="16" fill="#956b00">−Vₛ</text>
+<text x="660" y="105" font-family="Arial" font-size="20" font-weight="700" fill="#17324d">(b) Current vs applied voltage</text>
+<text x="670" y="525" font-family="Arial" font-size="15" fill="#526579">Greater light intensity increases saturation current; at fixed frequency it does not increase Kₘₐₓ.</text>
+</svg>
