@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 480" width="1000" height="480" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#334155"/>
+    </marker>
+    <marker id="ahR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/>
+    </marker>
+  </defs>
+  <rect width="1000" height="480" fill="#ffffff"/>
+  <text x="500" y="30" text-anchor="middle" font-size="18" font-weight="700" fill="#0f172a">Newton's law of cooling: T(t) = T<tspan dy="3" font-size="12">s</tspan><tspan dy="-3"> + (T</tspan><tspan dy="3" font-size="12">0</tspan><tspan dy="-3"> − T</tspan><tspan dy="3" font-size="12">s</tspan><tspan dy="-3">) e</tspan><tspan dy="-6" font-size="12">−kt</tspan></text>
+
+  <!-- axes: x = 520 + 8 t ; y = 380 - 3 T ; plot area x 520..940 -->
+  <text x="730" y="62" text-anchor="middle" font-size="14" font-weight="700" fill="#0f172a">Cooling curve (T₀ = 90 °C, T<tspan dy="3" font-size="10">s</tspan><tspan dy="-3"> = 25 °C, k = 0.10 min</tspan><tspan dy="-5" font-size="10">−1</tspan><tspan dy="5">)</tspan></text>
+  <g stroke="#e2e8f0">
+    <line x1="520" y1="110" x2="940" y2="110"/><line x1="520" y1="170" x2="940" y2="170"/>
+    <line x1="520" y1="230" x2="940" y2="230"/><line x1="520" y1="290" x2="940" y2="290"/>
+    <line x1="600" y1="100" x2="600" y2="380"/><line x1="680" y1="100" x2="680" y2="380"/>
+    <line x1="760" y1="100" x2="760" y2="380"/><line x1="840" y1="100" x2="840" y2="380"/>
+    <line x1="920" y1="100" x2="920" y2="380"/>
+  </g>
+  <line x1="520" y1="380" x2="960" y2="380" stroke="#334155" stroke-width="1.6" marker-end="url(#ah)"/>
+  <line x1="520" y1="380" x2="520" y2="90" stroke="#334155" stroke-width="1.6" marker-end="url(#ah)"/>
+  <g font-size="12" fill="#334155" text-anchor="middle">
+    <text x="520" y="398">0</text><text x="600" y="398">10</text><text x="680" y="398">20</text>
+    <text x="760" y="398">30</text><text x="840" y="398">40</text><text x="920" y="398">50</text>
+  </g>
+  <g font-size="12" fill="#334155" text-anchor="end">
+    <text x="512" y="384">0</text><text x="512" y="294">30</text><text x="512" y="234">50</text>
+    <text x="512" y="174">70</text><text x="512" y="114">90</text>
+  </g>
+  <text x="950" y="420" text-anchor="end" font-size="13" fill="#0f172a">time t (min)</text>
+  <text x="476" y="240" text-anchor="middle" font-size="13" fill="#0f172a" transform="rotate(-90 476 240)">temperature T (°C)</text>
+
+  <!-- surroundings -->
+  <line x1="520" y1="305" x2="940" y2="305" stroke="#16a34a" stroke-width="2" stroke-dasharray="8 5"/>
+  <text x="944" y="309" font-size="12" font-weight="700" fill="#15803d">T<tspan dy="3" font-size="10">s</tspan><tspan dy="-3"> = 25 °C</tspan></text>
+  <!-- tangent at t=0 hitting Ts at t = 1/k = 10 -->
+  <line x1="520" y1="110" x2="600" y2="305" stroke="#dc2626" stroke-width="1.6" stroke-dasharray="5 4"/>
+  <circle cx="600" cy="305" r="3.5" fill="#dc2626"/>
+  <text x="604" y="325" font-size="11" fill="#b91c1c">tangent at t = 0 meets T<tspan dy="3" font-size="9">s</tspan></text>
+  <text x="604" y="338" font-size="11" fill="#b91c1c">at t = 1/k = 10 min</text>
+  <!-- curve -->
+  <polyline fill="none" stroke="#2563eb" stroke-width="3" points="520.0,110.0 536.0,145.3 552.0,174.3 568.0,198.0 584.0,217.4 600.0,233.3 616.0,246.3 632.0,256.9 648.0,265.6 664.0,272.8 680.0,278.6 696.0,283.4 712.0,287.3 728.0,290.5 744.0,293.1 760.0,295.3 776.0,297.1 792.0,298.5 808.0,299.7 824.0,300.6 840.0,301.4 856.0,302.1 872.0,302.6 888.0,303.0 904.0,303.4 920.0,303.7"/>
+  <circle cx="520" cy="110" r="5" fill="#2563eb"/>
+  <text x="530" y="104" font-size="12" font-weight="700" fill="#1d4ed8">T₀ = 90 °C</text>
+  <circle cx="600" cy="233.3" r="4.5" fill="#2563eb"/>
+  <line x1="600" y1="233.3" x2="600" y2="305" stroke="#2563eb" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="608" y="224" font-size="12" fill="#1d4ed8">t = 10 min: T = 48.9 °C</text>
+  <text x="608" y="238" font-size="11" fill="#475569">(excess falls to 1/e = 36.8 %)</text>
+  <text x="725" y="268" font-size="12" font-weight="700" fill="#1d4ed8">T(t)</text>
+  <text x="725" y="284" font-size="11" fill="#475569">falls fast when T − T<tspan dy="3" font-size="9">s</tspan><tspan dy="-3"> is large, slowly when small</tspan></text>
+
+  <!-- left: heat flow illustration -->
+  <rect x="30" y="60" width="400" height="390" rx="8" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="230" y="86" text-anchor="middle" font-size="14" font-weight="700" fill="#0f172a">Heat flow from a hot body to its surroundings</text>
+  <rect x="50" y="108" width="360" height="200" fill="#dcfce7" fill-opacity="0.6" stroke="#16a34a" stroke-dasharray="6 4"/>
+  <text x="230" y="125" text-anchor="middle" font-size="12" fill="#15803d">surroundings at constant T<tspan dy="3" font-size="9">s</tspan></text>
+  <circle cx="230" cy="215" r="52" fill="#fb923c" stroke="#9a3412" stroke-width="3"/>
+  <text x="230" y="212" text-anchor="middle" font-size="13" font-weight="700" fill="#431407">hot body</text>
+  <text x="230" y="230" text-anchor="middle" font-size="12" fill="#431407">temperature T</text>
+  <g stroke="#dc2626" stroke-width="2.5" marker-end="url(#ahR)">
+    <line x1="230" y1="160" x2="230" y2="138" />
+    <line x1="268" y1="177" x2="296" y2="150"/>
+    <line x1="283" y1="215" x2="330" y2="215"/>
+    <line x1="268" y1="253" x2="300" y2="284"/>
+    <line x1="230" y1="270" x2="230" y2="300"/>
+    <line x1="192" y1="253" x2="160" y2="284"/>
+    <line x1="177" y1="215" x2="130" y2="215"/>
+    <line x1="192" y1="177" x2="164" y2="150"/>
+  </g>
+  <text x="230" y="334" text-anchor="middle" font-size="14" font-weight="700" fill="#b91c1c">Rate of heat loss  ∝  (T − T<tspan dy="3" font-size="10">s</tspan><tspan dy="-3">)</tspan></text>
+  <text x="230" y="358" text-anchor="middle" font-size="12" fill="#0f172a">−dT/dt = k (T − T<tspan dy="3" font-size="9">s</tspan><tspan dy="-3">)</tspan></text>
+  <g font-size="12" fill="#0f172a">
+    <text x="50" y="386">• Hot-body loss stops when T = T<tspan dy="3" font-size="9">s</tspan><tspan dy="-3"> (thermal equilibrium).</tspan></text>
+    <text x="50" y="406">• Time constant τ = 1/k (here 10 min).</text>
+    <text x="50" y="426">• Half-life of the excess: t<tspan dy="3" font-size="9">½</tspan><tspan dy="-3"> = ln 2 / k = 6.93 min.</tspan></text>
+  </g>
+</svg>
