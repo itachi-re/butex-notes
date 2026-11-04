@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 480" width="1000" height="480" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#334155"/>
+    </marker>
+  </defs>
+  <rect width="1000" height="480" fill="#ffffff"/>
+  <text x="500" y="30" text-anchor="middle" font-size="18" font-weight="700" fill="#0f172a">Reversible expansion of an ideal gas from the same state A to the volume 2V₁ (γ = 1.4)</text>
+
+  <!-- ================= Panel (a): P-V ================= -->
+  <text x="285" y="62" text-anchor="middle" font-size="15" font-weight="700" fill="#0f172a">(a) P–V diagram</text>
+  <!-- grid -->
+  <g stroke="#e2e8f0" stroke-width="1">
+    <line x1="170.9" y1="90" x2="170.9" y2="400"/>
+    <line x1="261.8" y1="90" x2="261.8" y2="400"/>
+    <line x1="352.7" y1="90" x2="352.7" y2="400"/>
+    <line x1="443.6" y1="90" x2="443.6" y2="400"/>
+    <line x1="80" y1="300" x2="490" y2="300"/>
+    <line x1="80" y1="200" x2="490" y2="200"/>
+    <line x1="80" y1="100" x2="490" y2="100"/>
+  </g>
+  <!-- axes -->
+  <line x1="80" y1="400" x2="495" y2="400" stroke="#334155" stroke-width="1.6" marker-end="url(#ah)"/>
+  <line x1="80" y1="400" x2="80" y2="80" stroke="#334155" stroke-width="1.6" marker-end="url(#ah)"/>
+  <g font-size="12" fill="#334155" text-anchor="middle">
+    <text x="170.9" y="418">1</text>
+    <text x="261.8" y="418">2</text>
+    <text x="352.7" y="418">3</text>
+    <text x="443.6" y="418">4</text>
+  </g>
+  <g font-size="12" fill="#334155" text-anchor="end">
+    <text x="72" y="404">0</text>
+    <text x="72" y="304">0.5</text>
+    <text x="72" y="204">1.0</text>
+    <text x="72" y="104">1.5</text>
+  </g>
+  <text x="488" y="440" text-anchor="end" font-size="13" fill="#0f172a">V / V₁  (volume)</text>
+  <text x="34" y="240" text-anchor="middle" font-size="13" fill="#0f172a" transform="rotate(-90 34 240)">P / P₁  (pressure)</text>
+
+  <!-- curves -->
+  <polyline fill="none" stroke="#2563eb" stroke-width="2.6" points="152.7,150.0 161.8,177.8 170.9,200.0 180.0,218.2 189.1,233.3 198.2,246.2 207.3,257.1 216.4,266.7 225.5,275.0 234.5,282.4 243.6,288.9 252.7,294.7 261.8,300.0 270.9,304.8 280.0,309.1 289.1,313.0 298.2,316.7 307.3,320.0 316.4,323.1 325.5,325.9 334.5,328.6 343.6,331.0 352.7,333.3 361.8,335.5 370.9,337.5 380.0,339.4 389.1,341.2 398.2,342.9 407.3,344.4 416.4,345.9 425.5,347.4 434.5,348.7 443.6,350.0 452.7,351.2 461.8,352.4"/>
+  <polyline fill="none" stroke="#dc2626" stroke-width="2.6" points="152.7,126.7 161.8,168.2 170.9,200.0 180.0,225.0 189.1,245.1 198.2,261.5 207.3,275.1 216.4,286.6 225.5,296.4 234.5,304.9 243.6,312.2 252.7,318.6 261.8,324.2 270.9,329.2 280.0,333.7 289.1,337.7 298.2,341.3 307.3,344.5 316.4,347.5 325.5,350.2 334.5,352.7 343.6,355.0 352.7,357.0 361.8,359.0 370.9,360.8 380.0,362.4 389.1,363.9 398.2,365.4 407.3,366.7 416.4,368.0 425.5,369.1 434.5,370.2 443.6,371.3 452.7,372.3 461.8,373.2"/>
+  <polyline fill="none" stroke="#64748b" stroke-width="2" stroke-dasharray="6 5" points="170.9,248.4 180.0,262.2 189.1,273.7 198.2,283.4 207.3,291.7 216.4,299.0 225.5,305.3 234.5,310.8 243.6,315.8 252.7,320.2 261.8,324.2 270.9,327.8 280.0,331.1 289.1,334.1 298.2,336.8 307.3,339.4 316.4,341.7 325.5,343.9 334.5,345.9 343.6,347.7 352.7,349.5 361.8,351.1 370.9,352.6 380.0,354.1 389.1,355.4 398.2,356.7 407.3,357.9 416.4,359.0 425.5,360.1 434.5,361.1 443.6,362.1 452.7,363.0 461.8,363.9"/>
+  <!-- end of curve labels -->
+  <text x="462" y="346" font-size="12" font-weight="700" fill="#2563eb">PV = const</text>
+  <text x="404" y="392" font-size="12" font-weight="700" fill="#dc2626">PV<tspan dy="-6" font-size="10">γ</tspan><tspan dy="6"> = const</tspan></text>
+
+  <!-- points -->
+  <circle cx="170.9" cy="200" r="5.5" fill="#0f172a"/>
+  <circle cx="261.8" cy="300" r="5.5" fill="#2563eb"/>
+  <circle cx="261.8" cy="324.2" r="5.5" fill="#dc2626"/>
+  <g font-size="14" font-weight="700">
+    <text x="156" y="190" fill="#0f172a">A</text>
+    <text x="268" y="292" fill="#2563eb">B</text>
+    <text x="268" y="344" fill="#dc2626">C</text>
+  </g>
+  <!-- legend / key box -->
+  <rect x="285" y="88" width="208" height="164" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+  <g font-size="12" fill="#0f172a">
+    <line x1="293" y1="106" x2="321" y2="106" stroke="#dc2626" stroke-width="2.6"/>
+    <text x="328" y="110">Adiabatic: PV<tspan dy="-6" font-size="10">γ</tspan><tspan dy="6"> = const</tspan></text>
+    <line x1="293" y1="128" x2="321" y2="128" stroke="#2563eb" stroke-width="2.6"/>
+    <text x="328" y="132">Isothermal: PV = const (T₁)</text>
+    <line x1="293" y1="150" x2="321" y2="150" stroke="#64748b" stroke-width="2" stroke-dasharray="6 5"/>
+    <text x="328" y="154">Isotherm through C (T₂ &lt; T₁)</text>
+    <text x="293" y="178" font-weight="700">A: start (P₁, V₁, T₁)</text>
+    <text x="293" y="196">B: isothermal end, P = 0.500 P₁</text>
+    <text x="293" y="214">C: adiabatic end, P = 0.379 P₁</text>
+    <text x="293" y="236" fill="#475569">At A the adiabat is γ times steeper.</text>
+  </g>
+  <text x="261.8" y="436" text-anchor="middle" font-size="11" fill="#64748b">V₂ = 2V₁</text>
+
+  <!-- ================= Panel (b): T-V ================= -->
+  <text x="775" y="62" text-anchor="middle" font-size="15" font-weight="700" fill="#0f172a">(b) T–V diagram</text>
+  <g stroke="#e2e8f0" stroke-width="1">
+    <line x1="660.9" y1="90" x2="660.9" y2="400"/>
+    <line x1="751.8" y1="90" x2="751.8" y2="400"/>
+    <line x1="842.7" y1="90" x2="842.7" y2="400"/>
+    <line x1="933.6" y1="90" x2="933.6" y2="400"/>
+    <line x1="570" y1="275" x2="980" y2="275"/>
+    <line x1="570" y1="150" x2="980" y2="150"/>
+    <line x1="570" y1="100" x2="980" y2="100"/>
+  </g>
+  <line x1="570" y1="400" x2="985" y2="400" stroke="#334155" stroke-width="1.6" marker-end="url(#ah)"/>
+  <line x1="570" y1="400" x2="570" y2="80" stroke="#334155" stroke-width="1.6" marker-end="url(#ah)"/>
+  <g font-size="12" fill="#334155" text-anchor="middle">
+    <text x="660.9" y="418">1</text>
+    <text x="751.8" y="418">2</text>
+    <text x="842.7" y="418">3</text>
+    <text x="933.6" y="418">4</text>
+  </g>
+  <g font-size="12" fill="#334155" text-anchor="end">
+    <text x="562" y="404">0</text>
+    <text x="562" y="279">0.5</text>
+    <text x="562" y="154">1.0</text>
+    <text x="562" y="104">1.2</text>
+  </g>
+  <text x="978" y="440" text-anchor="end" font-size="13" fill="#0f172a">V / V₁  (volume)</text>
+  <text x="524" y="240" text-anchor="middle" font-size="13" fill="#0f172a" transform="rotate(-90 524 240)">T / T₁  (temperature)</text>
+
+  <line x1="642.7" y1="150" x2="951.8" y2="150" stroke="#2563eb" stroke-width="2.6"/>
+  <polyline fill="none" stroke="#dc2626" stroke-width="2.6" points="642.7,126.7 651.8,139.2 660.9,150.0 670.0,159.4 679.1,167.6 688.2,174.9 697.3,181.5 706.4,187.4 715.5,192.8 724.5,197.8 733.6,202.4 742.7,206.6 751.8,210.5 760.9,214.2 770.0,217.6 779.1,220.8 788.2,223.9 797.3,226.7 806.4,229.4 815.5,232.0 824.5,234.4 833.6,236.7 842.7,238.9 851.8,241.0 860.9,243.0 870.0,244.9 879.1,246.8 888.2,248.5 897.3,250.2 906.4,251.9 915.5,253.4 924.5,255.0 933.6,256.4 942.7,257.8 951.8,259.2"/>
+  <circle cx="660.9" cy="150" r="5.5" fill="#0f172a"/>
+  <circle cx="751.8" cy="150" r="5.5" fill="#2563eb"/>
+  <circle cx="751.8" cy="210.5" r="5.5" fill="#dc2626"/>
+  <g font-size="14" font-weight="700">
+    <text x="648" y="140" fill="#0f172a">A</text>
+    <text x="745" y="140" fill="#2563eb">B</text>
+    <text x="758" y="204" fill="#dc2626">C</text>
+  </g>
+  <!-- delta T bracket -->
+  <line x1="782" y1="153" x2="782" y2="207" stroke="#334155" stroke-width="1.5" marker-start="url(#ah)" marker-end="url(#ah)"/>
+  <text x="790" y="176" font-size="12" fill="#0f172a">ΔT = −0.242 T₁</text>
+  <text x="790" y="192" font-size="12" fill="#475569">(gas cools: C is on a lower isotherm)</text>
+  <text x="812" y="140" font-size="12" font-weight="700" fill="#2563eb">isothermal: T = T₁</text>
+  <text x="866" y="276" font-size="12" font-weight="700" fill="#dc2626" text-anchor="middle">TV<tspan dy="-6" font-size="10">γ−1</tspan><tspan dy="6"> = const</tspan></text>
+
+  <rect x="590" y="300" width="390" height="86" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+  <g font-size="12" fill="#0f172a">
+    <text x="602" y="322" font-weight="700">Why the adiabat is steeper in panel (a)</text>
+    <text x="602" y="342">Expansion lowers T on the adiabat, so P falls faster</text>
+    <text x="602" y="358">than on the isotherm. At V₂ = 2V₁: T₂/T₁ = 2<tspan dy="-5" font-size="10">−0.4</tspan><tspan dy="5"> = 0.758</tspan></text>
+    <text x="602" y="376" fill="#475569">Example: T₁ = 300 K gives T₂ ≈ 227 K.</text>
+  </g>
+</svg>
