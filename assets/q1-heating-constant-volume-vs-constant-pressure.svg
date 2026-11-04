@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" width="1000" height="520" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#334155"/>
+    </marker>
+    <marker id="ahR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/>
+    </marker>
+    <marker id="ahG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#16a34a"/>
+    </marker>
+  </defs>
+  <rect width="1000" height="520" fill="#ffffff"/>
+  <text x="500" y="30" text-anchor="middle" font-size="18" font-weight="700" fill="#0f172a">Heating 1 mol of an ideal gas by the same temperature rise ΔT</text>
+
+  <!-- ============ Left: constant volume ============ -->
+  <rect x="20" y="48" width="470" height="458" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="255" y="76" text-anchor="middle" font-size="15" font-weight="700" fill="#0f172a">(a) Constant volume: piston clamped</text>
+
+  <!-- cylinder -->
+  <rect x="150" y="150" width="130" height="150" fill="#fff7ed" stroke="#334155" stroke-width="3"/>
+  <!-- clamped piston -->
+  <rect x="146" y="128" width="138" height="20" fill="#94a3b8" stroke="#334155" stroke-width="2"/>
+  <line x1="215" y1="100" x2="215" y2="128" stroke="#334155" stroke-width="5"/>
+  <rect x="195" y="92" width="40" height="10" fill="#64748b" stroke="#334155"/>
+  <!-- clamp pins -->
+  <rect x="120" y="132" width="26" height="12" fill="#475569"/>
+  <rect x="284" y="132" width="26" height="12" fill="#475569"/>
+  <text x="262" y="100" font-size="11" fill="#475569">piston fixed</text>
+  <!-- molecules -->
+  <g fill="#f97316">
+    <circle cx="175" cy="180" r="6"/><circle cx="238" cy="172" r="6"/><circle cx="195" cy="230" r="6"/>
+    <circle cx="255" cy="220" r="6"/><circle cx="170" cy="270" r="6"/><circle cx="228" cy="275" r="6"/>
+  </g>
+  <g stroke="#c2410c" stroke-width="1.5" fill="none" marker-end="url(#ah)">
+    <line x1="175" y1="180" x2="195" y2="163"/><line x1="238" y1="172" x2="262" y2="190"/>
+    <line x1="195" y1="230" x2="214" y2="248"/><line x1="255" y1="220" x2="270" y2="200"/>
+    <line x1="170" y1="270" x2="190" y2="287"/><line x1="228" y1="275" x2="250" y2="262"/>
+  </g>
+  <!-- flame / heat -->
+  <path d="M215 360 C198 338 204 322 215 306 C226 322 232 338 215 360 Z" fill="#f97316" stroke="#c2410c"/>
+  <path d="M215 352 C208 340 211 332 215 324 C219 332 222 340 215 352 Z" fill="#fde047"/>
+  <line x1="215" y1="410" x2="215" y2="370" stroke="#dc2626" stroke-width="2.5" marker-end="url(#ahR)"/>
+  <text x="228" y="400" font-size="13" font-weight="700" fill="#dc2626">Q<tspan dy="3" font-size="10">V</tspan><tspan dy="-3"> = C</tspan><tspan dy="3" font-size="10">v</tspan><tspan dy="-3">ΔT</tspan></text>
+  <text x="215" y="140" text-anchor="middle" font-size="10" fill="#0f172a" dy="-1"> </text>
+  <!-- no work -->
+  <text x="320" y="214" font-size="12" font-weight="700" fill="#475569">W = P ΔV = 0</text>
+  <text x="320" y="230" font-size="11" fill="#475569">no displacement</text>
+
+  <!-- energy bar -->
+  <text x="255" y="437" text-anchor="middle" font-size="12" font-weight="700" fill="#0f172a">Where the heat goes (per mole)</text>
+  <rect x="50" y="446" width="400" height="30" fill="#fecaca" stroke="#dc2626" stroke-width="1.5"/>
+  <text x="250" y="466" text-anchor="middle" font-size="13" font-weight="700" fill="#7f1d1d">ΔU = C<tspan dy="3" font-size="10">v</tspan><tspan dy="-3">ΔT  (100 % of Q</tspan><tspan dy="3" font-size="10">V</tspan><tspan dy="-3">)</tspan></text>
+  <text x="255" y="496" text-anchor="middle" font-size="11" fill="#475569">All heat raises molecular kinetic energy.</text>
+
+  <!-- ============ Right: constant pressure ============ -->
+  <rect x="510" y="48" width="470" height="458" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="745" y="76" text-anchor="middle" font-size="15" font-weight="700" fill="#0f172a">(b) Constant pressure: piston free</text>
+
+  <rect x="640" y="150" width="130" height="150" fill="#fff7ed" stroke="#334155" stroke-width="3"/>
+  <!-- original piston position (dashed) -->
+  <rect x="636" y="168" width="138" height="14" fill="none" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <!-- raised piston -->
+  <rect x="636" y="116" width="138" height="20" fill="#94a3b8" stroke="#334155" stroke-width="2"/>
+  <line x1="705" y1="96" x2="705" y2="116" stroke="#334155" stroke-width="5"/>
+  <!-- weight -->
+  <rect x="680" y="78" width="50" height="20" fill="#64748b" stroke="#334155"/>
+  <text x="705" y="92" text-anchor="middle" font-size="11" fill="#ffffff">P</text>
+  <!-- displacement arrow -->
+  <line x1="796" y1="175" x2="796" y2="126" stroke="#16a34a" stroke-width="2.5" marker-end="url(#ahG)"/>
+  <text x="806" y="148" font-size="12" font-weight="700" fill="#15803d">ΔV</text>
+  <text x="806" y="164" font-size="11" fill="#15803d">expansion</text>
+  <text x="590" y="178" font-size="10" fill="#64748b">initial</text>
+  <text x="590" y="190" font-size="10" fill="#64748b">piston</text>
+  <!-- molecules -->
+  <g fill="#f97316">
+    <circle cx="665" cy="190" r="6"/><circle cx="740" cy="182" r="6"/><circle cx="690" cy="236" r="6"/>
+    <circle cx="750" cy="228" r="6"/><circle cx="662" cy="276" r="6"/><circle cx="725" cy="278" r="6"/>
+  </g>
+  <g stroke="#c2410c" stroke-width="2" fill="none" marker-end="url(#ah)">
+    <line x1="665" y1="190" x2="692" y2="170"/><line x1="740" y1="182" x2="766" y2="204"/>
+    <line x1="690" y1="236" x2="714" y2="258"/><line x1="750" y1="228" x2="767" y2="204"/>
+    <line x1="662" y1="276" x2="686" y2="296"/><line x1="725" y1="278" x2="750" y2="262"/>
+  </g>
+  <path d="M705 360 C688 338 694 322 705 306 C716 322 722 338 705 360 Z" fill="#f97316" stroke="#c2410c"/>
+  <path d="M705 352 C698 340 701 332 705 324 C709 332 712 340 705 352 Z" fill="#fde047"/>
+  <line x1="705" y1="410" x2="705" y2="370" stroke="#dc2626" stroke-width="2.5" marker-end="url(#ahR)"/>
+  <text x="718" y="400" font-size="13" font-weight="700" fill="#dc2626">Q<tspan dy="3" font-size="10">P</tspan><tspan dy="-3"> = C</tspan><tspan dy="3" font-size="10">p</tspan><tspan dy="-3">ΔT</tspan></text>
+  <text x="524" y="238" font-size="12" font-weight="700" fill="#15803d">W = P ΔV = R ΔT</text>
+  <text x="524" y="254" font-size="11" fill="#15803d">gas pushes</text><text x="524" y="268" font-size="11" fill="#15803d">the piston up</text>
+
+  <text x="745" y="437" text-anchor="middle" font-size="12" font-weight="700" fill="#0f172a">Where the heat goes (per mole)</text>
+  <!-- bar: width 480 => scale: Cp = 400 px for diatomic-like illustration is not used; use symbolic proportion for gamma=1.4 : Cv 5/7, R 2/7 of 400 -->
+  <rect x="540" y="446" width="285.7" height="30" fill="#fecaca" stroke="#dc2626" stroke-width="1.5"/>
+  <rect x="825.7" y="446" width="114.3" height="30" fill="#bbf7d0" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="682" y="466" text-anchor="middle" font-size="13" font-weight="700" fill="#7f1d1d">ΔU = C<tspan dy="3" font-size="10">v</tspan><tspan dy="-3">ΔT</tspan></text>
+  <text x="883" y="466" text-anchor="middle" font-size="13" font-weight="700" fill="#14532d">W = RΔT</text>
+  <text x="745" y="496" text-anchor="middle" font-size="11" fill="#475569">Bar drawn for a diatomic gas (C<tspan dy="3" font-size="9">v</tspan><tspan dy="-3"> = 5R/2): ΔU : W = 5 : 2, so Q = 7RΔT/2.</tspan></text>
+
+  <!-- central equation banner -->
+  <rect x="330" y="316" width="340" height="52" rx="8" fill="#ffffff" stroke="#0f172a" stroke-width="1.5"/>
+  <text x="500" y="338" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a">Same ΔT ⇒ same ΔU = C<tspan dy="3" font-size="10">v</tspan><tspan dy="-3">ΔT  (ideal gas)</tspan></text>
+  <text x="500" y="358" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a">C<tspan dy="3" font-size="10">p</tspan><tspan dy="-3"> = C</tspan><tspan dy="3" font-size="10">v</tspan><tspan dy="-3"> + R,  so  Q</tspan><tspan dy="3" font-size="10">P</tspan><tspan dy="-3"> &gt; Q</tspan><tspan dy="3" font-size="10">V</tspan></text>
+</svg>
