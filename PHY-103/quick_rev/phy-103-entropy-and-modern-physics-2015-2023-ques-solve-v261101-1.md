@@ -1,18 +1,19 @@
 # PHY-103 (Physics-II) — Entropy and Modern Physics: Solved Previous Questions (2015–2023)
 
-**Course:** Physics-II (AS 107 / PHY-103), BUTEX B.Sc. in Textile Engineering
-**Topic group:** Entropy, Thermal Radiation, and Quantum / Modern Physics
-**Source:** `physics-ii-chapter-wise-question-bank-2015-2023.md` (chapters 7 (entropy part), 8 and 9)
-**Version:** `v261101-1` (revision 1: adds Maxwell relations, thermal radiation and modern physics to the entropy file)
+- **Course:** Physics-II (AS 107 / PHY-103), BUTEX B.Sc. in Textile Engineering
+- **Topic group:** Entropy, Thermal Radiation, and Quantum / Modern Physics
+- **Source:** `physics-ii-chapter-wise-question-bank-2015-2023.md` (chapters 7 (entropy part), 8 and 9)
+- **Version:** `v261101-1` (revision 1: adds Maxwell relations, thermal radiation and modern physics to the entropy file)
 
 > **How to use this file**
+>
 > Every sub-question in this topic group is answered once, in exam style, in the order in which it first appears in the question bank (2015 → 2023) within each part. Where the same question was repeated in other years, all the years are listed under one heading, so nothing is skipped. The [index table](#index-of-questions) tells you which answer to read for any year/question.
 >
 > * **Part A — Entropy** (Q1–Q9)
 > * **Part B — Thermal Radiation** (Q10–Q12)
 > * **Part C — Quantum and Modern Physics** (Q13–Q16)
->
-> Conventions: $Q_1$ = heat absorbed from source at $T_1$, $Q_2$ = heat rejected to sink at $T_2$, $T$ in kelvin, $S$ in J K⁻¹, $k_B = 1.38\times10^{-23}$ J K⁻¹, $R = 8.314$ J mol⁻¹ K⁻¹, $h=6.626\times10^{-34}$ J s, $c=3\times10^{8}$ m s⁻¹, $e=1.6\times10^{-19}$ C, $\sigma=5.67\times10^{-8}$ W m⁻² K⁻⁴, $J = 4.2$ J cal⁻¹ unless stated.
+
+Conventions: $Q_1$ = heat absorbed from source at $T_1$, $Q_2$ = heat rejected to sink at $T_2$, $T$ in kelvin, $S$ in J K⁻¹, $k_B = 1.38\times10^{-23}$ J K⁻¹, $R = 8.314$ J mol⁻¹ K⁻¹, $h=6.626\times10^{-34}$ J s, $c=3\times10^{8}$ m s⁻¹, $e=1.6\times10^{-19}$ C, $\sigma=5.67\times10^{-8}$ W m⁻² K⁻⁴, $J = 4.2$ J cal⁻¹ unless stated.
 
 ---
 
@@ -22,7 +23,7 @@
 |---|----------|-----------|---------|
 | 1 | What is entropy? | 2016 Q7(a), 2018 Q7(a) | [Q1](#q1-what-is-entropy) |
 | 2 | Clausius–Clapeyron (latent-heat) equation | 2016 Q7(b), 2017 Q7(c), 2018 Q7(b) | [Q2](#q2-the-clausiusclapeyron-latent-heat-equation) |
-| 3 | Efficiency of an engine using $3\times10^6$ cal per horsepower-hour vs a perfect reversible engine (100 °C / 0 °C) | 2016 Q7(c), 2017 Q7(d), 2022 Q7(c) | [Q3](#q3-efficiency-of-the-3106-cal-engine) |
+| 3 | Efficiency of an engine using $3\times10^6$ cal per horsepower-hour vs a perfect reversible engine (100 °C / 0 °C) | 2016 Q7(c), 2017 Q7(d), 2022 Q7(c) | [Q3](#q3-efficiency-of-the-3-million-calorie-engine) |
 | 4 | Entropy and unavailable energy | 2017 Q7(a), 2022 Q7(a) | [Q4](#q4-entropy-and-unavailable-energy) |
 | 5 | Show that entropy remains constant in a reversible process | 2017 Q7(b), 2021 Q5(a) | [Q5](#q5-entropy-in-a-reversible-process) |
 | 6 | Show that the entropy change is constant (zero) in a reversible Carnot cycle | 2018 Q7(c), 2023 Q6(b) | [Q6](#q6-entropy-change-in-a-reversible-carnot-cycle) |
@@ -38,6 +39,7 @@
 | 16 | Work function of sodium from the threshold wavelength 6800 Å | 2020 Q8(c), 2021 Q6(c) | [Q16](#q16-work-function-of-sodium) |
 
 > ⚠️ **Heads-up on printed questions**
+>
 > 1. **2022 Q7(b)** says entropy "remains constant in an *irreversible* process". That statement is false: entropy of the universe **increases** in an irreversible process. Q9 proves the correct result. Do not write "constant" in the exam.
 > 2. **2017 Q7(d) and 2022 Q7(c)** say "per horsepower"; **2016 Q7(c)** says "per horsepower-hour". Heat per horsepower is not an energy unit, so the intended quantity is per **horsepower-hour**. Q3 uses that.
 > 3. **2020 Q6(b)** lost its mathematical expressions in the PDF text. Q7 proves all four Maxwell relations, so whichever two the paper showed are covered.
@@ -50,7 +52,7 @@
 
 ## Q1. What is entropy?
 
-*(2016 Q7(a); 2018 Q7(a))*
+(2016 Q7(a); 2018 Q7(a))
 
 ### Answer
 
@@ -76,7 +78,7 @@ where $W$ is the number of microstates (ways of arranging the molecules) that co
 1. $S$ depends only on the state of the system, not on the path. $dS$ is an exact differential, although $\delta Q$ is not.
 2. $S$ is extensive and additive: $S_{\text{total}}=S_1+S_2+\dots$
 3. For a reversible adiabatic process, $dS=0$ (isentropic).
-4. For any real (irreversible) process in an isolated system, $\Delta S>0$. Hence $\Delta S_{\text{universe}}\ge 0$, with equality only for reversible processes. This is the entropy form of the second law.
+4. For any real (irreversible) process in an isolated system, $\Delta S\gt0$. Hence $\Delta S_{\text{universe}}\ge 0$, with equality only for reversible processes. This is the entropy form of the second law.
 5. On a $T$–$S$ diagram, the area under a reversible path is the heat exchanged: $Q=\int T\,dS$.
 
 ![Heating curve of 1 kg of water on a T–S diagram, and entropy as a state function](../../assets/phy-103-entropy-heating-curve-state-function-v261101-0.png)
@@ -111,7 +113,7 @@ $$
 
 ## Q2. The Clausius–Clapeyron (latent-heat) equation
 
-*(2016 Q7(b); 2017 Q7(c) — "derive"; 2018 Q7(b) — "explain")*
+(2016 Q7(b); 2017 Q7(c) — "derive"; 2018 Q7(b) — "explain")
 
 ### Statement
 
@@ -170,9 +172,9 @@ This is the Clausius–Clapeyron (latent-heat) equation. $\blacksquare$
 
 ### Consequences (what to say if the question says "explain")
 
-1. **Boiling:** $v_2>v_1$ and $L>0$, so $dP/dT>0$. The boiling point rises with pressure (pressure cookers).
-2. **Melting of a normal substance:** the solid is denser, $v_{\text{liquid}}>v_{\text{solid}}$, so $dP/dT>0$. The melting point rises with pressure.
-3. **Melting of ice:** water expands on freezing, $v_{\text{water}}<v_{\text{ice}}$, so $dP/dT<0$. The melting point of ice *falls* with increasing pressure (this is why ice skates glide).
+1. **Boiling:** $v_2\gt v_1$ and $L\gt0$, so $dP/dT\gt0$. The boiling point rises with pressure (pressure cookers).
+2. **Melting of a normal substance:** the solid is denser, $v_{\text{liquid}}\gt v_{\text{solid}}$, so $dP/dT\gt0$. The melting point rises with pressure.
+3. **Melting of ice:** water expands on freezing, $v_{\text{water}}\lt v_{\text{ice}}$, so $dP/dT\lt0$. The melting point of ice *falls* with increasing pressure (this is why ice skates glide).
 
 ### Example 3 — boiling point of water
 
@@ -196,9 +198,9 @@ Equivalently, $dT/dP\approx-0.0075$ K per atm: raising the pressure by 1 atm low
 
 ---
 
-## Q3. Efficiency of the $3\times10^6$ cal engine
+## Q3. Efficiency of the 3-million-calorie engine
 
-*(2016 Q7(c); 2017 Q7(d); 2022 Q7(c))*
+(2016 Q7(c); 2017 Q7(d); 2022 Q7(c))
 
 **Question.** Find the efficiency of an engine requiring $3\times10^{6}$ cal of heat per horsepower-hour and compare it with that of a perfect reversible engine, the source being at 100 °C and the sink at 0 °C.
 
@@ -250,7 +252,7 @@ The actual engine converts about **21.3 %** of the heat into work. A perfect rev
 
 ## Q4. Entropy and unavailable energy
 
-*(2017 Q7(a); 2022 Q7(a))*
+(2017 Q7(a); 2022 Q7(a))
 
 ### Entropy
 
@@ -280,7 +282,7 @@ On a $T$–$S$ diagram, the heat $Q$ is the area of a rectangle of width $\Delta
 
 ![Unavailable energy as an area on a T–S diagram, before and after heat flows to a lower temperature](../../assets/phy-103-entropy-unavailable-energy-v261101-0.png)
 
-**Link with entropy.** Every irreversible process creates entropy $\Delta S_{\text{univ}}>0$ and thereby makes $T_0\,\Delta S_{\text{univ}}$ of energy unavailable. This is called the **degradation of energy**. Energy is conserved, but its *quality* keeps falling.
+**Link with entropy.** Every irreversible process creates entropy $\Delta S_{\text{univ}}\gt0$ and thereby makes $T_0\,\Delta S_{\text{univ}}$ of energy unavailable. This is called the **degradation of energy**. Energy is conserved, but its *quality* keeps falling.
 
 ### Example 5
 
@@ -300,7 +302,7 @@ Now let the same 1000 J flow by conduction to a body at 400 K:
 
 ## Q5. Entropy in a reversible process
 
-*(2017 Q7(b); 2021 Q5(a))*
+(2017 Q7(b); 2021 Q5(a))
 
 **Question.** Show that entropy remains constant (the total entropy does not change) in a reversible process.
 
@@ -325,7 +327,7 @@ $$
 \frac{Q_1}{T_1}-\frac{Q_2}{T_2}=0
 $$
 
-(Taking $Q_2$ as heat *given out* gives the sign convention $\sum Q/T=0$ over the cycle.)
+(Taking $Q_2$ as heat given out gives the sign convention $\sum Q/T=0$ over the cycle.)
 
 **Step 2 — Any reversible cycle.** Draw a family of closely spaced adiabatic curves across an arbitrary reversible cycle. Between each pair of neighbouring adiabatics, replace the true path with two short isotherms joined by the adiabatics. Each strip is then a small Carnot cycle. The extra adiabatic and isothermal paths in the interior are traversed twice in opposite directions and cancel. As the strips become infinitely narrow:
 
@@ -366,7 +368,7 @@ Hence the entropy of the universe remains constant in a reversible process. $\bl
 
 ## Q6. Entropy change in a reversible Carnot cycle
 
-*(2018 Q7(c); 2023 Q6(b))*
+(2018 Q7(c); 2023 Q6(b))
 
 **Question.** Show that the entropy change is constant (zero) in a reversible Carnot cycle.
 
@@ -387,7 +389,7 @@ $$
 \Delta S_{\text{cycle}}=\frac{Q_1}{T_1}+0-\frac{Q_2}{T_2}+0=\frac{Q_1}{T_1}-\frac{Q_2}{T_2}
 $$
 
-**Show $Q_1/T_1=Q_2/T_2$ for an ideal gas.**
+**To show that Q₁/T₁ = Q₂/T₂ for an ideal gas:**
 
 Heat in isothermal steps (1 mol):
 
@@ -438,7 +440,7 @@ A Carnot engine works between 400 K and 300 K and takes $Q_1=1200$ J per cycle.
 
 ## Q7. Maxwell's thermodynamic relations
 
-*(2020 Q6(a): derive the general expression; 2020 Q6(b): show that the relations hold)*
+(2020 Q6(a): derive the general expression; 2020 Q6(b): show that the relations hold)
 
 ### Answer
 
@@ -471,32 +473,53 @@ The other three potentials are defined by $H=U+PV$, $F=U-TS$, $G=H-TS$. Differen
 
 Each of $U,H,F,G$ is a state function, so each differential is exact. Applying the general condition to each:
 
-1. From $dU$ ($x=S,\;y=V,\;M=T,\;N=-P$):
-$$\left(\frac{\partial T}{\partial V}\right)_S=-\left(\frac{\partial P}{\partial S}\right)_V$$
-2. From $dH$ ($x=S,\;y=P,\;M=T,\;N=V$):
-$$\left(\frac{\partial T}{\partial P}\right)_S=\left(\frac{\partial V}{\partial S}\right)_P$$
-3. From $dF$ ($x=T,\;y=V,\;M=-S,\;N=-P$):
-$$\left(\frac{\partial S}{\partial V}\right)_T=\left(\frac{\partial P}{\partial T}\right)_V$$
-4. From $dG$ ($x=T,\;y=P,\;M=-S,\;N=V$):
-$$\left(\frac{\partial S}{\partial P}\right)_T=-\left(\frac{\partial V}{\partial T}\right)_P$$
+**Relation 1.** From $dU$ ($x=S,\;y=V,\;M=T,\;N=-P$):
+
+$$
+\left(\frac{\partial T}{\partial V}\right)_S=-\left(\frac{\partial P}{\partial S}\right)_V
+$$
+
+**Relation 2.** From $dH$ ($x=S,\;y=P,\;M=T,\;N=V$):
+
+$$
+\left(\frac{\partial T}{\partial P}\right)_S=\left(\frac{\partial V}{\partial S}\right)_P
+$$
+
+**Relation 3.** From $dF$ ($x=T,\;y=V,\;M=-S,\;N=-P$):
+
+$$
+\left(\frac{\partial S}{\partial V}\right)_T=\left(\frac{\partial P}{\partial T}\right)_V
+$$
+
+**Relation 4.** From $dG$ ($x=T,\;y=P,\;M=-S,\;N=V$):
+
+$$
+\left(\frac{\partial S}{\partial P}\right)_T=-\left(\frac{\partial V}{\partial T}\right)_P
+$$
 
 These four are **Maxwell's thermodynamic relations**. They convert quantities involving the hard-to-measure entropy into measurable $P$, $V$, $T$ derivatives. $\blacksquare$
 
 ![The four Maxwell relations obtained from the four thermodynamic potentials](../../assets/phy-103-entropy-maxwell-relations-v261101-0.png)
 
-### Check and use (ideal gas, 1 mol, $PV=RT$)
+### Check and use (ideal gas, 1 mol)
+
+Here $PV=RT$.
 
 - Relation 3: $\left(\dfrac{\partial P}{\partial T}\right)_V=\dfrac{R}{V}$, so $\left(\dfrac{\partial S}{\partial V}\right)_T=\dfrac RV$, which integrates to $\Delta S=R\ln\dfrac{V_2}{V_1}$ at constant $T$. This agrees with the result in Q1 and Q5.
 - Relation 4: $\left(\dfrac{\partial V}{\partial T}\right)_P=\dfrac RP$, so $\left(\dfrac{\partial S}{\partial P}\right)_T=-\dfrac RP$ and $\Delta S=-R\ln\dfrac{P_2}{P_1}$ at constant $T$.
 - Energy equation: from $dU=T\,dS-P\,dV$ at constant $T$ and relation 3,
-$$\left(\frac{\partial U}{\partial V}\right)_T=T\left(\frac{\partial P}{\partial T}\right)_V-P$$
+
+$$
+\left(\frac{\partial U}{\partial V}\right)_T=T\left(\frac{\partial P}{\partial T}\right)_V-P
+$$
+
 For an ideal gas this is $T\cdot\dfrac RV-P=0$, which is Joule's law (internal energy depends only on $T$). The same equation is used in Q11 for radiation.
 
 ---
 
 ## Q8. Isentropic process and work done
 
-*(2022 Q6(b))*
+(2022 Q6(b))
 
 **Question.** What is an isentropic process? Derive an expression for the work done during an isentropic process.
 
@@ -504,7 +527,7 @@ For an ideal gas this is $T\cdot\dfrac RV-P=0$, which is Joule's law (internal e
 
 An **isentropic process** is one in which the entropy stays constant, $\Delta S=0$. A process that is both **reversible and adiabatic** is isentropic, because $dS=\delta Q_{\text{rev}}/T=0$ when $\delta Q=0$. (Adiabatic alone is not enough: an irreversible adiabatic process increases $S$.)
 
-### Equation of an isentropic process: $PV^\gamma=$ constant
+### Equation of an isentropic process (PV^γ = constant)
 
 First law with $\delta Q=0$: $0=dU+P\,dV$, with $dU=nC_V\,dT$ for an ideal gas.
 
@@ -543,7 +566,7 @@ $$
 \boxed{W=\frac{P_1V_1-P_2V_2}{\gamma-1}=\frac{nR\,(T_1-T_2)}{\gamma-1}}
 $$
 
-For an expansion $T_2<T_1$ so $W>0$ (the gas does work at the expense of its internal energy, $W=-\Delta U=nC_V(T_1-T_2)$). For a compression $W<0$.
+For an expansion $T_2\lt T_1$ so $W\gt0$ (the gas does work at the expense of its internal energy, $W=-\Delta U=nC_V(T_1-T_2)$). For a compression $W\lt0$.
 
 ![Isentropic expansion on P–V (compared with an isotherm) and T–S diagrams](../../assets/phy-103-entropy-isentropic-pv-ts-v261101-0.png)
 
@@ -567,48 +590,48 @@ Entropy change: $\Delta S=0$ ✓.
 
 ## Q9. Entropy in an irreversible process
 
-*(2022 Q7(b))*
+(2022 Q7(b))
 
 **Question as printed:** "Show that entropy remains constant in an irreversible process."
 
-> ⚠️ **Correct result:** in an irreversible process the entropy of the universe **increases**, $\Delta S_{\text{univ}}>0$. It is only in a *reversible* process that it stays constant (see [Q5](#q5-entropy-in-a-reversible-process)). The answer below proves the correct statement. If the examiner wants "constant", that applies to reversible processes only.
+> ⚠️ **Correct result:** in an irreversible process the entropy of the universe **increases**, $\Delta S_{\text{univ}}\gt0$. It is only in a *reversible* process that it stays constant (see [Q5](#q5-entropy-in-a-reversible-process)). The answer below proves the correct statement. If the examiner wants "constant", that applies to reversible processes only.
 
 ### Proof
 
 **Step 1 — Carnot's theorem.** No engine working between two given temperatures can be more efficient than a reversible one. For an irreversible engine taking $Q_1$ from $T_1$ and rejecting $Q_2$ to $T_2$:
 
 $$
-\eta_{\text{irr}}<\eta_{\text{rev}}
+\eta_{\text{irr}}\lt\eta_{\text{rev}}
 \;\Rightarrow\;
-1-\frac{Q_2}{Q_1}<1-\frac{T_2}{T_1}
+1-\frac{Q_2}{Q_1}\lt1-\frac{T_2}{T_1}
 \;\Rightarrow\;
-\frac{Q_2}{T_2}>\frac{Q_1}{T_1}
+\frac{Q_2}{T_2}\gt\frac{Q_1}{T_1}
 \;\Rightarrow\;
-\frac{Q_1}{T_1}-\frac{Q_2}{T_2}<0
+\frac{Q_1}{T_1}-\frac{Q_2}{T_2}\lt0
 $$
 
 **Step 2 — Clausius inequality.** Extending to any cycle that contains an irreversible part:
 
 $$
-\oint\frac{\delta Q}{T}<0
+\oint\frac{\delta Q}{T}\lt0
 $$
 
 **Step 3 — Entropy.** Let the system go from $A$ to $B$ along an **irreversible** path I and return from $B$ to $A$ along a **reversible** path R:
 
 $$
-\int_A^B\!\left(\frac{\delta Q}{T}\right)_{\text{I}}+\int_B^A\!\left(\frac{\delta Q}{T}\right)_{\text{R}}<0
+\int_A^B\!\left(\frac{\delta Q}{T}\right)_{\text{I}}+\int_B^A\!\left(\frac{\delta Q}{T}\right)_{\text{R}}\lt0
 $$
 
 The second integral equals $S_A-S_B$, so
 
 $$
-\int_A^B\!\left(\frac{\delta Q}{T}\right)_{\text{I}}<S_B-S_A
+\int_A^B\!\left(\frac{\delta Q}{T}\right)_{\text{I}}\lt S_B-S_A
 $$
 
 For an **isolated** system (or the universe), $\delta Q=0$, so the left side is zero:
 
 $$
-\boxed{\Delta S=S_B-S_A>0}
+\boxed{\Delta S=S_B-S_A\gt0}
 $$
 
 Entropy increases in every irreversible process in an isolated system. In general, $\Delta S_{\text{univ}}\ge0$, and the equality holds only for reversible processes. $\blacksquare$
@@ -631,16 +654,16 @@ $$
 $$
 
 $$
-\Delta S_{\text{univ}}=-2.000+3.333=+1.333\ \text{J K}^{-1}>0
+\Delta S_{\text{univ}}=-2.000+3.333=+1.333\ \text{J K}^{-1}\gt0
 $$
 
-The hot body's entropy falls, but the cold body's rises by more. The reverse flow (cold to hot, by itself) would give $\Delta S_{\text{univ}}<0$, which is why it never happens spontaneously.
+The hot body's entropy falls, but the cold body's rises by more. The reverse flow (cold to hot, by itself) would give $\Delta S_{\text{univ}}\lt0$, which is why it never happens spontaneously.
 
 ![Heat conduction between two bodies: entropy changes of each body and of the universe](../../assets/phy-103-entropy-irreversible-heat-flow-v261101-0.png)
 
 ### Example 10 — free expansion
 
-1 mol of an ideal gas expands freely (into a vacuum) to double its volume, with no heat exchanged and no work done. The surroundings do not change, yet the gas entropy rises by $\Delta S=R\ln2=5.76$ J K⁻¹, so $\Delta S_{\text{univ}}=+5.76$ J K⁻¹ $>0$. Because the process is irreversible, its entropy change must be computed along a *reversible* path between the same end states (here a reversible isothermal expansion).
+1 mol of an ideal gas expands freely (into a vacuum) to double its volume, with no heat exchanged and no work done. The surroundings do not change, yet the gas entropy rises by $\Delta S=R\ln2=5.76$ J K⁻¹, so $\Delta S_{\text{univ}}=+5.76$ J K⁻¹ $\gt0$. Because the process is irreversible, its entropy change must be computed along a *reversible* path between the same end states (here a reversible isothermal expansion).
 
 ---
 
@@ -648,13 +671,13 @@ The hot body's entropy falls, but the cold body's rises by more. The reverse flo
 
 ## Q10. Blackbody, emissive power and absorptive power
 
-*(2015 Q8(a); 2017 Q8(a) — "blackbody radiation, emissive power, absorptive power"; 2022 Q8(c) — "emissive power and absorptive power")*
+(2015 Q8(a); 2017 Q8(a) — "blackbody radiation, emissive power, absorptive power"; 2022 Q8(c) — "emissive power and absorptive power")
 
 ### Definitions
 
 **Blackbody.** A body that absorbs **all** the radiation of every wavelength falling on it, reflecting and transmitting none. Its absorptive power is exactly 1 at all wavelengths. Lampblack absorbs about 97 % of incident light; a practical blackbody is a closed cavity with a very small hole and a blackened inside (**Ferry's blackbody**): radiation that enters is reflected many times inside and almost never escapes. When heated uniformly, the hole emits **blackbody radiation** (cavity radiation), whose spectrum depends only on the temperature and not on the material of the walls.
 
-**Emissive power ($E$).** The total radiant energy emitted per unit time per unit surface area of a body, over all wavelengths and into the whole hemisphere in front of the surface:
+**Emissive power** ($E$). The total radiant energy emitted per unit time per unit surface area of a body, over all wavelengths and into the whole hemisphere in front of the surface:
 
 $$
 E=\frac{\text{energy emitted}}{\text{area}\times\text{time}}\quad[\text{W m}^{-2}]
@@ -662,7 +685,7 @@ $$
 
 The **spectral emissive power** $e_\lambda$ is the emissive power per unit wavelength interval, so $E=\int_0^\infty e_\lambda\,d\lambda$. Emissive power of a body relative to that of a blackbody at the same temperature is its **emissivity** $\varepsilon=E/E_b$.
 
-**Absorptive power ($a$).** The fraction of the incident radiant energy that a surface absorbs:
+**Absorptive power** ($a$). The fraction of the incident radiant energy that a surface absorbs:
 
 $$
 a=\frac{\text{energy absorbed}}{\text{energy incident}}\quad(\text{dimensionless},\;0\le a\le1)
@@ -684,7 +707,7 @@ For wavelength $\lambda$ it is written $a_\lambda$. For a blackbody $a=1$. With 
 
 ## Q11. Stefan-Boltzmann law and its proof
 
-*(2015 Q8(b): "state Stefan-Boltzmann's law and establish its mechanical proof")*
+(2015 Q8(b): "state Stefan-Boltzmann's law and establish its mechanical proof")
 
 ### Statement
 
@@ -710,10 +733,17 @@ The energy density $u$ of cavity radiation depends only on $T$, not on the volum
 
 ![Carnot cycle for radiation: horizontal isotherms, and E = σT⁴ plotted against T](../../assets/phy-103-thermal-radiation-stefan-boltzmann-v261101-0.png)
 
-- *Isothermal expansion at $T$:* volume increases by $\Delta V$. The extra volume must be filled with energy $u\,\Delta V$, and the gas also does work $P\,\Delta V$, so the heat absorbed is
-$$Q=u\,\Delta V+P\,\Delta V=\frac43\,u\,\Delta V$$
-- *Adiabatic expansion* to $T-dT$, pressure $P-dP$.
-- *Isothermal compression at $T-dT$,* then adiabatic compression back.
+The cycle has four steps.
+
+**(a) Isothermal expansion** at $T$: volume increases by $\Delta V$. The extra volume must be filled with energy $u\,\Delta V$, and the gas also does work $P\,\Delta V$, so the heat absorbed is
+
+$$
+Q=u\,\Delta V+P\,\Delta V=\frac43\,u\,\Delta V
+$$
+
+**(b) Adiabatic expansion** to $T-dT$, pressure $P-dP$.
+
+**(c) Isothermal compression** at $T-dT$, then **(d) adiabatic compression** back to the starting state.
 
 The work done in the cycle is the area of the thin parallelogram:
 
@@ -741,7 +771,7 @@ $$
 
 where $a$ is a constant of integration.
 
-*(Equivalent route using the Maxwell relation from Q7: $u=\left(\dfrac{\partial U}{\partial V}\right)_T=T\left(\dfrac{\partial P}{\partial T}\right)_V-P=\dfrac T3\dfrac{du}{dT}-\dfrac u3$, which gives $T\,du/dT=4u$ and the same result.)*
+(Equivalent route using the Maxwell relation from Q7: $u=\left(\dfrac{\partial U}{\partial V}\right)_T=T\left(\dfrac{\partial P}{\partial T}\right)_V-P=\dfrac T3\dfrac{du}{dT}-\dfrac u3$, which gives $T\,du/dT=4u$ and the same result.)
 
 **Step 3 — From energy density to emissive power.** Radiation inside the cavity is isotropic and travels at speed $c$. The energy passing out through a unit area of a small hole per unit time is
 
@@ -761,14 +791,13 @@ This establishes the Stefan-Boltzmann law. $\blacksquare$
 
 1. A blackbody at 1000 K: $E=5.67\times10^{-8}\times(1000)^4=5.67\times10^{4}$ W m⁻².
 2. If its temperature is doubled, $E$ becomes $2^4=16$ times larger.
-3. A blackened surface at 500 K in surroundings at 300 K loses, per unit area,
-$$\sigma\left(500^4-300^4\right)=5.67\times10^{-8}\times\left(6.25\times10^{10}-8.1\times10^{9}\right)\approx3.08\times10^{3}\ \text{W m}^{-2}$$
+3. A blackened surface at 500 K in surroundings at 300 K loses, per unit area, $\sigma\left(500^4-300^4\right)=5.67\times10^{-8}\times\left(6.25\times10^{10}-8.1\times10^{9}\right)\approx3.08\times10^{3}\ \text{W m}^{-2}$.
 
 ---
 
 ## Q12. Kirchhoff's law of radiation
 
-*(2018 Q5(d): "state and deduce Kirchhoff's law of radiation")*
+(2018 Q5(d): "state and deduce Kirchhoff's law of radiation")
 
 ### Statement
 
@@ -820,7 +849,7 @@ The right-hand side does not involve the nature of body $A$, which proves the la
 
 ## Q13. The photoelectric effect and Einstein's equation
 
-*(2015 Q8(c); 2016 Q6(a); 2017 Q8(b); 2020 Q8(b); 2021 Q6(b) — adds "what is a photon?"; 2022 Q8(a))*
+(2015 Q8(c); 2016 Q6(a); 2017 Q8(b); 2020 Q8(b); 2021 Q6(b) — adds "what is a photon?"; 2022 Q8(a))
 
 ### Photoelectric effect
 
@@ -831,7 +860,7 @@ When light (or ultraviolet radiation) of sufficiently high frequency falls on a 
 ### Experimental laws
 
 1. **Threshold frequency.** For each metal there is a minimum frequency $\nu_0$; below it no emission occurs, however intense the light.
-2. **Intensity and current.** For $\nu>\nu_0$, the number of photoelectrons per second (the saturation current) is proportional to the intensity of the light.
+2. **Intensity and current.** For $\nu\gt\nu_0$, the number of photoelectrons per second (the saturation current) is proportional to the intensity of the light.
 3. **Kinetic energy.** The maximum kinetic energy $K_{\max}$ of the photoelectrons is independent of intensity. It increases linearly with the frequency of the light.
 4. **No time lag.** Emission is practically instantaneous (less than $10^{-9}$ s), even for very weak light.
 5. **Stopping potential.** A retarding potential $V_0$ (stopping potential) just stops the fastest electrons, so $eV_0=K_{\max}$.
@@ -878,7 +907,7 @@ A graph of $K_{\max}$ (or $eV_0$) against $\nu$ is a straight line with slope $h
 
 | Law | Explanation |
 |-----|-------------|
-| Threshold frequency | If $h\nu<\phi$ the photon cannot free an electron, so $\nu_0=\phi/h$. |
+| Threshold frequency | If $h\nu\lt\phi$ the photon cannot free an electron, so $\nu_0=\phi/h$. |
 | Current ∝ intensity | Higher intensity means more photons per second, so more electrons per second. |
 | $K_{\max}$ independent of intensity, linear in $\nu$ | Each electron receives energy from one photon only: $K_{\max}=h\nu-\phi$. |
 | No time lag | A single photon delivers its energy at once; there is nothing to "accumulate". |
@@ -903,11 +932,11 @@ $$
 
 ## Q14. The Compton effect
 
-*(2017 Q8(c): show $\lambda'-\lambda=\lambda_C(1-\cos\phi)$; 2022 Q8(b): "what is the Compton effect? Describe the process")*
+(2017 Q8(c): show that the wavelength shift is $\lambda_C(1-\cos\phi)$; 2022 Q8(b): "what is the Compton effect? Describe the process")
 
 ### The effect
 
-When a beam of high-frequency radiation (X-rays or γ-rays) of wavelength $\lambda$ is scattered by a free (or loosely bound) electron, the scattered radiation contains a wavelength $\lambda'>\lambda$. The increase in wavelength depends only on the scattering angle $\phi$, not on the incident wavelength or the scatterer. Discovered by A. H. Compton (1923), it shows that radiation behaves as particles (photons) carrying momentum.
+When a beam of high-frequency radiation (X-rays or γ-rays) of wavelength $\lambda$ is scattered by a free (or loosely bound) electron, the scattered radiation contains a wavelength $\lambda'\gt\lambda$. The increase in wavelength depends only on the scattering angle $\phi$, not on the incident wavelength or the scatterer. Discovered by A. H. Compton (1923), it shows that radiation behaves as particles (photons) carrying momentum.
 
 ### Description of the process
 
@@ -998,7 +1027,7 @@ $$
 
 ## Q15. Photoelectric effect: wave or particle character?
 
-*(2020 Q8(a))*
+(2020 Q8(a))
 
 ### Answer
 
@@ -1017,7 +1046,7 @@ Hence the effect shows that light interacts with matter as discrete quanta. (Dif
 
 ## Q16. Work function of sodium
 
-*(2020 Q8(c): $h=6.625\times10^{-34}$ J s; 2021 Q6(c): $h=6.663\times10^{-34}$ J s, as printed)*
+(2020 Q8(c): $h=6.625\times10^{-34}$ J s; 2021 Q6(c): $h=6.663\times10^{-34}$ J s, as printed)
 
 **Given:** threshold wavelength $\lambda_0=6800$ Å $=6.8\times10^{-7}$ m, $c=3\times10^{8}$ m s⁻¹, $1\ \text{eV}=1.6\times10^{-19}$ J.
 
@@ -1027,13 +1056,13 @@ $$
 \phi=h\nu_0=\frac{hc}{\lambda_0}
 $$
 
-**2020 ($h=6.625\times10^{-34}$ J s):**
+**2020** (with $h=6.625\times10^{-34}$ J s):
 
 $$
 \phi=\frac{6.625\times10^{-34}\times3\times10^{8}}{6.8\times10^{-7}}=2.92\times10^{-19}\ \text{J}=\frac{2.92\times10^{-19}}{1.6\times10^{-19}}\approx\boxed{1.83\ \text{eV}}
 $$
 
-**2021 ($h=6.663\times10^{-34}$ J s, as printed):**
+**2021** (with $h=6.663\times10^{-34}$ J s, as printed):
 
 $$
 \phi=\frac{6.663\times10^{-34}\times3\times10^{8}}{6.8\times10^{-7}}=2.94\times10^{-19}\ \text{J}\approx\boxed{1.84\ \text{eV}}
@@ -1054,7 +1083,7 @@ Threshold frequency: $\nu_0=c/\lambda_0=4.41\times10^{14}$ Hz.
 | Ideal gas | $\Delta S=nC_V\ln\dfrac{T_2}{T_1}+nR\ln\dfrac{V_2}{V_1}$ |
 | Heating at constant $c$ | $\Delta S=mc\ln\dfrac{T_2}{T_1}$ |
 | Reversible process | $\Delta S_{\text{univ}}=0$; $\;\oint\dfrac{\delta Q}{T}=0$ |
-| Irreversible process | $\Delta S_{\text{univ}}>0$; $\;\oint\dfrac{\delta Q}{T}<0$ |
+| Irreversible process | $\Delta S_{\text{univ}}\gt0$; $\;\oint\dfrac{\delta Q}{T}\lt0$ |
 | Carnot cycle | $\dfrac{Q_1}{T_1}=\dfrac{Q_2}{T_2}$; $\;\eta=1-\dfrac{T_2}{T_1}$ |
 | Unavailable energy | $T_0\,\Delta S$ |
 | Clausius–Clapeyron | $\dfrac{dP}{dT}=\dfrac{L}{T(v_2-v_1)}$ |
