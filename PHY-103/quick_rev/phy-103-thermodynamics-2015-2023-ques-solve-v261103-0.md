@@ -123,31 +123,43 @@ Useful values: $R = 8.314\,\mathrm{J\,mol^{-1}\,K^{-1}}$, $1\,\mathrm{atm} = 1.0
 **Derivation** ($a$, $b$ are the van der Waals constants, $R$ the gas constant):
 
 1. Solve for pressure:
-$$
-P=\frac{RT}{V-b}-\frac{a}{V^2}
-$$
+
+   $$
+   P=\frac{RT}{V-b}-\frac{a}{V^2}
+   $$
+
 2. First condition, $\left(\partial P/\partial V\right)_T=0$:
-$$
--\frac{RT}{(V-b)^2}+\frac{2a}{V^3}=0 \quad\Rightarrow\quad \frac{RT}{(V-b)^2}=\frac{2a}{V^3}
-$$
+
+   $$
+   -\frac{RT}{(V-b)^2}+\frac{2a}{V^3}=0 \quad\Rightarrow\quad \frac{RT}{(V-b)^2}=\frac{2a}{V^3}
+   $$
+
 3. Second condition, $\left(\partial^2 P/\partial V^2\right)_T=0$:
-$$
-\frac{2RT}{(V-b)^3}-\frac{6a}{V^4}=0 \quad\Rightarrow\quad \frac{RT}{(V-b)^3}=\frac{3a}{V^4}
-$$
+
+   $$
+   \frac{2RT}{(V-b)^3}-\frac{6a}{V^4}=0 \quad\Rightarrow\quad \frac{RT}{(V-b)^3}=\frac{3a}{V^4}
+   $$
+
 4. Divide step 2 by step 3:
-$$
-V-b=\frac{2V}{3}\quad\Rightarrow\quad V_c=3b
-$$
+
+   $$
+   V-b=\frac{2V}{3}\quad\Rightarrow\quad V_c=3b
+   $$
+
 5. Put $V_c$ into step 2:
-$$
-RT_c=\frac{2a(V_c-b)^2}{V_c^3}=\frac{2a(2b)^2}{27b^3}=\frac{8a}{27b}\quad\Rightarrow\quad T_c=\frac{8a}{27bR}
-$$
+
+   $$
+   RT_c=\frac{2a(V_c-b)^2}{V_c^3}=\frac{2a(2b)^2}{27b^3}=\frac{8a}{27b}\quad\Rightarrow\quad T_c=\frac{8a}{27bR}
+   $$
+
 6. Put $V_c$ and $T_c$ into step 1:
-$$
-P_c=\frac{8a/27b}{2b}-\frac{a}{9b^2}=\frac{4a}{27b^2}-\frac{3a}{27b^2}=\frac{a}{27b^2}
-$$
+
+   $$
+   P_c=\frac{8a/27b}{2b}-\frac{a}{9b^2}=\frac{4a}{27b^2}-\frac{3a}{27b^2}=\frac{a}{27b^2}
+   $$
 
 > [!IMPORTANT]
+>
 > $$
 > V_c=3b,\qquad P_c=\frac{a}{27b^2},\qquad T_c=\frac{8a}{27bR}
 > $$
@@ -164,13 +176,17 @@ A CO2 fire-extinguisher cylinder holds liquid CO2 at room temperature. On a day 
 <summary>Extra: critical coefficient and reduced equation</summary>
 
 Combine the three results:
+
 $$
 \frac{P_cV_c}{RT_c}=\frac{(a/27b^2)(3b)}{8a/27b}=\frac{3}{8}
 $$
+
 Real gases give about $0.27$ for CO2, so the van der Waals model is only approximate. With $\pi=P/P_c$, $\phi=V/V_c$, $\tau=T/T_c$ the equation becomes the law of corresponding states:
+
 $$
 \left(\pi+\frac{3}{\phi^2}\right)(3\phi-1)=8\tau
 $$
+
 </details>
 
 > [!TIP]
@@ -191,23 +207,31 @@ $$
 **Derivation:**
 
 1. Multiply the van der Waals pressure by $V$ and expand for large $V$ (small $b/V$):
-$$
-PV=\frac{RTV}{V-b}-\frac{a}{V}\approx RT+\frac{RTb-a}{V}
-$$
+
+   $$
+   PV=\frac{RTV}{V-b}-\frac{a}{V}\approx RT+\frac{RTb-a}{V}
+   $$
+
 2. At low pressure $1/V\approx P/RT$, so
-$$
-PV\approx RT+\left(b-\frac{a}{RT}\right)P
-$$
+
+   $$
+   PV\approx RT+\left(b-\frac{a}{RT}\right)P
+   $$
+
 3. Boyle's law holds when the coefficient of $P$ vanishes:
-$$
-b-\frac{a}{RT_0}=0\quad\Rightarrow\quad T_0=\frac{a}{bR}
-$$
+
+   $$
+   b-\frac{a}{RT_0}=0\quad\Rightarrow\quad T_0=\frac{a}{bR}
+   $$
+
 4. Divide the critical temperature (from 2016 Q5(b)) by $T_0$:
-$$
-\frac{T_c}{T_0}=\frac{8a/(27bR)}{a/(bR)}=\frac{8}{27}
-$$
+
+   $$
+   \frac{T_c}{T_0}=\frac{8a/(27bR)}{a/(bR)}=\frac{8}{27}
+   $$
 
 > [!IMPORTANT]
+>
 > $$
 > T_c=\frac{8}{27}\,T_0\qquad\text{or}\qquad T_0=\frac{27}{8}T_c\approx3.4\,T_c
 > $$
@@ -218,6 +242,7 @@ $$
 <summary>Extra: what the two temperatures mean</summary>
 
 Below $T_c$ pressure alone can liquefy the gas. Between $T_c$ and $T_0$ the product $PV$ first falls and then rises with pressure. Above $T_0$ it only rises. The ratio $T_0/T_c=27/8$ is a van der Waals prediction, not an exact law.
+
 </details>
 
 > [!TIP]
@@ -236,6 +261,7 @@ Below $T_c$ pressure alone can liquefy the gas. Between $T_c$ and $T_0$ the prod
 ![Zeroth law: A and B each in equilibrium with C](../../assets/phy-103-thermodynamics-zeroth-law-thermal-equilibrium.svg)
 
 **First law.** Energy is conserved. Heat $Q$ supplied to a system equals the increase in internal energy $\Delta U$ plus the work $W$ done by the system:
+
 $$
 Q=\Delta U+W,\qquad dQ=dU+P\,dV
 $$
@@ -262,6 +288,7 @@ $$
 <summary>Extra: the laws as impossibility statements</summary>
 
 First law: a perpetual-motion machine of the first kind (work without energy input) is impossible. Second law: a perpetual-motion machine of the second kind (an engine with $\eta=1$) is impossible. Third law: cooling to $0\,\mathrm{K}$ is impossible. The heat capacities also tend to zero as $T\to0$.
+
 </details>
 
 > [!TIP]
@@ -285,9 +312,10 @@ First law: a perpetual-motion machine of the first kind (work without energy inp
 
 1. In these units $R=\dfrac{1\times1}{273}=\dfrac{1}{273}$.
 2. Then
-$$
-T_c=\frac{8\times0.00874\times273}{27\times0.0023}=\frac{19.088}{0.0621}\approx307.4\,\mathrm{K}
-$$
+
+   $$
+   T_c=\frac{8\times0.00874\times273}{27\times0.0023}=\frac{19.088}{0.0621}\approx307.4\,\mathrm{K}
+   $$
 
 > [!IMPORTANT]
 > $T_c\approx307.4\,\mathrm{K}\approx34.4\,^\circ\mathrm{C}$. The measured critical temperature of CO2 is about $304\,\mathrm{K}$, so the van der Waals model is close but not exact.
@@ -298,6 +326,7 @@ $$
 <summary>Extra: why R is 1/273</summary>
 
 At NTP one mole occupies the unit volume at unit pressure and $273\,\mathrm{K}$, so $PV=RT$ gives $R=1/273$ in this system of units. $a$ and $b$ are then pure numbers.
+
 </details>
 
 > [!TIP]
@@ -334,6 +363,7 @@ At NTP one mole occupies the unit volume at unit pressure and $273\,\mathrm{K}$,
 <summary>Extra: test for a state function</summary>
 
 If $dZ=M\,dx+N\,dy$ is exact then $\left(\dfrac{\partial M}{\partial y}\right)_x=\left(\dfrac{\partial N}{\partial x}\right)_y$. Applying this to $dU$, $dH$, $dF$, $dG$ gives the Maxwell relations (see 2020 Q6(a)). $\delta Q$ and $\delta W$ fail the test, which is why they carry $\delta$ and not $d$.
+
 </details>
 
 > [!TIP]
@@ -357,23 +387,26 @@ If $dZ=M\,dx+N\,dy$ is exact then $\left(\dfrac{\partial M}{\partial y}\right)_x
 | States | Equilibrium at every stage | Non-equilibrium stages |
 | Dissipation | No friction or turbulence | Friction, viscosity, heat flow over finite $\Delta T$ |
 | Path | Can retrace the same path | Returns by a different path |
-| Entropy of universe | $\Delta S=0$ | $\Delta S>0$ |
+| Entropy of universe | $\Delta S=0$ | $\Delta S\gt0$ |
 | Occurrence | Ideal limit only | All natural processes |
 | Examples | Carnot cycle, slow isothermal expansion | Free expansion, mixing, heat conduction, friction |
 
 > [!IMPORTANT]
-> Reversible: $\Delta S_{\text{universe}}=0$. Irreversible: $\Delta S_{\text{universe}}>0$.
+> Reversible: $\Delta S_{\text{universe}}=0$. Irreversible: $\Delta S_{\text{universe}}\gt0$.
 
 **Worked example.** A cup of tea at 80 °C (353 K) loses $1000\,\mathrm{J}$ to a 25 °C (298 K) room:
+
 $$
-\Delta S_{\text{universe}}=\frac{1000}{298}-\frac{1000}{353}\approx+0.52\,\mathrm{J\,K^{-1}}>0
+\Delta S_{\text{universe}}=\frac{1000}{298}-\frac{1000}{353}\approx+0.52\,\mathrm{J\,K^{-1}}\gt0
 $$
+
 The positive value shows the process is irreversible.
 
 <details>
 <summary>Extra: free expansion</summary>
 
-When one mole of an ideal gas expands freely into a vacuum to twice its volume, $Q=W=0$ and $T$ is unchanged. The entropy of the gas rises by $R\ln2\approx5.76\,\mathrm{J\,K^{-1}}$ and the surroundings do not change, so $\Delta S_{\text{universe}}>0$. The gas will never return to one half of the vessel by itself.
+When one mole of an ideal gas expands freely into a vacuum to twice its volume, $Q=W=0$ and $T$ is unchanged. The entropy of the gas rises by $R\ln2\approx5.76\,\mathrm{J\,K^{-1}}$ and the surroundings do not change, so $\Delta S_{\text{universe}}\gt0$. The gas will never return to one half of the vessel by itself.
+
 </details>
 
 > [!TIP]
@@ -396,44 +429,61 @@ When one mole of an ideal gas expands freely into a vacuum to twice its volume, 
 **Derivation** (one mole of ideal gas, $\gamma=C_p/C_v$; states A, B, C, D with volumes $V_1,V_2,V_3,V_4$):
 
 1. A to B, isothermal expansion at $T_1$ ($\Delta U=0$): heat absorbed
-$$
-Q_1=RT_1\ln\frac{V_2}{V_1}
-$$
+
+   $$
+   Q_1=RT_1\ln\frac{V_2}{V_1}
+   $$
+
 2. B to C, adiabatic expansion:
-$$
-T_1V_2^{\gamma-1}=T_2V_3^{\gamma-1}
-$$
+
+   $$
+   T_1V_2^{\gamma-1}=T_2V_3^{\gamma-1}
+   $$
+
 3. C to D, isothermal compression at $T_2$: heat rejected
-$$
-Q_2=RT_2\ln\frac{V_3}{V_4}
-$$
+
+   $$
+   Q_2=RT_2\ln\frac{V_3}{V_4}
+   $$
+
 4. D to A, adiabatic compression:
-$$
-T_2V_4^{\gamma-1}=T_1V_1^{\gamma-1}
-$$
+
+   $$
+   T_2V_4^{\gamma-1}=T_1V_1^{\gamma-1}
+   $$
+
 5. Divide step 2 by step 4:
-$$
-\frac{V_2}{V_1}=\frac{V_3}{V_4}
-$$
+
+   $$
+   \frac{V_2}{V_1}=\frac{V_3}{V_4}
+   $$
+
 6. Hence the logarithms are equal and
-$$
-\frac{Q_1}{Q_2}=\frac{T_1}{T_2}
-$$
+
+   $$
+   \frac{Q_1}{Q_2}=\frac{T_1}{T_2}
+   $$
+
 7. Efficiency:
-$$
-\eta=\frac{W}{Q_1}=\frac{Q_1-Q_2}{Q_1}=1-\frac{T_2}{T_1}
-$$
+
+   $$
+   \eta=\frac{W}{Q_1}=\frac{Q_1-Q_2}{Q_1}=1-\frac{T_2}{T_1}
+   $$
 
 > [!IMPORTANT]
+>
 > $$
 > \eta=1-\frac{Q_2}{Q_1}=\frac{T_1-T_2}{T_1}
 > $$
+>
 > The efficiency depends only on the two temperatures, never on the working substance.
 
 **Worked example.** A steam power plant with steam at 540 °C (813 K) and a condenser at 30 °C (303 K) has the ideal limit
+
 $$
 \eta_{\max}=1-\frac{303}{813}\approx62.7\%
 $$
+
 Real plants reach about 40 %, because real processes are irreversible.
 
 <details>
@@ -442,10 +492,11 @@ Real plants reach about 40 %, because real processes are irreversible.
 Carnot's theorem: no engine working between two given temperatures is more efficient than a reversible engine, and all reversible engines between them have the same efficiency. The plot shows $\eta$ rising as $T_2$ falls, reaching 1 only at $T_2=0$, which the third law forbids.
 
 ![Carnot efficiency against sink temperature for two source temperatures](../../assets/phy-103-thermodynamics-carnot-efficiency-vs-sink-temperature.svg)
+
 </details>
 
 > [!TIP]
-> Use kelvin in $T_2/T_1$. Always write $\eta<1$. Do not forget the step that shows $V_2/V_1=V_3/V_4$: it is where the marks are.
+> Use kelvin in $T_2/T_1$. Always write $\eta\lt1$. Do not forget the step that shows $V_2/V_1=V_3/V_4$: it is where the marks are.
 
 ---
 
@@ -465,7 +516,7 @@ Carnot's theorem: no engine working between two given temperatures is more effic
 
 **Explanation.**
 
-1. A heat engine must reject some heat $Q_2$ to a colder sink, so $\eta<1$.
+1. A heat engine must reject some heat $Q_2$ to a colder sink, so $\eta\lt1$.
 2. A refrigerator needs work $W$ to move heat from cold to hot.
 3. Natural processes have a direction (hot to cold, order to disorder). The first law does not forbid the reverse, the second law does.
 
@@ -474,7 +525,7 @@ Carnot's theorem: no engine working between two given temperatures is more effic
 | Point | First law | Second law |
 | --- | --- | --- |
 | Concerns | Conservation of energy | Direction of processes and conversion of heat to work |
-| Equation | $Q=\Delta U+W$ | $\Delta S_{\text{universe}}\ge0$, $\eta<1$ |
+| Equation | $Q=\Delta U+W$ | $\Delta S_{\text{universe}}\ge0$, $\eta\lt1$ |
 | Allows | Any process that conserves energy | Only processes that satisfy the entropy rule |
 | Heat to work | Equivalent, nothing forbidden | Complete conversion in a cycle is impossible |
 | Defines | Internal energy $U$ | Entropy $S$ and absolute temperature scale |
@@ -483,9 +534,11 @@ Carnot's theorem: no engine working between two given temperatures is more effic
 > First law: energy is conserved. Second law: the direction of change is fixed; no engine has $\eta=1$.
 
 **Worked example.** A kitchen refrigerator keeps its inside at 4 °C (277 K) in a 25 °C (298 K) room. The best possible coefficient of performance is
+
 $$
 \mathrm{COP}_{\max}=\frac{T_2}{T_1-T_2}=\frac{277}{298-277}\approx13.2
 $$
+
 Heat is moved from cold to hot only because the compressor does work.
 
 <details>
@@ -494,6 +547,7 @@ Heat is moved from cold to hot only because the compressor does work.
 Suppose a Clausius violator moves $Q_2$ from cold to hot with no work. Run a Carnot engine between the same reservoirs that takes $Q_1$ from hot, rejects $Q_2$ to cold and does $W=Q_1-Q_2$. The cold body is unchanged, and the hot body has lost $Q_1-Q_2$, all turned into work. That violates Kelvin-Planck.
 
 Conversely, suppose a Kelvin-Planck violator turns heat $Q$ from one reservoir wholly into work $W=Q$. Use $W$ to drive a refrigerator that takes $Q_2$ from the cold body and delivers $Q_2+W$ to the hot body. The net effect is heat moved from cold to hot with no net work, violating Clausius.
+
 </details>
 
 > [!TIP]
@@ -529,10 +583,11 @@ Conversely, suppose a Kelvin-Planck violator turns heat $Q$ from one reservoir w
 <summary>Extra: check with the work formula</summary>
 
 $W=\eta Q_1=0.2222\times4200=933.3\,\mathrm{J}$, matching $Q_1-Q_2$. The two checks agree, so the arithmetic is consistent.
+
 </details>
 
 > [!TIP]
-> Convert °C to K before dividing. Check that $Q_2<Q_1$ and that $W+Q_2=Q_1$.
+> Convert °C to K before dividing. Check that $Q_2\lt Q_1$ and that $W+Q_2=Q_1$.
 
 ## Paper 2018
 
@@ -560,23 +615,30 @@ Same as [2017 Q6(a)](#ans-to-the-question-no-6a-2017).
 
 1. First law for a small change: $dQ=dU+P\,dV$.
 2. At constant volume $dV=0$, so
-$$
-C_v=\left(\frac{dQ}{dT}\right)_V=\left(\frac{dU}{dT}\right)_V
-$$
+
+   $$
+   C_v=\left(\frac{dQ}{dT}\right)_V=\left(\frac{dU}{dT}\right)_V
+   $$
+
 3. For an ideal gas $U$ depends on $T$ only (Joule's law), so $dU=C_v\,dT$ in every process.
 4. At constant pressure
-$$
-C_p=\left(\frac{dQ}{dT}\right)_P=C_v+P\left(\frac{dV}{dT}\right)_P
-$$
+
+   $$
+   C_p=\left(\frac{dQ}{dT}\right)_P=C_v+P\left(\frac{dV}{dT}\right)_P
+   $$
+
 5. From $PV=RT$ at constant $P$: $P\,(dV/dT)_P=R$. Therefore
-$$
-C_p=C_v+R
-$$
+
+   $$
+   C_p=C_v+R
+   $$
 
 > [!IMPORTANT]
+>
 > $$
 > C_p-C_v=R
 > $$
+>
 > The excess $R$ is the work done by one mole expanding against constant pressure when heated by $1\,\mathrm{K}$.
 
 **Worked example.** Heat one mole of air by $10\,\mathrm{K}$. In a rigid closed bottle ($C_v\approx20.8\,\mathrm{J\,mol^{-1}\,K^{-1}}$) it takes $208\,\mathrm{J}$. In a cylinder with a free piston ($C_p\approx29.1\,\mathrm{J\,mol^{-1}\,K^{-1}}$) it takes $291\,\mathrm{J}$. The extra $83\,\mathrm{J}$ is the expansion work.
@@ -585,10 +647,13 @@ $$
 <summary>Extra: Mayer's relation and gamma</summary>
 
 With $\gamma=C_p/C_v$ and $C_p-C_v=R$:
+
 $$
 C_v=\frac{R}{\gamma-1},\qquad C_p=\frac{\gamma R}{\gamma-1}
 $$
-For a monatomic gas $\gamma=5/3$; for a diatomic gas $\gamma=7/5=1.4$. Always $C_p>C_v$.
+
+For a monatomic gas $\gamma=5/3$; for a diatomic gas $\gamma=7/5=1.4$. Always $C_p\gt C_v$.
+
 </details>
 
 > [!TIP]
@@ -614,18 +679,21 @@ For a monatomic gas $\gamma=5/3$; for a diatomic gas $\gamma=7/5=1.4$. Always $C
 4. There is no friction or other dissipation.
 5. Run backwards, the cycle retraces every state: $A\to D\to C\to B\to A$. Heat $Q_2$ is absorbed at $T_2$, heat $Q_1$ is rejected at $T_1$ and work $W$ is done on the gas.
 
-![Reversed Carnot cycle acting as a refrigerator](../../assets/phy-103-thermodynamics-carnot-cycle-reversed-refrigerator.svg)
+   ![Reversed Carnot cycle acting as a refrigerator](../../assets/phy-103-thermodynamics-carnot-cycle-reversed-refrigerator.svg)
 
 6. Entropy check:
-$$
-\Delta S_{\text{universe}}=-\frac{Q_1}{T_1}+\frac{Q_2}{T_2}=0
-$$
-because $Q_1/Q_2=T_1/T_2$.
+
+   $$
+   \Delta S_{\text{universe}}=-\frac{Q_1}{T_1}+\frac{Q_2}{T_2}=0
+   $$
+
+   because $Q_1/Q_2=T_1/T_2$.
 
 > [!IMPORTANT]
 > The Carnot cycle is reversible: every step is quasi-static and free of dissipation, reversing it retraces every state, and $\Delta S_{\text{universe}}=0$.
 
 **Worked example.** Run backwards, the Carnot engine is an ideal refrigerator. To remove $Q_2=1000\,\mathrm{J}$ from a freezer at $-18\,^\circ\mathrm{C}$ (255 K) and release heat into a kitchen at $27\,^\circ\mathrm{C}$ (300 K):
+
 $$
 W=Q_2\frac{T_1-T_2}{T_2}=1000\times\frac{45}{255}\approx176.5\,\mathrm{J}
 $$
@@ -634,6 +702,7 @@ $$
 <summary>Extra: why real engines are irreversible</summary>
 
 A real engine needs a finite temperature difference to move heat quickly, and it has friction and turbulence. Each adds entropy, so its efficiency is below the Carnot value $1-T_2/T_1$. This is the content of Carnot's theorem.
+
 </details>
 
 > [!TIP]
@@ -648,9 +717,11 @@ A real engine needs a finite temperature difference to move heat quickly, and it
 #### Ans. to the question no. 6(a), 2020
 
 **Statement.** If $dZ=M\,dx+N\,dy$ is an exact differential of a state function $Z(x,y)$, then
+
 $$
 \left(\frac{\partial M}{\partial y}\right)_x=\left(\frac{\partial N}{\partial x}\right)_y
 $$
+
 Applying this to the four thermodynamic potentials gives the four Maxwell relations.
 
 ![Thermodynamic square with the potentials U, H, F, G](../../assets/phy-103-thermodynamics-maxwell-thermodynamic-square.svg)
@@ -660,36 +731,53 @@ Applying this to the four thermodynamic potentials gives the four Maxwell relati
 1. Exactness: since $M=(\partial Z/\partial x)_y$ and $N=(\partial Z/\partial y)_x$, the equality of mixed second derivatives gives the condition above.
 2. First and second laws for a reversible change: $dU=T\,dS-P\,dV$.
 3. Define $H=U+PV$, $F=U-TS$, $G=H-TS$. Then
-$$
-dH=T\,dS+V\,dP,\qquad dF=-S\,dT-P\,dV,\qquad dG=-S\,dT+V\,dP
-$$
+
+   $$
+   dH=T\,dS+V\,dP,\qquad dF=-S\,dT-P\,dV,\qquad dG=-S\,dT+V\,dP
+   $$
+
 4. Apply the exactness condition to each:
-$$
-\left(\frac{\partial T}{\partial V}\right)_S=-\left(\frac{\partial P}{\partial S}\right)_V\quad\text{(from }dU\text{)}
-$$
-$$
-\left(\frac{\partial T}{\partial P}\right)_S=\left(\frac{\partial V}{\partial S}\right)_P\quad\text{(from }dH\text{)}
-$$
-$$
-\left(\frac{\partial S}{\partial V}\right)_T=\left(\frac{\partial P}{\partial T}\right)_V\quad\text{(from }dF\text{)}
-$$
-$$
-\left(\frac{\partial S}{\partial P}\right)_T=-\left(\frac{\partial V}{\partial T}\right)_P\quad\text{(from }dG\text{)}
-$$
+
+   From $dU$:
+
+   $$
+   \left(\frac{\partial T}{\partial V}\right)_S=-\left(\frac{\partial P}{\partial S}\right)_V
+   $$
+
+   From $dH$:
+
+   $$
+   \left(\frac{\partial T}{\partial P}\right)_S=\left(\frac{\partial V}{\partial S}\right)_P
+   $$
+
+   From $dF$:
+
+   $$
+   \left(\frac{\partial S}{\partial V}\right)_T=\left(\frac{\partial P}{\partial T}\right)_V
+   $$
+
+   From $dG$:
+
+   $$
+   \left(\frac{\partial S}{\partial P}\right)_T=-\left(\frac{\partial V}{\partial T}\right)_P
+   $$
 
 > [!IMPORTANT]
 > The four Maxwell relations follow from the exactness of $dU$, $dH$, $dF$ and $dG$, through $\left(\partial M/\partial y\right)_x=\left(\partial N/\partial x\right)_y$.
 
 **Worked example.** One mole of an ideal gas expands isothermally from $1\,\mathrm{L}$ to $2\,\mathrm{L}$. Use the $dF$ relation with $\left(\partial P/\partial T\right)_V=R/V$:
+
 $$
 \Delta S=\int_{V_1}^{V_2}\frac{R}{V}\,dV=R\ln2=8.314\times0.693\approx5.76\,\mathrm{J\,K^{-1}}
 $$
+
 Entropy changes were obtained from easily measured $P$, $V$, $T$ data.
 
 <details>
 <summary>Extra: memory aid</summary>
 
 On the thermodynamic square each side is a potential, its two corners are its natural variables, and each differential pairs a variable with its diagonal conjugate. $T$ pairs with $S$ and $P$ pairs with $V$.
+
 </details>
 
 > [!TIP]
@@ -713,24 +801,33 @@ On the thermodynamic square each side is a potential, its two corners are its na
 **Derivation:**
 
 1. For part (i), at constant $T$:
-$$
-\left(\frac{\partial Q}{\partial V}\right)_T=T\left(\frac{\partial S}{\partial V}\right)_T
-$$
+
+   $$
+   \left(\frac{\partial Q}{\partial V}\right)_T=T\left(\frac{\partial S}{\partial V}\right)_T
+   $$
+
 2. Use the $dF$ relation $\left(\partial S/\partial V\right)_T=\left(\partial P/\partial T\right)_V$:
-$$
-\left(\frac{\partial Q}{\partial V}\right)_T=T\left(\frac{\partial P}{\partial T}\right)_V
-$$
+
+   $$
+   \left(\frac{\partial Q}{\partial V}\right)_T=T\left(\frac{\partial P}{\partial T}\right)_V
+   $$
+
 3. For part (ii), at constant $V$ we have $dQ=T\,dS$, so $\left(\partial P/\partial Q\right)_V=\dfrac{1}{T}\left(\partial P/\partial S\right)_V$. Hence
-$$
--T\left(\frac{\partial P}{\partial Q}\right)_V=-\left(\frac{\partial P}{\partial S}\right)_V
-$$
+
+   $$
+   -T\left(\frac{\partial P}{\partial Q}\right)_V=-\left(\frac{\partial P}{\partial S}\right)_V
+   $$
+
 4. The $dU$ relation gives
-$$
-\left(\frac{\partial T}{\partial V}\right)_S=-\left(\frac{\partial P}{\partial S}\right)_V=-T\left(\frac{\partial P}{\partial Q}\right)_V
-$$
+
+   $$
+   \left(\frac{\partial T}{\partial V}\right)_S=-\left(\frac{\partial P}{\partial S}\right)_V=-T\left(\frac{\partial P}{\partial Q}\right)_V
+   $$
 
 > [!IMPORTANT]
-> (i) $\left(\dfrac{\partial Q}{\partial V}\right)_T=T\left(\dfrac{\partial P}{\partial T}\right)_V$ (ii) $\left(\dfrac{\partial T}{\partial V}\right)_S=-\left(\dfrac{\partial P}{\partial S}\right)_V=-T\left(\dfrac{\partial P}{\partial Q}\right)_V$
+> (i) $\left(\dfrac{\partial Q}{\partial V}\right)_T=T\left(\dfrac{\partial P}{\partial T}\right)_V$
+>
+> (ii) $\left(\dfrac{\partial T}{\partial V}\right)_S=-\left(\dfrac{\partial P}{\partial S}\right)_V=-T\left(\dfrac{\partial P}{\partial Q}\right)_V$
 
 **Worked example.** One mole of ideal gas at $300\,\mathrm{K}$ and $V=24.9\,\mathrm{L}$ has $P\approx1.0\times10^{5}\,\mathrm{Pa}$. Part (i) gives $\left(\partial Q/\partial V\right)_T=T\,R/V=P\approx1.0\times10^{5}\,\mathrm{J\,m^{-3}}$. Expanding by $1\,\mathrm{mL}$ isothermally therefore absorbs about $0.1\,\mathrm{J}$, equal to the work $P\,dV$, as it must since $\Delta U=0$.
 
@@ -738,10 +835,13 @@ $$
 <summary>Extra: the energy equation</summary>
 
 From $dU=T\,dS-P\,dV$ and the $dF$ relation:
+
 $$
 \left(\frac{\partial U}{\partial V}\right)_T=T\left(\frac{\partial P}{\partial T}\right)_V-P
 $$
+
 This is zero for an ideal gas (Joule's law) and equals $a/V^2$ for a van der Waals gas, since $T\,(\partial P/\partial T)_V=RT/(V-b)=P+a/V^2$.
+
 </details>
 
 > [!TIP]
@@ -774,6 +874,7 @@ Same as [2018 Q8(c)](#ans-to-the-question-no-8c-2018).
 **Formula.** $\eta=1-\dfrac{T_2}{T_1}$
 
 **Substitution.**
+
 $$
 \eta=1-\frac{273}{373}=0.268
 $$
@@ -786,7 +887,8 @@ $$
 <details>
 <summary>Extra: raising the efficiency</summary>
 
-Differentiate $\eta=1-T_2/T_1$: $\partial\eta/\partial T_1=T_2/T_1^2$ and $\partial\eta/\partial T_2=-1/T_1$. The ratio of the sizes of the two effects is $T_1/T_2>1$, so lowering the sink temperature by one kelvin raises $\eta$ more than raising the source temperature by one kelvin.
+Differentiate $\eta=1-T_2/T_1$: $\partial\eta/\partial T_1=T_2/T_1^2$ and $\partial\eta/\partial T_2=-1/T_1$. The ratio of the sizes of the two effects is $T_1/T_2\gt1$, so lowering the sink temperature by one kelvin raises $\eta$ more than raising the source temperature by one kelvin.
+
 </details>
 
 > [!TIP]
@@ -811,7 +913,7 @@ Same as the first part of [2018 Q8(c)](#ans-to-the-question-no-8c-2018). The fou
 #### Ans. to the question no. 7(b), 2021
 
 > [!NOTE]
-> The paper prints this expression incorrectly. The correct form is $\eta=(T_1-T_2)/T_1$ with $T_1>T_2$, as written in the question above.
+> The paper prints this expression incorrectly. The correct form is $\eta=(T_1-T_2)/T_1$ with $T_1\gt T_2$, as written in the question above.
 
 Same as [2017 Q5(c)](#ans-to-the-question-no-5c-2017).
 
@@ -858,11 +960,13 @@ Same as [2017 Q6(a)](#ans-to-the-question-no-6a-2017).
 ![Dry air expanded adiabatically to twice its volume](../../assets/phy-103-thermodynamics-adiabatic-air-doubling-volume.svg)
 
 **Formula.** For an adiabatic process $TV^{\gamma-1}=\text{constant}$, so
+
 $$
 T_2=T_1\left(\frac{V_1}{V_2}\right)^{\gamma-1}
 $$
 
 **Substitution.**
+
 $$
 T_2=288\times\left(\frac{1}{2}\right)^{0.4}=\frac{288}{1.3195}\approx218.3\,\mathrm{K}
 $$
@@ -876,6 +980,7 @@ $$
 <summary>Extra: the same result from pressure</summary>
 
 Since $V_2=2V_1$, the pressure becomes $P_2=P_1\,2^{-1.4}=0.379\,P_1$. Check with $T_2=T_1(P_2/P_1)^{(\gamma-1)/\gamma}=288\times0.379^{0.2857}\approx218\,\mathrm{K}$. The two forms agree.
+
 </details>
 
 > [!TIP]
@@ -899,9 +1004,11 @@ Since $V_2=2V_1$, the pressure becomes $P_2=P_1\,2^{-1.4}=0.379\,P_1$. Check wit
 
 1. Energy can be neither created nor destroyed. Heat $Q$ given to a system can only increase its internal energy or be used to do work.
 2. Therefore
-$$
-Q=\Delta U+W\qquad\text{or}\qquad dQ=dU+P\,dV
-$$
+
+   $$
+   Q=\Delta U+W\qquad\text{or}\qquad dQ=dU+P\,dV
+   $$
+
 3. Isolated system: $Q=0$ and $W=0$, so $\Delta U=0$ and $U$ is constant.
 4. Complete cycle: $\Delta U=0$, so $W=Q$. An engine cannot give out more work than the heat it takes in, so a perpetual-motion machine of the first kind is impossible.
 5. Joule's experiment: the same work done adiabatically on a system always produces the same change in $U$, so $U$ is a state function.
@@ -915,6 +1022,7 @@ $$
 <summary>Extra: sign convention</summary>
 
 Heat absorbed by the system is positive, work done by the system is positive. Some books write $\Delta U=Q+W_{\text{on}}$ with work done on the system. Both are the same law; state the convention you use.
+
 </details>
 
 > [!TIP]
@@ -958,37 +1066,46 @@ Same as [2018 Q8(c)](#ans-to-the-question-no-8c-2018).
 
 1. Write $P=KV^{-\gamma}$ with $K=P_1V_1^\gamma=P_2V_2^\gamma$.
 2. Work done by the gas:
-$$
-W=\int_{V_1}^{V_2}P\,dV=K\int_{V_1}^{V_2}V^{-\gamma}\,dV=K\,\frac{V_2^{1-\gamma}-V_1^{1-\gamma}}{1-\gamma}
-$$
+
+   $$
+   W=\int_{V_1}^{V_2}P\,dV=K\int_{V_1}^{V_2}V^{-\gamma}\,dV=K\,\frac{V_2^{1-\gamma}-V_1^{1-\gamma}}{1-\gamma}
+   $$
+
 3. Since $KV_2^{1-\gamma}=P_2V_2$ and $KV_1^{1-\gamma}=P_1V_1$:
-$$
-W=\frac{P_2V_2-P_1V_1}{1-\gamma}
-$$
+
+   $$
+   W=\frac{P_2V_2-P_1V_1}{1-\gamma}
+   $$
 
 > [!IMPORTANT]
+>
 > $$
 > W=\frac{P_1V_1-P_2V_2}{\gamma-1}=\frac{nR\,(T_1-T_2)}{\gamma-1}
 > $$
 
 **Worked example.** In a diesel engine, air at $300\,\mathrm{K}$ is compressed isentropically with a compression ratio of 16. $T_2=300\times16^{0.4}\approx909\,\mathrm{K}$ (about $636\,^\circ\mathrm{C}$), which is high enough to ignite the injected fuel without a spark. The work done per mole is
+
 $$
 W=\frac{8.314\,(300-909)}{0.4}\approx-1.27\times10^{4}\,\mathrm{J}
 $$
+
 The negative sign means work is done on the gas.
 
 <details>
 <summary>Extra: derivation from the first law</summary>
 
 For $dQ=0$ the first law gives $dW=-dU=-nC_v\,dT$. Integrating,
+
 $$
 W=nC_v(T_1-T_2)=\frac{nR(T_1-T_2)}{\gamma-1}
 $$
+
 using $C_v=R/(\gamma-1)$. It agrees with the integral above because $P_1V_1=nRT_1$ and $P_2V_2=nRT_2$.
+
 </details>
 
 > [!TIP]
-> Remember the sign: $W>0$ in expansion ($T_2<T_1$) and $W<0$ in compression. Note that the work is the area under the $PV^\gamma$ curve, which is steeper than the isotherm.
+> Remember the sign: $W\gt0$ in expansion ($T_2\lt T_1$) and $W\lt0$ in compression. Note that the work is the area under the $PV^\gamma$ curve, which is steeper than the isotherm.
 
 ---
 
@@ -1018,6 +1135,7 @@ using $C_v=R/(\gamma-1)$. It agrees with the integral above because $P_1V_1=nRT_
 <summary>Extra: comparison with the adiabatic case</summary>
 
 If the same expansion were adiabatic with $\gamma=1.4$, the final pressure would be $P_2=1.5\times5^{-1.4}\approx0.16\,\mathrm{bar}$, lower than the isothermal $0.3\,\mathrm{bar}$, and no heat would be supplied (see the isothermal-adiabatic comparison in [2023 Q5(b)](#ans-to-the-question-no-5b-2023)).
+
 </details>
 
 > [!TIP]
@@ -1038,27 +1156,37 @@ If the same expansion were adiabatic with $\gamma=1.4$, the final pressure would
 **Derivation** (one mole; $dQ=0$):
 
 1. First law with $dQ=0$:
-$$
-0=C_v\,dT+P\,dV\quad\Rightarrow\quad C_v\,dT=-P\,dV
-$$
+
+   $$
+   0=C_v\,dT+P\,dV\quad\Rightarrow\quad C_v\,dT=-P\,dV
+   $$
+
 2. Differentiate $PV=RT$:
-$$
-P\,dV+V\,dP=R\,dT
-$$
+
+   $$
+   P\,dV+V\,dP=R\,dT
+   $$
+
 3. Eliminate $dT$ using step 1, $dT=-P\,dV/C_v$:
-$$
-P\,dV+V\,dP=-\frac{R}{C_v}P\,dV
-$$
+
+   $$
+   P\,dV+V\,dP=-\frac{R}{C_v}P\,dV
+   $$
+
 4. Rearrange and use $C_v+R=C_p$:
-$$
-V\,dP+\frac{C_v+R}{C_v}P\,dV=0\quad\Rightarrow\quad V\,dP+\gamma P\,dV=0
-$$
+
+   $$
+   V\,dP+\frac{C_v+R}{C_v}P\,dV=0\quad\Rightarrow\quad V\,dP+\gamma P\,dV=0
+   $$
+
 5. Divide by $PV$ and integrate:
-$$
-\frac{dP}{P}+\gamma\frac{dV}{V}=0\quad\Rightarrow\quad \ln P+\gamma\ln V=\text{constant}
-$$
+
+   $$
+   \frac{dP}{P}+\gamma\frac{dV}{V}=0\quad\Rightarrow\quad \ln P+\gamma\ln V=\text{constant}
+   $$
 
 > [!IMPORTANT]
+>
 > $$
 > PV^{\gamma}=\text{constant},\qquad TV^{\gamma-1}=\text{constant},\qquad T^{\gamma}P^{1-\gamma}=\text{constant}
 > $$
@@ -1068,7 +1196,8 @@ $$
 <details>
 <summary>Extra: slope of an adiabat compared with an isotherm</summary>
 
-Isotherm $PV=\text{const}$: $\left(\dfrac{dP}{dV}\right)_T=-\dfrac{P}{V}$. Adiabat: $\left(\dfrac{dP}{dV}\right)_S=-\gamma\dfrac{P}{V}$. Because $\gamma>1$ the adiabat is steeper, as the diagram shows. Gas expanding adiabatically ends at a lower pressure than an isothermal expansion to the same volume.
+Isotherm $PV=\text{const}$: $\left(\dfrac{dP}{dV}\right)_T=-\dfrac{P}{V}$. Adiabat: $\left(\dfrac{dP}{dV}\right)_S=-\gamma\dfrac{P}{V}$. Because $\gamma\gt1$ the adiabat is steeper, as the diagram shows. Gas expanding adiabatically ends at a lower pressure than an isothermal expansion to the same volume.
+
 </details>
 
 > [!TIP]
@@ -1090,11 +1219,13 @@ Isotherm $PV=\text{const}$: $\left(\dfrac{dP}{dV}\right)_T=-\dfrac{P}{V}$. Adiab
 ![Tyre burst: air at 2 atm expands adiabatically to 1 atm](../../assets/phy-103-thermodynamics-tyre-burst-adiabatic-expansion.svg)
 
 **Formula.** For an adiabatic change $T^\gamma P^{1-\gamma}=\text{constant}$, so
+
 $$
 T_2=T_1\left(\frac{P_2}{P_1}\right)^{\frac{\gamma-1}{\gamma}}
 $$
 
 **Substitution.**
+
 $$
 T_2=300\times\left(\frac{1}{2}\right)^{0.2857}=300\times0.8203\approx246\,\mathrm{K}
 $$
@@ -1108,6 +1239,7 @@ $$
 <summary>Extra: volume ratio</summary>
 
 $V_2/V_1=(P_1/P_2)^{1/\gamma}=2^{0.714}\approx1.64$. The gas expands to about 1.64 times its volume, and $T_2V_2^{\gamma-1}=T_1V_1^{\gamma-1}$ gives the same $246\,\mathrm{K}$.
+
 </details>
 
 > [!TIP]
@@ -1165,6 +1297,7 @@ Same as the "Difference from the first law" table in [2017 Q6(a)](#ans-to-the-qu
 <summary>Extra: unit consistency</summary>
 
 Efficiency is dimensionless, so it is the same in J and cal. Only $Q_2$ and $W$ change units. The conversion factor $4.2\,\mathrm{J\,cal^{-1}}$ appears once, at the start.
+
 </details>
 
 > [!TIP]
@@ -1222,7 +1355,7 @@ flowchart TD
 
 ## One-page cheat sheet
 
-**Laws.** Zeroth: equal temperature is transitive. First: $Q=\Delta U+W$. Second: $\eta<1$, $\Delta S_{\text{universe}}\ge0$. Third: $S\to0$ as $T\to0$.
+**Laws.** Zeroth: equal temperature is transitive. First: $Q=\Delta U+W$. Second: $\eta\lt1$, $\Delta S_{\text{universe}}\ge0$. Third: $S\to0$ as $T\to0$.
 
 **Ideal gas.** $PV=nRT$, $U=nC_vT$, $C_p-C_v=R$, $\gamma=C_p/C_v$, $C_v=\dfrac{R}{\gamma-1}$, $C_p=\dfrac{\gamma R}{\gamma-1}$.
 
@@ -1235,10 +1368,12 @@ flowchart TD
 **Potentials.** $dU=T\,dS-P\,dV$, $dH=T\,dS+V\,dP$, $dF=-S\,dT-P\,dV$, $dG=-S\,dT+V\,dP$.
 
 **Maxwell.**
+
 $$
 \left(\frac{\partial T}{\partial V}\right)_S=-\left(\frac{\partial P}{\partial S}\right)_V,\quad
 \left(\frac{\partial T}{\partial P}\right)_S=\left(\frac{\partial V}{\partial S}\right)_P
 $$
+
 $$
 \left(\frac{\partial S}{\partial V}\right)_T=\left(\frac{\partial P}{\partial T}\right)_V,\quad
 \left(\frac{\partial S}{\partial P}\right)_T=-\left(\frac{\partial V}{\partial T}\right)_P
@@ -1282,4 +1417,5 @@ These four problems are new and are not from the exam list.
 2. $T_2=300\times8^{0.4}\approx689\,\mathrm{K}$; $P_2=1\times8^{1.4}\approx18.4\,\mathrm{atm}$; work done on the gas $=\dfrac{nR(T_2-T_1)}{\gamma-1}=\dfrac{8.314\times389}{0.4}\approx8.09\times10^{3}\,\mathrm{J}$.
 3. $V_c=3b\approx7.1\times10^{-5}\,\mathrm{m^3\,mol^{-1}}$; $P_c=\dfrac{a}{27b^2}\approx2.26\times10^{5}\,\mathrm{Pa}$; $T_c=\dfrac{8a}{27bR}\approx5.2\,\mathrm{K}$.
 4. $\left(\dfrac{\partial S}{\partial P}\right)_T=-\left(\dfrac{\partial V}{\partial T}\right)_P=-\dfrac{R}{P}$, so $\Delta S=-R\ln10\approx-19.1\,\mathrm{J\,K^{-1}}$. The gas loses entropy; the surroundings gain at least as much.
+
 </details>
