@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="610" viewBox="0 0 1100 610">
+<rect width="1100" height="610" rx="24" fill="#f8fbff"/>
+<text x="55" y="58" font-family="Arial" font-size="28" font-weight="700" fill="#17324d">Maxwell distribution of molecular speeds</text>
+<text x="55" y="91" font-family="Arial" font-size="17" fill="#526579">The curve gives the fraction of molecules having speeds in a small interval around v.</text>
+<g stroke="#243b53" stroke-width="3" fill="none"><path d="M115 485 L1015 485"/><path d="M115 485 L115 145"/></g>
+<text x="520" y="535" font-family="Arial" font-size="19" fill="#34495e">Molecular speed, v</text><text x="55" y="335" transform="rotate(-90 55 335)" font-family="Arial" font-size="18" fill="#34495e">Fraction per unit speed</text>
+<path d="M115 485 C180 480 225 385 290 255 C345 150 415 200 485 315 C545 405 620 455 735 478 C835 485 930 485 1010 485" stroke="#2878c8" stroke-width="5" fill="none"/>
+<path d="M115 485 C175 475 210 330 255 190 C300 105 355 160 410 285 C475 405 555 460 680 480 C810 485 930 485 1010 485" stroke="#d17a22" stroke-width="5" fill="none"/>
+<path d="M115 485 C150 455 185 275 215 160 C250 90 295 145 345 275 C405 410 495 465 625 482 C790 485 930 485 1010 485" stroke="#2d9468" stroke-width="5" fill="none"/>
+<g font-family="Arial" font-size="18" font-weight="700"><text x="715" y="315" fill="#2878c8">T₁</text><text x="715" y="280" fill="#d17a22">T₂ &gt; T₁</text><text x="715" y="245" fill="#2d9468">T₃ &gt; T₂</text></g>
+<text x="145" y="575" font-family="Arial" font-size="15" fill="#526579">With increasing temperature, the distribution broadens, its peak lowers, and characteristic speeds increase.</text>
+</svg>
