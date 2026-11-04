@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="600" viewBox="0 0 1100 600">
+<defs><linearGradient id="wall" x2="0" y2="1"><stop stop-color="#334e68"/><stop offset="1" stop-color="#102a43"/></linearGradient><marker id="ray" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0 0 L7 3 L0 6" fill="none" stroke="#f6c453" stroke-width="1.5"/></marker></defs>
+<rect width="1100" height="600" rx="24" fill="#f7faff"/>
+<text x="55" y="58" font-family="Arial" font-size="28" font-weight="700" fill="#17324d">A practical approximation to a blackbody</text>
+<text x="55" y="91" font-family="Arial" font-size="17" fill="#526579">A small aperture in a temperature-controlled hollow cavity behaves almost like a perfect absorber.</text>
+<!-- cavity -->
+<path d="M260 190 L760 190 L760 445 L260 445 Z" fill="url(#wall)" stroke="#102a43" stroke-width="5"/>
+<path d="M260 190 L310 225 L310 410 L260 445" fill="#486581" stroke="#102a43" stroke-width="3"/>
+<path d="M760 190 L710 225 L710 410 L760 445" fill="#243b53" stroke="#102a43" stroke-width="3"/>
+<path d="M310 225 L710 225 L710 410 L310 410 Z" fill="#102a43" stroke="#829ab1" stroke-width="2"/>
+<!-- aperture -->
+<ellipse cx="260" cy="317" rx="19" ry="45" fill="#f7faff" stroke="#102a43" stroke-width="4"/>
+<text x="95" y="300" font-family="Arial" font-size="19" fill="#956b00" font-weight="700">Incoming radiation</text>
+<path d="M80 325 L250 325" stroke="#d99a00" stroke-width="5" fill="none" marker-end="url(#ray)"/>
+<!-- multiple reflections -->
+<g stroke="#f6c453" stroke-width="4" fill="none" marker-end="url(#ray)"><path d="M280 315 L390 250 L560 275 L450 390 L330 360 L395 250"/><path d="M310 330 L500 230 L665 335 L550 400 L390 330"/></g>
+<text x="470" y="480" text-anchor="middle" font-family="Arial" font-size="18" fill="#17324d" font-weight="700">Repeated reflections → nearly all radiation is absorbed</text>
+<text x="795" y="245" font-family="Arial" font-size="18" fill="#34495e" font-weight="700">Cavity walls</text><text x="795" y="273" font-family="Arial" font-size="16" fill="#526579">maintained at temperature T</text>
+<path d="M770 260 L710 280" stroke="#526579" stroke-width="2"/>
+<text x="795" y="345" font-family="Arial" font-size="18" fill="#34495e" font-weight="700">Small aperture</text><text x="795" y="373" font-family="Arial" font-size="16" fill="#526579">acts as a blackbody opening</text>
+<path d="M790 350 L280 335" stroke="#526579" stroke-width="2" stroke-dasharray="6 6"/>
+</svg>
