@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" width="1000" height="520" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#334155"/>
+    </marker>
+    <marker id="ahO" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#c2410c"/>
+    </marker>
+    <marker id="ahR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/>
+    </marker>
+    <marker id="ahB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/>
+    </marker>
+  </defs>
+  <rect width="1000" height="520" fill="#ffffff"/>
+  <text x="500" y="30" text-anchor="middle" font-size="18" font-weight="700" fill="#0f172a">Pressure from molecular impacts, and kinetic energy versus temperature</text>
+
+  <!-- (a) container -->
+  <text x="260" y="62" text-anchor="middle" font-size="15" font-weight="700" fill="#0f172a">(a) Molecules striking a wall</text>
+  <rect x="40" y="80" width="440" height="270" fill="#f8fafc" stroke="#334155" stroke-width="3"/>
+  <rect x="470" y="80" width="14" height="270" fill="#94a3b8" stroke="#334155" stroke-width="2"/>
+  <text x="500" y="220" font-size="12" font-weight="700" fill="#0f172a" transform="rotate(90 500 220)" text-anchor="middle">wall of area A</text>
+  <!-- molecules with velocity arrows -->
+  <g fill="#f97316" stroke="#9a3412">
+    <circle cx="90" cy="130" r="8"/><circle cx="170" cy="260" r="8"/><circle cx="230" cy="120" r="8"/>
+    <circle cx="300" cy="300" r="8"/><circle cx="120" cy="320" r="8"/><circle cx="330" cy="160" r="8"/>
+    <circle cx="240" cy="210" r="8"/>
+  </g>
+  <g stroke="#c2410c" stroke-width="2" marker-end="url(#ahO)">
+    <line x1="90" y1="130" x2="130" y2="150"/>
+    <line x1="170" y1="260" x2="140" y2="230"/>
+    <line x1="230" y1="120" x2="270" y2="105"/>
+    <line x1="300" y1="300" x2="270" y2="330"/>
+    <line x1="120" y1="320" x2="160" y2="305"/>
+    <line x1="240" y1="210" x2="200" y2="200"/>
+  </g>
+  <!-- molecule hitting wall: incoming and outgoing -->
+  <circle cx="400" cy="200" r="8" fill="#f97316" stroke="#9a3412"/>
+  <line x1="330" y1="160" x2="392" y2="196" stroke="#c2410c" stroke-width="2.5" marker-end="url(#ahO)"/>
+  <line x1="400" y1="200" x2="400" y2="200" stroke="none"/>
+  <!-- normal incidence picture on right: incoming vx, outgoing -vx -->
+  <line x1="350" y1="255" x2="456" y2="255" stroke="#dc2626" stroke-width="3" marker-end="url(#ahR)"/>
+  <line x1="456" y1="275" x2="350" y2="275" stroke="#2563eb" stroke-width="3" marker-end="url(#ahB)"/>
+  <circle cx="340" cy="265" r="8" fill="#f97316" stroke="#9a3412"/>
+  <text x="396" y="240" text-anchor="middle" font-size="12" font-weight="700" fill="#dc2626">before: +m c<tspan dy="3" font-size="9">x</tspan></text>
+  <text x="396" y="300" text-anchor="middle" font-size="12" font-weight="700" fill="#2563eb">after: −m c<tspan dy="3" font-size="9">x</tspan></text>
+  <text x="300" y="332" text-anchor="middle" font-size="11" fill="#0f172a"> </text>
+  <!-- axes -->
+  <line x1="55" y1="336" x2="105" y2="336" stroke="#334155" stroke-width="1.6" marker-end="url(#ah)"/>
+  <text x="112" y="340" font-size="12" font-weight="700" fill="#0f172a">x</text>
+  <text x="260" y="378" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a">Momentum change per impact: Δp = 2 m c<tspan dy="3" font-size="10">x</tspan></text>
+  <text x="260" y="398" text-anchor="middle" font-size="12" fill="#0f172a">Pressure = total impulse on the wall per unit time per unit area</text>
+  <text x="260" y="418" text-anchor="middle" font-size="12" fill="#475569">Many random impacts average to a steady, uniform force.</text>
+
+  <!-- equations box -->
+  <rect x="40" y="436" width="440" height="68" rx="8" fill="#f8fafc" stroke="#cbd5e1"/>
+  <g font-size="13" fill="#0f172a" font-weight="700">
+    <text x="56" y="460">P = (1/3)(N/V) m c̄²  ⇒  P V = (1/3) N m c̄²</text>
+    <text x="56" y="482">With PV = N k<tspan dy="3" font-size="10">B</tspan><tspan dy="-3">T:  ½ m c̄² = (3/2) k</tspan><tspan dy="3" font-size="10">B</tspan><tspan dy="-3">T</tspan></text>
+  </g>
+
+  <!-- (b) KE vs T -->
+  <text x="755" y="62" text-anchor="middle" font-size="15" font-weight="700" fill="#0f172a">(b) Mean translational KE per molecule vs T</text>
+  <!-- axes: x = 580 + 0.75*T (T 0..500 -> 580..955); y = 400 - 28*eps (eps in 1e-21 J, 0..10 -> 400..120) -->
+  <g stroke="#e2e8f0">
+    <line x1="580" y1="372" x2="960" y2="372"/><line x1="580" y1="316" x2="960" y2="316"/>
+    <line x1="580" y1="260" x2="960" y2="260"/><line x1="580" y1="204" x2="960" y2="204"/>
+    <line x1="580" y1="148" x2="960" y2="148"/>
+    <line x1="655" y1="110" x2="655" y2="400"/><line x1="730" y1="110" x2="730" y2="400"/>
+    <line x1="805" y1="110" x2="805" y2="400"/><line x1="880" y1="110" x2="880" y2="400"/>
+  </g>
+  <line x1="580" y1="400" x2="965" y2="400" stroke="#334155" stroke-width="1.6" marker-end="url(#ah)"/>
+  <line x1="580" y1="400" x2="580" y2="100" stroke="#334155" stroke-width="1.6" marker-end="url(#ah)"/>
+  <g font-size="12" fill="#334155" text-anchor="middle">
+    <text x="580" y="418">0</text><text x="655" y="418">100</text><text x="730" y="418">200</text>
+    <text x="805" y="418">300</text><text x="880" y="418">400</text><text x="955" y="418">500</text>
+  </g>
+  <g font-size="12" fill="#334155" text-anchor="end">
+    <text x="572" y="404">0</text><text x="572" y="376">1</text><text x="572" y="320">3</text>
+    <text x="572" y="264">5</text><text x="572" y="208">7</text><text x="572" y="152">9</text>
+  </g>
+  <text x="960" y="440" text-anchor="end" font-size="13" fill="#0f172a">absolute temperature T (K)</text>
+  <text x="536" y="250" text-anchor="middle" font-size="13" fill="#0f172a" transform="rotate(-90 536 250)">ε = (3/2) k<tspan dy="3" font-size="10">B</tspan><tspan dy="-3">T  (10</tspan><tspan dy="-5" font-size="10">−21</tspan><tspan dy="5"> J)</tspan></text>
+  <!-- line: eps(T)=1.5*1.380649e-23*T = 2.0710e-23*T J => in 1e-21 J units: 0.020710*T ; T=500 => 10.355 ; y = 400-28*10.355 = 110.1 -->
+  <line x1="580" y1="400" x2="955" y2="110.1" stroke="#dc2626" stroke-width="3"/>
+  <circle cx="580" cy="400" r="4.5" fill="#dc2626"/>
+  <!-- T=300: eps=6.2129 => x=805, y=400-28*6.2129=226.04 -->
+  <circle cx="805" cy="226" r="5.5" fill="#2563eb"/>
+  <line x1="805" y1="226" x2="805" y2="400" stroke="#2563eb" stroke-dasharray="4 3"/>
+  <line x1="580" y1="226" x2="805" y2="226" stroke="#2563eb" stroke-dasharray="4 3"/>
+  <text x="812" y="214" font-size="12" font-weight="700" fill="#1d4ed8">T = 300 K:</text>
+  <text x="812" y="230" font-size="12" fill="#1d4ed8">ε = 6.21 × 10<tspan dy="-5" font-size="9">−21</tspan><tspan dy="5"> J</tspan></text>
+  <text x="812" y="246" font-size="11" fill="#475569">= 0.0388 eV</text>
+  <text x="600" y="150" font-size="12" font-weight="700" fill="#dc2626">straight line through origin:</text>
+  <text x="600" y="166" font-size="12" fill="#dc2626">slope = (3/2) k<tspan dy="3" font-size="9">B</tspan><tspan dy="-3"> = 2.07 × 10</tspan><tspan dy="-5" font-size="9">−23</tspan><tspan dy="5"> J/K</tspan></text>
+  <text x="755" y="476" text-anchor="middle" font-size="12" fill="#0f172a">Same ε for every ideal gas at the same T (He, N₂, O₂ …); only c<tspan dy="3" font-size="9">rms</tspan><tspan dy="-3"> differs.</tspan></text>
+  <text x="755" y="496" text-anchor="middle" font-size="12" fill="#475569">ε → 0 as T → 0 K in this classical model: temperature measures mean KE.</text>
+</svg>
