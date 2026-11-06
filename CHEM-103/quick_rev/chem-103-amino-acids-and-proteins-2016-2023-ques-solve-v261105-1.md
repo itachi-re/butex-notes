@@ -3,7 +3,7 @@
 > **Course:** CHEM-103 (Chemistry-II) · **Topic:** Amino acids, peptides & proteins · **Question bank:** 2016 – 2023 (2016, 2017, 2018, 2019, 2020, 2021, 2023) · **Version:** `v261105-1`
 >
 > Every answer is written in **exam style** (definition → structure/equation → points → example), followed by *extra* sections (stereochemistry, pI calculations, protein structure, sequencing logic, 12 practice problems with spoiler solutions).
-> All structure drawings are stored in `../../assets/amino-acids-and-proteins/`.
+> All structure drawings are stored in `../../assets/`.
 
 **Legend:** ✅ exam-ready answer · 🧪 example · 💡 extra / bonus · ⚠️ common mistake · 🧵 textile connection
 
@@ -128,21 +128,21 @@ flowchart TD
 
 $$\mathrm{R{-}CH(NH_2){-}COOH}$$
 
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-01a-general-structure.png" alt="General structure of an alpha-amino acid with the amino group, carboxyl group, alpha-carbon and side chain R labelled" width="75%"></p>
+<p align="center"><img src="../../assets/chem103-aa-01a-general-structure.png" alt="General structure of an alpha-amino acid with the amino group, carboxyl group, alpha-carbon and side chain R labelled" width="75%"></p>
 <p align="center"><em>General structure of an α-amino acid (R = side chain; R = H in glycine, CH₃ in alanine).</em></p>
 
 - About **20 α-amino acids** are the building blocks of natural proteins (*proteinogenic* amino acids); they differ **only in R**.
 - Except glycine (R = H), the α-carbon is a **chiral centre**; all natural protein amino acids have the **L-configuration** (see [B1](#b1)).
 - In the solid state and in neutral water they exist as **zwitterions** (internal salts), not as the neutral H₂N–CHR–COOH form:
 
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-01b-neutral-vs-zwitterion.png" alt="Equilibrium between the non-ionised amino acid and its zwitterion" width="80%"></p>
+<p align="center"><img src="../../assets/chem103-aa-01b-neutral-vs-zwitterion.png" alt="Equilibrium between the non-ionised amino acid and its zwitterion" width="80%"></p>
 <p align="center"><em>The zwitterion (right) is the real form of an amino acid in the crystal and in water.</em></p>
 
 🧪 **Examples:** glycine (simplest, R = H), alanine (R = CH₃), phenylalanine (R = CH₂C₆H₅).
 
 **Protein.** A high-molecular-mass biopolymer (roughly 5 000 to several million daltons) made of **α-amino acids joined by peptide (amide) bonds**, –CO–NH–. A chain of two to ~50 residues is a *peptide*; larger chains (typically more than 50 residues) are *polypeptides/proteins*.
 
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-02a-polypeptide-generic.png" alt="A tetrapeptide showing four residues, three peptide bonds, the N-terminus and the C-terminus" width="90%"></p>
+<p align="center"><img src="../../assets/chem103-aa-02a-polypeptide-generic.png" alt="A tetrapeptide showing four residues, three peptide bonds, the N-terminus and the C-terminus" width="90%"></p>
 <p align="center"><em>A short polypeptide chain: residues R₁–R₄ linked by three peptide bonds.</em></p>
 
 🧪 **Examples:** insulin (51 residues), haemoglobin (574 residues, four chains), keratin (hair, wool), fibroin (silk), enzymes such as pepsin.
@@ -161,7 +161,7 @@ $$\mathrm{R{-}CH(NH_2){-}COOH}$$
 
 **Essential amino acids** cannot be synthesised by the human body in sufficient amounts and must come from the diet. Four of them:
 
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-06a-four-essential.png" alt="Structures of valine, leucine, phenylalanine and lysine" width="75%"></p>
+<p align="center"><img src="../../assets/chem103-aa-06a-four-essential.png" alt="Structures of valine, leucine, phenylalanine and lysine" width="75%"></p>
 <p align="center"><em>Valine, leucine, phenylalanine (benzene ring) and lysine — all L-(S)-configured.</em></p>
 
 | Amino acid | Code | IUPAC name | Condensed formula | Side-chain type |
@@ -173,7 +173,7 @@ $$\mathrm{R{-}CH(NH_2){-}COOH}$$
 
 💡 All **nine** essential amino acids for adults (Val, Leu, Ile, Phe, Trp, Met, Thr, Lys, His):
 
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-06b-nine-essential.png" alt="Structures of the nine essential amino acids" width="85%"></p>
+<p align="center"><img src="../../assets/chem103-aa-06b-nine-essential.png" alt="Structures of the nine essential amino acids" width="85%"></p>
 
 ---
 
@@ -215,19 +215,19 @@ flowchart LR
 
 *(i) Aliphatic (non-polar) side chains* — glycine, alanine, valine, leucine, isoleucine, proline (cyclic, imino acid) and methionine (thioether):
 
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-05a-nonpolar-aliphatic.png" alt="Structures of glycine, alanine, valine, leucine, isoleucine, proline and methionine" width="85%"></p>
+<p align="center"><img src="../../assets/chem103-aa-05a-nonpolar-aliphatic.png" alt="Structures of glycine, alanine, valine, leucine, isoleucine, proline and methionine" width="85%"></p>
 
 *(ii) Aromatic side chains* — phenylalanine (benzene), tyrosine (phenol), tryptophan (indole):
 
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-05b-aromatic.png" alt="Structures of phenylalanine, tyrosine and tryptophan" width="75%"></p>
+<p align="center"><img src="../../assets/chem103-aa-05b-aromatic.png" alt="Structures of phenylalanine, tyrosine and tryptophan" width="75%"></p>
 
 *(iii) Polar, uncharged side chains* — hydroxy (Ser, Thr), sulfhydryl (Cys), amide (Asn, Gln):
 
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-05c-polar-neutral.png" alt="Structures of serine, threonine, cysteine, asparagine and glutamine" width="80%"></p>
+<p align="center"><img src="../../assets/chem103-aa-05c-polar-neutral.png" alt="Structures of serine, threonine, cysteine, asparagine and glutamine" width="80%"></p>
 
 *(iv) Charged side chains* — acidic (Asp, Glu) and basic (Lys, Arg, His):
 
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-05d-charged.png" alt="Structures of aspartic acid, glutamic acid, lysine, arginine and histidine" width="80%"></p>
+<p align="center"><img src="../../assets/chem103-aa-05d-charged.png" alt="Structures of aspartic acid, glutamic acid, lysine, arginine and histidine" width="80%"></p>
 
 **3. Other classifications (one line each)**
 
@@ -268,7 +268,7 @@ A carboxylic acid is halogenated at the α-carbon (Cl₂ or Br₂ with red phosp
 
 $$\mathrm{CH_3COOH} \xrightarrow{\ \mathrm{Cl_2,\ red\ P}\ } \mathrm{ClCH_2COOH} \xrightarrow{\ \mathrm{excess\ NH_3}\ } \mathrm{H_2N{-}CH_2{-}COOH} + \mathrm{NH_4Cl}$$
 
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-07a-halo-acid-glycine.png" alt="Acetic acid to chloroacetic acid to glycine" width="90%"></p>
+<p align="center"><img src="../../assets/chem103-aa-07a-halo-acid-glycine.png" alt="Acetic acid to chloroacetic acid to glycine" width="90%"></p>
 <p align="center"><em>Glycine from acetic acid via chloroacetic acid.</em></p>
 
 - 🧪 Higher members: propanoic acid → 2-bromopropanoic acid → (NH₃) → alanine.
@@ -280,7 +280,7 @@ An aldehyde reacts with ammonia (or NH₄Cl) and hydrogen cyanide (KCN) to give 
 
 $$\mathrm{R{-}CHO} \xrightarrow{\ \mathrm{NH_3,\ HCN}\ } \mathrm{R{-}CH(NH_2){-}CN} \xrightarrow{\ \mathrm{H_3O^+,\ \Delta}\ } \mathrm{R{-}CH(NH_2){-}COOH}$$
 
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-07b-strecker-alanine.png" alt="Strecker synthesis of alanine from acetaldehyde via imine and aminonitrile" width="100%"></p>
+<p align="center"><img src="../../assets/chem103-aa-07b-strecker-alanine.png" alt="Strecker synthesis of alanine from acetaldehyde via imine and aminonitrile" width="100%"></p>
 <p align="center"><em>Strecker synthesis of (±)-alanine from acetaldehyde.</em></p>
 
 **Mechanism in three steps:** (1) RCHO + NH₃ → imine (R–CH=NH) + H₂O; (2) cyanide adds to the imine carbon → α-aminonitrile; (3) acid hydrolysis converts –C≡N → –COOH (via amide).
@@ -297,7 +297,7 @@ $$\mathrm{R{-}CHO} \xrightarrow{\ \mathrm{NH_3,\ HCN}\ } \mathrm{R{-}CH(NH_2){-}
 
 In a peptide chain the **N-terminal residue** carries the free α-amino group (–NH₃⁺) and the **C-terminal residue** carries the free α-carboxyl group (–COO⁻). Identifying them is the first step in finding the amino acid *sequence*.
 
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-09b-glyala-annotated.png" alt="Gly-Ala dipeptide with N-terminus, C-terminus and the peptide bond labelled" width="70%"></p>
+<p align="center"><img src="../../assets/chem103-aa-09b-glyala-annotated.png" alt="Gly-Ala dipeptide with N-terminus, C-terminus and the peptide bond labelled" width="70%"></p>
 <p align="center"><em>In Gly–Ala the N-terminal residue is Gly and the C-terminal residue is Ala.</em></p>
 
 #### I. N-terminal analysis
@@ -308,7 +308,7 @@ In a peptide chain the **N-terminal residue** carries the free α-amino group (�
 2. Complete hydrolysis with 6 M HCl breaks all peptide bonds. All residues become free amino acids, but the **N-terminal one stays tagged as DNP-amino acid** (yellow).
 3. The yellow DNP-amino acid is extracted into ether and identified by chromatography against standards.
 
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-11a-sanger-method.png" alt="Sanger method on Gly-Ala giving DNP-glycine and alanine" width="100%"></p>
+<p align="center"><img src="../../assets/chem103-aa-11a-sanger-method.png" alt="Sanger method on Gly-Ala giving DNP-glycine and alanine" width="100%"></p>
 <p align="center"><em>Sanger's method applied to Gly–Ala: the yellow DNP–glycine identifies Gly as the N-terminal residue.</em></p>
 
 **2. Edman degradation (PITC, phenyl isothiocyanate)**
@@ -318,7 +318,7 @@ In a peptide chain the **N-terminal residue** carries the free α-amino group (�
 3. ATZ rearranges in aqueous acid to the stable **phenylthiohydantoin (PTH) amino acid**, identified by HPLC.
 4. The shortened peptide re-enters the cycle → **stepwise sequencing** (automated sequencers read 30–50 residues).
 
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-11b-edman-degradation.png" alt="Edman degradation of Gly-Ala giving PTH-glycine" width="100%"></p>
+<p align="center"><img src="../../assets/chem103-aa-11b-edman-degradation.png" alt="Edman degradation of Gly-Ala giving PTH-glycine" width="100%"></p>
 <p align="center"><em>Edman degradation: the rest of the chain survives, so the cycle can be repeated.</em></p>
 
 **3. Other N-terminal methods**
@@ -332,11 +332,11 @@ In a peptide chain the **N-terminal residue** carries the free α-amino group (�
 
 **2. Hydrazinolysis (Akabori method).** Heating the peptide with anhydrous hydrazine converts every residue **except the C-terminal one** into an amino acid hydrazide (R–CO–NHNH₂); the **C-terminal amino acid is liberated as the free acid** and is identified.
 
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-11c-hydrazinolysis.png" alt="Hydrazinolysis of Gly-Ala giving glycine hydrazide and free alanine" width="100%"></p>
+<p align="center"><img src="../../assets/chem103-aa-11c-hydrazinolysis.png" alt="Hydrazinolysis of Gly-Ala giving glycine hydrazide and free alanine" width="100%"></p>
 
 **3. Reduction with LiAlH₄ (Chibnall–Rees).** The free –COOH of the C-terminal residue is reduced to –CH₂OH; after hydrolysis the C-terminal residue appears as an **amino alcohol** (e.g. Ala → alaninol) and is identified.
 
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-11d-reagent-gallery.png" alt="Gallery of reagents: FDNB, PITC, dansyl chloride, hydrazine, DCC, Cbz-Cl, Boc anhydride and ninhydrin" width="85%"></p>
+<p align="center"><img src="../../assets/chem103-aa-11d-reagent-gallery.png" alt="Gallery of reagents: FDNB, PITC, dansyl chloride, hydrazine, DCC, Cbz-Cl, Boc anhydride and ninhydrin" width="85%"></p>
 <p align="center"><em>Reagent gallery used in end-group analysis (FDNB, PITC, dansyl chloride, hydrazine) and in peptide synthesis (DCC, Cbz–Cl, Boc₂O); ninhydrin is the colour reagent.</em></p>
 
 **Summary**
@@ -364,7 +364,7 @@ $$\mathrm{pI}=\frac{\mathrm{p}K_{a1}+\mathrm{p}K_{a2}}{2}$$
 
 🧪 **Glycine:** $\mathrm{p}K_{a1}=2.34$, $\mathrm{p}K_{a2}=9.60$, so $\mathrm{pI}=\dfrac{2.34+9.60}{2}=5.97$.
 
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-08b-glycine-titration.png" alt="Titration curve and species distribution of glycine with pK1, pI and pK2 marked" width="95%"></p>
+<p align="center"><img src="../../assets/chem103-aa-08b-glycine-titration.png" alt="Titration curve and species distribution of glycine with pK1, pI and pK2 marked" width="95%"></p>
 <p align="center"><em>Left: titration curve of glycine. Right: fraction of cation, zwitterion and anion against pH — the zwitterion dominates at the pI.</em></p>
 
 **Properties at the pI:** minimum solubility (so the amino acid precipitates), no migration in electrophoresis, minimum buffering capacity, maximum zwitterion concentration.
@@ -392,7 +392,7 @@ $$\mathrm{pI}=\frac{\mathrm{p}K_{a1}+\mathrm{p}K_{a2}}{2}$$
 - **α-Amino acid:** a carboxylic acid with an –NH₂ group on the **α-carbon**, general formula $\mathrm{R{-}CH(NH_2){-}COOH}$; the building block of proteins (e.g. glycine, alanine).
 - **Protein:** a high-molecular-mass polymer in which hundreds of α-amino acid residues are linked by **peptide bonds (–CO–NH–)**, e.g. keratin, insulin, haemoglobin.
 
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-01b-neutral-vs-zwitterion.png" alt="Amino acid and its zwitterion" width="65%"></p>
+<p align="center"><img src="../../assets/chem103-aa-01b-neutral-vs-zwitterion.png" alt="Amino acid and its zwitterion" width="65%"></p>
 
 *(Full answer with structures: [2016 Q6(a)](#y2016-q6a).)*
 
@@ -416,20 +416,20 @@ flowchart LR
 - Glycine's amino group is converted to a **benzyloxycarbonyl (Cbz or Z) carbamate** with benzyl chloroformate (Cbz–Cl) in NaOH.
 - Alanine's carboxyl group is converted to its **methyl ester** by CH₃OH/dry HCl.
 
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-10a-protection.png" alt="Protection of glycine as Cbz-glycine and alanine as its methyl ester" width="85%"></p>
+<p align="center"><img src="../../assets/chem103-aa-10a-protection.png" alt="Protection of glycine as Cbz-glycine and alanine as its methyl ester" width="85%"></p>
 
 **Step 2 — Coupling with DCC**
 
 The free –COOH of Cbz-Gly is activated by **dicyclohexylcarbodiimide (DCC)** (it forms a reactive O-acylisourea) and attacked by the free –NH₂ of Ala–OMe. The by-product **dicyclohexylurea (DCU)** is insoluble and is filtered off. The result is the fully protected dipeptide **Cbz–Gly–Ala–OMe**.
 
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-10b-dcc-coupling.png" alt="DCC coupling of N-Cbz-glycine with alanine methyl ester" width="95%"></p>
+<p align="center"><img src="../../assets/chem103-aa-10b-dcc-coupling.png" alt="DCC coupling of N-Cbz-glycine with alanine methyl ester" width="95%"></p>
 
 **Step 3 — Deprotection**
 
 - **H₂, Pd/C** (hydrogenolysis) cleaves the Cbz group: toluene and CO₂ are lost and the free –NH₂ appears.
 - **Mild NaOH, then H₃O⁺** hydrolyses the methyl ester to the free –COOH.
 
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-10c-deprotection.png" alt="Deprotection steps giving free Gly-Ala dipeptide" width="100%"></p>
+<p align="center"><img src="../../assets/chem103-aa-10c-deprotection.png" alt="Deprotection steps giving free Gly-Ala dipeptide" width="100%"></p>
 
 **Overall equation**
 
@@ -452,7 +452,7 @@ $$\mathrm{Cbz{-}NH{-}CH_2{-}COOH}+\mathrm{H_2N{-}CH(CH_3){-}COOCH_3}\xrightarrow
 
 ✅ Any three of the four given in [2016 Q6(b)](#y2016-q6b); e.g. **valine, leucine and phenylalanine**.
 
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-06a-four-essential.png" alt="Valine, leucine, phenylalanine and lysine" width="65%"></p>
+<p align="center"><img src="../../assets/chem103-aa-06a-four-essential.png" alt="Valine, leucine, phenylalanine and lysine" width="65%"></p>
 
 | Name | Formula | IUPAC name |
 |---|---|---|
@@ -479,7 +479,7 @@ $$\mathrm{H_2N{-}CHR{-}COOH}\ \rightleftharpoons\ \mathrm{{}^+H_3N{-}CHR{-}COO^-
 
 **Behaviour in acid and alkali (amphoteric nature)**
 
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-08a-glycine-ionic-forms.png" alt="Glycine cation, zwitterion and anion with pKa values" width="100%"></p>
+<p align="center"><img src="../../assets/chem103-aa-08a-glycine-ionic-forms.png" alt="Glycine cation, zwitterion and anion with pKa values" width="100%"></p>
 <p align="center"><em>In acid the zwitterion takes up H⁺ (→ cation); in alkali it loses H⁺ from –NH₃⁺ (→ anion). At the pI only the zwitterion predominates.</em></p>
 
 - **Strongly acidic solution:** cation, $\mathrm{{}^+H_3N{-}CH_2{-}COOH}$ — migrates to the **cathode**.
@@ -519,7 +519,7 @@ When amino acids join through peptide bonds, each unit in the chain is called an
 - **N-terminal residue** — the end residue that still has a **free α-amino group** (–NH₂, present as –NH₃⁺ at physiological pH).
 - **C-terminal residue** — the end residue that still has a **free α-carboxyl group** (–COOH, present as –COO⁻).
 
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-09b-glyala-annotated.png" alt="Gly-Ala with N-terminus and C-terminus labelled" width="70%"></p>
+<p align="center"><img src="../../assets/chem103-aa-09b-glyala-annotated.png" alt="Gly-Ala with N-terminus and C-terminus labelled" width="70%"></p>
 
 **Convention:** a peptide sequence is written with the **N-terminal residue on the left** and the **C-terminal residue on the right**, and the chain is named from the N-terminus: Gly–Ala = *glycylalanine*; Ala–Gly–Ser = *alanylglycylserine* (all residues except the last take the ending **-yl**).
 
@@ -539,8 +539,8 @@ When amino acids join through peptide bonds, each unit in the chain is called an
 | 3 | Gabriel phthalimidomalonate | Diethyl phthalimidomalonate + RX | NaOEt, RX; H₃O⁺, Δ | Phenylalanine |
 | 4 | Reductive amination | α-Keto acid | NH₃, H₂/Ni | Alanine from pyruvic acid |
 
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-07a-halo-acid-glycine.png" alt="Halo acid route to glycine" width="85%"></p>
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-07b-strecker-alanine.png" alt="Strecker synthesis of alanine" width="95%"></p>
+<p align="center"><img src="../../assets/chem103-aa-07a-halo-acid-glycine.png" alt="Halo acid route to glycine" width="85%"></p>
+<p align="center"><img src="../../assets/chem103-aa-07b-strecker-alanine.png" alt="Strecker synthesis of alanine" width="95%"></p>
 
 Other routes: acetamidomalonate synthesis, Erlenmeyer azlactone synthesis, Bucherer–Bergs hydantoin synthesis, and isolation by hydrolysis of natural proteins (the commercial source of many L-amino acids).
 
@@ -558,7 +558,7 @@ Other routes: acetamidomalonate synthesis, Erlenmeyer azlactone synthesis, Buche
 
 $$\mathrm{H_2N{-}CHR_1{-}CO{-}[NH{-}CHR_2{-}CO]_{n}{-}NH{-}CHR_3{-}COOH}$$
 
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-02a-polypeptide-generic.png" alt="Polypeptide chain with peptide bonds highlighted" width="90%"></p>
+<p align="center"><img src="../../assets/chem103-aa-02a-polypeptide-generic.png" alt="Polypeptide chain with peptide bonds highlighted" width="90%"></p>
 
 **Four levels of protein structure**
 
@@ -576,7 +576,7 @@ flowchart LR
 | **Tertiary (3°)** | Overall 3-D fold of one polypeptide | H-bonds, ionic (salt) bridges, hydrophobic interactions, van der Waals, **disulfide bonds** | Myoglobin |
 | **Quaternary (4°)** | Arrangement of two or more chains (subunits) | Same non-covalent forces between subunits | Haemoglobin (α₂β₂) |
 
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-02b-alpha-helix-beta-sheet.png" alt="Schematic of the alpha-helix and the antiparallel beta-pleated sheet" width="95%"></p>
+<p align="center"><img src="../../assets/chem103-aa-02b-alpha-helix-beta-sheet.png" alt="Schematic of the alpha-helix and the antiparallel beta-pleated sheet" width="95%"></p>
 <p align="center"><em>Secondary structures: α-helix (H-bond from residue i to i+4) and antiparallel β-pleated sheet (H-bonds between strands).</em></p>
 
 ---
@@ -633,8 +633,8 @@ flowchart TD
 - **Essential amino acids** — α-amino acids that the body **cannot synthesise** (or not in sufficient quantity) and which must therefore be obtained from the diet. 🧪 **Examples:** valine, leucine, isoleucine, phenylalanine, tryptophan, methionine, threonine, lysine, histidine.
 - **Non-essential amino acids** — α-amino acids that the body **can synthesise** from other metabolites, so they need not be present in the diet. 🧪 **Examples:** glycine, alanine, serine, aspartic acid, glutamic acid, proline.
 
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-06b-nine-essential.png" alt="Structures of the nine essential amino acids" width="80%"></p>
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-06c-non-essential.png" alt="Structures of the non-essential amino acids" width="80%"></p>
+<p align="center"><img src="../../assets/chem103-aa-06b-nine-essential.png" alt="Structures of the nine essential amino acids" width="80%"></p>
+<p align="center"><img src="../../assets/chem103-aa-06c-non-essential.png" alt="Structures of the non-essential amino acids" width="80%"></p>
 
 *(Comparison table: [2016 Q6(d)](#y2016-q6d).)*
 
@@ -649,13 +649,13 @@ Three syntheses using three *different* methods: **glycine** (α-halo acid ammon
 
 $$\mathrm{CH_3COOH}\xrightarrow{\ \mathrm{Cl_2,\ red\ P}\ }\mathrm{ClCH_2COOH}\xrightarrow{\ \mathrm{excess\ NH_3}\ }\mathrm{H_2N{-}CH_2{-}COOH}$$
 
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-07a-halo-acid-glycine.png" alt="Synthesis of glycine" width="85%"></p>
+<p align="center"><img src="../../assets/chem103-aa-07a-halo-acid-glycine.png" alt="Synthesis of glycine" width="85%"></p>
 
 **2. Alanine — Strecker synthesis from acetaldehyde**
 
 $$\mathrm{CH_3CHO}\xrightarrow{\ \mathrm{NH_3,\ HCN}\ }\mathrm{CH_3CH(NH_2)CN}\xrightarrow{\ \mathrm{H_3O^+,\ \Delta}\ }\mathrm{CH_3CH(NH_2)COOH}$$
 
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-07b-strecker-alanine.png" alt="Synthesis of alanine by Strecker" width="95%"></p>
+<p align="center"><img src="../../assets/chem103-aa-07b-strecker-alanine.png" alt="Synthesis of alanine by Strecker" width="95%"></p>
 
 **3. Phenylalanine — Gabriel phthalimidomalonate synthesis**
 
@@ -663,11 +663,11 @@ The nitrogen is introduced as a protected phthalimide; the malonate carbon is al
 
 $$\mathrm{PhthN{-}CH(COOEt)_2}\xrightarrow[\ \mathrm{(ii)\ C_6H_5CH_2Cl}\ ]{\ \mathrm{(i)\ NaOEt}\ }\mathrm{PhthN{-}C(CH_2C_6H_5)(COOEt)_2}\xrightarrow{\ \mathrm{H_3O^+,\ \Delta}\ }\mathrm{C_6H_5CH_2{-}CH(NH_2){-}COOH}$$
 
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-07c-gabriel-phenylalanine.png" alt="Gabriel phthalimidomalonate synthesis of phenylalanine" width="100%"></p>
+<p align="center"><img src="../../assets/chem103-aa-07c-gabriel-phenylalanine.png" alt="Gabriel phthalimidomalonate synthesis of phenylalanine" width="100%"></p>
 
 💡 **Alternative — reductive amination of an α-keto acid** (pyruvic acid → alanine; the same chemistry as the biological conversion α-ketoglutarate → glutamate):
 
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-07d-reductive-amination.png" alt="Reductive amination of pyruvic acid to alanine" width="85%"></p>
+<p align="center"><img src="../../assets/chem103-aa-07d-reductive-amination.png" alt="Reductive amination of pyruvic acid to alanine" width="85%"></p>
 
 | Amino acid | Method | Alkyl halide / aldehyde needed |
 |---|---|---|
@@ -686,15 +686,15 @@ $$\mathrm{PhthN{-}CH(COOEt)_2}\xrightarrow[\ \mathrm{(ii)\ C_6H_5CH_2Cl}\ ]{\ \m
 
 $$\mathrm{H_2N{-}CH_2{-}COOH}+\mathrm{H_2N{-}CH(CH_3){-}COOH}\xrightarrow{\ -\mathrm{H_2O}\ }\mathrm{H_2N{-}CH_2{-}\underline{CO{-}NH}{-}CH(CH_3){-}COOH}$$
 
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-09a-peptide-bond-formation.png" alt="Glycine plus alanine gives Gly-Ala and water; peptide bond highlighted" width="100%"></p>
+<p align="center"><img src="../../assets/chem103-aa-09a-peptide-bond-formation.png" alt="Glycine plus alanine gives Gly-Ala and water; peptide bond highlighted" width="100%"></p>
 
 **N-terminal and C-terminal residues** in the resulting dipeptide:
 
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-09b-glyala-annotated.png" alt="Gly-Ala dipeptide with N-terminal glycine and C-terminal alanine labelled" width="70%"></p>
+<p align="center"><img src="../../assets/chem103-aa-09b-glyala-annotated.png" alt="Gly-Ala dipeptide with N-terminal glycine and C-terminal alanine labelled" width="70%"></p>
 
 **Character of the peptide bond.** It is a **resonance hybrid** with partial C=N double-bond character, which makes it **planar and rigid** (trans arrangement) — see [B4](#b4).
 
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-09c-peptide-resonance.png" alt="Resonance forms of the amide (peptide) bond" width="80%"></p>
+<p align="center"><img src="../../assets/chem103-aa-09c-peptide-resonance.png" alt="Resonance forms of the amide (peptide) bond" width="80%"></p>
 
 ---
 
@@ -707,7 +707,7 @@ $$\mathrm{H_2N{-}CH_2{-}COOH}+\mathrm{H_2N{-}CH(CH_3){-}COOH}\xrightarrow{\ -\ma
 
 *Reaction:* the α-amino acid is oxidatively deaminated and decarboxylated by ninhydrin to an aldehyde (RCHO), CO₂ and NH₃; the ammonia then condenses with a second ninhydrin molecule and the reduced ninhydrin (hydrindantin) to form Ruhemann's purple.
 
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-12a-ninhydrin-test.png" alt="Ninhydrin reacts with alanine to give Ruhemann's purple, acetaldehyde and carbon dioxide" width="100%"></p>
+<p align="center"><img src="../../assets/chem103-aa-12a-ninhydrin-test.png" alt="Ninhydrin reacts with alanine to give Ruhemann's purple, acetaldehyde and carbon dioxide" width="100%"></p>
 
 - ⚠️ **Proline and hydroxyproline** (secondary amines) give a **yellow-orange** colour instead of purple.
 - The test is also positive for peptides/proteins with a free α-NH₂ and for ammonia/primary amines, so it is a *general* (not specific) test.
@@ -725,7 +725,7 @@ $$\mathrm{H_2N{-}CH_2{-}COOH}+\mathrm{H_2N{-}CH(CH_3){-}COOH}\xrightarrow{\ -\ma
 | Biuret | CuSO₄, NaOH | Violet | **Peptide bonds** (≥ 2) — *negative* for free amino acids |
 | Van Slyke (HNO₂) | NaNO₂ + HCl | N₂ gas evolved | Primary –NH₂ |
 
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-12b-van-slyke.png" alt="Alanine reacts with nitrous acid to give lactic acid and nitrogen" width="85%"></p>
+<p align="center"><img src="../../assets/chem103-aa-12b-van-slyke.png" alt="Alanine reacts with nitrous acid to give lactic acid and nitrogen" width="85%"></p>
 <p align="center"><em>Van Slyke reaction: a primary –NH₂ is replaced by –OH with evolution of N₂.</em></p>
 
 ---
@@ -741,7 +741,7 @@ $$\mathrm{H_2N{-}CH_2{-}COOH}+\mathrm{H_2N{-}CH(CH_3){-}COOH}\xrightarrow{\ -\ma
 - **α-Amino acids** — organic compounds with –NH₂ and –COOH on the same carbon; $\mathrm{R{-}CH(NH_2){-}COOH}$; 20 occur in proteins (e.g. Gly, Ala).
 - **Proteins** — polymers of α-amino acids linked by peptide bonds (–CO–NH–); examples: keratin, insulin, haemoglobin.
 
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-01a-general-structure.png" alt="General structure of an alpha-amino acid" width="65%"></p>
+<p align="center"><img src="../../assets/chem103-aa-01a-general-structure.png" alt="General structure of an alpha-amino acid" width="65%"></p>
 
 ---
 
@@ -750,18 +750,18 @@ $$\mathrm{H_2N{-}CH_2{-}COOH}+\mathrm{H_2N{-}CH(CH_3){-}COOH}\xrightarrow{\ -\ma
 
 A **dipeptide** is the product of condensation of **two α-amino acids** by **one peptide bond**, with loss of one molecule of water.
 
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-09a-peptide-bond-formation.png" alt="Formation of the dipeptide Gly-Ala" width="100%"></p>
+<p align="center"><img src="../../assets/chem103-aa-09a-peptide-bond-formation.png" alt="Formation of the dipeptide Gly-Ala" width="100%"></p>
 
 - **Two ends:** one free –NH₂ (N-terminal) and one free –COOH (C-terminal).
 - **Isomerism:** two *different* amino acids A and B give **two** dipeptides, A–B and B–A, which are **constitutional isomers** with different properties.
 
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-09d-glyala-vs-alagly.png" alt="Gly-Ala and Ala-Gly are different compounds" width="95%"></p>
+<p align="center"><img src="../../assets/chem103-aa-09d-glyala-vs-alagly.png" alt="Gly-Ala and Ala-Gly are different compounds" width="95%"></p>
 
 - **Number of possible dipeptides:** from the 20 amino acids there are 20 × 20 = **400** dipeptides (and 20³ = 8 000 tripeptides).
 - **Naming:** N-terminal residue first with the ending **-yl**, C-terminal residue keeps its name: Gly–Ala = glycylalanine.
 - 🧪 **Real-life dipeptides:** **aspartame** (L-Asp–L-Phe methyl ester, an artificial sweetener — contains a benzene ring), carnosine (β-Ala–His) in muscle, glycylglycine.
 
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-09e-aspartame.png" alt="Aspartame, a dipeptide methyl ester of Asp-Phe" width="70%"></p>
+<p align="center"><img src="../../assets/chem103-aa-09e-aspartame.png" alt="Aspartame, a dipeptide methyl ester of Asp-Phe" width="70%"></p>
 
 - **Synthesis:** requires protection / coupling / deprotection — [2018 Q5(b)](#y2018-q5b).
 
@@ -785,7 +785,7 @@ A **dipeptide** is the product of condensation of **two α-amino acids** by **on
 
 ✅ In the solid state and in solution (near neutral pH) an amino acid is a **dipolar ion (zwitterion)**, $\mathrm{{}^+H_3N{-}CHR{-}COO^-}$, formed by transfer of a proton from –COOH to –NH₂. It has both a positive and a negative charge, so its net charge is zero at the pI. Evidence: high melting point, solubility in water but not in ether, large dipole moment, IR bands of –COO⁻ and –NH₃⁺.
 
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-01b-neutral-vs-zwitterion.png" alt="Non-ionised amino acid and zwitterion" width="75%"></p>
+<p align="center"><img src="../../assets/chem103-aa-01b-neutral-vs-zwitterion.png" alt="Non-ionised amino acid and zwitterion" width="75%"></p>
 
 *(Complete answer: [2018 Q5(d)](#y2018-q5d).)*
 
@@ -800,7 +800,7 @@ A **dipeptide** is the product of condensation of **two α-amino acids** by **on
 - **α-Amino acids:** carboxylic acids having an –NH₂ group on the carbon adjacent to –COOH (the α-carbon): $\mathrm{R{-}CH(NH_2){-}COOH}$. They are the monomers of proteins (e.g. glycine, alanine, phenylalanine).
 - **Non-essential amino acids:** α-amino acids that the body **can make itself** (from carbohydrate/fat metabolites plus nitrogen from transamination), so they are **not required in the diet**. 🧪 Examples: glycine, alanine, serine, aspartic acid, glutamic acid, proline, asparagine, glutamine, cysteine, tyrosine (arginine is semi-essential).
 
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-06c-non-essential.png" alt="Structures of the non-essential amino acids" width="80%"></p>
+<p align="center"><img src="../../assets/chem103-aa-06c-non-essential.png" alt="Structures of the non-essential amino acids" width="80%"></p>
 
 *(General structure: [2016 Q6(a)](#y2016-q6a).)*
 
@@ -829,7 +829,7 @@ A **dipeptide** is the product of condensation of **two α-amino acids** by **on
 - **N-terminal:** *Sanger's method* — FDNB gives a yellow DNP-peptide; acid hydrolysis liberates the **DNP-amino acid**, identified by chromatography. *Edman degradation* — PITC gives a PTC-peptide; anhydrous CF₃COOH cleaves the N-terminal residue as a **PTH-amino acid** while the rest of the chain is left intact (repeatable). *Dansyl chloride* — fluorescent tag.
 - **C-terminal:** *Carboxypeptidase* releases the C-terminal residue enzymatically; *hydrazinolysis* converts all other residues into hydrazides and leaves the **C-terminal amino acid free**; *LiAlH₄ reduction* converts the terminal –COOH to –CH₂OH (amino alcohol).
 
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-11a-sanger-method.png" alt="Sanger method" width="90%"></p>
+<p align="center"><img src="../../assets/chem103-aa-11a-sanger-method.png" alt="Sanger method" width="90%"></p>
 
 ---
 
@@ -842,8 +842,8 @@ A **dipeptide** is the product of condensation of **two α-amino acids** by **on
 
 **2. Strecker synthesis:** $\mathrm{RCHO}\xrightarrow{\ \mathrm{NH_3,\ HCN}\ }\mathrm{RCH(NH_2)CN}\xrightarrow{\ \mathrm{H_3O^+}\ }\mathrm{RCH(NH_2)COOH}$
 
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-07a-halo-acid-glycine.png" alt="Halo acid route" width="80%"></p>
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-07b-strecker-alanine.png" alt="Strecker synthesis" width="90%"></p>
+<p align="center"><img src="../../assets/chem103-aa-07a-halo-acid-glycine.png" alt="Halo acid route" width="80%"></p>
+<p align="center"><img src="../../assets/chem103-aa-07b-strecker-alanine.png" alt="Strecker synthesis" width="90%"></p>
 
 ---
 
@@ -872,7 +872,7 @@ $$\mathrm{H_2N{-}CHR{-}COOH}\ \rightleftharpoons\ \mathrm{{}^+H_3N{-}CHR{-}COO^-
 
 **Iso-electric point (pI).** The pH at which the **zwitterion concentration is maximum** and the net charge of the amino acid is zero (formula and derivation in [2017 Q6(c)](#y2017-q6c)).
 
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-08a-glycine-ionic-forms.png" alt="Cation, zwitterion and anion of glycine" width="100%"></p>
+<p align="center"><img src="../../assets/chem103-aa-08a-glycine-ionic-forms.png" alt="Cation, zwitterion and anion of glycine" width="100%"></p>
 
 **Behaviour in an electric field depends on pH relative to pI**
 
@@ -884,7 +884,7 @@ flowchart LR
     C -.->|"moves to anode"| N["Anode (+)"]
 ```
 
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-08c-pI-scale-electrophoresis.png" alt="pI values of amino acids on a pH scale and a schematic electrophoresis experiment at pH 6" width="85%"></p>
+<p align="center"><img src="../../assets/chem103-aa-08c-pI-scale-electrophoresis.png" alt="pI values of amino acids on a pH scale and a schematic electrophoresis experiment at pH 6" width="85%"></p>
 <p align="center"><em>pI values of common amino acids; in electrophoresis at pH 6.0 Asp moves to the anode, Lys to the cathode and Gly stays near the origin.</em></p>
 
 ---
@@ -899,9 +899,9 @@ flowchart LR
 3. **Coupling:** Cbz-Gly + Ala-OMe $\xrightarrow{\ \mathrm{DCC}\ }$ Cbz–Gly–Ala–OMe + DCU
 4. **Deprotection:** Cbz–Gly–Ala–OMe $\xrightarrow{\ \mathrm{H_2/Pd\text{-}C}\ }$ Gly–Ala–OMe $\xrightarrow{\ \mathrm{OH^-;\ H_3O^+}\ }$ **Gly–Ala**
 
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-10a-protection.png" alt="Protection steps" width="80%"></p>
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-10b-dcc-coupling.png" alt="DCC coupling" width="90%"></p>
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-10c-deprotection.png" alt="Deprotection giving Gly-Ala" width="95%"></p>
+<p align="center"><img src="../../assets/chem103-aa-10a-protection.png" alt="Protection steps" width="80%"></p>
+<p align="center"><img src="../../assets/chem103-aa-10b-dcc-coupling.png" alt="DCC coupling" width="90%"></p>
+<p align="center"><img src="../../assets/chem103-aa-10c-deprotection.png" alt="Deprotection giving Gly-Ala" width="95%"></p>
 
 ---
 
@@ -922,8 +922,8 @@ flowchart TD
     C --> C3["LiAlH4 reduction<br/>amino alcohol after hydrolysis"]
 ```
 
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-11b-edman-degradation.png" alt="Edman degradation" width="95%"></p>
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-11c-hydrazinolysis.png" alt="Hydrazinolysis" width="95%"></p>
+<p align="center"><img src="../../assets/chem103-aa-11b-edman-degradation.png" alt="Edman degradation" width="95%"></p>
+<p align="center"><img src="../../assets/chem103-aa-11c-hydrazinolysis.png" alt="Hydrazinolysis" width="95%"></p>
 
 🧪 **Worked example.** A tripeptide gives DNP–Gly on Sanger analysis, and carboxypeptidase releases Ala first; amino acid analysis shows Gly : Ser : Ala = 1 : 1 : 1. N-terminal = Gly, C-terminal = Ala, so the middle residue is Ser: **Gly–Ser–Ala**.
 
@@ -939,7 +939,7 @@ flowchart TD
 - **R/S system** (CIP priority: –NH₂ > –COOH > –R > –H): most L-amino acids are **(S)**. **Cysteine is (R)** because –CH₂SH outranks –COOH. Ile and Thr have a *second* stereocentre: L-Ile is (2S,3S); L-Thr is (2S,3R).
 - ⚠️ "L" does **not** mean laevorotatory: the L/D label is structural, the sign of rotation [α] is measured experimentally (L-Ala is dextrorotatory, +; L-Phe is laevorotatory, −).
 
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-02c-fischer-L-D-alanine.png" alt="Fischer projections of L-alanine and D-alanine" width="60%"></p>
+<p align="center"><img src="../../assets/chem103-aa-02c-fischer-L-D-alanine.png" alt="Fischer projections of L-alanine and D-alanine" width="60%"></p>
 
 ---
 
@@ -1013,7 +1013,7 @@ $$\mathrm{pH}=\mathrm{p}K_{a1}+\log\frac{[\text{zwitterion}]}{[\text{cation}]}\ 
 | Basicity of N | Practically non-basic | Amide N is not protonated at physiological pH |
 | Hydrolysis | Slow in water; fast in 6 M HCl, 110 °C or by proteases | Basis of amino-acid analysis and digestion |
 
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-09c-peptide-resonance.png" alt="Resonance in the peptide bond" width="70%"></p>
+<p align="center"><img src="../../assets/chem103-aa-09c-peptide-resonance.png" alt="Resonance in the peptide bond" width="70%"></p>
 
 ---
 
@@ -1030,7 +1030,7 @@ $$\mathrm{pH}=\mathrm{p}K_{a1}+\log\frac{[\text{zwitterion}]}{[\text{cation}]}\ 
 | Hydrophobic interactions | Non-polar side chains (Leu, Val, Phe) buried inside | Main driving force for folding |
 | van der Waals | Any close atoms | Weak, but numerous |
 
-<p align="center"><img src="../../assets/amino-acids-and-proteins/chem103-aa-13a-cystine.png" alt="Two cysteine molecules oxidise to cystine containing a disulfide bond" width="85%"></p>
+<p align="center"><img src="../../assets/chem103-aa-13a-cystine.png" alt="Two cysteine molecules oxidise to cystine containing a disulfide bond" width="85%"></p>
 
 **Denaturation** is the loss of 2°, 3° (and 4°) structure **without breaking peptide bonds**. Causes: heat, strong acid/alkali, urea, organic solvents, heavy-metal ions, mechanical agitation. 🧪 Boiling an egg (albumin coagulates) is irreversible denaturation.
 
