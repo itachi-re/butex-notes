@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="922" height="327" viewBox="0 0 922 327" role="img" aria-label="Boiling points of butane, propanal, propanone, propan-1-ol and ethanoic acid">
+<title>Boiling points of butane, propanal, propanone, propan-1-ol and ethanoic acid</title>
+<defs><marker id="eflow" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0.5 L8,4.5 L0,8.5 L2,4.5 z" fill="#d6336c"/></marker></defs>
+<rect x="0.5" y="0.5" width="921" height="326" rx="10" fill="#ffffff" stroke="#d0d7de"/>
+<g transform="translate(0.0,10.0)"><text x="22.0" y="28.0" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#102a43" text-anchor="start" font-weight="700">Boiling points at similar molar mass: dipole–dipole forces lie between van der Waals and H-bonding</text>
+<text x="218.0" y="84.0" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#1f2933" text-anchor="end">butane (M = 58)</text>
+<rect x="230.0" y="64.0" width="7.4" height="30.0" rx="5" fill="#ced4da" stroke="none" stroke-width="0" opacity="1.0"/>
+<text x="245.4" y="84.0" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#102a43" text-anchor="start" font-weight="700">-0.5 °C</text>
+<text x="218.0" y="126.0" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#1f2933" text-anchor="end">propanal (M = 58)</text>
+<rect x="230.0" y="106.0" width="177.2" height="30.0" rx="5" fill="#ffd43b" stroke="none" stroke-width="0" opacity="1.0"/>
+<text x="415.2" y="126.0" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#102a43" text-anchor="start" font-weight="700">48 °C</text>
+<text x="218.0" y="168.0" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#1f2933" text-anchor="end">propanone (M = 58)</text>
+<rect x="230.0" y="148.0" width="206.8" height="30.0" rx="5" fill="#ffd43b" stroke="none" stroke-width="0" opacity="1.0"/>
+<text x="444.8" y="168.0" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#102a43" text-anchor="start" font-weight="700">56 °C</text>
+<text x="218.0" y="210.0" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#1f2933" text-anchor="end">propan-1-ol (M = 60)</text>
+<rect x="230.0" y="190.0" width="358.2" height="30.0" rx="5" fill="#74c0fc" stroke="none" stroke-width="0" opacity="1.0"/>
+<text x="596.2" y="210.0" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#102a43" text-anchor="start" font-weight="700">97 °C</text>
+<text x="218.0" y="252.0" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#1f2933" text-anchor="end">ethanoic acid (M = 60)</text>
+<rect x="230.0" y="232.0" width="435.7" height="30.0" rx="5" fill="#74c0fc" stroke="none" stroke-width="0" opacity="1.0"/>
+<text x="673.7" y="252.0" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#102a43" text-anchor="start" font-weight="700">118 °C</text>
+<text x="230.0" y="290.0" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#52606d" text-anchor="start">grey: only dispersion forces   yellow: C=O dipole–dipole   blue: hydrogen bonding</text></g>
+</svg>
