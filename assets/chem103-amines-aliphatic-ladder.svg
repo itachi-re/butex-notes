@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 270" width="960" height="270" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Aliphatic amines from methanol and ammonia</title>
+<desc id="d">Stepwise methylation of ammonia over alumina at 400 C gives methylamine, dimethylamine and trimethylamine</desc>
+<defs>
+<marker id="arr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0.5 L10,5 L0,9.5 Z" fill="#1f2328"/></marker>
+<marker id="arrS" viewBox="0 0 10 10" refX="1.5" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M10,0.5 L0,5 L10,9.5 Z" fill="#1f2328"/></marker>
+<marker id="arrR" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0.5 L10,5 L0,9.5 Z" fill="#cf222e"/></marker>
+</defs>
+<rect x="0.5" y="0.5" width="959" height="269" rx="12" fill="#ffffff" stroke="#d0d7de"/>
+<line x1="90.4" y1="101.2" x2="75.0" y2="111.2" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="100.0" y1="109.6" x2="100.0" y2="125.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="109.6" y1="101.2" x2="125.0" y2="111.2" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<circle cx="96.4" cy="78.0" r="2.1" fill="#0969da"/>
+<circle cx="103.6" cy="78.0" r="2.1" fill="#0969da"/>
+<text x="72.4" y="204.8" text-anchor="start" font-size="14" fill="#1f2328" font-weight="bold" xml:space="preserve"><tspan>Ammonia</tspan></text>
+<text x="88.9" y="229.1" text-anchor="start" font-size="15" fill="#57606a" font-weight="normal" xml:space="preserve"><tspan>NH</tspan><tspan dy="4" font-size="11">3</tspan></text>
+<line x1="340.4" y1="101.2" x2="325.0" y2="111.2" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="350.0" y1="109.6" x2="350.0" y2="125.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="359.6" y1="101.2" x2="375.0" y2="111.2" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<circle cx="346.4" cy="78.0" r="2.1" fill="#0969da"/>
+<circle cx="353.6" cy="78.0" r="2.1" fill="#0969da"/>
+<text x="287.0" y="204.8" text-anchor="start" font-size="14" fill="#1f2328" font-weight="bold" xml:space="preserve"><tspan>Methylamine (1°)</tspan></text>
+<text x="327.9" y="229.1" text-anchor="start" font-size="15" fill="#57606a" font-weight="normal" xml:space="preserve"><tspan>CH</tspan><tspan dy="4" font-size="11">3</tspan><tspan dy="-4">NH</tspan><tspan dy="4" font-size="11">2</tspan></text>
+<line x1="590.4" y1="101.2" x2="575.0" y2="111.2" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="600.0" y1="109.6" x2="600.0" y2="125.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="609.6" y1="101.2" x2="625.0" y2="111.2" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<circle cx="596.4" cy="78.0" r="2.1" fill="#0969da"/>
+<circle cx="603.6" cy="78.0" r="2.1" fill="#0969da"/>
+<text x="529.1" y="204.8" text-anchor="start" font-size="14" fill="#1f2328" font-weight="bold" xml:space="preserve"><tspan>Dimethylamine (2°)</tspan></text>
+<text x="569.5" y="229.1" text-anchor="start" font-size="15" fill="#57606a" font-weight="normal" xml:space="preserve"><tspan>(CH</tspan><tspan dy="4" font-size="11">3</tspan><tspan dy="-4">)</tspan><tspan dy="4" font-size="11">2</tspan><tspan dy="-4">NH</tspan></text>
+<line x1="840.4" y1="101.2" x2="825.0" y2="111.2" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="850.0" y1="109.6" x2="850.0" y2="125.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="859.6" y1="101.2" x2="875.0" y2="111.2" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<circle cx="846.4" cy="78.0" r="2.1" fill="#0969da"/>
+<circle cx="853.6" cy="78.0" r="2.1" fill="#0969da"/>
+<text x="775.2" y="204.8" text-anchor="start" font-size="14" fill="#1f2328" font-weight="bold" xml:space="preserve"><tspan>Trimethylamine (3°)</tspan></text>
+<text x="823.7" y="229.1" text-anchor="start" font-size="15" fill="#57606a" font-weight="normal" xml:space="preserve"><tspan>(CH</tspan><tspan dy="4" font-size="11">3</tspan><tspan dy="-4">)</tspan><tspan dy="4" font-size="11">3</tspan><tspan dy="-4">N</tspan></text>
+<line x1="182" y1="112" x2="272" y2="112" stroke="#1f2328" stroke-width="1.8" marker-end="url(#arr)"/>
+<text x="211.4" y="82.1" text-anchor="start" font-size="12" fill="#424a53" font-weight="normal" xml:space="preserve"><tspan>CH</tspan><tspan dy="4" font-size="9">3</tspan><tspan dy="-4">OH</tspan></text>
+<text x="185.7" y="98.1" text-anchor="start" font-size="12" fill="#424a53" font-weight="normal" xml:space="preserve"><tspan>Al</tspan><tspan dy="4" font-size="9">2</tspan><tspan dy="-4">O</tspan><tspan dy="4" font-size="9">3</tspan><tspan dy="-4">, 400 °C</tspan></text>
+<text x="214.8" y="136.1" text-anchor="start" font-size="12" fill="#424a53" font-weight="normal" xml:space="preserve"><tspan>−H</tspan><tspan dy="4" font-size="9">2</tspan><tspan dy="-4">O</tspan></text>
+<line x1="432" y1="112" x2="522" y2="112" stroke="#1f2328" stroke-width="1.8" marker-end="url(#arr)"/>
+<text x="461.4" y="82.1" text-anchor="start" font-size="12" fill="#424a53" font-weight="normal" xml:space="preserve"><tspan>CH</tspan><tspan dy="4" font-size="9">3</tspan><tspan dy="-4">OH</tspan></text>
+<text x="435.7" y="98.1" text-anchor="start" font-size="12" fill="#424a53" font-weight="normal" xml:space="preserve"><tspan>Al</tspan><tspan dy="4" font-size="9">2</tspan><tspan dy="-4">O</tspan><tspan dy="4" font-size="9">3</tspan><tspan dy="-4">, 400 °C</tspan></text>
+<text x="464.8" y="136.1" text-anchor="start" font-size="12" fill="#424a53" font-weight="normal" xml:space="preserve"><tspan>−H</tspan><tspan dy="4" font-size="9">2</tspan><tspan dy="-4">O</tspan></text>
+<line x1="682" y1="112" x2="772" y2="112" stroke="#1f2328" stroke-width="1.8" marker-end="url(#arr)"/>
+<text x="711.4" y="82.1" text-anchor="start" font-size="12" fill="#424a53" font-weight="normal" xml:space="preserve"><tspan>CH</tspan><tspan dy="4" font-size="9">3</tspan><tspan dy="-4">OH</tspan></text>
+<text x="685.7" y="98.1" text-anchor="start" font-size="12" fill="#424a53" font-weight="normal" xml:space="preserve"><tspan>Al</tspan><tspan dy="4" font-size="9">2</tspan><tspan dy="-4">O</tspan><tspan dy="4" font-size="9">3</tspan><tspan dy="-4">, 400 °C</tspan></text>
+<text x="714.8" y="136.1" text-anchor="start" font-size="12" fill="#424a53" font-weight="normal" xml:space="preserve"><tspan>−H</tspan><tspan dy="4" font-size="9">2</tspan><tspan dy="-4">O</tspan></text>
+<text x="94.9" y="101.1" text-anchor="start" font-size="18" fill="#0969da" font-weight="bold" xml:space="preserve"><tspan>N</tspan></text>
+<text x="61.5" y="122.4" text-anchor="start" font-size="16" fill="#57606a" font-weight="normal" xml:space="preserve"><tspan>H</tspan></text>
+<text x="95.5" y="144.4" text-anchor="start" font-size="16" fill="#57606a" font-weight="normal" xml:space="preserve"><tspan>H</tspan></text>
+<text x="129.5" y="122.4" text-anchor="start" font-size="16" fill="#57606a" font-weight="normal" xml:space="preserve"><tspan>H</tspan></text>
+<text x="344.9" y="101.1" text-anchor="start" font-size="18" fill="#0969da" font-weight="bold" xml:space="preserve"><tspan>N</tspan></text>
+<text x="311.5" y="122.4" text-anchor="start" font-size="16" fill="#57606a" font-weight="normal" xml:space="preserve"><tspan>H</tspan></text>
+<text x="345.5" y="144.4" text-anchor="start" font-size="16" fill="#57606a" font-weight="normal" xml:space="preserve"><tspan>H</tspan></text>
+<text x="379.5" y="122.4" text-anchor="start" font-size="16" fill="#1a7f37" font-weight="normal" xml:space="preserve"><tspan>CH</tspan><tspan dy="5" font-size="12">3</tspan></text>
+<text x="594.9" y="101.1" text-anchor="start" font-size="18" fill="#0969da" font-weight="bold" xml:space="preserve"><tspan>N</tspan></text>
+<text x="561.5" y="122.4" text-anchor="start" font-size="16" fill="#57606a" font-weight="normal" xml:space="preserve"><tspan>H</tspan></text>
+<text x="588.2" y="144.4" text-anchor="start" font-size="16" fill="#1a7f37" font-weight="normal" xml:space="preserve"><tspan>CH</tspan><tspan dy="5" font-size="12">3</tspan></text>
+<text x="629.5" y="122.4" text-anchor="start" font-size="16" fill="#1a7f37" font-weight="normal" xml:space="preserve"><tspan>CH</tspan><tspan dy="5" font-size="12">3</tspan></text>
+<text x="844.9" y="101.1" text-anchor="start" font-size="18" fill="#0969da" font-weight="bold" xml:space="preserve"><tspan>N</tspan></text>
+<text x="796.9" y="122.4" text-anchor="start" font-size="16" fill="#1a7f37" font-weight="normal" xml:space="preserve"><tspan>H</tspan><tspan dy="5" font-size="12">3</tspan><tspan dy="-5">C</tspan></text>
+<text x="838.2" y="144.4" text-anchor="start" font-size="16" fill="#1a7f37" font-weight="normal" xml:space="preserve"><tspan>CH</tspan><tspan dy="5" font-size="12">3</tspan></text>
+<text x="879.5" y="122.4" text-anchor="start" font-size="16" fill="#1a7f37" font-weight="normal" xml:space="preserve"><tspan>CH</tspan><tspan dy="5" font-size="12">3</tspan></text>
+</svg>
