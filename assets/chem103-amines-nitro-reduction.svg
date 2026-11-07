@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 200" width="760" height="200" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Reduction of nitrobenzene to aniline</title>
+<desc id="d">Nitrobenzene is reduced by tin and hydrochloric acid to aniline</desc>
+<defs>
+<marker id="arr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0.5 L10,5 L0,9.5 Z" fill="#1f2328"/></marker>
+<marker id="arrS" viewBox="0 0 10 10" refX="1.5" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M10,0.5 L0,5 L10,9.5 Z" fill="#1f2328"/></marker>
+<marker id="arrR" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0.5 L10,5 L0,9.5 Z" fill="#cf222e"/></marker>
+</defs>
+<rect x="0.5" y="0.5" width="759" height="199" rx="12" fill="#ffffff" stroke="#d0d7de"/>
+<line x1="140.0" y1="85.0" x2="125.0" y2="111.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="133.3" y1="86.7" x2="123.1" y2="104.3" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="125.0" y1="111.0" x2="95.0" y2="111.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="95.0" y1="111.0" x2="80.0" y2="85.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="96.9" y1="104.3" x2="86.7" y2="86.7" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="80.0" y1="85.0" x2="95.0" y2="59.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="95.0" y1="59.0" x2="125.0" y2="59.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="99.8" y1="64.0" x2="120.2" y2="64.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="125.0" y1="59.0" x2="140.0" y2="85.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="140.0" y1="85.0" x2="165.0" y2="85.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="190.5" y1="78.2" x2="195.6" y2="75.2" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="188.2" y1="74.2" x2="193.3" y2="71.2" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="189.3" y1="93.8" x2="194.4" y2="96.8" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="265" y1="85" x2="425" y2="85" stroke="#1f2328" stroke-width="1.8" marker-end="url(#arr)"/>
+<text x="315.8" y="70.9" text-anchor="start" font-size="13" fill="#424a53" font-weight="normal" xml:space="preserve"><tspan>Sn / HCl</tspan></text>
+<text x="330.4" y="109.9" text-anchor="start" font-size="13" fill="#424a53" font-weight="normal" xml:space="preserve"><tspan>6[H]</tspan></text>
+<text x="328.1" y="126.9" text-anchor="start" font-size="13" fill="#424a53" font-weight="normal" xml:space="preserve"><tspan>−2H</tspan><tspan dy="4" font-size="9">2</tspan><tspan dy="-4">O</tspan></text>
+<line x1="550.0" y1="85.0" x2="535.0" y2="111.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="543.3" y1="86.7" x2="533.1" y2="104.3" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="535.0" y1="111.0" x2="505.0" y2="111.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="505.0" y1="111.0" x2="490.0" y2="85.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="506.9" y1="104.3" x2="496.7" y2="86.7" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="490.0" y1="85.0" x2="505.0" y2="59.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="505.0" y1="59.0" x2="535.0" y2="59.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="509.8" y1="64.0" x2="530.2" y2="64.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="535.0" y1="59.0" x2="550.0" y2="85.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="550.0" y1="85.0" x2="575.0" y2="85.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<text x="124.4" y="170.1" text-anchor="start" font-size="15" fill="#1f2328" font-weight="bold" xml:space="preserve"><tspan>Nitrobenzene</tspan></text>
+<text x="550.5" y="170.1" text-anchor="start" font-size="15" fill="#1f2328" font-weight="bold" xml:space="preserve"><tspan>Aniline</tspan></text>
+<text x="169.5" y="90.4" text-anchor="start" font-size="16" fill="#0969da" font-weight="bold" xml:space="preserve"><tspan>N</tspan><tspan dy="-7" font-size="12">+</tspan></text>
+<text x="198.9" y="73.4" text-anchor="start" font-size="16" fill="#cf222e" font-weight="bold" xml:space="preserve"><tspan>O</tspan></text>
+<text x="198.9" y="107.4" text-anchor="start" font-size="16" fill="#cf222e" font-weight="bold" xml:space="preserve"><tspan>O</tspan><tspan dy="-7" font-size="12">−</tspan></text>
+<text x="579.5" y="90.4" text-anchor="start" font-size="16" fill="#0969da" font-weight="bold" xml:space="preserve"><tspan>NH</tspan><tspan dy="5" font-size="12">2</tspan></text>
+</svg>
