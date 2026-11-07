@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 200" width="880" height="200" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Diazotization of aniline</title>
+<desc id="d">Aniline reacts with sodium nitrite and hydrochloric acid at 0 to 5 degrees Celsius to give benzene diazonium chloride</desc>
+<defs>
+<marker id="arr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0.5 L10,5 L0,9.5 Z" fill="#1f2328"/></marker>
+<marker id="arrS" viewBox="0 0 10 10" refX="1.5" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M10,0.5 L0,5 L10,9.5 Z" fill="#1f2328"/></marker>
+<marker id="arrR" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0.5 L10,5 L0,9.5 Z" fill="#cf222e"/></marker>
+</defs>
+<rect x="0.5" y="0.5" width="879" height="199" rx="12" fill="#ffffff" stroke="#d0d7de"/>
+<line x1="162.0" y1="85.0" x2="146.0" y2="112.7" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="155.1" y1="86.9" x2="144.2" y2="105.8" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="146.0" y1="112.7" x2="114.0" y2="112.7" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="114.0" y1="112.7" x2="98.0" y2="85.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="115.8" y1="105.8" x2="104.9" y2="86.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="98.0" y1="85.0" x2="114.0" y2="57.3" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="114.0" y1="57.3" x2="146.0" y2="57.3" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="119.1" y1="62.3" x2="140.9" y2="62.3" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="146.0" y1="57.3" x2="162.0" y2="85.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="98.0" y1="85.0" x2="71.0" y2="85.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="235" y1="85" x2="395" y2="85" stroke="#1f2328" stroke-width="1.8" marker-end="url(#arr)"/>
+<text x="272.5" y="70.9" text-anchor="start" font-size="13" fill="#424a53" font-weight="normal" xml:space="preserve"><tspan>NaNO</tspan><tspan dy="4" font-size="9">2</tspan><tspan dy="-4"> + 2HCl</tspan></text>
+<text x="293.1" y="109.9" text-anchor="start" font-size="13" fill="#424a53" font-weight="normal" xml:space="preserve"><tspan>0–5 °C</tspan></text>
+<line x1="512.0" y1="85.0" x2="496.0" y2="112.7" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="505.1" y1="86.9" x2="494.2" y2="105.8" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="496.0" y1="112.7" x2="464.0" y2="112.7" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="464.0" y1="112.7" x2="448.0" y2="85.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="465.8" y1="105.8" x2="454.9" y2="86.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="448.0" y1="85.0" x2="464.0" y2="57.3" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="464.0" y1="57.3" x2="496.0" y2="57.3" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="469.1" y1="62.3" x2="490.9" y2="62.3" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="496.0" y1="57.3" x2="512.0" y2="85.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="512.0" y1="85.0" x2="539.0" y2="85.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="563.3" y1="81.0" x2="579.0" y2="81.0" stroke="#0969da" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="563.3" y1="85.0" x2="579.0" y2="85.0" stroke="#0969da" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="563.3" y1="89.0" x2="579.0" y2="89.0" stroke="#0969da" stroke-width="1.8" stroke-linecap="round"/>
+<text x="700.0" y="90.4" text-anchor="start" font-size="16" fill="#1f2328" font-weight="normal" xml:space="preserve"><tspan>+  NaCl  +  2H</tspan><tspan dy="5" font-size="12">2</tspan><tspan dy="-5">O</tspan></text>
+<text x="70.5" y="165.1" text-anchor="start" font-size="15" fill="#1f2328" font-weight="bold" xml:space="preserve"><tspan>Aniline</tspan></text>
+<text x="435.3" y="165.1" text-anchor="start" font-size="15" fill="#1f2328" font-weight="bold" xml:space="preserve"><tspan>Benzene diazonium chloride</tspan></text>
+<text x="512.0" y="186.4" text-anchor="start" font-size="13" fill="#57606a" font-weight="normal" xml:space="preserve"><tspan>Ar–N</tspan><tspan dy="4" font-size="9">2</tspan><tspan dy="-9" font-size="9">+</tspan><tspan dy="5"> Cl</tspan><tspan dy="-5" font-size="9">−</tspan></text>
+<text x="42.9" y="90.4" text-anchor="start" font-size="16" fill="#0969da" font-weight="normal" xml:space="preserve"><tspan>H</tspan><tspan dy="5" font-size="12">2</tspan><tspan dy="-5">N</tspan></text>
+<text x="543.5" y="90.4" text-anchor="start" font-size="16" fill="#0969da" font-weight="bold" xml:space="preserve"><tspan>N</tspan><tspan dy="-7" font-size="12">+</tspan></text>
+<text x="583.5" y="90.4" text-anchor="start" font-size="16" fill="#0969da" font-weight="bold" xml:space="preserve"><tspan>N</tspan></text>
+<text x="623.9" y="90.4" text-anchor="start" font-size="16" fill="#1a7f37" font-weight="bold" xml:space="preserve"><tspan>Cl</tspan><tspan dy="-7" font-size="12">−</tspan></text>
+</svg>
