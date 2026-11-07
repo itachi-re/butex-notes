@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 350" width="960" height="350" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Hofmann and Curtius degradations</title>
+<desc id="d">An acid amide (Hofmann) or acyl azide (Curtius) rearranges to an isocyanate, which hydrolyses to a primary amine with one carbon fewer</desc>
+<defs>
+<marker id="arr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0.5 L10,5 L0,9.5 Z" fill="#1f2328"/></marker>
+<marker id="arrS" viewBox="0 0 10 10" refX="1.5" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M10,0.5 L0,5 L10,9.5 Z" fill="#1f2328"/></marker>
+<marker id="arrR" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0.5 L10,5 L0,9.5 Z" fill="#cf222e"/></marker>
+</defs>
+<rect x="0.5" y="0.5" width="959" height="349" rx="12" fill="#ffffff" stroke="#d0d7de"/>
+<line x1="69.0" y1="84.8" x2="91.0" y2="72.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="93.3" y1="72.0" x2="93.3" y2="49.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="88.7" y1="72.0" x2="88.7" y2="49.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="91.0" y1="72.0" x2="113.0" y2="84.8" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<text x="26.0" y="128.4" text-anchor="start" font-size="13" fill="#57606a" font-weight="normal" xml:space="preserve"><tspan>Primary amide  R–CONH</tspan><tspan dy="4" font-size="9">2</tspan></text>
+<line x1="69.0" y1="274.8" x2="91.0" y2="262.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="93.3" y1="262.0" x2="93.3" y2="239.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="88.7" y1="262.0" x2="88.7" y2="239.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="91.0" y1="262.0" x2="113.0" y2="274.8" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="132.2" y1="276.8" x2="145.2" y2="269.2" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="129.8" y1="272.8" x2="142.8" y2="265.2" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="167.1" y1="272.9" x2="173.8" y2="276.8" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="169.5" y1="268.9" x2="176.2" y2="272.8" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<text x="65.6" y="316.4" text-anchor="start" font-size="13" fill="#57606a" font-weight="normal" xml:space="preserve"><tspan>Acyl azide  R–CON</tspan><tspan dy="4" font-size="9">3</tspan></text>
+<line x1="235" y1="80" x2="420" y2="150" stroke="#1f2328" stroke-width="1.8" marker-end="url(#arr)"/>
+<text x="266.8" y="86.4" text-anchor="start" font-size="13" fill="#424a53" font-weight="normal" xml:space="preserve"><tspan>Br</tspan><tspan dy="4" font-size="9">2</tspan><tspan dy="-4"> / NaOH</tspan></text>
+<text x="276.4" y="132.4" text-anchor="start" font-size="13" fill="#8250df" font-weight="bold" xml:space="preserve" style="font-style:italic"><tspan>Hofmann</tspan></text>
+<line x1="235" y1="255" x2="420" y2="188" stroke="#1f2328" stroke-width="1.8" marker-end="url(#arr)"/>
+<text x="276.4" y="211.4" text-anchor="start" font-size="13" fill="#8250df" font-weight="bold" xml:space="preserve" style="font-style:italic"><tspan>Curtius</tspan></text>
+<text x="281.5" y="254.4" text-anchor="start" font-size="13" fill="#424a53" font-weight="normal" xml:space="preserve"><tspan>Δ, −N</tspan><tspan dy="4" font-size="9">2</tspan></text>
+<line x1="464.0" y1="177.8" x2="477.0" y2="170.2" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="495.0" y1="167.3" x2="526.0" y2="167.3" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="495.0" y1="162.7" x2="526.0" y2="162.7" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="526.0" y1="167.3" x2="557.0" y2="167.3" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="526.0" y1="162.7" x2="557.0" y2="162.7" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<text x="445.5" y="226.4" text-anchor="start" font-size="13" fill="#57606a" font-weight="normal" xml:space="preserve"><tspan>Isocyanate  R–N=C=O</tspan></text>
+<text x="444.1" y="246.1" text-anchor="start" font-size="12" fill="#57606a" font-weight="normal" xml:space="preserve" style="font-style:italic"><tspan>(common intermediate)</tspan></text>
+<line x1="625" y1="165" x2="745" y2="165" stroke="#1f2328" stroke-width="1.8" marker-end="url(#arr)"/>
+<text x="675.4" y="150.9" text-anchor="start" font-size="13" fill="#424a53" font-weight="normal" xml:space="preserve"><tspan>H</tspan><tspan dy="4" font-size="9">2</tspan><tspan dy="-4">O</tspan></text>
+<text x="671.8" y="189.9" text-anchor="start" font-size="13" fill="#424a53" font-weight="normal" xml:space="preserve"><tspan>−CO</tspan><tspan dy="4" font-size="9">2</tspan></text>
+<line x1="799.0" y1="177.8" x2="812.0" y2="170.2" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<text x="778.8" y="226.8" text-anchor="start" font-size="14" fill="#1f2328" font-weight="bold" xml:space="preserve"><tspan>Primary amine</tspan></text>
+<text x="725.4" y="248.1" text-anchor="start" font-size="12" fill="#57606a" font-weight="normal" xml:space="preserve"><tspan>one carbon fewer than the amide</tspan></text>
+<text x="55.5" y="95.4" text-anchor="start" font-size="16" fill="#1a7f37" font-weight="bold" xml:space="preserve"><tspan>R</tspan></text>
+<text x="86.5" y="41.4" text-anchor="start" font-size="16" fill="#cf222e" font-weight="bold" xml:space="preserve"><tspan>O</tspan></text>
+<text x="117.5" y="95.4" text-anchor="start" font-size="16" fill="#0969da" font-weight="bold" xml:space="preserve"><tspan>NH</tspan><tspan dy="5" font-size="12">2</tspan></text>
+<text x="55.5" y="285.4" text-anchor="start" font-size="16" fill="#1a7f37" font-weight="bold" xml:space="preserve"><tspan>R</tspan></text>
+<text x="86.5" y="231.4" text-anchor="start" font-size="16" fill="#cf222e" font-weight="bold" xml:space="preserve"><tspan>O</tspan></text>
+<text x="117.5" y="285.4" text-anchor="start" font-size="16" fill="#0969da" font-weight="bold" xml:space="preserve"><tspan>N</tspan></text>
+<text x="148.5" y="267.4" text-anchor="start" font-size="16" fill="#0969da" font-weight="bold" xml:space="preserve"><tspan>N</tspan><tspan dy="-7" font-size="12">+</tspan></text>
+<text x="179.5" y="285.4" text-anchor="start" font-size="16" fill="#0969da" font-weight="bold" xml:space="preserve"><tspan>N</tspan><tspan dy="-7" font-size="12">−</tspan></text>
+<text x="450.5" y="188.4" text-anchor="start" font-size="16" fill="#1a7f37" font-weight="bold" xml:space="preserve"><tspan>R</tspan></text>
+<text x="481.5" y="170.4" text-anchor="start" font-size="16" fill="#0969da" font-weight="bold" xml:space="preserve"><tspan>N</tspan></text>
+<text x="561.5" y="170.4" text-anchor="start" font-size="16" fill="#cf222e" font-weight="bold" xml:space="preserve"><tspan>O</tspan></text>
+<text x="785.5" y="188.4" text-anchor="start" font-size="16" fill="#1a7f37" font-weight="bold" xml:space="preserve"><tspan>R</tspan></text>
+<text x="816.5" y="170.4" text-anchor="start" font-size="16" fill="#0969da" font-weight="bold" xml:space="preserve"><tspan>NH</tspan><tspan dy="5" font-size="12">2</tspan></text>
+</svg>
