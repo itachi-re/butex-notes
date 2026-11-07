@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 270" width="960" height="270" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Common auxochrome groups</title>
+<desc id="d">Hydroxyl, amino, methylamino, dimethylamino, carboxyl and sulphonic acid groups on a benzene ring</desc>
+<defs>
+<marker id="arr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0.5 L10,5 L0,9.5 Z" fill="#1f2328"/></marker>
+<marker id="arrS" viewBox="0 0 10 10" refX="1.5" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M10,0.5 L0,5 L10,9.5 Z" fill="#1f2328"/></marker>
+<marker id="arrR" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0.5 L10,5 L0,9.5 Z" fill="#cf222e"/></marker>
+</defs>
+<rect x="0.5" y="0.5" width="959" height="269" rx="12" fill="#ffffff" stroke="#d0d7de"/>
+<line x1="20" y1="48" x2="620" y2="48" stroke="#0969da" stroke-width="2"/>
+<line x1="640" y1="48" x2="940" y2="48" stroke="#cf222e" stroke-width="2"/>
+<text x="174.3" y="32.8" text-anchor="start" font-size="14" fill="#0969da" font-weight="bold" xml:space="preserve"><tspan>Basic (electron-donating) auxochromes</tspan></text>
+<text x="719.1" y="32.8" text-anchor="start" font-size="14" fill="#cf222e" font-weight="bold" xml:space="preserve"><tspan>Acidic auxochromes</tspan></text>
+<line x1="97.0" y1="125.0" x2="86.0" y2="144.1" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="90.9" y1="125.5" x2="83.4" y2="138.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="86.0" y1="144.1" x2="64.0" y2="144.1" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="64.0" y1="144.1" x2="53.0" y2="125.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="66.6" y1="138.5" x2="59.1" y2="125.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="53.0" y1="125.0" x2="64.0" y2="105.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="64.0" y1="105.9" x2="86.0" y2="105.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="67.5" y1="110.9" x2="82.5" y2="110.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="86.0" y1="105.9" x2="97.0" y2="125.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="97.0" y1="125.0" x2="115.0" y2="125.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<text x="65.5" y="194.8" text-anchor="start" font-size="14" fill="#1f2328" font-weight="bold" xml:space="preserve"><tspan>hydroxyl</tspan></text>
+<text x="86.0" y="216.4" text-anchor="start" font-size="13" fill="#57606a" font-weight="normal" xml:space="preserve"><tspan>–OH</tspan></text>
+<line x1="252.0" y1="125.0" x2="241.0" y2="144.1" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="245.9" y1="125.5" x2="238.4" y2="138.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="241.0" y1="144.1" x2="219.0" y2="144.1" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="219.0" y1="144.1" x2="208.0" y2="125.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="221.6" y1="138.5" x2="214.1" y2="125.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="208.0" y1="125.0" x2="219.0" y2="105.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="219.0" y1="105.9" x2="241.0" y2="105.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="222.5" y1="110.9" x2="237.5" y2="110.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="241.0" y1="105.9" x2="252.0" y2="125.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="252.0" y1="125.0" x2="270.0" y2="125.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<text x="232.3" y="194.8" text-anchor="start" font-size="14" fill="#1f2328" font-weight="bold" xml:space="preserve"><tspan>amino</tspan></text>
+<text x="238.8" y="216.4" text-anchor="start" font-size="13" fill="#57606a" font-weight="normal" xml:space="preserve"><tspan>–NH</tspan><tspan dy="4" font-size="9">2</tspan></text>
+<line x1="407.0" y1="125.0" x2="396.0" y2="144.1" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="400.9" y1="125.5" x2="393.4" y2="138.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="396.0" y1="144.1" x2="374.0" y2="144.1" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="374.0" y1="144.1" x2="363.0" y2="125.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="376.6" y1="138.5" x2="369.1" y2="125.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="363.0" y1="125.0" x2="374.0" y2="105.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="374.0" y1="105.9" x2="396.0" y2="105.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="377.5" y1="110.9" x2="392.5" y2="110.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="396.0" y1="105.9" x2="407.0" y2="125.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="407.0" y1="125.0" x2="425.0" y2="125.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<text x="363.7" y="194.8" text-anchor="start" font-size="14" fill="#1f2328" font-weight="bold" xml:space="preserve"><tspan>methylamino</tspan></text>
+<text x="386.5" y="216.4" text-anchor="start" font-size="13" fill="#57606a" font-weight="normal" xml:space="preserve"><tspan>–NHCH</tspan><tspan dy="4" font-size="9">3</tspan></text>
+<line x1="562.0" y1="125.0" x2="551.0" y2="144.1" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="555.9" y1="125.5" x2="548.4" y2="138.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="551.0" y1="144.1" x2="529.0" y2="144.1" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="529.0" y1="144.1" x2="518.0" y2="125.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="531.6" y1="138.5" x2="524.1" y2="125.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="518.0" y1="125.0" x2="529.0" y2="105.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="529.0" y1="105.9" x2="551.0" y2="105.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="532.5" y1="110.9" x2="547.5" y2="110.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="551.0" y1="105.9" x2="562.0" y2="125.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="562.0" y1="125.0" x2="580.0" y2="125.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<text x="510.8" y="194.8" text-anchor="start" font-size="14" fill="#1f2328" font-weight="bold" xml:space="preserve"><tspan>dimethylamino</tspan></text>
+<text x="535.5" y="216.4" text-anchor="start" font-size="13" fill="#57606a" font-weight="normal" xml:space="preserve"><tspan>–N(CH</tspan><tspan dy="4" font-size="9">3</tspan><tspan dy="-4">)</tspan><tspan dy="4" font-size="9">2</tspan></text>
+<line x1="717.0" y1="125.0" x2="706.0" y2="144.1" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="710.9" y1="125.5" x2="703.4" y2="138.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="706.0" y1="144.1" x2="684.0" y2="144.1" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="684.0" y1="144.1" x2="673.0" y2="125.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="686.6" y1="138.5" x2="679.1" y2="125.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="673.0" y1="125.0" x2="684.0" y2="105.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="684.0" y1="105.9" x2="706.0" y2="105.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="687.5" y1="110.9" x2="702.5" y2="110.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="706.0" y1="105.9" x2="717.0" y2="125.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="717.0" y1="125.0" x2="735.0" y2="125.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<text x="685.5" y="194.8" text-anchor="start" font-size="14" fill="#1f2328" font-weight="bold" xml:space="preserve"><tspan>carboxyl</tspan></text>
+<text x="698.7" y="216.4" text-anchor="start" font-size="13" fill="#57606a" font-weight="normal" xml:space="preserve"><tspan>–COOH</tspan></text>
+<line x1="872.0" y1="125.0" x2="861.0" y2="144.1" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="865.9" y1="125.5" x2="858.4" y2="138.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="861.0" y1="144.1" x2="839.0" y2="144.1" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="839.0" y1="144.1" x2="828.0" y2="125.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="841.6" y1="138.5" x2="834.1" y2="125.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="828.0" y1="125.0" x2="839.0" y2="105.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="839.0" y1="105.9" x2="861.0" y2="105.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="842.5" y1="110.9" x2="857.5" y2="110.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="861.0" y1="105.9" x2="872.0" y2="125.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="872.0" y1="125.0" x2="890.0" y2="125.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<text x="816.9" y="194.8" text-anchor="start" font-size="14" fill="#1f2328" font-weight="bold" xml:space="preserve"><tspan>sulphonic acid</tspan></text>
+<text x="855.1" y="216.4" text-anchor="start" font-size="13" fill="#57606a" font-weight="normal" xml:space="preserve"><tspan>–SO</tspan><tspan dy="4" font-size="9">3</tspan><tspan dy="-4">H</tspan></text>
+<text x="102.0" y="254.1" text-anchor="start" font-size="12" fill="#57606a" font-weight="normal" xml:space="preserve"><tspan>–OH can act as either type; all are attached to a chromogen to deepen the colour and give affinity for the fibre</tspan></text>
+<text x="119.5" y="130.4" text-anchor="start" font-size="16" fill="#0969da" font-weight="bold" xml:space="preserve"><tspan>OH</tspan></text>
+<text x="274.5" y="130.4" text-anchor="start" font-size="16" fill="#0969da" font-weight="bold" xml:space="preserve"><tspan>NH</tspan><tspan dy="5" font-size="12">2</tspan></text>
+<text x="429.5" y="130.4" text-anchor="start" font-size="16" fill="#0969da" font-weight="bold" xml:space="preserve"><tspan>NHCH</tspan><tspan dy="5" font-size="12">3</tspan></text>
+<text x="584.5" y="130.4" text-anchor="start" font-size="16" fill="#0969da" font-weight="bold" xml:space="preserve"><tspan>N(CH</tspan><tspan dy="5" font-size="12">3</tspan><tspan dy="-5">)</tspan><tspan dy="5" font-size="12">2</tspan></text>
+<text x="739.5" y="130.4" text-anchor="start" font-size="16" fill="#cf222e" font-weight="bold" xml:space="preserve"><tspan>COOH</tspan></text>
+<text x="894.5" y="130.4" text-anchor="start" font-size="16" fill="#cf222e" font-weight="bold" xml:space="preserve"><tspan>SO</tspan><tspan dy="5" font-size="12">3</tspan><tspan dy="-5">H</tspan></text>
+</svg>
