@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1060 330" width="1060" height="330" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" role="img" aria-labelledby="t d">
+<title id="t">From chromogen to dye</title>
+<desc id="d">Azobenzene is a chromogen; adding auxochromes gives aniline yellow and methyl orange</desc>
+<defs>
+<marker id="arr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0.5 L10,5 L0,9.5 Z" fill="#1f2328"/></marker>
+<marker id="arrS" viewBox="0 0 10 10" refX="1.5" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M10,0.5 L0,5 L10,9.5 Z" fill="#1f2328"/></marker>
+<marker id="arrR" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0.5 L10,5 L0,9.5 Z" fill="#cf222e"/></marker>
+</defs>
+<rect x="0.5" y="0.5" width="1059" height="329" rx="12" fill="#ffffff" stroke="#d0d7de"/>
+<line x1="102.0" y1="105.0" x2="91.0" y2="124.1" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="95.9" y1="105.5" x2="88.4" y2="118.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="91.0" y1="124.1" x2="69.0" y2="124.1" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="69.0" y1="124.1" x2="58.0" y2="105.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="71.6" y1="118.5" x2="64.1" y2="105.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="58.0" y1="105.0" x2="69.0" y2="85.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="69.0" y1="85.9" x2="91.0" y2="85.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="72.5" y1="90.9" x2="87.5" y2="90.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="91.0" y1="85.9" x2="102.0" y2="105.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="102.0" y1="105.0" x2="114.6" y2="112.3" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="133.7" y1="114.3" x2="137.3" y2="112.2" stroke="#bc4c00" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="131.4" y1="110.3" x2="135.0" y2="108.2" stroke="#bc4c00" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="210.8" y1="117.5" x2="199.8" y2="136.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="204.7" y1="118.0" x2="197.2" y2="131.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="199.8" y1="136.5" x2="177.8" y2="136.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="177.8" y1="136.5" x2="166.8" y2="117.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="180.3" y1="131.0" x2="172.9" y2="118.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="166.8" y1="117.5" x2="177.8" y2="98.4" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="177.8" y1="98.4" x2="199.8" y2="98.4" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="181.3" y1="103.4" x2="196.3" y2="103.4" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="199.8" y1="98.4" x2="210.8" y2="117.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="154.2" y1="110.2" x2="166.8" y2="117.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<text x="92.8" y="210.1" text-anchor="start" font-size="15" fill="#1f2328" font-weight="bold" xml:space="preserve"><tspan>Azobenzene</tspan></text>
+<text x="60.8" y="230.1" text-anchor="start" font-size="12" fill="#57606a" font-weight="normal" xml:space="preserve"><tspan>chromogen · orange-red</tspan></text>
+<text x="50.6" y="254.1" text-anchor="start" font-size="12" fill="#cf222e" font-weight="bold" xml:space="preserve"><tspan>no auxochrome → not a dye</tspan></text>
+<line x1="255" y1="105" x2="305" y2="105" stroke="#1f2328" stroke-width="1.8" marker-end="url(#arr)"/>
+<text x="261.0" y="87.1" text-anchor="start" font-size="12" fill="#0969da" font-weight="bold" xml:space="preserve"><tspan>+ –NH</tspan><tspan dy="4" font-size="9">2</tspan></text>
+<line x1="402.0" y1="105.0" x2="391.0" y2="124.1" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="395.9" y1="105.5" x2="388.4" y2="118.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="391.0" y1="124.1" x2="369.0" y2="124.1" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="369.0" y1="124.1" x2="358.0" y2="105.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="371.6" y1="118.5" x2="364.1" y2="105.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="358.0" y1="105.0" x2="369.0" y2="85.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="369.0" y1="85.9" x2="391.0" y2="85.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="372.5" y1="90.9" x2="387.5" y2="90.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="391.0" y1="85.9" x2="402.0" y2="105.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="402.0" y1="105.0" x2="414.6" y2="112.3" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="433.7" y1="114.3" x2="437.3" y2="112.2" stroke="#bc4c00" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="431.4" y1="110.3" x2="435.0" y2="108.2" stroke="#bc4c00" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="510.8" y1="117.5" x2="499.8" y2="136.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="504.7" y1="118.0" x2="497.2" y2="131.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="499.8" y1="136.5" x2="477.8" y2="136.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="477.8" y1="136.5" x2="466.8" y2="117.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="480.3" y1="131.0" x2="472.9" y2="118.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="466.8" y1="117.5" x2="477.8" y2="98.4" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="477.8" y1="98.4" x2="499.8" y2="98.4" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="481.3" y1="103.4" x2="496.3" y2="103.4" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="499.8" y1="98.4" x2="510.8" y2="117.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="454.2" y1="110.2" x2="466.8" y2="117.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="510.8" y1="117.5" x2="526.7" y2="117.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<text x="378.3" y="210.1" text-anchor="start" font-size="15" fill="#1f2328" font-weight="bold" xml:space="preserve"><tspan>4-Aminoazobenzene</tspan></text>
+<text x="372.4" y="230.1" text-anchor="start" font-size="12" fill="#57606a" font-weight="normal" xml:space="preserve"><tspan>aniline yellow · yellow</tspan></text>
+<text x="380.4" y="254.1" text-anchor="start" font-size="12" fill="#1a7f37" font-weight="bold" xml:space="preserve"><tspan>–NH</tspan><tspan dy="4" font-size="9">2</tspan><tspan dy="-4"> auxochrome → dye</tspan></text>
+<line x1="585" y1="105" x2="640" y2="105" stroke="#1f2328" stroke-width="1.8" marker-end="url(#arr)"/>
+<text x="586.3" y="87.1" text-anchor="start" font-size="12" fill="#0969da" font-weight="bold" xml:space="preserve"><tspan>+ –SO</tspan><tspan dy="4" font-size="9">3</tspan><tspan dy="-4">Na</tspan></text>
+<line x1="767.0" y1="105.0" x2="756.0" y2="124.1" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="760.9" y1="105.5" x2="753.4" y2="118.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="756.0" y1="124.1" x2="734.0" y2="124.1" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="734.0" y1="124.1" x2="723.0" y2="105.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="736.6" y1="118.5" x2="729.1" y2="105.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="723.0" y1="105.0" x2="734.0" y2="85.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="734.0" y1="85.9" x2="756.0" y2="85.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="737.5" y1="90.9" x2="752.5" y2="90.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="756.0" y1="85.9" x2="767.0" y2="105.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="723.0" y1="105.0" x2="707.1" y2="105.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="767.0" y1="105.0" x2="779.6" y2="112.3" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="798.7" y1="114.3" x2="802.3" y2="112.2" stroke="#bc4c00" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="796.4" y1="110.3" x2="800.0" y2="108.2" stroke="#bc4c00" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="875.8" y1="117.5" x2="864.8" y2="136.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="869.7" y1="118.0" x2="862.2" y2="131.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="864.8" y1="136.5" x2="842.8" y2="136.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="842.8" y1="136.5" x2="831.8" y2="117.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="845.3" y1="131.0" x2="837.9" y2="118.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="831.8" y1="117.5" x2="842.8" y2="98.4" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="842.8" y1="98.4" x2="864.8" y2="98.4" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="846.3" y1="103.4" x2="861.3" y2="103.4" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="864.8" y1="98.4" x2="875.8" y2="117.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="819.2" y1="110.2" x2="831.8" y2="117.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="875.8" y1="117.5" x2="891.7" y2="117.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="908.5" y1="104.0" x2="905.4" y2="109.3" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="908.5" y1="130.9" x2="905.4" y2="125.6" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<text x="785.2" y="210.1" text-anchor="start" font-size="15" fill="#1f2328" font-weight="bold" xml:space="preserve"><tspan>Methyl orange</tspan></text>
+<text x="782.6" y="230.1" text-anchor="start" font-size="12" fill="#57606a" font-weight="normal" xml:space="preserve"><tspan>acid dye · orange</tspan></text>
+<text x="712.2" y="254.1" text-anchor="start" font-size="12" fill="#1a7f37" font-weight="bold" xml:space="preserve"><tspan>–N(CH</tspan><tspan dy="4" font-size="9">3</tspan><tspan dy="-4">)</tspan><tspan dy="4" font-size="9">2</tspan><tspan dy="-4"> and –SO</tspan><tspan dy="4" font-size="9">3</tspan><tspan dy="-4">Na → water-soluble dye</tspan></text>
+<circle cx="300" cy="300" r="6" fill="#bc4c00"/>
+<text x="312.0" y="304.1" text-anchor="start" font-size="12" fill="#1f2328" font-weight="normal" xml:space="preserve"><tspan>chromophore –N=N–</tspan></text>
+<circle cx="480" cy="300" r="6" fill="#0969da"/>
+<text x="492.0" y="304.1" text-anchor="start" font-size="12" fill="#1f2328" font-weight="normal" xml:space="preserve"><tspan>auxochromes</tspan></text>
+<text x="119.1" y="122.9" text-anchor="start" font-size="16" fill="#bc4c00" font-weight="bold" xml:space="preserve"><tspan>N</tspan></text>
+<text x="140.7" y="110.4" text-anchor="start" font-size="16" fill="#bc4c00" font-weight="bold" xml:space="preserve"><tspan>N</tspan></text>
+<text x="419.1" y="122.9" text-anchor="start" font-size="16" fill="#bc4c00" font-weight="bold" xml:space="preserve"><tspan>N</tspan></text>
+<text x="440.7" y="110.4" text-anchor="start" font-size="16" fill="#bc4c00" font-weight="bold" xml:space="preserve"><tspan>N</tspan></text>
+<text x="531.2" y="122.9" text-anchor="start" font-size="16" fill="#0969da" font-weight="bold" xml:space="preserve"><tspan>NH</tspan><tspan dy="5" font-size="12">2</tspan></text>
+<text x="661.0" y="110.4" text-anchor="start" font-size="16" fill="#0969da" font-weight="bold" xml:space="preserve"><tspan>NaO</tspan><tspan dy="5" font-size="12">3</tspan><tspan dy="-5">S</tspan></text>
+<text x="784.1" y="122.9" text-anchor="start" font-size="16" fill="#bc4c00" font-weight="bold" xml:space="preserve"><tspan>N</tspan></text>
+<text x="805.7" y="110.4" text-anchor="start" font-size="16" fill="#bc4c00" font-weight="bold" xml:space="preserve"><tspan>N</tspan></text>
+<text x="896.2" y="122.9" text-anchor="start" font-size="16" fill="#0969da" font-weight="bold" xml:space="preserve"><tspan>N</tspan></text>
+<text x="908.7" y="101.3" text-anchor="start" font-size="16" fill="#1a7f37" font-weight="bold" xml:space="preserve"><tspan>CH</tspan><tspan dy="5" font-size="12">3</tspan></text>
+<text x="908.7" y="144.5" text-anchor="start" font-size="16" fill="#1a7f37" font-weight="bold" xml:space="preserve"><tspan>CH</tspan><tspan dy="5" font-size="12">3</tspan></text>
+</svg>
