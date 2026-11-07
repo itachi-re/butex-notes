@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 250" width="900" height="250" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Aliphatic, aromatic and aralkyl amines</title>
+<desc id="d">Methylamine, ethylamine, aniline and benzylamine</desc>
+<defs>
+<marker id="arr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0.5 L10,5 L0,9.5 Z" fill="#1f2328"/></marker>
+<marker id="arrS" viewBox="0 0 10 10" refX="1.5" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M10,0.5 L0,5 L10,9.5 Z" fill="#1f2328"/></marker>
+<marker id="arrR" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0.5 L10,5 L0,9.5 Z" fill="#cf222e"/></marker>
+</defs>
+<rect x="0.5" y="0.5" width="899" height="249" rx="12" fill="#ffffff" stroke="#d0d7de"/>
+<line x1="30" y1="46" x2="410" y2="46" stroke="#0969da" stroke-width="2"/>
+<line x1="450" y1="46" x2="650" y2="46" stroke="#bc4c00" stroke-width="2"/>
+<line x1="690" y1="46" x2="870" y2="46" stroke="#8250df" stroke-width="2"/>
+<text x="101.9" y="32.8" text-anchor="start" font-size="14" fill="#0969da" font-weight="bold" xml:space="preserve"><tspan>Aliphatic: N on an alkyl group</tspan></text>
+<text x="459.4" y="32.8" text-anchor="start" font-size="14" fill="#bc4c00" font-weight="bold" xml:space="preserve"><tspan>Aromatic: N on the ring</tspan></text>
+<text x="710.6" y="32.8" text-anchor="start" font-size="14" fill="#8250df" font-weight="bold" xml:space="preserve"><tspan>Aralkyl: N via CH</tspan><tspan dy="4" font-size="10">2</tspan></text>
+<line x1="91.0" y1="100.0" x2="129.0" y2="100.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="308.0" y1="96.2" x2="330.0" y2="109.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="330.0" y1="109.0" x2="352.0" y2="96.2" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="604.0" y1="100.0" x2="588.0" y2="127.7" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="597.1" y1="101.9" x2="586.2" y2="120.8" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="588.0" y1="127.7" x2="556.0" y2="127.7" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="556.0" y1="127.7" x2="540.0" y2="100.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="557.8" y1="120.8" x2="546.9" y2="101.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="540.0" y1="100.0" x2="556.0" y2="72.3" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="556.0" y1="72.3" x2="588.0" y2="72.3" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="561.1" y1="77.3" x2="582.9" y2="77.3" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="588.0" y1="72.3" x2="604.0" y2="100.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="540.0" y1="100.0" x2="513.0" y2="100.0" stroke="#cf222e" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="768.0" y1="100.0" x2="752.0" y2="127.7" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="761.1" y1="101.9" x2="750.2" y2="120.8" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="752.0" y1="127.7" x2="720.0" y2="127.7" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="720.0" y1="127.7" x2="704.0" y2="100.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="721.8" y1="120.8" x2="710.9" y2="101.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="704.0" y1="100.0" x2="720.0" y2="72.3" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="720.0" y1="72.3" x2="752.0" y2="72.3" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="725.1" y1="77.3" x2="746.9" y2="77.3" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="752.0" y1="72.3" x2="768.0" y2="100.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="768.0" y1="100.0" x2="799.0" y2="82.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="799.0" y1="82.0" x2="821.0" y2="94.8" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<text x="60.5" y="185.4" text-anchor="start" font-size="16" fill="#1f2328" font-weight="bold" xml:space="preserve"><tspan>Methylamine</tspan></text>
+<text x="89.4" y="210.8" text-anchor="start" font-size="14" fill="#57606a" font-weight="normal" xml:space="preserve"><tspan>CH</tspan><tspan dy="4" font-size="10">3</tspan><tspan dy="-4">NH</tspan><tspan dy="4" font-size="10">2</tspan></text>
+<text x="285.0" y="185.4" text-anchor="start" font-size="16" fill="#1f2328" font-weight="bold" xml:space="preserve"><tspan>Ethylamine</tspan></text>
+<text x="306.9" y="210.8" text-anchor="start" font-size="14" fill="#57606a" font-weight="normal" xml:space="preserve"><tspan>C</tspan><tspan dy="4" font-size="10">2</tspan><tspan dy="-4">H</tspan><tspan dy="4" font-size="10">5</tspan><tspan dy="-4">NH</tspan><tspan dy="4" font-size="10">2</tspan></text>
+<text x="518.5" y="185.4" text-anchor="start" font-size="16" fill="#1f2328" font-weight="bold" xml:space="preserve"><tspan>Aniline</tspan></text>
+<text x="526.9" y="210.8" text-anchor="start" font-size="14" fill="#57606a" font-weight="normal" xml:space="preserve"><tspan>C</tspan><tspan dy="4" font-size="10">6</tspan><tspan dy="-4">H</tspan><tspan dy="4" font-size="10">5</tspan><tspan dy="-4">NH</tspan><tspan dy="4" font-size="10">2</tspan></text>
+<text x="720.5" y="185.4" text-anchor="start" font-size="16" fill="#1f2328" font-weight="bold" xml:space="preserve"><tspan>Benzylamine</tspan></text>
+<text x="736.6" y="210.8" text-anchor="start" font-size="14" fill="#57606a" font-weight="normal" xml:space="preserve"><tspan>C</tspan><tspan dy="4" font-size="10">6</tspan><tspan dy="-4">H</tspan><tspan dy="4" font-size="10">5</tspan><tspan dy="-4">CH</tspan><tspan dy="4" font-size="10">2</tspan><tspan dy="-4">NH</tspan><tspan dy="4" font-size="10">2</tspan></text>
+<text x="62.9" y="105.4" text-anchor="start" font-size="16" fill="#1f2328" font-weight="normal" xml:space="preserve"><tspan>H</tspan><tspan dy="5" font-size="12">3</tspan><tspan dy="-5">C</tspan></text>
+<text x="133.5" y="105.4" text-anchor="start" font-size="16" fill="#0969da" font-weight="normal" xml:space="preserve"><tspan>NH</tspan><tspan dy="5" font-size="12">2</tspan></text>
+<text x="279.9" y="96.4" text-anchor="start" font-size="16" fill="#1f2328" font-weight="normal" xml:space="preserve"><tspan>H</tspan><tspan dy="5" font-size="12">3</tspan><tspan dy="-5">C</tspan></text>
+<text x="356.5" y="96.4" text-anchor="start" font-size="16" fill="#0969da" font-weight="normal" xml:space="preserve"><tspan>NH</tspan><tspan dy="5" font-size="12">2</tspan></text>
+<text x="484.9" y="105.4" text-anchor="start" font-size="16" fill="#0969da" font-weight="normal" xml:space="preserve"><tspan>H</tspan><tspan dy="5" font-size="12">2</tspan><tspan dy="-5">N</tspan></text>
+<text x="825.5" y="105.4" text-anchor="start" font-size="16" fill="#0969da" font-weight="normal" xml:space="preserve"><tspan>NH</tspan><tspan dy="5" font-size="12">2</tspan></text>
+</svg>
