@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 330" width="960" height="330" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Mordant dyeing with alizarin</title>
+<desc id="d">Alizarin forms a coloured aluminium chelate (lake) with a metal mordant on the fibre</desc>
+<defs>
+<marker id="arr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0.5 L10,5 L0,9.5 Z" fill="#1f2328"/></marker>
+<marker id="arrS" viewBox="0 0 10 10" refX="1.5" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M10,0.5 L0,5 L10,9.5 Z" fill="#1f2328"/></marker>
+<marker id="arrR" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0.5 L10,5 L0,9.5 Z" fill="#cf222e"/></marker>
+</defs>
+<rect x="0.5" y="0.5" width="959" height="329" rx="12" fill="#ffffff" stroke="#d0d7de"/>
+<line x1="128.0" y1="140.0" x2="154.0" y2="155.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="129.8" y1="146.6" x2="147.5" y2="156.8" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="154.0" y1="155.0" x2="154.0" y2="185.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="154.0" y1="185.0" x2="128.0" y2="200.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="147.5" y1="183.2" x2="129.8" y2="193.4" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="128.0" y1="200.0" x2="102.1" y2="185.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="102.1" y1="185.0" x2="102.1" y2="155.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="106.9" y1="180.2" x2="106.9" y2="159.8" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="102.1" y1="155.0" x2="128.0" y2="140.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="180.0" y1="140.0" x2="206.0" y2="155.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="206.0" y1="155.0" x2="206.0" y2="185.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="210.8" y1="159.8" x2="210.8" y2="180.2" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="206.0" y1="185.0" x2="180.0" y2="200.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="180.0" y1="200.0" x2="154.0" y2="185.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="154.0" y1="155.0" x2="180.0" y2="140.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="232.0" y1="140.0" x2="257.9" y2="155.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="233.7" y1="146.6" x2="251.4" y2="156.8" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="257.9" y1="155.0" x2="257.9" y2="185.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="257.9" y1="185.0" x2="232.0" y2="200.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="251.4" y1="183.2" x2="233.7" y2="193.4" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="232.0" y1="200.0" x2="206.0" y2="185.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="206.0" y1="155.0" x2="232.0" y2="140.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="182.3" y1="140.0" x2="182.3" y2="123.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="177.7" y1="140.0" x2="177.7" y2="123.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="177.7" y1="200.0" x2="177.7" y2="216.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="182.3" y1="200.0" x2="182.3" y2="216.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="128.0" y1="140.0" x2="128.0" y2="123.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="102.1" y1="155.0" x2="85.1" y2="145.2" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<text x="146.2" y="267.1" text-anchor="start" font-size="15" fill="#1f2328" font-weight="bold" xml:space="preserve"><tspan>Alizarin</tspan></text>
+<text x="136.1" y="287.1" text-anchor="start" font-size="12" fill="#57606a" font-weight="normal" xml:space="preserve"><tspan>dye (soluble)</tspan></text>
+<line x1="330" y1="170" x2="470" y2="170" stroke="#1f2328" stroke-width="1.8" marker-end="url(#arr)"/>
+<text x="358.3" y="152.4" text-anchor="start" font-size="13" fill="#424a53" font-weight="normal" xml:space="preserve"><tspan>Al</tspan><tspan dy="-5" font-size="9">3</tspan><tspan font-size="9">+</tspan><tspan dy="5"> mordant</tspan></text>
+<text x="356.1" y="196.4" text-anchor="start" font-size="13" fill="#424a53" font-weight="normal" xml:space="preserve"><tspan>on the fibre</tspan></text>
+<line x1="648.0" y1="140.0" x2="674.0" y2="155.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="649.8" y1="146.6" x2="667.5" y2="156.8" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="674.0" y1="155.0" x2="674.0" y2="185.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="674.0" y1="185.0" x2="648.0" y2="200.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="667.5" y1="183.2" x2="649.8" y2="193.4" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="648.0" y1="200.0" x2="622.1" y2="185.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="622.1" y1="185.0" x2="622.1" y2="155.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="626.9" y1="180.2" x2="626.9" y2="159.8" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="622.1" y1="155.0" x2="648.0" y2="140.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="700.0" y1="140.0" x2="726.0" y2="155.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="726.0" y1="155.0" x2="726.0" y2="185.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="730.8" y1="159.8" x2="730.8" y2="180.2" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="726.0" y1="185.0" x2="700.0" y2="200.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="700.0" y1="200.0" x2="674.0" y2="185.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="674.0" y1="155.0" x2="700.0" y2="140.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="752.0" y1="140.0" x2="777.9" y2="155.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="753.7" y1="146.6" x2="771.4" y2="156.8" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="777.9" y1="155.0" x2="777.9" y2="185.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="777.9" y1="185.0" x2="752.0" y2="200.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="771.4" y1="183.2" x2="753.7" y2="193.4" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="752.0" y1="200.0" x2="726.0" y2="185.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="726.0" y1="155.0" x2="752.0" y2="140.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="702.3" y1="140.0" x2="702.3" y2="123.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="697.7" y1="140.0" x2="697.7" y2="123.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="697.7" y1="200.0" x2="697.7" y2="216.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="702.3" y1="200.0" x2="702.3" y2="216.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="648.0" y1="140.0" x2="648.0" y2="123.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="622.1" y1="155.0" x2="605.1" y2="145.2" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="655.6" y1="103.5" x2="666.5" y2="94.0" stroke="#8250df" stroke-width="1.8" stroke-dasharray="4 3"/>
+<line x1="692.4" y1="103.5" x2="681.6" y2="94.0" stroke="#8250df" stroke-width="1.8" stroke-dasharray="4 3"/>
+<text x="590.3" y="267.1" text-anchor="start" font-size="15" fill="#1f2328" font-weight="bold" xml:space="preserve"><tspan>Alizarin–Al chelate (lake)</tspan></text>
+<text x="581.9" y="287.1" text-anchor="start" font-size="12" fill="#57606a" font-weight="normal" xml:space="preserve"><tspan>insoluble, red · fixed on the fibre</tspan></text>
+<text x="175.5" y="115.4" text-anchor="start" font-size="16" fill="#cf222e" font-weight="bold" xml:space="preserve"><tspan>O</tspan></text>
+<text x="175.5" y="235.4" text-anchor="start" font-size="16" fill="#cf222e" font-weight="bold" xml:space="preserve"><tspan>O</tspan></text>
+<text x="119.0" y="115.4" text-anchor="start" font-size="16" fill="#cf222e" font-weight="bold" xml:space="preserve"><tspan>OH</tspan></text>
+<text x="62.6" y="145.4" text-anchor="start" font-size="16" fill="#cf222e" font-weight="bold" xml:space="preserve"><tspan>HO</tspan></text>
+<text x="695.5" y="115.4" text-anchor="start" font-size="16" fill="#cf222e" font-weight="bold" xml:space="preserve"><tspan>O</tspan></text>
+<text x="695.5" y="235.4" text-anchor="start" font-size="16" fill="#cf222e" font-weight="bold" xml:space="preserve"><tspan>O</tspan></text>
+<text x="643.5" y="115.4" text-anchor="start" font-size="16" fill="#cf222e" font-weight="bold" xml:space="preserve"><tspan>O</tspan></text>
+<text x="582.6" y="145.4" text-anchor="start" font-size="16" fill="#cf222e" font-weight="bold" xml:space="preserve"><tspan>HO</tspan></text>
+<text x="665.0" y="92.9" text-anchor="start" font-size="16" fill="#8250df" font-weight="bold" xml:space="preserve"><tspan>Al</tspan></text>
+</svg>
