@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 400" width="940" height="400" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Colour and complementary colours</title>
+<desc id="d">Visible spectrum from 400 to 700 nm and a colour wheel showing complementary colours opposite each other</desc>
+<defs>
+<marker id="arr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0.5 L10,5 L0,9.5 Z" fill="#1f2328"/></marker>
+<marker id="arrS" viewBox="0 0 10 10" refX="1.5" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M10,0.5 L0,5 L10,9.5 Z" fill="#1f2328"/></marker>
+<marker id="arrR" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0.5 L10,5 L0,9.5 Z" fill="#cf222e"/></marker>
+</defs>
+<rect x="0.5" y="0.5" width="939" height="399" rx="12" fill="#ffffff" stroke="#d0d7de"/>
+<defs><linearGradient id="spec" x1="0" x2="1" y1="0" y2="0"><stop offset="0" stop-color="#7a00ff"/><stop offset="0.13" stop-color="#2f3bff"/><stop offset="0.3" stop-color="#00c8ff"/><stop offset="0.43" stop-color="#20e020"/><stop offset="0.6" stop-color="#f5e600"/><stop offset="0.7" stop-color="#ff8a00"/><stop offset="1" stop-color="#e00000"/></linearGradient></defs>
+<text x="188.0" y="35.4" text-anchor="start" font-size="16" fill="#1f2328" font-weight="bold" xml:space="preserve"><tspan>Visible spectrum</tspan></text>
+<rect x="40" y="55" width="440" height="40" rx="6" fill="url(#spec)"/>
+<line x1="40.0" y1="95" x2="40.0" y2="103" stroke="#1f2328" stroke-width="1.4"/>
+<text x="29.9" y="121.1" text-anchor="start" font-size="12" fill="#424a53" font-weight="normal" xml:space="preserve"><tspan>400</tspan></text>
+<line x1="113.3" y1="95" x2="113.3" y2="103" stroke="#1f2328" stroke-width="1.4"/>
+<text x="103.2" y="121.1" text-anchor="start" font-size="12" fill="#424a53" font-weight="normal" xml:space="preserve"><tspan>450</tspan></text>
+<line x1="186.7" y1="95" x2="186.7" y2="103" stroke="#1f2328" stroke-width="1.4"/>
+<text x="176.5" y="121.1" text-anchor="start" font-size="12" fill="#424a53" font-weight="normal" xml:space="preserve"><tspan>500</tspan></text>
+<line x1="260.0" y1="95" x2="260.0" y2="103" stroke="#1f2328" stroke-width="1.4"/>
+<text x="249.9" y="121.1" text-anchor="start" font-size="12" fill="#424a53" font-weight="normal" xml:space="preserve"><tspan>550</tspan></text>
+<line x1="333.3" y1="95" x2="333.3" y2="103" stroke="#1f2328" stroke-width="1.4"/>
+<text x="323.2" y="121.1" text-anchor="start" font-size="12" fill="#424a53" font-weight="normal" xml:space="preserve"><tspan>600</tspan></text>
+<line x1="406.7" y1="95" x2="406.7" y2="103" stroke="#1f2328" stroke-width="1.4"/>
+<text x="396.5" y="121.1" text-anchor="start" font-size="12" fill="#424a53" font-weight="normal" xml:space="preserve"><tspan>650</tspan></text>
+<line x1="480.0" y1="95" x2="480.0" y2="103" stroke="#1f2328" stroke-width="1.4"/>
+<text x="469.9" y="121.1" text-anchor="start" font-size="12" fill="#424a53" font-weight="normal" xml:space="preserve"><tspan>700</tspan></text>
+<text x="209.4" y="142.1" text-anchor="start" font-size="12" fill="#57606a" font-weight="normal" xml:space="preserve"><tspan>wavelength (nm)</tspan></text>
+<text x="40.0" y="174.4" text-anchor="start" font-size="13" fill="#1f2328" font-weight="bold" xml:space="preserve"><tspan>If a substance absorbs …</tspan></text>
+<text x="300.0" y="174.4" text-anchor="start" font-size="13" fill="#1f2328" font-weight="bold" xml:space="preserve"><tspan>… it looks</tspan></text>
+<circle cx="52" cy="198" r="8" fill="#7a00ff"/>
+<text x="70.0" y="202.8" text-anchor="start" font-size="14" fill="#1f2328" font-weight="normal" xml:space="preserve"><tspan>violet (400–435 nm)</tspan></text>
+<line x1="250" y1="198" x2="285" y2="198" stroke="#1f2328" stroke-width="1.6" marker-end="url(#arr)"/>
+<text x="300.0" y="202.8" text-anchor="start" font-size="14" fill="#1f2328" font-weight="bold" xml:space="preserve"><tspan>yellow-green</tspan></text>
+<circle cx="52" cy="232" r="8" fill="#2f3bff"/>
+<text x="70.0" y="236.8" text-anchor="start" font-size="14" fill="#1f2328" font-weight="normal" xml:space="preserve"><tspan>blue (435–480 nm)</tspan></text>
+<line x1="250" y1="232" x2="285" y2="232" stroke="#1f2328" stroke-width="1.6" marker-end="url(#arr)"/>
+<text x="300.0" y="236.8" text-anchor="start" font-size="14" fill="#1f2328" font-weight="bold" xml:space="preserve"><tspan>yellow</tspan></text>
+<circle cx="52" cy="266" r="8" fill="#20c020"/>
+<text x="70.0" y="270.8" text-anchor="start" font-size="14" fill="#1f2328" font-weight="normal" xml:space="preserve"><tspan>green (500–560 nm)</tspan></text>
+<line x1="250" y1="266" x2="285" y2="266" stroke="#1f2328" stroke-width="1.6" marker-end="url(#arr)"/>
+<text x="300.0" y="270.8" text-anchor="start" font-size="14" fill="#1f2328" font-weight="bold" xml:space="preserve"><tspan>purple</tspan></text>
+<circle cx="52" cy="300" r="8" fill="#f5d90a"/>
+<text x="70.0" y="304.8" text-anchor="start" font-size="14" fill="#1f2328" font-weight="normal" xml:space="preserve"><tspan>yellow (580–595 nm)</tspan></text>
+<line x1="250" y1="300" x2="285" y2="300" stroke="#1f2328" stroke-width="1.6" marker-end="url(#arr)"/>
+<text x="300.0" y="304.8" text-anchor="start" font-size="14" fill="#1f2328" font-weight="bold" xml:space="preserve"><tspan>blue</tspan></text>
+<circle cx="52" cy="334" r="8" fill="#e00000"/>
+<text x="70.0" y="338.8" text-anchor="start" font-size="14" fill="#1f2328" font-weight="normal" xml:space="preserve"><tspan>red (605–700 nm)</tspan></text>
+<line x1="250" y1="334" x2="285" y2="334" stroke="#1f2328" stroke-width="1.6" marker-end="url(#arr)"/>
+<text x="300.0" y="338.8" text-anchor="start" font-size="14" fill="#1f2328" font-weight="bold" xml:space="preserve"><tspan>blue-green</tspan></text>
+<path d="M 725,205 L 655.0,83.8 A 140,140 0 0 1 795.0,83.8 Z" fill="#f5d90a" stroke="#fff" stroke-width="2"/>
+<text x="701.4" y="111.8" text-anchor="start" font-size="14" fill="#1f2328" font-weight="bold" xml:space="preserve"><tspan>yellow</tspan></text>
+<path d="M 725,205 L 795.0,83.8 A 140,140 0 0 1 865.0,205.0 Z" fill="#ff8a00" stroke="#fff" stroke-width="2"/>
+<text x="786.2" y="160.8" text-anchor="start" font-size="14" fill="#1f2328" font-weight="bold" xml:space="preserve"><tspan>orange</tspan></text>
+<path d="M 725,205 L 865.0,205.0 A 140,140 0 0 1 795.0,326.2 Z" fill="#e5262b" stroke="#fff" stroke-width="2"/>
+<text x="798.1" y="258.8" text-anchor="start" font-size="14" fill="#fff" font-weight="bold" xml:space="preserve"><tspan>red</tspan></text>
+<path d="M 725,205 L 795.0,326.2 A 140,140 0 0 1 655.0,326.2 Z" fill="#7b3fe4" stroke="#fff" stroke-width="2"/>
+<text x="701.4" y="307.8" text-anchor="start" font-size="14" fill="#fff" font-weight="bold" xml:space="preserve"><tspan>violet</tspan></text>
+<path d="M 725,205 L 655.0,326.2 A 140,140 0 0 1 585.0,205.0 Z" fill="#1f6feb" stroke="#fff" stroke-width="2"/>
+<text x="624.4" y="258.8" text-anchor="start" font-size="14" fill="#fff" font-weight="bold" xml:space="preserve"><tspan>blue</tspan></text>
+<path d="M 725,205 L 585.0,205.0 A 140,140 0 0 1 655.0,83.8 Z" fill="#2da44e" stroke="#fff" stroke-width="2"/>
+<text x="620.4" y="160.8" text-anchor="start" font-size="14" fill="#fff" font-weight="bold" xml:space="preserve"><tspan>green</tspan></text>
+<circle cx="725" cy="205" r="52" fill="#fff"/>
+<text x="691.2" y="201.1" text-anchor="start" font-size="12" fill="#424a53" font-weight="normal" xml:space="preserve"><tspan>opposite =</tspan></text>
+<text x="681.1" y="218.1" text-anchor="start" font-size="12" fill="#424a53" font-weight="normal" xml:space="preserve"><tspan>complementary</tspan></text>
+<text x="539.9" y="376.8" text-anchor="start" font-size="14" fill="#1f2328" font-weight="bold" xml:space="preserve"><tspan>Colour seen = complement of the colour absorbed</tspan></text>
+</svg>
