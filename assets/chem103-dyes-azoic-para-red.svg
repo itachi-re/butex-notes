@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 340" width="1040" height="340" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Azoic (ice colour) dyeing</title>
+<desc id="d">2-Naphthol on the fibre couples with ice-cold 4-nitrobenzenediazonium chloride to form Para Red inside the fibre</desc>
+<defs>
+<marker id="arr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0.5 L10,5 L0,9.5 Z" fill="#1f2328"/></marker>
+<marker id="arrS" viewBox="0 0 10 10" refX="1.5" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M10,0.5 L0,5 L10,9.5 Z" fill="#1f2328"/></marker>
+<marker id="arrR" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0.5 L10,5 L0,9.5 Z" fill="#cf222e"/></marker>
+</defs>
+<rect x="0.5" y="0.5" width="1039" height="339" rx="12" fill="#ffffff" stroke="#d0d7de"/>
+<line x1="102.0" y1="120.0" x2="91.0" y2="139.1" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="97.1" y1="121.2" x2="89.6" y2="134.2" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="91.0" y1="139.1" x2="69.0" y2="139.1" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="69.0" y1="139.1" x2="58.0" y2="120.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="70.4" y1="134.2" x2="62.9" y2="121.2" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="58.0" y1="120.0" x2="69.0" y2="100.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="69.0" y1="100.9" x2="91.0" y2="100.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="72.5" y1="104.5" x2="87.5" y2="104.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="91.0" y1="100.9" x2="102.0" y2="120.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="135.0" y1="139.1" x2="124.0" y2="158.1" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="124.0" y1="158.1" x2="102.0" y2="158.1" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="120.5" y1="154.5" x2="105.5" y2="154.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="102.0" y1="158.1" x2="91.0" y2="139.1" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="102.0" y1="120.0" x2="124.0" y2="120.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="124.0" y1="120.0" x2="135.0" y2="139.1" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="122.6" y1="124.8" x2="130.1" y2="137.8" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="69.0" y1="100.9" x2="63.8" y2="91.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="91.0" y1="100.9" x2="96.2" y2="91.9" stroke="#cf222e" stroke-width="1.8" stroke-linecap="round"/>
+<text x="63.4" y="222.4" text-anchor="start" font-size="13" fill="#1f2328" font-weight="bold" xml:space="preserve"><tspan>2-Naphthol</tspan></text>
+<text x="26.9" y="240.4" text-anchor="start" font-size="10" fill="#57606a" font-weight="normal" xml:space="preserve"><tspan>(on fibre, as sodium salt)</tspan></text>
+<text x="188.2" y="128.2" text-anchor="start" font-size="24" fill="#1f2328" font-weight="normal" xml:space="preserve"><tspan>+</tspan></text>
+<line x1="312.0" y1="130.0" x2="301.0" y2="149.1" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="305.9" y1="130.5" x2="298.4" y2="143.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="301.0" y1="149.1" x2="279.0" y2="149.1" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="279.0" y1="149.1" x2="268.0" y2="130.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="281.6" y1="143.5" x2="274.1" y2="130.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="268.0" y1="130.0" x2="279.0" y2="110.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="279.0" y1="110.9" x2="301.0" y2="110.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="282.5" y1="115.9" x2="297.5" y2="115.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="301.0" y1="110.9" x2="312.0" y2="130.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="268.0" y1="130.0" x2="257.3" y2="130.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="232.2" y1="142.3" x2="234.8" y2="137.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="236.2" y1="144.6" x2="238.8" y2="140.2" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="234.2" y1="116.5" x2="236.8" y2="120.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="312.0" y1="130.0" x2="329.0" y2="130.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="353.3" y1="126.0" x2="365.0" y2="126.0" stroke="#bc4c00" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="353.3" y1="130.0" x2="365.0" y2="130.0" stroke="#bc4c00" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="353.3" y1="134.0" x2="365.0" y2="134.0" stroke="#bc4c00" stroke-width="1.8" stroke-linecap="round"/>
+<text x="245.9" y="222.4" text-anchor="start" font-size="13" fill="#1f2328" font-weight="bold" xml:space="preserve"><tspan>4-Nitrobenzenediazonium</tspan></text>
+<text x="276.6" y="240.4" text-anchor="start" font-size="10" fill="#57606a" font-weight="normal" xml:space="preserve"><tspan>chloride (ice-cold)</tspan></text>
+<line x1="490" y1="130" x2="590" y2="130" stroke="#1f2328" stroke-width="1.8" marker-end="url(#arr)"/>
+<text x="526.5" y="100.1" text-anchor="start" font-size="12" fill="#424a53" font-weight="normal" xml:space="preserve"><tspan>NaOH</tspan></text>
+<text x="519.8" y="116.1" text-anchor="start" font-size="12" fill="#424a53" font-weight="normal" xml:space="preserve"><tspan>0–5 °C</tspan></text>
+<text x="513.0" y="154.1" text-anchor="start" font-size="12" fill="#424a53" font-weight="normal" xml:space="preserve"><tspan>coupling</tspan></text>
+<line x1="682.0" y1="120.0" x2="671.0" y2="139.1" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="677.1" y1="121.2" x2="669.6" y2="134.2" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="671.0" y1="139.1" x2="649.0" y2="139.1" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="649.0" y1="139.1" x2="638.0" y2="120.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="650.4" y1="134.2" x2="642.9" y2="121.2" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="638.0" y1="120.0" x2="649.0" y2="100.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="649.0" y1="100.9" x2="671.0" y2="100.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="652.5" y1="104.5" x2="667.5" y2="104.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="671.0" y1="100.9" x2="682.0" y2="120.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="715.0" y1="139.1" x2="704.0" y2="158.1" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="704.0" y1="158.1" x2="682.0" y2="158.1" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="700.5" y1="154.5" x2="685.5" y2="154.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="682.0" y1="158.1" x2="671.0" y2="139.1" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="682.0" y1="120.0" x2="704.0" y2="120.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="704.0" y1="120.0" x2="715.0" y2="139.1" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="702.6" y1="124.8" x2="710.1" y2="137.8" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="649.0" y1="100.9" x2="643.8" y2="91.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="671.0" y1="100.9" x2="678.2" y2="88.4" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="695.0" y1="77.3" x2="707.0" y2="77.3" stroke="#bc4c00" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="695.0" y1="72.7" x2="707.0" y2="72.7" stroke="#bc4c00" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="764.0" y1="120.0" x2="753.0" y2="139.1" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="753.0" y1="139.1" x2="731.0" y2="139.1" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="749.5" y1="134.1" x2="734.5" y2="134.1" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="731.0" y1="139.1" x2="720.0" y2="120.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="720.0" y1="120.0" x2="731.0" y2="100.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="726.1" y1="119.5" x2="733.6" y2="106.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="731.0" y1="100.9" x2="753.0" y2="100.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="753.0" y1="100.9" x2="764.0" y2="120.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="750.4" y1="106.5" x2="757.9" y2="119.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="723.8" y1="88.4" x2="731.0" y2="100.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="753.0" y1="139.1" x2="758.2" y2="148.1" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="781.3" y1="163.9" x2="783.0" y2="163.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="781.3" y1="159.3" x2="783.0" y2="159.3" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="758.2" y1="175.0" x2="760.8" y2="170.6" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<text x="710.8" y="234.4" text-anchor="start" font-size="13" fill="#1f2328" font-weight="bold" xml:space="preserve"><tspan>Para Red</tspan></text>
+<text x="613.4" y="252.4" text-anchor="start" font-size="10" fill="#57606a" font-weight="normal" xml:space="preserve"><tspan>insoluble red azo pigment formed in the fibre</tspan></text>
+<text x="42.5" y="83.9" text-anchor="start" font-size="16" fill="#cf222e" font-weight="bold" xml:space="preserve"><tspan>HO</tspan></text>
+<text x="99.5" y="83.9" text-anchor="start" font-size="16" fill="#cf222e" font-weight="bold" xml:space="preserve"><tspan>H</tspan></text>
+<text x="237.5" y="135.4" text-anchor="start" font-size="16" fill="#0969da" font-weight="bold" xml:space="preserve"><tspan>N</tspan><tspan dy="-7" font-size="12">+</tspan></text>
+<text x="224.5" y="158.0" text-anchor="start" font-size="16" fill="#cf222e" font-weight="bold" xml:space="preserve"><tspan>O</tspan></text>
+<text x="218.2" y="112.9" text-anchor="start" font-size="16" fill="#cf222e" font-weight="bold" xml:space="preserve"><tspan dy="-7" font-size="12">−</tspan><tspan dy="7">O</tspan></text>
+<text x="333.5" y="135.4" text-anchor="start" font-size="16" fill="#bc4c00" font-weight="bold" xml:space="preserve"><tspan>N</tspan><tspan dy="-7" font-size="12">+</tspan></text>
+<text x="369.5" y="135.4" text-anchor="start" font-size="16" fill="#bc4c00" font-weight="bold" xml:space="preserve"><tspan>N</tspan></text>
+<text x="403.9" y="135.4" text-anchor="start" font-size="16" fill="#1a7f37" font-weight="bold" xml:space="preserve"><tspan>Cl</tspan><tspan dy="-7" font-size="12">−</tspan></text>
+<text x="622.5" y="83.9" text-anchor="start" font-size="16" fill="#cf222e" font-weight="bold" xml:space="preserve"><tspan>HO</tspan></text>
+<text x="681.5" y="80.4" text-anchor="start" font-size="16" fill="#bc4c00" font-weight="bold" xml:space="preserve"><tspan>N</tspan></text>
+<text x="711.5" y="80.4" text-anchor="start" font-size="16" fill="#bc4c00" font-weight="bold" xml:space="preserve"><tspan>N</tspan></text>
+<text x="761.5" y="167.0" text-anchor="start" font-size="16" fill="#0969da" font-weight="bold" xml:space="preserve"><tspan>N</tspan><tspan dy="-7" font-size="12">+</tspan></text>
+<text x="787.5" y="167.0" text-anchor="start" font-size="16" fill="#cf222e" font-weight="bold" xml:space="preserve"><tspan>O</tspan></text>
+<text x="742.2" y="189.5" text-anchor="start" font-size="16" fill="#cf222e" font-weight="bold" xml:space="preserve"><tspan dy="-7" font-size="12">−</tspan><tspan dy="7">O</tspan></text>
+</svg>
