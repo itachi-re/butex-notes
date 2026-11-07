@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" width="900" height="320" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Dye versus pigment</title>
+<desc id="d">A dye is soluble and enters the fibre, a pigment is insoluble and sits on the surface held by a binder</desc>
+<defs>
+<marker id="arr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0.5 L10,5 L0,9.5 Z" fill="#1f2328"/></marker>
+<marker id="arrS" viewBox="0 0 10 10" refX="1.5" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M10,0.5 L0,5 L10,9.5 Z" fill="#1f2328"/></marker>
+<marker id="arrR" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0.5 L10,5 L0,9.5 Z" fill="#cf222e"/></marker>
+</defs>
+<rect x="0.5" y="0.5" width="899" height="319" rx="12" fill="#ffffff" stroke="#d0d7de"/>
+<rect x="30" y="20" width="400" height="230" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="216.5" y="47.4" text-anchor="start" font-size="16" fill="#0969da" font-weight="bold" xml:space="preserve"><tspan>DYE</tspan></text>
+<rect x="470" y="20" width="400" height="230" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="638.5" y="47.4" text-anchor="start" font-size="16" fill="#bc4c00" font-weight="bold" xml:space="preserve"><tspan>PIGMENT</tspan></text>
+<path d="M 50,80 q 20,-8 40,0 t 40,0 t 40,0 t 40,0 t 40,0 t 40,0 t 40,0 t 40,0 t 40,0" fill="none" stroke="#8c959f" stroke-width="3.2" stroke-linecap="round"/>
+<path d="M 50,112 q 20,8 40,0 t 40,0 t 40,0 t 40,0 t 40,0 t 40,0 t 40,0 t 40,0 t 40,0" fill="none" stroke="#8c959f" stroke-width="3.2" stroke-linecap="round"/>
+<path d="M 50,144 q 20,-8 40,0 t 40,0 t 40,0 t 40,0 t 40,0 t 40,0 t 40,0 t 40,0 t 40,0" fill="none" stroke="#8c959f" stroke-width="3.2" stroke-linecap="round"/>
+<path d="M 50,176 q 20,8 40,0 t 40,0 t 40,0 t 40,0 t 40,0 t 40,0 t 40,0 t 40,0 t 40,0" fill="none" stroke="#8c959f" stroke-width="3.2" stroke-linecap="round"/>
+<path d="M 50,208 q 20,-8 40,0 t 40,0 t 40,0 t 40,0 t 40,0 t 40,0 t 40,0 t 40,0 t 40,0" fill="none" stroke="#8c959f" stroke-width="3.2" stroke-linecap="round"/>
+<circle cx="90" cy="96" r="7" fill="#cf222e" stroke="#fff" stroke-width="1.5"/>
+<circle cx="170" cy="96" r="7" fill="#bc4c00" stroke="#fff" stroke-width="1.5"/>
+<circle cx="250" cy="128" r="7" fill="#cf222e" stroke="#fff" stroke-width="1.5"/>
+<circle cx="330" cy="128" r="7" fill="#bc4c00" stroke="#fff" stroke-width="1.5"/>
+<circle cx="130" cy="160" r="7" fill="#bc4c00" stroke="#fff" stroke-width="1.5"/>
+<circle cx="210" cy="160" r="7" fill="#cf222e" stroke="#fff" stroke-width="1.5"/>
+<circle cx="290" cy="192" r="7" fill="#bc4c00" stroke="#fff" stroke-width="1.5"/>
+<circle cx="170" cy="192" r="7" fill="#cf222e" stroke="#fff" stroke-width="1.5"/>
+<circle cx="350" cy="96" r="7" fill="#cf222e" stroke="#fff" stroke-width="1.5"/>
+<circle cx="90" cy="192" r="7" fill="#bc4c00" stroke="#fff" stroke-width="1.5"/>
+<text x="87.7" y="69.7" text-anchor="start" font-size="11" fill="#57606a" font-weight="normal" xml:space="preserve"><tspan>fibre polymer chains with dye molecules inside</tspan></text>
+<path d="M 490,180 q 20,-8 40,0 t 40,0 t 40,0 t 40,0 t 40,0 t 40,0 t 40,0 t 40,0 t 40,0" fill="none" stroke="#8c959f" stroke-width="3.2" stroke-linecap="round"/>
+<path d="M 490,204 q 20,8 40,0 t 40,0 t 40,0 t 40,0 t 40,0 t 40,0 t 40,0 t 40,0 t 40,0" fill="none" stroke="#8c959f" stroke-width="3.2" stroke-linecap="round"/>
+<path d="M 490,228 q 20,-8 40,0 t 40,0 t 40,0 t 40,0 t 40,0 t 40,0 t 40,0 t 40,0 t 40,0" fill="none" stroke="#8c959f" stroke-width="3.2" stroke-linecap="round"/>
+<rect x="490" y="108" width="360" height="52" rx="10" fill="#bde0ff" opacity="0.55" stroke="#54aeff"/>
+<polygon points="544.5,137.3 533.9,148.5 519.4,143.0 515.5,130.1 526.1,121.7 540.6,123.4" fill="#cf222e" stroke="#fff" stroke-width="1.5"/>
+<polygon points="601.6,132.6 593.1,141.6 581.5,137.2 578.4,126.9 586.9,120.1 598.5,121.5" fill="#1f6feb" stroke="#fff" stroke-width="1.5"/>
+<polygon points="665.5,139.5 654.1,151.5 638.7,145.6 634.5,131.9 645.9,122.9 661.3,124.7" fill="#cf222e" stroke="#fff" stroke-width="1.5"/>
+<polygon points="727.6,132.9 718.4,142.6 705.8,137.8 702.4,126.6 711.6,119.3 724.2,120.8" fill="#1f6feb" stroke="#fff" stroke-width="1.5"/>
+<polygon points="794.5,137.3 783.9,148.5 769.4,143.0 765.5,130.1 776.1,121.7 790.6,123.4" fill="#cf222e" stroke="#fff" stroke-width="1.5"/>
+<text x="632.9" y="96.1" text-anchor="start" font-size="12" fill="#0969da" font-weight="bold" xml:space="preserve"><tspan>binder film</tspan></text>
+<text x="580.3" y="69.7" text-anchor="start" font-size="11" fill="#57606a" font-weight="normal" xml:space="preserve"><tspan>particles stay on the surface</tspan></text>
+<text x="39.9" y="289.4" text-anchor="start" font-size="13" fill="#424a53" font-weight="normal" xml:space="preserve"><tspan>soluble · penetrates the fibre · has affinity for it</tspan></text>
+<text x="108.5" y="308.1" text-anchor="start" font-size="12" fill="#57606a" font-weight="normal" xml:space="preserve"><tspan>e.g. methyl orange, indigo, alizarin</tspan></text>
+<text x="498.2" y="289.4" text-anchor="start" font-size="13" fill="#424a53" font-weight="normal" xml:space="preserve"><tspan>insoluble · applied as dispersion with a binder</tspan></text>
+<text x="472.2" y="308.1" text-anchor="start" font-size="12" fill="#57606a" font-weight="normal" xml:space="preserve"><tspan>e.g. TiO</tspan><tspan dy="4" font-size="9">2</tspan><tspan dy="-4">, carbon black, Prussian blue, phthalocyanine blue</tspan></text>
+</svg>
