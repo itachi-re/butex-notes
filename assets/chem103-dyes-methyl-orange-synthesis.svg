@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" width="1200" height="440" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Synthesis of methyl orange</title>
+<desc id="d">Sulfanilic acid is diazotised and coupled with N,N-dimethylaniline to give methyl orange</desc>
+<defs>
+<marker id="arr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0.5 L10,5 L0,9.5 Z" fill="#1f2328"/></marker>
+<marker id="arrS" viewBox="0 0 10 10" refX="1.5" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M10,0.5 L0,5 L10,9.5 Z" fill="#1f2328"/></marker>
+<marker id="arrR" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0.5 L10,5 L0,9.5 Z" fill="#cf222e"/></marker>
+</defs>
+<rect x="0.5" y="0.5" width="1199" height="439" rx="12" fill="#ffffff" stroke="#d0d7de"/>
+<rect x="14" y="12" width="90" height="24" rx="12.0" fill="#1a7f37" opacity="0.12"/>
+<rect x="14" y="12" width="90" height="24" rx="12.0" fill="none" stroke="#1a7f37" stroke-width="1.2"/>
+<text x="35.4" y="28.8" text-anchor="start" font-size="14" fill="#1a7f37" font-weight="bold" xml:space="preserve"><tspan>Step 1</tspan></text>
+<line x1="172.0" y1="95.0" x2="161.0" y2="114.1" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="165.9" y1="95.5" x2="158.4" y2="108.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="161.0" y1="114.1" x2="139.0" y2="114.1" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="139.0" y1="114.1" x2="128.0" y2="95.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="141.6" y1="108.5" x2="134.1" y2="95.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="128.0" y1="95.0" x2="139.0" y2="75.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="139.0" y1="75.9" x2="161.0" y2="75.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="142.5" y1="80.9" x2="157.5" y2="80.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="161.0" y1="75.9" x2="172.0" y2="95.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="128.0" y1="95.0" x2="111.0" y2="95.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="172.0" y1="95.0" x2="189.0" y2="95.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<text x="105.2" y="151.4" text-anchor="start" font-size="13" fill="#1f2328" font-weight="bold" xml:space="preserve"><tspan>Sulfanilic acid</tspan></text>
+<line x1="300" y1="95" x2="440" y2="95" stroke="#1f2328" stroke-width="1.8" marker-end="url(#arr)"/>
+<text x="334.2" y="81.1" text-anchor="start" font-size="12" fill="#424a53" font-weight="normal" xml:space="preserve"><tspan>NaNO</tspan><tspan dy="4" font-size="9">2</tspan><tspan dy="-4"> + HCl</tspan></text>
+<text x="349.8" y="119.1" text-anchor="start" font-size="12" fill="#424a53" font-weight="normal" xml:space="preserve"><tspan>0–5 °C</tspan></text>
+<line x1="572.0" y1="95.0" x2="561.0" y2="114.1" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="565.9" y1="95.5" x2="558.4" y2="108.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="561.0" y1="114.1" x2="539.0" y2="114.1" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="539.0" y1="114.1" x2="528.0" y2="95.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="541.6" y1="108.5" x2="534.1" y2="95.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="528.0" y1="95.0" x2="539.0" y2="75.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="539.0" y1="75.9" x2="561.0" y2="75.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="542.5" y1="80.9" x2="557.5" y2="80.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="561.0" y1="75.9" x2="572.0" y2="95.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="528.0" y1="95.0" x2="511.0" y2="95.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="572.0" y1="95.0" x2="589.0" y2="95.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="613.3" y1="91.0" x2="625.0" y2="91.0" stroke="#bc4c00" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="613.3" y1="95.0" x2="625.0" y2="95.0" stroke="#bc4c00" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="613.3" y1="99.0" x2="625.0" y2="99.0" stroke="#bc4c00" stroke-width="1.8" stroke-linecap="round"/>
+<text x="505.9" y="151.4" text-anchor="start" font-size="13" fill="#1f2328" font-weight="bold" xml:space="preserve"><tspan>4-Sulfobenzenediazonium</tspan></text>
+<text x="556.2" y="169.4" text-anchor="start" font-size="10" fill="#57606a" font-weight="normal" xml:space="preserve"><tspan>(inner salt)</tspan></text>
+<text x="495.5" y="189.1" text-anchor="start" font-size="12" fill="#57606a" font-weight="normal" xml:space="preserve"><tspan>diazonium ion = electrophile</tspan></text>
+<rect x="14" y="207" width="90" height="24" rx="12.0" fill="#bc4c00" opacity="0.12"/>
+<rect x="14" y="207" width="90" height="24" rx="12.0" fill="none" stroke="#bc4c00" stroke-width="1.2"/>
+<text x="35.4" y="223.8" text-anchor="start" font-size="14" fill="#bc4c00" font-weight="bold" xml:space="preserve"><tspan>Step 2</tspan></text>
+<line x1="172.0" y1="290.0" x2="161.0" y2="309.1" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="165.9" y1="290.5" x2="158.4" y2="303.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="161.0" y1="309.1" x2="139.0" y2="309.1" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="139.0" y1="309.1" x2="128.0" y2="290.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="141.6" y1="303.5" x2="134.1" y2="290.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="128.0" y1="290.0" x2="139.0" y2="270.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="139.0" y1="270.9" x2="161.0" y2="270.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="142.5" y1="275.9" x2="157.5" y2="275.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="161.0" y1="270.9" x2="172.0" y2="290.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="128.0" y1="290.0" x2="111.0" y2="290.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="172.0" y1="290.0" x2="189.0" y2="290.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="213.3" y1="286.0" x2="225.0" y2="286.0" stroke="#bc4c00" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="213.3" y1="290.0" x2="225.0" y2="290.0" stroke="#bc4c00" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="213.3" y1="294.0" x2="225.0" y2="294.0" stroke="#bc4c00" stroke-width="1.8" stroke-linecap="round"/>
+<text x="323.2" y="298.2" text-anchor="start" font-size="24" fill="#1f2328" font-weight="normal" xml:space="preserve"><tspan>+</tspan></text>
+<line x1="462.0" y1="290.0" x2="451.0" y2="309.1" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="455.9" y1="290.5" x2="448.4" y2="303.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="451.0" y1="309.1" x2="429.0" y2="309.1" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="429.0" y1="309.1" x2="418.0" y2="290.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="431.6" y1="303.5" x2="424.1" y2="290.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="418.0" y1="290.0" x2="429.0" y2="270.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="429.0" y1="270.9" x2="451.0" y2="270.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="432.5" y1="275.9" x2="447.5" y2="275.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="451.0" y1="270.9" x2="462.0" y2="290.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="418.0" y1="290.0" x2="401.0" y2="290.0" stroke="#cf222e" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="462.0" y1="290.0" x2="479.0" y2="290.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="495.8" y1="276.5" x2="493.2" y2="280.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="495.8" y1="303.5" x2="493.2" y2="299.1" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<text x="400.5" y="364.4" text-anchor="start" font-size="13" fill="#1f2328" font-weight="bold" xml:space="preserve"><tspan>N,N-Dimethylaniline</tspan></text>
+<text x="391.2" y="382.4" text-anchor="start" font-size="10" fill="#57606a" font-weight="normal" xml:space="preserve"><tspan>couples at the para position</tspan></text>
+<line x1="580" y1="290" x2="690" y2="290" stroke="#1f2328" stroke-width="1.8" marker-end="url(#arr)"/>
+<text x="591.1" y="260.1" text-anchor="start" font-size="12" fill="#424a53" font-weight="normal" xml:space="preserve"><tspan>weakly acidic</tspan></text>
+<text x="587.8" y="276.1" text-anchor="start" font-size="12" fill="#424a53" font-weight="normal" xml:space="preserve"><tspan>medium, 0–5 °C</tspan></text>
+<text x="604.6" y="314.1" text-anchor="start" font-size="12" fill="#424a53" font-weight="normal" xml:space="preserve"><tspan>then NaOH</tspan></text>
+<line x1="857.0" y1="280.0" x2="846.0" y2="299.1" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="850.9" y1="280.5" x2="843.4" y2="293.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="846.0" y1="299.1" x2="824.0" y2="299.1" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="824.0" y1="299.1" x2="813.0" y2="280.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="826.6" y1="293.5" x2="819.1" y2="280.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="813.0" y1="280.0" x2="824.0" y2="260.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="824.0" y1="260.9" x2="846.0" y2="260.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="827.5" y1="265.9" x2="842.5" y2="265.9" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="846.0" y1="260.9" x2="857.0" y2="280.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="813.0" y1="280.0" x2="797.1" y2="280.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="857.0" y1="280.0" x2="869.6" y2="287.3" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="888.7" y1="289.3" x2="892.3" y2="287.2" stroke="#bc4c00" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="886.4" y1="285.3" x2="890.0" y2="283.2" stroke="#bc4c00" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="965.8" y1="292.5" x2="954.8" y2="311.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="959.7" y1="293.0" x2="952.2" y2="306.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="954.8" y1="311.5" x2="932.8" y2="311.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="932.8" y1="311.5" x2="921.8" y2="292.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="935.3" y1="306.0" x2="927.9" y2="293.0" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="921.8" y1="292.5" x2="932.8" y2="273.4" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="932.8" y1="273.4" x2="954.8" y2="273.4" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="936.3" y1="278.4" x2="951.3" y2="278.4" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="954.8" y1="273.4" x2="965.8" y2="292.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="909.2" y1="285.2" x2="921.8" y2="292.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="965.8" y1="292.5" x2="981.7" y2="292.5" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="998.5" y1="279.0" x2="995.4" y2="284.3" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="998.5" y1="305.9" x2="995.4" y2="300.6" stroke="#1f2328" stroke-width="1.8" stroke-linecap="round"/>
+<text x="902.5" y="364.4" text-anchor="start" font-size="13" fill="#1f2328" font-weight="bold" xml:space="preserve"><tspan>Methyl orange</tspan></text>
+<text x="893.8" y="382.4" text-anchor="start" font-size="10" fill="#57606a" font-weight="normal" xml:space="preserve"><tspan>sodium salt · orange</tspan></text>
+<text x="73.9" y="100.4" text-anchor="start" font-size="16" fill="#1f2328" font-weight="bold" xml:space="preserve"><tspan>HO</tspan><tspan dy="5" font-size="12">3</tspan><tspan dy="-5">S</tspan></text>
+<text x="193.5" y="100.4" text-anchor="start" font-size="16" fill="#0969da" font-weight="bold" xml:space="preserve"><tspan>NH</tspan><tspan dy="5" font-size="12">2</tspan></text>
+<text x="476.6" y="100.4" text-anchor="start" font-size="16" fill="#1f2328" font-weight="bold" xml:space="preserve"><tspan dy="-7" font-size="12">−</tspan><tspan dy="7">O</tspan><tspan dy="5" font-size="12">3</tspan><tspan dy="-5">S</tspan></text>
+<text x="593.5" y="100.4" text-anchor="start" font-size="16" fill="#bc4c00" font-weight="bold" xml:space="preserve"><tspan>N</tspan><tspan dy="-7" font-size="12">+</tspan></text>
+<text x="629.5" y="100.4" text-anchor="start" font-size="16" fill="#bc4c00" font-weight="bold" xml:space="preserve"><tspan>N</tspan></text>
+<text x="76.6" y="295.4" text-anchor="start" font-size="16" fill="#1f2328" font-weight="bold" xml:space="preserve"><tspan dy="-7" font-size="12">−</tspan><tspan dy="7">O</tspan><tspan dy="5" font-size="12">3</tspan><tspan dy="-5">S</tspan></text>
+<text x="193.5" y="295.4" text-anchor="start" font-size="16" fill="#bc4c00" font-weight="bold" xml:space="preserve"><tspan>N</tspan><tspan dy="-7" font-size="12">+</tspan></text>
+<text x="229.5" y="295.4" text-anchor="start" font-size="16" fill="#bc4c00" font-weight="bold" xml:space="preserve"><tspan>N</tspan></text>
+<text x="387.5" y="295.4" text-anchor="start" font-size="16" fill="#cf222e" font-weight="bold" xml:space="preserve"><tspan>H</tspan></text>
+<text x="483.5" y="295.4" text-anchor="start" font-size="16" fill="#0969da" font-weight="bold" xml:space="preserve"><tspan>N</tspan></text>
+<text x="496.5" y="272.9" text-anchor="start" font-size="16" fill="#1a7f37" font-weight="bold" xml:space="preserve"><tspan>CH</tspan><tspan dy="5" font-size="12">3</tspan></text>
+<text x="496.5" y="318.0" text-anchor="start" font-size="16" fill="#1a7f37" font-weight="bold" xml:space="preserve"><tspan>CH</tspan><tspan dy="5" font-size="12">3</tspan></text>
+<text x="751.0" y="285.4" text-anchor="start" font-size="16" fill="#0969da" font-weight="bold" xml:space="preserve"><tspan>NaO</tspan><tspan dy="5" font-size="12">3</tspan><tspan dy="-5">S</tspan></text>
+<text x="874.1" y="297.9" text-anchor="start" font-size="16" fill="#bc4c00" font-weight="bold" xml:space="preserve"><tspan>N</tspan></text>
+<text x="895.7" y="285.4" text-anchor="start" font-size="16" fill="#bc4c00" font-weight="bold" xml:space="preserve"><tspan>N</tspan></text>
+<text x="986.2" y="297.9" text-anchor="start" font-size="16" fill="#0969da" font-weight="bold" xml:space="preserve"><tspan>N</tspan></text>
+<text x="998.7" y="276.3" text-anchor="start" font-size="16" fill="#1a7f37" font-weight="bold" xml:space="preserve"><tspan>CH</tspan><tspan dy="5" font-size="12">3</tspan></text>
+<text x="998.7" y="319.5" text-anchor="start" font-size="16" fill="#1a7f37" font-weight="bold" xml:space="preserve"><tspan>CH</tspan><tspan dy="5" font-size="12">3</tspan></text>
+</svg>
