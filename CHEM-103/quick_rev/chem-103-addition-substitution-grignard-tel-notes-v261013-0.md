@@ -12,7 +12,7 @@
 
 ### 1.1 Electrophilic addition of HBr to propene (Markovnikov)
 
-![Electrophilic addition of HBr to propene](../../../../assets/electrophilic-addition-hbr-propene.png)
+![Electrophilic addition of HBr to propene](../../assets/electrophilic-addition-hbr-propene.png)
 
 **Markovnikov's rule:** in HX addition to an unsymmetrical alkene, H goes to the carbon that already has more H; X goes to the more substituted carbon, because that route passes through the more stable carbocation (2° > 1°).
 
