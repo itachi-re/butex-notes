@@ -1,0 +1,182 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 800" width="1000" height="800" role="img" aria-labelledby="t d" xmlns:c2pa="http://c2pa.org/manifest">
+<title id="t">Four photostabilizers</title>
+<desc id="d">Structures of 2-hydroxy-4-methoxybenzophenone, 2-(2H-benzotriazol-2-yl)-4-methylphenol, bis(2,2,6,6-tetramethyl-4-piperidyl) sebacate and nickel bis(dibutyldithiocarbamate).</desc>
+<rect x="0" y="0" width="1000" height="800" fill="#ffffff"/>
+<text xml:space="preserve" x="500.0" y="32.0" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="22.0" font-weight="bold" fill="#111111" text-anchor="middle">Photostabilizers: UV absorbers, HALS and quencher</text>
+<rect x="10.0" y="70.0" width="480.0" height="350.0" rx="8" fill="none" stroke="#bbbbbb" stroke-width="1.2"/>
+<rect x="510.0" y="70.0" width="480.0" height="350.0" rx="8" fill="none" stroke="#bbbbbb" stroke-width="1.2"/>
+<rect x="10.0" y="430.0" width="480.0" height="350.0" rx="8" fill="none" stroke="#bbbbbb" stroke-width="1.2"/>
+<rect x="510.0" y="430.0" width="480.0" height="350.0" rx="8" fill="none" stroke="#bbbbbb" stroke-width="1.2"/>
+<text xml:space="preserve" x="30.0" y="98.0" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="15.0" font-weight="bold" fill="#1f5fa8" text-anchor="start">1. 2-Hydroxy-4-methoxybenzophenone</text>
+<line x1="196.0" y1="240.0" x2="178.0" y2="271.2" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="178.0" y1="271.2" x2="142.0" y2="271.2" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="142.0" y1="271.2" x2="124.0" y2="240.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="124.0" y1="240.0" x2="142.0" y2="208.8" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="142.0" y1="208.8" x2="178.0" y2="208.8" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="178.0" y1="208.8" x2="196.0" y2="240.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="174.0" y1="264.3" x2="146.0" y2="264.3" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="132.0" y1="240.0" x2="146.0" y2="215.7" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="174.0" y1="215.7" x2="188.0" y2="240.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="178.0" y1="271.2" x2="187.5" y2="287.4" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<text xml:space="preserve" x="185.8" y="300.8" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="16.0" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#ffffff" stroke-width="5" stroke-linejoin="round">OH</text>
+<text xml:space="preserve" x="185.8" y="300.8" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="16.0" font-weight="normal" fill="#111111" text-anchor="start">OH</text>
+<line x1="124.0" y1="240.0" x2="107.0" y2="240.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<text xml:space="preserve" x="62.4" y="245.6" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="16.0" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#ffffff" stroke-width="5" stroke-linejoin="round">H</text>
+<text xml:space="preserve" x="74.0" y="249.1" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="11.2" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#ffffff" stroke-width="5" stroke-linejoin="round">3</text>
+<text xml:space="preserve" x="80.2" y="245.6" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="16.0" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#ffffff" stroke-width="5" stroke-linejoin="round">CO</text>
+<text xml:space="preserve" x="62.4" y="245.6" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="16.0" font-weight="normal" fill="#111111" text-anchor="start">H</text>
+<text xml:space="preserve" x="74.0" y="249.1" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="11.2" font-weight="normal" fill="#111111" text-anchor="start">3</text>
+<text xml:space="preserve" x="80.2" y="245.6" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="16.0" font-weight="normal" fill="#111111" text-anchor="start">CO</text>
+<line x1="196.0" y1="240.0" x2="224.0" y2="240.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="220.6" y1="240.0" x2="220.6" y2="219.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="227.4" y1="240.0" x2="227.4" y2="219.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<text xml:space="preserve" x="224.0" y="215.6" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="16.0" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#ffffff" stroke-width="5" stroke-linejoin="round">O</text>
+<text xml:space="preserve" x="224.0" y="215.6" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="16.0" font-weight="normal" fill="#111111" text-anchor="middle">O</text>
+<line x1="224.0" y1="240.0" x2="252.0" y2="240.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="324.0" y1="240.0" x2="306.0" y2="271.2" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="306.0" y1="271.2" x2="270.0" y2="271.2" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="270.0" y1="271.2" x2="252.0" y2="240.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="252.0" y1="240.0" x2="270.0" y2="208.8" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="270.0" y1="208.8" x2="306.0" y2="208.8" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="306.0" y1="208.8" x2="324.0" y2="240.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="302.0" y1="264.3" x2="274.0" y2="264.3" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="260.0" y1="240.0" x2="274.0" y2="215.7" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="302.0" y1="215.7" x2="316.0" y2="240.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<text xml:space="preserve" x="250.0" y="360.0" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="13.0" font-weight="normal" fill="#555555" text-anchor="middle">UV absorber (benzophenone type)</text>
+<text xml:space="preserve" x="250.0" y="380.0" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="13.0" font-weight="normal" fill="#555555" text-anchor="middle">o-OH···O=C hydrogen bond → harmless heat (ESIPT)</text>
+<text xml:space="preserve" x="530.0" y="98.0" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="15.0" font-weight="bold" fill="#1f5fa8" text-anchor="start">2. 2-(2H-Benzotriazol-2-yl)-4-methylphenol</text>
+<line x1="697.0" y1="195.0" x2="723.0" y2="195.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="723.0" y1="195.0" x2="736.0" y2="172.5" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="736.0" y1="172.5" x2="723.0" y2="150.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="723.0" y1="150.0" x2="697.0" y2="150.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="697.0" y1="150.0" x2="684.0" y2="172.5" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="684.0" y1="172.5" x2="697.0" y2="195.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="730.3" y1="172.5" x2="720.1" y2="154.9" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="699.9" y1="154.9" x2="689.7" y2="172.5" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="697.0" y1="195.0" x2="723.0" y2="195.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="723.0" y1="195.0" x2="727.9" y2="210.2" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="722.9" y1="225.6" x2="718.1" y2="229.1" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="701.9" y1="229.1" x2="697.1" y2="225.6" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="692.1" y1="210.2" x2="697.0" y2="195.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="720.1" y1="199.0" x2="723.9" y2="210.6" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="696.1" y1="210.6" x2="699.9" y2="199.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<text xml:space="preserve" x="731.0" y="225.3" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="16.0" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#ffffff" stroke-width="5" stroke-linejoin="round">N</text>
+<text xml:space="preserve" x="731.0" y="225.3" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="16.0" font-weight="normal" fill="#111111" text-anchor="middle">N</text>
+<text xml:space="preserve" x="710.0" y="240.6" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="16.0" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#ffffff" stroke-width="5" stroke-linejoin="round">N</text>
+<text xml:space="preserve" x="710.0" y="240.6" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="16.0" font-weight="normal" fill="#111111" text-anchor="middle">N</text>
+<text xml:space="preserve" x="689.0" y="225.3" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="16.0" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#ffffff" stroke-width="5" stroke-linejoin="round">N</text>
+<text xml:space="preserve" x="689.0" y="225.3" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="16.0" font-weight="normal" fill="#111111" text-anchor="middle">N</text>
+<line x1="710.0" y1="245.0" x2="710.0" y2="263.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="710.0" y1="263.0" x2="736.0" y2="278.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="736.0" y1="278.0" x2="736.0" y2="308.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="736.0" y1="308.0" x2="710.0" y2="323.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="710.0" y1="323.0" x2="684.0" y2="308.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="684.0" y1="308.0" x2="684.0" y2="278.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="684.0" y1="278.0" x2="710.0" y2="263.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="730.2" y1="281.3" x2="730.2" y2="304.7" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="710.0" y1="316.4" x2="689.8" y2="304.7" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="689.8" y1="281.3" x2="710.0" y2="269.6" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="684.0" y1="278.0" x2="673.5" y2="271.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<text xml:space="preserve" x="671.8" y="271.6" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="16.0" font-weight="normal" fill="#ffffff" text-anchor="end" stroke="#ffffff" stroke-width="5" stroke-linejoin="round">OH</text>
+<text xml:space="preserve" x="671.8" y="271.6" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="16.0" font-weight="normal" fill="#111111" text-anchor="end">OH</text>
+<line x1="736.0" y1="308.0" x2="744.6" y2="313.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<text xml:space="preserve" x="751.0" y="325.6" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="16.0" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#ffffff" stroke-width="5" stroke-linejoin="round">CH</text>
+<text xml:space="preserve" x="774.1" y="329.1" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="11.2" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#ffffff" stroke-width="5" stroke-linejoin="round">3</text>
+<text xml:space="preserve" x="751.0" y="325.6" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="16.0" font-weight="normal" fill="#111111" text-anchor="start">CH</text>
+<text xml:space="preserve" x="774.1" y="329.1" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="11.2" font-weight="normal" fill="#111111" text-anchor="start">3</text>
+<text xml:space="preserve" x="750.0" y="370.0" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="13.0" font-weight="normal" fill="#555555" text-anchor="middle">UV absorber (benzotriazole type; Tinuvin P)</text>
+<text xml:space="preserve" x="750.0" y="390.0" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="13.0" font-weight="normal" fill="#555555" text-anchor="middle">o-OH···N hydrogen bond → harmless heat (ESIPT)</text>
+<text xml:space="preserve" x="30.0" y="458.0" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="15.0" font-weight="bold" fill="#1f5fa8" text-anchor="start">3. Bis(2,2,6,6-tetramethyl-4-piperidyl) sebacate</text>
+<line x1="120.0" y1="617.0" x2="144.2" y2="631.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="144.2" y1="631.0" x2="144.2" y2="659.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="144.2" y1="659.0" x2="120.0" y2="673.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="120.0" y1="673.0" x2="95.8" y2="659.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="95.8" y1="659.0" x2="95.8" y2="631.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="95.8" y1="631.0" x2="120.0" y2="617.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="144.2" y1="659.0" x2="165.5" y2="653.3" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="144.2" y1="659.0" x2="149.9" y2="680.3" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="95.8" y1="659.0" x2="90.1" y2="680.3" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="95.8" y1="659.0" x2="74.5" y2="653.3" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="350.0" y1="617.0" x2="374.2" y2="631.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="374.2" y1="631.0" x2="374.2" y2="659.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="374.2" y1="659.0" x2="350.0" y2="673.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="350.0" y1="673.0" x2="325.8" y2="659.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="325.8" y1="659.0" x2="325.8" y2="631.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="325.8" y1="631.0" x2="350.0" y2="617.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="374.2" y1="659.0" x2="395.5" y2="653.3" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="374.2" y1="659.0" x2="379.9" y2="680.3" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="325.8" y1="659.0" x2="320.1" y2="680.3" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="325.8" y1="659.0" x2="304.5" y2="653.3" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<text xml:space="preserve" x="114.2" y="678.6" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="16.0" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#ffffff" stroke-width="5" stroke-linejoin="round">NH</text>
+<text xml:space="preserve" x="114.2" y="678.6" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="16.0" font-weight="normal" fill="#111111" text-anchor="start">NH</text>
+<text xml:space="preserve" x="344.2" y="678.6" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="16.0" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#ffffff" stroke-width="5" stroke-linejoin="round">NH</text>
+<text xml:space="preserve" x="344.2" y="678.6" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="16.0" font-weight="normal" fill="#111111" text-anchor="start">NH</text>
+<line x1="120.0" y1="617.0" x2="120.0" y2="589.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<text xml:space="preserve" x="120.0" y="585.6" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="16.0" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#ffffff" stroke-width="5" stroke-linejoin="round">O</text>
+<text xml:space="preserve" x="120.0" y="585.6" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="16.0" font-weight="normal" fill="#111111" text-anchor="middle">O</text>
+<line x1="350.0" y1="617.0" x2="350.0" y2="589.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<text xml:space="preserve" x="350.0" y="585.6" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="16.0" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#ffffff" stroke-width="5" stroke-linejoin="round">O</text>
+<text xml:space="preserve" x="350.0" y="585.6" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="16.0" font-weight="normal" fill="#111111" text-anchor="middle">O</text>
+<line x1="127.8" y1="575.4" x2="154.0" y2="560.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="150.6" y1="560.0" x2="150.6" y2="541.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="157.4" y1="560.0" x2="157.4" y2="541.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<text xml:space="preserve" x="154.0" y="537.6" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="16.0" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#ffffff" stroke-width="5" stroke-linejoin="round">O</text>
+<text xml:space="preserve" x="154.0" y="537.6" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="16.0" font-weight="normal" fill="#111111" text-anchor="middle">O</text>
+<line x1="342.2" y1="575.4" x2="316.0" y2="560.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="312.6" y1="560.0" x2="312.6" y2="541.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="319.4" y1="560.0" x2="319.4" y2="541.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<text xml:space="preserve" x="316.0" y="537.6" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="16.0" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#ffffff" stroke-width="5" stroke-linejoin="round">O</text>
+<text xml:space="preserve" x="316.0" y="537.6" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="16.0" font-weight="normal" fill="#111111" text-anchor="middle">O</text>
+<line x1="154.0" y1="560.0" x2="204.0" y2="582.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="316.0" y1="560.0" x2="268.0" y2="582.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<text xml:space="preserve" x="214.3" y="586.0" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="15.0" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#ffffff" stroke-width="5" stroke-linejoin="round">(CH</text>
+<text xml:space="preserve" x="241.0" y="589.3" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="10.5" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#ffffff" stroke-width="5" stroke-linejoin="round">2</text>
+<text xml:space="preserve" x="246.8" y="586.0" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="15.0" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#ffffff" stroke-width="5" stroke-linejoin="round">)</text>
+<text xml:space="preserve" x="251.8" y="589.3" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="10.5" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#ffffff" stroke-width="5" stroke-linejoin="round">8</text>
+<text xml:space="preserve" x="214.3" y="586.0" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="15.0" font-weight="normal" fill="#111111" text-anchor="start">(CH</text>
+<text xml:space="preserve" x="241.0" y="589.3" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="10.5" font-weight="normal" fill="#111111" text-anchor="start">2</text>
+<text xml:space="preserve" x="246.8" y="586.0" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="15.0" font-weight="normal" fill="#111111" text-anchor="start">)</text>
+<text xml:space="preserve" x="251.8" y="589.3" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="10.5" font-weight="normal" fill="#111111" text-anchor="start">8</text>
+<text xml:space="preserve" x="236.0" y="730.0" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="13.0" font-weight="normal" fill="#555555" text-anchor="middle">HALS: scavenges radicals via nitroxyl (N–O•) cycle</text>
+<text xml:space="preserve" x="236.0" y="752.0" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="13.0" font-weight="normal" fill="#555555" text-anchor="middle">(4 CH3 on each ring; N–H hindered amine)</text>
+<text xml:space="preserve" x="530.0" y="458.0" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="15.0" font-weight="bold" fill="#1f5fa8" text-anchor="start">4. Nickel bis(dibutyldithiocarbamate)</text>
+<text xml:space="preserve" x="750.0" y="626.0" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="17.0" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#ffffff" stroke-width="5" stroke-linejoin="round">Ni</text>
+<text xml:space="preserve" x="750.0" y="626.0" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="17.0" font-weight="normal" fill="#111111" text-anchor="middle">Ni</text>
+<line x1="741.3" y1="613.2" x2="721.9" y2="598.1" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="741.3" y1="626.8" x2="721.9" y2="641.9" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="708.2" y1="600.8" x2="680.1" y2="622.7" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="704.0" y1="595.5" x2="675.9" y2="617.3" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="706.1" y1="641.9" x2="678.0" y2="620.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<text xml:space="preserve" x="714.0" y="597.6" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="16.0" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#ffffff" stroke-width="5" stroke-linejoin="round">S</text>
+<text xml:space="preserve" x="714.0" y="597.6" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="16.0" font-weight="normal" fill="#111111" text-anchor="middle">S</text>
+<text xml:space="preserve" x="714.0" y="653.6" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="16.0" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#ffffff" stroke-width="5" stroke-linejoin="round">S</text>
+<text xml:space="preserve" x="714.0" y="653.6" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="16.0" font-weight="normal" fill="#111111" text-anchor="middle">S</text>
+<line x1="678.0" y1="620.0" x2="652.0" y2="620.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<text xml:space="preserve" x="642.0" y="625.6" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="16.0" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#ffffff" stroke-width="5" stroke-linejoin="round">N</text>
+<text xml:space="preserve" x="642.0" y="625.6" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="16.0" font-weight="normal" fill="#111111" text-anchor="middle">N</text>
+<line x1="634.7" y1="613.2" x2="625.6" y2="604.8" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<text xml:space="preserve" x="620.2" y="601.2" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="15.0" font-weight="normal" fill="#ffffff" text-anchor="end" stroke="#ffffff" stroke-width="5" stroke-linejoin="round">Bu</text>
+<text xml:space="preserve" x="620.2" y="601.2" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="15.0" font-weight="normal" fill="#111111" text-anchor="end">Bu</text>
+<line x1="634.7" y1="626.8" x2="625.6" y2="635.2" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<text xml:space="preserve" x="620.2" y="649.2" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="15.0" font-weight="normal" fill="#ffffff" text-anchor="end" stroke="#ffffff" stroke-width="5" stroke-linejoin="round">Bu</text>
+<text xml:space="preserve" x="620.2" y="649.2" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="15.0" font-weight="normal" fill="#111111" text-anchor="end">Bu</text>
+<line x1="758.7" y1="613.2" x2="778.1" y2="598.1" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="758.7" y1="626.8" x2="778.1" y2="641.9" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="796.0" y1="595.5" x2="824.1" y2="617.3" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="791.8" y1="600.8" x2="819.9" y2="622.7" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="793.9" y1="641.9" x2="822.0" y2="620.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<text xml:space="preserve" x="786.0" y="597.6" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="16.0" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#ffffff" stroke-width="5" stroke-linejoin="round">S</text>
+<text xml:space="preserve" x="786.0" y="597.6" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="16.0" font-weight="normal" fill="#111111" text-anchor="middle">S</text>
+<text xml:space="preserve" x="786.0" y="653.6" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="16.0" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#ffffff" stroke-width="5" stroke-linejoin="round">S</text>
+<text xml:space="preserve" x="786.0" y="653.6" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="16.0" font-weight="normal" fill="#111111" text-anchor="middle">S</text>
+<line x1="822.0" y1="620.0" x2="848.0" y2="620.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<text xml:space="preserve" x="858.0" y="625.6" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="16.0" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#ffffff" stroke-width="5" stroke-linejoin="round">N</text>
+<text xml:space="preserve" x="858.0" y="625.6" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="16.0" font-weight="normal" fill="#111111" text-anchor="middle">N</text>
+<line x1="865.3" y1="613.2" x2="874.4" y2="604.8" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<text xml:space="preserve" x="879.0" y="601.2" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="15.0" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#ffffff" stroke-width="5" stroke-linejoin="round">Bu</text>
+<text xml:space="preserve" x="879.0" y="601.2" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="15.0" font-weight="normal" fill="#111111" text-anchor="start">Bu</text>
+<line x1="865.3" y1="626.8" x2="874.4" y2="635.2" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<text xml:space="preserve" x="879.0" y="649.2" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="15.0" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#ffffff" stroke-width="5" stroke-linejoin="round">Bu</text>
+<text xml:space="preserve" x="879.0" y="649.2" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="15.0" font-weight="normal" fill="#111111" text-anchor="start">Bu</text>
+<text xml:space="preserve" x="750.0" y="730.0" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="13.0" font-weight="normal" fill="#555555" text-anchor="middle">Quencher: deactivates excited chromophores (Bu = n-C4H9)</text>
+<metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYToyODA0MWM5Zi0xNTk3LTRiMDQtYjYzZS0yMDYxMTJjYWNjZTcAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaFi8ELf7qZEl8W2tRU58pUIAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDphZTM1YzM5Ny1lOGVmLTRhODMtOGVjNi1kZTI1N2ZjM2UyNmFscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoX/Q56DnGjQcnNqqJNzAAXwAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggUHA1jOjja/HrEIvky3aw5kICPIyA1R3gqW5gG/Dw8SWkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaMmRExhVPCvojoPoyWrVt5sAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYILxvHE3jbiSyMLH0iewknd3jMDWh9p84Mv3JAAkuhKUKZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GW3ZZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjI4MDQxYzlmLTE1OTctNGIwNC1iNjNlLTIwNjExMmNhY2NlNy9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjkwYjYyYWY0LTE3MDUtNGU5MS04MzE0LWEzYTNkYTkxY2M1MnJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCBQcDWM6ONr8esQi+TLdrDmQgI8jIDVHeCpbmAb8PDxJaJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggGjlzMiwovoFIJhdn3G6PeYpie5ah8aBXWEWNoWQIVfiiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggNdQB9ZjAXfRJwQqXkakqmdDbhyt/kociEGqYMZugN190Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQIKxqX4O2ntpSiD0Bc8MmY+6k633pFY65LOzu6JnJjQOcO5o/CFtFOb2rf6h2MaybTcsgXC5LLIBaBo663ianCk=</c2pa:manifest></metadata></svg>
