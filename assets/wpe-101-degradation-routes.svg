@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" width="1000" height="620" role="img" aria-labelledby="t d" xmlns:c2pa="http://c2pa.org/manifest">
+<title id="t">Polymer degradation routes</title>
+<desc id="d">Four panels: random chain scission, depolymerisation or unzipping to monomer, thermal oxidation as a radical cycle, and photo-oxidation initiated by ultraviolet light.</desc>
+<rect x="0" y="0" width="1000" height="620" fill="#ffffff"/>
+<text xml:space="preserve" x="500.0" y="32.0" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="22.0" font-weight="bold" fill="#111111" text-anchor="middle">Degradation routes</text>
+<rect x="10.0" y="70.0" width="485.0" height="255.0" rx="8" fill="none" stroke="#bbbbbb" stroke-width="1.2"/>
+<text xml:space="preserve" x="252.0" y="96.0" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="15.0" font-weight="bold" fill="#111111" text-anchor="middle">1. Random chain scission (heat, shear, hydrolysis)</text>
+<line x1="60.0" y1="150.0" x2="84.0" y2="150.0" stroke="#444" stroke-width="2" stroke-linecap="round"/>
+<line x1="84.0" y1="150.0" x2="108.0" y2="150.0" stroke="#444" stroke-width="2" stroke-linecap="round"/>
+<line x1="108.0" y1="150.0" x2="132.0" y2="150.0" stroke="#444" stroke-width="2" stroke-linecap="round"/>
+<line x1="132.0" y1="150.0" x2="156.0" y2="150.0" stroke="#444" stroke-width="2" stroke-linecap="round"/>
+<line x1="156.0" y1="150.0" x2="180.0" y2="150.0" stroke="#444" stroke-width="2" stroke-linecap="round"/>
+<line x1="180.0" y1="150.0" x2="204.0" y2="150.0" stroke="#444" stroke-width="2" stroke-linecap="round"/>
+<line x1="204.0" y1="150.0" x2="228.0" y2="150.0" stroke="#444" stroke-width="2" stroke-linecap="round"/>
+<line x1="228.0" y1="150.0" x2="252.0" y2="150.0" stroke="#444" stroke-width="2" stroke-linecap="round"/>
+<line x1="252.0" y1="150.0" x2="276.0" y2="150.0" stroke="#444" stroke-width="2" stroke-linecap="round"/>
+<line x1="276.0" y1="150.0" x2="300.0" y2="150.0" stroke="#444" stroke-width="2" stroke-linecap="round"/>
+<line x1="300.0" y1="150.0" x2="324.0" y2="150.0" stroke="#444" stroke-width="2" stroke-linecap="round"/>
+<line x1="324.0" y1="150.0" x2="348.0" y2="150.0" stroke="#444" stroke-width="2" stroke-linecap="round"/>
+<line x1="348.0" y1="150.0" x2="372.0" y2="150.0" stroke="#444" stroke-width="2" stroke-linecap="round"/>
+<line x1="372.0" y1="150.0" x2="396.0" y2="150.0" stroke="#444" stroke-width="2" stroke-linecap="round"/>
+<line x1="396.0" y1="150.0" x2="420.0" y2="150.0" stroke="#444" stroke-width="2" stroke-linecap="round"/>
+<line x1="420.0" y1="150.0" x2="444.0" y2="150.0" stroke="#444" stroke-width="2" stroke-linecap="round"/>
+<circle cx="60.0" cy="150.0" r="9" fill="#1f5fa8" stroke="#111111" stroke-width="1.5"/>
+<circle cx="84.0" cy="150.0" r="9" fill="#1f5fa8" stroke="#111111" stroke-width="1.5"/>
+<circle cx="108.0" cy="150.0" r="9" fill="#1f5fa8" stroke="#111111" stroke-width="1.5"/>
+<circle cx="132.0" cy="150.0" r="9" fill="#1f5fa8" stroke="#111111" stroke-width="1.5"/>
+<circle cx="156.0" cy="150.0" r="9" fill="#1f5fa8" stroke="#111111" stroke-width="1.5"/>
+<circle cx="180.0" cy="150.0" r="9" fill="#1f5fa8" stroke="#111111" stroke-width="1.5"/>
+<circle cx="204.0" cy="150.0" r="9" fill="#1f5fa8" stroke="#111111" stroke-width="1.5"/>
+<circle cx="228.0" cy="150.0" r="9" fill="#1f5fa8" stroke="#111111" stroke-width="1.5"/>
+<circle cx="252.0" cy="150.0" r="9" fill="#1f5fa8" stroke="#111111" stroke-width="1.5"/>
+<circle cx="276.0" cy="150.0" r="9" fill="#1f5fa8" stroke="#111111" stroke-width="1.5"/>
+<circle cx="300.0" cy="150.0" r="9" fill="#1f5fa8" stroke="#111111" stroke-width="1.5"/>
+<circle cx="324.0" cy="150.0" r="9" fill="#1f5fa8" stroke="#111111" stroke-width="1.5"/>
+<circle cx="348.0" cy="150.0" r="9" fill="#1f5fa8" stroke="#111111" stroke-width="1.5"/>
+<circle cx="372.0" cy="150.0" r="9" fill="#1f5fa8" stroke="#111111" stroke-width="1.5"/>
+<circle cx="396.0" cy="150.0" r="9" fill="#1f5fa8" stroke="#111111" stroke-width="1.5"/>
+<circle cx="420.0" cy="150.0" r="9" fill="#1f5fa8" stroke="#111111" stroke-width="1.5"/>
+<circle cx="444.0" cy="150.0" r="9" fill="#1f5fa8" stroke="#111111" stroke-width="1.5"/>
+<line x1="258.0" y1="138.0" x2="270.0" y2="162.0" stroke="#c62828" stroke-width="3" stroke-linecap="round"/>
+<line x1="270.0" y1="138.0" x2="258.0" y2="162.0" stroke="#c62828" stroke-width="3" stroke-linecap="round"/>
+<line x1="252.0" y1="170.0" x2="252.0" y2="192.0" stroke="#111111" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="252.0,200.0 248.3,190.7 255.7,190.7" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round"/>
+<line x1="60.0" y1="235.0" x2="84.0" y2="235.0" stroke="#444" stroke-width="2" stroke-linecap="round"/>
+<line x1="84.0" y1="235.0" x2="108.0" y2="235.0" stroke="#444" stroke-width="2" stroke-linecap="round"/>
+<line x1="108.0" y1="235.0" x2="132.0" y2="235.0" stroke="#444" stroke-width="2" stroke-linecap="round"/>
+<line x1="132.0" y1="235.0" x2="156.0" y2="235.0" stroke="#444" stroke-width="2" stroke-linecap="round"/>
+<line x1="156.0" y1="235.0" x2="180.0" y2="235.0" stroke="#444" stroke-width="2" stroke-linecap="round"/>
+<line x1="180.0" y1="235.0" x2="204.0" y2="235.0" stroke="#444" stroke-width="2" stroke-linecap="round"/>
+<line x1="204.0" y1="235.0" x2="228.0" y2="235.0" stroke="#444" stroke-width="2" stroke-linecap="round"/>
+<circle cx="60.0" cy="235.0" r="9" fill="#1f5fa8" stroke="#111111" stroke-width="1.5"/>
+<circle cx="84.0" cy="235.0" r="9" fill="#1f5fa8" stroke="#111111" stroke-width="1.5"/>
+<circle cx="108.0" cy="235.0" r="9" fill="#1f5fa8" stroke="#111111" stroke-width="1.5"/>
+<circle cx="132.0" cy="235.0" r="9" fill="#1f5fa8" stroke="#111111" stroke-width="1.5"/>
+<circle cx="156.0" cy="235.0" r="9" fill="#1f5fa8" stroke="#111111" stroke-width="1.5"/>
+<circle cx="180.0" cy="235.0" r="9" fill="#1f5fa8" stroke="#111111" stroke-width="1.5"/>
+<circle cx="204.0" cy="235.0" r="9" fill="#1f5fa8" stroke="#111111" stroke-width="1.5"/>
+<circle cx="228.0" cy="235.0" r="9" fill="#1f5fa8" stroke="#111111" stroke-width="1.5"/>
+<line x1="272.0" y1="235.0" x2="296.0" y2="235.0" stroke="#444" stroke-width="2" stroke-linecap="round"/>
+<line x1="296.0" y1="235.0" x2="320.0" y2="235.0" stroke="#444" stroke-width="2" stroke-linecap="round"/>
+<line x1="320.0" y1="235.0" x2="344.0" y2="235.0" stroke="#444" stroke-width="2" stroke-linecap="round"/>
+<line x1="344.0" y1="235.0" x2="368.0" y2="235.0" stroke="#444" stroke-width="2" stroke-linecap="round"/>
+<line x1="368.0" y1="235.0" x2="392.0" y2="235.0" stroke="#444" stroke-width="2" stroke-linecap="round"/>
+<line x1="392.0" y1="235.0" x2="416.0" y2="235.0" stroke="#444" stroke-width="2" stroke-linecap="round"/>
+<line x1="416.0" y1="235.0" x2="440.0" y2="235.0" stroke="#444" stroke-width="2" stroke-linecap="round"/>
+<line x1="440.0" y1="235.0" x2="464.0" y2="235.0" stroke="#444" stroke-width="2" stroke-linecap="round"/>
+<circle cx="272.0" cy="235.0" r="9" fill="#1f5fa8" stroke="#111111" stroke-width="1.5"/>
+<circle cx="296.0" cy="235.0" r="9" fill="#1f5fa8" stroke="#111111" stroke-width="1.5"/>
+<circle cx="320.0" cy="235.0" r="9" fill="#1f5fa8" stroke="#111111" stroke-width="1.5"/>
+<circle cx="344.0" cy="235.0" r="9" fill="#1f5fa8" stroke="#111111" stroke-width="1.5"/>
+<circle cx="368.0" cy="235.0" r="9" fill="#1f5fa8" stroke="#111111" stroke-width="1.5"/>
+<circle cx="392.0" cy="235.0" r="9" fill="#1f5fa8" stroke="#111111" stroke-width="1.5"/>
+<circle cx="416.0" cy="235.0" r="9" fill="#1f5fa8" stroke="#111111" stroke-width="1.5"/>
+<circle cx="440.0" cy="235.0" r="9" fill="#1f5fa8" stroke="#111111" stroke-width="1.5"/>
+<circle cx="464.0" cy="235.0" r="9" fill="#1f5fa8" stroke="#111111" stroke-width="1.5"/>
+<text xml:space="preserve" x="252.0" y="280.0" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="13.0" font-weight="normal" fill="#555555" text-anchor="middle">M falls fast, no monomer released</text>
+<text xml:space="preserve" x="252.0" y="300.0" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="13.0" font-weight="normal" fill="#555555" text-anchor="middle">e.g. PE, PP, PET (hydrolysis), nylon</text>
+<rect x="505.0" y="70.0" width="485.0" height="255.0" rx="8" fill="none" stroke="#bbbbbb" stroke-width="1.2"/>
+<text xml:space="preserve" x="747.0" y="96.0" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="15.0" font-weight="bold" fill="#111111" text-anchor="middle">2. Depolymerisation (unzipping)</text>
+<line x1="560.0" y1="150.0" x2="586.0" y2="150.0" stroke="#444" stroke-width="2" stroke-linecap="round"/>
+<line x1="586.0" y1="150.0" x2="612.0" y2="150.0" stroke="#444" stroke-width="2" stroke-linecap="round"/>
+<line x1="612.0" y1="150.0" x2="638.0" y2="150.0" stroke="#444" stroke-width="2" stroke-linecap="round"/>
+<line x1="638.0" y1="150.0" x2="664.0" y2="150.0" stroke="#444" stroke-width="2" stroke-linecap="round"/>
+<line x1="664.0" y1="150.0" x2="690.0" y2="150.0" stroke="#444" stroke-width="2" stroke-linecap="round"/>
+<line x1="690.0" y1="150.0" x2="716.0" y2="150.0" stroke="#444" stroke-width="2" stroke-linecap="round"/>
+<line x1="716.0" y1="150.0" x2="742.0" y2="150.0" stroke="#444" stroke-width="2" stroke-linecap="round"/>
+<line x1="742.0" y1="150.0" x2="768.0" y2="150.0" stroke="#444" stroke-width="2" stroke-linecap="round"/>
+<line x1="768.0" y1="150.0" x2="794.0" y2="150.0" stroke="#444" stroke-width="2" stroke-linecap="round"/>
+<circle cx="560.0" cy="150.0" r="9" fill="#1f5fa8" stroke="#111111" stroke-width="1.5"/>
+<circle cx="586.0" cy="150.0" r="9" fill="#1f5fa8" stroke="#111111" stroke-width="1.5"/>
+<circle cx="612.0" cy="150.0" r="9" fill="#1f5fa8" stroke="#111111" stroke-width="1.5"/>
+<circle cx="638.0" cy="150.0" r="9" fill="#1f5fa8" stroke="#111111" stroke-width="1.5"/>
+<circle cx="664.0" cy="150.0" r="9" fill="#1f5fa8" stroke="#111111" stroke-width="1.5"/>
+<circle cx="690.0" cy="150.0" r="9" fill="#1f5fa8" stroke="#111111" stroke-width="1.5"/>
+<circle cx="716.0" cy="150.0" r="9" fill="#1f5fa8" stroke="#111111" stroke-width="1.5"/>
+<circle cx="742.0" cy="150.0" r="9" fill="#1f5fa8" stroke="#111111" stroke-width="1.5"/>
+<circle cx="768.0" cy="150.0" r="9" fill="#1f5fa8" stroke="#111111" stroke-width="1.5"/>
+<circle cx="794.0" cy="150.0" r="9" fill="#1f5fa8" stroke="#111111" stroke-width="1.5"/>
+<text xml:space="preserve" x="816.0" y="156.0" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="20.0" font-weight="normal" fill="#c62828" text-anchor="middle">•</text>
+<rect x="820.0" y="186.0" width="18.0" height="18.0" rx="0" fill="#d9620f" stroke="#111111" stroke-width="1.5"/>
+<rect x="860.0" y="211.0" width="18.0" height="18.0" rx="0" fill="#d9620f" stroke="#111111" stroke-width="1.5"/>
+<rect x="900.0" y="186.0" width="18.0" height="18.0" rx="0" fill="#d9620f" stroke="#111111" stroke-width="1.5"/>
+<line x1="800.0" y1="165.0" x2="823.9" y2="184.9" stroke="#111111" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="830.0,190.0 820.5,186.9 825.2,181.2" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round"/>
+<text xml:space="preserve" x="747.0" y="270.0" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="13.0" font-weight="normal" fill="#555555" text-anchor="middle">chain end radical releases monomer one by one</text>
+<text xml:space="preserve" x="747.0" y="292.0" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="13.0" font-weight="normal" fill="#555555" text-anchor="middle">e.g. PMMA → MMA (≈ 100 %), PS → styrene, PTFE → TFE</text>
+<rect x="10.0" y="335.0" width="485.0" height="275.0" rx="8" fill="none" stroke="#bbbbbb" stroke-width="1.2"/>
+<text xml:space="preserve" x="252.0" y="361.0" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="15.0" font-weight="bold" fill="#111111" text-anchor="middle">3. Thermal oxidation (autoxidation cycle)</text>
+<rect x="200.0" y="384.0" width="104.0" height="32.0" rx="8" fill="#fbe6d4" stroke="#d9620f" stroke-width="1.6"/>
+<text xml:space="preserve" x="252.0" y="405.0" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="14.0" font-weight="normal" fill="#111111" text-anchor="middle">P•</text>
+<rect x="348.0" y="454.0" width="104.0" height="32.0" rx="8" fill="#fbe6d4" stroke="#d9620f" stroke-width="1.6"/>
+<text xml:space="preserve" x="400.0" y="475.0" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="14.0" font-weight="normal" fill="#111111" text-anchor="middle">POO•</text>
+<rect x="200.0" y="544.0" width="104.0" height="32.0" rx="8" fill="#fbe6d4" stroke="#d9620f" stroke-width="1.6"/>
+<text xml:space="preserve" x="252.0" y="565.0" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="14.0" font-weight="normal" fill="#111111" text-anchor="middle">POOH</text>
+<rect x="58.0" y="454.0" width="104.0" height="32.0" rx="8" fill="#fbe6d4" stroke="#d9620f" stroke-width="1.6"/>
+<text xml:space="preserve" x="110.0" y="475.0" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="14.0" font-weight="normal" fill="#111111" text-anchor="middle">PO• + •OH</text>
+<line x1="300.0" y1="412.0" x2="361.0" y2="446.1" stroke="#111111" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="368.0,450.0 358.1,448.7 361.7,442.2" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round"/>
+<text xml:space="preserve" x="372.0" y="420.0" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="13.0" font-weight="normal" fill="#555555" text-anchor="start">+ O</text>
+<text xml:space="preserve" x="393.3" y="422.9" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="9.1" font-weight="normal" fill="#555555" text-anchor="start">2</text>
+<line x1="380.0" y1="492.0" x2="306.8" y2="537.8" stroke="#111111" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="300.0,542.0 305.9,533.9 309.8,540.2" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round"/>
+<text xml:space="preserve" x="395.0" y="535.0" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="13.0" font-weight="normal" fill="#555555" text-anchor="start">+ PH</text>
+<line x1="205.0" y1="552.0" x2="136.4" y2="499.8" stroke="#111111" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="130.0,495.0 139.6,497.7 135.1,503.6" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round"/>
+<text xml:space="preserve" x="95.0" y="535.0" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="12.0" font-weight="normal" fill="#555555" text-anchor="start">heat / M</text>
+<text xml:space="preserve" x="138.4" y="530.4" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="8.4" font-weight="normal" fill="#555555" text-anchor="start">n+</text>
+<line x1="112.0" y1="448.0" x2="197.7" y2="408.4" stroke="#111111" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="205.0,405.0 198.1,412.3 195.0,405.5" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round"/>
+<text xml:space="preserve" x="95.0" y="410.0" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="12.0" font-weight="normal" fill="#555555" text-anchor="start">+ PH → P•</text>
+<text xml:space="preserve" x="252.0" y="475.0" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="12.0" font-weight="normal" fill="#555555" text-anchor="middle">chain scission,</text>
+<text xml:space="preserve" x="252.0" y="493.0" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="12.0" font-weight="normal" fill="#555555" text-anchor="middle">cross-linking,</text>
+<text xml:space="preserve" x="252.0" y="511.0" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="12.0" font-weight="normal" fill="#555555" text-anchor="middle">C=O (brittle, yellow)</text>
+<rect x="505.0" y="335.0" width="485.0" height="275.0" rx="8" fill="none" stroke="#bbbbbb" stroke-width="1.2"/>
+<text xml:space="preserve" x="747.0" y="361.0" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="15.0" font-weight="bold" fill="#111111" text-anchor="middle">4. Photo-oxidation (UV 290–400 nm)</text>
+<path d="M560,385 L590,405 L570,415 L605,445" fill="none" stroke="#d4a000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text xml:space="preserve" x="640.0" y="410.0" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="14.0" font-weight="bold" fill="#8a6d00" text-anchor="start">UV photon, hν</text>
+<rect x="560.0" y="455.0" width="160.0" height="34.0" rx="8" fill="#fbe0e0" stroke="#c62828" stroke-width="1.6"/>
+<text xml:space="preserve" x="640.0" y="477.0" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="12.0" font-weight="normal" fill="#111111" text-anchor="middle">chromophore C=O, ROOH</text>
+<line x1="720.0" y1="472.0" x2="762.0" y2="472.0" stroke="#111111" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="770.0,472.0 760.7,475.7 760.7,468.3" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round"/>
+<text xml:space="preserve" x="830.0" y="477.0" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="14.0" font-weight="bold" fill="#111111" text-anchor="middle">P• / PO• radicals</text>
+<line x1="830.0" y1="487.0" x2="830.0" y2="512.0" stroke="#111111" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="830.0,520.0 826.3,510.7 833.7,510.7" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round"/>
+<text xml:space="preserve" x="747.0" y="545.0" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="13.0" font-weight="normal" fill="#555555" text-anchor="middle">→ enters the autoxidation cycle (3)</text>
+<text xml:space="preserve" x="747.0" y="568.0" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="13.0" font-weight="normal" fill="#555555" text-anchor="middle">result: chain scission, yellowing, chalking, cracks</text>
+<text xml:space="preserve" x="747.0" y="590.0" font-family="Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="13.0" font-weight="normal" fill="#555555" text-anchor="middle">needs UV absorbers / HALS (not just antioxidants)</text>
+<metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTo3NzVmMzg4Zi1iYzg4LTRmZTQtOThjZC02OWVlODUzYjM2OWIAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaOkNMA2ZLcu79mh98yTUdk0AAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDoyMDU1Y2Y5Mi05ZmQ0LTRmOWEtYjQ0OS0zNmJkMDM3MTJjYmVscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoKWy8oq/ApTSxWOYf15C+VwAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFgg+bPHYnqIE1CgMR/A7RzhmU7nk/V2FjeZ0XVVmYvrJmmkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaAJYLYH+KNwxBd4B8OOittkAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIOIyDZDR+SF1h5LgyQwHAl+SRRkGdFxjz2elByJU/Sw2ZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GUeFZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjc3NWYzODhmLWJjODgtNGZlNC05OGNkLTY5ZWU4NTNiMzY5Yi9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOmM3YmNlMWU5LWQyNmYtNDM0Ni1hZTVhLThiMTYzODQzZDBkNXJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCD5s8dieogTUKAxH8DtHOGZTueT9XYWN5nRdVWZi+smaaJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFgg9Se4KROANhtFRWECdTSnKqsrdWGLFMzx3eflZDWTb6OiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggR8zy8DlCMei9YLtIhngU8jG8WW1C3D95DWTPvnGlFUZ0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQKd8UsNd6jfEmPTz0y1z9Y8G3reWhyCJUNFNcpkn0onluUAF+QAS0LoO6rwlKj2YXi9vY5RJEnqNTjNBxPlQi58=</c2pa:manifest></metadata></svg>
