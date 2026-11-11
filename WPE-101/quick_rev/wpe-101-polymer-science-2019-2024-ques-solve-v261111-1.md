@@ -4,7 +4,7 @@
 Final examinations 2019–2024 · 72 topic groups · 165 question appearances · 5 numericals
 
 > [!NOTE]
-> Every topic is answered once in a consolidated, exam-ready form. The years in which it appeared are kept so you can prioritise revision. All structures and graphs are SVG files stored in `../../assets/wpe-101/` (relative to this file), so they render directly on GitHub.
+> Every topic is answered once in a consolidated, exam-ready form. The years in which it appeared are kept so you can prioritise revision. All structures and graphs are SVG files stored in `../../assets/` (relative to this file), so they render directly on GitHub.
 
 ---
 
@@ -69,7 +69,7 @@ Final examinations 2019–2024 · 72 topic groups · 165 question appearances ·
 | **Monomer residue** | the part of the monomer that is built into the chain after reaction (the π bond is used up) | –CH₂–CH₂– |
 | **End group** | group at a chain terminus, fixed by the initiator and the termination step | R– (from initiator), –H |
 
-![Polymer formation: monomer, repeat unit, end groups](../../assets/wpe-101/f01_polymer_formation.svg)
+![Polymer formation: monomer, repeat unit, end groups](../../assets/f01_polymer_formation.svg)
 
 *Figure 1.1: n ethene → polyethylene. The bracketed part is the repeat unit.*
 
@@ -91,7 +91,7 @@ $$\overline{DP}_n \approx \frac{\overline{M}_n}{M_0}$$
 
 where $M_0$ is the molar mass of the repeat unit (end-group mass neglected for long chains).
 
-![Repeat units of PET, nylon 6,6 and nylon 6](../../assets/wpe-101/f02_textile_repeat_units.svg)
+![Repeat units of PET, nylon 6,6 and nylon 6](../../assets/f02_textile_repeat_units.svg)
 
 *Figure 1.2: Repeat units of the main textile polymers, with the characteristic link highlighted.*
 
@@ -114,7 +114,7 @@ where $M_0$ is the molar mass of the repeat unit (end-group mass neglected for l
 
 `🟠 HIGH` · 4/6 exams · 2024 · 2022 · 2020 · 2019
 
-![Linear, branched and cross-linked polymers](../../assets/wpe-101/f03_chain_architecture.svg)
+![Linear, branched and cross-linked polymers](../../assets/f03_chain_architecture.svg)
 
 *Figure 1.3: Chain architecture.*
 
@@ -188,7 +188,7 @@ See the sequence types in [1.11](#q1-11).
 * **Polystyrene** comes directly from styrene.
 * **Poly(vinyl alcohol)** cannot come from vinyl alcohol (unstable; it tautomerises to acetaldehyde). It is made by **hydrolysis of poly(vinyl acetate)**.
 
-![Polystyrene and PVA structures](../../assets/wpe-101/f53_ps_pva.svg)
+![Polystyrene and PVA structures](../../assets/f53_ps_pva.svg)
 
 *Figure 1.6: Styrene → PS; vinyl acetate → PVAc → PVA.*
 
@@ -216,7 +216,7 @@ The structures of the common vinyl polymers are drawn in [2.5](#q2-5).
 | Mechanical use | waxy, brittle, not useful as plastics/fibres | strong, tough, film/fibre forming |
 | Examples | PE wax, low-DP polyethylene glycol, resin pre-polymers | HDPE, PET, nylon, cellulose |
 
-![Oligomer vs polymer property plateau](../../assets/wpe-101/f23_oligomer_vs_polymer.svg)
+![Oligomer vs polymer property plateau](../../assets/f23_oligomer_vs_polymer.svg)
 
 *Figure 1.7: Property vs DP. There is **no universal DP cut-off**; the boundary is where the property stops depending on chain length.*
 
@@ -269,7 +269,7 @@ flowchart LR
 
 **Functionality (f)** is the number of reactive groups (bonding sites) on a monomer that can take part in polymer formation.
 
-![Monomer functionality](../../assets/wpe-101/f51_monomer_functionality.svg)
+![Monomer functionality](../../assets/f51_monomer_functionality.svg)
 
 *Figure 1.10: f = 2 gives linear chains, f = 1 stops growth, f ≥ 3 gives branching and networks.*
 
@@ -289,7 +289,7 @@ flowchart LR
 
 `⚪ ONCE` · 1/6 exams · 2019
 
-![Copolymer types](../../assets/wpe-101/f50_copolymer_architectures.svg)
+![Copolymer types](../../assets/f50_copolymer_architectures.svg)
 
 *Figure 1.11: Blue = monomer A, orange = monomer B.*
 
@@ -338,11 +338,11 @@ Methods to create sites on the backbone: chemical (redox, peroxide), radiation (
 * An **inhibitor** reacts rapidly with initiating / propagating radicals and forms stable, unreactive species. Polymerization is **completely suppressed** until the inhibitor is used up (**induction period**). Examples: hydroquinone, p-benzoquinone, BHT, dissolved oxygen.
 * A **retarder** is less efficient: it **slows** the reaction (lower rate) but does not stop it and gives no clear induction period. Examples: nitrobenzene, some phenols at low concentration.
 
-![Hydroquinone traps radicals and becomes benzoquinone](../../assets/wpe-101/f07_inhibitor_hydroquinone.svg)
+![Hydroquinone traps radicals and becomes benzoquinone](../../assets/f07_inhibitor_hydroquinone.svg)
 
 *Figure 2.1a: Hydroquinone scavenges radicals (H-atom transfer); the resulting semiquinone/quinone species cannot restart a chain.*
 
-![Kinetic effect of inhibitor and retarder](../../assets/wpe-101/f08_inhibitor_kinetics.svg)
+![Kinetic effect of inhibitor and retarder](../../assets/f08_inhibitor_kinetics.svg)
 
 *Figure 2.1b: Conversion vs time. Inhibitor → delay; retarder → slower slope.*
 
@@ -365,7 +365,7 @@ Methods to create sites on the backbone: chemical (redox, peroxide), radiation (
 
 Free-radical chain polymerization of vinyl monomers has **three steps**: initiation, propagation, termination (plus optional chain transfer). Example: **styrene**.
 
-![Free-radical polymerization of styrene](../../assets/wpe-101/f05_free_radical_mechanism.svg)
+![Free-radical polymerization of styrene](../../assets/f05_free_radical_mechanism.svg)
 
 *Figure 2.2: Initiation, propagation and the two termination modes.*
 
@@ -389,7 +389,7 @@ Free-radical chain polymerization of vinyl monomers has **three steps**: initiat
 
 An **initiator** is a compound that produces free radicals under heat, light or redox conditions and so starts chain polymerization.
 
-![Common initiators](../../assets/wpe-101/f06_initiators.svg)
+![Common initiators](../../assets/f06_initiators.svg)
 
 *Figure 2.3: BPO, AIBN, acetyl peroxide, lauroyl peroxide and potassium persulfate.*
 
@@ -415,7 +415,7 @@ A **Ziegler–Natta (ZN) catalyst** is a *coordination catalyst system*: a trans
 
 $$\mathrm{TiCl_4 + Al(C_2H_5)_3 \longrightarrow \text{active Ti–C}_2\mathrm{H_5\ sites\ (with\ a\ vacant\ site)}}$$
 
-![Coordination–insertion mechanism](../../assets/wpe-101/f09_ziegler_natta.svg)
+![Coordination–insertion mechanism](../../assets/f09_ziegler_natta.svg)
 
 *Figure 2.4: Cossee–Arlman mechanism. Alkene binds at the vacant site, then inserts into the Ti–C bond; the vacancy moves and the cycle repeats.*
 
@@ -434,7 +434,7 @@ $$\mathrm{TiCl_4 + Al(C_2H_5)_3 \longrightarrow \text{active Ti–C}_2\mathrm{H_
 
 Chain-growth monomers contain a C=C double bond (or a strained ring). The π bond is opened and each unit adds to the active chain end.
 
-![Common vinyl monomers and repeat units](../../assets/wpe-101/f04_vinyl_monomers.svg)
+![Common vinyl monomers and repeat units](../../assets/f04_vinyl_monomers.svg)
 
 *Figure 2.5: Monomer → polymer repeat unit for the seven standard vinyl monomers.*
 
@@ -479,7 +479,7 @@ flowchart LR
 
 **Tacticity** is the stereochemical arrangement of the pendant groups along the backbone of a vinyl polymer (e.g. –CH₃ in polypropylene).
 
-![Isotactic, syndiotactic and atactic polypropylene](../../assets/wpe-101/f11_tacticity.svg)
+![Isotactic, syndiotactic and atactic polypropylene](../../assets/f11_tacticity.svg)
 
 *Figure 2.7: Zig-zag backbone; solid wedge = group above the plane, hashed wedge = group below the plane.*
 
@@ -509,7 +509,7 @@ $$\mathrm{H_2N{-}R{-}NH_2 + HOOC{-}R'{-}COOH \longrightarrow [\,{-}NH{-}R{-}NH{-
 
 $$\mathrm{H_2N{-}(CH_2)_5{-}COOH \longrightarrow [\,{-}NH{-}(CH_2)_5{-}CO{-}\,]_n + (n-1)\,H_2O}$$
 
-![AA-BB polycondensation to nylon 6,6](../../assets/wpe-101/f12_nylon66_synthesis.svg)
+![AA-BB polycondensation to nylon 6,6](../../assets/f12_nylon66_synthesis.svg)
 
 *Figure 3.1: AA–BB example (HMDA + adipic acid). The amide link is highlighted.*
 
@@ -537,7 +537,7 @@ $$\mathrm{H_2N{-}(CH_2)_5{-}COOH \longrightarrow [\,{-}NH{-}(CH_2)_5{-}CO{-}\,]_
 * $\overline{DP}_n$ rises slowly then sharply near the end ([Figure 3.7](#q3-7)).
 * No initiator needed (catalyst only); reaction rate is the same for each functional group, independent of chain length.
 
-![Step growth schematic](../../assets/wpe-101/f16_step_growth_schematic.svg)
+![Step growth schematic](../../assets/f16_step_growth_schematic.svg)
 
 *Figure 3.2: Sixteen monomers: only at p = 0.9375 do they become one chain of DP 16.*
 
@@ -566,7 +566,7 @@ $$\mathrm{H_2N{-}(CH_2)_5{-}COOH \longrightarrow [\,{-}NH{-}(CH_2)_5{-}CO{-}\,]_
 | Chain length control | initiator, CTA, temperature | conversion, stoichiometry |
 | Examples | PE, PS, PVC, PAN | PET, nylon 6,6, polyurethane |
 
-![DP vs conversion for chain and step growth](../../assets/wpe-101/f14_chain_vs_step.svg)
+![DP vs conversion for chain and step growth](../../assets/f14_chain_vs_step.svg)
 
 *Figure 3.3: (a) DP vs conversion; (b) monomer consumption.*
 
@@ -579,7 +579,7 @@ $$\mathrm{H_2N{-}(CH_2)_5{-}COOH \longrightarrow [\,{-}NH{-}(CH_2)_5{-}CO{-}\,]_
 
 **ROP** converts cyclic monomers into linear polymers by opening the ring. It is driven by **ring strain** (relief of angle / torsional strain) and can be ionic, coordination-insertion or hydrolytic. No small molecule is lost, so the repeat unit has the same composition as the monomer.
 
-![Caprolactam to nylon 6](../../assets/wpe-101/f13_nylon6_rop.svg)
+![Caprolactam to nylon 6](../../assets/f13_nylon6_rop.svg)
 
 *Figure 3.4: ε-Caprolactam → nylon 6 (hydrolytic ROP: a little water opens the first rings to give amino-acid chain ends; polymerization then proceeds at 250–270 °C).*
 
@@ -632,7 +632,7 @@ $$\mathrm{HOOC{-}R{-}COOH + HO{-}R'{-}OH \rightleftharpoons HOOC{-}R{-}COO{-}R'{
 | Examples | PET, nylon 6,6, phenol-formaldehyde | polyurethane, epoxy cure |
 | Typical reaction | acid + alcohol/amine | isocyanate + alcohol |
 
-![Polyurethane by polyaddition](../../assets/wpe-101/f17_polyurethane_polyaddition.svg)
+![Polyurethane by polyaddition](../../assets/f17_polyurethane_polyaddition.svg)
 
 *Figure 3.6: Diisocyanate + diol → polyurethane. A hydrogen moves from OH to N; nothing is eliminated.*
 
@@ -654,7 +654,7 @@ $$\overline{X}_n=\frac{N_0}{N}=\frac{1}{1-p}\qquad(\text{balanced A–A + B–B,
 |---|---|---|---|---|---|
 | $\overline{X}_n$ | 2 | 10 | 20 | 100 | 1000 |
 
-![Carothers equation](../../assets/wpe-101/f15_carothers.svg)
+![Carothers equation](../../assets/f15_carothers.svg)
 
 *Figure 3.7: A tiny increase in p near 1 gives a huge DP. Imbalance (r < 1) caps the DP.*
 
@@ -681,7 +681,7 @@ $$\mathrm{PDI}=\mathit{Đ}=\frac{\overline{M}_w}{\overline{M}_n}\;\ge 1$$
 
 PDI is dimensionless; PDI = 1 only for a perfectly uniform sample. IUPAC now prefers the term *dispersity*, symbol Đ.
 
-![Mn, Mv, Mw, Mz on a distribution; narrow vs broad](../../assets/wpe-101/f18_mwd_averages.svg)
+![Mn, Mv, Mw, Mz on a distribution; narrow vs broad](../../assets/f18_mwd_averages.svg)
 
 *Figure 4.1: (a) the averages always follow Mn < Mv < Mw < Mz; (b) narrow and broad distributions with the same Mn.*
 
@@ -704,7 +704,7 @@ PDI is dimensionless; PDI = 1 only for a perfectly uniform sample. IUPAC now pre
 
 `🟠 HIGH` · 4/6 exams · 2024 · 2022 · 2021 · 2020
 
-![Methods and the averages they measure](../../assets/wpe-101/f22_mw_methods.svg)
+![Methods and the averages they measure](../../assets/f22_mw_methods.svg)
 
 *Figure 4.2: Each method measures a different average. Working ranges are approximate.*
 
@@ -801,7 +801,7 @@ Note: for nylon 6,6 the repeat unit contains **two** monomer residues, so the nu
 
 `🟠 HIGH` · 3/6 exams · 2021 · 2020 · 2019
 
-![Strength and viscosity versus molar mass](../../assets/wpe-101/f21_properties_vs_molar_mass.svg)
+![Strength and viscosity versus molar mass](../../assets/f21_properties_vs_molar_mass.svg)
 
 *Figure 4.7: Strength levels off above a certain M; melt viscosity rises as M^3.4 above the critical entanglement mass.*
 
@@ -834,7 +834,7 @@ $$\overline{M}_n<\overline{M}_v<\overline{M}_w<\overline{M}_z$$
 
 For the sample drawn: $\overline{M}_n=40$, $\overline{M}_w\approx 57$, $\overline{M}_z\approx 82$ kg/mol, giving PDI ≈ 1.43. The peak (mode) lies to the left of $\overline{M}_w$ because the curve has a high-mass tail.
 
-![MWD figure reused for 4.8](../../assets/wpe-101/f18_mwd_averages.svg)
+![MWD figure reused for 4.8](../../assets/f18_mwd_averages.svg)
 
 > [!TIP]
 > In the exam draw a skewed bell curve, label axes ("molar mass M", "weight fraction"), and put **Mn leftmost, then Mv, Mw, Mz**.
@@ -848,7 +848,7 @@ For the sample drawn: $\overline{M}_n=40$, $\overline{M}_w\approx 57$, $\overlin
 
 `🟠 HIGH` · 4/6 exams · 2024 · 2022 · 2021 · 2020
 
-![Bulk and emulsion polymerization](../../assets/wpe-101/f24_bulk_vs_emulsion.svg)
+![Bulk and emulsion polymerization](../../assets/f24_bulk_vs_emulsion.svg)
 
 *Figure 5.1: Bulk (monomer + initiator only) vs emulsion (monomer droplets, micelles, water).*
 
@@ -879,7 +879,7 @@ For the sample drawn: $\overline{M}_n=40$, $\overline{M}_w\approx 57$, $\overlin
 
 **Gas-phase polymerization.** Gaseous monomer (ethene, propene) contacts a solid supported catalyst (ZN or metallocene) in a **fluidised-bed** reactor; polymer grows as particles around the catalyst.
 
-![Fluidised-bed gas-phase reactor](../../assets/wpe-101/f25_gas_phase_reactor.svg)
+![Fluidised-bed gas-phase reactor](../../assets/f25_gas_phase_reactor.svg)
 
 *Figure 5.2: Recycle gas fluidises the bed and removes the heat of polymerization.*
 
@@ -980,7 +980,7 @@ flowchart LR
 
 Polymers react with oxygen by a **radical chain (auto-oxidation)** that is accelerated by heat, light and metal ions. **Antioxidants** interrupt this chain.
 
-![Auto-oxidation cycle and antioxidant action](../../assets/wpe-101/f29_autoxidation_cycle.svg)
+![Auto-oxidation cycle and antioxidant action](../../assets/f29_autoxidation_cycle.svg)
 
 *Figure 6.1a: Primary antioxidants intercept POO•; secondary antioxidants destroy POOH.*
 
@@ -990,7 +990,7 @@ $$\text{Primary (chain-breaking):}\ \ \mathrm{POO^{\bullet}+ArOH\rightarrow POOH
 
 $$\text{Secondary (peroxide decomposer):}\ \ \mathrm{POOH+P(OR)_3\rightarrow POH+O{=}P(OR)_3}$$
 
-![Antioxidant structures](../../assets/wpe-101/f30_antioxidants.svg)
+![Antioxidant structures](../../assets/f30_antioxidants.svg)
 
 *Figure 6.1b: Hindered phenols (BHT, BHA, propyl gallate) donate their phenolic H; the aryloxy radical is stabilised by resonance and the bulky tert-butyl groups.*
 
@@ -1045,7 +1045,7 @@ flowchart TD
 
 `🟡 MEDIUM` · 2/6 exams · 2022 · 2019
 
-![Random scission vs unzipping](../../assets/wpe-101/f49_degradation_modes.svg)
+![Random scission vs unzipping](../../assets/f49_degradation_modes.svg)
 
 *Figure 6.4: Random scission cuts anywhere in the chain; unzipping removes units successively from the end.*
 
@@ -1065,7 +1065,7 @@ flowchart TD
 
 UV light (290–400 nm) has enough energy to break C–C and C–H bonds and starts photo-oxidation (yellowing, cracking). **Light stabilisers** protect the polymer.
 
-![UV absorbers and HALS](../../assets/wpe-101/f31_photostabilizers.svg)
+![UV absorbers and HALS](../../assets/f31_photostabilizers.svg)
 
 *Figure 6.5: Benzotriazole and benzophenone UV absorbers, and a HALS.*
 
@@ -1098,11 +1098,11 @@ Examples: yellowing and embrittlement of PP ropes in sunlight; HCl loss from PVC
 
 **Definition.** The glass-transition temperature **Tg** is the temperature (range) at which the **amorphous regions** of a polymer change on heating from a hard, glassy state to a soft, rubbery state because long-range segmental motion of chains (about 20–50 atoms) becomes possible. It is a *kinetic*, second-order-like transition, **not** a melting point.
 
-![Specific volume against temperature](../../assets/wpe-101/f34_specific_volume_tg_tm.svg)
+![Specific volume against temperature](../../assets/f34_specific_volume_tg_tm.svg)
 
 *Figure 7.1a: At Tg the slope of specific volume vs T changes; at Tm there is a first-order jump.*
 
-![Modulus against temperature](../../assets/wpe-101/f35_modulus_vs_temperature.svg)
+![Modulus against temperature](../../assets/f35_modulus_vs_temperature.svg)
 
 *Figure 7.1b: Modulus drops by about 3 orders of magnitude through Tg.*
 
@@ -1129,7 +1129,7 @@ Examples: yellowing and embrittlement of PP ropes in sunlight; HCl loss from PVC
 * **Crystallinity:** the fraction of a polymer in which chains (or segments) are packed in a regular, repeating 3-D order (lamellae, folded chains). No polymer is 100 % crystalline; they are **semicrystalline**.
 * **Amorphousness:** random, coil-like arrangement without long-range order.
 
-![Amorphous vs semicrystalline](../../assets/wpe-101/f32_amorphous_vs_semicrystalline.svg)
+![Amorphous vs semicrystalline](../../assets/f32_amorphous_vs_semicrystalline.svg)
 
 *Figure 7.2: Random coils (left); crystalline lamellae joined by tie molecules and amorphous layers (right).*
 
@@ -1168,7 +1168,7 @@ Orientation is explained in [7.10](#q7-10).
 | Hydrogen bond | 12–30 kJ/mol | nylon (N–H···O=C), cellulose (O–H···O), proteins |
 | Ionic / ion–dipole | strongest | ionomers, wool / acid dye sites |
 
-![Hydrogen bonding in nylon](../../assets/wpe-101/f37_hydrogen_bonding_nylon.svg)
+![Hydrogen bonding in nylon](../../assets/f37_hydrogen_bonding_nylon.svg)
 
 *Figure 7.4: Hydrogen bonds between neighbouring nylon chains act like physical cross-links.*
 
@@ -1215,7 +1215,7 @@ $$X_c(\%)=\frac{\Delta H_m-\Delta H_{cc}}{\Delta H_m^{\circ}}\times100\ \ (\text
 * **Tg** relates to the *amorphous* phase; **Tm** to the *crystalline* phase. A semicrystalline polymer shows both, and **Tg < Tm**.
 * Empirical rule (absolute temperature): $T_g \approx \tfrac{1}{2}\,T_m$ for symmetric polymers (e.g. PE, PET) and $\approx \tfrac{2}{3}\,T_m$ for unsymmetrical ones (PS, PVC, PMMA). It is only an approximate rule.
 
-![Tg and Tm values for five polymers](../../assets/wpe-101/f55_tg_tm_values.svg)
+![Tg and Tm values for five polymers](../../assets/f55_tg_tm_values.svg)
 
 *Figure 7.6: Tg and Tm for five polymers; in every case Tg < Tm.*
 
@@ -1232,7 +1232,7 @@ Graphs for the exam: specific volume vs T ([Figure 7.1a](#q7-1)) and modulus vs 
 
 The **fringed-micelle model** (Hermann, Gerngross; 1930s) describes a semicrystalline polymer as small crystalline regions (**micelles**, ≈ 10 nm) embedded in an amorphous matrix. A single long chain passes through several crystallites and the amorphous regions between them. The chain ends and disordered segments protrude as "fringes".
 
-![Fringed-micelle model](../../assets/wpe-101/f33_fringed_micelle.svg)
+![Fringed-micelle model](../../assets/f33_fringed_micelle.svg)
 
 *Figure 7.7: Crystallites (green) joined by tie chains through the amorphous matrix.*
 
@@ -1290,7 +1290,7 @@ See the bar chart in [7.6](#q7-6). Polystyrene (atactic): Tg ≈ 100 °C, **no T
 
 **Orientation** is the alignment of polymer chains (and crystallites) along a preferred direction, produced by **drawing** (cold or hot) a spun fibre or film. It raises tenacity and modulus in the draw direction, lowers elongation, increases crystallinity and makes the fibre **anisotropic**.
 
-![Undrawn and drawn fibre](../../assets/wpe-101/f38_orientation.svg)
+![Undrawn and drawn fibre](../../assets/f38_orientation.svg)
 
 *Figure 7.10: Drawing above Tg aligns coils along the fibre axis.*
 
@@ -1313,7 +1313,7 @@ See the bar chart in [7.6](#q7-6). Polystyrene (atactic): Tg ≈ 100 °C, **no T
 3. Plot heat flow against temperature.
 4. At **Tg** the heat capacity increases, giving a **step (baseline shift)**. Tg is the midpoint or onset of the step.
 
-![DSC thermogram](../../assets/wpe-101/f36_dsc_thermogram.svg)
+![DSC thermogram](../../assets/f36_dsc_thermogram.svg)
 
 *Figure 7.11: Tg is a step; cold crystallization is an exotherm; melting is an endotherm.*
 
@@ -1332,7 +1332,7 @@ See the bar chart in [7.6](#q7-6). Polystyrene (atactic): Tg ≈ 100 °C, **no T
 
 A **plasticizer** is a low-molar-mass, low-volatility liquid (or solid) added to a polymer to make it **softer and more flexible and easier to process**. It sits between chains, reduces the intermolecular forces and increases free volume, so Tg, modulus and melt viscosity fall.
 
-![DBP plasticizer and its action](../../assets/wpe-101/f40_plasticizer.svg)
+![DBP plasticizer and its action](../../assets/f40_plasticizer.svg)
 
 *Figure 7.12: Dibutyl phthalate (DBP) as an example; DOP (DEHP) is the standard for PVC.*
 
@@ -1359,7 +1359,7 @@ A **plasticizer** is a low-molar-mass, low-volatility liquid (or solid) added to
 
 Nylon 6,6 is a linear **polyamide** made by AA–BB polycondensation of **hexamethylenediamine (HMDA, 6 C)** and **adipic acid (6 C)**: hence "6,6".
 
-![Nylon 6,6 synthesis](../../assets/wpe-101/f12_nylon66_synthesis.svg)
+![Nylon 6,6 synthesis](../../assets/f12_nylon66_synthesis.svg)
 
 *Figure 8.1: HMDA + adipic acid → nylon 6,6 + water.*
 
@@ -1386,7 +1386,7 @@ flowchart LR
 
 `🟠 HIGH` · 3/6 exams · 2024 · 2023 · 2021
 
-![PET synthesis](../../assets/wpe-101/f43_pet_synthesis.svg)
+![PET synthesis](../../assets/f43_pet_synthesis.svg)
 
 *Figure 8.2a: Esterification of terephthalic acid (TPA) with ethylene glycol (EG) to BHET, then melt polycondensation to PET.*
 
@@ -1394,7 +1394,7 @@ $$\mathrm{TPA + 2\,EG \xrightarrow{200-250\,^\circ C} BHET + 2\,H_2O}\qquad n\,\
 
 (Older route: dimethyl terephthalate DMT + EG → BHET + CH₃OH, then polycondensation.)
 
-![Melt spinning of polyester fibre and recycled-PET route](../../assets/wpe-101/f44_melt_spinning.svg)
+![Melt spinning of polyester fibre and recycled-PET route](../../assets/f44_melt_spinning.svg)
 
 *Figure 8.2b: Virgin chips or recycled flakes → melt spinning → drawing → heat-setting.*
 
@@ -1424,7 +1424,7 @@ flowchart LR
 
 LCPs contain rigid rod-like **mesogenic** groups that form an ordered, yet flowing, **mesophase** between crystal and isotropic liquid.
 
-![LCP structures and phases](../../assets/wpe-101/f45_lcp_structures_phases.svg)
+![LCP structures and phases](../../assets/f45_lcp_structures_phases.svg)
 
 *Figure 8.3: PPTA, Vectra-type HBA / HNA copolyester and the phase sequence.*
 
@@ -1514,7 +1514,7 @@ flowchart LR
 
 `🟡 MEDIUM` · 2/6 exams · 2023 · 2022
 
-![UF and MF resin chemistry](../../assets/wpe-101/f46_amino_resins.svg)
+![UF and MF resin chemistry](../../assets/f46_amino_resins.svg)
 
 *Figure 8.7: Methylolation (alkaline, ≈ 40–60 °C) followed by acid-catalysed condensation and cross-linking.*
 
@@ -1535,11 +1535,11 @@ flowchart LR
 
 `🟡 MEDIUM` · 2/6 exams · 2024 · 2019
 
-![Repeat units of PET, nylon 6,6 and nylon 6](../../assets/wpe-101/f02_textile_repeat_units.svg)
+![Repeat units of PET, nylon 6,6 and nylon 6](../../assets/f02_textile_repeat_units.svg)
 
 *Figure 8.8a: PET (polyester), nylon 6,6 and nylon 6.*
 
-![Polyethylene and other vinyl repeat units](../../assets/wpe-101/f04_vinyl_monomers.svg)
+![Polyethylene and other vinyl repeat units](../../assets/f04_vinyl_monomers.svg)
 
 *Figure 8.8b: Polyethylene (first panel) with the other vinyl polymers.*
 
@@ -1591,7 +1591,7 @@ $$\overline{M}_n=\frac{\sum n_iM_i}{\sum n_i}\qquad\overline{M}_w=\frac{\sum n_i
 
 Set up a table with columns **nᵢ, Mᵢ, nᵢMᵢ, nᵢMᵢ²**, add the columns, then substitute.
 
-![Distributions of the three numerical problems](../../assets/wpe-101/f20_numericals_distributions.svg)
+![Distributions of the three numerical problems](../../assets/f20_numericals_distributions.svg)
 
 *Figure 9: Bar charts of the data in 9.1–9.3 with Mn (green) and Mw (red).*
 
@@ -1676,7 +1676,7 @@ $$\Delta\mathrm{DP}=5000-500=4500\qquad\text{reduction}=\frac{4500}{5000}\times1
 
 In terms of molar mass ($M_0 = 162$): 5000 × 162 ≈ 8.1 × 10⁵ g/mol → 500 × 162 ≈ 8.1 × 10⁴ g/mol.
 
-![Cellulose and DP reduction](../../assets/wpe-101/f47_cellulose_dp.svg)
+![Cellulose and DP reduction](../../assets/f47_cellulose_dp.svg)
 
 *Figure 9.5: Cellulose repeat unit and the ten-fold chain shortening on regeneration (viscose / lyocell).*
 
@@ -1825,7 +1825,7 @@ $R_p\propto[I]^{1/2}$ and the kinetic chain length $\nu\propto[I]^{-1/2}$: more 
 
 ## Figure index
 
-All files are in `../../assets/wpe-101/` (SVG).
+All files are in `../../assets/` (SVG).
 
 | File | Used in |
 |---|---|
