@@ -4,7 +4,7 @@
 Final examinations 2019–2024 · 72 topic groups · 165 question appearances · 5 numericals
 
 > [!NOTE]
-> Every topic is answered once in a consolidated, exam-ready form. The years in which it appeared are kept so you can prioritise revision. All structures and graphs are SVG files stored in `../../assets/` (relative to this file), so they render directly on GitHub.
+> Every topic is answered once in a consolidated, exam-ready form. The years in which it appeared are kept so you can prioritise revision.
 
 ---
 
@@ -1822,56 +1822,5 @@ $R_p\propto[I]^{1/2}$ and the kinetic chain length $\nu\propto[I]^{-1/2}$: more 
 * Thermal values and DP values are typical teaching ranges and depend on grade, moisture and test method.
 
 ---
-
-## Figure index
-
-All files are in `../../assets/` (SVG).
-
-| File | Used in |
-|---|---|
-| `f01_polymer_formation.svg` | 1.1 |
-| `f02_textile_repeat_units.svg` | 1.2, 8.8 |
-| `f03_chain_architecture.svg` | 1.3 |
-| `f04_vinyl_monomers.svg` | 2.5, 8.8 |
-| `f05_free_radical_mechanism.svg` | 2.2 |
-| `f06_initiators.svg` | 2.3 |
-| `f07_inhibitor_hydroquinone.svg` | 2.1 |
-| `f08_inhibitor_kinetics.svg` | 2.1 |
-| `f09_ziegler_natta.svg` | 2.4 |
-| `f11_tacticity.svg` | 2.7 |
-| `f12_nylon66_synthesis.svg` | 3.1, 8.1 |
-| `f13_nylon6_rop.svg` | 3.4 |
-| `f14_chain_vs_step.svg` | 3.3 |
-| `f15_carothers.svg` | 3.7 |
-| `f16_step_growth_schematic.svg` | 3.2 |
-| `f17_polyurethane_polyaddition.svg` | 3.6 |
-| `f18_mwd_averages.svg` | 4.1, 4.8 |
-| `f20_numericals_distributions.svg` | Chapter 9 |
-| `f21_properties_vs_molar_mass.svg` | 4.7 |
-| `f22_mw_methods.svg` | 4.2 |
-| `f23_oligomer_vs_polymer.svg` | 1.7 |
-| `f24_bulk_vs_emulsion.svg` | 5.1 |
-| `f25_gas_phase_reactor.svg` | 5.2 |
-| `f29_autoxidation_cycle.svg` | 6.1 |
-| `f30_antioxidants.svg` | 6.1 |
-| `f31_photostabilizers.svg` | 6.5 |
-| `f32_amorphous_vs_semicrystalline.svg` | 7.2 |
-| `f33_fringed_micelle.svg` | 7.7 |
-| `f34_specific_volume_tg_tm.svg` | 7.1 |
-| `f35_modulus_vs_temperature.svg` | 7.1 |
-| `f36_dsc_thermogram.svg` | 7.11 |
-| `f37_hydrogen_bonding_nylon.svg` | 7.4 |
-| `f38_orientation.svg` | 7.10 |
-| `f40_plasticizer.svg` | 7.12 |
-| `f43_pet_synthesis.svg` | 8.2 |
-| `f44_melt_spinning.svg` | 8.2 |
-| `f45_lcp_structures_phases.svg` | 8.3 |
-| `f46_amino_resins.svg` | 8.7 |
-| `f47_cellulose_dp.svg` | 9.5 |
-| `f49_degradation_modes.svg` | 6.4 |
-| `f50_copolymer_architectures.svg` | 1.11 |
-| `f51_monomer_functionality.svg` | 1.10 |
-| `f53_ps_pva.svg` | 1.6 |
-| `f55_tg_tm_values.svg` | 7.6 |
 
 *End of file. Good luck in WPE 101.*
