@@ -1813,14 +1813,4 @@ $R_p\propto[I]^{1/2}$ and the kinetic chain length $\nu\propto[I]^{-1/2}$: more 
 
 ---
 
-## Corrections and notes on the source bank
-
-* **File name:** the naming pattern you gave uses `wpe-103`, but the uploaded bank is **WPE 101**, so this file is `wpe-101-polymer-science-2019-2024-ques-solve-v261111-1.md`. Rename it if you want the other code.
-* **Numerical 9.1:** exact PDI = 1.2804 (the source bank prints 1.2801).
-* **Nylon 6,6:** the by-product is (2n – 1) H₂O for a chain of n repeat units.
-* **9.4:** NaOH titrates acidic ends; the problem is solved exactly as stated, with f = 2.
-* Thermal values and DP values are typical teaching ranges and depend on grade, moisture and test method.
-
----
-
 *End of file. Good luck in WPE 101.*
